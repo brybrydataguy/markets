@@ -1,0 +1,529 @@
+{
+  "article_id": "034",
+  "title": "Portfolio Pruning",
+  "date": "2020-09-20",
+  "source_url": "https://www.lynalden.com/premium-2020-9-20/",
+  "read_complete": true,
+  "summary": "Portfolio simplification and a defined Tesla short.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "Carnival faces permanent impairment",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        5
+      ],
+      "family": "carnival-capital-impairment",
+      "asset_or_variable": "CCL",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Later losses and equity issuance substantiate impairment risk. This retrospectively reports a prior sale; its timing and realized replacement gains require private transaction records.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1125259/000081509721000027/ccl-20201130.htm",
+          "title": "Fiscal 2020 Form 10-K",
+          "publisher": "Carnival / SEC",
+          "date": "2021-01-26",
+          "verified": true,
+          "finding": "FY 2020 net loss was $10.236 billion, versus $2.990 billion profit in 2019. Weighted average shares rose from 690 million to 775 million. Dividend stopped after first quarter; financing restricted future payments."
+        }
+      ],
+      "next_check": null,
+      "id": "034-C01"
+    },
+    {
+      "claim": "Oneok faces permanent impairment",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        5
+      ],
+      "family": "oneok-capital-impairment",
+      "asset_or_variable": "OKE",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The concern was grounded in actual asset impairments, but a permanent loss of the company-wide earnings franchise is too strong: 2020 adjusted EBITDA rose despite the write-downs. OKE then returned 212.07% and 267.91% in the three- and five-year sensitivities from this report. Accounting impairment and durable shareholder impairment are different propositions.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.oneok.com/news-and-events/press-releases/2021/02-22-2021-211628375",
+          "title": "ONEOK full-year 2020 results",
+          "publisher": "ONEOK",
+          "date": "2021-02-22",
+          "verified": true,
+          "finding": "2020 included $644.9 million noncash impairments. Adjusted EBITDA nevertheless rose 6% to $2.724 billion; dividend coverage declined to 1.17 from 1.38."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/OKE/history/",
+          "title": "OKE historical price sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "3-year comparison 2020-09-21 to 2023-09-20: OKE +212.07% cumulative, 46.22% annualized; SPY +40.28% cumulative. 5-year comparison 2020-09-21 to 2025-09-19: OKE +267.91% cumulative, 29.80% annualized; SPY +117.73% cumulative. First common close strictly after publication, last common close on/before anniversary. USD vendor-adjusted-close proxies include vendor dividend/split adjustments; no fees, taxes or actual subscriber trades. These are evaluator-defined sensitivities unless the claim explicitly names the horizon."
+        }
+      ],
+      "next_check": null,
+      "id": "034-C02",
+      "test_specification": {
+        "window_type": "evaluator-defined sensitivity",
+        "returns": {
+          "OKE": {
+            "3": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-09-20",
+              "requested_endpoint": "2023-09-20",
+              "entry": "2020-09-21",
+              "exit": "2023-09-20",
+              "days": 1094,
+              "endpoint_gap_days": 0,
+              "endpoint_covered": true,
+              "instruments": {
+                "OKE": {
+                  "entry_adjusted_close": 18.242887496948242,
+                  "exit_adjusted_close": 56.929969787597656,
+                  "cumulative_return_pct": 212.06666048409923,
+                  "annualized_return_pct": 46.221980820521715,
+                  "source": "https://finance.yahoo.com/quote/OKE/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 301.5677795410156,
+                  "exit_adjusted_close": 423.0252990722656,
+                  "cumulative_return_pct": 40.27536354053063,
+                  "annualized_return_pct": 11.962393247162485,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 171.7912969435686
+            },
+            "5": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-09-20",
+              "requested_endpoint": "2025-09-20",
+              "entry": "2020-09-21",
+              "exit": "2025-09-19",
+              "days": 1824,
+              "endpoint_gap_days": 1,
+              "endpoint_covered": true,
+              "instruments": {
+                "OKE": {
+                  "entry_adjusted_close": 18.242887496948242,
+                  "exit_adjusted_close": 67.11790466308594,
+                  "cumulative_return_pct": 267.91272584624414,
+                  "annualized_return_pct": 29.8041379209816,
+                  "source": "https://finance.yahoo.com/quote/OKE/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 301.5677795410156,
+                  "exit_adjusted_close": 656.6160278320312,
+                  "cumulative_return_pct": 117.73414548178751,
+                  "annualized_return_pct": 16.860752434835025,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 150.17858036445665
+            }
+          }
+        }
+      }
+    },
+    {
+      "claim": "Regional funds preserve geographic exposure",
+      "kind": "explanation",
+      "source_blocks": [
+        11,
+        14,
+        15,
+        16,
+        17,
+        54
+      ],
+      "family": "regional-etf-consolidation",
+      "asset_or_variable": "International ETFs",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Overlap can reduce administrative complexity, but market-cap regional weights change country and sector exposures and may omit former single-country positions. Need dated constituent look-through and weights; equivalent ticker counts are not equivalent risk.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare pre/post country-sector weights and concentration including individual stocks.",
+      "id": "034-C03"
+    },
+    {
+      "claim": "e Bay improves value versus DG",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        28,
+        31,
+        34,
+        37,
+        38
+      ],
+      "family": "ebay-versus-dollar-general",
+      "asset_or_variable": "EBAY DG",
+      "horizon": "long run",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "In the disclosed evaluator-defined five-year sensitivity, EBAY gained 98.21% while DG lost 45.97%. This supports the relative selection over that window, but the author explicitly did not promise short-term outperformance and supplied no fixed long-run endpoint. It is not an actual model-portfolio P&L.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: long run",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/DG/history/",
+          "title": "EBAY/DG paired five-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "September 21, 2020-September 19, 2025: EBAY adjusted-close+98.21%, DG-45.97%; USD, vendor dividend/split proxy, no fees/taxes. Entry is next trading close; endpoint evaluator-defined."
+        }
+      ],
+      "next_check": null,
+      "id": "034-C04"
+    },
+    {
+      "claim": "Alibaba improves growth/value mix",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        40,
+        44
+      ],
+      "family": "baba-growth-value",
+      "asset_or_variable": "BABA",
+      "horizon": "multi-year",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The five-year sensitivity lost 37.39% while SPY more than doubled, strong adverse evidence for the allocation. The original endpoint and replaced-stock weights were unspecified, so this does not calculate the private swap's P&L.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: multi-year",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BABA/history/",
+          "title": "BABA five-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "September 21, 2020-September 19, 2025 vendor adjusted-close proxy -37.39%, SPY+117.73%. Evaluator-defined five-year period; USDADR, no fees/taxes."
+        }
+      ],
+      "next_check": null,
+      "id": "034-C05"
+    },
+    {
+      "claim": "JD improves growth/value mix",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        40,
+        44
+      ],
+      "family": "jd-growth-value",
+      "asset_or_variable": "JD",
+      "horizon": "multi-year",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The five-year sensitivity lost 48.51%, materially challenging the thesis. Preserve this independently from Alibaba because the businesses and return paths differ.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: multi-year",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/JD/history/",
+          "title": "JD five-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "September 21, 2020-September 19, 2025 vendor adjusted-close proxy -48.51%, SPY+117.73%. Evaluator-defined five-year period; USDADR, no fees/taxes."
+        }
+      ],
+      "next_check": null,
+      "id": "034-C06"
+    },
+    {
+      "claim": "Facebook improves growth/value mix",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        40,
+        44
+      ],
+      "family": "meta-growth-value",
+      "asset_or_variable": "FB META",
+      "horizon": "multi-year",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The five-year sensitivity gained 215.39%, ahead of SPY. This supports the directional selection over that disclosed window, not a formal risk-adjusted comparison against the exact basket sold.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: multi-year",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/META/history/",
+          "title": "Facebook/Meta five-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "September 21, 2020-September 19, 2025 vendor adjusted-close proxy +215.39%, SPY+117.73%. Evaluator-defined five-year period; ticker FB became META, no fees/taxes."
+        }
+      ],
+      "next_check": null,
+      "id": "034-C07"
+    },
+    {
+      "claim": "Adobe and Pay Pal become pricey",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        41,
+        44
+      ],
+      "family": "growth-multiple-sale",
+      "asset_or_variable": "ADBE PYPL",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No fair-value thresholds or buyback timing rules are supplied. The subsequent replacements have sharply different outcomes, so a shared expensive label does not establish the net selection effect.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "034-C08"
+    },
+    {
+      "claim": "Income replacements increase portfolio yield",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        47,
+        48,
+        49
+      ],
+      "family": "income-portfolio-rebalance",
+      "asset_or_variable": "EBAY NVS BTI AMGN BLK",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "This is an immediate cash-yield claim that needs exact weights and ex-dividend information. Higher indicated yield is distinct from higher realized income, dividend growth and total return.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconstruct pre/post holdings weights and gross/net forward yield at September 21, 2020.",
+      "id": "034-C09"
+    },
+    {
+      "claim": "Fiscal uncertainty warrants defensive posture",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        57,
+        59,
+        61,
+        62
+      ],
+      "family": "fiscal-technical-defense",
+      "asset_or_variable": "US equities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Weakness continued briefly but the index recovered before the major December fiscal deal. This supports risk awareness while challenging any strict rule to wait for enacted stimulus; actual defensive allocation results need a full trade path.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/SP500",
+          "title": "Autumn 2020 correction",
+          "publisher": "S&P Dow Jones Indices via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "S&P 500 closes August 24 3431.28, September 2 3580.84, September 23 3236.92, December 24 3703.06. September peak-to-trough close decline approximately 9.60%, followed by new highs. Excludes dividends."
+        },
+        {
+          "url": "https://home.treasury.gov/policy-issues/coronavirus/about-the-cares-act",
+          "title": "CARES and Consolidated Appropriations Acts",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "The subsequent broad relief act passed Congress December 21 and was signed December 27, 2020, after the election rather than during summer."
+        }
+      ],
+      "next_check": null,
+      "id": "034-C10"
+    },
+    {
+      "claim": "Value international commodities offer opportunity",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        63
+      ],
+      "family": "value-international-preference",
+      "asset_or_variable": "Value Asian EM commodities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "This is a broad selection framework with no fixed benchmark or endpoint. Specific named stock theses are scored separately; the general statement cannot inherit all their wins.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "034-C11"
+    },
+    {
+      "claim": "Tesla rebound fails below 500",
+      "kind": "forecast",
+      "source_blocks": [
+        65,
+        66
+      ],
+      "family": "tesla-september2020-short",
+      "asset_or_variable": "TSLA",
+      "horizon": "until 500 stop or thesis exit",
+      "conditions": "Price remains below 500 in 2020 units",
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The price first fell, but then crossed the explicit 500 invalidation level on November 19, 2020. Without an earlier specified profit-taking rule, the lower-high thesis failed its own stop condition. This is not a reconstructed executed short.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: until 500 stop or thesis exit",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TSLA/history/",
+          "title": "Tesla 2020 short invalidation path",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Following September 20, 2020, first daily high above split-adjusted 166.6667 occurred November 19: high 169.5367 (=508.61 in 2020 units). September 21 close 149.7967 (=449.39), September 24 close 129.2633 (=387.79). Initial favorable move preceded stop breach; no actual fill, borrow cost or prior exit verified."
+        },
+        {
+          "url": "https://ir.tesla.com/press-release/tesla-announces-three-one-stock-split?source=syndication",
+          "title": "Three-for-one split",
+          "publisher": "Tesla",
+          "date": "2022-08-05",
+          "verified": true,
+          "finding": "Tesla declared 3:1 split, trading adjusted August 25, 2022. Therefore a 2020$500 threshold corresponds to $166.6667 in vendor back-adjusted historical OHLC."
+        }
+      ],
+      "next_check": null,
+      "id": "034-C12"
+    },
+    {
+      "claim": "Tesla short caps loss near 14%",
+      "kind": "explanation",
+      "source_blocks": [
+        67
+      ],
+      "family": "short-stop-risk-limit",
+      "asset_or_variable": "TSLA",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The stop specifies a risk-control intention, not a guaranteed execution price: gaps, liquidity, borrow and timing matter. The known breach establishes the exit trigger but not the realized percentage loss; next-day entry differed from the quoted reference price.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TSLA/history/",
+          "title": "Tesla 2020 short invalidation path",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Following September 20, 2020, first daily high above split-adjusted 166.6667 occurred November 19: high 169.5367 (=508.61 in 2020 units). September 21 close 149.7967 (=449.39), September 24 close 129.2633 (=387.79). Initial favorable move preceded stop breach; no actual fill, borrow cost or prior exit verified."
+        },
+        {
+          "url": "https://ir.tesla.com/press-release/tesla-announces-three-one-stock-split?source=syndication",
+          "title": "Three-for-one split",
+          "publisher": "Tesla",
+          "date": "2022-08-05",
+          "verified": true,
+          "finding": "Tesla declared 3:1 split, trading adjusted August 25, 2022. Therefore a 2020$500 threshold corresponds to $166.6667 in vendor back-adjusted historical OHLC."
+        }
+      ],
+      "next_check": null,
+      "id": "034-C13"
+    },
+    {
+      "claim": "Tesla short diversifies long holdings",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        67
+      ],
+      "family": "tesla-short-hedge",
+      "asset_or_variable": "TSLA portfolio",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A short creates negative exposure to its own stock, but that does not guarantee low or negative correlation with the whole portfolio. Need a defined portfolio and hedge ratio over the actual holding period.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Measure covariance, beta and drawdown contribution through the documented exit.",
+      "id": "034-C14"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Fundamental multiples",
+      "source_blocks": [
+        31,
+        34,
+        41
+      ],
+      "use": "Selection",
+      "image_inspected": false
+    },
+    {
+      "name": "Moving average/MACD",
+      "source_blocks": [
+        57,
+        59
+      ],
+      "use": "Risk",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "An explicit invalidation level makes a thesis falsifiable."
+  ],
+  "assessment": "The Tesla setup failed its stated stop condition after an initial favorable move. Five-year sensitivities sharply separate successful Facebook exposure from losing Alibaba and JD exposure. Portfolio simplification and income improvement require holdings-level reconstruction, so they are not credited as automatic performance gains.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "Public market series are available, but not every investment claim has a defined horizon or reconciled corporate-action-adjusted return. Unverified outcomes remain unscored; macro data use latest available vintages."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "c747623a35bf004752e61c98c8693b955b3231554b4cc4bcf78f3cd9fb7e65f6"
+}

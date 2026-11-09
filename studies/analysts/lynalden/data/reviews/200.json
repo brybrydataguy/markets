@@ -1,0 +1,773 @@
+{
+  "article_id": "200",
+  "title": "Bond Problems and Software Support",
+  "date": "2026-10-25",
+  "source_url": "https://www.lynalden.com/premium-2026-10-25/",
+  "read_complete": true,
+  "evaluation_as_of": "2026-11-07",
+  "summary": "Bond entry yields, monetary dilution and software adaptation.",
+  "assessment": "The local Treasury call and the software-bottom observation are supported. The main analytical weakness is treating a declining share of M2 as a loss of purchasing power. France’s institutional constraints are real, while the proposed crisis pathways and long-term software and gold outcomes remain unresolved.",
+  "claims": [
+    {
+      "claim": "Energy scarcity is sustaining inflation pressure.",
+      "source_blocks": [
+        7,
+        9,
+        12
+      ],
+      "verdict": "mixed",
+      "reason": "Oil remained elevated and September CPI inflation rose to about 3.72% year over year, supporting the direction. Easing refining margins can offset crude costs temporarily. This is not a complete decomposition of inflation or proof that every country has the same trajectory.",
+      "kind": "explanation",
+      "family": "energy-2026-inflation",
+      "asset_or_variable": "energy-2026-inflation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+          "title": "DCOILWTICO observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "October 30:$107.56; November 3:$99.64."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+          "title": "DCOILBRENTEU observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "October 30:$120.15; November 3:$107.03."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+          "title": "CPIAUCSL observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "September year-over-year increase approximately 3.72%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C01"
+    },
+    {
+      "claim": "The anticipated local Treasury relief arrived.",
+      "source_blocks": [
+        16,
+        19,
+        20,
+        21,
+        22,
+        24,
+        26
+      ],
+      "verdict": "right",
+      "reason": "The 10-year yield peaked at 5.31% on October 5, was 5.24% immediately before the October 11 report, and fell to 4.84% by November 5. This supports the prior near-term call and is counted as the same episode, not a second independent forecast success.",
+      "kind": "empirical",
+      "family": "october-2026-local-yield-peak",
+      "asset_or_variable": "october-2026-local-yield-peak",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "title": "DGS10 observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "October 5:5.31%; October 9:5.24%; November 5:4.84%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C02"
+    },
+    {
+      "claim": "M2 growth is approximately 5.7%.",
+      "source_blocks": [
+        28
+      ],
+      "verdict": "right",
+      "reason": "The September series gives 5.7099% year-over-year growth. This verifies the current reading, but the article’s longer historical average depends on the selected interval and weighting.",
+      "kind": "empirical",
+      "family": "2026-m2-growth",
+      "asset_or_variable": "2026-m2-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/M2SL",
+          "title": "M2SL observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "September 2026:$23,413.9bn, 5.7099% above September 2025."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C03"
+    },
+    {
+      "claim": "Yield minus M2 growth measures money-share dilution.",
+      "source_blocks": [
+        27,
+        30,
+        31,
+        33,
+        35
+      ],
+      "verdict": "right",
+      "reason": "Under a constant nominal return and an M2 denominator growing at a fixed rate, the relative monetary share changes by (1+r)/(1+g)-1. At 5% and 5.7%, that is -0.662%, close to the stated subtraction approximation. A bond’s interim market value and reinvestment returns can differ from its quoted yield.",
+      "kind": "explanation",
+      "family": "bond-m2-dilution-arithmetic",
+      "asset_or_variable": "bond-m2-dilution-arithmetic",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Wealth comillion pounds at 5%",
+          "M2 grows 5.7%",
+          "Compare wealth with aggregate M2, not consumer prices"
+        ],
+        "derivation": "1.05/1.057 - 1 = -0.0066225; subtraction approximates this as -0.7%."
+      },
+      "id": "200-C04"
+    },
+    {
+      "claim": "Money-share dilution determines purchasing-power performance.",
+      "source_blocks": [
+        33,
+        37,
+        38,
+        40,
+        41,
+        42
+      ],
+      "verdict": "wrong",
+      "reason": "A share of M2 and purchasing power are different quantities. With 5% nominal return, 5.7% M2 growth and 3% price inflation, monetary share falls while purchasing power rises 1.94%. Changes in real output, money demand and velocity prevent the M2 subtraction from being a general real-return measure. This distinction matters to the report’s age-based portfolio conclusions.",
+      "kind": "explanation",
+      "family": "m2-growth-versus-real-return",
+      "asset_or_variable": "m2-growth-versus-real-return",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/M2SL",
+          "title": "M2SL observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Monetary aggregate, not a consumption-price index."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+          "title": "CPIAUCSL observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Consumer price index supplies a separate price denominator."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C05"
+    },
+    {
+      "claim": "Tax shelters improve after-tax bond compounding.",
+      "source_blocks": [
+        34,
+        38,
+        41,
+        43
+      ],
+      "verdict": "mixed",
+      "reason": "Federal interest taxation reduces taxable-account compounding, while qualifying Roth treatment can remove that drag. The broad characterization omits Treasury interest’s exemption from state and local income taxes, and tax-deferred accounts eventually face withdrawal rules. Gold’s deferral and collectibles treatment also require an account-specific comparison.",
+      "kind": "explanation",
+      "family": "bond-account-tax-efficiency",
+      "asset_or_variable": "bond-account-tax-efficiency",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.irs.gov/taxtopics/tc403",
+          "title": "Interest received",
+          "publisher": "IRS",
+          "date": null,
+          "verified": true,
+          "finding": "Treasury interest is federally taxable but exempt from state and local income taxes."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C06"
+    },
+    {
+      "claim": "Gold’s stock grows slowly and ownership has costs.",
+      "source_blocks": [
+        39
+      ],
+      "verdict": "right",
+      "reason": "World Gold Council data put newly mined supply at a small annual share of the accumulated above-ground stock, broadly consistent with the roughly 1.5% scale. Recycling changes market supply without creating new global gold stock. Storage, spreads and custody are additional investor costs.",
+      "kind": "explanation",
+      "family": "gold-stock-flow-dilution",
+      "asset_or_variable": "gold-stock-flow-dilution",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2025/supply",
+          "title": "2025 gold supply",
+          "publisher": "World Gold Council",
+          "date": "2026-01-29",
+          "verified": true,
+          "finding": "Separates new mine production from recycled supply."
+        },
+        {
+          "url": "https://www.gold.org/goldhub/data/how-much-gold",
+          "title": "Above-ground gold stocks",
+          "publisher": "World Gold Council",
+          "date": null,
+          "verified": true,
+          "finding": "Accumulated gold stock is the appropriate denominator for mining dilution."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C07"
+    },
+    {
+      "claim": "Productivity growth explains gold’s long-run purchasing power.",
+      "source_blocks": [
+        40
+      ],
+      "verdict": "mixed",
+      "reason": "U.S. nonfarm business productivity averaged roughly 2.1% since 1947, but this is not a universal annual human-productivity law. Subtracting gold-stock growth from productivity growth does not determine gold’s real price: investment demand, monetary regimes and substitution also change. The suggested causal model is incomplete.",
+      "kind": "explanation",
+      "family": "gold-productivity-purchasing-power",
+      "asset_or_variable": "gold-productivity-purchasing-power",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/pdf/prod2.pdf",
+          "title": "Productivity and costs",
+          "publisher": "BLS",
+          "date": null,
+          "verified": true,
+          "finding": "Long-run U.S. nonfarm business productivity growth around 2.1%; substantial cycle and sector variation."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C08"
+    },
+    {
+      "claim": "Gold supply is steadier than broad money growth.",
+      "source_blocks": [
+        42
+      ],
+      "verdict": "right",
+      "reason": "Physical mine development constrains rapid additions to the accumulated stock. The M2 record includes abrupt pandemic-era acceleration followed by contraction, far wider than ordinary annual mining dilution. This supports the supply distinction without guaranteeing gold’s price stability.",
+      "kind": "explanation",
+      "family": "gold-versus-fiat-supply-volatility",
+      "asset_or_variable": "gold-versus-fiat-supply-volatility",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/M2SL",
+          "title": "M2SL observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Large pandemic expansion followed by later contraction."
+        },
+        {
+          "url": "https://www.gold.org/goldhub/research/gold-demand-trends/gold-demand-trends-full-year-2025/supply",
+          "title": "Gold supply decomposition",
+          "publisher": "World Gold Council",
+          "date": "2026-01-29",
+          "verified": true,
+          "finding": "New mine production is a small fraction of accumulated stocks."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C09"
+    },
+    {
+      "claim": "French yields reflect acute country-specific stress.",
+      "source_blocks": [
+        45,
+        46,
+        48,
+        51,
+        52
+      ],
+      "verdict": "mixed",
+      "reason": "French public debt reached 119% of GDP, and a Senate report documents yields around 5% with a widening German spread. These support the core stress observation. The exact protest damage counts and 1.7-point daily spread are not independently reconstructed here; political causality is not identified solely by a yield chart.",
+      "kind": "explanation",
+      "family": "france-2026-bond-stress",
+      "asset_or_variable": "france-2026-bond-stress",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.insee.fr/en/statistiques/9057140",
+          "title": "French Q2 government debt",
+          "publisher": "INSEE",
+          "date": "2026-09-29",
+          "verified": true,
+          "finding": "Debt was 119.0% of GDP."
+        },
+        {
+          "url": "https://www.senat.fr/fileadmin/Commissions/Finances/2026-2027/PLF_2027/Divers_PLF_2027/Rapport_provisoire_Tome_I.pdf",
+          "title": "2027 budget report",
+          "publisher": "French Senate",
+          "date": "2026-11-03",
+          "verified": true,
+          "finding": "Documents October yields around 5% and widening spread over Germany."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C10"
+    },
+    {
+      "claim": "Euro members face different default constraints than Japan.",
+      "source_blocks": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "verdict": "right",
+      "reason": "An individual member does not control euro issuance or unilaterally direct ECB purchases. ECB backstops have eligibility and policy conditions, so national nominal default risk is not eliminated. Japan’s control of its currency changes the constraint but does not eliminate inflation, depreciation or political risk.",
+      "kind": "explanation",
+      "family": "euro-sovereignty-versus-japan",
+      "asset_or_variable": "euro-sovereignty-versus-japan",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.ecb.europa.eu/press/pr/date/2022/html/ecb.pr220721~973e6e7273.en.html",
+          "title": "Transmission Protection Instrument",
+          "publisher": "ECB",
+          "date": "2022-07-21",
+          "verified": true,
+          "finding": "Purchases address unwarranted disorderly market dynamics subject to fiscal, macroeconomic and debt-sustainability criteria."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C11"
+    },
+    {
+      "claim": "A French crisis would likely involve selective losses.",
+      "source_blocks": [
+        57,
+        58
+      ],
+      "verdict": "conditional_pending",
+      "reason": "This is a contingent scenario, with near-term default explicitly considered unlikely. No restructuring has occurred by the cutoff. Bank bail-ins, sovereign bond restructuring and losses to official creditors are legally and economically different events; the proposed ordering needs a concrete legal pathway.",
+      "kind": "forecast",
+      "family": "france-selective-default-scenario",
+      "asset_or_variable": "france-selective-default-scenario",
+      "horizon": null,
+      "conditions": "France experiences a sovereign crisis",
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Identify actual restructuring terms, creditor seniority and whether the event is bank resolution or sovereign default.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C12"
+    },
+    {
+      "claim": "Small ECB intervention could stabilize disorder.",
+      "source_blocks": [
+        60
+      ],
+      "verdict": "conditional_pending",
+      "reason": "The ECB has a transmission-protection framework, but the needed purchase size and market response are unspecified. Fiscal eligibility and a distinction between liquidity stress and insolvency remain central.",
+      "kind": "forecast",
+      "family": "ecb-france-backstop",
+      "asset_or_variable": "ecb-france-backstop",
+      "horizon": null,
+      "conditions": "French bond market becomes disorderly",
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.ecb.europa.eu/press/pr/date/2022/html/ecb.pr220721~973e6e7273.en.html",
+          "title": "Transmission Protection Instrument",
+          "publisher": "ECB",
+          "date": "2022-07-21",
+          "verified": true,
+          "finding": "Purchases address unwarranted disorderly market dynamics subject to fiscal, macroeconomic and debt-sustainability criteria."
+        }
+      ],
+      "next_check": "Observe activation, eligibility decision, purchase size and sustained funding conditions.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C13"
+    },
+    {
+      "claim": "European assets remain structurally unattractive.",
+      "source_blocks": [
+        59,
+        60,
+        61
+      ],
+      "verdict": "not_testable",
+      "reason": "The broad regional preference lacks a holding period, benchmark and asset weighting. Europe contains globally competitive businesses and some shared fiscal facilities; an incomplete fiscal union is not the absence of every fiscal risk-sharing mechanism. The assessment is a portfolio preference, not a dated collapse forecast.",
+      "kind": "investment_thesis",
+      "family": "europe-structural-underweight",
+      "asset_or_variable": "europe-structural-underweight",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C14"
+    },
+    {
+      "claim": "Software incumbents can adapt despite AI pressure.",
+      "source_blocks": [
+        80,
+        81,
+        82,
+        91,
+        94
+      ],
+      "verdict": "too_early",
+      "reason": "The long-term thesis balances reduced switching costs against installed workflows, maintenance, distribution and AI-assisted cost reductions. Business survival, margins and shareholder returns require separate tests. Two weeks of subsequent prices cannot settle structural competitive durability.",
+      "kind": "investment_thesis",
+      "family": "software-ai-adaptation",
+      "asset_or_variable": "software-ai-adaptation",
+      "horizon": "Long term",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Track retention, pricing, recurring revenue, AI costs and free cash flow across several reporting years.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Long term",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C15"
+    },
+    {
+      "claim": "The software summer lows have held.",
+      "source_blocks": [
+        77,
+        78,
+        84,
+        85,
+        88,
+        90,
+        92
+      ],
+      "verdict": "right",
+      "reason": "Daily lows through November 6 remained above June-August lows for ADBE, CRM, INTU and ACN. This verifies a bounded technical observation and does not establish that the lows will never be revisited. Earlier purchase recommendations remain their own episodes.",
+      "kind": "empirical",
+      "family": "software-2026-summer-bottom",
+      "asset_or_variable": "software-2026-summer-bottom",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ADBE/history/",
+          "title": "ADBE market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Summer minimum $190.12; post-report minimum $236.84."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/CRM/history/",
+          "title": "CRM market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Summer minimum $146.32; post-report minimum $211.00."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/INTU/history/",
+          "title": "INTU market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Summer minimum $252.84; post-report minimum $319.02."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/ACN/history/",
+          "title": "ACN market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Summer minimum $118.15; post-report minimum $232.57."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C16"
+    },
+    {
+      "claim": "Existing software positions remain worth holding.",
+      "source_blocks": [
+        92,
+        94
+      ],
+      "verdict": "too_early",
+      "reason": "No fixed sale target is supplied and the stated rationale is long-term. October 26-November 6 adjusted returns were ADBE -7.47%, CRM -13.72%, INTU +0.47% and ACN +5.37%, versus SPY -3.93%. These divergent interim outcomes cannot be pooled into a single successful software call.",
+      "kind": "investment_thesis",
+      "family": "software-2026-hold",
+      "asset_or_variable": "software-2026-hold",
+      "horizon": "Long term",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ADBE/history/",
+          "title": "ADBE market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "October 26-November 6 -7.47%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/CRM/history/",
+          "title": "CRM market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Same interval -13.72%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/INTU/history/",
+          "title": "INTU market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Same interval +0.47%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/ACN/history/",
+          "title": "ACN market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Same interval +5.37%; SPY -3.93%."
+        }
+      ],
+      "next_check": "Evaluate business execution and total return over a disclosed longer horizon.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Long term",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C17"
+    },
+    {
+      "claim": "Chip valuations may become attractive soon.",
+      "source_blocks": [
+        95,
+        96,
+        97
+      ],
+      "verdict": "not_testable",
+      "reason": "This is a watchlist condition, not a purchase or a quantified value target. NVIDIA and Micron fell further, but lower prices alone do not demonstrate attractive normalized earnings. Diversification reduces concentration mechanically, yet the claim that this market rewards it needs a specified portfolio comparison.",
+      "kind": "investment_thesis",
+      "family": "semiconductor-2026-watchlist",
+      "asset_or_variable": "semiconductor-2026-watchlist",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/NVDA/history/",
+          "title": "NVDA market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "October 26-November 6 -13.59%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/MU/history/",
+          "title": "MU market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Same interval -23.65%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C18"
+    },
+    {
+      "claim": "Gold needs a durable double-bottom confirmation.",
+      "source_blocks": [
+        100,
+        101,
+        102,
+        103,
+        106,
+        108,
+        109,
+        110
+      ],
+      "verdict": "mixed",
+      "reason": "The report acknowledges deterioration instead of claiming its previous support condition held. Continuous gold futures subsequently reached $3,879.30 on October 30, while GLD gained 1.28% from October 26 through November 6. That short rebound does not prove a durable double bottom or settle an undated consolidation phase.",
+      "kind": "investment_thesis",
+      "family": "gold-2026-consolidation",
+      "asset_or_variable": "gold-2026-consolidation",
+      "horizon": null,
+      "conditions": "Support holds and price forms a double bottom",
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GC=F/history/",
+          "title": "GC=F market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "October 30 continuous futures intraday low $3,879.30; futures are not spot gold."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "October 26-November 6 adjusted return +1.28%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "200-C19"
+    }
+  ],
+  "coverage_note": "Full numbered text and image inventory read. All material theses across macro, digital assets, investment analysis and concluding sections considered. Position listings and incidental descriptive statistics are excluded unless they support a thesis.",
+  "tools_charts": [
+    {
+      "name": "Crude and crack spreads",
+      "source_blocks": [
+        7,
+        9
+      ],
+      "use": "Separate feedstock from refining margin",
+      "image_inspected": false
+    },
+    {
+      "name": "Bond dilution rate",
+      "source_blocks": [
+        27,
+        31
+      ],
+      "use": "Nominal yield minus M2 growth; not real return",
+      "image_inspected": false
+    },
+    {
+      "name": "French-German yield spread",
+      "source_blocks": [
+        48
+      ],
+      "use": "Country-specific credit and political risk",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        84,
+        88,
+        92
+      ],
+      "use": "Valuation and prospective earnings",
+      "image_inspected": false
+    },
+    {
+      "name": "Gold double bottom",
+      "source_blocks": [
+        108
+      ],
+      "use": "Conditional technical pattern",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "A monetary denominator is not a consumption-price denominator.",
+    "A useful framework distinguishes national monetary sovereignty from conditional union-wide support."
+  ],
+  "verification_limitations": [
+    "Current page snapshot is not an authenticated publication-date version.",
+    "A missing horizon is not replaced with an invented author deadline.",
+    "Market sensitivities use vendor adjusted closes and do not reconstruct portfolio execution."
+  ]
+}

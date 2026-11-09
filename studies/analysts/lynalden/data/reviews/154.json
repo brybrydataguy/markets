@@ -1,0 +1,1261 @@
+{
+  "article_id": "154",
+  "title": "Liquidity, Tariffs, Memes, and Tax-Loss Harvesting Aftermath",
+  "date": "2025-01-19",
+  "source_url": "https://www.lynalden.com/premium-2025-1-19/",
+  "read_complete": true,
+  "summary": "Trade architecture, liquidity and rotation risks.",
+  "coverage_note": "All macro, tariff scenarios, digital assets, tax-loss examples and gold sections reviewed. Illustrative tariff arithmetic is separated from actual policy predictions; disputed wallet ownership is not treated as an established allegation.",
+  "claims": [
+    {
+      "id": "154-C01",
+      "claim": "Reserves approach scarcity.",
+      "kind": "explanation",
+      "source_blocks": [
+        9
+      ],
+      "family": "reserve-scarcity-warning",
+      "asset_or_variable": "reserve-scarcity-warning",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Later reserve-management purchases support the concern about implementation capacity, but no universal floor can be inferred from the March 2023 aggregate level.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchases",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "The Desk announced $40 billion of initial bill purchases starting December 12, to maintain ample reserves. This is not itself evidence of deficit monetization as the causal motive."
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2025-10-29",
+          "verified": true,
+          "finding": "FOMC announced aggregate securities runoff would conclude December 1 2025."
+        }
+      ],
+      "next_check": "Compare SOFR-IORB spreads and reserve distribution with the proposed floor."
+    },
+    {
+      "id": "154-C02",
+      "claim": "TGA spending adds reserves.",
+      "kind": "explanation",
+      "source_blocks": [
+        15
+      ],
+      "family": "tga-reserve-accounting",
+      "asset_or_variable": "tga-reserve-accounting",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Narrow balance-sheet identity, not a guarantee that risk assets rise.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Treasury pays a domestic bank customer",
+          "Fed assets and other liabilities unchanged"
+        ],
+        "derivation": "Fed TGA liability falls by X; receiving bank reserve liability rises by X. Other simultaneous flows may offset this."
+      }
+    },
+    {
+      "id": "154-C03",
+      "claim": "Debt dispute ends sooner.",
+      "kind": "forecast",
+      "source_blocks": [
+        19
+      ],
+      "family": "debt-ceiling-duration",
+      "asset_or_variable": "debt-ceiling-duration",
+      "horizon": "2025 debt-ceiling episode",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The 2025 extraordinary-measures interval lasted January 21-July 7, longer than January-June 2023. Unified party control did not deliver the predicted shorter dispute.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "2025 debt-ceiling episode",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.gao.gov/products/gao-26-107908",
+          "title": "Fiscal 2025 federal debt audit",
+          "publisher": "GAO",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "Debt ceiling reinstated January 2 2025; extraordinary measures January 21-July 7; July 4 law raised limit $5 tn to $41.1 tn. FY 2025 deficit $1.8 tn."
+        },
+        {
+          "url": "https://www.gao.gov/products/gao-24-106340",
+          "title": "Fiscal 2023 debt audit",
+          "publisher": "GAO",
+          "date": "2023-11-09",
+          "verified": true,
+          "finding": "Extraordinary actions began January 19; debt limit suspended June 3, 2023. This approximately 4.5-month episode was shorter than January-July 2025."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "154-C04",
+      "claim": "TGA drawdown supports liquidity.",
+      "kind": "forecast",
+      "source_blocks": [
+        19,
+        20
+      ],
+      "family": "debt-ceiling-liquidity",
+      "asset_or_variable": "debt-ceiling-liquidity",
+      "horizon": "Until ceiling resolution",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "TGA fell substantially during the binding-ceiling interval. This verifies the cash-flow component, not a universal asset-price benefit.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Until ceiling resolution",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.gao.gov/products/gao-26-107908",
+          "title": "Fiscal 2025 federal debt audit",
+          "publisher": "GAO",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "Debt ceiling reinstated January 2 2025; extraordinary measures January 21-July 7; July 4 law raised limit $5 tn to $41.1 tn. FY 2025 deficit $1.8 tn."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/WTREGEN",
+          "title": "WTREGEN downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "January 15 2025 TGA $641.225 bn; July 16 $296.247 bn. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "154-C05",
+      "claim": "Refill creates liquidity risk.",
+      "kind": "forecast",
+      "source_blocks": [
+        19
+      ],
+      "family": "tga-refill-risk",
+      "asset_or_variable": "tga-refill-risk",
+      "horizon": null,
+      "conditions": "Ceiling lifted",
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The refill occurred and QT subsequently ended, but the article gives no magnitude for a major liquidity problem. Funding frictions and policy accommodation are narrower than a market crisis.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.gao.gov/products/gao-26-107908",
+          "title": "Fiscal 2025 federal debt audit",
+          "publisher": "GAO",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "Debt ceiling reinstated January 2 2025; extraordinary measures January 21-July 7; July 4 law raised limit $5 tn to $41.1 tn. FY 2025 deficit $1.8 tn."
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchases",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "The Desk announced $40 billion of initial bill purchases starting December 12, to maintain ample reserves. This is not itself evidence of deficit monetization as the causal motive."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/WTREGEN",
+          "title": "WTREGEN downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "July 16 2025 $296.247 bn; September 17 $756.376 bn. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": "Measure refill-period funding spreads and distinguish cash demand from quarter-end reporting."
+    },
+    {
+      "id": "154-C06",
+      "claim": "Longer issuance tightens conditions.",
+      "kind": "explanation",
+      "source_blocks": [
+        21
+      ],
+      "family": "treasury-duration-liquidity",
+      "asset_or_variable": "treasury-duration-liquidity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The direction depends on purchasers, collateral demand and Fed liabilities. A possible Bessent policy is not a firm issuance forecast.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Identify marginal buyers and reserve/RRP effects for actual issuance changes."
+    },
+    {
+      "id": "154-C07",
+      "claim": "QT ends in 2025.",
+      "kind": "forecast",
+      "source_blocks": [
+        23
+      ],
+      "family": "fed-balance-sheet-turn",
+      "asset_or_variable": "fed-balance-sheet-turn",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The Fed announced runoff termination effective December 1, inside the stated year.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2025-10-29",
+          "verified": true,
+          "finding": "FOMC announced aggregate securities runoff would conclude December 1 2025."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "154-C08",
+      "claim": "Liquidity tracks asset prices.",
+      "kind": "explanation",
+      "source_blocks": [
+        24
+      ],
+      "family": "liquidity-asset-correlation",
+      "asset_or_variable": "liquidity-asset-correlation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Liquidity aggregate, asset universe and lag are unspecified. Contemporaneous correlation alone cannot identify causation.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Freeze an aggregate and estimate out-of-sample asset responses."
+    },
+    {
+      "id": "154-C09",
+      "claim": "Dollar strength forces sales.",
+      "kind": "explanation",
+      "source_blocks": [
+        30
+      ],
+      "family": "dollar-debt-feedback",
+      "asset_or_variable": "dollar-debt-feedback",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Unhedged borrowers face a larger local-currency burden, but reserve custodial declines do not uniquely identify debt-service sales. Banks can also refinance or draw liquidity facilities.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/working-paper-890-how-does-international-capital-flow",
+          "title": "How does international capital flow?",
+          "publisher": "Kumhof, Rungcharoenkitkul and Sokol / BIS",
+          "date": "2020-10-01",
+          "verified": true,
+          "finding": "Working paper distinguishes gross financing from net saving: US and non-US banks create dollar credit without a necessary US current-account deficit. Authors views, not an institutional policy position."
+        }
+      ],
+      "next_check": "Reconcile custody, TIC, hedges and debtor funding flows."
+    },
+    {
+      "id": "154-C10",
+      "claim": "Dollar may top locally.",
+      "kind": "forecast",
+      "source_blocks": [
+        34
+      ],
+      "family": "dollar-2025-top",
+      "asset_or_variable": "dollar-2025-top",
+      "horizon": "Coming weeks and months",
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "right",
+      "reason": "The tentative direction was borne out over the named weeks-to-months window: the broad dollar fell about 4.9% by April 17. This does not prove CPI or the inauguration caused the reversal.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Coming weeks and months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+          "title": "DTWEXBGS downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Broad dollar January 17 2025 129.4859; April 17 123.1298. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "154-C11",
+      "claim": "Eurozone outlook remains poor.",
+      "kind": "forecast",
+      "source_blocks": [
+        35
+      ],
+      "family": "eurozone-weakness",
+      "asset_or_variable": "eurozone-weakness",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No growth threshold, comparator or deadline is given. Bearish sentiment cannot be scored simply from any weak release.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Define real-growth benchmark and horizon before evaluation."
+    },
+    {
+      "id": "154-C12",
+      "claim": "Dollar networks reinforce dominance.",
+      "kind": "explanation",
+      "source_blocks": [
+        43
+      ],
+      "family": "dollar-network-effects",
+      "asset_or_variable": "dollar-network-effects",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Trade invoicing, bank funding and reserve demand can reinforce one another, but shares and causal elasticities require separate evidence.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use Fed international-dollar indicators and cross-currency funding studies."
+    },
+    {
+      "id": "154-C13",
+      "claim": "Deficits supply required dollars.",
+      "kind": "explanation",
+      "source_blocks": [
+        46,
+        58,
+        73
+      ],
+      "family": "reserve-currency-triffin",
+      "asset_or_variable": "reserve-currency-triffin",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "Presented as a necessary structural constraint, this omits dollar creation through domestic and offshore bank credit and gross financial flows. Reserve status can influence asset demand without logically requiring a trade deficit.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/working-paper-890-how-does-international-capital-flow",
+          "title": "How does international capital flow?",
+          "publisher": "Kumhof, Rungcharoenkitkul and Sokol / BIS",
+          "date": "2020-10-01",
+          "verified": true,
+          "finding": "Working paper distinguishes gross financing from net saving: US and non-US banks create dollar credit without a necessary US current-account deficit. Authors views, not an institutional policy position."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "154-C14",
+      "claim": "Reserve demand hurts manufacturing.",
+      "kind": "explanation",
+      "source_blocks": [
+        46,
+        47
+      ],
+      "family": "dollar-industrial-competitiveness",
+      "asset_or_variable": "dollar-industrial-competitiveness",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Capital inflows can appreciate the currency and pressure exporters. The stronger claim that reserve status principally explains deindustrialization omits productivity, domestic saving, fiscal policy and supply-chain choices.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/working-paper-890-how-does-international-capital-flow",
+          "title": "How does international capital flow?",
+          "publisher": "Kumhof, Rungcharoenkitkul and Sokol / BIS",
+          "date": "2020-10-01",
+          "verified": true,
+          "finding": "Working paper distinguishes gross financing from net saving: US and non-US banks create dollar credit without a necessary US current-account deficit. Authors views, not an institutional policy position."
+        }
+      ],
+      "next_check": "Estimate currency-demand effects separately from technology and trade-policy shocks."
+    },
+    {
+      "id": "154-C15",
+      "claim": "Deficits transfer asset ownership.",
+      "kind": "explanation",
+      "source_blocks": [
+        48,
+        49
+      ],
+      "family": "external-deficit-asset-transfer",
+      "asset_or_variable": "external-deficit-asset-transfer",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Net external borrowing is an accounting counterpart, but the NIIP also changes through asset prices and exchange rates. Imports can include productive capital; appreciating assets versus depreciating goods is not a complete welfare calculation.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/working-paper-890-how-does-international-capital-flow",
+          "title": "How does international capital flow?",
+          "publisher": "Kumhof, Rungcharoenkitkul and Sokol / BIS",
+          "date": "2020-10-01",
+          "verified": true,
+          "finding": "Working paper distinguishes gross financing from net saving: US and non-US banks create dollar credit without a necessary US current-account deficit. Authors views, not an institutional policy position."
+        }
+      ],
+      "next_check": "Decompose BEA NIIP changes into transactions, prices, FX and other adjustments."
+    },
+    {
+      "id": "154-C16",
+      "claim": "Offshoring creates political fragility.",
+      "kind": "explanation",
+      "source_blocks": [
+        51
+      ],
+      "family": "deindustrialization-political-risk",
+      "asset_or_variable": "deindustrialization-political-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Local labor-market damage and national security capacity are separate mechanisms. Neither is established by a national trade-balance chart alone.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use regional import-exposure research and sector-specific defense production audits."
+    },
+    {
+      "id": "154-C17",
+      "claim": "Reshoring faces capacity constraints.",
+      "kind": "explanation",
+      "source_blocks": [
+        53,
+        56
+      ],
+      "family": "reshoring-capacity",
+      "asset_or_variable": "reshoring-capacity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Skills, energy and healthcare costs are plausible constraints, but the text gives no project baseline or measurable completion criterion.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Compare project construction times, skilled vacancies and power availability."
+    },
+    {
+      "id": "154-C18",
+      "claim": "Chinese integration reduced inflation.",
+      "kind": "explanation",
+      "source_blocks": [
+        57
+      ],
+      "family": "china-disinflation",
+      "asset_or_variable": "china-disinflation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "This historical causal claim requires import-price and productivity evidence; low aggregate inflation alone also reflects monetary policy and other supply shifts.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use identified import-competition studies and distinguish price levels from ongoing inflation."
+    },
+    {
+      "id": "154-C19",
+      "claim": "Tariffs narrow cost gaps.",
+      "kind": "explanation",
+      "source_blocks": [
+        60
+      ],
+      "family": "tariff-relative-price",
+      "asset_or_variable": "tariff-relative-price",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "A conditional price identity; not a finding that tariffs improve total welfare.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Unchanged pre-tax foreign price and exchange rate",
+          "No evasion or subsidy offset"
+        ],
+        "derivation": "Landed import price increases from P to P(1+t), narrowing a domestic producer cost disadvantage by t P."
+      }
+    },
+    {
+      "id": "154-C20",
+      "claim": "Tariffs raise consumer prices.",
+      "kind": "explanation",
+      "source_blocks": [
+        61
+      ],
+      "family": "tariff-pass-through",
+      "asset_or_variable": "tariff-pass-through",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Primary empirical work on 2025 tariffs finds positive direct and indirect consumer-price effects. Pass-through is partial and delayed, so the article should not be read as a one-for-one immediate CPI forecast.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/research/staff_reports/sr1201",
+          "title": "Anatomy of tariff pass-through",
+          "publisher": "New York Fed",
+          "date": null,
+          "verified": true,
+          "finding": "September revision estimates 26% consumer-price pass-through of 2025 tariffs; 64% direct and 36% indirect through inputs and domestic markups, with indirect effects taking 9-12 months. Month known, exact revision day unspecified."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "154-C21",
+      "claim": "Partners can retaliate.",
+      "kind": "forecast",
+      "source_blocks": [
+        61
+      ],
+      "family": "tariff-retaliation",
+      "asset_or_variable": "tariff-retaliation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "This is a stated risk rather than a country-specific prediction with timing or scale. It should not earn a forecast hit simply because retaliation is feasible.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Specify partner, measure and conditional trigger."
+    },
+    {
+      "id": "154-C22",
+      "claim": "Reshoring raises near-term costs.",
+      "kind": "explanation",
+      "source_blocks": [
+        62,
+        72
+      ],
+      "family": "reshoring-inflation",
+      "asset_or_variable": "reshoring-inflation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Relocation costs can rise, but automation, subsidies and productivity can offset them. The more-than-four-years capacity claim remains uncompleted through 2026.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Track actual project costs and output against imported substitutes."
+    },
+    {
+      "id": "154-C23",
+      "claim": "Less trade forces asset sales.",
+      "kind": "explanation",
+      "source_blocks": [
+        64
+      ],
+      "family": "trade-deficit-dollar-funding",
+      "asset_or_variable": "trade-deficit-dollar-funding",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The categorical funding inference is incomplete: refinancing, bank credit creation, FX swaps and gross capital flows can supply dollars. A trade reduction can create stress without mechanically forcing dollar-asset liquidation.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/working-paper-890-how-does-international-capital-flow",
+          "title": "How does international capital flow?",
+          "publisher": "Kumhof, Rungcharoenkitkul and Sokol / BIS",
+          "date": "2020-10-01",
+          "verified": true,
+          "finding": "Working paper distinguishes gross financing from net saving: US and non-US banks create dollar credit without a necessary US current-account deficit. Authors views, not an institutional policy position."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "154-C24",
+      "claim": "Blanket 20% tariffs unlikely.",
+      "kind": "forecast",
+      "source_blocks": [
+        70
+      ],
+      "family": "trump-tariff-scale",
+      "asset_or_variable": "trump-tariff-scale",
+      "horizon": "Trump administration",
+      "conditions": null,
+      "modality": "unlikely",
+      "verdict": "not_testable",
+      "reason": "A low-probability judgment is not a binary promise. Literal 20% on all goods/services differs from effective goods tariff rates with exclusions; scoring requires the intended policy universe rather than hindsight substitution.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "Trump administration",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Compare enacted coverage and effective rates; preserve the probability language."
+    },
+    {
+      "id": "154-C25",
+      "claim": "Moderate tariffs barely close deficits.",
+      "kind": "explanation",
+      "source_blocks": [
+        71
+      ],
+      "family": "tariff-revenue-limits",
+      "asset_or_variable": "tariff-revenue-limits",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The stated $275 bn is static arithmetic, not a behavioral revenue forecast. It is small beside later $2 tn deficits, but trade substitution and exemptions would change collections.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.cbo.gov/publication/61985",
+          "title": "September 2026 monthly budget review",
+          "publisher": "CBO",
+          "date": "2026-10-08",
+          "verified": true,
+          "finding": "Estimated FY 2026 deficit $2.0 tn, up $218 bn; revenues+3%, outlays+6%. Major increases included interest, benefits, defense and education."
+        }
+      ],
+      "next_check": "Separate illustrative gross revenue from realized net receipts and economic feedback."
+    },
+    {
+      "id": "154-C26",
+      "claim": "Managed devaluation likely.",
+      "kind": "forecast",
+      "source_blocks": [
+        74
+      ],
+      "family": "mar-a-lago-accord",
+      "asset_or_variable": "mar-a-lago-accord",
+      "horizon": "2025-2029",
+      "conditions": null,
+      "modality": "probable",
+      "verdict": "too_early",
+      "reason": "The four-year window runs through January 2029. A market-driven dollar decline is not evidence of an intentional international accord. The possible first-year timing was expressly weaker than the full-term base case.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "2025-2029",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Require an official coordinated agreement and measured 10-20% currency change."
+    },
+    {
+      "id": "154-C27",
+      "claim": "Devaluation favors nominal assets.",
+      "kind": "explanation",
+      "source_blocks": [
+        74
+      ],
+      "family": "devaluation-inflation-assets",
+      "asset_or_variable": "devaluation-inflation-assets",
+      "horizon": null,
+      "conditions": "Intentional coordinated devaluation",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "The specified intentional accord has not been established by collected evidence. General dollar depreciation does not identify the proposed policy experiment.",
+      "direction_assessment": "Trigger and outcome have not both been established.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "If enacted, separate import inflation, real GDP and nominal asset returns."
+    },
+    {
+      "id": "154-C28",
+      "claim": "Bitcoin reaches higher highs.",
+      "kind": "forecast",
+      "source_blocks": [
+        80
+      ],
+      "family": "bitcoin-2025-breakout",
+      "asset_or_variable": "bitcoin-2025-breakout",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The 2025 price exceeded its pre-publication record. This is an event forecast, not a year-end return promise.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD daily closes",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2025-01-19 close $101,089.61; 2025-10-06 close $124,752.53. Calendar daily-close convention; no execution assumption or fees. Crypto spot excludes yield."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "154-C29",
+      "claim": "Memecoins lack productive fundamentals.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        83
+      ],
+      "family": "memecoin-speculation",
+      "asset_or_variable": "memecoin-speculation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A valuation framework rather than a dated return forecast. Entertainment or access demand can exist without contractual cash flows.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Distinguish utility/access demand from enforceable cash-flow rights."
+    },
+    {
+      "id": "154-C30",
+      "claim": "Insiders benefit from dilution.",
+      "kind": "explanation",
+      "source_blocks": [
+        85,
+        90
+      ],
+      "family": "memecoin-insider-risk",
+      "asset_or_variable": "memecoin-insider-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The disclosed concentrated allocation and unlocks create genuine dilution and incentive risks. They do not prove every insider sold or every late buyer lost.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://gettrumpmemes.com/",
+          "title": "TRUMP allocation disclosure",
+          "publisher": "Get Trump Memes",
+          "date": null,
+          "verified": true,
+          "finding": "Official allocation: 80% creators/CIC, 10% liquidity, 10% public distribution; 200 m of 1 bn tokens available at launch, remainder over three years. Current site reiterates launch schedule."
+        }
+      ],
+      "next_check": "Attribute wallets carefully and quantify realized flows, not paper holdings."
+    },
+    {
+      "id": "154-C31",
+      "claim": "TRUMP insiders owned 90%.",
+      "kind": "empirical",
+      "source_blocks": [
+        87
+      ],
+      "family": "trump-token-allocation",
+      "asset_or_variable": "trump-token-allocation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "Official allocation states 80% creators/CIC, with 10% public and 10% liquidity; 20% was available at launch. The article conflates public distribution with total circulating supply.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://gettrumpmemes.com/",
+          "title": "TRUMP allocation disclosure",
+          "publisher": "Get Trump Memes",
+          "date": null,
+          "verified": true,
+          "finding": "Official allocation: 80% creators/CIC, 10% liquidity, 10% public distribution; 200 m of 1 bn tokens available at launch, remainder over three years. Current site reiterates launch schedule."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "154-C32",
+      "claim": "Paper wealth exceeds realizability.",
+      "kind": "explanation",
+      "source_blocks": [
+        90
+      ],
+      "family": "market-cap-liquidity",
+      "asset_or_variable": "market-cap-liquidity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "A last-price market capitalization is not a guaranteed liquidation value.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Finite downward-sloping demand",
+          "Sale size exceeds liquidity at last price"
+        ],
+        "derivation": "Market capitalization is p_last times supply; realized sale proceeds are the sum of quantities times execution prices, which decline along the demand curve."
+      }
+    },
+    {
+      "id": "154-C33",
+      "claim": "Memecoin narrative eventually peaks.",
+      "kind": "forecast",
+      "source_blocks": [
+        91
+      ],
+      "family": "memecoin-cycle-top",
+      "asset_or_variable": "memecoin-cycle-top",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Eventually and largest possible meme impose no deadline or stable comparison universe. Any later drawdown cannot establish a permanent top.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Specify cycle boundary and capitalization measure in advance."
+    },
+    {
+      "id": "154-C34",
+      "claim": "Solana crowds out Ethereum.",
+      "kind": "explanation",
+      "source_blocks": [
+        92,
+        93
+      ],
+      "family": "ethereum-competitive-pressure",
+      "asset_or_variable": "ethereum-competitive-pressure",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Relative ether weakness is observable, but Solana meme activity is only one candidate explanation. ETF flows, fees and token value capture also matter.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ETH-USD/history/",
+          "title": "ETH-USD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2025-01-19\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2025-01-20\",\"exit\":\"2026-11-07\",\"days\":656,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"ETH-USD\":{\"entry_adjusted_close\":3278.035400390625,\"exit_adjusted_close\":2222.199951171875,\"cumulative_return_pct\":-32.20939740592588,\"annualized_return_pct\":-19.462535299393778,\"source\":\"https://finance.yahoo.com/quote/ETH-USD/history/\"},\"BTC-USD\":{\"entry_adjusted_close\":102016.6640625,\"exit_adjusted_close\":75508.5,\"cumulative_return_pct\":-25.984151026796866,\"annualized_return_pct\":-15.424970449705533,\"source\":\"https://finance.yahoo.com/quote/BTC-USD/history/\"}},\"excess_percentage_points\":-6.225246379129011}"
+        }
+      ],
+      "next_check": "Compare activity, fees and flows while controlling for broad crypto conditions."
+    },
+    {
+      "id": "154-C35",
+      "claim": "Bitcoin preferred over ether.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        95
+      ],
+      "family": "bitcoin-over-ethereum",
+      "asset_or_variable": "bitcoin-over-ethereum",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Repeated undated allocation preference. The relative-price sensitivity is useful but cannot create an author deadline.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2025-01-19\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2025-01-20\",\"exit\":\"2026-11-07\",\"days\":656,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"BTC-USD\":{\"entry_adjusted_close\":102016.6640625,\"exit_adjusted_close\":75508.5,\"cumulative_return_pct\":-25.984151026796866,\"annualized_return_pct\":-15.424970449705533,\"source\":\"https://finance.yahoo.com/quote/BTC-USD/history/\"},\"ETH-USD\":{\"entry_adjusted_close\":3278.035400390625,\"exit_adjusted_close\":2222.199951171875,\"cumulative_return_pct\":-32.20939740592588,\"annualized_return_pct\":-19.462535299393778,\"source\":\"https://finance.yahoo.com/quote/ETH-USD/history/\"}},\"excess_percentage_points\":6.225246379129011}"
+        }
+      ],
+      "next_check": "Retain original July 2024 thesis and distinguish holdings from timing calls."
+    },
+    {
+      "id": "154-C36",
+      "claim": "Tax selling drives rebounds.",
+      "kind": "explanation",
+      "source_blocks": [
+        114,
+        115,
+        117
+      ],
+      "family": "tax-loss-selling",
+      "asset_or_variable": "tax-loss-selling",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "January recovery is consistent with tax selling but does not isolate it from earnings, FX or general risk appetite.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use investor flow/tax-lot data and matched control securities."
+    },
+    {
+      "id": "154-C37",
+      "claim": "Brazil fiscal risk hurts currency.",
+      "kind": "explanation",
+      "source_blocks": [
+        128,
+        129
+      ],
+      "family": "brazil-fiscal-fx-risk",
+      "asset_or_variable": "brazil-fiscal-fx-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A plausible risk channel; the share of the currency move attributable to fiscal deterioration requires identification against dollar and commodity shocks.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare fiscal news, yield curve and BRL moves with matched emerging markets."
+    },
+    {
+      "id": "154-C38",
+      "claim": "Brazil runs current-account surpluses.",
+      "kind": "empirical",
+      "source_blocks": [
+        131
+      ],
+      "family": "brazil-external-balance",
+      "asset_or_variable": "brazil-external-balance",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "Brazil had a substantial current-account deficit around publication, even while goods trade was in surplus. This repeated error materially weakens the balance-of-payments cushion argument.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bcb.gov.br/content/statistics/externalsectorstatistics_prev/202502_External_sector_statistics_text.pdf",
+          "title": "External sector statistics",
+          "publisher": "Banco Central do Brasil",
+          "date": "2025-02-27",
+          "verified": true,
+          "finding": "January current-account deficit $8.7 bn; trailing-year deficit $65.4 bn or 3.02% GDP. December 2024 trailing deficit $61.2 bn, despite goods trade surplus."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "154-C39",
+      "claim": "Brazil rebound offers upside.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        132
+      ],
+      "family": "brazil-2025-rebound",
+      "asset_or_variable": "brazil-2025-rebound",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "potential",
+      "verdict": "right",
+      "reason": "Named bank proxy ITUB gained about 70.1% from the first post-publication close to year-end, versus SPY 14.4%. Regional ILF also gained, but it is not a pure Brazil benchmark. This supports the dated opportunity, not the erroneous current-account rationale.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ITUB/history/",
+          "title": "ITUB adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2025-01-19\",\"requested_endpoint\":\"2025-12-31\",\"entry\":\"2025-01-21\",\"exit\":\"2025-12-31\",\"days\":344,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"ITUB\":{\"entry_adjusted_close\":4.1170878410339355,\"exit_adjusted_close\":7.003624439239502,\"cumulative_return_pct\":70.11112489357679,\"annualized_return_pct\":75.78662481488419,\"source\":\"https://finance.yahoo.com/quote/ITUB/history/\"},\"SPY\":{\"entry_adjusted_close\":591.4309692382812,\"exit_adjusted_close\":676.635009765625,\"cumulative_return_pct\":14.406421874911324,\"annualized_return_pct\":15.361547902832061,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":55.70470301866546}"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/ILF/history/",
+          "title": "ILF adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2025-01-19\",\"requested_endpoint\":\"2025-12-31\",\"entry\":\"2025-01-21\",\"exit\":\"2025-12-31\",\"days\":344,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"ILF\":{\"entry_adjusted_close\":20.685579299926758,\"exit_adjusted_close\":30.06642723083496,\"cumulative_return_pct\":45.349698912910874,\"annualized_return_pct\":48.746579081792895,\"source\":\"https://finance.yahoo.com/quote/ILF/history/\"},\"SPY\":{\"entry_adjusted_close\":591.4309692382812,\"exit_adjusted_close\":676.635009765625,\"cumulative_return_pct\":14.406421874911324,\"annualized_return_pct\":15.361547902832061,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":30.94327703799955}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "154-C40",
+      "claim": "Equal weight should improve.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        135,
+        140,
+        141
+      ],
+      "family": "equal-weight-rotation",
+      "asset_or_variable": "equal-weight-rotation",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The expressed 2025 rotation through RSP underperformed: about 7.0% versus SPY 14.4% after publication. Lower concentration did not deliver the implied relative rebound in that year.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/RSP/history/",
+          "title": "RSP adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2025-01-19\",\"requested_endpoint\":\"2025-12-31\",\"entry\":\"2025-01-21\",\"exit\":\"2025-12-31\",\"days\":344,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"RSP\":{\"entry_adjusted_close\":176.91250610351562,\"exit_adjusted_close\":189.2959747314453,\"cumulative_return_pct\":6.999770056212884,\"annualized_return_pct\":7.447896645210594,\"source\":\"https://finance.yahoo.com/quote/RSP/history/\"},\"SPY\":{\"entry_adjusted_close\":591.4309692382812,\"exit_adjusted_close\":676.635009765625,\"cumulative_return_pct\":14.406421874911324,\"annualized_return_pct\":15.361547902832061,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-7.40665181869844}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "154-C41",
+      "claim": "Walmart valuation creates risk.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        138,
+        140
+      ],
+      "family": "wmt-valuation-risk",
+      "asset_or_variable": "wmt-valuation-risk",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A valuation-risk warning has no loss threshold. WMT outperformed SPY during the remainder of 2025, which is relevant counterevidence to the rotation narrative but not proof its valuation was permanently justified.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/WMT/history/",
+          "title": "WMT adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2025-01-19\",\"requested_endpoint\":\"2025-12-31\",\"entry\":\"2025-01-21\",\"exit\":\"2025-12-31\",\"days\":344,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"WMT\":{\"entry_adjusted_close\":91.61408233642578,\"exit_adjusted_close\":110.70501708984375,\"cumulative_return_pct\":20.838428183248215,\"annualized_return_pct\":22.259648311836532,\"source\":\"https://finance.yahoo.com/quote/WMT/history/\"},\"SPY\":{\"entry_adjusted_close\":591.4309692382812,\"exit_adjusted_close\":676.635009765625,\"cumulative_return_pct\":14.406421874911324,\"annualized_return_pct\":15.361547902832061,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":6.4320063083368915}"
+        }
+      ],
+      "next_check": "Compare subsequent earnings growth and multiple changes, not just price."
+    },
+    {
+      "id": "154-C42",
+      "claim": "Gold follows dollar liquidity.",
+      "kind": "explanation",
+      "source_blocks": [
+        145
+      ],
+      "family": "gold-dollar-rate-sensitivity",
+      "asset_or_variable": "gold-dollar-rate-sensitivity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The text offers two price scenarios and a correlation expectation without a coefficient or lag. It is not a firm near-term breakout call.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Estimate conditional relationships with real yields and central-bank demand."
+    },
+    {
+      "id": "154-C43",
+      "claim": "Gold retains structural upside.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        146
+      ],
+      "family": "gold-secular-breakout",
+      "asset_or_variable": "gold-secular-breakout",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Undated bullishness remains a valuation thesis. Strong subsequent gains are sensitivity evidence, not a deadline invented after the event.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2025-01-19\",\"requested_endpoint\":\"2025-12-31\",\"entry\":\"2025-01-21\",\"exit\":\"2025-12-31\",\"days\":344,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"GLD\":{\"entry_adjusted_close\":253.1300048828125,\"exit_adjusted_close\":396.30999755859375,\"cumulative_return_pct\":56.56381697699844,\"annualized_return_pct\":60.96005895518106,\"source\":\"https://finance.yahoo.com/quote/GLD/history/\"},\"SPY\":{\"entry_adjusted_close\":591.4309692382812,\"exit_adjusted_close\":676.635009765625,\"cumulative_return_pct\":14.406421874911324,\"annualized_return_pct\":15.361547902832061,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":42.157395102087115}"
+        }
+      ],
+      "next_check": "Track reserve purchases and real returns at a predeclared horizon."
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "TGA/RRP",
+      "source_blocks": [
+        12,
+        21
+      ],
+      "use": "Reserves",
+      "image_inspected": false
+    },
+    {
+      "name": "Broad USD/CNY",
+      "source_blocks": [
+        35
+      ],
+      "use": "Funding",
+      "image_inspected": false
+    },
+    {
+      "name": "NIIP",
+      "source_blocks": [
+        49
+      ],
+      "use": "Ownership",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        120
+      ],
+      "use": "Valuation",
+      "image_inspected": false
+    },
+    {
+      "name": "RSP/SPY",
+      "source_blocks": [
+        135
+      ],
+      "use": "Breadth",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate funding channels from net trade balances."
+  ],
+  "assessment": "The dated Brazil rebound and bitcoin breakout worked, while equal-weight rotation and the shorter debt-ceiling dispute did not. Brazil current-account and TRUMP allocation errors are clear. The trade framework correctly highlights adjustment costs but overstates the necessity of US deficits for dollar creation. These errors should remain visible even where investment direction succeeded.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

@@ -1,0 +1,817 @@
+{
+  "article_id": "058",
+  "title": "Economic Update",
+  "date": "2021-05-30",
+  "source_url": "https://www.lynalden.com/premium-2021-5-30/",
+  "read_complete": true,
+  "summary": "Income normalization, Fed policy and energy allocation.",
+  "coverage_note": "Read all blocks and image labels, including valuation and portfolio sections. Excluded scheduling, disclaimers and position lists without theses. Separate near-term measured predictions, historical explanations and decade-long forecasts.",
+  "claims": [
+    {
+      "id": "058-C01",
+      "claim": "Transfer-driven income fades.",
+      "kind": "forecast",
+      "source_blocks": [
+        7,
+        9,
+        11,
+        14
+      ],
+      "family": "fiscal-impulse-rollover",
+      "asset_or_variable": "fiscal-impulse-rollover",
+      "horizon": "Spring 2021",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "April income fell 13.1% as stimulus checks subsided; May fell another 2.0%. Spending did not fall in proportion, so the result confirms income normalization, not an automatic consumption crash.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Spring 2021",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/sites/default/files/2021-05/pi0421_fax.pdf",
+          "title": "April income and outlays",
+          "publisher": "BEA",
+          "date": "2021-05-28",
+          "verified": true,
+          "finding": "April personal income fell 13.1% as economic impact payments subsided; spending rose 0.5%. Core PCE inflation was 3.1%."
+        },
+        {
+          "url": "https://www.bea.gov/sites/default/files/2021-06/pi0521_fax.pdf",
+          "title": "May income and outlays",
+          "publisher": "BEA",
+          "date": "2021-06-25",
+          "verified": true,
+          "finding": "Initial May report: core PCE inflation 3.4% year over year, headline 3.9%; personal income fell 2.0%, primarily reflecting falling government social benefits."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "058-C02",
+      "claim": "Low bases amplify growth.",
+      "kind": "explanation",
+      "source_blocks": [
+        8,
+        23
+      ],
+      "family": "base-effects",
+      "asset_or_variable": "base-effects",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "This is arithmetic, not a separate macro forecast. It explains why a low comparison period can amplify a year-over-year reading even with unchanged current activity.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Positive current and prior-period levels; current level held fixed."
+        ],
+        "derivation": "g = current/prior - 1; reducing the positive prior level increases g."
+      }
+    },
+    {
+      "id": "058-C03",
+      "claim": "Wages and energy remain firm.",
+      "kind": "empirical",
+      "source_blocks": [
+        17
+      ],
+      "family": "reflation-demand",
+      "asset_or_variable": "reflation-demand",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The two real-economy components require contemporaneous earnings and petroleum consumption series. Transfer income alone establishes neither.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare April-May 2021 average earnings and petroleum product supplied with prior months, separating wages from employment composition."
+    },
+    {
+      "id": "058-C04",
+      "claim": "Speculative cash wanes.",
+      "kind": "explanation",
+      "source_blocks": [
+        17
+      ],
+      "family": "fiscal-speculation-link",
+      "asset_or_variable": "fiscal-speculation-link",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Lower transfers need not mean lower brokerage purchasing power: savings, leverage and asset sales can offset them. No exposure measure or causal identification is provided.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "058-C05",
+      "claim": "Energy rises over years.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        18
+      ],
+      "family": "energy-supercycle",
+      "asset_or_variable": "energy-supercycle",
+      "horizon": "Next few years; three years specified in block 87",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Using the explicit three-year energy horizon later in this article, IXC gained 77.85% versus SPY 30.16%. This supports the sector direction, without proving the proposed capex mechanism.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Next few years; three years specified in block 87",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/IXC/history/",
+          "title": "IXC adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2021-05-30\",\"requested_endpoint\":\"2024-05-30\",\"entry\":\"2021-06-01\",\"exit\":\"2024-05-30\",\"days\":1094,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"IXC\":{\"entry_adjusted_close\":21.76769256591797,\"exit_adjusted_close\":38.71417236328125,\"cumulative_return_pct\":77.85152122139331,\"annualized_return_pct\":21.195323325094396,\"source\":\"https://finance.yahoo.com/quote/IXC/history/\"},\"SPY\":{\"entry_adjusted_close\":389.98907470703125,\"exit_adjusted_close\":507.6217956542969,\"cumulative_return_pct\":30.163081115960487,\"annualized_return_pct\":9.20025511925424,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":47.688440105432825}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "058-C06",
+      "claim": "Demand cycles influence inflation.",
+      "kind": "explanation",
+      "source_blocks": [
+        27
+      ],
+      "family": "demand-supply-inflation",
+      "asset_or_variable": "demand-supply-inflation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The acknowledged supply-shock exception is sensible, but a tendency without sample, lag or effect size cannot earn an empirical accuracy point.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "058-C07",
+      "claim": "Fed has competing mandates.",
+      "kind": "explanation",
+      "source_blocks": [
+        40
+      ],
+      "family": "fed-dual-mandate",
+      "asset_or_variable": "fed-dual-mandate",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The framework explicitly retains maximum employment and price stability and considers financial risks that impede those goals. Financial stability is not a third statutory inflation target.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/powell20200827a.htm",
+          "title": "Monetary policy framework review",
+          "publisher": "Federal Reserve",
+          "date": "2020-08-27",
+          "verified": true,
+          "finding": "Powell described inclusive employment and moderate inflation overshoots after undershoots, while retaining 2% long-run inflation. No averaging formula; excessive inflation would prompt action. Volcker disinflation restored price stability."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "058-C08",
+      "claim": "Mandate priorities vary.",
+      "kind": "explanation",
+      "source_blocks": [
+        41
+      ],
+      "family": "fed-reaction-function",
+      "asset_or_variable": "fed-reaction-function",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Tradeoffs depend on the shock and forecast. The statement does not define a universal hierarchy or quantify the loss function.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "058-C09",
+      "claim": "Volcker accepted unemployment costs.",
+      "kind": "explanation",
+      "source_blocks": [
+        42
+      ],
+      "family": "volcker-disinflation",
+      "asset_or_variable": "volcker-disinflation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The Fed historical account supports disinflation through Volcker policy. A separate labor series is still needed to quantify the unemployment path and distinguish policy costs from other shocks.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/powell20200827a.htm",
+          "title": "Monetary policy framework review",
+          "publisher": "Federal Reserve",
+          "date": "2020-08-27",
+          "verified": true,
+          "finding": "Powell described inclusive employment and moderate inflation overshoots after undershoots, while retaining 2% long-run inflation. No averaging formula; excessive inflation would prompt action. Volcker disinflation restored price stability."
+        }
+      ],
+      "next_check": "Add 1979-1982 unemployment and effective funds observations; do not assign the whole recession to one cause."
+    },
+    {
+      "id": "058-C10",
+      "claim": "Employment dominated Powell policy.",
+      "kind": "explanation",
+      "source_blocks": [
+        43,
+        44
+      ],
+      "family": "fed-employment-priority",
+      "asset_or_variable": "fed-employment-priority",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Inclusive employment and tolerated moderate overshoots are documented. Saying employment was chosen over stable prices overstates a framework that retained both goals and promised action against excessive inflation.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/powell20200827a.htm",
+          "title": "Monetary policy framework review",
+          "publisher": "Federal Reserve",
+          "date": "2020-08-27",
+          "verified": true,
+          "finding": "Powell described inclusive employment and moderate inflation overshoots after undershoots, while retaining 2% long-run inflation. No averaging formula; excessive inflation would prompt action. Volcker disinflation restored price stability."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "058-C11",
+      "claim": "Policy enables inflation regime.",
+      "kind": "forecast",
+      "source_blocks": [
+        47
+      ],
+      "family": "inflationary-2020s",
+      "asset_or_variable": "inflationary-2020s",
+      "horizon": null,
+      "conditions": "Fiscal policy supports sustained inflation",
+      "modality": "possible",
+      "verdict": "not_testable",
+      "reason": "This explicitly attributed, conditional regime possibility supplies neither an inflation threshold nor a resolution date; it should not be treated as a new calibrated forecast.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "058-C12",
+      "claim": "Core PCE guides policy.",
+      "kind": "explanation",
+      "source_blocks": [
+        48
+      ],
+      "family": "fed-inflation-metric",
+      "asset_or_variable": "fed-inflation-metric",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Core PCE is an analytical signal, while the formal 2% objective is the total PCE index. Treating core as the target would omit food and energy from the statutory strategy.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/timeline-statement-on-longer-run-goals-and-monetary-policy-strategy.htm",
+          "title": "Inflation objective timeline",
+          "publisher": "Federal Reserve",
+          "date": "2019-02-22",
+          "verified": true,
+          "finding": "The 2016 statement explicitly called the 2% goal symmetric and persistent deviations above or below concerning; November 2014 minutes already treated moderate deviations on either side as equally costly."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "058-C13",
+      "claim": "May core PCE: 3-3.5%.",
+      "kind": "forecast",
+      "source_blocks": [
+        49
+      ],
+      "family": "may-2021-pce-nowcast",
+      "asset_or_variable": "may-2021-pce-nowcast",
+      "horizon": "May 2021 year-over-year release",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The June 25 first release reported 3.4%, inside the predicted range. This uses the initial publication rather than a revised latest-vintage series.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "May 2021 year-over-year release",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/sites/default/files/2021-06/pi0521_fax.pdf",
+          "title": "May income and outlays",
+          "publisher": "BEA",
+          "date": "2021-06-25",
+          "verified": true,
+          "finding": "Initial May report: core PCE inflation 3.4% year over year, headline 3.9%; personal income fell 2.0%, primarily reflecting falling government social benefits."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "058-C14",
+      "claim": "Previously, 2% was ceiling.",
+      "kind": "explanation",
+      "source_blocks": [
+        50
+      ],
+      "family": "fed-pre2020-target",
+      "asset_or_variable": "fed-pre2020-target",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The pre-2020 objective was explicitly symmetric in 2016, with the same concept in 2014 minutes. A claimed practical tightening bias would need separate evidence; it cannot establish that the policy target was a ceiling.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/timeline-statement-on-longer-run-goals-and-monetary-policy-strategy.htm",
+          "title": "Inflation objective timeline",
+          "publisher": "Federal Reserve",
+          "date": "2019-02-22",
+          "verified": true,
+          "finding": "The 2016 statement explicitly called the 2% goal symmetric and persistent deviations above or below concerning; November 2014 minutes already treated moderate deviations on either side as equally costly."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "058-C15",
+      "claim": "AIT allows overshoots.",
+      "kind": "explanation",
+      "source_blocks": [
+        50
+      ],
+      "family": "fed-average-inflation-targeting",
+      "asset_or_variable": "fed-average-inflation-targeting",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The 2020 framework expressly allowed moderate overshoots following undershoots, with no fixed averaging formula.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/powell20200827a.htm",
+          "title": "Monetary policy framework review",
+          "publisher": "Federal Reserve",
+          "date": "2020-08-27",
+          "verified": true,
+          "finding": "Powell described inclusive employment and moderate inflation overshoots after undershoots, while retaining 2% long-run inflation. No averaging formula; excessive inflation would prompt action. Volcker disinflation restored price stability."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "058-C16",
+      "claim": "Overshoots repay decade undershoots.",
+      "kind": "explanation",
+      "source_blocks": [
+        51,
+        54
+      ],
+      "family": "fed-inflation-makeup",
+      "asset_or_variable": "fed-inflation-makeup",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "Powell expressly rejected a mathematical averaging formula. The colored-area interpretation incorrectly implies a commitment to compensate the entire preceding decade, which the framework did not make.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/powell20200827a.htm",
+          "title": "Monetary policy framework review",
+          "publisher": "Federal Reserve",
+          "date": "2020-08-27",
+          "verified": true,
+          "finding": "Powell described inclusive employment and moderate inflation overshoots after undershoots, while retaining 2% long-run inflation. No averaging formula; excessive inflation would prompt action. Volcker disinflation restored price stability."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "058-C17",
+      "claim": "Fed tolerates late tightening.",
+      "kind": "forecast",
+      "source_blocks": [
+        55
+      ],
+      "family": "fed-behind-curve",
+      "asset_or_variable": "fed-behind-curve",
+      "horizon": "2021/2022 discussion",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Rates stayed unchanged in 2021, but taper began that November and rate increases began March 2022, reaching 425 bp by year-end. The near-term patience was real; it was not a commitment to prolonged accommodation.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "2021/2022 discussion",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-federal-reserves-responses-to-the-post-covid-period-of-high-inflation-20240214.html",
+          "title": "Post-Covid policy chronology",
+          "publisher": "Federal Reserve",
+          "date": "2024-02-14",
+          "verified": true,
+          "finding": "Taper began November 2021 with simultaneous $10 bn Treasury/$5 bn MBS monthly reductions, accelerated in December, ended March 2022; rate liftoff followed in March. Tight labor markets and inflation prompted tightening."
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20221214a.htm",
+          "title": "December 2022 FOMC",
+          "publisher": "Federal Reserve",
+          "date": "2022-12-14",
+          "verified": true,
+          "finding": "Target range reached 4.25-4.50%, 425 bp above the 0-0.25% range held throughout 2021; balance-sheet runoff also underway."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "058-C18",
+      "claim": "A mild 1940s analogue.",
+      "kind": "explanation",
+      "source_blocks": [
+        56
+      ],
+      "family": "1940s-fiscal-analogue",
+      "asset_or_variable": "1940s-fiscal-analogue",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "An analogy without metrics for fiscal dominance, controls, output or inflation is a framing device rather than a scoreable forecast.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "058-C19",
+      "claim": "Fiscal versus lending inflation.",
+      "kind": "explanation",
+      "source_blocks": [
+        58
+      ],
+      "family": "fiscal-versus-credit-inflation",
+      "asset_or_variable": "fiscal-versus-credit-inflation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The proposed historical decomposition needs fiscal and credit data plus supply constraints. Similar price patterns cannot establish the relative causal contributions.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare wartime fiscal expenditures, bank credit and controls with 1970s credit, oil shocks and policy accommodation; retain uncertainty on attribution."
+    },
+    {
+      "id": "058-C20",
+      "claim": "2020s exceed 2010s inflation.",
+      "kind": "forecast",
+      "source_blocks": [
+        59
+      ],
+      "family": "inflationary-2020s",
+      "asset_or_variable": "inflationary-2020s",
+      "horizon": "2020-2029 versus 2010-2019",
+      "conditions": null,
+      "modality": "base case",
+      "verdict": "too_early",
+      "reason": "A full-decade comparison cannot close before 2029 is complete. The substantial inflation already observed is relevant progress, not a completed decade verdict.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "2020-2029 versus 2010-2019",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "058-C21",
+      "claim": "Taper precedes rate hikes.",
+      "kind": "forecast",
+      "source_blocks": [
+        60
+      ],
+      "family": "fed-taper-before-hike",
+      "asset_or_variable": "fed-taper-before-hike",
+      "horizon": "Next tightening cycle",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Asset purchase taper began November 2021 and ended March 2022, when rate liftoff occurred. The predicted sequence and intervening months were observed.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Next tightening cycle",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-federal-reserves-responses-to-the-post-covid-period-of-high-inflation-20240214.html",
+          "title": "Post-Covid policy chronology",
+          "publisher": "Federal Reserve",
+          "date": "2024-02-14",
+          "verified": true,
+          "finding": "Taper began November 2021 with simultaneous $10 bn Treasury/$5 bn MBS monthly reductions, accelerated in December, ended March 2022; rate liftoff followed in March. Tight labor markets and inflation prompted tightening."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "058-C22",
+      "claim": "High valuations impair returns.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        68
+      ],
+      "family": "us-equity-valuation",
+      "asset_or_variable": "us-equity-valuation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No return hurdle or elapsed horizon is specified for this valuation warning. The unseen slide deck cannot supply a test criterion.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "058-C23",
+      "claim": "Stocks may beat Treasuries.",
+      "kind": "forecast",
+      "source_blocks": [
+        69
+      ],
+      "family": "stocks-versus-bonds-decade",
+      "asset_or_variable": "stocks-versus-bonds-decade",
+      "horizon": "May 2021-May 2031",
+      "conditions": null,
+      "modality": "decent chance",
+      "verdict": "too_early",
+      "reason": "The stated decade ends in May 2031. A proper final test needs reinvested equity dividends and a defined Treasury portfolio or maturity-matched bond.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "May 2021-May 2031",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "058-C24",
+      "claim": "Selective value offers opportunity.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        70,
+        71,
+        72
+      ],
+      "family": "selective-value",
+      "asset_or_variable": "selective-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Cheapness and portfolio selectivity are not dated, specified return predictions. Diversification reduces concentration but cannot eliminate systematic valuation risk.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "058-C25",
+      "claim": "CNQ preferred to DEO.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        80,
+        81
+      ],
+      "family": "cnq-over-deo",
+      "asset_or_variable": "cnq-over-deo",
+      "horizon": "Years ahead",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The swap had a strongly favorable three-year sensitivity: CNQ +147.96% versus DEO -26.89%. Block 81 only says years ahead, so this is not an independently specified exact deadline or proof of operating claims.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "Years ahead",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/CNQ/history/",
+          "title": "CNQ adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2021-05-30\",\"requested_endpoint\":\"2024-05-30\",\"entry\":\"2021-06-01\",\"exit\":\"2024-05-30\",\"days\":1094,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"CNQ\":{\"entry_adjusted_close\":13.955089569091797,\"exit_adjusted_close\":34.60235595703125,\"cumulative_return_pct\":147.95509757006303,\"annualized_return_pct\":35.41537121344489,\"source\":\"https://finance.yahoo.com/quote/CNQ/history/\"},\"DEO\":{\"entry_adjusted_close\":166.62396240234375,\"exit_adjusted_close\":121.81092071533203,\"cumulative_return_pct\":-26.89471612660519,\"annualized_return_pct\":-9.930646555537725,\"source\":\"https://finance.yahoo.com/quote/DEO/history/\"}},\"excess_percentage_points\":174.8498136966682}"
+        }
+      ],
+      "next_check": "Separate company cash-flow and reserve-decline evidence from this measured relative-price result."
+    },
+    {
+      "id": "058-C26",
+      "claim": "Capex restraint tightens oil.",
+      "kind": "explanation",
+      "source_blocks": [
+        81
+      ],
+      "family": "oil-underinvestment",
+      "asset_or_variable": "oil-underinvestment",
+      "horizon": null,
+      "conditions": "Demand recovery persists; no major curveballs",
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The causal chain depends on demand, inventories, OPEC spare capacity and productivity as well as investment. Later price gains cannot identify ESG as the decisive cause.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "058-C27",
+      "claim": "CNQ cash generation strengthens.",
+      "kind": "empirical",
+      "source_blocks": [
+        81
+      ],
+      "family": "cnq-cash-flow",
+      "asset_or_variable": "cnq-cash-flow",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A stock return is not evidence of free cash flow, dividend coverage or reserve decline rates.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use CNQ 2021 audited cash flow, capital investment and reserve-life disclosures; distinguish trailing results from future expectations."
+    },
+    {
+      "id": "058-C28",
+      "claim": "IXC preferred to Berkshire.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        87
+      ],
+      "family": "energy-over-berkshire",
+      "asset_or_variable": "energy-over-berkshire",
+      "horizon": "Three years, through May 2024",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Across the stated three years, IXC gained 77.85% versus BRK-B 40.98%, using first common tradable close after publication and adjusted-close proxies. This is an allocation comparison, not audited account performance.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Three years, through May 2024",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/IXC/history/",
+          "title": "IXC adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2021-05-30\",\"requested_endpoint\":\"2024-05-30\",\"entry\":\"2021-06-01\",\"exit\":\"2024-05-30\",\"days\":1094,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"IXC\":{\"entry_adjusted_close\":21.76769256591797,\"exit_adjusted_close\":38.71417236328125,\"cumulative_return_pct\":77.85152122139331,\"annualized_return_pct\":21.195323325094396,\"source\":\"https://finance.yahoo.com/quote/IXC/history/\"},\"BRK-B\":{\"entry_adjusted_close\":289.8399963378906,\"exit_adjusted_close\":408.6099853515625,\"cumulative_return_pct\":40.97777757187515,\"annualized_return_pct\":12.149260819161567,\"source\":\"https://finance.yahoo.com/quote/BRK-B/history/\"}},\"excess_percentage_points\":36.87374364951816}"
+        }
+      ],
+      "next_check": null
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Income and WTI",
+      "source_blocks": [
+        13,
+        16,
+        20
+      ],
+      "use": "Cycle diagnostics",
+      "image_inspected": false
+    },
+    {
+      "name": "Business heatmap",
+      "source_blocks": [
+        22,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "use": "Growth breadth",
+      "image_inspected": false
+    },
+    {
+      "name": "PCE and employment",
+      "source_blocks": [
+        45,
+        49,
+        52,
+        57,
+        61
+      ],
+      "use": "Policy tradeoffs",
+      "image_inspected": false
+    },
+    {
+      "name": "Valuation deck and FAST Graphs",
+      "source_blocks": [
+        65,
+        83
+      ],
+      "use": "Relative value",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [],
+  "assessment": "The strongest resolved calls are the precise May core-PCE range and taper-before-hikes sequence, plus the three-year energy allocation. The policy interpretation contains a substantive error: flexible inflation averaging did not obligate the Fed to compensate the prior decade, and the earlier target was already symmetric. Separate those institutional inaccuracies from the successful near-term policy patience forecast. Long-decade forecasts remain open; causal oil and speculation arguments are less well identified.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

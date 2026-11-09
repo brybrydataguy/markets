@@ -1,0 +1,754 @@
+{
+  "article_id": "184",
+  "title": "Private Credit, Software, and Energy",
+  "date": "2026-03-15",
+  "source_url": "https://www.lynalden.com/premium-2026-3-15/",
+  "read_complete": true,
+  "evaluation_as_of": "2026-11-07",
+  "summary": "Private credit, banks and energy stress.",
+  "assessment": "This report updates the Iran view and makes useful distinctions between bank deposits and patient investment capital. The central banking conclusion has partial independent support, but exposure ratios are not sufficient stress tests and the treatment of undrawn credit as not yet risky is incorrect. Adobe’s reported business growth is stronger evidence than its claimed cheapness.",
+  "claims": [
+    {
+      "claim": "Dollar debts create compulsory crisis demand.",
+      "source_blocks": [
+        9,
+        10,
+        11
+      ],
+      "verdict": "right",
+      "reason": "Fixed dollar obligations require dollar settlement unless renegotiated. Falling revenues can force borrowers to acquire dollars or liquidate assets. This bounded mechanism does not imply that the exchange rate always rises, since other flows can dominate.",
+      "kind": "explanation",
+      "family": "dollar-debt-financial-channel",
+      "asset_or_variable": "dollar-debt-financial-channel",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Dollar obligation remains payable",
+          "Borrower lacks sufficient dollar cash",
+          "No refinancing or renegotiation"
+        ],
+        "derivation": "The borrower must convert resources into dollars or default. Aggregate exchange-rate effects additionally depend on other demand and supply."
+      },
+      "id": "184-C01"
+    },
+    {
+      "claim": "Costlier energy squeezes other spending.",
+      "source_blocks": [
+        13,
+        25
+      ],
+      "verdict": "right",
+      "reason": "For a household or firm with a fixed nominal budget, higher expenditure on an unchanged energy quantity leaves less for other uses. Producer income, borrowing, fiscal transfers and substitution prevent this partial-equilibrium identity from proving an equal aggregate-demand loss.",
+      "kind": "explanation",
+      "family": "energy-income-squeeze",
+      "asset_or_variable": "energy-income-squeeze",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Budget fixed",
+          "Energy quantity unchanged"
+        ],
+        "derivation": "Non-energy budget equals total budget less price times energy quantity; increasing energy price reduces that residual."
+      },
+      "id": "184-C02"
+    },
+    {
+      "claim": "Fed facilities limit funding stress.",
+      "source_blocks": [
+        14,
+        16
+      ],
+      "verdict": "mixed",
+      "reason": "Reserve-management operations verify the response framework. Access, collateral eligibility and stigma constrain facilities, and central-bank liquidity cannot cure an insolvent borrower. This supports a backstop, not coverage of every financial problem.",
+      "kind": "explanation",
+      "family": "central-bank-liquidity-backstop",
+      "asset_or_variable": "central-bank-liquidity-backstop",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/newsevents/speeches/2026/per260326",
+          "title": "Early experience with reserve management purchases",
+          "publisher": "New York Fed",
+          "date": "2026-03-26",
+          "verified": true,
+          "finding": "The Desk purchased about $40 billion monthly ahead of expected April tax flows. The objective was maintaining ample reserves."
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-funding-risks.htm",
+          "title": "May 2026 financial stability: funding risks",
+          "publisher": "Federal Reserve",
+          "date": "2026-05-28",
+          "verified": true,
+          "finding": "Bank funding risks remained moderate. Some semi-liquid private-credit funds capped redemptions; bank credit lines were among their funding resources. Traditional closed funds differ materially from redeemable vehicles."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C03"
+    },
+    {
+      "claim": "Growth had weakened before the shock.",
+      "source_blocks": [
+        19,
+        20,
+        25
+      ],
+      "verdict": "right",
+      "reason": "The then-current BEA estimate was 0.7% real annualized growth, with private domestic final sales at 1.9%. These confirm deceleration while avoiding the stronger, unsupported claim that all domestic demand had stopped.",
+      "kind": "empirical",
+      "family": "us-growth-deceleration-2026",
+      "asset_or_variable": "us-growth-deceleration-2026",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/index.php/news/2026/gdp-second-estimate-4th-quarter-and-year-2025",
+          "title": "Q4 2025 second GDP estimate",
+          "publisher": "BEA",
+          "date": "2026-03-13",
+          "verified": true,
+          "finding": "Real growth revised to 0.7% annualized from 1.4%; real private domestic final sales grew 1.9%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C04"
+    },
+    {
+      "claim": "AI contributes to employment stagnation.",
+      "source_blocks": [
+        22,
+        24
+      ],
+      "verdict": "evidence_needed",
+      "reason": "Headline payroll revisions do not identify AI’s causal contribution relative to demographics, immigration, fiscal changes or hiring normalization. The source supplies a multi-cause story, not a measured decomposition.",
+      "kind": "explanation",
+      "family": "ai-labor-market-displacement",
+      "asset_or_variable": "ai-labor-market-displacement",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Compare exposed/unexposed occupations with hiring, vacancies and productivity while controlling for other shocks.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C05"
+    },
+    {
+      "claim": "The early Iran base case deteriorated.",
+      "source_blocks": [
+        29,
+        41,
+        42,
+        44
+      ],
+      "verdict": "right",
+      "reason": "The article explicitly revises its March 1 optimism after two weeks. Persistent severe disruption later corroborates the deterioration. This earns credit for updating; it does not erase the original forecast miss in 183-C 12.",
+      "kind": "empirical",
+      "family": "iran-brief-disruption-2026",
+      "asset_or_variable": "iran-brief-disruption-2026",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/reports/oil-market-report-september-2026",
+          "title": "September oil report",
+          "publisher": "IEA",
+          "date": "2026-09-11",
+          "verified": true,
+          "finding": "Gulf shut-ins exceeded 10mb/d in August; flows remained severely constrained months after the war began."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C06"
+    },
+    {
+      "claim": "Cheap drones constrain expensive defense.",
+      "source_blocks": [
+        44,
+        45,
+        59
+      ],
+      "verdict": "evidence_needed",
+      "reason": "Unit-cost asymmetry is relevant, but cost-per-intercept alone ignores probability of hit, defended asset value, electronic warfare and production rates. The claimed operational effectiveness needs independently verified engagement evidence.",
+      "kind": "explanation",
+      "family": "drone-defense-asymmetry",
+      "asset_or_variable": "drone-defense-asymmetry",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Compare actual interception mix, hit rates, replenishment and protected economic value.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C07"
+    },
+    {
+      "claim": "Energy producers remain useful geopolitical hedges.",
+      "source_blocks": [
+        60,
+        64
+      ],
+      "verdict": "mixed",
+      "reason": "The oil shock supports the mechanism, but entry valuation and geography matter. The author cautions against chasing; no actual portfolio weights or hedge attribution are reconstructed.",
+      "kind": "investment_thesis",
+      "family": "energy-stagflation-hedge",
+      "asset_or_variable": "energy-stagflation-hedge",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/reports/oil-market-report-september-2026",
+          "title": "September oil report",
+          "publisher": "IEA",
+          "date": "2026-09-11",
+          "verified": true,
+          "finding": "Gulf shut-ins exceeded 10mb/d in August; flows remained severely constrained months after the war began."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C08"
+    },
+    {
+      "claim": "Gas disruption raises fertilizer exposure.",
+      "source_blocks": [
+        65,
+        66
+      ],
+      "verdict": "evidence_needed",
+      "reason": "Natural gas is a key input, but product mixes, feedstock contracts, export controls and trade routes determine which producers benefit. Russia’s potential benefit does not follow from exporter rank alone.",
+      "kind": "explanation",
+      "family": "gas-fertilizer-supply-shock",
+      "asset_or_variable": "gas-fertilizer-supply-shock",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Trace ammonia/urea production, delivered prices and producer margins, including Russian restrictions.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C09"
+    },
+    {
+      "claim": "The energy crisis may last months.",
+      "source_blocks": [
+        67,
+        68
+      ],
+      "verdict": "not_testable",
+      "reason": "The scenario subsequently occurred, but the author explicitly declines a predictable timetable and frames it as risk. An unquantified possibility is not a calibrated forecast win.",
+      "kind": "forecast",
+      "family": "iran-prolonged-disruption-risk",
+      "asset_or_variable": "iran-prolonged-disruption-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/reports/oil-market-report-september-2026",
+          "title": "September oil report",
+          "publisher": "IEA",
+          "date": "2026-09-11",
+          "verified": true,
+          "finding": "Gulf shut-ins exceeded 10mb/d in August; flows remained severely constrained months after the war began."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C10"
+    },
+    {
+      "claim": "Bitcoin initially outperformed gold and equities.",
+      "source_blocks": [
+        70,
+        71
+      ],
+      "verdict": "right",
+      "reason": "Using the last prewar common date February 27 through March 13, BTC-USD rose 7.72%, versus GLD -4.74% and SPY -3.45%. Different closing conventions and ETF expenses limit precision. The author correctly avoids inferring permanent safe-haven status from this short window.",
+      "kind": "empirical",
+      "family": "bitcoin-war-relative-performance",
+      "asset_or_variable": "bitcoin-war-relative-performance",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "Bitcoin and ETF historical prices",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Calculated adjusted-close proxies over February 27-March 13, 2026: BTC +7.72%, GLD -4.74%, SPY -3.45%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C11"
+    },
+    {
+      "claim": "Seller exhaustion explains bitcoin resilience.",
+      "source_blocks": [
+        72,
+        73
+      ],
+      "verdict": "evidence_needed",
+      "reason": "A prior drawdown does not identify exhaustion. Positioning, forced-liquidation records and holder flows are required to distinguish this from changes in demand, risk appetite or global funding.",
+      "kind": "explanation",
+      "family": "bitcoin-seller-exhaustion",
+      "asset_or_variable": "bitcoin-seller-exhaustion",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Examine forced liquidations, exchange inventories and holder-flow changes rather than price alone.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C12"
+    },
+    {
+      "claim": "Private credit grew through regulatory differences.",
+      "source_blocks": [
+        92,
+        93,
+        107,
+        110
+      ],
+      "verdict": "mixed",
+      "reason": "Different regulatory treatment and rapid nonbank growth are documented. However NDFI is a broad category, and lack of deposits does not mean absence of leverage, maturity mismatch or runnable funding. Closed capital and semi-liquid retail funds must be separated.",
+      "kind": "explanation",
+      "family": "private-credit-regulatory-migration",
+      "asset_or_variable": "private-credit-regulatory-migration",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-funding-risks.htm",
+          "title": "May 2026 financial stability: funding risks",
+          "publisher": "Federal Reserve",
+          "date": "2026-05-28",
+          "verified": true,
+          "finding": "Bank funding risks remained moderate. Some semi-liquid private-credit funds capped redemptions; bank credit lines were among their funding resources. Traditional closed funds differ materially from redeemable vehicles."
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-leverage.htm",
+          "title": "May 2026 financial stability: leverage",
+          "publisher": "Federal Reserve",
+          "date": "2026-05-28",
+          "verified": true,
+          "finding": "Banks remained sound and shortened asset duration; nonbank credit commitments reached $2.6tn. Classification changes materially revised category totals. Hedge-fund leverage remained at record levels."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C13"
+    },
+    {
+      "claim": "Investor capital absorbs losses before bank lenders.",
+      "source_blocks": [
+        94,
+        109,
+        113,
+        125
+      ],
+      "verdict": "right",
+      "reason": "The priority mechanism holds for a solvent fund’s ordinary senior secured borrowing with adequate equity/subordination. It does not guarantee collateral valuation, enforceability or liquidity under stress, nor apply uniformly to every nonbank structure.",
+      "kind": "explanation",
+      "family": "private-credit-loss-waterfall",
+      "asset_or_variable": "private-credit-loss-waterfall",
+      "horizon": null,
+      "conditions": "Bank claim is senior to fund equity",
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Single asset pool",
+          "Senior bank debt legally enforceable",
+          "Equity junior",
+          "No off-balance-sheet senior claims"
+        ],
+        "derivation": "If asset value falls but remains above senior debt, residual equity bears the decline. Senior principal becomes impaired once asset value falls below its claim."
+      },
+      "id": "184-C14"
+    },
+    {
+      "claim": "Undrawn commitments are not yet risky.",
+      "source_blocks": [
+        111
+      ],
+      "verdict": "wrong",
+      "reason": "An undrawn commitment has contingent funding and credit exposure before cash is advanced. The Fed explicitly includes committed lines in exposure measures and identifies bank lines as resources funds may draw during redemption stress. Outstanding principal is not the complete risk denominator.",
+      "kind": "explanation",
+      "family": "undrawn-credit-risk",
+      "asset_or_variable": "undrawn-credit-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-funding-risks.htm",
+          "title": "May 2026 financial stability: funding risks",
+          "publisher": "Federal Reserve",
+          "date": "2026-05-28",
+          "verified": true,
+          "finding": "Bank funding risks remained moderate. Some semi-liquid private-credit funds capped redemptions; bank credit lines were among their funding resources. Traditional closed funds differ materially from redeemable vehicles."
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-leverage.htm",
+          "title": "May 2026 financial stability: leverage",
+          "publisher": "Federal Reserve",
+          "date": "2026-05-28",
+          "verified": true,
+          "finding": "Banks remained sound and shortened asset duration; nonbank credit commitments reached $2.6tn. Classification changes materially revised category totals. Hedge-fund leverage remained at record levels."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C15"
+    },
+    {
+      "claim": "Reporting changes inflated measured NDFI growth.",
+      "source_blocks": [
+        106,
+        145
+      ],
+      "verdict": "mixed",
+      "reason": "The Fed confirms substantial classification effects and continued genuine growth. Its cited revisions use different categories and dates, so the exact early-2025 $250bn H.8 jump still requires the original reporting change rather than treating all series as interchangeable.",
+      "kind": "explanation",
+      "family": "ndfi-reporting-break",
+      "asset_or_variable": "ndfi-reporting-break",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-leverage.htm",
+          "title": "May 2026 financial stability: leverage",
+          "publisher": "Federal Reserve",
+          "date": "2026-05-28",
+          "verified": true,
+          "finding": "Banks remained sound and shortened asset duration; nonbank credit commitments reached $2.6tn. Classification changes materially revised category totals. Hedge-fund leverage remained at record levels."
+        }
+      ],
+      "next_check": "Reconcile H.8 reporting changes with FR Y-14 commitment classifications and outstanding-loan data.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C16"
+    },
+    {
+      "claim": "Private-credit contagion is broadly containable.",
+      "source_blocks": [
+        99,
+        112,
+        117,
+        121,
+        122,
+        124,
+        126,
+        141,
+        142,
+        143,
+        144,
+        148
+      ],
+      "verdict": "mixed",
+      "reason": "The Fed’s later assessment of sound banks and manageable redemptions supports the base concern being bounded so far. But assets-based haircut arithmetic is not a system stress test: capital, simultaneous losses, drawdowns on commitments and funding feedback matter. Absence of crisis by this cutoff does not calibrate an undated low-risk forecast.",
+      "kind": "forecast",
+      "family": "private-credit-bank-contagion",
+      "asset_or_variable": "private-credit-bank-contagion",
+      "horizon": null,
+      "conditions": null,
+      "modality": "low risk",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-funding-risks.htm",
+          "title": "May 2026 financial stability: funding risks",
+          "publisher": "Federal Reserve",
+          "date": "2026-05-28",
+          "verified": true,
+          "finding": "Bank funding risks remained moderate. Some semi-liquid private-credit funds capped redemptions; bank credit lines were among their funding resources. Traditional closed funds differ materially from redeemable vehicles."
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-leverage.htm",
+          "title": "May 2026 financial stability: leverage",
+          "publisher": "Federal Reserve",
+          "date": "2026-05-28",
+          "verified": true,
+          "finding": "Banks remained sound and shortened asset duration; nonbank credit commitments reached $2.6tn. Classification changes materially revised category totals. Hedge-fund leverage remained at record levels."
+        }
+      ],
+      "next_check": "Stress bank-specific tangible capital, commitments, collateral and correlated CRE/credit losses together.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C17"
+    },
+    {
+      "claim": "Cash and Treasuries improve bank resilience.",
+      "source_blocks": [
+        115,
+        127,
+        129,
+        130,
+        131,
+        132
+      ],
+      "verdict": "mixed",
+      "reason": "Liquid assets help funding resilience, but long-duration Treasuries retain market-value risk. The article explicitly recognizes the 2023 exception; its broad cash-plus-Treasury ratio still omits duration, deposit concentration and capital. Fed evidence of shorter duration is more informative than asset labels alone.",
+      "kind": "explanation",
+      "family": "bank-safe-assets-resilience",
+      "asset_or_variable": "bank-safe-assets-resilience",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-funding-risks.htm",
+          "title": "May 2026 financial stability: funding risks",
+          "publisher": "Federal Reserve",
+          "date": "2026-05-28",
+          "verified": true,
+          "finding": "Bank funding risks remained moderate. Some semi-liquid private-credit funds capped redemptions; bank credit lines were among their funding resources. Traditional closed funds differ materially from redeemable vehicles."
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2026-may-financial-stability-report-leverage.htm",
+          "title": "May 2026 financial stability: leverage",
+          "publisher": "Federal Reserve",
+          "date": "2026-05-28",
+          "verified": true,
+          "finding": "Banks remained sound and shortened asset duration; nonbank credit commitments reached $2.6tn. Classification changes materially revised category totals. Hedge-fund leverage remained at record levels."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C18"
+    },
+    {
+      "claim": "Sovereign debt resolves through debasement.",
+      "source_blocks": [
+        133
+      ],
+      "verdict": "not_testable",
+      "reason": "The statement excludes default too categorically without specifying jurisdiction, political constraints or a horizon. Currency issuance capacity supports an inflationary pathway, but does not make all defaults, restructurings or fiscal adjustments impossible.",
+      "kind": "forecast",
+      "family": "fiscal-dominance-debasement",
+      "asset_or_variable": "fiscal-dominance-debasement",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C19"
+    },
+    {
+      "claim": "Selected regional banks remain attractive.",
+      "source_blocks": [
+        149
+      ],
+      "verdict": "not_testable",
+      "reason": "The positive stance lacks a defined basket, horizon and required return. Aggregate-system solvency is a weaker condition than attractive shareholder returns for particular lenders.",
+      "kind": "investment_thesis",
+      "family": "regional-bank-value",
+      "asset_or_variable": "regional-bank-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C20"
+    },
+    {
+      "claim": "Adobe’s recurring revenue remains resilient.",
+      "source_blocks": [
+        153,
+        155,
+        156,
+        157
+      ],
+      "verdict": "right",
+      "reason": "The quarterly filing confirms 10.9% ARR growth to $26.06bn. This supports the central business-resilience proposition; free-user counts and AI-credit consumption do not by themselves establish paid conversion or unit economics.",
+      "kind": "empirical",
+      "family": "adobe-business-resilience",
+      "asset_or_variable": "adobe-business-resilience",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-10q-q126-final.pdf",
+          "title": "Adobe fiscal Q1 2026 10-Q",
+          "publisher": "Adobe",
+          "date": null,
+          "verified": true,
+          "finding": "Quarter ending February 27 reported ARR $26.06bn, up 10.9%, with growth in Creative Cloud Pro, Acrobat and Experience Platform. The filed report postdates the article but covers the same quarter."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C21"
+    },
+    {
+      "claim": "Adobe’s valuation compensates for disruption.",
+      "source_blocks": [
+        157,
+        158,
+        159
+      ],
+      "verdict": "not_testable",
+      "reason": "Already priced in and great contrarian investments require cash-flow assumptions, a discount rate and an endpoint. The source limits sizing and seeks technical confirmation; no blanket SaaS buy signal should be invented.",
+      "kind": "investment_thesis",
+      "family": "adobe-ai-value",
+      "asset_or_variable": "adobe-ai-value",
+      "horizon": null,
+      "conditions": "Fundamentals remain durable; larger sizing awaits a price base",
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C22"
+    },
+    {
+      "claim": "Long-run technology paths guide investment milestones.",
+      "source_blocks": [
+        164,
+        168,
+        170,
+        172
+      ],
+      "verdict": "not_testable",
+      "reason": "This is a scenario-building method rather than a falsifiable prediction. It is useful only if intermediate milestones and failure conditions are specified; vivid fiction cannot establish adoption probabilities.",
+      "kind": "explanation",
+      "family": "technology-adoption-scenarios",
+      "asset_or_variable": "technology-adoption-scenarios",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "184-C23"
+    }
+  ],
+  "coverage_note": "Full numbered text and image inventory read. All material theses across macro, digital assets, investment analysis and concluding sections considered. Position listings and incidental descriptive statistics are excluded unless they support a thesis.",
+  "tools_charts": [
+    {
+      "name": "NDFI exposure",
+      "source_blocks": [
+        104,
+        139
+      ],
+      "use": "Risk scale",
+      "image_inspected": false
+    },
+    {
+      "name": "Safe-asset share",
+      "source_blocks": [
+        127
+      ],
+      "use": "Liquidity",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        157
+      ],
+      "use": "Valuation",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Trace funding and loss priority."
+  ],
+  "verification_limitations": [
+    "Current page snapshot is not an authenticated publication-date version.",
+    "A missing horizon is not replaced with an invented author deadline.",
+    "Market sensitivities use vendor adjusted closes and do not reconstruct portfolio execution."
+  ]
+}

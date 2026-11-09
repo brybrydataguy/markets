@@ -1,0 +1,1927 @@
+{
+  "article_id": "070",
+  "title": "Tencent Deep Dive Analysis",
+  "date": "2021-10-31",
+  "source_url": "https://www.lynalden.com/premium-2021-10-31/",
+  "read_complete": true,
+  "summary": "Liquidity, collateral lending, and Tencent timing.",
+  "coverage_note": "Read all blocks 0-217 and 22 image labels. Includes monetary mechanics, maturity/refinancing forecasts, crypto timing/lending/mining risks, China legal structure, Tencent trade, MARA put and energy horizon. Promotional announcements distinguished from deployed scale.",
+  "claims": [
+    {
+      "id": "070-C01",
+      "claim": "Virus waves",
+      "kind": "empirical",
+      "source_blocks": [
+        6,
+        9,
+        10
+      ],
+      "family": "covid-waves",
+      "asset_or_variable": "covid-waves",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Country divergence requires comparable dated reporting and lag adjustment; it is not a prediction that a wave permanently ended.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Check WHO October 2021 case/death series for listed countries."
+    },
+    {
+      "id": "070-C02",
+      "claim": "GDP vintage",
+      "kind": "empirical",
+      "source_blocks": [
+        12
+      ],
+      "family": "gdp-nowcast",
+      "asset_or_variable": "gdp-nowcast",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "BEA advance release on October 28 2021 reported annualized real growth 2.0% in Q3. This verifies the contemporary release, not the latest revised number.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/sites/default/files/2021-10/gdp3q21_adv.pdf",
+          "title": "Q 3 2021 advance GDP",
+          "publisher": "BEA",
+          "date": "2021-10-28",
+          "verified": true,
+          "finding": "Real GDP grew 2.0% annualized in Q3, following 6.7% in Q2, in the advance estimate."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C03",
+      "claim": "Q4 nowcast caveat",
+      "kind": "forecast",
+      "source_blocks": [
+        15
+      ],
+      "family": "gdp-nowcast",
+      "asset_or_variable": "gdp-nowcast",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Source reports an external nowcast and explicitly withholds endorsement until incoming data. Do not score a conditional quotation as a personal point forecast.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C04",
+      "claim": "Inflation persists",
+      "kind": "forecast",
+      "source_blocks": [
+        18,
+        21
+      ],
+      "family": "inflation-persistence",
+      "asset_or_variable": "inflation-persistence",
+      "horizon": "Next one or two quarters",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "December 2021 CPI 7.0% and January 2022 shelter 4.4% validate continued inflation into following quarters. Detailed wage/rent shares require separate decomposition.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Next one or two quarters",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_01122022.htm",
+          "title": "December 2021 CPI release",
+          "publisher": "BLS",
+          "date": "2022-01-12",
+          "verified": true,
+          "finding": "Headline CPI rose 7.0% year on year in December 2021, above the spring/summer readings; prices rose 0.5% seasonally adjusted in the month."
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_02102022.htm",
+          "title": "January 2022 CPI",
+          "publisher": "BLS",
+          "date": "2022-02-10",
+          "verified": true,
+          "finding": "Rent of shelter rose 4.4% year on year in January 2022; CPI shelter inflation accelerated beyond the subdued spring 2021 rates. This is not a measure of rental-income collection."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C05",
+      "claim": "Median inflation",
+      "kind": "forecast",
+      "source_blocks": [
+        18
+      ],
+      "family": "inflation-breadth",
+      "asset_or_variable": "inflation-breadth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Cleveland Fed median CPI rose from 3.1343% year over year in October 2021 to 4.8282% in March 2022 and 5.1624% in April. The forecast of broadening inflation was supported, beyond headline energy effects.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/data/MEDCPIM159SFRBCLE",
+          "title": "Median CPI annual inflation",
+          "publisher": "Cleveland Fed via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Latest vintage year-on-year median CPI: October 2021 3.1342873%; March 2022 4.8281957%; April 2022 5.1623597%."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C06",
+      "claim": "Gold drivers",
+      "kind": "explanation",
+      "source_blocks": [
+        25,
+        26,
+        27
+      ],
+      "family": "gold-real-rates",
+      "asset_or_variable": "gold-real-rates",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Author acknowledges failed March rally persistence. Negative real yields, FX and fund flows are plausible inputs but no model identifies causal contributions.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C07",
+      "claim": "Gold dovish catalyst",
+      "kind": "forecast",
+      "source_blocks": [
+        27
+      ],
+      "family": "gold-policy-scenario",
+      "asset_or_variable": "gold-policy-scenario",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No objective gold gain or policy-surprise measure defines resolution. A later weak economy is not automatically a successful conditional call.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C08",
+      "claim": "Currency disaggregation",
+      "kind": "explanation",
+      "source_blocks": [
+        30,
+        32,
+        33,
+        34,
+        35
+      ],
+      "family": "dollar-composition",
+      "asset_or_variable": "dollar-composition",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Trade-weighted and DXY baskets differ; broad-dollar index still rose into 2022. Import exposure and policy divergence are plausible, but the source offers no quantitative attribution. Current narrow observation should not become an unlimited forecast.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+          "title": "DTWEXBGS downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "October 1 2021 114.3798; December 30 2022 121.4256. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C09",
+      "claim": "Australia cap ends",
+      "kind": "empirical",
+      "source_blocks": [
+        40
+      ],
+      "family": "yield-curve-control",
+      "asset_or_variable": "yield-curve-control",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "RBA confirms withdrawal of defense and formal discontinuation November 2. This provides a counterexample to treating a yield cap as an unavoidable permanent consequence of debt.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.rba.gov.au/monetary-policy/reviews/yield-target/",
+          "title": "Review of yield target",
+          "publisher": "Reserve Bank of Australia",
+          "date": "2022-06-21",
+          "verified": true,
+          "finding": "RBA stopped defending its April 2024 yield target before formally discontinuing it November 2 2021. Review describes target losing credibility as inflation/economy improved; the target was not a permanent debt-service ceiling."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C10",
+      "claim": "Eurozone spread constraint",
+      "kind": "explanation",
+      "source_blocks": [
+        41
+      ],
+      "family": "euro-sovereign-risk",
+      "asset_or_variable": "euro-sovereign-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Common currency constrains individual national issuance; ECB support and spreads depend on legal programs and macro conditions. No threshold or response quantity is predicted.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C11",
+      "claim": "Mild tightening",
+      "kind": "forecast",
+      "source_blocks": [
+        42,
+        72
+      ],
+      "family": "fed-tightening-capacity",
+      "asset_or_variable": "fed-tightening-capacity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "Fed raised 425 bp in 2022 and continued balance-sheet runoff. Higher debt service was a fiscal cost, not a binding prevention of meaningful rate hikes.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20221214a.htm",
+          "title": "December 2022 FOMC",
+          "publisher": "Federal Reserve",
+          "date": "2022-12-14",
+          "verified": true,
+          "finding": "Target range reached 4.25-4.50%, 425 bp above the 0-0.25% range held throughout 2021; balance-sheet runoff also underway."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C12",
+      "claim": "November taper",
+      "kind": "forecast",
+      "source_blocks": [
+        44
+      ],
+      "family": "fed-taper",
+      "asset_or_variable": "fed-taper",
+      "horizon": "November 3 2021",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "November 2021 taper occurred. This was also consensus, which matters for judging novelty rather than direction.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "November 3 2021",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-federal-reserves-responses-to-the-post-covid-period-of-high-inflation-20240214.html",
+          "title": "Post-Covid policy chronology",
+          "publisher": "Federal Reserve",
+          "date": "2024-02-14",
+          "verified": true,
+          "finding": "Taper began November 2021 with simultaneous $10 bn Treasury/$5 bn MBS monthly reductions, accelerated in December, ended March 2022; rate liftoff followed in March. Tight labor markets and inflation prompted tightening."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C13",
+      "claim": "No taper dollar",
+      "kind": "forecast",
+      "source_blocks": [
+        44
+      ],
+      "family": "dollar-policy-surprise",
+      "asset_or_variable": "dollar-policy-surprise",
+      "horizon": null,
+      "conditions": "November meeting unexpectedly omits taper",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "The specified no-taper surprise did not occur at that meeting; hypothetical dollar response remains untested.",
+      "direction_assessment": "Trigger and outcome have not both been established.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-federal-reserves-responses-to-the-post-covid-period-of-high-inflation-20240214.html",
+          "title": "Post-Covid policy chronology",
+          "publisher": "Federal Reserve",
+          "date": "2024-02-14",
+          "verified": true,
+          "finding": "Taper began November 2021 with simultaneous $10 bn Treasury/$5 bn MBS monthly reductions, accelerated in December, ended March 2022; rate liftoff followed in March. Tight labor markets and inflation prompted tightening."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C14",
+      "claim": "Current maturity",
+      "kind": "empirical",
+      "source_blocks": [
+        47,
+        52,
+        53,
+        59,
+        71
+      ],
+      "family": "treasury-maturity",
+      "asset_or_variable": "treasury-maturity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The article uses roughly 65 months as current. Treasury reports 72 months by September 2021 after 62 months June 2020. Emergency shortening had already reversed; maturity is also different from bond price duration.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0491",
+          "title": "2021 Treasury Market Conference remarks",
+          "publisher": "US Treasury",
+          "date": "2021-11-17",
+          "verified": true,
+          "finding": "Treasury reports marketable-debt weighted-average maturity fell to 62 months June 2020 then increased to 72 months September 2021. It had already reversed emergency bill financing before the article."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C15",
+      "claim": "Could not extend",
+      "kind": "explanation",
+      "source_blocks": [
+        51,
+        53
+      ],
+      "family": "treasury-demand-constraint",
+      "asset_or_variable": "treasury-demand-constraint",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "Treasury did extend marketable-debt maturity before publication and again in 2022. Observed bill issuance does not prove inability to sell coupons; cost/risk management and emergency funding speed are alternative reasons.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0491",
+          "title": "2021 Treasury Market Conference remarks",
+          "publisher": "US Treasury",
+          "date": "2021-11-17",
+          "verified": true,
+          "finding": "Treasury reports marketable-debt weighted-average maturity fell to 62 months June 2020 then increased to 72 months September 2021. It had already reversed emergency bill financing before the article."
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/221/TreasuryPresentationToTBACQ32022.pdf",
+          "title": "FY 2022 Q 3 Treasury presentation",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "Page 23 chart reports weighted-average maturity 74.3 months June 30 2022, above September 2021 72 months. This is maturity, not price duration; historical average 60.5 months."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C16",
+      "claim": "Maturity forecast",
+      "kind": "forecast",
+      "source_blocks": [
+        61,
+        70,
+        74
+      ],
+      "family": "treasury-maturity",
+      "asset_or_variable": "treasury-maturity",
+      "horizon": "Next year",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "Average maturity reached 74.3 months June 2022 from 72 September 2021, contradicting stable-or-falling next-year base case. Gross bill volumes do not overturn the portfolio-maturity increase.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "Next year",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0491",
+          "title": "2021 Treasury Market Conference remarks",
+          "publisher": "US Treasury",
+          "date": "2021-11-17",
+          "verified": true,
+          "finding": "Treasury reports marketable-debt weighted-average maturity fell to 62 months June 2020 then increased to 72 months September 2021. It had already reversed emergency bill financing before the article."
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/221/TreasuryPresentationToTBACQ32022.pdf",
+          "title": "FY 2022 Q 3 Treasury presentation",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "Page 23 chart reports weighted-average maturity 74.3 months June 30 2022, above September 2021 72 months. This is maturity, not price duration; historical average 60.5 months."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C17",
+      "claim": "Liquidity cup",
+      "kind": "explanation",
+      "source_blocks": [
+        62,
+        63,
+        68
+      ],
+      "family": "rrp-reserve-plumbing",
+      "asset_or_variable": "rrp-reserve-plumbing",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "ONRRP was mostly money-fund cash placement. Balance-sheet regulation can discourage deposits, but cash does not mechanically spill out of a single fixed-size banking cup; collateral availability and relative rates matter.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/money-market-fund-repo-and-the-on-rrp-facility-20231215.html",
+          "title": "Money funds and reverse repos",
+          "publisher": "Federal Reserve",
+          "date": "2023-12-15",
+          "verified": true,
+          "finding": "MM Fs were the largest ON RRP investors; January 2021-June 2022 their facility investment rose $2 tn while private repo lending fell nearly $500 bn. Dealers substituted other funding, so aggregate private repo volume held steady."
+        },
+        {
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy.pdf",
+          "title": "Money creation in the modern economy",
+          "publisher": "Bank of England",
+          "date": null,
+          "verified": true,
+          "finding": "2014 Q1 bulletin: bank lending creates deposits; reserves are not multiplied into loans. QE can buy from nonbanks, directly increasing their deposits as well as bank reserves."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C18",
+      "claim": "TGA transfer",
+      "kind": "explanation",
+      "source_blocks": [
+        64,
+        65
+      ],
+      "family": "tga-rrp-plumbing",
+      "asset_or_variable": "tga-rrp-plumbing",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "TGA drawdown can shift Fed liabilities toward reserves and deposits, subsequently RRP. Near-equal aggregates do not prove one-to-one investor flows or that all new liquidity had no other use.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/money-market-fund-repo-and-the-on-rrp-facility-20231215.html",
+          "title": "Money funds and reverse repos",
+          "publisher": "Federal Reserve",
+          "date": "2023-12-15",
+          "verified": true,
+          "finding": "MM Fs were the largest ON RRP investors; January 2021-June 2022 their facility investment rose $2 tn while private repo lending fell nearly $500 bn. Dealers substituted other funding, so aggregate private repo volume held steady."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/WTREGEN",
+          "title": "WTREGEN downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "October 27 2021 TGA $213.291 bn; March 30 2022 $575.065 bn; May 11 $945.658 bn. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C19",
+      "claim": "RRP peak",
+      "kind": "forecast",
+      "source_blocks": [
+        65,
+        74
+      ],
+      "family": "rrp-peak",
+      "asset_or_variable": "rrp-peak",
+      "horizon": "Debt-limit resolution and ensuing refill",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "ONRRP rose from $1.502 tn October 29 to $1.905 tn December 31 and $2.554 tn December 30 2022. It exceeded the proposed peak despite a large TGA refill, so the proposed balance-sheet offset was insufficient.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "Debt-limit resolution and ensuing refill",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/RRPONTSYD",
+          "title": "RRPONTSYD downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Billions: October 29 2021 1502.296; December 31 1904.582; March 31 2022 1871.970; December 30 2553.716. Latest vintage, cutoff November 7 2026."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/WTREGEN",
+          "title": "WTREGEN downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Millions: October 27 2021 213291; May 11 2022 945658. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C20",
+      "claim": "Cash refill",
+      "kind": "forecast",
+      "source_blocks": [
+        69
+      ],
+      "family": "tga-refill",
+      "asset_or_variable": "tga-refill",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Weekly TGA increased from $213.291 bn October 27 2021 to $945.658 bn May 11 2022. Cash rebuilding occurred; associated RRP prediction failed separately.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/WTREGEN",
+          "title": "WTREGEN downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Millions: October 27 2021 213291; May 11 2022 945658. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C21",
+      "claim": "Refinancing cost",
+      "kind": "explanation",
+      "source_blocks": [
+        71
+      ],
+      "family": "sovereign-refinancing",
+      "asset_or_variable": "sovereign-refinancing",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "For fixed principal, refinancing at a higher coupon raises future interest expense. Longer fixed maturities delay pass-through; this does not establish inability to hike.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Fixed refinanced principal D",
+          "Coupon change dr",
+          "No offsetting assets or fiscal response"
+        ],
+        "derivation": "Annual interest change = D * dr for refinanced debt. Coupons on debt not refinanced remain unchanged."
+      }
+    },
+    {
+      "id": "070-C22",
+      "claim": "Real-yield decade",
+      "kind": "forecast",
+      "source_blocks": [
+        75
+      ],
+      "family": "financial-repression",
+      "asset_or_variable": "financial-repression",
+      "horizon": "2020s",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The mostly 2020s condition needs a defined yield and inflation measure and the full decade. Actual 2022 tightening is evidence against strong immediate suppression, not complete adjudication.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "2020s",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C23",
+      "claim": "BTC outlook",
+      "kind": "forecast",
+      "source_blocks": [
+        81,
+        135
+      ],
+      "family": "bitcoin-bullish",
+      "asset_or_variable": "bitcoin-bullish",
+      "horizon": "Into Q1 2022",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "BTC declined 25.35% from November 1 2021 through March 31 2022, versus SPY-1.17%. Explicit Q1 outlook fails despite a brief November record.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "Into Q1 2022",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2021-10-31\",\"requested_endpoint\":\"2022-03-31\",\"entry\":\"2021-11-01\",\"exit\":\"2022-03-31\",\"days\":150,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"BTC-USD\":{\"entry_adjusted_close\":61004.40625,\"exit_adjusted_close\":45538.67578125,\"cumulative_return_pct\":-25.35182525237675,\"annualized_return_pct\":-50.93161827844758,\"source\":\"https://finance.yahoo.com/quote/BTC-USD/history/\"},\"SPY\":{\"entry_adjusted_close\":430.2765808105469,\"exit_adjusted_close\":425.2209777832031,\"cumulative_return_pct\":-1.174965883065282,\"annualized_return_pct\":-2.836963415182192,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-24.176859369311465}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C24",
+      "claim": "Spot sets long term",
+      "kind": "explanation",
+      "source_blocks": [
+        82
+      ],
+      "family": "bitcoin-price-discovery",
+      "asset_or_variable": "bitcoin-price-discovery",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Spot and derivatives are linked by arbitrage; derivatives can affect financing and marginal demand. A clean long-run/short-run causal separation needs a price-discovery model.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C25",
+      "claim": "Mining colocation",
+      "kind": "forecast",
+      "source_blocks": [
+        87,
+        88,
+        89
+      ],
+      "family": "bitcoin-energy-colocation",
+      "asset_or_variable": "bitcoin-energy-colocation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Nautilus commercial nuclear colocation began 2023 with 50 MW operational by year end. Supports existence and expansion, not the stronger prediction that utilities become the largest hosting group.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://investors.terawulf.com/sec-filings/all-sec-filings/content/0001083301-24-000072/wulf-20231231.htm",
+          "title": "2023 Form 10-K",
+          "publisher": "Tera Wulf",
+          "date": "2024-03-20",
+          "verified": true,
+          "finding": "Nautilus nuclear co-located mining began Q1 2023; 50 MW operational at year-end. Contracted power 2 cents/kWh for five years with renewal options. Deployment proves commercial colocation, not that all consumption was otherwise curtailed."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C26",
+      "claim": "Waste-energy optimality",
+      "kind": "explanation",
+      "source_blocks": [
+        86,
+        87,
+        90
+      ],
+      "family": "bitcoin-energy-economics",
+      "asset_or_variable": "bitcoin-energy-economics",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Cheap colocation is demonstrated, but an existing nuclear M Wh may have an alternative grid use. FERC identifies replacement-generation and cost-shifting issues. Environmental benefit requires a marginal-energy counterfactual, not a nuclear label.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://investors.terawulf.com/sec-filings/all-sec-filings/content/0001083301-24-000072/wulf-20231231.htm",
+          "title": "2023 Form 10-K",
+          "publisher": "Tera Wulf",
+          "date": "2024-03-20",
+          "verified": true,
+          "finding": "Nautilus nuclear co-located mining began Q1 2023; 50 MW operational at year-end. Contracted power 2 cents/kWh for five years with renewal options. Deployment proves commercial colocation, not that all consumption was otherwise curtailed."
+        },
+        {
+          "url": "https://www.ferc.gov/news-events/news/commissioner-christies-concurrence-pjms-susquehanna-co-location-proposal-er24-2172",
+          "title": "Susquehanna colocation concurrence",
+          "publisher": "FERC Commissioner Christie",
+          "date": "2024-11-01",
+          "verified": true,
+          "finding": "Commissioner identifies possible grid cost-shifting, reliability and replacement-generation emissions from diverting existing nuclear power. Utility allegations of $140 m annual cost shifting are disputed claims, not an adjudicated measured cost."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C27",
+      "claim": "Flexible load",
+      "kind": "explanation",
+      "source_blocks": [
+        87,
+        90
+      ],
+      "family": "bitcoin-demand-response",
+      "asset_or_variable": "bitcoin-demand-response",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Mining can interrupt production, but storage, industrial electrolysis and other flexible loads can also respond. Utilization and capital costs determine whether intermittency is economical.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C28",
+      "claim": "Utility hosts",
+      "kind": "forecast",
+      "source_blocks": [
+        88,
+        89
+      ],
+      "family": "bitcoin-energy-colocation",
+      "asset_or_variable": "bitcoin-energy-colocation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "One facility does not establish industry hosting shares or top-six utilities participation. The original executives statements are interested-party testimony.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compile utility-owned/hosted hash capacity versus commercial hosting for 2022-2026, including contract ownership rather than grid connection alone."
+    },
+    {
+      "id": "070-C29",
+      "claim": "NYDIG launch",
+      "kind": "empirical",
+      "source_blocks": [
+        93,
+        94,
+        101
+      ],
+      "family": "bitcoin-credit-adoption",
+      "asset_or_variable": "bitcoin-credit-adoption",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Joint announcement confirms planned lending and payroll services. This is an announcement-level verification, not proof of significant adoption.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/post-oak-motor-cars-and-nydig-announce-partnership-integrating-bitcoin-services-throughout-the-luxury-auto-dealer-301411359.html",
+          "title": "Post Oak and NYDIG partnership",
+          "publisher": "Post Oak / NYDIG via PR Newswire",
+          "date": "2021-10-28",
+          "verified": true,
+          "finding": "Issuer announcement describes bitcoin-collateralized vehicle and company loans and employee bitcoin payroll options. No volumes or realized loan-performance data supplied."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C30",
+      "claim": "Loan selling-pressure",
+      "kind": "explanation",
+      "source_blocks": [
+        99,
+        100,
+        102,
+        105
+      ],
+      "family": "bitcoin-collateral-credit",
+      "asset_or_variable": "bitcoin-collateral-credit",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Borrowing can postpone a voluntary sale, but interest, refinancing and collateral liquidation can create larger future sales. Dealer partnership verifies availability rather than net industry selling-pressure reduction.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/post-oak-motor-cars-and-nydig-announce-partnership-integrating-bitcoin-services-throughout-the-luxury-auto-dealer-301411359.html",
+          "title": "Post Oak and NYDIG partnership",
+          "publisher": "Post Oak / NYDIG via PR Newswire",
+          "date": "2021-10-28",
+          "verified": true,
+          "finding": "Issuer announcement describes bitcoin-collateralized vehicle and company loans and employee bitcoin payroll options. No volumes or realized loan-performance data supplied."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C31",
+      "claim": "Loans avoid tax",
+      "kind": "explanation",
+      "source_blocks": [
+        100
+      ],
+      "family": "bitcoin-collateral-tax",
+      "asset_or_variable": "bitcoin-collateral-tax",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A genuine loan generally differs from a sale, but foreclosure, liquidation, debt cancellation and custody arrangements can create tax consequences. Jurisdiction and actual contracts matter.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Check IRS loan/collateral disposition treatment against NYDIG contract rights and borrower residency; avoid blanket tax guarantee."
+    },
+    {
+      "id": "070-C32",
+      "claim": "Collateral cascades",
+      "kind": "forecast",
+      "source_blocks": [
+        103,
+        110
+      ],
+      "family": "crypto-credit-contagion",
+      "asset_or_variable": "crypto-credit-contagion",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Subsequent Block Fi bankruptcy confirms centralized-credit counterparty risk materialized. It does not identify loan LTV, exact 75% trigger, or establish that all failures arose from BT Ccollateral liquidations.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/USCOURTS-njb-3_22-bk-19361/pdf/USCOURTS-njb-3_22-bk-19361-6.pdf",
+          "title": "Block Fi bankruptcy court opinion",
+          "publisher": "US Bankruptcy Court New Jersey",
+          "date": "2025-07-01",
+          "verified": true,
+          "finding": "Court records voluntary Chapter 11 filing November 28 2022 and subsequent wind-down proceedings. Bankruptcy confirms counterparty/liquidity risk, not a verified 2021 subscriber withdrawal."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C33",
+      "claim": "Liquidation discretion",
+      "kind": "explanation",
+      "source_blocks": [
+        103
+      ],
+      "family": "crypto-loan-risk-management",
+      "asset_or_variable": "crypto-loan-risk-management",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Discretion can allow collateral top-ups, but loan documents may mandate liquidation and managers can delay too long. Manual control is not intrinsically safer than automated rules.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C34",
+      "claim": "NYDIG safety",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        104,
+        110
+      ],
+      "family": "crypto-lender-selection",
+      "asset_or_variable": "crypto-lender-selection",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Confidence in sophisticated management is not an audited underwriting test. Need actual loan losses, collateral enforcement and risk exposures; other lenders failure does not prove NYDI Gfailed.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Review NYDIG 2022-2024 loan restructurings and parent Stone Ridge disclosures, including miner collateral recoveries."
+    },
+    {
+      "id": "070-C35",
+      "claim": "Exchange supply",
+      "kind": "explanation",
+      "source_blocks": [
+        106
+      ],
+      "family": "bitcoin-exchange-supply",
+      "asset_or_variable": "bitcoin-exchange-supply",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Declining labeled exchange balances need archived methodologies. Coins held as off-exchange collateral can remain economically encumbered and potentially liquidatable.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Archive Glassnode balances plus miners inventory and lending pledges; distinguish custody location from unavailable float."
+    },
+    {
+      "id": "070-C36",
+      "claim": "Collateral suitability",
+      "kind": "explanation",
+      "source_blocks": [
+        108
+      ],
+      "family": "bitcoin-collateral",
+      "asset_or_variable": "bitcoin-collateral",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Digital settlement and multisignature control help custody; price volatility, exchange liquidity, enforceability and correlated collateral risk can dominate. No comparative haircut/loss model is supplied.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C37",
+      "claim": "Credit analogy",
+      "kind": "explanation",
+      "source_blocks": [
+        109,
+        110
+      ],
+      "family": "bitcoin-credit-growth",
+      "asset_or_variable": "bitcoin-credit-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Borrowing against an appreciating asset need not fund productive investment. Emerging-market banking analogies do not identify aggregate welfare or the safe leverage threshold.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C38",
+      "claim": "India regulation",
+      "kind": "forecast",
+      "source_blocks": [
+        112,
+        113
+      ],
+      "family": "india-crypto-policy",
+      "asset_or_variable": "india-crypto-policy",
+      "horizon": "2022",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "India taxed crypto in 2022 while its official response still described the sector as unregulated. Avoiding an enacted blanket ban fits the direction, but taxation is not a comprehensive licensing or consumer-protection regime.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "2022",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://sansad.in/getFile/annex/257/AU1805.pdf?source=pqars",
+          "title": "Parliament response on cryptocurrency",
+          "publisher": "Government of India",
+          "date": null,
+          "verified": true,
+          "finding": "2022 parliamentary response states cryptocurrencies remained unregulated while Finance Act 2022 created taxation of virtual-digital-asset transfers. Taxation does not itself establish a comprehensive consumer-protection licensing framework."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C39",
+      "claim": "Ban innovation tradeoff",
+      "kind": "explanation",
+      "source_blocks": [
+        114,
+        115
+      ],
+      "family": "crypto-regulation",
+      "asset_or_variable": "crypto-regulation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Lost business/tax activity is one potential cost of a ban; consumer protection, capital controls and financial stability are competing objectives. No welfare comparison is quantified.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C40",
+      "claim": "China reversal",
+      "kind": "forecast",
+      "source_blocks": [
+        116,
+        118
+      ],
+      "family": "china-mining-policy",
+      "asset_or_variable": "china-mining-policy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The author explicitly withholds a view on whether policy reverses. A possibility cannot be scored as an affirmative prediction.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C41",
+      "claim": "Mining relocation",
+      "kind": "empirical",
+      "source_blocks": [
+        117
+      ],
+      "family": "bitcoin-mining-geography",
+      "asset_or_variable": "bitcoin-mining-geography",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Cambridge estimates for January 2022 show US 37.84%, Kazakhstan 13.22% and China 21.11%. Relocation occurred but covert mining remained substantial in China, qualifying any implication of complete exit.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.jbs.cam.ac.uk/2022/bitcoin-mining-new-data-reveal-a-surprising-resurgence/",
+          "title": "Bitcoin mining map update",
+          "publisher": "Cambridge CCAF",
+          "date": "2022-05-17",
+          "verified": true,
+          "finding": "January 2022 hash shares: US 37.84%, China 21.11%, Kazakhstan 13.22%. Post-ban hash rate bottomed June 27 2021 and almost fully recovered by December; covert China mining persisted."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C42",
+      "claim": "ETH outlook",
+      "kind": "forecast",
+      "source_blocks": [
+        122,
+        123,
+        135
+      ],
+      "family": "ethereum-bullish",
+      "asset_or_variable": "ethereum-bullish",
+      "horizon": "Into Q1 2022",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "ETH declined 24.12% from November 1 to March 31 despite the staking lockup, versus SPY-1.17%. Supply restrictions did not ensure appreciation through the stated Q1 window.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "Into Q1 2022",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ETH-USD/history/",
+          "title": "ETH-USD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2021-10-31\",\"requested_endpoint\":\"2022-03-31\",\"entry\":\"2021-11-01\",\"exit\":\"2022-03-31\",\"days\":150,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"ETH-USD\":{\"entry_adjusted_close\":4324.626953125,\"exit_adjusted_close\":3281.642822265625,\"cumulative_return_pct\":-24.117320225868465,\"annualized_return_pct\":-48.932173314206764,\"source\":\"https://finance.yahoo.com/quote/ETH-USD/history/\"},\"SPY\":{\"entry_adjusted_close\":430.2765808105469,\"exit_adjusted_close\":425.2209777832031,\"cumulative_return_pct\":-1.174965883065282,\"annualized_return_pct\":-2.836963415182192,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-22.94235434280318}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C43",
+      "claim": "ETH withdrawals",
+      "kind": "explanation",
+      "source_blocks": [
+        122,
+        123
+      ],
+      "family": "ethereum-supply",
+      "asset_or_variable": "ethereum-supply",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The Merge occurred in September 2022 while withdrawals began in April 2023. Conflating proof-of-stake launch with simultaneous release of all locked coins misstates the deployment and withdrawal queue.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ethereum.org/staking/withdrawals/",
+          "title": "Staking withdrawals",
+          "publisher": "Ethereum.org",
+          "date": null,
+          "verified": true,
+          "finding": "Withdrawal functionality was enabled by Shanghai/Capella April 12 2023, after the September 2022 Merge. A queue can delay exits."
+        },
+        {
+          "url": "https://ethereum.org/roadmap/merge/issuance/",
+          "title": "How the Merge impacted ETH supply",
+          "publisher": "Ethereum.org",
+          "date": null,
+          "verified": true,
+          "finding": "Before September 2022 Merge, miners received about 13,000 ETH/day in addition to beacon staking issuance. Merge removed execution-layer mining issuance; London August 2021 introduced base-fee burning."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C44",
+      "claim": "Proof-of-stake risk",
+      "kind": "explanation",
+      "source_blocks": [
+        123
+      ],
+      "family": "crypto-consensus-risk",
+      "asset_or_variable": "crypto-consensus-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Complexity and concentration can matter, but a Solana availability failure does not prove Ethereum will inherit the same failure mode. Protocol and client architectures differ.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C45",
+      "claim": "Cream exploit",
+      "kind": "empirical",
+      "source_blocks": [
+        125
+      ],
+      "family": "defi-contract-risk",
+      "asset_or_variable": "defi-contract-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The dated $130 m loss and prior incidents need protocol and transaction evidence; a general risk warning does not validate each amount.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Retrieve the Cream October 27 2021 postmortem, oracle transactions and net recoveries; distinguish gross drain from final loss."
+    },
+    {
+      "id": "070-C46",
+      "claim": "NFT wash trading",
+      "kind": "explanation",
+      "source_blocks": [
+        126,
+        127
+      ],
+      "family": "nft-manipulation",
+      "asset_or_variable": "nft-manipulation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Self-financed trades can inflate headline values without independent demand. The specific Crypto Punk transaction and beneficial ownership need confirmation; the author appropriately does not quantify market-wide prevalence.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Trace Crypto Punk 9998 flash-loan transactions and the Larva Labs statement; separate distinct addresses from proven common ownership."
+    },
+    {
+      "id": "070-C47",
+      "claim": "Meme tops",
+      "kind": "forecast",
+      "source_blocks": [
+        130,
+        132
+      ],
+      "family": "crypto-speculation",
+      "asset_or_variable": "crypto-speculation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The possible SHIB and MANA tops are tentative, with no definition of local versus final. Preserve the caution without retrospectively selecting a profitable exit.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C48",
+      "claim": "Token busts",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        134
+      ],
+      "family": "crypto-speculation",
+      "asset_or_variable": "crypto-speculation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A majority claim needs a universe including dead and delisted tokens. Selected memecoin crashes would introduce selection and survivorship bias.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Build a cohort of 2021 tokens and measure peak recovery with delistings, liquidity and wash-volume adjustments."
+    },
+    {
+      "id": "070-C49",
+      "claim": "BABA/AMZN",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        139,
+        140
+      ],
+      "family": "china-us-rotation",
+      "asset_or_variable": "china-us-rotation",
+      "horizon": "18-24 months",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "Over the stated 18-24 month China horizon, two-year BABA return was-51.50% versus AMZN-19.78%. The allocation shift worsened opportunity cost; actual portfolio exits are not reconstructed.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "18-24 months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BABA/history/",
+          "title": "BABA adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2021-10-31\",\"requested_endpoint\":\"2023-10-31\",\"entry\":\"2021-11-01\",\"exit\":\"2023-10-31\",\"days\":729,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"BABA\":{\"entry_adjusted_close\":160.1388702392578,\"exit_adjusted_close\":77.67446899414062,\"cumulative_return_pct\":-51.495555777251354,\"annualized_return_pct\":-30.406689455951653,\"source\":\"https://finance.yahoo.com/quote/BABA/history/\"},\"AMZN\":{\"entry_adjusted_close\":165.90550231933594,\"exit_adjusted_close\":133.08999633789062,\"cumulative_return_pct\":-19.77963691540611,\"annualized_return_pct\":-10.454484896890603,\"source\":\"https://finance.yahoo.com/quote/AMZN/history/\"}},\"excess_percentage_points\":-31.715918861845246}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C50",
+      "claim": "JD/Meta",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        139,
+        140
+      ],
+      "family": "china-us-rotation",
+      "asset_or_variable": "china-us-rotation",
+      "horizon": "18-24 months",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "Two-year JD return was-67.94% versus META-8.70%, adverse to the paired allocation rotation. The article changes two US and two Chinese names; this pairing is an evaluator sensitivity.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "18-24 months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/JD/history/",
+          "title": "JD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2021-10-31\",\"requested_endpoint\":\"2023-10-31\",\"entry\":\"2021-11-01\",\"exit\":\"2023-10-31\",\"days\":729,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"JD\":{\"entry_adjusted_close\":72.28392791748047,\"exit_adjusted_close\":23.17759895324707,\"cumulative_return_pct\":-67.93533552893433,\"annualized_return_pct\":-43.4405539995448,\"source\":\"https://finance.yahoo.com/quote/JD/history/\"},\"META\":{\"entry_adjusted_close\":326.84954833984375,\"exit_adjusted_close\":298.4118957519531,\"cumulative_return_pct\":-8.700532930925887,\"annualized_return_pct\":-4.458193045186032,\"source\":\"https://finance.yahoo.com/quote/META/history/\"}},\"excess_percentage_points\":-59.23480259800844}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C51",
+      "claim": "Amazon reduction",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        146
+      ],
+      "family": "amazon-risk-reward",
+      "asset_or_variable": "amazon-risk-reward",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Selling one allocation while retaining others is a conviction reduction, not an unqualified bearish forecast. Link it to the earlier Amazon thesis revision.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C52",
+      "claim": "MARA arithmetic",
+      "kind": "explanation",
+      "source_blocks": [
+        151
+      ],
+      "family": "option-premium",
+      "asset_or_variable": "option-premium",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "At a $46 strike and $7 premium, effective cost is $39 and maximum return is 15.22% of secured cash before fees and tax. The arithmetic does not verify an executable quote.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.optionseducation.org/strategies/all-strategies/cash-secured-put",
+          "title": "Cash-secured put mechanics",
+          "publisher": "Options Industry Council",
+          "date": null,
+          "verified": true,
+          "finding": "Effective acquisition cost is strike less premium. Maximum option gain is premium; loss can be substantial if stock collapses. The position can miss upside and has covered-call-equivalent exposure under standard assumptions."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C53",
+      "claim": "MARA bullish put",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        151,
+        152
+      ],
+      "family": "mara-bullish",
+      "asset_or_variable": "mara-bullish",
+      "horizon": "January 21 2022",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "January 21 2022 MARA close of $22.06 implies expiry P/L of $7-max(46-22.06, 0)=-$16.94 per share, or-36.83% of $46 secured cash. This tests quoted terms rather than claiming an actual execution.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "January 21 2022",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/MARA/history/",
+          "title": "MARA adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2021-10-31\",\"requested_endpoint\":\"2022-01-21\",\"entry\":\"2021-11-01\",\"exit\":\"2022-01-21\",\"days\":81,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"MARA\":{\"entry_adjusted_close\":55.5099983215332,\"exit_adjusted_close\":22.059999465942383,\"cumulative_return_pct\":-60.25941247887777,\"annualized_return_pct\":-98.44100945390379,\"source\":\"https://finance.yahoo.com/quote/MARA/history/\"},\"SPY\":{\"entry_adjusted_close\":430.2765808105469,\"exit_adjusted_close\":411.0829162597656,\"cumulative_return_pct\":-4.460773699238896,\"annualized_return_pct\":-18.59815711490883,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-55.79863877963888} Raw January 21, 2022 close: 22.0599995; illustrative payoff uses quoted premium 7 and strike 46."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C54",
+      "claim": "Tencent bottom",
+      "kind": "forecast",
+      "source_blocks": [
+        154,
+        157,
+        158
+      ],
+      "family": "tencent-bottom",
+      "asset_or_variable": "tencent-bottom",
+      "horizon": "18-24 months",
+      "conditions": "Invalid below $56",
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The first daily close below the explicit $56 invalidation was December 20 2021 at $54.82. The bottom thesis failed before its 18-24 month horizon; a stop fill is not inferred.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "18-24 months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TCEHY/history/",
+          "title": "TCEHY adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2021-10-31\",\"requested_endpoint\":\"2023-10-31\",\"entry\":\"2021-11-01\",\"exit\":\"2023-10-31\",\"days\":729,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"TCEHY\":{\"entry_adjusted_close\":55.141239166259766,\"exit_adjusted_close\":35.958316802978516,\"cumulative_return_pct\":-34.78870379652085,\"annualized_return_pct\":-19.282000388985143,\"source\":\"https://finance.yahoo.com/quote/TCEHY/history/\"},\"SPY\":{\"entry_adjusted_close\":430.2765808105469,\"exit_adjusted_close\":403.3129577636719,\"cumulative_return_pct\":-6.266579277003981,\"annualized_return_pct\":-3.1904239837328596,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-28.52212451951687} Raw daily close December 20, 2021: $54.8199997; first postpublication close below 56."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C55",
+      "claim": "Tencent upside",
+      "kind": "forecast",
+      "source_blocks": [
+        158
+      ],
+      "family": "tencent-return-target",
+      "asset_or_variable": "tencent-return-target",
+      "horizon": "Next two years",
+      "conditions": "Priorlowholds",
+      "modality": "upside scenario",
+      "verdict": "wrong",
+      "reason": "Two-year adjusted return was-34.79% and the explicit bottom condition failed. The upside was a possibility, not a promise; the verdict concerns the conditional bullish position case.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "Next two years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TCEHY/history/",
+          "title": "TCEHY adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2021-10-31\",\"requested_endpoint\":\"2023-10-31\",\"entry\":\"2021-11-01\",\"exit\":\"2023-10-31\",\"days\":729,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"TCEHY\":{\"entry_adjusted_close\":55.141239166259766,\"exit_adjusted_close\":35.958316802978516,\"cumulative_return_pct\":-34.78870379652085,\"annualized_return_pct\":-19.282000388985143,\"source\":\"https://finance.yahoo.com/quote/TCEHY/history/\"},\"SPY\":{\"entry_adjusted_close\":430.2765808105469,\"exit_adjusted_close\":403.3129577636719,\"cumulative_return_pct\":-6.266579277003981,\"annualized_return_pct\":-3.1904239837328596,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-28.52212451951687}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C56",
+      "claim": "Stop protection",
+      "kind": "explanation",
+      "source_blocks": [
+        158
+      ],
+      "family": "stop-loss-risk",
+      "asset_or_variable": "stop-loss-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The threshold was about 8% below entry, but gaps and liquidity can create larger losses. The first observed close at $54.82 already overshot $56; execution data is needed to evaluate a stopped trade.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TCEHY/history/",
+          "title": "TCEHY adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2021-10-31\",\"requested_endpoint\":\"2023-10-31\",\"entry\":\"2021-11-01\",\"exit\":\"2023-10-31\",\"days\":729,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"TCEHY\":{\"entry_adjusted_close\":55.141239166259766,\"exit_adjusted_close\":35.958316802978516,\"cumulative_return_pct\":-34.78870379652085,\"annualized_return_pct\":-19.282000388985143,\"source\":\"https://finance.yahoo.com/quote/TCEHY/history/\"},\"SPY\":{\"entry_adjusted_close\":430.2765808105469,\"exit_adjusted_close\":403.3129577636719,\"cumulative_return_pct\":-6.266579277003981,\"annualized_return_pct\":-3.1904239837328596,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-28.52212451951687}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C57",
+      "claim": "Metaverse edge",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        155,
+        163,
+        164
+      ],
+      "family": "tencent-metaverse",
+      "asset_or_variable": "tencent-metaverse",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Gaming and social assets form a strategic case, but no revenue, adoption or profit threshold compares Tencent with Meta. Stock return alone cannot establish product advantage.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C58",
+      "claim": "Tencent earnings",
+      "kind": "forecast",
+      "source_blocks": [
+        168,
+        170,
+        173
+      ],
+      "family": "tencent-fundamentals",
+      "asset_or_variable": "tencent-fundamentals",
+      "horizon": "Next two years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Revenue declined 1% in 2022, then rose 10% to RMB 609.0 bn in 2023. Recovery arrived unevenly rather than continuous growth across both years. Exact consensus EPS and investment-gain exclusions require the original model.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "Next two years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://enghunan.gov.cn/hneng/News/Text_News/202303/t20230323_29289362.html",
+          "title": "Tencent 2022 results",
+          "publisher": "Xinhua/Hunan government",
+          "date": "2023-03-23",
+          "verified": true,
+          "finding": "2022 revenue RMB 554.6 bn, down 1%; non-IFR Snetprofit RMB 115.6 bn, down 7%."
+        },
+        {
+          "url": "https://static.www.tencent.com/uploads/2024/03/20/fe50310bf15caaab4b05dd9e8e49d316.pdf",
+          "title": "Tencent 2023 annual results",
+          "publisher": "Tencent",
+          "date": "2024-03-20",
+          "verified": true,
+          "finding": "2023 revenue RMB 609.0 bn, up 10% over 2022."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C59",
+      "claim": "VIE risks",
+      "kind": "explanation",
+      "source_blocks": [
+        172,
+        187,
+        188,
+        189
+      ],
+      "family": "china-legal-structure",
+      "asset_or_variable": "china-legal-structure",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "SEC warns that contractual VIE rights are not direct ownership and that inspection access mattered. A Hong Kong affiliate audit does not imply false accounts; PCAOB obtained complete access in 2022.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://pcaobus.org/news-events/news-releases/news-release-detail/fact-sheet-pcaob-secures-complete-access-to-inspect-investigate-chinese-firms-for-first-time-in-history",
+          "title": "Complete inspection access obtained",
+          "publisher": "PCAOB",
+          "date": "2022-12-15",
+          "verified": true,
+          "finding": "First complete access secured in 2022; prior adverse determinations vacated. Obstacle concerned regulator inspection of auditors, not absence of financial-statement audits."
+        },
+        {
+          "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-2021-07-30",
+          "title": "China investor protection statement",
+          "publisher": "SEC",
+          "date": "2021-07-30",
+          "verified": true,
+          "finding": "Investors own offshore issuers with contractual exposure, not equity in restricted Chinese operating companies; enforceability, permission and PCAOB inspection risks require disclosure."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C60",
+      "claim": "Crackdown endpoint",
+      "kind": "forecast",
+      "source_blocks": [
+        184,
+        185
+      ],
+      "family": "china-regulatory-rebound",
+      "asset_or_variable": "china-regulatory-rebound",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Further price weakness and thesis invalidation undermine the setup but do not prove every decline came from new regulation. Policy chronology and business results require separate attribution.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TCEHY/history/",
+          "title": "TCEHY adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2021-10-31\",\"requested_endpoint\":\"2023-10-31\",\"entry\":\"2021-11-01\",\"exit\":\"2023-10-31\",\"days\":729,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"TCEHY\":{\"entry_adjusted_close\":55.141239166259766,\"exit_adjusted_close\":35.958316802978516,\"cumulative_return_pct\":-34.78870379652085,\"annualized_return_pct\":-19.282000388985143,\"source\":\"https://finance.yahoo.com/quote/TCEHY/history/\"},\"SPY\":{\"entry_adjusted_close\":430.2765808105469,\"exit_adjusted_close\":403.3129577636719,\"cumulative_return_pct\":-6.266579277003981,\"annualized_return_pct\":-3.1904239837328596,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-28.52212451951687}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "070-C61",
+      "claim": "OTC access",
+      "kind": "explanation",
+      "source_blocks": [
+        192,
+        193
+      ],
+      "family": "china-market-access",
+      "asset_or_variable": "china-market-access",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "OTC access differs from exchange eligibility, but broker restrictions, liquidity and ownership bans still matter. Corporate capital needs differ from foreign-holder exit rights.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C62",
+      "claim": "Ownership ban",
+      "kind": "forecast",
+      "source_blocks": [
+        194
+      ],
+      "family": "china-us-investment-ban",
+      "asset_or_variable": "china-us-investment-ban",
+      "horizon": null,
+      "conditions": "US ownership prohibition",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "An actual US ownership prohibition on this specific holding is not established. Exchange removal and military-entity listing are not automatically equivalent to a universal investment ban.",
+      "direction_assessment": "Trigger and outcome have not both been established.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Check OFAC and NS-CMIC rules with exact issuer identifiers; do not substitute Defense Department list membership."
+    },
+    {
+      "id": "070-C63",
+      "claim": "Decoupling contagion",
+      "kind": "explanation",
+      "source_blocks": [
+        197,
+        198,
+        200
+      ],
+      "family": "us-china-economic-exposure",
+      "asset_or_variable": "us-china-economic-exposure",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Interdependence creates broad earnings and supply risk, but direct Chinese equity and US multinational exposures differ. No loss is quantified for a specified decoupling scenario.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C64",
+      "claim": "China horizon",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        201
+      ],
+      "family": "china-risk-management",
+      "asset_or_variable": "china-risk-management",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The method explicitly changes from 3-5 years to 18-24 months. Apply it to forward calls without awarding a risk-management success before observing outcomes.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C65",
+      "claim": "Energy outlook",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        203
+      ],
+      "family": "energy-bullish",
+      "asset_or_variable": "energy-bullish",
+      "horizon": "Five to ten years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The five-to-ten-year window reaches 2026-2031. Its minimum has passed but the full range remains open; a short price spike cannot resolve the long-reserve and midstream case.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "Five toten years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C66",
+      "claim": "Winter energy",
+      "kind": "forecast",
+      "source_blocks": [
+        205
+      ],
+      "family": "energy-weather-scenario",
+      "asset_or_variable": "energy-weather-scenario",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Weather and wind are inputs without specified temperature, price or deadline rules. The discussion identifies uncertainty around extreme prices rather than a directional commitment.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "070-C67",
+      "claim": "Energy decade",
+      "kind": "forecast",
+      "source_blocks": [
+        207
+      ],
+      "family": "energy-price-regime",
+      "asset_or_variable": "energy-price-regime",
+      "horizon": "2020-2029 versus 2010-2019",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "Comparing full-decade averages requires observations through 2029 and specified oil/gas benchmarks in nominal or real terms. Partial averages cannot settle it.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "2020-2029 versus 2010-2019",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Liquidity",
+      "source_blocks": [
+        47,
+        64,
+        65,
+        74
+      ],
+      "use": "Maturity; cash; RRP.",
+      "image_inspected": false
+    },
+    {
+      "name": "Crypto",
+      "source_blocks": [
+        80,
+        106,
+        122
+      ],
+      "use": "Supply; financing.",
+      "image_inspected": false
+    },
+    {
+      "name": "Tencent",
+      "source_blocks": [
+        162,
+        168,
+        170,
+        175,
+        178
+      ],
+      "use": "Segments; valuation; debt.",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Test plumbing forecasts against all competing balance-sheet flows."
+  ],
+  "assessment": "Several measurable forecasts failed: Treasury maturity, RRP peak, Q1 crypto direction, MARA put and Tencent bottom. Inflation persistence and taper timing worked, and utility mining colocation became commercial. The lending discussion correctly names liquidation cascades but overrelies on management sophistication and off-exchange custody as protection. The liquidity framework is useful only when issuance composition and actual facility counterparties are checked.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

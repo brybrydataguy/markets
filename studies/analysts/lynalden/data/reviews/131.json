@@ -1,0 +1,664 @@
+{
+  "article_id": "131",
+  "title": "Realty Income, Macro, and Bitcoin Deep Dive Analysis",
+  "date": "2024-03-05",
+  "source_url": "https://www.lynalden.com/premium-2024-3-5/",
+  "read_complete": true,
+  "summary": "Liquidity, bitcoin adoption, and net-lease valuation.",
+  "coverage_note": "Read all blocks and image inventory. Covered macro, China, bitcoin cycle, Realty Income and gold; excluded routine allocations and disclaimers.",
+  "claims": [
+    {
+      "id": "131-C01",
+      "claim": "Liquidity offsets limit broad tailwinds.",
+      "kind": "explanation",
+      "source_blocks": [
+        9,
+        13,
+        16
+      ],
+      "family": "net-liquidity-offsets",
+      "asset_or_variable": "net-liquidity-offsets",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "A reproducible domestic approximation is effectively flat between January 3 and February 28: $6.203 tn versus $6.212 tn. This supports the contemporaneous offset description. Marginal global risk capital and subsequent asset sensitivity do not follow uniquely from that identity.",
+      "direction_assessment": "Observed components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "WALCL observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Calculation in millions: WALCL - WTREGEN -1000*RRPONTSYD. Jan 3 2024=6202700; Feb 28=6212100. WTREGEN is weekly average, making this approximate rather than exact daily TGA. Latest downloaded vintage, capped November 7; not original-release vintage."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/WTREGEN",
+          "title": "WTREGEN observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Treasury cash component used in disclosed approximate calculation. Latest downloaded vintage, capped November 7; not original-release vintage."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/RRPONTSYD",
+          "title": "RRPONTSYD observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Reverse repo component converted from billions to millions. Latest downloaded vintage, capped November 7; not original-release vintage."
+        }
+      ],
+      "next_check": "Test marginal asset sensitivity separately; reconstruct exact-day TGA if exact proxy values matter."
+    },
+    {
+      "id": "131-C02",
+      "claim": "Growth direction remains ambiguous.",
+      "kind": "explanation",
+      "source_blocks": [
+        18,
+        20,
+        22
+      ],
+      "family": "mixed-growth-indicators",
+      "asset_or_variable": "mixed-growth-indicators",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Balanced uncertainty is an informative stance but neither a recession nor expansion forecast with an objective threshold.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "131-C03",
+      "claim": "China exports transmit disinflation.",
+      "kind": "explanation",
+      "source_blocks": [
+        26,
+        28,
+        29
+      ],
+      "family": "china-export-disinflation",
+      "asset_or_variable": "china-export-disinflation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Weak domestic demand and greater manufactured exports can lower tradable prices. The net contribution requires trade-weighted export prices, exchange rates and commodity-demand controls.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare Chinese export prices and partner import-price indices."
+    },
+    {
+      "id": "131-C04",
+      "claim": "Recovery could revive inflation.",
+      "kind": "forecast",
+      "source_blocks": [
+        29,
+        30,
+        32
+      ],
+      "family": "second-inflation-wave",
+      "asset_or_variable": "second-inflation-wave",
+      "horizon": null,
+      "conditions": "Growth upcycle or supply disruption",
+      "modality": "base case",
+      "verdict": "conditional_pending",
+      "reason": "No defined growth trigger or inflation increment is specified. December 2024 CPI remained elevated but fell from spring; persistence is not reacceleration.",
+      "direction_assessment": "Trigger and outcome have not both been established.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_01152025.htm",
+          "title": "December 2024 CPI",
+          "publisher": "Bureau of Labor Statistics",
+          "date": "2025-01-15",
+          "verified": true,
+          "finding": "December headline CPI was 2.9% year over year, below March 2024 but above 2%; CPI is not the Fed target PCE index."
+        }
+      ],
+      "next_check": "Specify the upcycle and measure subsequent inflation acceleration."
+    },
+    {
+      "id": "131-C05",
+      "claim": "Trade rerouting delays genuine decoupling.",
+      "kind": "explanation",
+      "source_blocks": [
+        33,
+        35,
+        37
+      ],
+      "family": "china-trade-rerouting",
+      "asset_or_variable": "china-trade-rerouting",
+      "horizon": "Decade or longer",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A falling direct bilateral share does not establish falling Chinese value added. Proving the stronger decade-and-trillions estimate requires input-output and investment accounting.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "Decade or longer",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare value-added exposure, intermediate imports and new capacity."
+    },
+    {
+      "id": "131-C06",
+      "claim": "ETF demand offsets GBTC migration.",
+      "kind": "empirical",
+      "source_blocks": [
+        41,
+        44
+      ],
+      "family": "bitcoin-etf-flows",
+      "asset_or_variable": "bitcoin-etf-flows",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Independent flow estimates support positive net new ETF demand despite GBTC redemptions. They do not trace the identity of selling investors or prove fee-driven migration, and flows are not interchangeable with price-inflated AUM.",
+      "direction_assessment": "Observed components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/",
+          "title": "U.S. spot bitcoin ETF daily net flows",
+          "publisher": "Farside Investors",
+          "date": null,
+          "verified": true,
+          "finding": "February 26-29, 2024 daily aggregate net flows were +$519.9 m,+$576.9 m,+$673.4 m,+$92.3 m; GBTC was redeeming."
+        }
+      ],
+      "next_check": "Reconcile investor migration separately from net fund creations."
+    },
+    {
+      "id": "131-C07",
+      "claim": "Bitcoin retains multiyear upside.",
+      "kind": "forecast",
+      "source_blocks": [
+        49
+      ],
+      "family": "bitcoin-2023-2025-bull",
+      "asset_or_variable": "bitcoin-2023-2025-bull",
+      "horizon": "Multiyear",
+      "conditions": null,
+      "modality": "bullish",
+      "verdict": "mixed",
+      "reason": "Bitcoin appreciated strongly during the observed period, but multiyear supplies no fixed endpoint. Disclose the evaluator sensitivity without selecting a later peak as if it were the forecast deadline.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "Multiyear",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin USD observations",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Public CSV downloaded November 7: 2024-03-05 $63893.71; 2026-11-06 $75860.14. Endpoint direction only; no strategy return, transaction-cost or timing-optimality claim."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-03-05\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-03-06\",\"exit\":\"2026-11-06\",\"days\":975,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"BTC-USD\":{\"entry_adjusted_close\":66106.8046875,\"exit_adjusted_close\":75746.9296875,\"cumulative_return_pct\":14.5826515826484,\"annualized_return_pct\":5.231760846864297,\"source\":\"https://finance.yahoo.com/quote/BTC-USD/history/\"},\"SPY\":{\"entry_adjusted_close\":493.5970764160156,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":48.96562665367643,\"annualized_return_pct\":16.10226809324473,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-34.38297507102803}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "131-C08",
+      "claim": "Leverage permits sharp interim drawdowns.",
+      "kind": "forecast",
+      "source_blocks": [
+        51,
+        52
+      ],
+      "family": "bitcoin-drawdown-risk",
+      "asset_or_variable": "bitcoin-drawdown-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "not_testable",
+      "reason": "A possible 10-30% setback with no deadline or probability cannot be scored as a successful directional prediction.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "131-C09",
+      "claim": "Existing holders set marginal supply.",
+      "kind": "explanation",
+      "source_blocks": [
+        53,
+        58,
+        64
+      ],
+      "family": "bitcoin-liquid-supply",
+      "asset_or_variable": "bitcoin-liquid-supply",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "New issuance is only one source of tradable coins. The stock can transact repeatedly; price clears willingness to buy and sell, so comparing ETF demand only with mined supply is incomplete.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Narrow deductive identity only; no empirical forecasting credit.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Existing coins can be transferred",
+          "Positive holder willingness to sell at some prices"
+        ],
+        "derivation": "Available sell flow at price p equals newly issued coins offered plus existing inventory offered; issuance is therefore not an upper bound on market supply."
+      }
+    },
+    {
+      "id": "131-C10",
+      "claim": "On-chain cohorts suggest early cycle.",
+      "kind": "forecast",
+      "source_blocks": [
+        61,
+        64,
+        66,
+        79
+      ],
+      "family": "bitcoin-onchain-cycle",
+      "asset_or_variable": "bitcoin-onchain-cycle",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Subsequent appreciation supports the direction, but does not validate MVRV, RHODL or a 5-10 percentage-point old-coin rotation threshold. Address movement can reflect custody changes rather than investor sales.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin USD observations",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Public CSV downloaded November 7: 2024-03-05 $63893.71; 2025-10-06 $121393.95. Endpoint direction only; no strategy return, transaction-cost or timing-optimality claim."
+        }
+      ],
+      "next_check": "Freeze indicator thresholds and test forward outcomes across cycles."
+    },
+    {
+      "id": "131-C11",
+      "claim": "Institutional adoption has long runway.",
+      "kind": "forecast",
+      "source_blocks": [
+        88,
+        89
+      ],
+      "family": "bitcoin-institutional-adoption",
+      "asset_or_variable": "bitcoin-institutional-adoption",
+      "horizon": "2024-2034",
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "too_early",
+      "reason": "The cited 2024-2034 scenario is a third-party thesis discussed approvingly, not a quantified independent ten-year target. The full period remains open.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "2024-2034",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Track adoption separately from price through 2034."
+    },
+    {
+      "id": "131-C12",
+      "claim": "Energy remains contrarian value.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        109,
+        110
+      ],
+      "family": "energy-value",
+      "asset_or_variable": "energy-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No benchmark, valuation threshold, or exit date defines success; low prices alone do not distinguish value from declining economics.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "131-C13",
+      "claim": "Emerging markets carry asymmetric geopolitical risks.",
+      "kind": "explanation",
+      "source_blocks": [
+        111
+      ],
+      "family": "em-geopolitical-risk",
+      "asset_or_variable": "em-geopolitical-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A portfolio risk rationale rather than a dated event forecast; regional diversification does not remove currency or governance risk.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "131-C14",
+      "claim": "Net leases support defensive cash flows.",
+      "kind": "explanation",
+      "source_blocks": [
+        112,
+        124,
+        125
+      ],
+      "family": "realty-income-business-durability",
+      "asset_or_variable": "realty-income-business-durability",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Contractual expense pass-through supports the operating rationale. Tenant credit, rent renewal and capital access still matter, so this is not equivalent to bond-like principal protection.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.realtyincome.com/sites/realty-income/files/2026-02/q4-realty-income-12-31-25-10k.pdf",
+          "title": "Realty Income 2025 Form 10-K",
+          "publisher": "Realty Income",
+          "date": "2026-02-24",
+          "verified": true,
+          "finding": "The filing describes net leases transferring operating expenses to tenants and 133 dividend increases since listing; such contracts do not remove tenant default or financing risk."
+        }
+      ],
+      "next_check": "Track tenant failures, occupancy and AFFO per share."
+    },
+    {
+      "id": "131-C15",
+      "claim": "Scale supports accretive acquisitions.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        126,
+        127,
+        135
+      ],
+      "family": "realty-income-capital-cost",
+      "asset_or_variable": "realty-income-capital-cost",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Scale is useful only if acquisition cap rates exceed fully diluted funding costs. Gross asset growth is not proof of accretion.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconcile acquisition yields, funding costs and AFFO per share."
+    },
+    {
+      "id": "131-C16",
+      "claim": "Realty Income offers 7-11% annually.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        128
+      ],
+      "family": "realty-income-expected-return",
+      "asset_or_variable": "realty-income-expected-return",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A forward return range without a holding period or reinvestment rule cannot be fairly scored. No total-return result has been invented.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "131-C17",
+      "claim": "Yield plus growth supports valuation.",
+      "kind": "explanation",
+      "source_blocks": [
+        130,
+        131,
+        133
+      ],
+      "family": "yield-growth-valuation",
+      "asset_or_variable": "yield-growth-valuation",
+      "horizon": null,
+      "conditions": "Stable multiple and continued growth",
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The return decomposition is reasonable under a constant valuation multiple. Assuming 4-5% growth and ignoring multiple changes is not an independently verified forecast.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Separate realized dividend growth, AFFO growth and valuation change."
+    },
+    {
+      "id": "131-C18",
+      "claim": "Stalled growth warrants higher yield.",
+      "kind": "explanation",
+      "source_blocks": [
+        134
+      ],
+      "family": "realty-income-growth-risk",
+      "asset_or_variable": "realty-income-growth-risk",
+      "horizon": null,
+      "conditions": "Growth dries up",
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The 7% yield scenario is a valuation sensitivity, not a predicted market price.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "131-C19",
+      "claim": "Disruption unlikely within ten years.",
+      "kind": "forecast",
+      "source_blocks": [
+        136
+      ],
+      "family": "realty-income-disruption",
+      "asset_or_variable": "realty-income-disruption",
+      "horizon": "Ten years, to March 2034",
+      "conditions": null,
+      "modality": "unlikely",
+      "verdict": "too_early",
+      "reason": "The explicit protection window runs to March 2034. Early survival cannot settle the whole claim.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "Ten years, to March 2034",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Monitor tenant business disruption and lease renewal economics."
+    },
+    {
+      "id": "131-C20",
+      "claim": "Gold breakout can sustain momentum.",
+      "kind": "forecast",
+      "source_blocks": [
+        138
+      ],
+      "family": "gold-secular-breakout",
+      "asset_or_variable": "gold-secular-breakout",
+      "horizon": null,
+      "conditions": null,
+      "modality": "bullish",
+      "verdict": "right",
+      "reason": "Subsequent 2024 record highs verify the directional breakout call; this does not prove technical resistance caused the gains.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.gold.org/goldhub/gold-focus/2025/01/golds-2024-performance-best-14-years",
+          "title": "Gold performance in 2024",
+          "publisher": "World Gold Council",
+          "date": "2025-01-03",
+          "verified": true,
+          "finding": "Dollar gold gained 25.5% during 2024 and reached 40 new LBMA PM records; the October 30 high was $2,777.80."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "131-C21",
+      "claim": "Gold preferred to long Treasuries.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        140
+      ],
+      "family": "gold-over-duration",
+      "asset_or_variable": "gold-over-duration",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No holding horizon or risk-adjusted comparison is provided. The nominal gold rally alone cannot validate every defensive allocation objective.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "131-C22",
+      "claim": "Sovereigns favor gold reserves.",
+      "kind": "explanation",
+      "source_blocks": [
+        141
+      ],
+      "family": "gold-reserve-demand",
+      "asset_or_variable": "gold-reserve-demand",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Large official gold purchases and central-bank survey responses support the gold-reserve side of the institutional segmentation. They do not independently establish the composition of all Bitcoin owners or prove sovereigns uniformly reject it.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.gold.org/goldhub/data/2024-central-bank-gold-reserves-survey",
+          "title": "2024 central-bank gold survey",
+          "publisher": "World Gold Council",
+          "date": "2024-06-18",
+          "verified": true,
+          "finding": "Central banks added 1,037 tonnes in 2023 after 1,082 tonnes in 2022. Survey of 70 respondents conducted February-April 2024: 29% planned higher own gold reserves. Motives included strategic rebalancing, domestic production, crisis and inflation risk; survey intentions are not completed purchases."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "131-C23",
+      "claim": "Network resilience underpins monetary value.",
+      "kind": "explanation",
+      "source_blocks": [
+        144,
+        145,
+        146
+      ],
+      "family": "bitcoin-network-moat",
+      "asset_or_variable": "bitcoin-network-moat",
+      "horizon": null,
+      "conditions": "Internet remains functional",
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The internet dependence and adoption conditions are explicit. Entrenchment is a plausible moat, but the probability of maintaining it and the resulting fair value are unspecified.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Liquidity proxy",
+      "source_blocks": [
+        9,
+        13
+      ],
+      "use": "Funding context",
+      "image_inspected": false
+    },
+    {
+      "name": "MVRV and RHODL",
+      "source_blocks": [
+        64,
+        66
+      ],
+      "use": "Cycle context",
+      "image_inspected": false
+    },
+    {
+      "name": "Yield-growth valuation",
+      "source_blocks": [
+        128,
+        133
+      ],
+      "use": "Return decomposition",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate liquidity from valuation."
+  ],
+  "assessment": "Directionally constructive bitcoin and gold views had subsequent support. The strongest analytical distinction is marginal supply versus issuance. Realty Income expected returns and broad causal stories remain less testable than the price direction; ten-year resilience is unresolved.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

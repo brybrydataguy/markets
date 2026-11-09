@@ -1,0 +1,1580 @@
+{
+  "article_id": "083",
+  "title": "Fiserv Deep Dive Analysis",
+  "date": "2022-05-01",
+  "source_url": "https://www.lynalden.com/premium-2022-5-1/",
+  "read_complete": true,
+  "summary": "Currency stress, crypto concentration and Fiserv.",
+  "coverage_note": "All article text blocks were read. Ledger covers material macro, investment, and causal propositions; incidental descriptive statistics, boilerplate, and unreasoned position lists are excluded. Image labels were read, not image pixels.",
+  "claims": [
+    {
+      "claim": "YCC transfers pressure",
+      "source_blocks": [
+        10,
+        11,
+        14,
+        15
+      ],
+      "kind": "explanation",
+      "family": "japan-ycc-currency-release-valve",
+      "verdict": "mixed",
+      "reason": "The BoJ could purchase unlimited yen-denominated bonds, and later widened its band. That supports the operational distinction between defending a nominal yield and defending currency purchasing power. Complete control overlooks implementation constraints, and the December change cited market functioning rather than proving currency weakness was the sole trigger.",
+      "evidence": [
+        {
+          "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2022/rel220328d.pdf",
+          "title": "Fixed-rate JGB purchase operations",
+          "publisher": "Bank of Japan",
+          "date": "2022-03-28",
+          "verified": true,
+          "finding": "Announced unlimited purchases at 0.25% for specified ten-year JGBs on March 29-31.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/minu_2022/g221220.htm",
+          "title": "December 2022 policy meeting minutes",
+          "publisher": "Bank of Japan",
+          "date": null,
+          "verified": true,
+          "finding": "The BoJ widened the ten-year yield fluctuation band to approximately +/-0.5 percentage points, citing market functioning.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "japan-ycc-currency-release-valve",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C01"
+    },
+    {
+      "claim": "European energy constraints",
+      "source_blocks": [
+        16,
+        21
+      ],
+      "kind": "explanation",
+      "family": "europe-energy-security",
+      "verdict": "mixed",
+      "reason": "Europe needed record LNG and demand reduction to replace Russian supplies. That validates vulnerability, but mostly self-imposed is an unsupported allocation of responsibility across national nuclear policies, war, weather, storage and import diversification. It is not a quantitative causal result.",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/reports/gas-market-report-q1-2023",
+          "title": "Gas Market Report Q1 2023",
+          "publisher": "IEA",
+          "date": "2023-02-28",
+          "verified": true,
+          "finding": "Europe offset major Russian pipeline cuts with record LNG, storage and reduced consumption, including industrial demand destruction.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "europe-energy-security",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C02"
+    },
+    {
+      "claim": "ECB cannot stop purchases",
+      "source_blocks": [
+        21
+      ],
+      "kind": "forecast",
+      "family": "ecb-sovereign-financing-constraint",
+      "verdict": "mixed",
+      "reason": "APP net purchases stopped in June 2022 and reinvestments in July 2023. That is contrary to a blanket ongoing-purchase requirement, while PEPP reinvestments and contingent facilities still offered support. Problems and long period are undefined, so an absolute wrong grade would overstate what this sentence predicts.",
+      "evidence": [
+        {
+          "url": "https://www.ecb.europa.eu/mopo/implement/app/html/index.en.html",
+          "title": "Asset purchase programme history",
+          "publisher": "ECB",
+          "date": null,
+          "verified": true,
+          "finding": "APP net purchases ended June 2022 and all APP reinvestments ended July 2023. PEPP and contingent tools are separate.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Define financing stress and distinguish net purchases, reinvestment and contingent backstops.",
+      "asset_or_variable": "ecb-sovereign-financing-constraint",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "083-C03"
+    },
+    {
+      "claim": "Deliberate yuan devaluation",
+      "source_blocks": [
+        22
+      ],
+      "kind": "explanation",
+      "family": "china-currency-policy-devaluation",
+      "verdict": "evidence_needed",
+      "reason": "Observed yuan depreciation does not independently establish a discrete policy devaluation of a fixed peg. China uses a managed exchange-rate regime; official fixing changes and foreign-exchange measures must be distinguished from market moves.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Compare dated PBoC fixings, reserve-ratio announcements and market exchange rates for April 2022.",
+      "asset_or_variable": "china-currency-policy-devaluation",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C04"
+    },
+    {
+      "claim": "Dollar exceeds expectations",
+      "source_blocks": [
+        24
+      ],
+      "kind": "empirical",
+      "family": "2022-dollar-bearish-rotation",
+      "verdict": "right",
+      "reason": "The author explicitly acknowledges the prior lower-high expectation failed. The broad USD series confirms substantial 2022 appreciation, although it is not DXY itself. This is a retrospective correction, not a new successful forecast.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+          "title": "Nominal Broad US Dollar Index",
+          "publisher": "Federal Reserve via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Broad dollar index:115.2034 January 24, 2022;128.4539 September 26;121.4256 December 30.",
+          "verification_method": "computed from downloaded CSV; broad index, not DXY"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-dollar-bearish-rotation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "Revision documents an earlier framework miss; avoid double counting as an independent prediction.",
+      "revision_links": [
+        "076-C17"
+      ],
+      "id": "083-C05"
+    },
+    {
+      "claim": "Dollar hurts earnings",
+      "source_blocks": [
+        30,
+        31
+      ],
+      "kind": "forecast",
+      "family": "dollar-multinational-earnings",
+      "verdict": "right",
+      "reason": "Microsoft subsequently reported material adverse foreign-exchange translation in fiscal 2023. The accounting mechanism is valid for unhedged foreign-currency revenue. A company example supports the channel but cannot determine the entire S&P earnings response.",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/investor/reports/ar23/index.html",
+          "title": "2023 Annual Report",
+          "publisher": "Microsoft",
+          "date": null,
+          "verified": true,
+          "finding": "Fiscal 2023 reported revenue and operating income were reduced by foreign-exchange translation effects; this verifies a major multinational example, not an S&P-wide causal estimate.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Upcoming reporting periods",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "dollar-multinational-earnings",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Upcoming reporting periods",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "083-C06"
+    },
+    {
+      "claim": "Dollar debt transmits stress",
+      "source_blocks": [
+        30
+      ],
+      "kind": "explanation",
+      "family": "global-dollar-debt-channel",
+      "verdict": "not_testable",
+      "reason": "Currency depreciation raises local-currency debt service on unhedged dollar debt. The net growth effect depends on dollar revenues, hedging, reserves and maturity structure; the source gives no country-level exposure test.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": "Dollar strength persists",
+      "next_check": "Match borrower-level currency mismatch to refinancing costs and activity.",
+      "asset_or_variable": "global-dollar-debt-channel",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C07"
+    },
+    {
+      "claim": "Trade drag lowers GDP",
+      "source_blocks": [
+        29,
+        78
+      ],
+      "kind": "explanation",
+      "family": "2022-us-gdp-trade-drag",
+      "verdict": "right",
+      "reason": "BEA explicitly confirms the -1.4% advance estimate and negative contributions from exports and inventories while imports increased and consumer spending grew. These are national-accounting contributions, not evidence that importing mechanically destroys domestic welfare.",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/news/2022/gross-domestic-product-second-estimate-and-corporate-profits-preliminary-first-quarter",
+          "title": "First-quarter 2022 GDP, second estimate",
+          "publisher": "BEA",
+          "date": "2022-05-26",
+          "verified": true,
+          "finding": "The advance estimate was -1.4% annualized; imports rose, exports and inventory investment fell, while consumer spending increased.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-us-gdp-trade-drag",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C08"
+    },
+    {
+      "claim": "Asset-linked tax receipts",
+      "source_blocks": [
+        34,
+        37,
+        46
+      ],
+      "kind": "explanation",
+      "family": "asset-prices-fiscal-receipts",
+      "verdict": "evidence_needed",
+      "reason": "Capital-gains realizations and wealth effects plausibly connect markets to taxes, but receipts also respond to employment, nominal income, tax law and collection timing. Correlated charts cannot establish a mechanically forced deficit-financing crisis.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Use Treasury receipt categories and capital-gains realizations to separate market effects from nominal wages and law changes.",
+      "asset_or_variable": "asset-prices-fiscal-receipts",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C09"
+    },
+    {
+      "claim": "Eventual deficit monetization",
+      "source_blocks": [
+        38
+      ],
+      "kind": "forecast",
+      "family": "fiscal-dominance-qe-ycc",
+      "verdict": "conditional_pending",
+      "reason": "No trigger date is supplied. Treasury issuance can clear at higher yields and regulatory changes differ from Fed outright purchases. Banking liquidity support should not automatically count as proof of this fiscal endgame.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": "Treasury funding stress",
+      "next_check": "Identify a verified fiscal-market intervention and document its purpose and balance-sheet channel.",
+      "asset_or_variable": "fiscal-dominance-qe-ycc",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "083-C10"
+    },
+    {
+      "claim": "Weaker bond diversification",
+      "source_blocks": [
+        40,
+        43,
+        44
+      ],
+      "kind": "explanation",
+      "family": "inflation-stock-bond-correlation",
+      "verdict": "right",
+      "reason": "2022 broad stock and bond losses independently support the contemporaneous warning that duration was failing as ballast. It does not establish that every stagflation episode has the same covariance or that an unspecified alternative mix always wins.",
+      "evidence": [
+        {
+          "url": "https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2022/",
+          "title": "SPIVA U.S. Year-End 2022",
+          "publisher": "S&P Dow Jones Indices",
+          "date": "2023-03-07",
+          "verified": true,
+          "finding": "2022 stocks and investment-grade bonds both fell materially.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "inflation-stock-bond-correlation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C11"
+    },
+    {
+      "claim": "Treasuries could rebound",
+      "source_blocks": [
+        47,
+        48
+      ],
+      "kind": "investment_thesis",
+      "family": "2022-duration-reversal-setup",
+      "verdict": "not_testable",
+      "reason": "The source presents a possible long case but requires a price reversal before buying. It is not an unconditional bond purchase or a forecast that yields have peaked. The later 2022 rise in yields is contrary context, not a scored trade loss.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": "Price reversal confirms",
+      "next_check": "Specify the confirmation trigger, duration, exit horizon and stop.",
+      "asset_or_variable": "2022-duration-reversal-setup",
+      "modality": "possible",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C12"
+    },
+    {
+      "claim": "Gold/yield reversal",
+      "source_blocks": [
+        48
+      ],
+      "kind": "forecast",
+      "family": "gold-real-yield-sensitivity",
+      "verdict": "conditional_pending",
+      "reason": "The argument is conditional on a reversal and lacks a defined nominal-versus-real yield measure. Gold can also respond to the dollar and reserve demand, so a later gain alone cannot resolve the mechanism.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": "Bond yields reverse",
+      "next_check": "Define the yield trigger and measure gold performance after it with dollar controls.",
+      "asset_or_variable": "gold-real-yield-sensitivity",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "083-C13"
+    },
+    {
+      "claim": "China probably has bottomed",
+      "source_blocks": [
+        55,
+        57,
+        59
+      ],
+      "kind": "forecast",
+      "family": "china-internet-bottom",
+      "verdict": "wrong",
+      "reason": "KWEB subsequently closed at $18.41 on October 24, below its March 14 close of $21.19. The qualified preferred bottom view failed. Publication-to-year-end return was nevertheless positive, illustrating that a wrong floor claim is distinct from a profitable chosen holding period.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/KWEB/history/",
+          "title": "KWEB historical daily market data",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Split-adjusted KWEB close March 14, 2022 $21.19; October 24 $18.41. May 2 to December 30 adjusted return +4.75%, SPY -6.53%.",
+          "verification_method": "computed from coordinator-downloaded research/evidence/market CSV; adjusted-close total-return proxy or split-adjusted close as explicitly stated; no fees or taxes"
+        }
+      ],
+      "horizon": "Current cycle",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "china-internet-bottom",
+      "modality": "probably",
+      "confidence": "low",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Current cycle",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "083-C14"
+    },
+    {
+      "claim": "Growth slows with inflation",
+      "source_blocks": [
+        6,
+        62,
+        90,
+        227
+      ],
+      "kind": "forecast",
+      "family": "2022-stagflation-liquidity-risk",
+      "verdict": "right",
+      "reason": "Latest-vintage GDP shows much slower 2022 growth while CPI rose to 9.1% in June. The direction worked, and the source correctly distinguished weak growth from a guaranteed recession. National-accounts revisions mean the publication-vintage quarterly print should be retained separately.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/GDPC1",
+          "title": "Real GDP",
+          "publisher": "BEA via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Real GDP rose from 22001.640bn inQ 42021 to 22272.546bn inQ 42022, about 1.23%, versus about 4.24% fromQ 12021 toQ 42021 alone.",
+          "verification_method": "computed from downloaded latest-vintage CSV; not a real-time vintage"
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07132022.htm",
+          "title": "CPI, June 2022",
+          "publisher": "BLS",
+          "date": "2022-07-13",
+          "verified": true,
+          "finding": "Annual headline CPI reached 9.1% in June 2022, exceeding March 8.5%.",
+          "verification_method": "retrieved official statistical release extract"
+        }
+      ],
+      "horizon": "2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-stagflation-liquidity-risk",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "083-C15"
+    },
+    {
+      "claim": "Short-end hikes flatten curve",
+      "source_blocks": [
+        80
+      ],
+      "kind": "forecast",
+      "family": "2022-yield-curve-flattening",
+      "verdict": "right",
+      "reason": "The ten-year minus three-month spread fell from +2.09 points on May 2 to -0.54 on December 30. This directly matches the predicted flattening as policy rates rose.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/T10Y3M",
+          "title": "Treasury ten-year minus three-month spread",
+          "publisher": "Federal Reserve via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "May 2, 2022 +2.09 percentage points; December 30 -0.54.",
+          "verification_method": "computed from downloaded CSV"
+        }
+      ],
+      "horizon": "Coming months",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-yield-curve-flattening",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Coming months",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "083-C16"
+    },
+    {
+      "claim": "Mortgage refinancing pressure",
+      "source_blocks": [
+        83,
+        86,
+        90
+      ],
+      "kind": "explanation",
+      "family": "mortgage-rates-consumer-refinancing",
+      "verdict": "mixed",
+      "reason": "The rise to 7.08% in November made refinancing existing low-rate mortgages unattractive and coincided with a major housing slowdown. The universal phrase no longer refinancing is too strong; cash-out or individual borrower needs can still justify transactions.",
+      "evidence": [
+        {
+          "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-rise-above-seven-percent",
+          "title": "Mortgage rates rise above seven percent",
+          "publisher": "Freddie Mac",
+          "date": "2022-11-10",
+          "verified": true,
+          "finding": "30-year fixed rate 7.08%; significant home-sales decline reported.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "mortgage-rates-consumer-refinancing",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C17"
+    },
+    {
+      "claim": "Illiquid-supply squeeze",
+      "source_blocks": [
+        92,
+        93,
+        97
+      ],
+      "kind": "investment_thesis",
+      "family": "bitcoin-illiquid-supply-demand",
+      "verdict": "not_testable",
+      "reason": "The article explicitly remains uncertain for three to six months. Its long-term bullishness and potential supply shock have no fixed endpoint; deep 2022 losses followed by 2024 highs do not turn this into a precise timing call. Dormancy also does not measure all saleable or leveraged supply.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin daily price",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "BTC: $57,471.87 November 28, 2021; $15,755.75 November 21, 2022; first subsequent daily close above $70,000 March 11, 2024.",
+          "verification_method": "computed from coordinator-downloaded CSV, provenance research/evidence/series-manifest.json"
+        }
+      ],
+      "horizon": "Long term; uncertain 3-6 months",
+      "conditions": null,
+      "next_check": "Predefine demand trigger, on-chain cohort and evaluation horizon.",
+      "asset_or_variable": "bitcoin-illiquid-supply-demand",
+      "modality": "possible",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Long term; uncertain 3-6 months",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C18"
+    },
+    {
+      "claim": "Symbolic CAR adoption",
+      "source_blocks": [
+        99
+      ],
+      "kind": "explanation",
+      "family": "bitcoin-legal-tender-adoption",
+      "verdict": "mixed",
+      "reason": "The legal-tender law existed, and the March 2023 repeal supports caution about durable adoption. Symbolic remains a qualitative judgment without payment-use data; legal status is not equivalent to actual access or everyday circulation.",
+      "evidence": [
+        {
+          "url": "https://www.imf.org/-/media/files/publications/cr/2023/english/1cafea2023001.pdf",
+          "title": "Central African Republic Article IV report",
+          "publisher": "IMF",
+          "date": null,
+          "verified": true,
+          "finding": "Documents April 2022 crypto legal-tender law and March 2023 repeal of legal-tender and convertibility provisions; report completed April 18 and published May 2023.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bitcoin-legal-tender-adoption",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C19"
+    },
+    {
+      "claim": "Panama enables crypto payments",
+      "source_blocks": [
+        100
+      ],
+      "kind": "empirical",
+      "family": "panama-crypto-law-status",
+      "verdict": "wrong",
+      "reason": "Assembly passage was treated as operational legal and tax status, but the measure was a proposed law subject to further constitutional steps. The judiciary later declared the entire bill unenforceable. The article should have distinguished legislative approval from law in force.",
+      "evidence": [
+        {
+          "url": "https://www.organojudicial.gob.pa/cendoj/documentacion-cendoj/registro-judicial-digital/fallos-de-interes/fallo-n0-sn-de-06-de-junio-de-2023-declara-inexequible-el-proyecto-de-ley-697-de-2021",
+          "title": "Court ruling on bill 697",
+          "publisher": "Panama Judiciary",
+          "date": "2023-09-07",
+          "verified": true,
+          "finding": "Official record identifies the June 6, 2023 ruling declaring the entire proposed crypto law unenforceable. Legislative passage was not completed legal implementation.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "panama-crypto-law-status",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C20"
+    },
+    {
+      "claim": "Fort Worth pilots mining",
+      "source_blocks": [
+        102
+      ],
+      "kind": "empirical",
+      "family": "municipal-bitcoin-mining",
+      "verdict": "right",
+      "reason": "The April 26 city resolution authorizes the pilot and accepts three donated machines. This validates a concrete adoption example; it cannot establish economic scale or broad municipal endorsement.",
+      "evidence": [
+        {
+          "url": "https://fortworthgov.legistar.com/LegislationDetail.aspx?GUID=6BD66773-EBE3-4BD3-99DE-B6A0FEADD72B&ID=5563861",
+          "title": "Resolution 22-2134",
+          "publisher": "City of Fort Worth",
+          "date": "2022-04-26",
+          "verified": true,
+          "finding": "Council authorized a Bitcoin mining pilot and accepted three donated machines.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "municipal-bitcoin-mining",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C21"
+    },
+    {
+      "claim": "Slow covenant consensus",
+      "source_blocks": [
+        104,
+        105,
+        106
+      ],
+      "kind": "forecast",
+      "family": "bitcoin-consensus-upgrade-friction",
+      "verdict": "right",
+      "reason": "BIP119 remains Draft in the official repository, supporting delayed implementation. That status alone is not a complete audit of every alternative covenant proposal, and it does not establish the fungibility trade-off quantitatively.",
+      "evidence": [
+        {
+          "url": "https://github.com/bitcoin/bips/blob/master/bip-0119.mediawiki",
+          "title": "BIP119 CHECKTEMPLATEVERIFY",
+          "publisher": "Bitcoin BIPs repository",
+          "date": null,
+          "verified": true,
+          "finding": "The current specification remains Draft; it describes covenant-style transaction-template restrictions. Repository state is not a full deployment audit.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": "Insufficient consensus",
+      "next_check": null,
+      "asset_or_variable": "bitcoin-consensus-upgrade-friction",
+      "modality": "likely",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "083-C22"
+    },
+    {
+      "claim": "Censorship-resistant ports",
+      "source_blocks": [
+        108,
+        110
+      ],
+      "kind": "explanation",
+      "family": "bitcoin-network-censorship-resistance",
+      "verdict": "right",
+      "reason": "Bitcoin Core 23.0 removed the strong preference for peers on port 8333. That concretely reduces dependence on an easily filtered port; it does not prevent deep packet inspection or all network censorship.",
+      "evidence": [
+        {
+          "url": "https://bitcoincore.org/en/releases/23.0/",
+          "title": "Bitcoin Core 23.0 release notes",
+          "publisher": "Bitcoin Core",
+          "date": "2022-04-25",
+          "verified": true,
+          "finding": "Removed strong peer-selection preference for port 8333; added CJDNS support.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bitcoin-network-censorship-resistance",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C23"
+    },
+    {
+      "claim": "Staking concentrates power",
+      "source_blocks": [
+        113,
+        118,
+        119,
+        122,
+        125,
+        126
+      ],
+      "kind": "forecast",
+      "family": "ethereum-staking-centralization",
+      "verdict": "right",
+      "reason": "New York Fed research independently finds concentrated Ethereum intermediation through informational advantage, risk sharing and delegation. This supports the structural warning. Lido's protocol-level share should not be equated with one operator controlling every underlying validator.",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1102.pdf",
+          "title": "Natural Centralization in Decentralized Finance",
+          "publisher": "Federal Reserve Bank of New York staff",
+          "date": null,
+          "verified": true,
+          "finding": "May 2024 paper revised August 2025 finds concentrated Ethereum intermediation arising from private information, risk sharing and delegation. Staff research, not official policy.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://research.lido.fi/t/why-doesnt-lido-self-limit/6206",
+          "title": "Lido community discussion of market share",
+          "publisher": "Lido Governance community",
+          "date": "2023-12-19",
+          "verified": true,
+          "finding": "Reports roughly 32% of total ETH staked over 19 months, despite growth in underlying stake. A community account is not an independent audited time series.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Post-Merge",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "ethereum-staking-centralization",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Post-Merge",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "083-C24"
+    },
+    {
+      "claim": "Layered staking yield",
+      "source_blocks": [
+        120,
+        121
+      ],
+      "kind": "explanation",
+      "family": "steth-defi-composability",
+      "verdict": "mixed",
+      "reason": "Lido documentation confirms that receipt tokens can retain staking accrual while serving in DeFi. Double the interest is not a guaranteed result: fees, loan rates, slashing, liquidation and smart-contract risk matter, and extra yield often compensates extra exposure.",
+      "evidence": [
+        {
+          "url": "https://docs.lido.fi/guides/lido-tokens-integration-guide/",
+          "title": "Lido token integration guide",
+          "publisher": "Lido",
+          "date": null,
+          "verified": true,
+          "finding": "Receipt tokens can be used in DeFi while accruing staking rewards; guide explicitly identifies exchange-price discounts, slashing and contract risks.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "steth-defi-composability",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C25"
+    },
+    {
+      "claim": "stETH/ETH value parity",
+      "source_blocks": [
+        121
+      ],
+      "kind": "explanation",
+      "family": "steth-liquidity-peg-risk",
+      "verdict": "wrong",
+      "reason": "A receipt claim on staked ETH is not guaranteed market-price parity. Lido's own documentation warns of discounts because of withdrawal constraints. The parenthetical equality overlooks exactly the liquidity mismatch that becomes important in stressed markets.",
+      "evidence": [
+        {
+          "url": "https://docs.lido.fi/guides/lido-tokens-integration-guide/",
+          "title": "Lido token integration guide",
+          "publisher": "Lido",
+          "date": null,
+          "verified": true,
+          "finding": "Receipt tokens can be used in DeFi while accruing staking rewards; guide explicitly identifies exchange-price discounts, slashing and contract risks.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "steth-liquidity-peg-risk",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C26"
+    },
+    {
+      "claim": "Lido may become dominant",
+      "source_blocks": [
+        128,
+        129
+      ],
+      "kind": "forecast",
+      "family": "ethereum-liquid-staking-network-effect",
+      "verdict": "not_testable",
+      "reason": "Can trend toward a majority is an open possibility, not a quantified base case. Community data show share stayed near 32% over 19 months, useful contrary evidence to extrapolating explosive growth indefinitely. Contract-concentration risk exists even without majority share.",
+      "evidence": [
+        {
+          "url": "https://research.lido.fi/t/why-doesnt-lido-self-limit/6206",
+          "title": "Lido community discussion of market share",
+          "publisher": "Lido Governance community",
+          "date": "2023-12-19",
+          "verified": true,
+          "finding": "Reports roughly 32% of total ETH staked over 19 months, despite growth in underlying stake. A community account is not an independent audited time series.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://docs.lido.fi/guides/lido-tokens-integration-guide/",
+          "title": "Lido token integration guide",
+          "publisher": "Lido",
+          "date": null,
+          "verified": true,
+          "finding": "Receipt tokens can be used in DeFi while accruing staking rewards; guide explicitly identifies exchange-price discounts, slashing and contract risks.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify dominance threshold, horizon and whether protocol or validator ownership is measured.",
+      "asset_or_variable": "ethereum-liquid-staking-network-effect",
+      "modality": "possible",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "083-C27"
+    },
+    {
+      "claim": "Mining scale limits",
+      "source_blocks": [
+        127
+      ],
+      "kind": "explanation",
+      "family": "bitcoin-miner-scale-economies",
+      "verdict": "evidence_needed",
+      "reason": "The specific claim that benefits cease around 5% market share needs mining cost curves, financing terms and pool-versus-owner distinctions. No such comparative evidence is supplied; technical decentralization does not by itself establish an industrial cost threshold.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Compare miner-level cost, capital cost and profitability controlling energy location and hardware vintage.",
+      "asset_or_variable": "bitcoin-miner-scale-economies",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C28"
+    },
+    {
+      "claim": "Solana reliability trade-offs persist",
+      "source_blocks": [
+        131,
+        132,
+        133,
+        134
+      ],
+      "kind": "explanation",
+      "family": "solana-availability-centralization",
+      "verdict": "right",
+      "reason": "Solana's postmortem confirms a seven-hour block-production outage and coordinated validator restart. This verifies the availability and coordination trade-off; describing the entire addressable market as uncertain is an investment judgment rather than a separate failed forecast.",
+      "evidence": [
+        {
+          "url": "https://solana.com/news/04-30-22-solana-mainnet-beta-outage-report-mitigation",
+          "title": "April 30 outage postmortem",
+          "publisher": "Solana Foundation",
+          "date": "2022-05-02",
+          "verified": true,
+          "finding": "Blocks stopped at 20:30 UTC April 30; validator operators coordinated a restart at 03:30 May 1, about seven hours later.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "solana-availability-centralization",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C29"
+    },
+    {
+      "claim": "DeFi oracles remain vulnerable",
+      "source_blocks": [
+        136,
+        137
+      ],
+      "kind": "empirical",
+      "family": "defi-oracle-exploit-risk",
+      "verdict": "right",
+      "reason": "The transaction-linked investigation documents another $13.4m Deus loss following a $3m event. This supports the application-security warning. An application exploit should not be relabeled a compromise of Fantom consensus.",
+      "evidence": [
+        {
+          "url": "https://rekt.news/deus-dao-rekt-2",
+          "title": "Deus DAO second exploit analysis",
+          "publisher": "Rekt",
+          "date": "2022-04-28",
+          "verified": true,
+          "finding": "Transaction-linked investigation documents $13.4m loss through oracle manipulation, following a prior $3m event.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "defi-oracle-exploit-risk",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C30"
+    },
+    {
+      "claim": "Terra run risk rises",
+      "source_blocks": [
+        139,
+        140,
+        142,
+        144,
+        147
+      ],
+      "kind": "forecast",
+      "family": "terra-endogenous-collateral-run",
+      "verdict": "right",
+      "reason": "The warning preceded the May collapse by roughly a week. The predicted withdrawal feedback and failing endogenous support materialized. Exact chart ratios are not visually authenticated, but the material mechanism is independently supported.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2022-november-financial-stability-report-funding-risks.htm",
+          "title": "Financial Stability Report: Funding Risks",
+          "publisher": "Federal Reserve",
+          "date": "2022-11-04",
+          "verified": true,
+          "finding": "Reduced Terra USD lending rates and temporary liquidity shortages preceded a run and collapse in May 2022.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2024-73",
+          "title": "Terraform and Kwon fraud verdict and settlement",
+          "publisher": "SEC",
+          "date": "2024-06-13",
+          "verified": true,
+          "finding": "After UST depegged in May 2022, related tokens approached zero; roughly 40b in market value vanished. Jury found fraud.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Coming months",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "terra-endogenous-collateral-run",
+      "modality": "risk warning",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Coming months",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "083-C31"
+    },
+    {
+      "claim": "Terra liquidation hits Bitcoin",
+      "source_blocks": [
+        148
+      ],
+      "kind": "forecast",
+      "family": "terra-bitcoin-contagion",
+      "verdict": "mixed",
+      "reason": "Large BTC reserve transfers to exchanges occurred during the failed peg defense, supporting contagion. The proposed retail UST-to-BTC redemption process was not how typical holders were guaranteed access; FSOC reported no such direct redemption ability. Direction was insightful while implementation details were uncertain.",
+      "evidence": [
+        {
+          "url": "https://www.elliptic.co/insights/what-happened-to-the-3-5-billion-terra-reserve-elliptic-follows-the-bitcoins/",
+          "title": "Tracing the Terra Bitcoin reserve",
+          "publisher": "Elliptic",
+          "date": "2022-05-13",
+          "verified": true,
+          "finding": "On-chain tracing located approximately 80,000 reserve BTC moving to Gemini and Binance amid the peg crisis. Exchange transfers alone do not prove execution price or causal price impact.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2022-november-financial-stability-report-funding-risks.htm",
+          "title": "Financial Stability Report: Funding Risks",
+          "publisher": "Federal Reserve",
+          "date": "2022-11-04",
+          "verified": true,
+          "finding": "Reduced Terra USD lending rates and temporary liquidity shortages preceded a run and collapse in May 2022.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/261/FSOC-Digital-Assets-Report-2022.pdf",
+          "title": "Digital Asset Financial Stability Risks report",
+          "publisher": "FSOC",
+          "date": null,
+          "verified": true,
+          "finding": "Box C says reports did not indicate typical UST holders could directly redeem into BTC; documents collapse and reserve arrangement.",
+          "verification_method": "opened official report"
+        }
+      ],
+      "horizon": null,
+      "conditions": "UST loses peg",
+      "next_check": null,
+      "asset_or_variable": "terra-bitcoin-contagion",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "083-C32"
+    },
+    {
+      "claim": "Capitulation could mark bottom",
+      "source_blocks": [
+        149
+      ],
+      "kind": "forecast",
+      "family": "bitcoin-terra-capitulation-bottom",
+      "verdict": "not_testable",
+      "reason": "The text explicitly calls this a possible scenario. BTC made lower lows in November after the May Terra event, so the scenario did not mark the final cycle bottom, but it was never a firm bottom prediction.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin daily price",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "BTC: $57,471.87 November 28, 2021; $15,755.75 November 21, 2022; first subsequent daily close above $70,000 March 11, 2024.",
+          "verification_method": "computed from coordinator-downloaded CSV, provenance research/evidence/series-manifest.json"
+        }
+      ],
+      "horizon": null,
+      "conditions": "Terra capitulates",
+      "next_check": "A scored forecast requires a preferred bottom level or confirmation rule.",
+      "asset_or_variable": "bitcoin-terra-capitulation-bottom",
+      "modality": "possible",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "083-C33"
+    },
+    {
+      "claim": "Only Bitcoin is investable",
+      "source_blocks": [
+        150
+      ],
+      "kind": "investment_thesis",
+      "family": "bitcoin-investment-altcoins-speculation",
+      "verdict": "not_testable",
+      "reason": "Investable is the author's category based on monetary qualities, not a return proposition. Some non-Bitcoin assets can outperform over selected intervals without disproving that personal framework; investment-grade criteria need to be specified.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Define investability by risks, rights and cash flows rather than retrospective price winners.",
+      "asset_or_variable": "bitcoin-investment-altcoins-speculation",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C34"
+    },
+    {
+      "claim": "Fiserv benefits from switching costs",
+      "source_blocks": [
+        168,
+        169,
+        173,
+        190
+      ],
+      "kind": "investment_thesis",
+      "family": "fiserv-switching-cost-moat",
+      "verdict": "mixed",
+      "reason": "Subsequent growth supports a durable installed base, but the 2025 slowdown and remedial customer-focus plan show that switching costs did not remove execution and competitive risk. The author's personal experience with other providers is not a measured Fiserv retention rate.",
+      "evidence": [
+        {
+          "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-reports-fourth-quarter-and-full-year-2023-results",
+          "title": "2023 results",
+          "publisher": "Fiserv",
+          "date": "2024-02-06",
+          "verified": true,
+          "finding": "Adjusted EPS grew 16% to $7.52, free cash flow 14% to $4.02b; repurchases reduced diluted average shares 5%.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-reports-third-quarter-2025-results",
+          "title": "Third-quarter 2025 results",
+          "publisher": "Fiserv",
+          "date": "2025-10-29",
+          "verified": true,
+          "finding": "Quarterly organic revenue growth slowed to 1%, adjusted EPS fell 11%, and full-year growth/earnings guidance was reset lower; management announced remedial changes.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "fiserv-switching-cost-moat",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C35"
+    },
+    {
+      "claim": "Fiserv reduces share count",
+      "source_blocks": [
+        181
+      ],
+      "kind": "investment_thesis",
+      "family": "fiserv-capital-return",
+      "verdict": "right",
+      "reason": "2023 repurchases reduced diluted average shares by 5%. This confirms the continuing capital-return channel; buybacks do not establish intrinsic-value creation if prices paid were excessive.",
+      "evidence": [
+        {
+          "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-reports-fourth-quarter-and-full-year-2023-results",
+          "title": "2023 results",
+          "publisher": "Fiserv",
+          "date": "2024-02-06",
+          "verified": true,
+          "finding": "Adjusted EPS grew 16% to $7.52, free cash flow 14% to $4.02b; repurchases reduced diluted average shares 5%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "fiserv-capital-return",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C36"
+    },
+    {
+      "claim": "Resilient Fiserv growth",
+      "source_blocks": [
+        184,
+        187,
+        199
+      ],
+      "kind": "investment_thesis",
+      "family": "fiserv-resilient-growth",
+      "verdict": "mixed",
+      "reason": "Adjusted EPS rose 16% in 2023, but quarterly adjusted EPS fell 11% in Q3 2025 as organic growth slowed to 1%. The main operating thesis worked initially and then faced a material setback. The low valuation alone did not make business performance insensitive to execution.",
+      "evidence": [
+        {
+          "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-reports-fourth-quarter-and-full-year-2023-results",
+          "title": "2023 results",
+          "publisher": "Fiserv",
+          "date": "2024-02-06",
+          "verified": true,
+          "finding": "Adjusted EPS grew 16% to $7.52, free cash flow 14% to $4.02b; repurchases reduced diluted average shares 5%.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-reports-third-quarter-2025-results",
+          "title": "Third-quarter 2025 results",
+          "publisher": "Fiserv",
+          "date": "2025-10-29",
+          "verified": true,
+          "finding": "Quarterly organic revenue growth slowed to 1%, adjusted EPS fell 11%, and full-year growth/earnings guidance was reset lower; management announced remedial changes.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "fiserv-resilient-growth",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C37"
+    },
+    {
+      "claim": "Fiserv offers attractive returns",
+      "source_blocks": [
+        184,
+        187
+      ],
+      "kind": "investment_thesis",
+      "family": "fiserv-stock-valuation",
+      "verdict": "not_testable",
+      "reason": "No dated target is given. From May 2, 2022, adjusted return was +88.43% through May 1, 2025, but -35.26% through November 6, 2026; SPY returned +40.78% and +88.42%. The large endpoint reversal precludes presenting the early rally as a completed success.",
+      "evidence": [
+        {
+          "url": "https://nasdaqtrader.com/TraderNews.aspx?id=DTN2025-32",
+          "title": "Fiserv ticker and listing transfer",
+          "publisher": "Nasdaq",
+          "date": null,
+          "verified": true,
+          "finding": "FISV resumes November 11, 2025; Nasdaq instructs vendors to preserve earlier FI history under FISV. June 2023 issuer announcement independently verifies the earlier FISV-to-FI move.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/FISV/history/",
+          "title": "FISV historical daily market data",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "May 2, 2022 to May 1, 2025 +88.43%; through November 6, 2026 -35.26%. SPY +40.78%/+88.42%. USD adjusted proxy; Nasdaq confirms FI history continuity under FISV.",
+          "verification_method": "computed from coordinator-downloaded research/evidence/market CSV; adjusted-close total-return proxy or split-adjusted close as explicitly stated; no fees or taxes"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Retain the full path; define intended horizon before assigning a categorical valuation verdict.",
+      "asset_or_variable": "fiserv-stock-valuation",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "test_specification": [
+        {
+          "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+          "published": "2022-05-01",
+          "requested_endpoint": "2025-05-01",
+          "entry": "2022-05-02",
+          "exit": "2025-05-01",
+          "days": 1095,
+          "endpoint_gap_days": 0,
+          "endpoint_covered": true,
+          "instruments": {
+            "FISV": {
+              "entry_adjusted_close": 97.12999725341797,
+              "exit_adjusted_close": 183.02000427246094,
+              "cumulative_return_pct": 88.4278898875605,
+              "annualized_return_pct": 23.531546979239714,
+              "source": "https://finance.yahoo.com/quote/FISV/history/"
+            },
+            "SPY": {
+              "entry_adjusted_close": 390.23468017578125,
+              "exit_adjusted_close": 549.3575439453125,
+              "cumulative_return_pct": 40.77619746606178,
+              "annualized_return_pct": 12.084008449490003,
+              "source": "https://finance.yahoo.com/quote/SPY/history/"
+            }
+          },
+          "excess_percentage_points": 47.651692421498716
+        },
+        {
+          "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+          "published": "2022-05-01",
+          "requested_endpoint": "2026-11-07",
+          "entry": "2022-05-02",
+          "exit": "2026-11-06",
+          "days": 1649,
+          "endpoint_gap_days": 1,
+          "endpoint_covered": true,
+          "instruments": {
+            "FISV": {
+              "entry_adjusted_close": 97.12999725341797,
+              "exit_adjusted_close": 62.880001068115234,
+              "cumulative_return_pct": -35.2620170429352,
+              "annualized_return_pct": -9.181953571678624,
+              "source": "https://finance.yahoo.com/quote/FISV/history/"
+            },
+            "SPY": {
+              "entry_adjusted_close": 390.23468017578125,
+              "exit_adjusted_close": 735.2899780273438,
+              "cumulative_return_pct": 88.4225096795939,
+              "annualized_return_pct": 15.06449286520084,
+              "source": "https://finance.yahoo.com/quote/SPY/history/"
+            }
+          },
+          "excess_percentage_points": -123.6845267225291
+        }
+      ],
+      "id": "083-C38"
+    },
+    {
+      "claim": "Digital payments displace cash",
+      "source_blocks": [
+        191
+      ],
+      "kind": "explanation",
+      "family": "digital-payments-secular-growth",
+      "verdict": "evidence_needed",
+      "reason": "Fiserv growth alone does not prove worldwide payment share or a stable nominal-GDP relationship. Changes in geography, acquisitions, fees and mix can dominate issuer revenue.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Use Federal Reserve payment studies and comparable international cash/payment-share surveys.",
+      "asset_or_variable": "digital-payments-secular-growth",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C39"
+    },
+    {
+      "claim": "Crypto integration protects incumbents",
+      "source_blocks": [
+        192,
+        193,
+        198
+      ],
+      "kind": "investment_thesis",
+      "family": "fiserv-crypto-integration",
+      "verdict": "mixed",
+      "reason": "The NYDIG integration was real. Whether it materially prevents disintermediation is not shown; allowing bank customers to buy BTC differs from routing merchant payments over Lightning. The eventual Lightning integration is explicitly speculative and undated.",
+      "evidence": [
+        {
+          "url": "https://investors.fiserv.com/news-releases/news-release-details/financial-institutions-can-now-provide-consumers-easy-access",
+          "title": "NYDIG integration",
+          "publisher": "Fiserv",
+          "date": "2021-06-23",
+          "verified": true,
+          "finding": "Fiserv announced bank-platform integration enabling Bitcoin buying, selling and holding; announcement is not payment-volume evidence.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Measure actual crypto-service usage, fees and merchant Lightning rollout.",
+      "asset_or_variable": "fiserv-crypto-integration",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C40"
+    },
+    {
+      "claim": "Growth/valuation compression",
+      "source_blocks": [
+        199
+      ],
+      "kind": "forecast",
+      "family": "fiserv-growth-multiple-risk",
+      "verdict": "mixed",
+      "reason": "The named operating risk materialized within three to five years, as 2025 guidance was reset and shares later traded far below the publication entry. The claim of years of rangebound trading is not yet established, and the earlier strong rally shows the path was not persistently flat.",
+      "evidence": [
+        {
+          "url": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-reports-third-quarter-2025-results",
+          "title": "Third-quarter 2025 results",
+          "publisher": "Fiserv",
+          "date": "2025-10-29",
+          "verified": true,
+          "finding": "Quarterly organic revenue growth slowed to 1%, adjusted EPS fell 11%, and full-year growth/earnings guidance was reset lower; management announced remedial changes.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/FISV/history/",
+          "title": "FISV historical daily market data",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "May 2, 2022 to November 6, 2026 adjusted return -35.26%, after +88.43% through May 1, 2025.",
+          "verification_method": "computed from coordinator-downloaded research/evidence/market CSV; adjusted-close total-return proxy or split-adjusted close as explicitly stated; no fees or taxes"
+        }
+      ],
+      "horizon": "3-5 years",
+      "conditions": "Growth disappoints",
+      "next_check": null,
+      "asset_or_variable": "fiserv-growth-multiple-risk",
+      "modality": "bear scenario",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: 3-5 years",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "083-C41"
+    },
+    {
+      "claim": "Fiserv holds up relatively",
+      "source_blocks": [
+        200
+      ],
+      "kind": "forecast",
+      "family": "fiserv-market-beta-defense",
+      "verdict": "mixed",
+      "reason": "From May 2 to December 30, 2022, FISV returned +4.06% while SPY lost 6.53%, supporting relative defense. The full-period direction did not match the broad decline, and short time frame is not precisely defined.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/FISV/history/",
+          "title": "FISV historical daily market data",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "May 2 to December 30, 2022 adjusted return +4.06%; SPY -6.53%, USD, no fees or taxes.",
+          "verification_method": "computed from coordinator-downloaded research/evidence/market CSV; adjusted-close total-return proxy or split-adjusted close as explicitly stated; no fees or taxes"
+        }
+      ],
+      "horizon": "Short term",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "fiserv-market-beta-defense",
+      "modality": "tentative",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Short term",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "test_specification": {
+        "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+        "published": "2022-05-01",
+        "requested_endpoint": "2022-12-31",
+        "entry": "2022-05-02",
+        "exit": "2022-12-30",
+        "days": 242,
+        "endpoint_gap_days": 1,
+        "endpoint_covered": true,
+        "instruments": {
+          "FISV": {
+            "entry_adjusted_close": 97.12999725341797,
+            "exit_adjusted_close": 101.06999969482422,
+            "cumulative_return_pct": 4.05642186020716,
+            "annualized_return_pct": 6.18517563901424,
+            "source": "https://finance.yahoo.com/quote/FISV/history/"
+          },
+          "SPY": {
+            "entry_adjusted_close": 390.23468017578125,
+            "exit_adjusted_close": 364.7676086425781,
+            "cumulative_return_pct": -6.526091305296466,
+            "annualized_return_pct": -9.68433195798456,
+            "source": "https://finance.yahoo.com/quote/SPY/history/"
+          }
+        },
+        "excess_percentage_points": 10.582513165503627
+      },
+      "id": "083-C42"
+    },
+    {
+      "claim": "Stocks depend on stimulus",
+      "source_blocks": [
+        203,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213
+      ],
+      "kind": "explanation",
+      "family": "liquidity-equity-cycle",
+      "verdict": "mixed",
+      "reason": "The 2022 contraction in liquidity coincided with falling stocks, supporting that episode. However S&P 500 rose from 3839.50 at end-2022 to 5881.63 at end-2024 while Fed assets fell from about $8.55tn to $6.89tn. Fiscal flows and earnings matter; the relationship is not a mechanical balance-sheet rule.",
+      "evidence": [
+        {
+          "url": "https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2022/",
+          "title": "SPIVA U.S. Year-End 2022",
+          "publisher": "S&P Dow Jones Indices",
+          "date": "2023-03-07",
+          "verified": true,
+          "finding": "2022 stocks and investment-grade bonds both fell materially.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "Fed assets and S&P comparison",
+          "publisher": "Federal Reserve and S&P via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "WALCL December 28, 2022 $8.551tn; December 25, 2024 $6.886tn. SP 500 December 30, 2022 3839.50; December 31, 2024 5881.63. Price index, no dividends.",
+          "verification_method": "computed from downloaded WALCL and SP500 CSVs"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "liquidity-equity-cycle",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C43"
+    },
+    {
+      "claim": "Oversold assets can reverse",
+      "source_blocks": [
+        223,
+        224,
+        225,
+        228,
+        229,
+        230
+      ],
+      "kind": "investment_thesis",
+      "family": "defensive-rebalancing-with-reversal-risk",
+      "verdict": "not_testable",
+      "reason": "The article gives multiple possible paths and explicitly declines short-term prediction. Cash and diversification are implementation principles; they cannot be graded by picking whichever later bounce or drawdown matches a sentence.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify portfolio weights, rebalance bands and risk targets to evaluate the decision process.",
+      "asset_or_variable": "defensive-rebalancing-with-reversal-risk",
+      "modality": "possible",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "083-C44"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Currencies and fiscal receipts",
+      "source_blocks": [
+        24,
+        26,
+        31,
+        34
+      ],
+      "use": "Context",
+      "image_inspected": false
+    },
+    {
+      "name": "Cycle heatmap",
+      "source_blocks": [
+        61,
+        67,
+        80
+      ],
+      "use": "Context",
+      "image_inspected": false
+    },
+    {
+      "name": "Token liquidity",
+      "source_blocks": [
+        122,
+        140,
+        144
+      ],
+      "use": "Context",
+      "image_inspected": false
+    },
+    {
+      "name": "Valuation and leverage",
+      "source_blocks": [
+        177,
+        181,
+        184
+      ],
+      "use": "Context",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate business resilience from valuation risk."
+  ],
+  "assessment": "The imminent Terra warning and Ethereum concentration analysis are strong, independently supported contributions. The preferred Chinese bottom view failed, and Panama legislative status was overstated. Fiserv illustrates the need to preserve the entire investment path: strong initial growth and gains were followed by a major operating reset and stock reversal. Explicitly tentative bond and Bitcoin scenarios are not treated as confident failed predictions. The author also admits dollar and yield moves exceeded her earlier base case.",
+  "verification_limitations": [
+    "Captured website text is not an authenticated publication-date version.",
+    "Chart-only numerical claims have not been visually verified.",
+    "Selected stock/ETF adjusted-close comparisons are disclosed where used; no reconstructed portfolio backtest has been performed.",
+    "Unresolved verdicts are not forecast failures or successes; no aggregate hit rate is inferred."
+  ]
+}

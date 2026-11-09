@@ -1,0 +1,750 @@
+{
+  "article_id": "185",
+  "title": "Hormuz Crisis and Building a Watch List",
+  "date": "2026-03-29",
+  "source_url": "https://www.lynalden.com/premium-2026-3-29/",
+  "read_complete": true,
+  "evaluation_as_of": "2026-11-07",
+  "summary": "Energy disruption and a selective watch list.",
+  "assessment": "The shift toward prolonged-shock risk is justified, but the report overstates the global oil/gas share actually lost. Several watch-list names subsequently rebounded; those are useful observations, not claimed portfolio entries. Its strongest discipline is separating a valuation candidate from a purchase trigger and rejecting a single-episode safe-haven narrative.",
+  "claims": [
+    {
+      "claim": "One-fifth of global gas disappeared.",
+      "source_blocks": [
+        8
+      ],
+      "verdict": "wrong",
+      "reason": "The gas denominator is incorrect: IEA’s roughly 20% figure concerns LNG, which is a subset of total natural gas. The adjacent oil statement is less clear-cut: blocked chokepoint export flows are not the same as net world production lost. IEA’s March 12 projection of an 8mb/d net oil supply decline predates the article and is a forecast, not a final observed March result. The gas error should not be used to dismiss the severity of the oil-flow disruption.",
+      "kind": "empirical",
+      "family": "hormuz-supply-magnitude",
+      "asset_or_variable": "hormuz-supply-magnitude",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/reports/oil-market-report-march-2026",
+          "title": "March 2026 oil market report",
+          "publisher": "IEA",
+          "date": "2026-03-12",
+          "verified": true,
+          "finding": "IEA projected an 8mb/d March global supply decline, with offsets from other regions and emergency reserve releases; chokepoint throughput is not identical to net global supply lost."
+        },
+        {
+          "url": "https://www.iea.org/news/middle-east-crisis-disrupts-international-natural-gas-markets-and-delays-global-lng-supply-wave",
+          "title": "Global LNG disruption",
+          "publisher": "IEA",
+          "date": "2026-04-24",
+          "verified": true,
+          "finding": "Close to 20% of LNG supply was disrupted; LNG is a subset of natural gas. March global LNG production was 8% lower year over year after offsets elsewhere."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C01"
+    },
+    {
+      "claim": "Prolonged closure comillion pounds economic damage.",
+      "source_blocks": [
+        8,
+        11,
+        38
+      ],
+      "verdict": "right",
+      "reason": "Months of disrupted flows and large inventory draws corroborate the predicted cumulative pressure. This supports the directional mechanism, not equivalence to a precisely quantified COVID-sized GDP shock.",
+      "kind": "forecast",
+      "family": "hormuz-duration-damage",
+      "asset_or_variable": "hormuz-duration-damage",
+      "horizon": null,
+      "conditions": "Closure persists for months",
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/reports/oil-market-report-september-2026",
+          "title": "September oil market report",
+          "publisher": "IEA",
+          "date": "2026-09-11",
+          "verified": true,
+          "finding": "Severe disruption persisted into August; cumulative observed oil inventory draws since February reached 507 million barrels."
+        },
+        {
+          "url": "https://www.iea.org/news/middle-east-crisis-disrupts-international-natural-gas-markets-and-delays-global-lng-supply-wave",
+          "title": "Global LNG disruption",
+          "publisher": "IEA",
+          "date": "2026-04-24",
+          "verified": true,
+          "finding": "Close to 20% of LNG supply was disrupted; LNG is a subset of natural gas. March global LNG production was 8% lower year over year after offsets elsewhere."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C02"
+    },
+    {
+      "claim": "Insurance and permissions delay transit recovery.",
+      "source_blocks": [
+        9,
+        10,
+        11
+      ],
+      "verdict": "mixed",
+      "reason": "Persistent disruption supports slow normalization, but separating insurance refusal, physical attacks, toll rules and operator choice requires vessel-level evidence. The asserted universal yuan-toll mechanism is not independently established here.",
+      "kind": "explanation",
+      "family": "hormuz-shipping-friction",
+      "asset_or_variable": "hormuz-shipping-friction",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/reports/oil-market-report-september-2026",
+          "title": "September oil market report",
+          "publisher": "IEA",
+          "date": "2026-09-11",
+          "verified": true,
+          "finding": "Severe disruption persisted into August; cumulative observed oil inventory draws since February reached 507 million barrels."
+        }
+      ],
+      "next_check": "Match actual transits, insurance coverage, toll documentation and ship ownership under changing rules.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C03"
+    },
+    {
+      "claim": "Treasuries failed the early war hedge.",
+      "source_blocks": [
+        15
+      ],
+      "verdict": "right",
+      "reason": "The ten-year constant-maturity yield rose from 3.97% February 27 to 4.44% March 27. Fixed-rate bond prices move inversely to yield, so the directional price claim holds. Yield data alone do not calculate a coupon-inclusive portfolio return.",
+      "kind": "empirical",
+      "family": "treasury-war-hedge-failure",
+      "asset_or_variable": "treasury-war-hedge-failure",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "title": "DGS10 observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Ten-year yield 3.97% February 27 and 4.44% March 27, 2026."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C04"
+    },
+    {
+      "claim": "Forced selling could unanchor sovereign yields.",
+      "source_blocks": [
+        15,
+        27,
+        28
+      ],
+      "verdict": "not_testable",
+      "reason": "A tail-risk possibility with no probability or numerical threshold is not a predicted bond crisis. Cash needs can cause sales, but foreign custody declines may also reflect transfers or maturities.",
+      "kind": "forecast",
+      "family": "forced-sovereign-bond-sales",
+      "asset_or_variable": "forced-sovereign-bond-sales",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C05"
+    },
+    {
+      "claim": "Energy rationing increasingly constrains activity.",
+      "source_blocks": [
+        18,
+        19,
+        20
+      ],
+      "verdict": "mixed",
+      "reason": "IEA confirms demand-side restrictions and fuel switching in importing markets. The country examples need narrower scope: Korea’s measures initially emphasized public-sector vehicles and public parking, so describing all drivers as unable to drive is too broad.",
+      "kind": "explanation",
+      "family": "energy-rationing",
+      "asset_or_variable": "energy-rationing",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/news/middle-east-crisis-disrupts-international-natural-gas-markets-and-delays-global-lng-supply-wave",
+          "title": "Global LNG disruption",
+          "publisher": "IEA",
+          "date": "2026-04-24",
+          "verified": true,
+          "finding": "Close to 20% of LNG supply was disrupted; LNG is a subset of natural gas. March global LNG production was 8% lower year over year after offsets elsewhere."
+        },
+        {
+          "url": "https://eng.me.go.kr/eng/web/board/read.do?boardId=1856940&boardMasterId=522&menuId=461",
+          "title": "Five-day public parking rotation rollout",
+          "publisher": "Republic of Korea environment ministry",
+          "date": "2026-04-07",
+          "verified": true,
+          "finding": "Official April 7 announcement describes public parking restrictions, not a universal driving prohibition. Page access was intermittent after the initial successful retrieval."
+        }
+      ],
+      "next_check": "Verify March effective dates and population coverage for each country; distinguish parking restrictions from rationed fuel purchases.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C06"
+    },
+    {
+      "claim": "Feedstock shortages extend beyond fuel.",
+      "source_blocks": [
+        21
+      ],
+      "verdict": "mixed",
+      "reason": "LNG disruption and continuing refined-product shortages support cross-industry exposure. Fertilizer, sulfur and plastics have distinct inventories and trade routes, so fuel-price increases alone do not verify every listed shortage.",
+      "kind": "explanation",
+      "family": "energy-feedstock-chain",
+      "asset_or_variable": "energy-feedstock-chain",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/news/middle-east-crisis-disrupts-international-natural-gas-markets-and-delays-global-lng-supply-wave",
+          "title": "Global LNG disruption",
+          "publisher": "IEA",
+          "date": "2026-04-24",
+          "verified": true,
+          "finding": "Close to 20% of LNG supply was disrupted; LNG is a subset of natural gas. March global LNG production was 8% lower year over year after offsets elsewhere."
+        },
+        {
+          "url": "https://www.iea.org/reports/oil-market-report-september-2026",
+          "title": "September oil market report",
+          "publisher": "IEA",
+          "date": "2026-09-11",
+          "verified": true,
+          "finding": "Severe disruption persisted into August; cumulative observed oil inventory draws since February reached 507 million barrels."
+        }
+      ],
+      "next_check": "Check product-specific output, stocks, shipment constraints and delivered prices.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C07"
+    },
+    {
+      "claim": "Cash preserves options during disruption.",
+      "source_blocks": [
+        24,
+        25,
+        61,
+        82
+      ],
+      "verdict": "not_testable",
+      "reason": "This is a contingent allocation preference: wait for de-escalation, a price base or deep value. Without explicit trigger definitions and a deployment schedule, its opportunity cost cannot be scored as an executed portfolio strategy.",
+      "kind": "investment_thesis",
+      "family": "crisis-cash-optionality",
+      "asset_or_variable": "crisis-cash-optionality",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C08"
+    },
+    {
+      "claim": "Low facility use suggests limited funding stress.",
+      "source_blocks": [
+        29,
+        32,
+        34
+      ],
+      "verdict": "mixed",
+      "reason": "Low take-up is relevant, but not sufficient. Eligibility, stigma, pricing and access can suppress use even when private counterparties are strained. A broad dollar index also does not capture every offshore funding market.",
+      "kind": "explanation",
+      "family": "funding-stress-indicators",
+      "asset_or_variable": "funding-stress-indicators",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/newsevents/speeches/2026/per260326",
+          "title": "Early experience with reserve management purchases",
+          "publisher": "New York Fed",
+          "date": "2026-03-26",
+          "verified": true,
+          "finding": "The Desk purchased about $40 billion monthly ahead of expected April tax flows. The objective was maintaining ample reserves."
+        }
+      ],
+      "next_check": "Combine facility use with SOFR-IORB, cross-currency basis, bank spreads and collateral conditions.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C09"
+    },
+    {
+      "claim": "Fed custody declines imply liquidation.",
+      "source_blocks": [
+        36
+      ],
+      "verdict": "evidence_needed",
+      "reason": "Custody balances are not an exhaustive foreign-holdings measure. A decline can reflect transfers to other custodians, maturities or valuation/accounting differences, so sales for liquidity need transaction-flow confirmation.",
+      "kind": "explanation",
+      "family": "foreign-treasury-custody",
+      "asset_or_variable": "foreign-treasury-custody",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Reconcile weekly custody changes with TIC transactions, maturities and custody transfers.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C10"
+    },
+    {
+      "claim": "Pre-shock growth trends lose forecasting relevance.",
+      "source_blocks": [
+        40,
+        41,
+        43
+      ],
+      "verdict": "mixed",
+      "reason": "A structural break reduces the usefulness of extrapolation, but nearly useless overstates it: labor, spending, inventories and balance sheets still measure transmission and available buffers. Contemporary revisions and lags need explicit treatment.",
+      "kind": "explanation",
+      "family": "shock-regime-change",
+      "asset_or_variable": "shock-regime-change",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/reports/oil-market-report-march-2026",
+          "title": "March 2026 oil market report",
+          "publisher": "IEA",
+          "date": "2026-03-12",
+          "verified": true,
+          "finding": "IEA projected an 8mb/d March global supply decline, with offsets from other regions and emergency reserve releases; chokepoint throughput is not identical to net global supply lost."
+        },
+        {
+          "url": "https://www.iea.org/news/middle-east-crisis-disrupts-international-natural-gas-markets-and-delays-global-lng-supply-wave",
+          "title": "Global LNG disruption",
+          "publisher": "IEA",
+          "date": "2026-04-24",
+          "verified": true,
+          "finding": "Close to 20% of LNG supply was disrupted; LNG is a subset of natural gas. March global LNG production was 8% lower year over year after offsets elsewhere."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C11"
+    },
+    {
+      "claim": "Software pessimism creates prospective value.",
+      "source_blocks": [
+        63,
+        64
+      ],
+      "verdict": "not_testable",
+      "reason": "Salesforce is a watch-list candidate contingent on a base, not a completed recommendation with an entry or target. Market pricing of a worst case requires a cash-flow valuation model before it can be tested.",
+      "kind": "investment_thesis",
+      "family": "saas-contrarian-value",
+      "asset_or_variable": "saas-contrarian-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C12"
+    },
+    {
+      "claim": "Alcohol consumption finds a new equilibrium.",
+      "source_blocks": [
+        70,
+        71,
+        72
+      ],
+      "verdict": "not_testable",
+      "reason": "An eventual equilibrium is guaranteed only in a loose descriptive sense; no level, date or cohort path is specified. Financial pressure, social behavior and health preferences require separate causal evidence.",
+      "kind": "forecast",
+      "family": "alcohol-demand-equilibrium",
+      "asset_or_variable": "alcohol-demand-equilibrium",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C13"
+    },
+    {
+      "claim": "Diageo’s worst period is likely over.",
+      "source_blocks": [
+        73,
+        75
+      ],
+      "verdict": "mixed",
+      "reason": "Cash flow improved and the stock rebounded, but fiscal-year sales and reported profit still declined, with restructuring and leverage unresolved. From March 30 to November 6, adjusted DEO rose 38.97%, beating SPY by 22.03 points. This is favorable interim evidence, not an executed purchase: the author was still waiting.",
+      "kind": "investment_thesis",
+      "family": "diageo-turnaround",
+      "asset_or_variable": "diageo-turnaround",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.diageo.com/en/news-and-media/press-releases/2026/2026-preliminary-results-year-ended-30-june-2026",
+          "title": "Diageo fiscal 2026 results",
+          "publisher": "Diageo",
+          "date": null,
+          "verified": true,
+          "finding": "Organic sales declined 2%, reported operating profit fell 27.2%, and free cash flow rose $463m to $3.211bn. Net debt/adjusted EBITDA was 3.1x; full-year dividend 50 cents."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/DEO/history/",
+          "title": "DEO historical prices",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Evaluator-defined March 30-November 6, 2026 adjusted return +38.97%, versus SPY +16.94%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C14"
+    },
+    {
+      "claim": "Low-growth businesses can reward cheap entry.",
+      "source_blocks": [
+        67,
+        69,
+        75
+      ],
+      "verdict": "right",
+      "reason": "Positive distributable cash flow can produce a positive investor return without growth if the purchase price is low enough and the cash flow persists. The tobacco analogy does not prove alcohol demand or payout safety follows the same path.",
+      "kind": "explanation",
+      "family": "no-growth-value",
+      "asset_or_variable": "no-growth-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Cash flow persists",
+          "Distributions reach shareholders",
+          "No offsetting dilution or terminal loss"
+        ],
+        "derivation": "For a perpetuity with annual distributable cash C and required return r, value is C/r even at zero growth. Paying less raises the cash yield, conditional on persistence."
+      },
+      "id": "185-C15"
+    },
+    {
+      "claim": "Visa’s network economics remain resilient.",
+      "source_blocks": [
+        77,
+        78
+      ],
+      "verdict": "right",
+      "reason": "The later operating results show continuing payments and transaction growth, with annual revenue up 15%. This supports business durability through the cutoff, but cannot establish a permanent moat or any particular fair multiple.",
+      "kind": "investment_thesis",
+      "family": "visa-network-moat",
+      "asset_or_variable": "visa-network-moat",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+          "title": "Visa fiscal 2026 results",
+          "publisher": "Visa",
+          "date": "2026-10-27",
+          "verified": true,
+          "finding": "Annual revenue rose 15%, payments volume 9%, and processed transactions 9%; dividend increased 16%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C16"
+    },
+    {
+      "claim": "Visa’s multiple compresses as growth slows.",
+      "source_blocks": [
+        77
+      ],
+      "verdict": "not_testable",
+      "reason": "No endpoint or valuation multiple is specified, and fiscal 2026 revenue growth remained strong. A slower distant growth rate is not enough to declare this near-term caution right or wrong.",
+      "kind": "forecast",
+      "family": "visa-valuation-normalization",
+      "asset_or_variable": "visa-valuation-normalization",
+      "horizon": null,
+      "conditions": null,
+      "modality": "likely",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000126/q42026earningsrelease.htm",
+          "title": "Visa fiscal 2026 results",
+          "publisher": "Visa",
+          "date": "2026-10-27",
+          "verified": true,
+          "finding": "Annual revenue rose 15%, payments volume 9%, and processed transactions 9%; dividend increased 16%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C17"
+    },
+    {
+      "claim": "Pay Pal offers low-growth valuation optionality.",
+      "source_blocks": [
+        80
+      ],
+      "verdict": "mixed",
+      "reason": "Later revenue growth remained modest and cash/investments exceeded debt, supporting parts of the description; GAAP operating income declined. March 30-November 6 adjusted shares rose 33.38%, but an unspecified cheapness thesis and watch-list status are not an executed return call.",
+      "kind": "investment_thesis",
+      "family": "paypal-value",
+      "asset_or_variable": "paypal-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1633917/000163391726000086/pypl3q-26earningsrelease.htm",
+          "title": "Pay Pal Q3 2026 results",
+          "publisher": "PayPal",
+          "date": "2026-10-27",
+          "verified": true,
+          "finding": "Revenue rose 2%, GAAP operating income fell 8%; cash/investments $15.1bn versus debt $13.5bn."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/PYPL/history/",
+          "title": "PYPL historical prices",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Evaluator-defined March 30-November 6 adjusted return +33.38%, versus SPY +16.94%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C18"
+    },
+    {
+      "claim": "Pay Pal could become an acquisition target.",
+      "source_blocks": [
+        80
+      ],
+      "verdict": "not_testable",
+      "reason": "Possible takeover status has no probability, buyer, deadline or transaction threshold. Ordinary stock appreciation cannot verify an acquisition catalyst.",
+      "kind": "forecast",
+      "family": "paypal-acquisition-option",
+      "asset_or_variable": "paypal-acquisition-option",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C19"
+    },
+    {
+      "claim": "Bitcoin’s relative strength is not safe-haven proof.",
+      "source_blocks": [
+        84,
+        86
+      ],
+      "verdict": "right",
+      "reason": "The last prewar close to March 27 shows BTC +0.69%, GLD -14.27% and SPY -7.31%. One selected episode cannot establish stable crisis covariance. The source correctly avoids claiming a permanent replacement for gold.",
+      "kind": "explanation",
+      "family": "bitcoin-safe-haven-inference",
+      "asset_or_variable": "bitcoin-safe-haven-inference",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD historical prices",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Adjusted-close proxy comparison February 27-March 27, 2026 with GLD and SPY; different market-close conventions apply."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C20"
+    },
+    {
+      "claim": "Prior positioning explains metal/bitcoin divergence.",
+      "source_blocks": [
+        86
+      ],
+      "verdict": "evidence_needed",
+      "reason": "Overbought/oversold descriptions are consistent with price histories but do not identify the cause of the subsequent divergence. Positioning, liquidation and buyer-flow evidence is required.",
+      "kind": "explanation",
+      "family": "positioning-mean-reversion",
+      "asset_or_variable": "positioning-mean-reversion",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Compare prior leveraged exposure, flows and liquidations across both markets.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C21"
+    },
+    {
+      "claim": "Metals retain structural monetary support.",
+      "source_blocks": [
+        87,
+        88
+      ],
+      "verdict": "not_testable",
+      "reason": "The report watches for a local base rather than declaring one. A structural fair-value proposition has no explicit target or horizon; later price weakness alone cannot resolve it.",
+      "kind": "investment_thesis",
+      "family": "precious-metals-structural-repricing",
+      "asset_or_variable": "precious-metals-structural-repricing",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C22"
+    },
+    {
+      "claim": "Bitcoin offers accumulation value near support.",
+      "source_blocks": [
+        90
+      ],
+      "verdict": "not_testable",
+      "reason": "The $50k-$60k zone is described as support with downside risk, not a guaranteed floor. The undated dollar-cost-averaging preference returned +13.58% on a March 30-November 6 lump-sum sensitivity, below SPY by 3.36 points; that is not the return from an unspecified DCA schedule.",
+      "kind": "investment_thesis",
+      "family": "bitcoin-2026-accumulation",
+      "asset_or_variable": "bitcoin-2026-accumulation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD historical prices",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Evaluator-defined March 30-November 6 proxy +13.58%; SPY +16.94%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "185-C23"
+    }
+  ],
+  "coverage_note": "Full numbered text and image inventory read. All material theses across macro, digital assets, investment analysis and concluding sections considered. Position listings and incidental descriptive statistics are excluded unless they support a thesis.",
+  "tools_charts": [
+    {
+      "name": "Yield/drawdown charts",
+      "source_blocks": [
+        12,
+        15
+      ],
+      "use": "Stress",
+      "image_inspected": false
+    },
+    {
+      "name": "Facility usage",
+      "source_blocks": [
+        32,
+        34
+      ],
+      "use": "Funding",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        64,
+        73,
+        78,
+        80
+      ],
+      "use": "Watch list",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate valuation from entry conditions."
+  ],
+  "verification_limitations": [
+    "Current page snapshot is not an authenticated publication-date version.",
+    "A missing horizon is not replaced with an invented author deadline.",
+    "Market sensitivities use vendor adjusted closes and do not reconstruct portfolio execution."
+  ]
+}

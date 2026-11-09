@@ -1,0 +1,945 @@
+{
+  "article_id": "142",
+  "title": "Potential Asset Rotations: Deep Dive Analysis",
+  "date": "2024-08-04",
+  "source_url": "https://www.lynalden.com/premium-2024-8-4/",
+  "read_complete": true,
+  "summary": "Liquidity, recession risk, and foreign-asset rotation.",
+  "coverage_note": "All text and image labels read. Includes issuance mechanics, labor/recession thesis, politics/privacy, ETF flows, Ethereum positioning, capital flows, refinancing, valuation rotation and gold. Quoted Miran/Roubini numerical equivalents explicitly disclaimed by author, so not counted as her forecasts. Historical 2019 error acknowledged, not a new call.",
+  "claims": [
+    {
+      "id": "142-C01",
+      "claim": "Treasury offsets QT.",
+      "kind": "explanation",
+      "source_blocks": [
+        9,
+        13,
+        21,
+        23,
+        26
+      ],
+      "family": "net-liquidity-offsets",
+      "asset_or_variable": "net-liquidity-offsets",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The claimed component offset is reconstructible, but issuance intent and complete financial-condition neutrality cannot be inferred from a net proxy.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconcile daily Fed assets, TGA, RRP and bill issuance; separate accounting from intent."
+    },
+    {
+      "id": "142-C02",
+      "claim": "Bill issuance signals dominance.",
+      "kind": "explanation",
+      "source_blocks": [
+        14
+      ],
+      "family": "fiscal-dominance",
+      "asset_or_variable": "fiscal-dominance",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Unusual issuance composition does not uniquely identify fiscal dominance. Demand, rollover cost and cash-management motives are competing explanations.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Compare issuance against a historical/counterfactual regular-financing rule."
+    },
+    {
+      "id": "142-C03",
+      "claim": "Bills resemble money.",
+      "kind": "explanation",
+      "source_blocks": [
+        15
+      ],
+      "family": "short-duration-cashlike",
+      "asset_or_variable": "short-duration-cashlike",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Narrow price-risk statement follows from bond mathematics at equal credit quality. This is a deductive explanation, not empirical evidence that any bill is identical to cash.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Same default/liquidity risk",
+          "Small parallel yield shift",
+          "Shorter modified duration"
+        ],
+        "derivation": "Approximate percentage price change equals -modified duration times yield change. Lower duration therefore means smaller interest-rate price exposure, all else equal."
+      }
+    },
+    {
+      "id": "142-C04",
+      "claim": "Global liquidity rises.",
+      "kind": "forecast",
+      "source_blocks": [
+        31
+      ],
+      "family": "global-money-expansion",
+      "asset_or_variable": "global-money-expansion",
+      "horizon": "18 months",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The eighteen-month window ended February 2026. Domestic Fed assets or U.S.M2 cannot substitute for the report global-dollar composite.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "18 months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconstruct country constituents, FX conversion and weights through February 4 2026."
+    },
+    {
+      "id": "142-C05",
+      "claim": "Payroll data vulnerable.",
+      "kind": "explanation",
+      "source_blocks": [
+        39,
+        40,
+        44
+      ],
+      "family": "employment-survey-divergence",
+      "asset_or_variable": "employment-survey-divergence",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "A substantial downward preliminary benchmark followed in August 2024, validating revision vulnerability. It does not imply political manipulation or verify every proposed survey-gap cause.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/ces/notices/2024/2024-preliminary-benchmark-revision.htm",
+          "title": "2024 preliminary payroll benchmark",
+          "publisher": "BLS",
+          "date": "2024-08-21",
+          "verified": true,
+          "finding": "Preliminary March 2024 nonfarm level revision was -818,000; this was not the final revision."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "142-C06",
+      "claim": "Unemployment rise remains mild.",
+      "kind": "forecast",
+      "source_blocks": [
+        45
+      ],
+      "family": "fiscal-mild-labor-downturn",
+      "asset_or_variable": "fiscal-mild-labor-downturn",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Unemployment stayed around 4-4.5% through 2025 rather than showing a typical deep-recession surge. The economy did not need to enter recession for that mild path; fiscal/structural labor causality remains unproven.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/UNRATE",
+          "title": "Unemployment rate",
+          "publisher": "BLS via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Latest-vintage data: December 2024 4.1%; November 2025 4.5%; December 2025 4.4%. Download capped November 7 2026."
+        }
+      ],
+      "next_check": "Check monthly peak and labor-force composition; identify fiscal contribution separately."
+    },
+    {
+      "id": "142-C07",
+      "claim": "Mild recession expected.",
+      "kind": "forecast",
+      "source_blocks": [
+        47
+      ],
+      "family": "fiscal-mild-recession",
+      "asset_or_variable": "fiscal-mild-recession",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "At least by some metrics does not specify a recession rule or window. Latest-vintage real GDP grew 3.2% and 2.4% annualized in 2024 Q3/Q4 and remained positive each 2025 quarter, substantial counterevidence to an imminent broad contraction. Do not count that as a successful mild recession merely because selected sectors were weak.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/A191RL1Q225SBEA",
+          "title": "Real GDP growth",
+          "publisher": "BEA via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2024 Q3/Q4: 3.2%, 2.4%; 2025 Q1-Q4: 0.1%, 4.0%, 3.9%, 0.2%, annualized latest-vintage observations."
+        }
+      ],
+      "next_check": "Keep sector contractions separate from broad recession; obtain original definition before binary scoring."
+    },
+    {
+      "id": "142-C08",
+      "claim": "Fiscal spending splits sectors.",
+      "kind": "explanation",
+      "source_blocks": [
+        51
+      ],
+      "family": "fiscal-sector-divergence",
+      "asset_or_variable": "fiscal-sector-divergence",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Different nominal growth rates require sector-specific deflators. Construction stimulus plausibly matters, but the heatmap alone does not identify the IRA contribution.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use real sector measures and project-level subsidy exposure; do not deflate all series by headline CPI."
+    },
+    {
+      "id": "142-C09",
+      "claim": "Large reserve purchases reprice.",
+      "kind": "explanation",
+      "source_blocks": [
+        77
+      ],
+      "family": "sovereign-bitcoin-market-impact",
+      "asset_or_variable": "sovereign-bitcoin-market-impact",
+      "horizon": null,
+      "conditions": "550 BTC daily acquisition",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "Kennedy proposal is discussed as a counterfactual, not an adopted 4 m-coin program. Market depth and sellers would determine price response.",
+      "direction_assessment": "Trigger and outcome have not both been established.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Observe adoption and actual net purchases; do not score campaign proposals as executed demand."
+    },
+    {
+      "id": "142-C10",
+      "claim": "Lummis bill unlikely unchanged.",
+      "kind": "forecast",
+      "source_blocks": [
+        78
+      ],
+      "family": "bitcoin-reserve-legislation",
+      "asset_or_variable": "bitcoin-reserve-legislation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "unlikely",
+      "verdict": "evidence_needed",
+      "reason": "Must resolve the specific 2024 bill and Congress, not substitute the later executive reserve order. A precise legislative-status record is required.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Open Congress.gov 2024 BITCOIN Act actions and successor bill history."
+    },
+    {
+      "id": "142-C11",
+      "claim": "Political support reduces attack risk.",
+      "kind": "explanation",
+      "source_blocks": [
+        82
+      ],
+      "family": "crypto-political-incentives",
+      "asset_or_variable": "crypto-political-incentives",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Reserve creation and SEC dismissals corroborate a friendlier policy direction. Government is heterogeneous and continued criminal privacy-service cases prevent interpreting this as comprehensive immunity.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/",
+          "title": "Strategic Bitcoin Reserve order",
+          "publisher": "White House",
+          "date": "2025-03-06",
+          "verified": true,
+          "finding": "Order retained eligible forfeited BTC in a reserve, prohibited sales of deposited reserve BTC, and directed budget-neutral acquisition strategies; legal/victim exceptions apply."
+        },
+        {
+          "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26277",
+          "title": "Consensys dismissal",
+          "publisher": "SEC",
+          "date": "2025-03-27",
+          "verified": true,
+          "finding": "SEC dismissed Consensys action in light of broader policy reform, expressly without a merits finding."
+        },
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/founders-samourai-wallet-cryptocurrency-mixing-service-plead-guilty",
+          "title": "Samourai guilty pleas",
+          "publisher": "U.S. Department of Justice",
+          "date": "2025-08-06",
+          "verified": true,
+          "finding": "Founders pleaded guilty July 30 2025 to conspiracy to operate a money-transmitting business handling criminal proceeds. This does not criminalize every privacy use."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "142-C12",
+      "claim": "Privacy remains contested.",
+      "kind": "forecast",
+      "source_blocks": [
+        83
+      ],
+      "family": "financial-privacy-enforcement",
+      "asset_or_variable": "financial-privacy-enforcement",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Samourai prosecution continued into guilty pleas in 2025 while ownership became more politically accepted. This supports persistence of a privacy-services battleground, not a claim that all privacy is unlawful.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/founders-samourai-wallet-cryptocurrency-mixing-service-plead-guilty",
+          "title": "Samourai guilty pleas",
+          "publisher": "U.S. Department of Justice",
+          "date": "2025-08-06",
+          "verified": true,
+          "finding": "Founders pleaded guilty July 30 2025 to conspiracy to operate a money-transmitting business handling criminal proceeds. This does not criminalize every privacy use."
+        },
+        {
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/",
+          "title": "Strategic Bitcoin Reserve order",
+          "publisher": "White House",
+          "date": "2025-03-06",
+          "verified": true,
+          "finding": "Order retained eligible forfeited BTC in a reserve, prohibited sales of deposited reserve BTC, and directed budget-neutral acquisition strategies; legal/victim exceptions apply."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "142-C13",
+      "claim": "Owners span politics.",
+      "kind": "empirical",
+      "source_blocks": [
+        86,
+        88,
+        89
+      ],
+      "family": "bitcoin-owner-demographics",
+      "asset_or_variable": "bitcoin-owner-demographics",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Faithful summary of a named sample is not verified without methodology, weights and questionnaire. Advocacy sponsorship does not itself invalidate results but generalization to all owners needs care.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Obtain Perkins/Cross 2024 survey report and sampling/weighting details."
+    },
+    {
+      "id": "142-C14",
+      "claim": "Ether launch demand weaker.",
+      "kind": "empirical",
+      "source_blocks": [
+        94,
+        95,
+        96
+      ],
+      "family": "ethereum-etf-launch-demand",
+      "asset_or_variable": "ethereum-etf-launch-demand",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The first nine trading days had over $2.1 bn ETHE outflows and net aggregate outflows, confirming the weak launch-flow observation. The text says June 23, but funds launched July 23; treat as a source date error, not the core demand thesis.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://farside.co.uk/ethereum-etf-flow-all-data/",
+          "title": "Ether ETF launch flows",
+          "publisher": "Farside Investors",
+          "date": null,
+          "verified": true,
+          "finding": "July 23-August 2 2024 ETHE outflows sum $2,116.5 m; aggregate all-fund flows sum -$511.2 m. Table begins July 23, not June 23."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2011535/000201153524000019/franklinethereumetfpressrele.htm",
+          "title": "Franklin Ethereum ETF launch",
+          "publisher": "Franklin Templeton via SEC",
+          "date": "2024-07-23",
+          "verified": true,
+          "finding": "The spot ether ETF EZET began exchange trading on July 23, 2024."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "142-C15",
+      "claim": "ETHE redemptions slow.",
+      "kind": "forecast",
+      "source_blocks": [
+        97
+      ],
+      "family": "ethereum-etf-rotation",
+      "asset_or_variable": "ethereum-etf-rotation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "right",
+      "reason": "ETHE daily redemptions dropped from $484.1 m on July 23 to $3.8 m on August 28, with some zero days. The weak possible modality merits low predictive weight; one later large day would not negate the initially slowing pattern.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://farside.co.uk/ethereum-etf-flow-all-data/",
+          "title": "Ether ETF launch flows",
+          "publisher": "Farside Investors",
+          "date": null,
+          "verified": true,
+          "finding": "ETHE July 23 redemption $484.1 m; August 28$3.8 m; August 12 and 30 zero. Other funds continued to receive inflows intermittently."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "142-C16",
+      "claim": "ETH/BTC support fragile.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        99
+      ],
+      "family": "bitcoin-over-ethereum",
+      "asset_or_variable": "bitcoin-over-ethereum",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The printed 0.46/0.45 levels are a decimal-place error relative to approximately 0.046/0.045 context. Technical support has no falsification rule. Evaluator cutoff shows ETH-8.07% versus BTC+39.85% from August 5, consistent with relative weakness but not proof of chart causality.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ETH-USD/history/",
+          "title": "ETH-USD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-08-04\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-08-05\",\"exit\":\"2026-11-07\",\"days\":824,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"ETH-USD\":{\"entry_adjusted_close\":2417.206298828125,\"exit_adjusted_close\":2222.199951171875,\"cumulative_return_pct\":-8.067426754215813,\"annualized_return_pct\":-3.6598569499589617,\"source\":\"https://finance.yahoo.com/quote/ETH-USD/history/\"},\"BTC-USD\":{\"entry_adjusted_close\":53991.45703125,\"exit_adjusted_close\":75508.5,\"cumulative_return_pct\":39.85268068667982,\"annualized_return_pct\":16.030109325171505,\"source\":\"https://finance.yahoo.com/quote/BTC-USD/history/\"}},\"excess_percentage_points\":-47.920107440895634}"
+        }
+      ],
+      "next_check": "Preserve corrected scale as editorial inference; no fabricated stop-loss or deadline."
+    },
+    {
+      "id": "142-C17",
+      "claim": "Ethereum middle squeezed.",
+      "kind": "explanation",
+      "source_blocks": [
+        100,
+        101
+      ],
+      "family": "ethereum-competitive-position",
+      "asset_or_variable": "ethereum-competitive-position",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The competition claim needs fee, settlement, security and application activity measures across chains. Network effects can offset cost disadvantages; relative token price alone does not identify technical superiority.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare usage and retained fees with security/decentralization differences."
+    },
+    {
+      "id": "142-C18",
+      "claim": "Trade deficits recycle capital.",
+      "kind": "explanation",
+      "source_blocks": [
+        117,
+        120
+      ],
+      "family": "us-external-capital-flows",
+      "asset_or_variable": "us-external-capital-flows",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Balance-of-payments identity links current-account deficits to net financing, but says nothing about all inflows buying equities or goods necessarily depreciating while financial claims appreciate.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconcile BEA net flows by instrument and separate identity from valuation effects.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Consistent balance-of-payments accounting",
+          "Include capital account and statistical discrepancy"
+        ],
+        "derivation": "Current account + capital account + financial-account financing + statistical discrepancy =0 under matched sign conventions. Equity appreciation is not implied."
+      }
+    },
+    {
+      "id": "142-C19",
+      "claim": "Passive flows reinforce concentration.",
+      "kind": "explanation",
+      "source_blocks": [
+        119,
+        125
+      ],
+      "family": "passive-flow-concentration",
+      "asset_or_variable": "passive-flow-concentration",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Market-cap weighting maintains existing weights at unchanged prices; it does not mechanically increase concentration simply from pro-rata flows. Differential price impact and valuation elasticity require evidence.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Separate proportional allocation from concentration changes; measure passive versus active ownership and impact."
+    },
+    {
+      "id": "142-C20",
+      "claim": "Japan tightening supports yen.",
+      "kind": "explanation",
+      "source_blocks": [
+        121,
+        123
+      ],
+      "family": "japan-fx-policy",
+      "asset_or_variable": "japan-fx-policy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The yen strengthened sharply into September 2024 but subsequently reversed much of that move. U.S. rates and global risk unwind confound attribution to the small BOJ hike.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.mof.go.jp/english/policy/international_policy/reference/feio/quarter/2024_2Qe.html",
+          "title": "April-June 2024 foreign exchange intervention",
+          "publisher": "Japan Ministry of Finance",
+          "date": "2024-08-07",
+          "verified": true,
+          "finding": "Japan bought yen and sold dollars on April 29 and May 1, totaling 9,788.5 billion yen."
+        }
+      ],
+      "next_check": "Use dated BOJ decisions, USDJPY and interest differentials in an event study."
+    },
+    {
+      "id": "142-C21",
+      "claim": "Dollar flows self-reinforce.",
+      "kind": "explanation",
+      "source_blocks": [
+        126,
+        128,
+        129
+      ],
+      "family": "dollar-debt-feedback",
+      "asset_or_variable": "dollar-debt-feedback",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "FX translation, capital flight and investment incentives can interact, but not all EM debt is unhedged and Asian holdings do not equal marginal liquidation intent.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use currency-matched exposures and actual cross-border flows rather than holdings alone."
+    },
+    {
+      "id": "142-C22",
+      "claim": "Fed resumes Treasury buying.",
+      "kind": "forecast",
+      "source_blocks": [
+        127,
+        139,
+        141
+      ],
+      "family": "fed-balance-sheet-turn",
+      "asset_or_variable": "fed-balance-sheet-turn",
+      "horizon": "Late 2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "December 2025 purchases verify the projected calendar event. The stated fiscal-deficit motive is not established by reserve-management implementation and should not receive the same credit.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "Late 2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchases",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "The Desk announced $40 billion of initial bill purchases starting December 12, to maintain ample reserves. This is not itself evidence of deficit monetization as the causal motive."
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2025-10-29",
+          "verified": true,
+          "finding": "FOMC announced aggregate securities runoff would conclude December 1 2025."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "142-C23",
+      "claim": "Mortgage trough stays higher.",
+      "kind": "forecast",
+      "source_blocks": [
+        137,
+        142
+      ],
+      "family": "mortgage-lock-in",
+      "asset_or_variable": "mortgage-lock-in",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "December 2024 rates far exceeded the 2021 trough, supporting the intermediate observation. The next cycle trough is not assigned a terminal date; consumer refinancing effects need lending-volume data.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-continue-rise-2/",
+          "title": "Mortgage rates continue to rise",
+          "publisher": "Freddie Mac",
+          "date": "2024-12-26",
+          "verified": true,
+          "finding": "The 30-year mortgage survey rate was 6.85%, far above the 2021 refinancing trough despite 2024 Fed rate cuts."
+        }
+      ],
+      "next_check": "Track the full easing-cycle trough and actual refinanced balances."
+    },
+    {
+      "id": "142-C24",
+      "claim": "Small firms benefit from cuts.",
+      "kind": "explanation",
+      "source_blocks": [
+        142
+      ],
+      "family": "small-business-rate-exposure",
+      "asset_or_variable": "small-business-rate-exposure",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Floating-rate funding can become cheaper but weakened demand and credit spreads may dominate. No aggregate profit result follows from the policy rate alone.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare effective small-firm borrowing rates, credit availability and sales."
+    },
+    {
+      "id": "142-C25",
+      "claim": "EM rotation more likely.",
+      "kind": "forecast",
+      "source_blocks": [
+        143,
+        150,
+        154
+      ],
+      "family": "value-em-rotation",
+      "asset_or_variable": "value-em-rotation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No horizon or relative-return threshold is stated. Evaluator cutoff from August 5 shows EEM+53.66% versus SPY+45.84%, whereas EFA+44.27% slightly lagged SPY. This is partial directional evidence, not universal foreign outperformance or proof of dollar causality.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EEM/history/",
+          "title": "EEM adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-08-04\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-08-05\",\"exit\":\"2026-11-06\",\"days\":823,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"EEM\":{\"entry_adjusted_close\":38.611454010009766,\"exit_adjusted_close\":59.33000183105469,\"cumulative_return_pct\":53.65907177614646,\"annualized_return_pct\":21.0027166718991,\"source\":\"https://finance.yahoo.com/quote/EEM/history/\"},\"SPY\":{\"entry_adjusted_close\":504.1632080078125,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":45.84364077910852,\"annualized_return_pct\":18.23166050063676,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":7.815430997037943}"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/EFA/history/",
+          "title": "EFA adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-08-04\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-08-05\",\"exit\":\"2026-11-06\",\"days\":823,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"EFA\":{\"entry_adjusted_close\":70.62492370605469,\"exit_adjusted_close\":101.88999938964844,\"cumulative_return_pct\":44.26918153387456,\"annualized_return_pct\":17.66349176951978,\"source\":\"https://finance.yahoo.com/quote/EFA/history/\"},\"SPY\":{\"entry_adjusted_close\":504.1632080078125,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":45.84364077910852,\"annualized_return_pct\":18.23166050063676,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-1.5744592452339603}"
+        }
+      ],
+      "next_check": "Keep geographic/style components separate and disclose sensitivity endpoints."
+    },
+    {
+      "id": "142-C26",
+      "claim": "Dollar regimes rotate leadership.",
+      "kind": "explanation",
+      "source_blocks": [
+        144,
+        145
+      ],
+      "family": "dollar-style-regimes",
+      "asset_or_variable": "dollar-style-regimes",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Selected decades conflate inflation, valuation, technology and commodity supply shocks. A historical analogy needs rolling or cross-country tests and exceptions.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Test USD changes against value/growth and non-U.S. relative returns with lag and sample sensitivity."
+    },
+    {
+      "id": "142-C27",
+      "claim": "High multiples risk stagnation.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        146,
+        148
+      ],
+      "family": "megacap-valuation-risk",
+      "asset_or_variable": "megacap-valuation-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Costco is a valuation warning without an earnings trajectory, target or horizon. Coca-Cola analogy shows possibility, not a probability estimate or proof of identical future experience.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Model Costco earnings and terminal multiples; keep evaluator return window separate."
+    },
+    {
+      "id": "142-C28",
+      "claim": "Pandemic delayed prior rotation.",
+      "kind": "explanation",
+      "source_blocks": [
+        151,
+        152
+      ],
+      "family": "rotation-revision-history",
+      "asset_or_variable": "rotation-revision-history",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The author candidly acknowledges her 2019 rotation call failed. The explanation assigns failure to an unforeseen shock; it needs an original-vintage forecast and counterfactual test. An exogenous cause does not retroactively make the call right.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Link original 2019 call and January 26 2020 risk note; compare pre-pandemic relative performance."
+    },
+    {
+      "id": "142-C29",
+      "claim": "Shale maturity changes cycle.",
+      "kind": "explanation",
+      "source_blocks": [
+        153
+      ],
+      "family": "us-shale-maturity",
+      "asset_or_variable": "us-shale-maturity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "U.S. output subsequently kept growing despite fewer rigs. Slower growth versus the 2010s supports maturity concerns, but production near a prior peak is not evidence of a binding ceiling.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/tODAyinenergy/detail.php?id=67404",
+          "title": "U.S. crude production in 2025",
+          "publisher": "EIA",
+          "date": "2026-03-31",
+          "verified": true,
+          "finding": "Production rose 3% to 13.6 mb/d despite 5% fewer rigs; WTI annual price fell from $77 to $65. Gulf output rose 111 kb/d. Efficiency gains supported supply."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "142-C30",
+      "claim": "Three pillars diversify.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        155,
+        160
+      ],
+      "family": "three-pillar-portfolio",
+      "asset_or_variable": "three-pillar-portfolio",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No weights, rebalance rules or risk target are given. Sensible diversification cannot be translated into an audited strategy return.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Use actual model-portfolio weights/trades only if separately available."
+    },
+    {
+      "id": "142-C31",
+      "claim": "Gold remains bullish.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        161
+      ],
+      "family": "gold-secular-bull",
+      "asset_or_variable": "gold-secular-bull",
+      "horizon": "Years ahead",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Years ahead is open-ended. Gold proxy GLD gained 67.44% from August 5 2024 to November 6 2026, versus SPY 45.84%, supporting observed direction but not defining a final author horizon.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "Years ahead",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-08-04\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-08-05\",\"exit\":\"2026-11-06\",\"days\":823,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"GLD\":{\"entry_adjusted_close\":222.47999572753906,\"exit_adjusted_close\":372.5199890136719,\"cumulative_return_pct\":67.43976814431434,\"annualized_return_pct\":25.70401811509928,\"source\":\"https://finance.yahoo.com/quote/GLD/history/\"},\"SPY\":{\"entry_adjusted_close\":504.1632080078125,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":45.84364077910852,\"annualized_return_pct\":18.23166050063676,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":21.596127365205824}"
+        }
+      ],
+      "next_check": "Retain disclosed evaluator endpoint; do not count repeated bullish updates as independent forecasts."
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Liquidity/M2",
+      "source_blocks": [
+        9,
+        31
+      ],
+      "use": "Funding",
+      "image_inspected": false
+    },
+    {
+      "name": "Labor/PMI heatmap",
+      "source_blocks": [
+        35,
+        37,
+        50
+      ],
+      "use": "Cycle",
+      "image_inspected": false
+    },
+    {
+      "name": "Owner survey",
+      "source_blocks": [
+        86
+      ],
+      "use": "Demographics",
+      "image_inspected": false
+    },
+    {
+      "name": "ETH/BTC",
+      "source_blocks": [
+        99
+      ],
+      "use": "Relative strength",
+      "image_inspected": false
+    },
+    {
+      "name": "FX/mortgage/SOMA",
+      "source_blocks": [
+        123,
+        137,
+        139
+      ],
+      "use": "Transmission",
+      "image_inspected": false
+    },
+    {
+      "name": "Valuation/gold",
+      "source_blocks": [
+        146,
+        148,
+        161
+      ],
+      "use": "Pricing",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate accounting, prices, and policy intent."
+  ],
+  "assessment": "The article explicitly withholds endorsement of quoted rate-equivalence estimates and admits an earlier rotation miss. Its strongest verified points are ETF outflows, employment revision risk, continued privacy enforcement, and 2025 Fed purchases. Broad recession and rotation language is flexible; positive GDP and uneven foreign returns resist an uncomplicated win. Source launch-date and ratio-scale errors are preserved as editorial limitations.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

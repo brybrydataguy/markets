@@ -1,0 +1,32 @@
+{
+  "as_of": "2026-11-07",
+  "scope": "All 200 dated reports linked under Premium Research Reports in the members archive on November 7, 2026. Every material investment or macro thesis, forecast, and explanation is in scope. Incidental historical statistics, company descriptions, boilerplate and bare position lists are contextual material, not separate scored claims.",
+  "materiality": "A proposition is material if its falsity would materially alter the article's thesis, explanation, or investment conclusion. Preserve counterarguments, qualifications and changes of view.",
+  "source_vintage": "The corpus is a snapshot retrieved November 7, 2026. Publication dates come from the archive. These are current webpage texts, not independently authenticated publication-date versions; later edits may be present. Original text, block references, image labels, links and hashes are retained privately for audit.",
+  "verdicts": {
+    "right": "The specified proposition is supported by fit-for-purpose independent evidence over its relevant horizon.",
+    "wrong": "Independent evidence contradicts the specified proposition over its relevant horizon.",
+    "too_early": "An identifiable future test or stated horizon has not yet elapsed.",
+    "mixed": "Important components have different outcomes, with the distinction explained.",
+    "not_testable": "The claim lacks a falsifiable specification, is a valuation opinion without a test, or cannot be resolved as a binary proposition.",
+    "evidence_needed": "The available verification is insufficient. This is an audit gap, not a forecast outcome or an excuse for calling an expired forecast too early.",
+    "conditional_pending": "The stated triggering condition has not been established. It is not counted as a win."
+  },
+  "rules": [
+    "Extract claims from source text, preserving modality, conditions and horizon. Do not infer a claim from its title or an image label.",
+    "Do not invent a numerical probability, target, tolerance or horizon. Separate any evaluator-defined sensitivity test from the author's actual forecast.",
+    "An empirical or forecast right/wrong finding needs a source passage and independent outcome evidence matching the variable, units, dates, population and relevant data vintage. Strict accounting or mathematical identities may instead be assessed through an explicit derivation and assumptions, clearly labeled deductive and excluded from forecasting performance.",
+    "Separate direction, timing and causal mechanism. A correct outcome does not by itself establish the proposed causal explanation.",
+    "Use evidence released on or before November 7, 2026. A later release about an earlier observation is not admissible in an as-of audit.",
+    "Assess empirical observations against contemporaneous data definitions and vintages. Distinguish subsequent revisions from author error.",
+    "Investment performance requires distributions, splits, corporate actions, currency, entry/exit assumptions, a benchmark and trading-access constraints. Business success is not equivalent to stock outperformance.",
+    "Market checks disclose their own conventions. Some cryptocurrency event tests use calendar daily closes or intraday lows; equity sensitivities generally use the first common trading close after publication. These are observational proxies, not verified subscriber executions, and should not be pooled as a single strategy return.",
+    "Preserve all occurrences and revisions. An updated forecast does not erase the previous one. Repeated thesis families are not independent forecast wins.",
+    "Do not pool descriptive facts, explanations, valuation opinions and forecasts into an accuracy percentage. Show unresolved coverage and cohort differences.",
+    "Chart labels are inventoried across all sources. Visual inspection is a separate field. Uninspected images cannot verify numerical or visual claims.",
+    "This is a retrospective qualitative audit with residual hindsight and selection bias, not a controlled estimate of forecasting skill."
+  ],
+  "external_review": "Claude and a separate Codex CLI reviewed only the research methodology. Both completed. Grok and AntiGravity were unavailable. Automatic approval review rejected transmitting private article snapshots to Claude, so no article corpus was sent to Claude. Article reviews are performed within the current Codex task. The external-model-orchestrator skill supplied the methodology-review workflow.",
+  "peer_review": "A separate in-task reviewer checked 16 selected high-impact judgments against the numbered source passages and primary evidence. This led to two verdicts being softened and several scope or timing clarifications. It is a bounded quality check, not independent verification of every claim.",
+  "publication": "This public repository contains the analysis and source references. The full member article snapshots and chart image copies remain outside the repository."
+}

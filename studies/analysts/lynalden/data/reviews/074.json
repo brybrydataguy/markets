@@ -1,0 +1,965 @@
+{
+  "article_id": "074",
+  "title": "FedEx (FDX) Deep Dive Analysis",
+  "date": "2021-12-26",
+  "source_url": "https://www.lynalden.com/premium-2021-12-26/",
+  "read_complete": true,
+  "summary": "Macro caution accompanies a FedEx valuation case.",
+  "coverage_note": "All article text blocks were read. Ledger covers material macro, investment, and causal propositions; incidental descriptive statistics, boilerplate, and unreasoned position lists are excluded. Image labels were read, not image pixels.",
+  "claims": [
+    {
+      "claim": "Omicron severity declines",
+      "source_blocks": [
+        7,
+        14
+      ],
+      "kind": "forecast",
+      "family": "omicron-lower-severity",
+      "verdict": "right",
+      "reason": "CDC surveillance supports lower relative severity, while very large infection counts still created substantial burden. This was appropriately tentative, not a prediction that deaths disappear.",
+      "evidence": [
+        {
+          "url": "https://www.cdc.gov/mmwr/volumes/71/wr/mm7106a4.htm",
+          "title": "Delta and Omicron genomic surveillance",
+          "publisher": "CDC",
+          "date": "2022-02-11",
+          "verified": true,
+          "finding": "Omicron spread rapidly; relative severity was lower.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "omicron-lower-severity",
+      "modality": "tentative",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C01"
+    },
+    {
+      "claim": "Local inflation peak approaches",
+      "source_blocks": [
+        19
+      ],
+      "kind": "forecast",
+      "family": "q1-2022-local-cpi-peak",
+      "verdict": "right",
+      "reason": "March annual CPI reached 8.5%, then April eased to 8.3%. That establishes a local Q1 peak. A later higher June peak does not falsify the explicitly local wording.",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_04122022.htm",
+          "title": "Consumer Price Index, March 2022",
+          "publisher": "BLS",
+          "date": "2022-04-12",
+          "verified": true,
+          "finding": "March CPI inflation reached 8.5%; shelter contributed.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_05112022.htm",
+          "title": "CPI, April 2022",
+          "publisher": "BLS",
+          "date": "2022-05-11",
+          "verified": true,
+          "finding": "Annual CPI eased to 8.3%, following March 8.5%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Q1 2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "q1-2022-local-cpi-peak",
+      "modality": "asserted",
+      "confidence": "high",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Q1 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C02"
+    },
+    {
+      "claim": "Five-year inflation trend rises",
+      "source_blocks": [
+        20
+      ],
+      "kind": "forecast",
+      "family": "five-year-money-inflation-trend",
+      "verdict": "evidence_needed",
+      "reason": "Testing this combined proposition requires matching five-year rolling changes for both M2 and CPI through 2023. One-year disinflation cannot resolve it; the local dataset starts in 2019, too late for the initial five-year comparison.",
+      "evidence": [],
+      "horizon": "Through at least 2023",
+      "conditions": null,
+      "next_check": "Download M2 and CPI back through 2016 and compare rolling five-year changes.",
+      "asset_or_variable": "five-year-money-inflation-trend",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Through at least 2023",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C03"
+    },
+    {
+      "claim": "Shelter sustains CPI",
+      "source_blocks": [
+        23
+      ],
+      "kind": "forecast",
+      "family": "shelter-cpi-lag",
+      "verdict": "right",
+      "reason": "BLS documented continued shelter increases in March; this was a useful component-specific warning even as other goods weakened.",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_04122022.htm",
+          "title": "Consumer Price Index, March 2022",
+          "publisher": "BLS",
+          "date": "2022-04-12",
+          "verified": true,
+          "finding": "March CPI inflation reached 8.5%; shelter contributed.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Next couple quarters",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "shelter-cpi-lag",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Next couple quarters",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C04"
+    },
+    {
+      "claim": "Vehicle scarcity eventually reverses",
+      "source_blocks": [
+        24,
+        28
+      ],
+      "kind": "explanation",
+      "family": "vehicle-supply-normalization",
+      "verdict": "mixed",
+      "reason": "March 2022 used-vehicle prices declined a second month, supporting relief on one component. The same release does not prove her manufacturer-versus-dealer inventory mechanism or broad new-car deflation.",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_04122022.htm",
+          "title": "Consumer Price Index, March 2022",
+          "publisher": "BLS",
+          "date": "2022-04-12",
+          "verified": true,
+          "finding": "March CPI inflation reached 8.5%; shelter contributed.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Join manufacturing and dealer inventories, chips, and new/used vehicle price indices through 2023.",
+      "asset_or_variable": "vehicle-supply-normalization",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "074-C05"
+    },
+    {
+      "claim": "European gas spikes fade",
+      "source_blocks": [
+        29,
+        33
+      ],
+      "kind": "forecast",
+      "family": "europe-gas-price-normalization",
+      "verdict": "evidence_needed",
+      "reason": "The prediction allows further winter spikes and leaves the normalization horizon open. A complete TTF path is needed to distinguish December normalization from the much larger 2022 war shock.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": "Cold weather can intensify winter stress",
+      "next_check": "Retrieve daily TTF and Henry Hub series, preserving December 2021 and August 2022 peaks.",
+      "asset_or_variable": "europe-gas-price-normalization",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C06"
+    },
+    {
+      "claim": "Bank lending expands slowly",
+      "source_blocks": [
+        35,
+        44
+      ],
+      "kind": "forecast",
+      "family": "us-bank-credit-reacceleration",
+      "verdict": "evidence_needed",
+      "reason": "A meaningful test needs business lending excluding temporary revolver drawdowns and a defined comparison for sluggishness. Rates and equity prices do not substitute for loan data.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Compare Federal Reserve commercial-bank C&I loans through 2022, excluding 2020 revolver effect.",
+      "asset_or_variable": "us-bank-credit-reacceleration",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C07"
+    },
+    {
+      "claim": "China activity rebounds",
+      "source_blocks": [
+        46,
+        49
+      ],
+      "kind": "forecast",
+      "family": "china-2022-credit-rebound",
+      "verdict": "wrong",
+      "reason": "2022 real growth was only 3.0%; property contracted and renewed restrictions obstructed the projected late-year acceleration. Policy incentives alone did not deliver the forecast.",
+      "evidence": [
+        {
+          "url": "https://www.stats.gov.cn/english/PressRelease/202401/t20240110_1946428.html",
+          "title": "Final verification of 2022 GDP",
+          "publisher": "National Bureau of Statistics of China",
+          "date": "2023-12-29",
+          "verified": true,
+          "finding": "2022 growth was 3.0%; real estate contracted.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.worldbank.org/en/news/press-release/2022/06/08/covid-19-outbreaks-and-headwinds-have-disrupted-china-s-growth-normalization-world-bank-report",
+          "title": "China growth normalization disrupted",
+          "publisher": "World Bank",
+          "date": "2022-06-08",
+          "verified": true,
+          "finding": "After a strong early-2022 start, Omicron outbreaks and mobility restrictions disrupted growth normalization.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2022, especially later months",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "china-2022-credit-rebound",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2022, especially later months",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C08"
+    },
+    {
+      "claim": "China housing stays weak",
+      "source_blocks": [
+        49
+      ],
+      "kind": "forecast",
+      "family": "china-property-downturn",
+      "verdict": "right",
+      "reason": "Real-estate activity contracted in 2022 even while aggregate output grew. This correctly distinguished property weakness from hopes for broader stimulus.",
+      "evidence": [
+        {
+          "url": "https://www.stats.gov.cn/english/PressRelease/202401/t20240110_1946428.html",
+          "title": "Final verification of 2022 GDP",
+          "publisher": "National Bureau of Statistics of China",
+          "date": "2023-12-29",
+          "verified": true,
+          "finding": "2022 growth was 3.0%; real estate contracted.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Multiple years",
+      "conditions": null,
+      "next_check": "Longer-horizon severity needs additional 2023-26 sector evidence.",
+      "asset_or_variable": "china-property-downturn",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Multiple years",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C09"
+    },
+    {
+      "claim": "US housing beats equities",
+      "source_blocks": [
+        51
+      ],
+      "kind": "investment_thesis",
+      "family": "us-housing-over-equities-decade",
+      "verdict": "too_early",
+      "reason": "The decade from late 2021 is incomplete. A fair test must specify investable property exposure, financing, maintenance, rent and stock dividends.",
+      "evidence": [],
+      "horizon": "Next decade",
+      "conditions": null,
+      "next_check": "Compare predeclared net property total return and equities in December 2031.",
+      "asset_or_variable": "us-housing-over-equities-decade",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Next decade",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "074-C10"
+    },
+    {
+      "claim": "China equities beat housing",
+      "source_blocks": [
+        51
+      ],
+      "kind": "investment_thesis",
+      "family": "china-equities-over-housing-decade",
+      "verdict": "too_early",
+      "reason": "The roughly 2031 endpoint remains ahead. Neither 2022 stock losses nor property contraction alone determines this relative return.",
+      "evidence": [],
+      "horizon": "Next decade",
+      "conditions": null,
+      "next_check": "Use matched renminbi total returns including property costs through 2031.",
+      "asset_or_variable": "china-equities-over-housing-decade",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Next decade",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "074-C11"
+    },
+    {
+      "claim": "Bitcoin breakout could continue",
+      "source_blocks": [
+        54,
+        56
+      ],
+      "kind": "forecast",
+      "family": "bitcoin-late-2021-breakout",
+      "verdict": "not_testable",
+      "reason": "This was a tentative chart setup within an explicitly neutral overall stance, with a false-breakout warning. The setup failed during the ensuing bear market, but a possible outcome cannot fairly be scored as an unconditional forecast miss.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin daily price",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "BTC: $57,471.87 November 28, 2021; $15,755.75 November 21, 2022; first subsequent daily close above $70,000 March 11, 2024.",
+          "verification_method": "computed from coordinator-downloaded CSV, provenance research/evidence/series-manifest.json"
+        }
+      ],
+      "horizon": "Near term",
+      "conditions": null,
+      "next_check": "Do not include this scenario in the binary forecast score; record the failed setup descriptively.",
+      "asset_or_variable": "bitcoin-late-2021-breakout",
+      "modality": "possible",
+      "confidence": "medium",
+      "direction_assessment": "The possible bullish scenario did not materialize; no preferred-case prediction was stated.",
+      "timing_assessment": "Assessed against the stated horizon: Near term",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C12"
+    },
+    {
+      "claim": "China selling exhausts",
+      "source_blocks": [
+        57,
+        63
+      ],
+      "kind": "explanation",
+      "family": "china-crypto-exchange-exit",
+      "verdict": "evidence_needed",
+      "reason": "Exchange closure deadlines can establish institutional exits, but cannot by themselves establish when Chinese beneficial owners stopped selling. Wallet attribution and market flows are required.",
+      "evidence": [],
+      "horizon": "End 2021",
+      "conditions": null,
+      "next_check": "Check Huobi closure notices and audited exchange balances through January 2022.",
+      "asset_or_variable": "china-crypto-exchange-exit",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: End 2021",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "074-C13"
+    },
+    {
+      "claim": "Bitcoin bear market moderates",
+      "source_blocks": [
+        64
+      ],
+      "kind": "forecast",
+      "family": "bitcoin-cycle-moderation",
+      "verdict": "mixed",
+      "reason": "The next major bear was shallower in percentage loss than 2013/2017 and recovered its old high sooner. Peak-to-trough duration was not clearly shorter than 2017: Galaxy reports 366 versus 364 days, with its low-date convention differing from Coinbase. Because the author does not define bear duration, credit the depth/recovery direction without claiming an unqualified timing success.",
+      "evidence": [
+        {
+          "url": "https://www.galaxy.com/insights/research/bitcoin-50-week-moving-average-bear-market-ceiling-200-week-floor-analysis",
+          "title": "Historical Bitcoin bear cycles",
+          "publisher": "Galaxy Research",
+          "date": "2026-08-28",
+          "verified": true,
+          "finding": "Table reports 2013-15 drawdown 84.5%, peak-to-low 406 days;2017-18 drawdown 83.8%,364 days;2021-22 drawdown 76.7%,366 days and shorter full recovery. Its low-date convention differs from Coinbase daily series; exact dates are not interchangeable.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin daily price",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "BTC: $57,471.87 November 28, 2021; $15,755.75 November 21, 2022; first subsequent daily close above $70,000 March 11, 2024.",
+          "verification_method": "computed from coordinator-downloaded CSV, provenance research/evidence/series-manifest.json"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Preserve both peak-to-trough and peak-to-recovery conventions; do not silently select the favorable one.",
+      "asset_or_variable": "bitcoin-cycle-moderation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "See qualified outcome in rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C14"
+    },
+    {
+      "claim": "Illiquid supply supports Bitcoin",
+      "source_blocks": [
+        65,
+        67
+      ],
+      "kind": "explanation",
+      "family": "bitcoin-illiquid-supply",
+      "verdict": "mixed",
+      "reason": "The subsequent deep decline shows holder accumulation alone was insufficient support. The article explicitly recognizes demand/liquidity risk, so the conditional mechanism is not wholly contradicted.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin daily price",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "BTC: $57,471.87 November 28, 2021; $15,755.75 November 21, 2022; first subsequent daily close above $70,000 March 11, 2024.",
+          "verification_method": "computed from coordinator-downloaded CSV, provenance research/evidence/series-manifest.json"
+        }
+      ],
+      "horizon": null,
+      "conditions": "Demand must persist",
+      "next_check": null,
+      "asset_or_variable": "bitcoin-illiquid-supply",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "074-C15"
+    },
+    {
+      "claim": "Token incentives encourage extraction",
+      "source_blocks": [
+        72,
+        82
+      ],
+      "kind": "explanation",
+      "family": "web3-insider-incentives",
+      "verdict": "not_testable",
+      "reason": "This is a structural conflict-of-interest diagnosis without a defined token universe or measurable incidence threshold. It is useful due diligence, not a forecast win.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Audit vesting, insider allocations, sales and customer outcomes for a named token cohort.",
+      "asset_or_variable": "web3-insider-incentives",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "074-C16"
+    },
+    {
+      "claim": "FedEx network resists entry",
+      "source_blocks": [
+        112,
+        121
+      ],
+      "kind": "explanation",
+      "family": "fedex-network-moat",
+      "verdict": "evidence_needed",
+      "reason": "Historical failed entry is suggestive but cannot prove enduring pricing power. The 2022 volume/profit shock also shows scale does not eliminate operating leverage.",
+      "evidence": [
+        {
+          "url": "https://investors.fedex.com/news-and-events/investor-news/investor-news-details/2022/FedEx-Corp.-Reports-First-Quarter-Results/",
+          "title": "First quarter FY2023 results",
+          "publisher": "FedEx",
+          "date": "2022-09-22",
+          "verified": true,
+          "finding": "Express operating profit fell 69%; global volumes weakened and costs lagged.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Compare delivery density, yields, unit costs and entrant share over a fixed window.",
+      "asset_or_variable": "fedex-network-moat",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "074-C17"
+    },
+    {
+      "claim": "FedEx revenue overtakes DHL",
+      "source_blocks": [
+        122
+      ],
+      "kind": "forecast",
+      "family": "fedex-versus-dhl-revenue",
+      "verdict": "evidence_needed",
+      "reason": "This is resolvable with audited revenue and consistent currency/calendar alignment; neither company valuation nor US-only revenue suffices.",
+      "evidence": [],
+      "horizon": "Next few years",
+      "conditions": null,
+      "next_check": "Compare FY2022-25 FedEx and DHL consolidated revenue using common USD conversion.",
+      "asset_or_variable": "fedex-versus-dhl-revenue",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Next few years",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C18"
+    },
+    {
+      "claim": "E-commerce share keeps growing",
+      "source_blocks": [
+        124,
+        129
+      ],
+      "kind": "forecast",
+      "family": "us-ecommerce-structural-share",
+      "verdict": "right",
+      "reason": "Census places the 2022 quarterly low at 14.3%, above the stated 12% floor, with 14.7% by Q4. The short-term floor-and-resumption claim is supported; not proof of perpetual growth.",
+      "evidence": [
+        {
+          "url": "https://www2.census.gov/retail/releases/historical/ecomm/22q4.pdf",
+          "title": "Quarterly Retail E-Commerce Sales, Q4 2022",
+          "publisher": "US Census Bureau",
+          "date": "2023-02-17",
+          "verified": true,
+          "finding": "Seasonally adjusted retail e-commerce share was 14.3-14.7% during 2022.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Post-pandemic normalization",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "us-ecommerce-structural-share",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Post-pandemic normalization",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C19"
+    },
+    {
+      "claim": "E-commerce eventually exceeds 20%",
+      "source_blocks": [
+        130
+      ],
+      "kind": "forecast",
+      "family": "us-ecommerce-twenty-percent",
+      "verdict": "not_testable",
+      "reason": "No deadline is attached to the 20% threshold. It should remain a monitored proposition, rather than become an indefinitely renewable success claim.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Define deadline and Census retail-share denominator.",
+      "asset_or_variable": "us-ecommerce-twenty-percent",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C20"
+    },
+    {
+      "claim": "TNT integration lifts margins",
+      "source_blocks": [
+        131
+      ],
+      "kind": "forecast",
+      "family": "fedex-tnt-integration",
+      "verdict": "mixed",
+      "reason": "Integration expenses declined in FY2022, but the expected broader margin relief was overwhelmed by weakening volume and cost rigidity by September. Operational milestone and earnings outcome must be separated.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1048911/000095017022012762/fdx-20220531.htm",
+          "title": "2022 Form 10-K",
+          "publisher": "FedEx / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "FY2022 repurchases totaled $2.248 billion; refinancing removed maturities through 2025.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://investors.fedex.com/news-and-events/investor-news/investor-news-details/2022/FedEx-Corp.-Reports-First-Quarter-Results/",
+          "title": "First quarter FY2023 results",
+          "publisher": "FedEx",
+          "date": "2022-09-22",
+          "verified": true,
+          "finding": "Express operating profit fell 69%; global volumes weakened and costs lagged.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "fedex-tnt-integration",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C21"
+    },
+    {
+      "claim": "Buybacks enhance per-share results",
+      "source_blocks": [
+        133
+      ],
+      "kind": "explanation",
+      "family": "fedex-capital-returns",
+      "verdict": "mixed",
+      "reason": "Repurchases actually occurred:8.9 million shares for $2.248b in FY2022. Share reduction is confirmed; economic value creation depends on purchase price versus intrinsic value, not merely lower share count.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1048911/000095017022012762/fdx-20220531.htm",
+          "title": "2022 Form 10-K",
+          "publisher": "FedEx / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "FY2022 repurchases totaled $2.248 billion; refinancing removed maturities through 2025.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "fedex-capital-returns",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "074-C22"
+    },
+    {
+      "claim": "FedEx valuation attractive",
+      "source_blocks": [
+        135,
+        139
+      ],
+      "kind": "investment_thesis",
+      "family": "fedex-valuation",
+      "verdict": "not_testable",
+      "reason": "An earnings multiple relative to history is a valuation judgment without a return target. The subsequent earnings shock illustrates why low forward P/E alone was not sufficient protection.",
+      "evidence": [
+        {
+          "url": "https://investors.fedex.com/news-and-events/investor-news/investor-news-details/2022/FedEx-Corp.-Reports-First-Quarter-Results/",
+          "title": "First quarter FY2023 results",
+          "publisher": "FedEx",
+          "date": "2022-09-22",
+          "verified": true,
+          "finding": "Express operating profit fell 69%; global volumes weakened and costs lagged.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify valuation assumptions and horizon; test normalized rather than peak earnings.",
+      "asset_or_variable": "fedex-valuation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "074-C23"
+    },
+    {
+      "claim": "FedEx beats UPS",
+      "source_blocks": [
+        141,
+        145
+      ],
+      "kind": "investment_thesis",
+      "family": "fedex-outperforms-ups",
+      "verdict": "too_early",
+      "reason": "The text states a 5+year relative FedEx preference. It does not make a separate two-year relative-EPS forecast. The earliest five-year endpoint is December 2026, after the cutoff; earlier operating disappointment is material interim counterevidence.",
+      "evidence": [
+        {
+          "url": "https://investors.fedex.com/news-and-events/investor-news/investor-news-details/2022/FedEx-Corp.-Reports-First-Quarter-Results/",
+          "title": "First quarter FY2023 results",
+          "publisher": "FedEx",
+          "date": "2022-09-22",
+          "verified": true,
+          "finding": "Express operating profit fell 69%; global volumes weakened and costs lagged.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Five years or longer",
+      "conditions": null,
+      "next_check": "Evaluate December 2026 onward, with dividends and corporate actions.",
+      "asset_or_variable": "fedex-outperforms-ups",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Five years or longer",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "074-C25"
+    },
+    {
+      "claim": "FedEx debt remains manageable",
+      "source_blocks": [
+        148,
+        149
+      ],
+      "kind": "explanation",
+      "family": "fedex-solvency",
+      "verdict": "right",
+      "reason": "Audited 2022 filing shows refinancing eliminated debt maturities through 2025, supporting the near-term liquidity conclusion. It does not demonstrate superior returns or eliminate long-run credit risk.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1048911/000095017022012762/fdx-20220531.htm",
+          "title": "2022 Form 10-K",
+          "publisher": "FedEx / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "FY2022 repurchases totaled $2.248 billion; refinancing removed maturities through 2025.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Near term",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "fedex-solvency",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Near term",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "074-C26"
+    },
+    {
+      "claim": "Amazon competition remains manageable",
+      "source_blocks": [
+        155,
+        158
+      ],
+      "kind": "forecast",
+      "family": "fedex-amazon-competition",
+      "verdict": "evidence_needed",
+      "reason": "Growing delivery demand does not establish that competitors capture profitable share. Need FedEx volume, margins and Amazon third-party logistics share, controlling the post-pandemic cycle.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Compare domestic parcel shares and segment margins through 2026.",
+      "asset_or_variable": "fedex-amazon-competition",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C27"
+    },
+    {
+      "claim": "Labor pressures company margins",
+      "source_blocks": [
+        161,
+        162
+      ],
+      "kind": "forecast",
+      "family": "labor-versus-capital-decade",
+      "verdict": "too_early",
+      "reason": "A decade claim remains open;2022 wage acceleration and FedEx cost pressure are supporting observations, not proof of a structural decade outcome.",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/opub/ted/2023/compensation-costs-up-5-1-percent-from-december-2021-to-december-2022.htm",
+          "title": "Compensation costs in 2022",
+          "publisher": "BLS",
+          "date": "2023-02-02",
+          "verified": true,
+          "finding": "Nominal wages and salaries rose 5.1% in 2022.",
+          "verification_method": "opened official statistical article"
+        },
+        {
+          "url": "https://investors.fedex.com/news-and-events/investor-news/investor-news-details/2022/FedEx-Corp.-Reports-First-Quarter-Results/",
+          "title": "First quarter FY2023 results",
+          "publisher": "FedEx",
+          "date": "2022-09-22",
+          "verified": true,
+          "finding": "Express operating profit fell 69%; global volumes weakened and costs lagged.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2020s",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "labor-versus-capital-decade",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: 2020s",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C28"
+    },
+    {
+      "claim": "Smaller fiscal bill passes",
+      "source_blocks": [
+        164
+      ],
+      "kind": "forecast",
+      "family": "scaled-back-bbb-legislation",
+      "verdict": "right",
+      "reason": "The 2022 Inflation Reduction Act enacted a narrower package before midterm elections. This supports the direction without treating the original Build Back Better text as enacted.",
+      "evidence": [
+        {
+          "url": "https://files.gao.gov/reports/GAO-25-106996/index.html",
+          "title": "Implementation of Medicare Drug Pricing Provisions",
+          "publisher": "GAO",
+          "date": "2025-04-28",
+          "verified": true,
+          "finding": "IRA introduced negotiation and inflation rebates.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Before 2022 midterms",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "scaled-back-bbb-legislation",
+      "modality": "low-conviction",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Before 2022 midterms",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C29"
+    },
+    {
+      "claim": "Loan pause supports spending",
+      "source_blocks": [
+        165
+      ],
+      "kind": "explanation",
+      "family": "student-loan-pause-demand",
+      "verdict": "evidence_needed",
+      "reason": "Payment deferral improves current borrower cash flow arithmetically, but the asserted GDP stimulus requires an estimated spending response and counterfactual.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Use borrower payment data and a credible consumption estimate.",
+      "asset_or_variable": "student-loan-pause-demand",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "074-C30"
+    },
+    {
+      "claim": "Stocks face difficult 2022",
+      "source_blocks": [
+        166,
+        170,
+        173
+      ],
+      "kind": "forecast",
+      "family": "2022-tightening-equity-headwind",
+      "verdict": "right",
+      "reason": "S&P500 total return was approximately-18% in 2022. The caution was directionally useful; the result alone cannot allocate causality among policy, inflation, war and earnings.",
+      "evidence": [
+        {
+          "url": "https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2022/",
+          "title": "SPIVA U.S. Year-End 2022",
+          "publisher": "S&P Dow Jones Indices",
+          "date": "2023-03-07",
+          "verified": true,
+          "finding": "2022 stocks and investment-grade bonds both fell materially.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-tightening-equity-headwind",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "074-C31"
+    },
+    {
+      "claim": "Quality value offers protection",
+      "source_blocks": [
+        174
+      ],
+      "kind": "investment_thesis",
+      "family": "defensive-value-preference",
+      "verdict": "not_testable",
+      "reason": "A collection of preferences without weights, benchmark or liquidation date cannot be scored as a portfolio. Bitcoin and defensive equities also have very different risk exposures.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Reconstruct an explicitly defined portfolio before comparing total returns.",
+      "asset_or_variable": "defensive-value-preference",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "074-C32"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "CPI components",
+      "source_blocks": [
+        19,
+        28
+      ],
+      "use": "Inflation timing",
+      "image_inspected": false
+    },
+    {
+      "name": "Credit growth",
+      "source_blocks": [
+        35,
+        49
+      ],
+      "use": "Cycle direction",
+      "image_inspected": false
+    },
+    {
+      "name": "On-chain supply",
+      "source_blocks": [
+        54,
+        67
+      ],
+      "use": "Bitcoin positioning",
+      "image_inspected": false
+    },
+    {
+      "name": "Relative valuation",
+      "source_blocks": [
+        135,
+        145
+      ],
+      "use": "Company comparison",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Compare business quality with entry price.",
+    "Separate cyclical stress from structural demand."
+  ],
+  "assessment": "The macro caution held up better than the near-term FedEx profit improvement rationale. Census data validate the e-commerce floor, while later earnings expose substantial operating leverage. The five-year relative stock test has not yet matured; no business-growth observation is counted as proof of shareholder outperformance.",
+  "verification_limitations": [
+    "Captured website text is not an authenticated publication-date version.",
+    "Chart-only numerical claims have not been visually verified.",
+    "Selected stock/ETF adjusted-close comparisons are disclosed where used; no reconstructed portfolio backtest has been performed.",
+    "Unresolved verdicts are not forecast failures or successes; no aggregate hit rate is inferred.",
+    "Audit removed duplicate074-C24: its original two-year EPS horizon was not supported by the text. Coverage retained in074-C25."
+  ]
+}

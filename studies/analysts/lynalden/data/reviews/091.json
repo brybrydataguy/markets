@@ -1,0 +1,1220 @@
+{
+  "article_id": "091",
+  "title": "Southeast Asian Financial Sector Deep Dive Analysis",
+  "date": "2022-08-21",
+  "source_url": "https://www.lynalden.com/premium-2022-8-21/",
+  "read_complete": true,
+  "summary": "Currency buffers, banks and censorship.",
+  "coverage_note": "All article text blocks were read. Ledger covers material macro, investment, and causal propositions; incidental descriptive statistics, boilerplate, and unreasoned position lists are excluded. Image labels were read, not image pixels.",
+  "claims": [
+    {
+      "claim": "Stocks risk renewed weakness",
+      "source_blocks": [
+        13
+      ],
+      "kind": "forecast",
+      "family": "2022-equity-relief-rally-risk",
+      "verdict": "not_testable",
+      "reason": "This is a risk statement around a moving average, without a probability or time limit. A subsequent decline would not prove that the 200-day average caused it.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify index, crossing rule, forecast horizon and probability.",
+      "asset_or_variable": "2022-equity-relief-rally-risk",
+      "modality": "at risk",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "091-C01"
+    },
+    {
+      "claim": "Banks resist credit insolvency",
+      "source_blocks": [
+        15
+      ],
+      "kind": "explanation",
+      "family": "bank-safe-assets-resilience",
+      "verdict": "mixed",
+      "reason": "The 2008 comparison concerns credit quality, while 2023 bank failures exposed duration and funding fragility. Better capital and safer securities did not make the entire system safe from all solvency/liquidity crises.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2023-April-SVB-Key-Takeaways.htm",
+          "title": "SVB review, key takeaways",
+          "publisher": "Federal Reserve",
+          "date": "2023-04-28",
+          "verified": true,
+          "finding": "SVB failed after unmanaged interest-rate exposure, concentrated uninsured deposits and a rapid run; safe credit assets did not eliminate duration and liquidity risks.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bank-safe-assets-resilience",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C02"
+    },
+    {
+      "claim": "Tightening engineers recession",
+      "source_blocks": [
+        15,
+        16
+      ],
+      "kind": "forecast",
+      "family": "2022-policy-induced-recession",
+      "verdict": "mixed",
+      "reason": "Manufacturing contracted, supporting one part of the slowdown call, but NBER did not date an economy-wide recession. The source allows a near-recession, so a categorical wrong label would ignore its qualification.",
+      "evidence": [
+        {
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2022/2022-12/rob-roundup-november-2022-manufacturing-pmi/",
+          "title": "November manufacturing PMI",
+          "publisher": "ISM",
+          "date": "2022-12-01",
+          "verified": true,
+          "finding": "Manufacturing PMI fell to 49 in November 2022, first contraction in 29 months.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.nber.org/research/business-cycle-dating",
+          "title": "Business Cycle Dating",
+          "publisher": "NBER",
+          "date": null,
+          "verified": true,
+          "finding": "Official chronology identifies April 2020 as the pandemic recession trough; no 2022 recession is dated.",
+          "verification_method": "retrieved official chronology search extract; direct page denied"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-policy-induced-recession",
+      "modality": "recession or nearly so",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "091-C03"
+    },
+    {
+      "claim": "Flat money contributes to stagnation",
+      "source_blocks": [
+        16
+      ],
+      "kind": "explanation",
+      "family": "money-supply-growth-cycle",
+      "verdict": "mixed",
+      "reason": "M2 was $21,623.5b in January and $21,631.8b in July 2022, essentially flat, then $21,272.8b in December. The temporal coincidence with GDP weakness is real, but velocity, credit composition and fiscal flows prevent a one-variable causal conclusion.",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/news/2022/gross-domestic-product-second-quarter-2022-advance-estimate",
+          "title": "Q2 2022 GDP advance estimate",
+          "publisher": "BEA",
+          "date": "2022-07-28",
+          "verified": true,
+          "finding": "Initial Q2 estimate -0.9% annualized after Q1 -1.6%; consumer spending and exports rose. The release has since been superseded.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/M2SL",
+          "title": "M2SL",
+          "publisher": "Federal Reserve / Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "January 2022 21623.5b; July 21631.8b; December 21272.8b.",
+          "verification_method": "computed from downloaded latest-vintage CSV"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "money-supply-growth-cycle",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C04"
+    },
+    {
+      "claim": "Inflation has locally peaked",
+      "source_blocks": [
+        20,
+        23,
+        24
+      ],
+      "kind": "empirical",
+      "family": "2022-headline-inflation-peak-revision",
+      "verdict": "right",
+      "reason": "June 2022 headline CPI was 9.1%; it fell subsequently and reached 3.0% by June 2024. This is confirmation of the revised timing, not proof the earlier Q1/early-Q2 forecast was correct. Declining inflation means slower increases, not restoration of old prices.",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07132022.htm",
+          "title": "CPI, June 2022",
+          "publisher": "BLS",
+          "date": "2022-07-13",
+          "verified": true,
+          "finding": "Annual headline CPI reached 9.1% in June 2022, exceeding March 8.5%.",
+          "verification_method": "retrieved official statistical release extract"
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07112024.htm",
+          "title": "CPI, June 2024",
+          "publisher": "BLS",
+          "date": "2024-07-11",
+          "verified": true,
+          "finding": "June 2024 annual CPI inflation was 3.0%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-headline-inflation-peak-revision",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "revision_links": [
+        "071",
+        "075",
+        "082",
+        "086"
+      ],
+      "id": "091-C05"
+    },
+    {
+      "claim": "Shelter inflation lags markets",
+      "source_blocks": [
+        24
+      ],
+      "kind": "explanation",
+      "family": "cpi-shelter-lag",
+      "verdict": "right",
+      "reason": "BLS rental-equivalence methodology samples the stock of occupied rental housing rather than only new leases, supporting delayed pass-through. House purchase prices and rents remain distinct measures.",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/cpi/additional-resources/treatment-owner-occupied-housing.htm",
+          "title": "Owner-occupied housing in CPI",
+          "publisher": "BLS",
+          "date": null,
+          "verified": true,
+          "finding": "Rental equivalence measures housing consumption services separately from the investment value of a home; house prices and financing costs are not identical to consumed shelter.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "cpi-shelter-lag",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C06"
+    },
+    {
+      "claim": "Energy constraints recur this decade",
+      "source_blocks": [
+        25
+      ],
+      "kind": "forecast",
+      "family": "2020s-energy-commodity-regime",
+      "verdict": "too_early",
+      "reason": "The 2020s are unfinished. Record US production in 2023 and European demand adaptation are counterevidence to treating shortages as immutable; renewed stimulus need not meet the same supply constraints.",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=61545",
+          "title": "United States produces more crude oil than any country, ever",
+          "publisher": "EIA",
+          "date": "2024-03-11",
+          "verified": true,
+          "finding": "2023 production set a record, driven by Permian growth.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.iea.org/reports/gas-market-report-q1-2023",
+          "title": "Gas Market Report Q1 2023",
+          "publisher": "IEA",
+          "date": "2023-02-28",
+          "verified": true,
+          "finding": "Europe offset major Russian pipeline cuts with record LNG, storage and reduced consumption, including industrial demand destruction.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2020s",
+      "conditions": "Renewed stimulus drives demand",
+      "next_check": null,
+      "asset_or_variable": "2020s-energy-commodity-regime",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: 2020s",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "091-C07"
+    },
+    {
+      "claim": "Europe sacrifices industrial demand",
+      "source_blocks": [
+        31,
+        35,
+        37
+      ],
+      "kind": "explanation",
+      "family": "europe-energy-demand-destruction",
+      "verdict": "right",
+      "reason": "IEA documents large European industrial gas-demand reduction, LNG substitution and storage response. This supports a real cost of the crisis, without proving permanent deindustrialization of every sector.",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/reports/gas-market-report-q1-2023",
+          "title": "Gas Market Report Q1 2023",
+          "publisher": "IEA",
+          "date": "2023-02-28",
+          "verified": true,
+          "finding": "Europe offset major Russian pipeline cuts with record LNG, storage and reduced consumption, including industrial demand destruction.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "europe-energy-demand-destruction",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C08"
+    },
+    {
+      "claim": "Currency risk reflects external balances",
+      "source_blocks": [
+        40,
+        42,
+        43,
+        44,
+        56,
+        58,
+        59,
+        60,
+        65,
+        66
+      ],
+      "kind": "explanation",
+      "family": "em-external-debt-reserve-risk",
+      "verdict": "mixed",
+      "reason": "Reserve buffers, maturity and foreign liabilities matter, as BIS and frozen Russian reserves illustrate. Gross reserves can be encumbered and a trade surplus need not stabilize an exchange rate if capital outflows dominate. A risk-screen framework is not a short-term currency forecast.",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/qr-202312/global-liquidity-new-phase",
+          "title": "Global liquidity: a new phase?",
+          "publisher": "BIS",
+          "date": "2023-12-04",
+          "verified": true,
+          "finding": "Dollar-credit growth turned from +6% in Q3 2021 to -4% at end-2022; EME dollar credit fell 5% year-on-year by mid-2023, coinciding with stronger USD and tighter policy.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2024/02/12/immobilised-russian-assets-council-decides-to-set-aside-extraordinary-revenues/",
+          "title": "Immobilised Russian reserves",
+          "publisher": "Council of the EU",
+          "date": "2024-02-12",
+          "verified": true,
+          "finding": "About EUR 260b in central-bank assets remained immobilised across G 7, EU and Australia; freezing differs from confiscation.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "em-external-debt-reserve-risk",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C09"
+    },
+    {
+      "claim": "Real rates attract capital",
+      "source_blocks": [
+        41,
+        45,
+        51,
+        52
+      ],
+      "kind": "explanation",
+      "family": "real-rate-capital-flow-currency",
+      "verdict": "mixed",
+      "reason": "Brazil combined high policy rates with falling inflation, consistent with improved carry. Ex-post policy-minus-CPI is not an expected real return; risk premia, forward pricing, controls and currency changes can dominate, so the sign is not a deterministic trading rule.",
+      "evidence": [
+        {
+          "url": "https://agenciadenoticias.ibge.gov.br/en/agencia-press-room/2185-news-agency/releases-en/36059-ipca-was-0-62-in-december-closes-2022-at-5-79",
+          "title": "December 2022 IPCA",
+          "publisher": "IBGE",
+          "date": "2023-01-10",
+          "verified": true,
+          "finding": "Inflation ended 2022 at 5.79%, far below the midyear double-digit rate.",
+          "verification_method": "indexed official release extract; direct page denied"
+        },
+        {
+          "url": "https://www.bcb.gov.br/en/monetarypolicy/copomstatements/2444",
+          "title": "August 2022 Copom decision",
+          "publisher": "Central Bank of Brazil",
+          "date": null,
+          "verified": true,
+          "finding": "August 2022 decision raised Selic to 13.75%; rate then remained unchanged through year-end.",
+          "verification_method": "indexed official decision and rate-table extracts; direct page JavaScript-only"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "real-rate-capital-flow-currency",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C10"
+    },
+    {
+      "claim": "Reserve currency has structural demand",
+      "source_blocks": [
+        47
+      ],
+      "kind": "explanation",
+      "family": "dollar-debt-network-effect",
+      "verdict": "right",
+      "reason": "BIS measures large dollar-denominated credit outside the United States. These liabilities create demand for dollar funding independent of US bilateral trade balances, supporting the network explanation.",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/202201-commentary-ibs-gli",
+          "title": "Global liquidity at September 2021",
+          "publisher": "BIS",
+          "date": null,
+          "verified": true,
+          "finding": "Dollar credit outside the US stood at $13.4tn, including $4.2tn to emerging/developing borrowers. Currency denomination differs from lender nationality.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "dollar-debt-network-effect",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C11"
+    },
+    {
+      "claim": "Surplus states restrain appreciation",
+      "source_blocks": [
+        46,
+        57,
+        131
+      ],
+      "kind": "explanation",
+      "family": "surplus-currency-intervention",
+      "verdict": "mixed",
+      "reason": "Singapore has a strong public net-asset position, but MAS tightened five times from October 2021 and uses appreciation to control imported inflation. A blanket one-way suppression characterization is incomplete; intervention direction and policy band change over time.",
+      "evidence": [
+        {
+          "url": "https://www.mof.gov.sg/policies/reserves/our-assets-and-liabilities/",
+          "title": "Assets and liabilities",
+          "publisher": "Singapore Ministry of Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Government financial assets exceed debt; the gross debt ratio does not represent net indebtedness.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.mas.gov.sg/monetary-policy/economics-edu-inflation/inflation/inflation-was-high-in-2022",
+          "title": "2022 inflation and policy",
+          "publisher": "Monetary Authority of Singapore",
+          "date": null,
+          "verified": true,
+          "finding": "MAS tightened five consecutive times from October 2021 to combat inflation; exchange-rate appreciation is a policy instrument, not only a force to resist.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "surplus-currency-intervention",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C12"
+    },
+    {
+      "claim": "Germany loses external cushion",
+      "source_blocks": [
+        64
+      ],
+      "kind": "empirical",
+      "family": "germany-energy-current-account",
+      "verdict": "mixed",
+      "reason": "Bundesbank initially estimated a fall in annual surplus from EUR 265.0b to EUR 145.1b. The deterioration was large, but the surplus did not disappear for the full year. Monthly goods balances, total current account and structural long-run status should not be conflated.",
+      "evidence": [
+        {
+          "url": "https://www.bundesbank.de/en/press/press-releases/german-balance-of-payments-in-december-2022-902110",
+          "title": "2022 balance of payments",
+          "publisher": "Bundesbank",
+          "date": null,
+          "verified": true,
+          "finding": "Preliminary 2022 current-account surplus EUR 145.1b versus EUR 265.0b in 2021; sharply smaller but still positive.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "germany-energy-current-account",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C13"
+    },
+    {
+      "claim": "Bitcoin appreciates over years",
+      "source_blocks": [
+        72,
+        76
+      ],
+      "kind": "investment_thesis",
+      "family": "bitcoin-long-term-bullish",
+      "verdict": "right",
+      "reason": "BTC rose from $21,403.82 on August 22, 2022 to $116,908.68 on August 21, 2025. The first three-year direction worked, despite further near-term losses that the author explicitly allowed. Five years remain open.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "CBBTCUSD",
+          "publisher": "Federal Reserve / Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "August 22, 2022 $21,403.82; August 21, 2025 $116,908.68.",
+          "verification_method": "computed from downloaded latest-vintage CSV"
+        }
+      ],
+      "horizon": "3-5 years",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bitcoin-long-term-bullish",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 3-5 years",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C14"
+    },
+    {
+      "claim": "Lightning adoption remains promising",
+      "source_blocks": [
+        73
+      ],
+      "kind": "investment_thesis",
+      "family": "lightning-network-adoption",
+      "verdict": "not_testable",
+      "reason": "An interest in growth from a small base does not specify users, volume, revenue or a deadline. Public channel capacity should not substitute for payment adoption.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Track active payments and users with reproducible definitions, separately from public capacity.",
+      "asset_or_variable": "lightning-network-adoption",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C15"
+    },
+    {
+      "claim": "Sanctions expose access choke points",
+      "source_blocks": [
+        79,
+        84,
+        89
+      ],
+      "kind": "explanation",
+      "family": "ethereum-application-censorship",
+      "verdict": "right",
+      "reason": "New York Fed research documents a sharp response across ecosystem participants after sanctions and continuing settlement by fewer actors. Application-level denial and address-based screening were real vulnerabilities; this is different from all validators refusing transactions.",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/research/staff_reports/sr1112.html",
+          "title": "Regulating decentralized systems",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": null,
+          "verified": true,
+          "finding": "August 2024 research finds substantial effects on activity; TC transactions still settled, but a shrinking set of actors processed them.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "ethereum-application-censorship",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C16"
+    },
+    {
+      "claim": "Mixing protects transaction privacy",
+      "source_blocks": [
+        80,
+        81,
+        83
+      ],
+      "kind": "explanation",
+      "family": "tornado-cash-anonymity",
+      "verdict": "mixed",
+      "reason": "Mixing breaks simple direct links, but later research demonstrates substantial heuristic linkage through address reuse and transactional patterns. Privacy protection is probabilistic and behavior-dependent, not an absolute disappearance of the trail.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2510.09433",
+          "title": "Clustering deposit and withdrawal activity",
+          "publisher": "Original research",
+          "date": null,
+          "verified": true,
+          "finding": "Cross-chain heuristics link substantial withdrawal value to deposits; user behavior and operational patterns weaken practical anonymity.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "tornado-cash-anonymity",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C17"
+    },
+    {
+      "claim": "Illicit users are a minority",
+      "source_blocks": [
+        82
+      ],
+      "kind": "empirical",
+      "family": "tornado-cash-illicit-share",
+      "verdict": "evidence_needed",
+      "reason": "Substantial criminal use is established, but neither a criminal dollar total nor unclassified addresses proves that a minority of users or volume were illicit. The denominator, attribution method and time window must match the claim.",
+      "evidence": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/founder-tornado-cash-crypto-mixing-service-convicted-knowingly-transmitting-criminal",
+          "title": "Storm conviction announcement",
+          "publisher": "US Department of Justice",
+          "date": "2025-08-06",
+          "verified": true,
+          "finding": "Jury convicted Storm of conspiracy to operate a money-transmitting business; prosecution describes operational conduct and criminal proceeds, not merely publication of code.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Obtain dated pre-sanction total flows and independently attributed illicit flows; distinguish user counts from value.",
+      "asset_or_variable": "tornado-cash-illicit-share",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C18"
+    },
+    {
+      "claim": "Staking concentration enables censorship",
+      "source_blocks": [
+        85,
+        88,
+        90
+      ],
+      "kind": "forecast",
+      "family": "ethereum-proof-of-stake-censorship",
+      "verdict": "mixed",
+      "reason": "Empirical research finds longer inclusion delays and concentrated processing after the Merge, supporting the risk. Transactions still settled, so complete foundational exclusion did not follow. Builder/relay structure and regulation co-occurred with PoS, limiting attribution to consensus alone.",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/research/staff_reports/sr1112.html",
+          "title": "Regulating decentralized systems",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": null,
+          "verified": true,
+          "finding": "August 2024 research finds substantial effects on activity; TC transactions still settled, but a shrinking set of actors processed them.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://arxiv.org/abs/2305.18545",
+          "title": "Blockchain Censorship",
+          "publisher": "Wahrstatter et al.",
+          "date": "2023-05-29",
+          "verified": true,
+          "finding": "Empirical study finds roughly 85% longer inclusion delays after the Merge and proposer-builder separation; delays are not complete protocol exclusion.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "ethereum-proof-of-stake-censorship",
+      "modality": "risk or test",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "091-C19"
+    },
+    {
+      "claim": "Merge reduces issuance",
+      "source_blocks": [
+        90
+      ],
+      "kind": "forecast",
+      "family": "ethereum-post-merge-issuance",
+      "verdict": "right",
+      "reason": "Ethereum documents elimination of mining issuance and roughly an 88% gross-issuance reduction in its reference example. Net supply also depends on fee burning; lower issuance with fixed demand is a mechanism, not a guaranteed price gain.",
+      "evidence": [
+        {
+          "url": "https://ethereum.org/roadmap/merge/issuance/",
+          "title": "Merge supply effects",
+          "publisher": "Ethereum",
+          "date": null,
+          "verified": true,
+          "finding": "Mining issuance stopped; illustrative 14m staked-ETH example lowers gross daily issuance from about 14,700 to 1,700, roughly 88%. Net issuance also depends on fee burning.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "After Merge",
+      "conditions": "Demand held constant for price implication",
+      "next_check": null,
+      "asset_or_variable": "ethereum-post-merge-issuance",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: After Merge",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "091-C20"
+    },
+    {
+      "claim": "Privacy-code enforcement poses risk",
+      "source_blocks": [
+        92,
+        93,
+        97
+      ],
+      "kind": "explanation",
+      "family": "crypto-privacy-regulatory-risk",
+      "verdict": "mixed",
+      "reason": "Sanctions were removed in March 2025, while Storm was convicted on a money-transmission count in August 2025. These distinguish smart-contract sanctions from alleged operational conduct. Publication of code, financial-service operation and knowledge of illicit use cannot be treated as legally identical.",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0057",
+          "title": "Tornado Cash delisting",
+          "publisher": "US Treasury",
+          "date": "2025-03-21",
+          "verified": true,
+          "finding": "Removed economic sanctions on Tornado Cash after legal and policy review; this did not erase separate criminal proceedings.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.justice.gov/usao-sdny/pr/founder-tornado-cash-crypto-mixing-service-convicted-knowingly-transmitting-criminal",
+          "title": "Storm conviction announcement",
+          "publisher": "US Department of Justice",
+          "date": "2025-08-06",
+          "verified": true,
+          "finding": "Jury convicted Storm of conspiracy to operate a money-transmitting business; prosecution describes operational conduct and criminal proceeds, not merely publication of code.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "crypto-privacy-regulatory-risk",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C21"
+    },
+    {
+      "claim": "Backdoors expand security vulnerabilities",
+      "source_blocks": [
+        93,
+        96
+      ],
+      "kind": "explanation",
+      "family": "exceptional-access-security-risk",
+      "verdict": "right",
+      "reason": "MIT security analysis identifies systemic risks from mandatory exceptional access and historical failure of broad access proposals. This supports the technical concern, not an inference that every government privacy action has the same purpose or design.",
+      "evidence": [
+        {
+          "url": "https://dspace.mit.edu/entities/publication/29dd43b7-115f-4d76-a45c-602903903194",
+          "title": "Keys Under Doormats",
+          "publisher": "Abelson et al. / MIT",
+          "date": "2015-07-06",
+          "verified": true,
+          "finding": "Security analysis describes systemic risks of mandated exceptional-access systems and the history of abandoned broad access requirements.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "exceptional-access-security-risk",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C22"
+    },
+    {
+      "claim": "Bitcoin developers harden systems",
+      "source_blocks": [
+        91
+      ],
+      "kind": "empirical",
+      "family": "bitcoin-developer-threat-response",
+      "verdict": "evidence_needed",
+      "reason": "The source relies on private conversations. Public release changes could corroborate a response, but unrelated later privacy improvements cannot verify the specific groups, motives or acceleration claimed.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Identify dated project threat models or release notes directly responding to the August 2022 action.",
+      "asset_or_variable": "bitcoin-developer-threat-response",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C23"
+    },
+    {
+      "claim": "Hong Kong ETFs reduce ADR risk",
+      "source_blocks": [
+        101
+      ],
+      "kind": "investment_thesis",
+      "family": "china-listing-access-risk-mitigation",
+      "verdict": "mixed",
+      "reason": "A locally listed exposure can reduce dependence on a specific US ADR wrapper, and a fund diversifies issuer concentration. It does not remove underlying Chinese corporate, sanction, capital-control or Taiwan risk. Delisting risk and investment outlook are separate propositions.",
+      "evidence": [
+        {
+          "url": "https://2021-2025.state.gov/targeting-additional-russian-financial-institutions-officials-and-other-individuals/",
+          "title": "Targeting additional Russian financial institutions",
+          "publisher": "US Department of State",
+          "date": "2022-04-06",
+          "verified": true,
+          "finding": "Sberbank became subject to full blocking sanctions.",
+          "verification_method": "retrieved official statement search extract"
+        },
+        {
+          "url": "https://www.imf.org/en/News/Articles/2024/05/07/sp-geopolitics-impact-global-trade-and-dollar-gita-gopinath",
+          "title": "Geopolitics, trade and the dollar",
+          "publisher": "IMF",
+          "date": "2024-05-08",
+          "verified": true,
+          "finding": "Trade and FDI between geopolitical blocs weakened relative to within-bloc flows; renminbi and gold use rose selectively, while USD retained dominance.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "china-listing-access-risk-mitigation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C24"
+    },
+    {
+      "claim": "Banks transmit national growth",
+      "source_blocks": [
+        114,
+        115,
+        116
+      ],
+      "kind": "explanation",
+      "family": "banks-domestic-growth-exposure",
+      "verdict": "mixed",
+      "reason": "Banks depend on domestic credit and payments, but foreign operations, rates, asset quality and equity dilution can decouple per-share returns from GDP. DBS earnings rose with margins and fees, illustrating multiple drivers beyond national output. Fintech is both a competitor and a distribution partner.",
+      "evidence": [
+        {
+          "url": "https://www.dbs.com/newsroom/DBS_full_year_net_profit_up_11pct_to_new_high_of_SGD_11_4_billion_return_on_equity_of_18_0pct_sustained_at_previous_years_record",
+          "title": "2024 results",
+          "publisher": "DBS",
+          "date": "2025-02-10",
+          "verified": true,
+          "finding": "Net profit rose 11% to SGD 11.4b; ROE 18%; net interest margin, fee income and trading contributed.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1144967/000119312524186700/d872712dex99.htm",
+          "title": "Integrated Annual Report 2023-24",
+          "publisher": "HDFC Bank / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Book value per share increased from INR 432.95 FY2022 to INR 579.51 FY2024; July 2023 merger complicates comparison.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "banks-domestic-growth-exposure",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C25"
+    },
+    {
+      "claim": "DBS comillion pounds long term",
+      "source_blocks": [
+        117,
+        118,
+        121,
+        124,
+        130
+      ],
+      "kind": "investment_thesis",
+      "family": "dbs-five-year-growth",
+      "verdict": "too_early",
+      "reason": "The minimum five-year endpoint is August 2027. Record 2024 profits and 18% ROE support operating progress, but do not complete the stock-return horizon or prove Singapore captures all displaced Hong Kong business.",
+      "evidence": [
+        {
+          "url": "https://www.dbs.com/newsroom/DBS_full_year_net_profit_up_11pct_to_new_high_of_SGD_11_4_billion_return_on_equity_of_18_0pct_sustained_at_previous_years_record",
+          "title": "2024 results",
+          "publisher": "DBS",
+          "date": "2025-02-10",
+          "verified": true,
+          "finding": "Net profit rose 11% to SGD 11.4b; ROE 18%; net interest margin, fee income and trading contributed.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "5+ years",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "dbs-five-year-growth",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: 5+ years",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C26"
+    },
+    {
+      "claim": "HDFC comillion pounds long term",
+      "source_blocks": [
+        117,
+        118,
+        136,
+        144
+      ],
+      "kind": "investment_thesis",
+      "family": "hdfc-five-year-growth",
+      "verdict": "too_early",
+      "reason": "The five-year endpoint is August 2027, with the growth runway extending further. Book-value growth is encouraging, but merger changes and valuation must be considered before translating national financial deepening into shareholder returns.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1144967/000119312524186700/d872712dex99.htm",
+          "title": "Integrated Annual Report 2023-24",
+          "publisher": "HDFC Bank / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Book value per share increased from INR 432.95 FY2022 to INR 579.51 FY2024; July 2023 merger complicates comparison.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "5+ years; decade runway",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "hdfc-five-year-growth",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: 5+ years; decade runway",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C27"
+    },
+    {
+      "claim": "DBS plans retail crypto access",
+      "source_blocks": [
+        129
+      ],
+      "kind": "empirical",
+      "family": "dbs-retail-crypto-rollout",
+      "verdict": "wrong",
+      "reason": "The issuer's 2022 AGM minutes already said access would remain for accredited investors in the near term because of retail regulatory concerns. Later self-directed trading for accredited wealth clients is not unrestricted retail access. The article's institutional-services description is sound, but this specific retail extension was stale.",
+      "evidence": [
+        {
+          "url": "https://www.dbs.com/iwov-resources/images/investors/other-materials/2022/Minutes%20of%202022%20AGM.pdf",
+          "title": "2022 AGM minutes",
+          "publisher": "DBS",
+          "date": null,
+          "verified": true,
+          "finding": "Before article publication, CEO said digital exchange would remain limited to accredited investors in the near term because of retail regulatory concerns.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "dbs-retail-crypto-rollout",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C28"
+    },
+    {
+      "claim": "HDFC merger enables synergies",
+      "source_blocks": [
+        140
+      ],
+      "kind": "investment_thesis",
+      "family": "hdfc-merger-synergies",
+      "verdict": "mixed",
+      "reason": "The merger completed July 1, 2023, confirming the structural consolidation. Completion alone does not establish incremental per-share cross-selling profits, funding synergies or that those benefits exceeded integration costs.",
+      "evidence": [
+        {
+          "url": "https://www.hdfc.bank.in/press-release/2023/q2/hdfc-ltd-to-merge-into-hdfc-bank-effective-july-1-2023",
+          "title": "HDFC merger effective July 1",
+          "publisher": "HDFC Bank",
+          "date": null,
+          "verified": true,
+          "finding": "Merger became effective July 1, 2023, earlier than the article's by-2024 expectation.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1144967/000119312524186700/d872712dex99.htm",
+          "title": "Integrated Annual Report 2023-24",
+          "publisher": "HDFC Bank / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Book value per share increased from INR 432.95 FY2022 to INR 579.51 FY2024; July 2023 merger complicates comparison.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "hdfc-merger-synergies",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C29"
+    },
+    {
+      "claim": "India becomes most populous",
+      "source_blocks": [
+        145
+      ],
+      "kind": "forecast",
+      "family": "india-china-population-crossover",
+      "verdict": "right",
+      "reason": "UN DESA's updated estimates placed the crossover in April 2023. This is an estimated demographic milestone rather than a contemporaneous full census, and population alone does not ensure productivity or per-share earnings.",
+      "evidence": [
+        {
+          "url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2023_india-population_press-release.pdf",
+          "title": "India population crossover",
+          "publisher": "UN DESA",
+          "date": "2023-04-24",
+          "verified": true,
+          "finding": "Latest estimates/projected crossover put India ahead of China in April 2023; longer population growth is still a projection.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Imminent",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "india-china-population-crossover",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Imminent",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "091-C30"
+    },
+    {
+      "claim": "Indian demographics support decades",
+      "source_blocks": [
+        144,
+        145
+      ],
+      "kind": "investment_thesis",
+      "family": "india-demographic-financial-deepening",
+      "verdict": "too_early",
+      "reason": "The multi-decade horizon remains open. UN projections support working-age growth but explicitly identify employment and policy as necessary to capture a demographic dividend. Energy consumption growth also depends on efficiency.",
+      "evidence": [
+        {
+          "url": "https://www.un.org/development/desa/pd/sites/www.un.org.development.desa.pd/files/undesa_pd_2023_india-population_press-release.pdf",
+          "title": "India population crossover",
+          "publisher": "UN DESA",
+          "date": "2023-04-24",
+          "verified": true,
+          "finding": "Latest estimates/projected crossover put India ahead of China in April 2023; longer population growth is still a projection.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Next couple decades",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "india-demographic-financial-deepening",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Next couple decades",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C31"
+    },
+    {
+      "claim": "India buys more Russian energy",
+      "source_blocks": [
+        148
+      ],
+      "kind": "forecast",
+      "family": "india-russian-oil-diversion",
+      "verdict": "right",
+      "reason": "Russia supplied about 39% of Indian crude and condensate imports in 2023, confirming continued redirection after the initial 2022 increase. Discounts and sanctions mattered; payment, transport and later policy risks remain separate.",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/international/content/analysis/countries_long/India/pdf/India.pdf",
+          "title": "India country analysis",
+          "publisher": "EIA",
+          "date": "2025-02-06",
+          "verified": true,
+          "finding": "Russia supplied 39% of Indian crude/condensate imports in 2023; sanctions-related discounts drove a major shift in suppliers.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Continuing trend",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "india-russian-oil-diversion",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Continuing trend",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "091-C32"
+    },
+    {
+      "claim": "Barbell mitigates macro uncertainty",
+      "source_blocks": [
+        150,
+        151,
+        152
+      ],
+      "kind": "investment_thesis",
+      "family": "cross-regime-diversification",
+      "verdict": "not_testable",
+      "reason": "Risk-off and diversification are positioning preferences without weights, risk targets or exit rules. Cash, bonds, gold, healthcare and real estate do not always share the same defensive properties.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify the portfolio and compare drawdowns, income and recovery across regimes.",
+      "asset_or_variable": "cross-regime-diversification",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C33"
+    },
+    {
+      "claim": "Brazil benefits from commodities",
+      "source_blocks": [
+        156,
+        157
+      ],
+      "kind": "investment_thesis",
+      "family": "brazil-2020s-commodity-regime",
+      "verdict": "too_early",
+      "reason": "The explicit 2020s commodity framework is unfinished and conditional on avoiding policy mistakes. Itau earnings also depend on credit quality, rates and distribution policy, so commodity gains alone would not validate bank-share returns.",
+      "evidence": [],
+      "horizon": "2020s",
+      "conditions": "No major policy missteps",
+      "next_check": null,
+      "asset_or_variable": "brazil-2020s-commodity-regime",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: 2020s",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "091-C34"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Money and inflation",
+      "source_blocks": [
+        16,
+        20
+      ],
+      "use": "Demand",
+      "image_inspected": false
+    },
+    {
+      "name": "Currency matrix",
+      "source_blocks": [
+        48,
+        53,
+        60,
+        62
+      ],
+      "use": "External risk",
+      "image_inspected": false
+    },
+    {
+      "name": "Stake concentration",
+      "source_blocks": [
+        85
+      ],
+      "use": "Control",
+      "image_inspected": false
+    },
+    {
+      "name": "Bank valuation",
+      "source_blocks": [
+        124,
+        136
+      ],
+      "use": "Compounding",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Assess access and settlement separately."
+  ],
+  "assessment": "The most useful distinctions concern debt denomination and institutional choke points. Ethereum censorship concerns had observable inclusion-delay consequences, but not complete exclusion; privacy and legal claims need narrower definitions. The inflation peak is retrospective confirmation of revised timing. DBS and HDFC five-year theses are unfinished, while the DBS retail-crypto statement was already inconsistent with issuer guidance. Bitcoin's first three-year direction and Russian oil diversion worked.",
+  "verification_limitations": [
+    "Captured website text is not an authenticated publication-date version.",
+    "Chart-only numerical claims have not been visually verified.",
+    "Selected stock/ETF adjusted-close comparisons are disclosed where used; no reconstructed portfolio backtest has been performed.",
+    "Unresolved verdicts are not forecast failures or successes; no aggregate hit rate is inferred."
+  ]
+}

@@ -1,0 +1,945 @@
+{
+  "article_id": "049",
+  "title": "Intercontinental Exchange (ICE) Deep Dive Analysis",
+  "date": "2021-02-28",
+  "source_url": "https://www.lynalden.com/premium-2021-2-28/",
+  "read_complete": true,
+  "summary": "Bond stress, Bitcoin and exchange businesses.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "Seasonality contributes to virus decline",
+      "kind": "explanation",
+      "source_blocks": [
+        8
+      ],
+      "family": "covid-seasonality",
+      "asset_or_variable": "COVID cases",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Parallel declines before vaccination are compatible with seasonality but also restrictions and behavior. The article does not isolate these causes, and cross-country synchronization is insufficient by itself.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "049-C01"
+    },
+    {
+      "claim": "Vaccines could end disruptive waves",
+      "kind": "forecast",
+      "source_blocks": [
+        10
+      ],
+      "family": "covid-post-vaccine-normalization",
+      "asset_or_variable": "COVID disruption",
+      "horizon": "2021 into 2022",
+      "conditions": "Vaccination prevents further spikes",
+      "modality": "conditional hope",
+      "verdict": "mixed",
+      "reason": "The explicitly conditional hope was not the path of 2021-22: Omicron reduced vaccine protection and required boosters. Later adaptation occurred, but a flu-like severity assumption on this short horizon was premature.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2021 into 2022",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.who.int/news/item/17-05-2022-statement-for-healthcare-professionals-how-covid-19-vaccines-are-regulated-for-safety-and-effectiveness",
+          "title": "Vaccine safety and effectiveness statement",
+          "publisher": "WHO",
+          "date": "2022-05-17",
+          "verified": true,
+          "finding": "Omicron emergence reduced protection; booster doses were needed to restore and maintain protection, while three doses retained robust protection against severe outcomes in non-immunocompromised people."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C02"
+    },
+    {
+      "claim": "Stimulus passes by mid-March",
+      "kind": "forecast",
+      "source_blocks": [
+        16
+      ],
+      "family": "arp-passage-2021",
+      "asset_or_variable": "US fiscal legislation",
+      "horizon": "mid-March 2021",
+      "conditions": null,
+      "modality": "probable",
+      "verdict": "right",
+      "reason": "The American Rescue Plan was signed March 11, within the stated window. This is a concrete legislative forecast, separate from subsequent market effects.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: mid-March 2021",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/policy-issues/coronavirus/about-the-american-rescue-plan",
+          "title": "About the American Rescue Plan",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "ARP passed Congress March 10, 2021 and was signed March 11. Treasury managed over $1 trillion in its programs and tax credits, confirming further large fiscal support after 2020."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C03"
+    },
+    {
+      "claim": "Third stimulus lifts personal income",
+      "kind": "forecast",
+      "source_blocks": [
+        14,
+        16
+      ],
+      "family": "stimulus-personal-income",
+      "asset_or_variable": "US personal income",
+      "horizon": null,
+      "conditions": "Aid package passes",
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "BEA reported a 21.1% March jump led by government transfers, closely matching the specified mechanism and trigger. Spending rose less, showing income did not immediately become consumption one-for-one.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/news/blog/2021-04-30/personal-income-and-outlays-march-2021",
+          "title": "March 2021 personal income",
+          "publisher": "BEA",
+          "date": "2021-04-30",
+          "verified": true,
+          "finding": "Personal income increased 21.1% in March 2021, driven by government social benefits including the additional economic impact payments; consumption rose 4.2%."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C04"
+    },
+    {
+      "claim": "Recovery remains uneven",
+      "kind": "empirical",
+      "source_blocks": [
+        18
+      ],
+      "family": "uneven-pandemic-recovery",
+      "asset_or_variable": "US activity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Employment recovery lagged output, supporting the main comparison. The full ordering of exports, construction and retail still requires the underlying heatmap series.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/empsit_08052022.htm",
+          "title": "July 2022 Employment Situation release",
+          "publisher": "Bureau of Labor Statistics",
+          "date": "2022-08-05",
+          "verified": true,
+          "finding": "The release reported payroll employment and unemployment rate had returned to February 2020 levels in July 2022. This is a publication-vintage recovery date, not a claim about subsequently revised payroll history."
+        },
+        {
+          "url": "https://www.bea.gov/index.php/news/2021/gross-domestic-product-fourth-quarter-and-year-2020-second-estimate",
+          "title": "2020 Q4 GDP second estimate",
+          "publisher": "BEA",
+          "date": "2021-02-25",
+          "verified": true,
+          "finding": "Contemporary estimate: Q3 2020 real GDP +33.4% annualized, Q4 +4.1%. There was no renewed quarterly contraction in the second half of 2020."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C05"
+    },
+    {
+      "claim": "Leveraged funds amplify bond volatility",
+      "kind": "explanation",
+      "source_blocks": [
+        38,
+        39,
+        42
+      ],
+      "family": "bond-volatility-deleveraging",
+      "asset_or_variable": "Bond market",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Forced deleveraging is plausible but not established by simultaneous price declines. Need fund positioning, margin calls, market depth and contemporaneous flow data for the specific February episode.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Audit February 25, 2021 auction and leveraged-position data.",
+      "id": "049-C06"
+    },
+    {
+      "claim": "Rising real yields pressure gold",
+      "kind": "explanation",
+      "source_blocks": [
+        45,
+        51,
+        52
+      ],
+      "family": "gold-real-yields",
+      "asset_or_variable": "Gold",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Real yields increased into March, consistent with the proposed headwind. A correlation and an M2 normalization do not establish fair value or exclude other drivers.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DFII10",
+          "title": "Ten-year real Treasury yield",
+          "publisher": "Federal Reserve via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Ten-year TIPS yield reached -1.19% on August 3, 2021, below the cited -1.08% threshold. January 19 -1.00%; March 31 -0.63%."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C07"
+    },
+    {
+      "claim": "Inflation and yields force curve control",
+      "kind": "forecast",
+      "source_blocks": [
+        48,
+        50
+      ],
+      "family": "yield-curve-control-long-run",
+      "asset_or_variable": "Fed policy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "base case",
+      "verdict": "mixed",
+      "reason": "Inflation and yields rose, but the Fed response was tapering, rate hikes and balance-sheet reduction, not the proposed 2021-era progression toward a cap. The unlimited long-term endpoint remains undefined.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07132022.htm",
+          "title": "June 2022 Consumer Price Index",
+          "publisher": "Bureau of Labor Statistics",
+          "date": "2022-07-13",
+          "verified": true,
+          "finding": "June 2022 headline CPI rose 9.1% over twelve months."
+        },
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-federal-reserves-responses-to-the-post-covid-period-of-high-inflation-20240214.html",
+          "title": "Post-COVID inflation policy response",
+          "publisher": "Federal Reserve",
+          "date": "2024-02-14",
+          "verified": true,
+          "finding": "Fed began tapering purchases in November 2021, ended purchases in March 2022 and then raised policy rates; subsequent balance-sheet runoff replaced expansion. This differs from formal yield caps."
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "July 2023 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Federal funds target increased to 5.25-5.50%; Treasury/MBS holdings continued to decline. This was tightening rather than a permanent low-rate cap."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C08"
+    },
+    {
+      "claim": "Yield suppression benefits scarce assets",
+      "kind": "forecast",
+      "source_blocks": [
+        49
+      ],
+      "family": "ycc-hard-assets",
+      "asset_or_variable": "Gold BTC commodities",
+      "horizon": null,
+      "conditions": "Fed introduces YCC or suppresses yields",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "The explicit US yield-curve-control trigger did not occur in the period under discussion. Gains in some assets cannot be counted as validation of an untriggered policy scenario.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Define a policy cap and measure each asset after adoption.",
+      "id": "049-C09"
+    },
+    {
+      "claim": "Bank and gold exposures diversify",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        49,
+        51
+      ],
+      "family": "gold-bank-barbell",
+      "asset_or_variable": "Banks and gold",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Different sensitivities can diversify a portfolio, but covariance and drawdown depend on the shock. No weights or risk target define success.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "049-C10"
+    },
+    {
+      "claim": "Treasury supply strains bank capacity",
+      "kind": "explanation",
+      "source_blocks": [
+        60,
+        63,
+        64,
+        67
+      ],
+      "family": "slr-treasury-capacity",
+      "asset_or_variable": "Treasury intermediation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "SLR relief did remove a non-risk-weighted balance-sheet constraint. Its expiry did not mechanically prevent all Treasury absorption: bank capital, reserves, nonbank demand and Treasury issuance all adjust. The rule is not a fixed purchase quota.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20210319a.htm",
+          "title": "Temporary SLR change expires March 31",
+          "publisher": "Federal Reserve",
+          "date": "2021-03-19",
+          "verified": true,
+          "finding": "Fed announced the temporary SLR exclusion for reserves and Treasuries would expire as scheduled March 31, 2021, rather than extend it."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C11"
+    },
+    {
+      "claim": "Fed extends relief or accelerates buying",
+      "kind": "forecast",
+      "source_blocks": [
+        68
+      ],
+      "family": "slr-or-qe-extension-2021",
+      "asset_or_variable": "Fed policy",
+      "horizon": "by end of 2021",
+      "conditions": null,
+      "modality": "base case",
+      "verdict": "wrong",
+      "reason": "Both alternatives failed within the deadline: SLR relief expired March 31 and the Fed did not accelerate the established purchase pace, instead tapering in November. This is one disjunctive forecast, not two independent misses.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: by end of 2021",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20210319a.htm",
+          "title": "Temporary SLR change expires March 31",
+          "publisher": "Federal Reserve",
+          "date": "2021-03-19",
+          "verified": true,
+          "finding": "Fed announced the temporary SLR exclusion for reserves and Treasuries would expire as scheduled March 31, 2021, rather than extend it."
+        },
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-federal-reserves-responses-to-the-post-covid-period-of-high-inflation-20240214.html",
+          "title": "Post-COVID inflation policy response",
+          "publisher": "Federal Reserve",
+          "date": "2024-02-14",
+          "verified": true,
+          "finding": "Fed began tapering purchases in November 2021, ended purchases in March 2022 and then raised policy rates; subsequent balance-sheet runoff replaced expansion. This differs from formal yield caps."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C12"
+    },
+    {
+      "claim": "Bitcoin remains mid-bull-cycle",
+      "kind": "forecast",
+      "source_blocks": [
+        77,
+        78,
+        81,
+        115
+      ],
+      "family": "bitcoin-post-halving-2020",
+      "asset_or_variable": "BTC",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Later 2021 highs support unfinished upside, but the major spring-to-summer drawdown shows mid-cycle did not mean limited downside. No single endpoint was promised here.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Bitcoin 2021 daily prices",
+          "publisher": "Coinbase via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "February 15, 2021 $47,911.87; August 16 $45,930.71; December 31 $46,244.63. Highest 2021 daily observation $67,510.06 November 8. Grayscale principal-market intraday series also remained below $100,000."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C13"
+    },
+    {
+      "claim": "SOPR identifies profit-taking regimes",
+      "kind": "explanation",
+      "source_blocks": [
+        85,
+        88,
+        89
+      ],
+      "family": "bitcoin-sopr-regime",
+      "asset_or_variable": "BTC SOPR",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Spent-output values do not perfectly measure actual sales or investor cost basis. Internal transfers and entity heuristics matter. A bull-to-bear classification partly based on realized losses risks describing price action rather than independently predicting it.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "049-C14"
+    },
+    {
+      "claim": "SOPR should recover near-term",
+      "kind": "forecast",
+      "source_blocks": [
+        102,
+        116,
+        117
+      ],
+      "family": "bitcoin-sopr-bottom-2021",
+      "asset_or_variable": "BTC",
+      "horizon": "coming week",
+      "conditions": "SOPR recovery and support holds",
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The week-specific bottom scenario is testable only with the same SOPR variant and publication vintage. A later price high cannot prove the stated on-chain trigger recovered or held.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: coming week",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Retrieve dated SOPR series and compare week-one price lows, then the $58,000 breakout.",
+      "id": "049-C15"
+    },
+    {
+      "claim": "Higher yields can pressure Bitcoin",
+      "kind": "explanation",
+      "source_blocks": [
+        105
+      ],
+      "family": "bitcoin-macro-liquidity",
+      "asset_or_variable": "BTC",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The statement allows investors to treat Bitcoin as a growth asset temporarily. Without a sample, exposure coefficient or counterfactual, almost any short-term correlation can fit.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "049-C16"
+    },
+    {
+      "claim": "Competition reduces GBTC premium",
+      "kind": "explanation",
+      "source_blocks": [
+        106,
+        107
+      ],
+      "family": "gbtc-premium-competition",
+      "asset_or_variable": "GBTC",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The discount persisted and became substantial in 2021. Competition is plausible, but closed-end supply, lockup expirations and redemption restrictions jointly determine the premium; the exact causal contribution is not isolated.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1588489/000119312522053501/d289251d10k.htm",
+          "title": "2021 Form 10-K",
+          "publisher": "Grayscale / SEC",
+          "date": "2022-02-25",
+          "verified": true,
+          "finding": "At December 31, 2021 GBTC traded at a 20% discount to digital asset holdings per share, or 22% on the old index basis. Lack of redemptions permitted large premiums and discounts; sponsor fees reduced Bitcoin per share."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C17"
+    },
+    {
+      "claim": "Discount ends premium arbitrage inflows",
+      "kind": "explanation",
+      "source_blocks": [
+        108,
+        109
+      ],
+      "family": "gbtc-premium-arbitrage",
+      "asset_or_variable": "GBTC",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Without a resale premium, the described lockup-plus-short trade loses its intended gross payoff. The 2021 discount confirms the relevant premise; financing, borrow and basis risks mean the original trade was never literally riskless.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1588489/000119312522053501/d289251d10k.htm",
+          "title": "2021 Form 10-K",
+          "publisher": "Grayscale / SEC",
+          "date": "2022-02-25",
+          "verified": true,
+          "finding": "At December 31, 2021 GBTC traded at a 20% discount to digital asset holdings per share, or 22% on the old index basis. Lack of redemptions permitted large premiums and discounts; sponsor fees reduced Bitcoin per share."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C18"
+    },
+    {
+      "claim": "Exchange outflows demonstrate accumulation",
+      "kind": "explanation",
+      "source_blocks": [
+        110,
+        113,
+        114
+      ],
+      "family": "bitcoin-exchange-supply",
+      "asset_or_variable": "BTC",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Provider address classifications and off-exchange custody changes need reconciliation. Exchange depletion is not identical to net institutional buying, especially where customers trade claims inside custody systems.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Audit entity-adjusted balances and independently reported fund flows.",
+      "id": "049-C19"
+    },
+    {
+      "claim": "Uranium remains structurally attractive",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        119,
+        124
+      ],
+      "family": "uranium-supply-cycle",
+      "asset_or_variable": "Uranium CCJ URPTF",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Subsequent physical uranium prices rose substantially, supporting the commodity direction. URPTF conversion and producer-specific cash flows require separate investor-return analysis; a commodity price is not a portfolio return.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.cameco.com/invest/markets/uranium-price",
+          "title": "Month-end uranium prices",
+          "publisher": "Cameco",
+          "date": null,
+          "verified": true,
+          "finding": "Spot US$/lb: September 2020 29.93, March 2022 58.20, December 2023 91.00, January 2024 100.25, December 2025 81.55. Long-term indicator December 2023 68.00, December 2025 86.50. Indicators are not executable fund prices."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1512920/000110465921093585/tm2122541d1_ex99-1.htm",
+          "title": "UPC reorganization completed",
+          "publisher": "Sprott / SEC",
+          "date": "2021-07-19",
+          "verified": true,
+          "finding": "UPC shareholders became unitholders of Sprott Physical Uranium Trust; trading began July 19 on TSX as U.UN(CAD) and U.U(USD). This requires continuity/corporate-action accounting for a UPC investment."
+        },
+        {
+          "url": "https://www.cameco.com/invest/financial-information/annual-reports/2023",
+          "title": "2023 annual results",
+          "publisher": "Cameco",
+          "date": "2024-02-08",
+          "verified": true,
+          "finding": "Improving markets and new contracts supported 2024 plans for 18 million pounds each at McArthur River/Key Lake and Cigar Lake; further expansion evaluated. Uranium revenue 2023 C$2.152 bn versus 1.480 bn 2022; realized price 67.31 versus 57.85."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C20"
+    },
+    {
+      "claim": "Franco-Nevada is durable royalty exposure",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        130,
+        131
+      ],
+      "family": "franco-nevada-quality",
+      "asset_or_variable": "FNV",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The royalty structure avoids direct mine operation, but the Cobre Panama impairment demonstrates large project and jurisdiction exposure. A set-and-forget description understates monitoring needs; it does not by itself prove a poor total return.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1456346/000155837025003388/fnv-20241231xex99d1.htm",
+          "title": "2024 annual information: Cobre Panama impairment",
+          "publisher": "Franco-Nevada / SEC",
+          "date": "2025-03-11",
+          "verified": true,
+          "finding": "Following the halt at Cobre Panama, Franco-Nevada recorded a $1,169.2 million impairment of its stream in 2023. Contract and jurisdiction risk remained despite the royalty/streaming model."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C21"
+    },
+    {
+      "claim": "Portfolio figures establish excess performance",
+      "kind": "empirical",
+      "source_blocks": [
+        141,
+        142,
+        143,
+        144,
+        145,
+        147,
+        149,
+        151,
+        153
+      ],
+      "family": "portfolio-reported-alpha",
+      "asset_or_variable": "Model portfolios",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The reported methodology is clearer than a simple stock-pick list, but independent verification needs cash-flow dates, account statements, fees and benchmark contributions. Gains over principal are not automatically time-weighted returns.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconstruct account cash flows and matched benchmark deposits; reconcile time- and money-weighted performance.",
+      "id": "049-C22"
+    },
+    {
+      "claim": "Commodity activity benefits exchanges",
+      "kind": "forecast",
+      "source_blocks": [
+        160,
+        161,
+        173
+      ],
+      "family": "exchange-commodity-tailwind",
+      "asset_or_variable": "ICE",
+      "horizon": null,
+      "conditions": "2020s commodity bull market",
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "ICE cash generation grew in 2022, but mortgage revenue fell sharply as rates rose. The diversified business mitigates some shocks; a commodity bull market does not benefit every segment.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.theice.com/press/news-details/2023/Intercontinental-Exchange-Reports-Strong-Full-Year-2022-Results/default.aspx",
+          "title": "Full year 2022 results",
+          "publisher": "Intercontinental Exchange",
+          "date": "2023-02-02",
+          "verified": true,
+          "finding": "2022 net revenue rose 2% to $7.3 billion; operating cash flow rose 14% to $3.6 billion. Mortgage technology revenue fell 20%. Debt was $18.1 billion, including $5 billion related to pending Black Knight acquisition; buybacks suspended in May 2022."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C23"
+    },
+    {
+      "claim": "ICE can digest debt and grow",
+      "kind": "forecast",
+      "source_blocks": [
+        163,
+        164
+      ],
+      "family": "ice-acquisition-deleveraging",
+      "asset_or_variable": "ICE",
+      "horizon": "next few years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Operating cash flow grew, but a new Black Knight acquisition brought additional borrowing and suspended buybacks. The assumed simple deleveraging path changed through management action, rather than being a clean test of Ellie Mae alone.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: next few years",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.theice.com/press/news-details/2023/Intercontinental-Exchange-Reports-Strong-Full-Year-2022-Results/default.aspx",
+          "title": "Full year 2022 results",
+          "publisher": "Intercontinental Exchange",
+          "date": "2023-02-02",
+          "verified": true,
+          "finding": "2022 net revenue rose 2% to $7.3 billion; operating cash flow rose 14% to $3.6 billion. Mortgage technology revenue fell 20%. Debt was $18.1 billion, including $5 billion related to pending Black Knight acquisition; buybacks suspended in May 2022."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C24"
+    },
+    {
+      "claim": "ICE offers long-run compounding",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        172,
+        174
+      ],
+      "family": "ice-quality-compounder",
+      "asset_or_variable": "ICE",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The evaluator-defined five-year proxy gained 53.86%, or 9.01% annually, below SPY 88.63%. Positive compounding occurred, but neither market superiority nor an undefined risk-adjusted ranking is established.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ICE/history/",
+          "title": "ICE adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "March 1, 2021 to February 27, 2026: ICE +53.86%, annualized 9.01%; SPY +88.63%. Evaluator-defined five years, USD vendor dividend/split-adjusted proxy, no fees/taxes or actual portfolio trades."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C25"
+    },
+    {
+      "claim": "Trading taxes threaten exchange revenue",
+      "kind": "forecast",
+      "source_blocks": [
+        179,
+        180
+      ],
+      "family": "exchange-transaction-tax",
+      "asset_or_variable": "Exchanges",
+      "horizon": null,
+      "conditions": "Targeted trading taxes enacted",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "No specific enacted tax or rate is identified in the claim. Geographic diversification reduces one jurisdiction concentration but does not prove tax immunity.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Identify applicable new transaction taxes and assess volume/fee effects.",
+      "id": "049-C26"
+    },
+    {
+      "claim": "Tokenization challenges incumbent exchanges",
+      "kind": "forecast",
+      "source_blocks": [
+        182,
+        186,
+        187
+      ],
+      "family": "exchange-tokenization-disruption",
+      "asset_or_variable": "ICE and exchanges",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A slow-moving threat has no endpoint or market-share threshold. Acquisitions may respond to competition, but regulatory and interoperability constraints make the outcome institution-specific.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "049-C27"
+    },
+    {
+      "claim": "INFL captures inflation with pricing power",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        191,
+        194,
+        195,
+        197
+      ],
+      "family": "infl-pricing-power",
+      "asset_or_variable": "INFL",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "INFL gained 22.99% over three years and 127.02% over five, with the longer window beating SPY. This supports some investment value, but the shorter window lagged the market and a fund return does not identify inflation as its cause. Holdings-level revenue/cost sensitivity and disinflation protection remain unverified.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/INFL/history/",
+          "title": "INFL historical price sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "3-year comparison 2021-03-01 to 2024-02-28: INFL +22.99% cumulative, 7.15% annualized; SPY +35.85% cumulative. 5-year comparison 2021-03-01 to 2026-02-27: INFL +127.02% cumulative, 17.84% annualized; SPY +88.63% cumulative. First common close strictly after publication, last common close on/before anniversary. USD vendor-adjusted-close proxies include vendor dividend/split adjustments; no fees, taxes or actual subscriber trades. These are evaluator-defined sensitivities unless the claim explicitly names the horizon."
+        }
+      ],
+      "next_check": null,
+      "id": "049-C28",
+      "test_specification": {
+        "window_type": "evaluator-defined sensitivity unless explicitly matched to source horizon",
+        "windows_years": [
+          3,
+          5
+        ],
+        "returns": {
+          "INFL": {
+            "3": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2021-02-28",
+              "requested_endpoint": "2024-02-28",
+              "entry": "2021-03-01",
+              "exit": "2024-02-28",
+              "days": 1094,
+              "endpoint_gap_days": 0,
+              "endpoint_covered": true,
+              "instruments": {
+                "INFL": {
+                  "entry_adjusted_close": 23.861318588256836,
+                  "exit_adjusted_close": 29.34766387939453,
+                  "cumulative_return_pct": 22.992632493653375,
+                  "annualized_return_pct": 7.1538114837267575,
+                  "source": "https://finance.yahoo.com/quote/INFL/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 360.8453063964844,
+                  "exit_adjusted_close": 490.2176818847656,
+                  "cumulative_return_pct": 35.8525864671027,
+                  "annualized_return_pct": 10.771216131789906,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": -12.859953973449322
+            },
+            "5": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2021-02-28",
+              "requested_endpoint": "2026-02-28",
+              "entry": "2021-03-01",
+              "exit": "2026-02-27",
+              "days": 1824,
+              "endpoint_gap_days": 1,
+              "endpoint_covered": true,
+              "instruments": {
+                "INFL": {
+                  "entry_adjusted_close": 23.861318588256836,
+                  "exit_adjusted_close": 54.170387268066406,
+                  "cumulative_return_pct": 127.02176775228989,
+                  "annualized_return_pct": 17.842336769119882,
+                  "source": "https://finance.yahoo.com/quote/INFL/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 360.8453063964844,
+                  "exit_adjusted_close": 680.6734619140625,
+                  "cumulative_return_pct": 88.63303743963957,
+                  "annualized_return_pct": 13.551153257879944,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 38.388730312650324
+            }
+          }
+        }
+      }
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "SLR and yields",
+      "source_blocks": [
+        60,
+        64
+      ],
+      "use": "Market capacity",
+      "image_inspected": false
+    },
+    {
+      "name": "SOPR and MVRV",
+      "source_blocks": [
+        81,
+        85
+      ],
+      "use": "Crypto conditions",
+      "image_inspected": false
+    },
+    {
+      "name": "Cash flow and debt",
+      "source_blocks": [
+        163,
+        169
+      ],
+      "use": "Exchange quality",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "A correct stress diagnosis can imply the wrong policy response."
+  ],
+  "assessment": "The stimulus timing and income effect were clear successes. The dated SLR-or-QE forecast failed. Exchange-business resilience was partly supported, but mortgage cyclicality and new borrowing complicate the near win-win characterization.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "Public market series are available, but not every investment claim has a defined horizon or reconciled corporate-action-adjusted return. Unverified outcomes remain unscored; macro data use latest available vintages."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "04173ab762de13d24c79772327110e9d4f68461910ad89f63fb3ef9077d2b135"
+}

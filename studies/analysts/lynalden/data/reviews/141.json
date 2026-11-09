@@ -1,0 +1,1152 @@
+{
+  "article_id": "141",
+  "title": "Deep Dive: Currency Interventions and Energy Updates",
+  "date": "2024-07-21",
+  "source_url": "https://www.lynalden.com/premium-2024-7-21/",
+  "read_complete": true,
+  "summary": "Currency policy, energy, and rotation scenarios.",
+  "coverage_note": "All source blocks and chart labels read. Covers liquidity, households, fiscal/election scenarios, currency mechanisms, digital assets, energy businesses, and equity rotation. Historical 2020 excerpt is not a new forecast. Excludes boilerplate and bare position lists.",
+  "claims": [
+    {
+      "id": "141-C01",
+      "claim": "Liquidity stays flat.",
+      "kind": "forecast",
+      "source_blocks": [
+        9,
+        11,
+        17,
+        19
+      ],
+      "family": "net-liquidity-range",
+      "asset_or_variable": "net-liquidity-range",
+      "horizon": "Several months",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Flattish and several months lack tolerances and a specified global series. Domestic accounting components can be reconstructed, but no unique binary range test exists.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "Several months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Disclose daily proxy and evaluator tolerance separately."
+    },
+    {
+      "id": "141-C02",
+      "claim": "Borrowing plans rise.",
+      "kind": "forecast",
+      "source_blocks": [
+        12
+      ],
+      "family": "treasury-borrowing-forecast",
+      "asset_or_variable": "treasury-borrowing-forecast",
+      "horizon": "July 2024 announcement",
+      "conditions": null,
+      "modality": "base case",
+      "verdict": "wrong",
+      "reason": "The next announcement revised July-September borrowing downward by $106 bn. Larger deficits did not dominate starting cash and reduced SOMA redemptions in this forecast window.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "July 2024 announcement",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy2506",
+          "title": "July borrowing estimates",
+          "publisher": "U.S. Treasury",
+          "date": "2024-07-29",
+          "verified": true,
+          "finding": "July-September borrowing estimate fell $106 bn from April to $740 bn, owing chiefly to lower SOMA redemptions and higher starting cash."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "141-C03",
+      "claim": "Bills release repo.",
+      "kind": "explanation",
+      "source_blocks": [
+        13
+      ],
+      "family": "bill-issuance-rrp-liquidity",
+      "asset_or_variable": "bill-issuance-rrp-liquidity",
+      "horizon": null,
+      "conditions": "RRP-funded purchases",
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The channel depends on who buys bills, whether money funds reduce RRP, and Treasury cash deployment. More bills alone do not guarantee more bank reserves.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Trace Q3 bill issuance, RRP and TGA settlement flows."
+    },
+    {
+      "id": "141-C04",
+      "claim": "Reserve floor rises.",
+      "kind": "explanation",
+      "source_blocks": [
+        14,
+        15
+      ],
+      "family": "bank-reserve-floor",
+      "asset_or_variable": "bank-reserve-floor",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The later runoff stop supports a finite reserve constraint. It does not validate a universal $3 tn floor or small-bank liquidity inference from aggregate cash ratios.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2025-10-29",
+          "verified": true,
+          "finding": "FOMC announced aggregate securities runoff would conclude December 1 2025."
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchases",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "The Desk announced $40 billion of initial bill purchases starting December 12, to maintain ample reserves. This is not itself evidence of deficit monetization as the causal motive."
+        }
+      ],
+      "next_check": "Test reserve-demand distribution and bank-level cash requirements."
+    },
+    {
+      "id": "141-C05",
+      "claim": "QT ends 2025.",
+      "kind": "forecast",
+      "source_blocks": [
+        19,
+        30,
+        74
+      ],
+      "family": "fed-balance-sheet-turn",
+      "asset_or_variable": "fed-balance-sheet-turn",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Runoff ended December 1 and reserve-management purchases began December 12, within 2025. Technical reserve management supports the operational call; it is not proof of fiscal financing intent.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2025-10-29",
+          "verified": true,
+          "finding": "FOMC announced aggregate securities runoff would conclude December 1 2025."
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchases",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "The Desk announced $40 billion of initial bill purchases starting December 12, to maintain ample reserves. This is not itself evidence of deficit monetization as the causal motive."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "141-C06",
+      "claim": "Fed cuts rates.",
+      "kind": "forecast",
+      "source_blocks": [
+        19,
+        30,
+        74
+      ],
+      "family": "fed-rate-cuts",
+      "asset_or_variable": "fed-rate-cuts",
+      "horizon": "Late 2024/early 2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The first cut was 50 bp in September 2024. Direction and calendar timing held; mild was unquantified.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Late 2024/early 2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+          "title": "September 2024 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2024-09-18",
+          "verified": true,
+          "finding": "The Fed cut its target by 50 basis points to 4.75-5.00%, while describing inflation as still elevated and continuing securities runoff."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "141-C07",
+      "claim": "Refinancing boost muted.",
+      "kind": "forecast",
+      "source_blocks": [
+        30
+      ],
+      "family": "mortgage-lock-in",
+      "asset_or_variable": "mortgage-lock-in",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "December 2024 mortgage rates remained 6.85%, supporting the absence of a fresh historical-low refinancing opportunity despite cuts. Economy-wide stimulus magnitude and corporate spreads are not established by that one observation.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-continue-rise-2/",
+          "title": "Mortgage rates continue to rise",
+          "publisher": "Freddie Mac",
+          "date": "2024-12-26",
+          "verified": true,
+          "finding": "The 30-year mortgage survey rate was 6.85%, far above the 2021 refinancing trough despite 2024 Fed rate cuts."
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+          "title": "September 2024 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2024-09-18",
+          "verified": true,
+          "finding": "The Fed cut its target by 50 basis points to 4.75-5.00%, while describing inflation as still elevated and continuing securities runoff."
+        }
+      ],
+      "next_check": "Separate mortgage refinancing, corporate refinancing and short-rate borrowing responses."
+    },
+    {
+      "id": "141-C08",
+      "claim": "EM liquidity improves.",
+      "kind": "forecast",
+      "source_blocks": [
+        30
+      ],
+      "family": "em-fed-easing",
+      "asset_or_variable": "em-fed-easing",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The 2025 calendar window elapsed. Fed cuts alone do not resolve global dollar M2 or emerging-economy growth, and country dispersion matters.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Aggregate exchange-rate-adjusted broad money and country real-growth outcomes for 2025."
+    },
+    {
+      "id": "141-C09",
+      "claim": "Household divergence polarizes.",
+      "kind": "explanation",
+      "source_blocks": [
+        27,
+        29
+      ],
+      "family": "fiscal-distribution-households",
+      "asset_or_variable": "fiscal-distribution-households",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A proprietary median discretionary-income chart is not causal evidence of political polarization. Composition, housing tenure and inflation baskets must be controlled.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reproduce after-essential-cost household series and test political-outcome relationship."
+    },
+    {
+      "id": "141-C10",
+      "claim": "Fiscal policy dominates.",
+      "kind": "explanation",
+      "source_blocks": [
+        31,
+        38
+      ],
+      "family": "fiscal-dominance",
+      "asset_or_variable": "fiscal-dominance",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Dominance has no comparative effect-size rule here. Persistent deficits and Fed decisions can coexist without identifying fiscal control of monetary policy.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Specify fiscal/monetary shocks and comparable output or inflation response measures."
+    },
+    {
+      "id": "141-C11",
+      "claim": "Republicans preserve cuts.",
+      "kind": "forecast",
+      "source_blocks": [
+        36
+      ],
+      "family": "tax-cut-extension",
+      "asset_or_variable": "tax-cut-extension",
+      "horizon": "2025",
+      "conditions": "Republican victory",
+      "modality": "higher probability",
+      "verdict": "right",
+      "reason": "The observed Republican policy branch extended individual rates through permanence under OBBBA. This does not test the unrealized Democratic branch.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.irs.gov/irb/2025-45_IRB",
+          "title": "Internal Revenue Bulletin 2025-45",
+          "publisher": "IRS",
+          "date": "2025-11-03",
+          "verified": true,
+          "finding": "OBBBA section 70101 made the 2017 individual tax-rate tables permanent."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "141-C12",
+      "claim": "Tax/tariff mix inflates.",
+      "kind": "explanation",
+      "source_blocks": [
+        36,
+        76
+      ],
+      "family": "fiscal-tariff-inflation",
+      "asset_or_variable": "fiscal-tariff-inflation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Tax reductions affect demand conditional on saving, slack and monetary reaction; tariffs affect relative prices and may depress demand. The report does not define net inflation size or timing.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Separate tariff pass-through from tax stimulus using product exposure and fiscal multipliers."
+    },
+    {
+      "id": "141-C13",
+      "claim": "Deficits stay entrenched.",
+      "kind": "forecast",
+      "source_blocks": [
+        38
+      ],
+      "family": "structural-fiscal-deficits",
+      "asset_or_variable": "structural-fiscal-deficits",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Locked in is a structural judgment without a deficit path or terminal date. Neither the tax law nor future borrowing alone identifies spending rigidity.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Compare primary-deficit paths and legislative changes with contemporaneous baseline."
+    },
+    {
+      "id": "141-C14",
+      "claim": "Industrial policy strengthens.",
+      "kind": "forecast",
+      "source_blocks": [
+        42
+      ],
+      "family": "us-industrial-policy",
+      "asset_or_variable": "us-industrial-policy",
+      "horizon": null,
+      "conditions": "Trump victory",
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The Trump-win condition occurred; strength relative to the first term requires a defined policy inventory, not merely rhetoric.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare enacted tariffs, subsidies, procurement and manufacturing investment across terms."
+    },
+    {
+      "id": "141-C15",
+      "claim": "Reserve status deindustrializes.",
+      "kind": "explanation",
+      "source_blocks": [
+        40,
+        54,
+        70,
+        71
+      ],
+      "family": "dollar-reserve-tradeoff",
+      "asset_or_variable": "dollar-reserve-tradeoff",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Currency valuation is one channel among productivity, automation, trade integration and fiscal saving. Industrial decline is not identified by reserve status alone.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use trade-weighted FX and sector exposure with competing explanations."
+    },
+    {
+      "id": "141-C16",
+      "claim": "Dollar debt amplifies.",
+      "kind": "explanation",
+      "source_blocks": [
+        45
+      ],
+      "family": "dollar-debt-feedback",
+      "asset_or_variable": "dollar-debt-feedback",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Fixed unhedged debt has a mechanical FX translation effect, but the material claim concerns aggregate financing and asset prices. Hedging, export revenues and refinancing structure matter.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use BIS currency-debt exposures and borrower balance sheets."
+    },
+    {
+      "id": "141-C17",
+      "claim": "Reserves influence currencies.",
+      "kind": "explanation",
+      "source_blocks": [
+        46,
+        47,
+        59,
+        61,
+        62,
+        69
+      ],
+      "family": "fx-intervention-mechanism",
+      "asset_or_variable": "fx-intervention-mechanism",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Japan used dollar sales/yen purchases in 2024, confirming the instrument. Sterilization, expectations and capital flows can offset effects, so any-time guaranteed U.S. devaluation is too strong.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.mof.go.jp/english/policy/international_policy/reference/feio/quarter/2024_2Qe.html",
+          "title": "April-June 2024 foreign exchange intervention",
+          "publisher": "Japan Ministry of Finance",
+          "date": "2024-08-07",
+          "verified": true,
+          "finding": "Japan bought yen and sold dollars on April 29 and May 1, totaling 9,788.5 billion yen."
+        }
+      ],
+      "next_check": "Separate ability to transact from lasting exchange-rate control."
+    },
+    {
+      "id": "141-C18",
+      "claim": "Gold certificates bypass ceiling.",
+      "kind": "explanation",
+      "source_blocks": [
+        47
+      ],
+      "family": "gold-revaluation-funding",
+      "asset_or_variable": "gold-revaluation-funding",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The suggestion requires statutory gold valuation, Treasury authority and Federal Reserve accounting analysis. An accounting-manual reference alone does not authorize market revaluation or unrestricted intervention.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Inspect 31 USC 5117 and accounting manual 2.10, then distinguish existing authority from new legislation."
+    },
+    {
+      "id": "141-C19",
+      "claim": "Strategic devaluation possible.",
+      "kind": "forecast",
+      "source_blocks": [
+        75
+      ],
+      "family": "us-dollar-devaluation",
+      "asset_or_variable": "us-dollar-devaluation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "nonzero possibility",
+      "verdict": "not_testable",
+      "reason": "Explicitly a non-base-case possibility without a fixed date or probability. Absence cannot refute a nonzero scenario; ordinary dollar movement would not prove deliberate reserve accumulation.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Identify actual Treasury FX purchases and policy directive if implemented."
+    },
+    {
+      "id": "141-C20",
+      "claim": "Bitcoin cycle upside.",
+      "kind": "forecast",
+      "source_blocks": [
+        81
+      ],
+      "family": "bitcoin-cycle-upside",
+      "asset_or_variable": "bitcoin-cycle-upside",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The report declines a near-term call and gives no terminal cycle definition. Later appreciation may support direction but cannot establish a timed outcome.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Keep disclosed 12/24-month sensitivities separate from author horizon."
+    },
+    {
+      "id": "141-C21",
+      "claim": "Liquidity lifts bitcoin.",
+      "kind": "explanation",
+      "source_blocks": [
+        83
+      ],
+      "family": "bitcoin-liquidity",
+      "asset_or_variable": "bitcoin-liquidity",
+      "horizon": null,
+      "conditions": "Liquidity breakout",
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Conditional co-movement is plausible but not causal identification. A global composite, lag and competing ETF/policy variables are required.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconstruct global series and preregister lagged return relationship."
+    },
+    {
+      "id": "141-C22",
+      "claim": "Lobbying changes incentives.",
+      "kind": "explanation",
+      "source_blocks": [
+        85,
+        86,
+        89
+      ],
+      "family": "crypto-political-incentives",
+      "asset_or_variable": "crypto-political-incentives",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Later policy became more supportive, but donations are not proven to be the decisive cause; voter composition, ideology and personnel also changed.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/",
+          "title": "Strategic Bitcoin Reserve order",
+          "publisher": "White House",
+          "date": "2025-03-06",
+          "verified": true,
+          "finding": "Order retained eligible forfeited BTC in a reserve, prohibited sales of deposited reserve BTC, and directed budget-neutral acquisition strategies; legal/victim exceptions apply."
+        },
+        {
+          "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26277",
+          "title": "Consensys dismissal",
+          "publisher": "SEC",
+          "date": "2025-03-27",
+          "verified": true,
+          "finding": "SEC dismissed Consensys action in light of broader policy reform, expressly without a merits finding."
+        }
+      ],
+      "next_check": "Match lobbying disclosures, policy positions and timing without assuming causation."
+    },
+    {
+      "id": "141-C23",
+      "claim": "Retaining BTC supports price.",
+      "kind": "explanation",
+      "source_blocks": [
+        88
+      ],
+      "family": "sovereign-bitcoin-reserve",
+      "asset_or_variable": "sovereign-bitcoin-reserve",
+      "horizon": null,
+      "conditions": "Seized coins retained",
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The predicted conditional policy mechanism became relevant: government ordered retention of eligible forfeited BTC. Removal of potential sales is not a measured price effect and article expressly made no prediction of announcement.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/",
+          "title": "Strategic Bitcoin Reserve order",
+          "publisher": "White House",
+          "date": "2025-03-06",
+          "verified": true,
+          "finding": "Order retained eligible forfeited BTC in a reserve, prohibited sales of deposited reserve BTC, and directed budget-neutral acquisition strategies; legal/victim exceptions apply."
+        }
+      ],
+      "next_check": "Measure actually transferable holdings and counterfactual liquidation impact."
+    },
+    {
+      "id": "141-C24",
+      "claim": "Ether ETFs launch.",
+      "kind": "forecast",
+      "source_blocks": [
+        91
+      ],
+      "family": "ethereum-etf-launch",
+      "asset_or_variable": "ethereum-etf-launch",
+      "horizon": "Next week",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Franklin Ether ETF began trading July 23, within the next week. This event was already widely scheduled, so limited predictive novelty.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Next week",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2011535/000201153524000019/franklinethereumetfpressrele.htm",
+          "title": "Franklin Ethereum ETF launch",
+          "publisher": "Franklin Templeton via SEC",
+          "date": "2024-07-23",
+          "verified": true,
+          "finding": "The spot ether ETF EZET began exchange trading on July 23, 2024."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "141-C25",
+      "claim": "ETHE loses flows.",
+      "kind": "forecast",
+      "source_blocks": [
+        92
+      ],
+      "family": "ethereum-etf-rotation",
+      "asset_or_variable": "ethereum-etf-rotation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "ETHE experienced substantial cumulative redemptions while lower-fee competitors gained flows. This resolves the directional redistribution, not proof that every redeemer switched products solely for fees.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://farside.co.uk/eth/",
+          "title": "Ethereum ETF flows",
+          "publisher": "Farside Investors",
+          "date": null,
+          "verified": true,
+          "finding": "At November 7 2026 cumulative net flows: ETHE -$5.530 bn, ETHA +$11.523 bn, FETH +$2.453 bn. Current fees: ETHE 2.50%, ETHA 0.25%."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "141-C26",
+      "claim": "Ether impact weaker.",
+      "kind": "forecast",
+      "source_blocks": [
+        92,
+        94
+      ],
+      "family": "bitcoin-over-ethereum",
+      "asset_or_variable": "bitcoin-over-ethereum",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The comparison has no common launch-relative window or effect-size definition. Raw ETH/BTC performance does not isolate ETF launch impact, staking yield or stage of cycle.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Specify equal launch windows and market controls; report descriptive price sensitivity only."
+    },
+    {
+      "id": "141-C27",
+      "claim": "SEC stance softens.",
+      "kind": "forecast",
+      "source_blocks": [
+        93
+      ],
+      "family": "crypto-regulatory-turn",
+      "asset_or_variable": "crypto-regulatory-turn",
+      "horizon": "Coming years",
+      "conditions": "Election-driven leadership",
+      "modality": "possible",
+      "verdict": "right",
+      "reason": "The 2025 Consensys dismissal explicitly reflected policy reform. The possible policy change occurred; it does not establish staking was legally exempt on the merits.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Coming years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26277",
+          "title": "Consensys dismissal",
+          "publisher": "SEC",
+          "date": "2025-03-27",
+          "verified": true,
+          "finding": "SEC dismissed Consensys action in light of broader policy reform, expressly without a merits finding."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "141-C28",
+      "claim": "International favors SLB.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        113,
+        121
+      ],
+      "family": "oil-service-geography",
+      "asset_or_variable": "oil-service-geography",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "International exposure explained the report-era comparison, but by 2025 SLB organic international revenue fell 6%, worse than its 2% North American decline. The growth advantage was cyclical, not durable; this is not a share-return verdict.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-announces-fourth-quarter-and-full-year-2025-results",
+          "title": "SLB 2025 results",
+          "publisher": "SLB",
+          "date": "2026-01-23",
+          "verified": true,
+          "finding": "2025 organic revenue fell 6%, international 6%, North America 2%; adjusted EPS fell 14% to $2.93. Champion X acquisition inflated reported North American growth."
+        }
+      ],
+      "next_check": "Compare July 2024 quarter geographic growth and matched SLB/HAL investment sensitivities."
+    },
+    {
+      "id": "141-C29",
+      "claim": "HAL offers value.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        121
+      ],
+      "family": "oil-services-value",
+      "asset_or_variable": "oil-services-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A low earnings multiple is not a forecast return rule. Subsequent revenue/profit contraction is material counterevidence to simple growth extrapolation.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://ir.halliburton.com/node/36011",
+          "title": "Halliburton 2025 results",
+          "publisher": "Halliburton",
+          "date": "2026-01-21",
+          "verified": true,
+          "finding": "2025 revenue declined to $22.2 billion and operating income to $2.3 billion; adjusted operating income was $3.1 billion versus $3.9 billion."
+        }
+      ],
+      "next_check": "Measure valuation against normalized margins, capital needs and a disclosed holding window."
+    },
+    {
+      "id": "141-C30",
+      "claim": "Shale growth slows.",
+      "kind": "forecast",
+      "source_blocks": [
+        123,
+        125,
+        131
+      ],
+      "family": "us-shale-maturity",
+      "asset_or_variable": "us-shale-maturity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "2025 U.S. output grew 3% despite fewer rigs, consistent with slower expansion rather than a production rollover. Technology kept increasing supply, limiting any inference that resource depletion alone constrains production.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/tODAyinenergy/detail.php?id=67404",
+          "title": "U.S. crude production in 2025",
+          "publisher": "EIA",
+          "date": "2026-03-31",
+          "verified": true,
+          "finding": "Production rose 3% to 13.6 mb/d despite 5% fewer rigs; WTI annual price fell from $77 to $65. Gulf output rose 111 kb/d. Efficiency gains supported supply."
+        }
+      ],
+      "next_check": "Compare basin-level growth with 2010s and distinguish efficiency from inventory quality."
+    },
+    {
+      "id": "141-C31",
+      "claim": "Capital discipline constrains.",
+      "kind": "explanation",
+      "source_blocks": [
+        124,
+        132
+      ],
+      "family": "energy-capital-discipline",
+      "asset_or_variable": "energy-capital-discipline",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Fewer rigs alongside lower oil prices supports investment responsiveness, while efficiency preserved output. Direct cash-flow funding and investor-discipline attribution need firm financing data.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/tODAyinenergy/detail.php?id=67404",
+          "title": "U.S. crude production in 2025",
+          "publisher": "EIA",
+          "date": "2026-03-31",
+          "verified": true,
+          "finding": "Production rose 3% to 13.6 mb/d despite 5% fewer rigs; WTI annual price fell from $77 to $65. Gulf output rose 111 kb/d. Efficiency gains supported supply."
+        }
+      ],
+      "next_check": "Reconcile producer capex, external financing, payouts and productivity."
+    },
+    {
+      "id": "141-C32",
+      "claim": "Offshore supply expands.",
+      "kind": "forecast",
+      "source_blocks": [
+        127,
+        135
+      ],
+      "family": "offshore-oil-cycle",
+      "asset_or_variable": "offshore-oil-cycle",
+      "horizon": "To 2034",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The decade horizon ends 2034. Gulf growth in 2025 is partial supporting evidence, not completion of the international-decade proposition.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "To 2034",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/tODAyinenergy/detail.php?id=67404",
+          "title": "U.S. crude production in 2025",
+          "publisher": "EIA",
+          "date": "2026-03-31",
+          "verified": true,
+          "finding": "Production rose 3% to 13.6 mb/d despite 5% fewer rigs; WTI annual price fell from $77 to $65. Gulf output rose 111 kb/d. Efficiency gains supported supply."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "141-C33",
+      "claim": "Presidents have limited influence.",
+      "kind": "explanation",
+      "source_blocks": [
+        128,
+        129,
+        131
+      ],
+      "family": "oil-production-policy",
+      "asset_or_variable": "oil-production-policy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Main factor is undefined. Long development lags and price discipline weaken a one-election production story, but they do not imply permits, sanctions or taxation are irrelevant.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Separate approved-project lags from new investment and demand-policy effects."
+    },
+    {
+      "id": "141-C34",
+      "claim": "Hydrocarbon prices favor upside.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        134
+      ],
+      "family": "energy-supply-scarcity",
+      "asset_or_variable": "energy-supply-scarcity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No horizon or oil/gas benchmarks are stated. WTI fell from $77 annual average in 2024 to $65 in 2025, a meaningful adverse interval; later conflict shocks would not prove shale scarcity.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/tODAyinenergy/detail.php?id=67404",
+          "title": "U.S. crude production in 2025",
+          "publisher": "EIA",
+          "date": "2026-03-31",
+          "verified": true,
+          "finding": "Production rose 3% to 13.6 mb/d despite 5% fewer rigs; WTI annual price fell from $77 to $65. Gulf output rose 111 kb/d. Efficiency gains supported supply."
+        }
+      ],
+      "next_check": "Report oil and gas separately over disclosed sensitivity windows."
+    },
+    {
+      "id": "141-C35",
+      "claim": "Long reserves offer optionality.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        136,
+        137
+      ],
+      "family": "long-reserve-energy-value",
+      "asset_or_variable": "long-reserve-energy-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Optionality depends on extraction costs, decline, capex and taxes. Cheapness and positive cash flow do not define a terminal return or guarantee resilience.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Stress producer cash flow at low commodity prices and matched investment windows."
+    },
+    {
+      "id": "141-C36",
+      "claim": "EPD infrastructure attractive.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        138
+      ],
+      "family": "midstream-value",
+      "asset_or_variable": "midstream-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "EPD distribution growth supports a payout component, but uncrowded valuation and broad attractiveness remain unquantified. AMLP introduces fund tax and fee effects.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://ir.enterpriseproducts.com/news-releases/news-release-details/enterprise-reports-results-fourth-quarter-2024",
+          "title": "Enterprise 2024 results",
+          "publisher": "Enterprise Products Partners",
+          "date": "2025-02-04",
+          "verified": true,
+          "finding": "Declared 2024 distributions rose 5% to $2.10 per unit, the 26 th consecutive annual increase."
+        }
+      ],
+      "next_check": "Compare adjusted return, leverage and coverage; evaluate AMLP wrapper separately."
+    },
+    {
+      "id": "141-C37",
+      "claim": "Services hedge volume surprises.",
+      "kind": "explanation",
+      "source_blocks": [
+        139
+      ],
+      "family": "energy-services-volume-hedge",
+      "asset_or_variable": "energy-services-volume-hedge",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Greater production can raise service demand, but spare capacity and pricing can prevent shareholder gains. The supposed hedge is incomplete when both oil price and service margins fall.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Estimate service earnings and equity sensitivity to volumes, prices and utilization."
+    },
+    {
+      "id": "141-C38",
+      "claim": "Quality stocks overvalued.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        145
+      ],
+      "family": "megacap-valuation-risk",
+      "asset_or_variable": "megacap-valuation-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "COST is an example of demanding valuation, not a dated underperformance target. A high multiple requires a growth/duration model before a binary judgment.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Use explicit expected-return assumptions and evaluator window."
+    },
+    {
+      "id": "141-C39",
+      "claim": "Weak dollar broadens rotation.",
+      "kind": "forecast",
+      "source_blocks": [
+        147,
+        148
+      ],
+      "family": "value-em-rotation",
+      "asset_or_variable": "value-em-rotation",
+      "horizon": null,
+      "conditions": "Weaker-dollar policy",
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The conditional direction spans foreign, value, cyclical and small-cap stocks without a benchmark or persistence rule. Fed easing occurred; pending is no longer appropriate for that trigger alone.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Test EFA, IWM and value versus SPY after actual FX turning point; no invented author deadline."
+    },
+    {
+      "id": "141-C40",
+      "claim": "Diversification broadens resilience.",
+      "kind": "explanation",
+      "source_blocks": [
+        149
+      ],
+      "family": "portfolio-diversification",
+      "asset_or_variable": "portfolio-diversification",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Broader variety of conditions is unspecified. Diversification can reduce idiosyncratic exposure but may retain common recession and dollar factors.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Specify allocation, rebalance and risk measures before evaluating resilience."
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Liquidity/bank cash",
+      "source_blocks": [
+        9,
+        14,
+        17
+      ],
+      "use": "Funding",
+      "image_inspected": false
+    },
+    {
+      "name": "GDP/retail/income",
+      "source_blocks": [
+        23,
+        25,
+        27
+      ],
+      "use": "Demand",
+      "image_inspected": false
+    },
+    {
+      "name": "FX reserves",
+      "source_blocks": [
+        64
+      ],
+      "use": "Policy",
+      "image_inspected": false
+    },
+    {
+      "name": "MVRV",
+      "source_blocks": [
+        81
+      ],
+      "use": "Cycle",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs/rigs",
+      "source_blocks": [
+        113,
+        121,
+        123,
+        145
+      ],
+      "use": "Valuation",
+      "image_inspected": false
+    },
+    {
+      "name": "Rotation",
+      "source_blocks": [
+        141
+      ],
+      "use": "Positioning",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Trace funding channels before asset effects."
+  ],
+  "assessment": "The near-term Treasury borrowing call clearly missed, while 2025 runoff cessation and the ETF/policy event calls held. Energy and rotation reasoning was materially less precise: organic international service growth weakened and oil prices fell during 2025. Numerous scenario and valuation propositions require definitions before binary scoring. The 2020 currency excerpt is explanatory reuse, not independent forecast evidence.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

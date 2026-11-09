@@ -1,0 +1,1066 @@
+{
+  "article_id": "150",
+  "title": "Macro, Bitcoin, and Oilfield Services Update",
+  "date": "2024-11-24",
+  "source_url": "https://www.lynalden.com/premium-2024-11-24/",
+  "read_complete": true,
+  "summary": "Fiscal-cut skepticism and oil-service reassessment.",
+  "coverage_note": "All text read, including employee arithmetic, macro assumptions, bitcoin/MSTR, ETH update, SLB/HAL and EPD tax note. Historical quoted forecasts preserve prior-family links and are not independent wins. Corporate strategy descriptions included only where they support investment reasoning.",
+  "claims": [
+    {
+      "id": "150-C01",
+      "claim": "Liquidity remains near status quo.",
+      "kind": "forecast",
+      "source_blocks": [
+        8,
+        13
+      ],
+      "family": "net-liquidity-range",
+      "asset_or_variable": "net-liquidity-range",
+      "horizon": "Next few months",
+      "conditions": "No major shocks",
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Few months and channel bounds are not numerically defined. The 2025 debt-ceiling cash movement undermines simple continuation but does not supply a precise rejection rule.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "Next few months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.gao.gov/products/gao-26-107908",
+          "title": "Fiscal 2025 federal debt audit",
+          "publisher": "GAO",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "Debt ceiling reinstated January 2 2025; extraordinary measures January 21-July 7; July 4 law raised limit $5 tn to $41.1 tn. FY 2025 deficit $1.8 tn."
+        }
+      ],
+      "next_check": "Define liquidity series and tolerance before classifying range behavior."
+    },
+    {
+      "id": "150-C02",
+      "claim": "Small-bank liquidity improves relatively.",
+      "kind": "empirical",
+      "source_blocks": [
+        10,
+        11
+      ],
+      "family": "bank-liquidity-distribution",
+      "asset_or_variable": "bank-liquidity-distribution",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Cash-to-assets can improve through asset shrinkage rather than deposit inflows. Needs size-cohort H.8 orcall-report replication.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare cash/assets and deposits separately across bank-size groups in 2022-24."
+    },
+    {
+      "id": "150-C03",
+      "claim": "Stronger dollar tightens global funding.",
+      "kind": "explanation",
+      "source_blocks": [
+        15
+      ],
+      "family": "dollar-debt-squeeze",
+      "asset_or_variable": "dollar-debt-squeeze",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Unhedged dollar liabilities become costlier in local currency; exporters and hedged borrowers differ. A global tightening magnitude cannot be inferred solely from DXY.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+          "title": "DTWEXBGS downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Broad dollar reached 130.0413 January 13 2025, up from 121.6551 September 13 2024. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": "Measure net dollar exposure and credit spreads by borrower."
+    },
+    {
+      "id": "150-C04",
+      "claim": "Implementation undershoots campaign proposals.",
+      "kind": "forecast",
+      "source_blocks": [
+        20
+      ],
+      "family": "policy-implementation-gap",
+      "asset_or_variable": "policy-implementation-gap",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The under lacks separate tariff/deportation benchmarks and dates. Policy variance is acknowledged, so this cannot become a blanket win whenever any promise changes.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Compare enacted tariff rates and deportations with explicit promised quantities."
+    },
+    {
+      "id": "150-C05",
+      "claim": "Large deficits persist.",
+      "kind": "forecast",
+      "source_blocks": [
+        22,
+        24,
+        42
+      ],
+      "family": "fiscal-deficit-persistence",
+      "asset_or_variable": "fiscal-deficit-persistence",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "FY 2025 deficit $1.8 tn and FY 2026 about $2.0 tn support continued large deficits despite cost-cutting rhetoric.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.gao.gov/products/gao-26-107908",
+          "title": "Fiscal 2025 federal debt audit",
+          "publisher": "GAO",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "Debt ceiling reinstated January 2 2025; extraordinary measures January 21-July 7; July 4 law raised limit $5 tn to $41.1 tn. FY 2025 deficit $1.8 tn."
+        },
+        {
+          "url": "https://www.cbo.gov/publication/61985",
+          "title": "September 2026 monthly budget review",
+          "publisher": "CBO",
+          "date": "2026-10-08",
+          "verified": true,
+          "finding": "Estimated FY 2026 deficit $2.0 tn, up $218 bn; revenues+3%, outlays+6%. Major increases included interest, benefits, defense and education."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "150-C06",
+      "claim": "Deficits keep economy hotter.",
+      "kind": "explanation",
+      "source_blocks": [
+        24
+      ],
+      "family": "fiscal-dominance-growth",
+      "asset_or_variable": "fiscal-dominance-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Fiscal flows supported demand, but observed nominal growth alone does not identify the counterfactual without them. Monetary, supply and private-credit effects remain.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.cbo.gov/publication/61985",
+          "title": "September 2026 monthly budget review",
+          "publisher": "CBO",
+          "date": "2026-10-08",
+          "verified": true,
+          "finding": "Estimated FY 2026 deficit $2.0 tn, up $218 bn; revenues+3%, outlays+6%. Major increases included interest, benefits, defense and education."
+        }
+      ],
+      "next_check": "Estimate fiscal multipliers with policy and cycle controls."
+    },
+    {
+      "id": "150-C07",
+      "claim": "DOGE remains advisory.",
+      "kind": "empirical",
+      "source_blocks": [
+        25
+      ],
+      "family": "doge-institutional-form",
+      "asset_or_variable": "doge-institutional-form",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The source describes a pre-inauguration proposal. Subsequent executive implementation changed the structure, so the actual legal organization must be distinguished from the original plan.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare January 2025 executive order and statutory authorities with proposed advisory committee."
+    },
+    {
+      "id": "150-C08",
+      "claim": "Military headcount largely protected.",
+      "kind": "forecast",
+      "source_blocks": [
+        29
+      ],
+      "family": "defense-spending-rigidity",
+      "asset_or_variable": "defense-spending-rigidity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Higher defense outlays do not prove uniformed headcount stayed flat. Civilian workforce cuts cannot substitute for military personnel data.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare active-duty end strength and authorized billets 2024-26."
+    },
+    {
+      "id": "150-C09",
+      "claim": "Million job cuts save $150 bn.",
+      "kind": "explanation",
+      "source_blocks": [
+        33,
+        34
+      ],
+      "family": "federal-headcount-budget",
+      "asset_or_variable": "federal-headcount-budget",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Back-of-envelope multiplication is transparent, but contractor spending includes materials/profits and displaced workers may earn elsewhere. Tax recapture and severance make aggregate savings nonmechanical.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use agency compensation, severance, replacement contracting and displaced-worker tax outcomes."
+    },
+    {
+      "id": "150-C10",
+      "claim": "Transfers dominate payroll savings.",
+      "kind": "explanation",
+      "source_blocks": [
+        35,
+        37,
+        40
+      ],
+      "family": "federal-spending-composition",
+      "asset_or_variable": "federal-spending-composition",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "CBO reports rising benefits, interest and defense drove outlays despite workforce reductions. This supports the material distinction between cutting staff and cutting transfer obligations.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.cbo.gov/publication/61985",
+          "title": "September 2026 monthly budget review",
+          "publisher": "CBO",
+          "date": "2026-10-08",
+          "verified": true,
+          "finding": "Estimated FY 2026 deficit $2.0 tn, up $218 bn; revenues+3%, outlays+6%. Major increases included interest, benefits, defense and education."
+        },
+        {
+          "url": "https://www.gao.gov/products/gao-26-108583",
+          "title": "Workforce changes update",
+          "publisher": "GAO",
+          "date": "2026-06-17",
+          "verified": true,
+          "finding": "Across 22 major agencies, workforce declined nearly 256,000 or over 11% from December 2024 to January 2026, far below 75%; 378,000 separations offset by 127,000 hires during 2025."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "150-C11",
+      "claim": "Defense cuts face resistance.",
+      "kind": "forecast",
+      "source_blocks": [
+        41
+      ],
+      "family": "defense-spending-rigidity",
+      "asset_or_variable": "defense-spending-rigidity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Defense outlays rose in FY 2026, consistent with the expected difficulty. Political resistance is plausible but spending also reflects security needs and legislation; causation is not isolated.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.cbo.gov/publication/61985",
+          "title": "September 2026 monthly budget review",
+          "publisher": "CBO",
+          "date": "2026-10-08",
+          "verified": true,
+          "finding": "Estimated FY 2026 deficit $2.0 tn, up $218 bn; revenues+3%, outlays+6%. Major increases included interest, benefits, defense and education."
+        }
+      ],
+      "next_check": "Trace proposed cuts, congressional reversals and procurement commitments."
+    },
+    {
+      "id": "150-C12",
+      "claim": "75% job cuts unlikely.",
+      "kind": "forecast",
+      "source_blocks": [
+        42
+      ],
+      "family": "doge-headcount-under",
+      "asset_or_variable": "doge-headcount-under",
+      "horizon": "By July 2026",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "GAO measured only about 11% reduction across major agencies by January 2026; September OPM net reduction remained roughly 258,000, nowhere near 75%. Coverage limitations are far too small to bridge that scale difference.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "By July 2026",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.gao.gov/products/gao-26-108583",
+          "title": "Workforce changes update",
+          "publisher": "GAO",
+          "date": "2026-06-17",
+          "verified": true,
+          "finding": "Across 22 major agencies, workforce declined nearly 256,000 or over 11% from December 2024 to January 2026, far below 75%; 378,000 separations offset by 127,000 hires during 2025."
+        },
+        {
+          "url": "https://data.opm.gov/explore-data/analytics/workforce-changes",
+          "title": "Federal workforce changes",
+          "publisher": "OPM",
+          "date": null,
+          "verified": true,
+          "finding": "As of September 2026, reported net federal employee change since January 20 2025 was-258,108. Some Defense/War department components have incomplete September reporting."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "150-C13",
+      "claim": "$2 tn deficit cuts unlikely.",
+      "kind": "forecast",
+      "source_blocks": [
+        42
+      ],
+      "family": "doge-deficit-under",
+      "asset_or_variable": "doge-deficit-under",
+      "horizon": "By July 2026",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Fiscal deficit remained near $2 tn and increased in FY 2026. This supports skepticism about the announced dramatic deficit reduction; it does not estimate a causal DOGE savings counterfactual.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "By July 2026",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.cbo.gov/publication/61985",
+          "title": "September 2026 monthly budget review",
+          "publisher": "CBO",
+          "date": "2026-10-08",
+          "verified": true,
+          "finding": "Estimated FY 2026 deficit $2.0 tn, up $218 bn; revenues+3%, outlays+6%. Major increases included interest, benefits, defense and education."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "150-C14",
+      "claim": "Second Trump equity returns lower.",
+      "kind": "forecast",
+      "source_blocks": [
+        46
+      ],
+      "family": "valuation-forward-returns",
+      "asset_or_variable": "valuation-forward-returns",
+      "horizon": "2025-2029 term",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "A comparison of presidential terms requires the second term to finish in January 2029. Starting valuations affect expected returns, not a deterministic outcome.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "2025-2029 term",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Compare identical four-year total-return windows at term end."
+    },
+    {
+      "id": "150-C15",
+      "claim": "Bitcoin rises over next year.",
+      "kind": "forecast",
+      "source_blocks": [
+        51
+      ],
+      "family": "bitcoin-medium-term-bull",
+      "asset_or_variable": "bitcoin-medium-term-bull",
+      "horizon": "Next year",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "Bitcoin closed lower at the one-year checkpoint. An intervening October 2025 record does not rescue a next-year directional call when no peak-sale rule was supplied.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "Next year",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD daily closes",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2024-11-24 close $98,013.82; 2025-11-24 close $88,270.56. Calendar daily-close convention; no execution assumption or fees. Crypto spot excludes yield."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "150-C16",
+      "claim": "On-chain metrics lack top extremes.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        51
+      ],
+      "family": "bitcoin-mvrv-cycle",
+      "asset_or_variable": "bitcoin-mvrv-cycle",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "A later higher high supports room for further upside, but the one-year loss shows that absence of extreme indicators is not a reliable horizon-return guarantee. No calibrated probability or extreme threshold is supplied.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD daily closes",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2024-11-24 close $98,013.82; 2025-11-24 close $88,270.56. Calendar daily-close convention; no execution assumption or fees. Crypto spot excludes yield."
+        }
+      ],
+      "next_check": "Freeze thresholds and test both drawdowns and horizon returns."
+    },
+    {
+      "id": "150-C17",
+      "claim": "Bull runs retain violent corrections.",
+      "kind": "explanation",
+      "source_blocks": [
+        52,
+        53
+      ],
+      "family": "bitcoin-volatility-risk",
+      "asset_or_variable": "bitcoin-volatility-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Price rose above $126,000 intraday in October 2025 then fell below $58,000 intraday in July 2026. This demonstrates material drawdown risk even after new highs.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC daily prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "October 6 2025 high $126,198.07; July 1 2026 low $57,747.77. Intraday high-to-later-low comparison, not an achievable strategy return."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "150-C18",
+      "claim": "MSTR leverage avoids margin calls.",
+      "kind": "explanation",
+      "source_blocks": [
+        53
+      ],
+      "family": "mstr-capital-structure",
+      "asset_or_variable": "mstr-capital-structure",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Long-term corporate borrowing differs from investor margin leverage, but equity can still lose heavily from premium compression, refinancing and senior claims. Noncallable debt is not riskless leverage.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.strategy.com/press/strategy-announces-fourth-quarter-2024-financial-results-and-launches-new-website-strategy-com_02-05-2025",
+          "title": "Strategy 2024 financial results",
+          "publisher": "Strategy",
+          "date": "2025-02-05",
+          "verified": true,
+          "finding": "Reported 2024 BTC Yield of 74.3%, a bitcoin-per-diluted-share measure, confirming financing-related accretion but not shareholder total return."
+        }
+      ],
+      "next_check": "Read each debt/preferred covenant and stress liquidity obligations."
+    },
+    {
+      "id": "150-C19",
+      "claim": "MSTR accumulation continues.",
+      "kind": "forecast",
+      "source_blocks": [
+        59,
+        60
+      ],
+      "family": "mstr-bitcoin-accumulation",
+      "asset_or_variable": "mstr-bitcoin-accumulation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "By February 2025 holdings reached 471,107, above 331,000 reported here. This supports the continuing financing channel; repeated Octoberforecast is not separately counted.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.strategy.com/press/strategy-announces-fourth-quarter-2024-financial-results-and-launches-new-website-strategy-com_02-05-2025",
+          "title": "Strategy 2024 financial results",
+          "publisher": "Strategy",
+          "date": "2025-02-05",
+          "verified": true,
+          "finding": "Reported 2024 BTC Yield of 74.3%, a bitcoin-per-diluted-share measure, confirming financing-related accretion but not shareholder total return."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "150-C20",
+      "claim": "Premium financing accretes bitcoin/share.",
+      "kind": "explanation",
+      "source_blocks": [
+        61
+      ],
+      "family": "mstr-premium-flywheel",
+      "asset_or_variable": "mstr-premium-flywheel",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Reported BTC/share metric rose, but fully diluted claims and financing costs matter. It is not an investment yield or guaranteed future accretion.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.strategy.com/press/strategy-announces-fourth-quarter-2024-financial-results-and-launches-new-website-strategy-com_02-05-2025",
+          "title": "Strategy 2024 financial results",
+          "publisher": "Strategy",
+          "date": "2025-02-05",
+          "verified": true,
+          "finding": "Reported 2024 BTC Yield of 74.3%, a bitcoin-per-diluted-share measure, confirming financing-related accretion but not shareholder total return."
+        }
+      ],
+      "next_check": "Reconcile diluted shares, senior claims and capital raised."
+    },
+    {
+      "id": "150-C21",
+      "claim": "Bitcoin preferred to rich MSTR.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        62,
+        63,
+        65
+      ],
+      "family": "bitcoin-over-mstr-premium",
+      "asset_or_variable": "bitcoin-over-mstr-premium",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A 20% justifiable premium is an opinion and no convergence deadline is given. Disclosed relative-price sensitivity is informative but cannot define the author risk preference.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/MSTR/history/",
+          "title": "MSTR adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-11-24\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-11-25\",\"exit\":\"2026-11-06\",\"days\":711,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"MSTR\":{\"entry_adjusted_close\":403.45001220703125,\"exit_adjusted_close\":128.92999267578125,\"cumulative_return_pct\":-68.043130803124,\"annualized_return_pct\":-44.34705357984421,\"source\":\"https://finance.yahoo.com/quote/MSTR/history/\"},\"BTC-USD\":{\"entry_adjusted_close\":93102.296875,\"exit_adjusted_close\":75746.9296875,\"cumulative_return_pct\":-18.64118047570993,\"annualized_return_pct\":-10.055690741341284,\"source\":\"https://finance.yahoo.com/quote/BTC-USD/history/\"}},\"excess_percentage_points\":-49.40195032741407}"
+        }
+      ],
+      "next_check": "Compare premium compression, volatility and financing optionality."
+    },
+    {
+      "id": "150-C22",
+      "claim": "Short positioning drives squeeze.",
+      "kind": "explanation",
+      "source_blocks": [
+        64
+      ],
+      "family": "mstr-short-squeeze",
+      "asset_or_variable": "mstr-short-squeeze",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "High short interest may include convertible hedges rather than directional shorts. Price strength alone does not demonstrate forced covering.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use dated exchange short interest, borrow rates and hedging exposure."
+    },
+    {
+      "id": "150-C23",
+      "claim": "Microsoft proposal fails.",
+      "kind": "forecast",
+      "source_blocks": [
+        69
+      ],
+      "family": "corporate-bitcoin-vote",
+      "asset_or_variable": "corporate-bitcoin-vote",
+      "horizon": "December 2024",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The December 10 assessment proposal was rejected, as expected. This repeats October 27 forecast.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "December 2024",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312524275524/d865252d8k.htm",
+          "title": "2024 shareholder results",
+          "publisher": "Microsoft / SEC",
+          "date": "2024-12-11",
+          "verified": true,
+          "finding": "December 10 shareholders rejected assessment of investing in bitcoin; not a binding treasury allocation proposal."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "150-C24",
+      "claim": "Bitcoin preferable to ether.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        75,
+        78,
+        81
+      ],
+      "family": "bitcoin-over-ethereum",
+      "asset_or_variable": "bitcoin-over-ethereum",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Long term is not a fixed endpoint. The explicitly acknowledged short-lived altcoin bounce should not be folded into a flawless bearish narrative.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ETH-USD/history/",
+          "title": "ETH-USD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-11-24\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-11-25\",\"exit\":\"2026-11-07\",\"days\":712,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"ETH-USD\":{\"entry_adjusted_close\":3413.5439453125,\"exit_adjusted_close\":2222.199951171875,\"cumulative_return_pct\":-34.900502622108796,\"annualized_return_pct\":-19.76443817608704,\"source\":\"https://finance.yahoo.com/quote/ETH-USD/history/\"},\"BTC-USD\":{\"entry_adjusted_close\":93102.296875,\"exit_adjusted_close\":75508.5,\"cumulative_return_pct\":-18.897274788635553,\"annualized_return_pct\":-10.187672534027826,\"source\":\"https://finance.yahoo.com/quote/BTC-USD/history/\"}},\"excess_percentage_points\":-16.003227833473243}"
+        }
+      ],
+      "next_check": "Evaluate relative returns and risk over disclosed sensitivity windows."
+    },
+    {
+      "id": "150-C25",
+      "claim": "Offshore leads service growth.",
+      "kind": "forecast",
+      "source_blocks": [
+        106
+      ],
+      "family": "offshore-capex-cycle",
+      "asset_or_variable": "offshore-capex-cycle",
+      "horizon": "Several years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Several years and leading lack a comparison set.2025 Gulf production growth supports offshore activity but does not prove global service revenue leadership.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "Several years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/tODAyinenergy/detail.php?id=67404",
+          "title": "U.S. crude production in 2025",
+          "publisher": "EIA",
+          "date": "2026-03-31",
+          "verified": true,
+          "finding": "Production rose 3% to 13.6 mb/d despite 5% fewer rigs; WTI annual price fell from $77 to $65. Gulf output rose 111 kb/d. Efficiency gains supported supply."
+        },
+        {
+          "url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-announces-fourth-quarter-and-full-year-2025-results",
+          "title": "SLB 2025 results",
+          "publisher": "SLB",
+          "date": "2026-01-23",
+          "verified": true,
+          "finding": "2025 organic revenue fell 6%, international 6%, North America 2%; adjusted EPS fell 14% to $2.93. Champion X acquisition inflated reported North American growth."
+        }
+      ],
+      "next_check": "Compare offshore versus onshore capex and service margins through a defined cycle."
+    },
+    {
+      "id": "150-C26",
+      "claim": "SLB technology diversifies growth.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        108,
+        109,
+        111
+      ],
+      "family": "slb-technology-growth",
+      "asset_or_variable": "slb-technology-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Organic 2025 revenue fell 6%, showing technology offerings did not eliminate cyclicality. Separate Digital, Core and New Energyresults are required to assess each strategy.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-announces-fourth-quarter-and-full-year-2025-results",
+          "title": "SLB 2025 results",
+          "publisher": "SLB",
+          "date": "2026-01-23",
+          "verified": true,
+          "finding": "2025 organic revenue fell 6%, international 6%, North America 2%; adjusted EPS fell 14% to $2.93. Champion X acquisition inflated reported North American growth."
+        }
+      ],
+      "next_check": "Track segment organic revenue, margins and invested capital."
+    },
+    {
+      "id": "150-C27",
+      "claim": "SLB concerns overdiscounted.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        112,
+        120,
+        121
+      ],
+      "family": "oil-services-value",
+      "asset_or_variable": "oil-services-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The low multiple is a valuation opinion; subsequent 2025 organic earnings deterioration confirms concerns were not merely sentiment. Later share recovery does not establish intrinsic value without a horizon.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-announces-fourth-quarter-and-full-year-2025-results",
+          "title": "SLB 2025 results",
+          "publisher": "SLB",
+          "date": "2026-01-23",
+          "verified": true,
+          "finding": "2025 organic revenue fell 6%, international 6%, North America 2%; adjusted EPS fell 14% to $2.93. Champion X acquisition inflated reported North American growth."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SLB/history/",
+          "title": "SLB adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-11-24\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-11-25\",\"exit\":\"2026-11-06\",\"days\":711,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"SLB\":{\"entry_adjusted_close\":41.45957946777344,\"exit_adjusted_close\":49.91999816894531,\"cumulative_return_pct\":20.4064267167692,\"annualized_return_pct\":10.009651634738326,\"source\":\"https://finance.yahoo.com/quote/SLB/history/\"},\"SPY\":{\"entry_adjusted_close\":584.0515747070312,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":25.894700035039865,\"annualized_return_pct\":12.557680219817913,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-5.4882733182706644}"
+        }
+      ],
+      "next_check": "Separate earnings revisions, multiple change and payouts."
+    },
+    {
+      "id": "150-C28",
+      "claim": "Champion X adds outcome variability.",
+      "kind": "explanation",
+      "source_blocks": [
+        123
+      ],
+      "family": "slb-acquisition-risk",
+      "asset_or_variable": "slb-acquisition-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Acquisition inflated reported growth relative to organic results, validating the need to separate effects. Synergy value requires purchase-price and realized cash-saving evidence.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-announces-fourth-quarter-and-full-year-2025-results",
+          "title": "SLB 2025 results",
+          "publisher": "SLB",
+          "date": "2026-01-23",
+          "verified": true,
+          "finding": "2025 organic revenue fell 6%, international 6%, North America 2%; adjusted EPS fell 14% to $2.93. Champion X acquisition inflated reported North American growth."
+        }
+      ],
+      "next_check": "Compare realized synergies, integration costs and acquisition return on capital."
+    },
+    {
+      "id": "150-C29",
+      "claim": "SLB bottom looks promising.",
+      "kind": "forecast",
+      "source_blocks": [
+        124
+      ],
+      "family": "oil-services-price-bottom",
+      "asset_or_variable": "oil-services-price-bottom",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The tentative $39-$40 floor failed when shares reached $31.11 in April 2025. She explicitly withheld firm conviction, so this is adverse evidence to a tentative signal rather than a confident bottom prediction.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/SLB/history/",
+          "title": "SLB daily lows",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "April 9 2025 intraday low $31.11, below $39-$40 discussed support. Unadjusted traded prices; no distribution return inference."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "150-C30",
+      "claim": "HAL bottom may be forming.",
+      "kind": "forecast",
+      "source_blocks": [
+        131
+      ],
+      "family": "oil-services-price-bottom",
+      "asset_or_variable": "oil-services-price-bottom",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The $27-$28 area did not hold: April 7 2025 low was $18.72. Trying to bottom is tentative, but the observed path is adverse and should not be omitted.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/HAL/history/",
+          "title": "HAL daily lows",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "April 7 2025 intraday low $18.72, below $27-$28 discussed area. Unadjusted prices, no dividends."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "150-C31",
+      "claim": "Services weakness mostly valuation.",
+      "kind": "explanation",
+      "source_blocks": [
+        132
+      ],
+      "family": "oil-services-derating",
+      "asset_or_variable": "oil-services-derating",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Historical 2024 attribution needs exact EPS revision dates; later 2025 HAL/SLB earnings declines show real business weakness extended beyond valuation compression.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.halliburton.com/news-releases/news-release-details/halliburton-announces-fourth-quarter-2024-results",
+          "title": "Halliburton 2024 results",
+          "publisher": "Halliburton",
+          "date": "2025-01-22",
+          "verified": true,
+          "finding": "2024 revenue was $22.9 billion; operating income fell to $3.8 billion from $4.1 billion, while free cash flow remained positive."
+        },
+        {
+          "url": "https://ir.halliburton.com/node/36011",
+          "title": "Halliburton 2025 results",
+          "publisher": "Halliburton",
+          "date": "2026-01-21",
+          "verified": true,
+          "finding": "2025 revenue declined to $22.2 billion and operating income to $2.3 billion; adjusted operating income was $3.1 billion versus $3.9 billion."
+        },
+        {
+          "url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-announces-fourth-quarter-and-full-year-2025-results",
+          "title": "SLB 2025 results",
+          "publisher": "SLB",
+          "date": "2026-01-23",
+          "verified": true,
+          "finding": "2025 organic revenue fell 6%, international 6%, North America 2%; adjusted EPS fell 14% to $2.93. Champion X acquisition inflated reported North American growth."
+        }
+      ],
+      "next_check": "Decompose 2024 stock change using contemporaneous forward EPS and multiples."
+    },
+    {
+      "id": "150-C32",
+      "claim": "EPD remains attractive income.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        138
+      ],
+      "family": "midstream-income-value",
+      "asset_or_variable": "midstream-income-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Distribution growth supports cash income, but attractiveness relative to alternatives lacks horizon and risk measure.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://ir.enterpriseproducts.com/news-releases/news-release-details/enterprise-reports-results-fourth-quarter-2024",
+          "title": "Enterprise 2024 results",
+          "publisher": "Enterprise Products Partners",
+          "date": "2025-02-04",
+          "verified": true,
+          "finding": "Declared 2024 distributions rose 5% to $2.10 per unit, the 26 th consecutive annual increase."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/EPD/history/",
+          "title": "EPD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-11-24\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-11-25\",\"exit\":\"2026-11-06\",\"days\":711,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"EPD\":{\"entry_adjusted_close\":28.453495025634766,\"exit_adjusted_close\":37.029998779296875,\"cumulative_return_pct\":30.142180234573047,\"annualized_return_pct\":14.492770168274749,\"source\":\"https://finance.yahoo.com/quote/EPD/history/\"},\"SPY\":{\"entry_adjusted_close\":584.0515747070312,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":25.894700035039865,\"annualized_return_pct\":12.557680219817913,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":4.247480199533182}"
+        }
+      ],
+      "next_check": "Compare after-tax payouts, leverage and total return with a defined bond benchmark."
+    },
+    {
+      "id": "150-C33",
+      "claim": "AMLP simplifies foreign-holder taxes.",
+      "kind": "explanation",
+      "source_blocks": [
+        139
+      ],
+      "family": "mlp-tax-wrapper",
+      "asset_or_variable": "mlp-tax-wrapper",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "A corporate ETF can remove direct partnership paperwork, but fund-level corporate tax and foreign-holder withholding/treaties remain. Without tax complications is too broad; this is not personal tax advice.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title26/pdf/USCODE-2024-title26-subtitleA-chap3-subchapA-sec1446.pdf",
+          "title": "26USC1446",
+          "publisher": "U.S. Code / Gov Info",
+          "date": null,
+          "verified": true,
+          "finding": "Section 1446(f)generally requires 10% withholding on amount realized from covered partnership-interest dispositions by foreign persons, subject to statutory exceptions. This is withholding, not necessarily final tax."
+        }
+      ],
+      "next_check": "Verify AMLP prospectus taxation, Section 1446 broker withholding and investor domicile."
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Bank cash",
+      "source_blocks": [
+        11
+      ],
+      "use": "Distribution",
+      "image_inspected": false
+    },
+    {
+      "name": "Budget arithmetic",
+      "source_blocks": [
+        33,
+        35
+      ],
+      "use": "Fiscal limits",
+      "image_inspected": false
+    },
+    {
+      "name": "MVRV/NAV",
+      "source_blocks": [
+        51,
+        61
+      ],
+      "use": "Crypto",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        112,
+        129
+      ],
+      "use": "Cyclicals",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Challenge low multiples with earnings revisions."
+  ],
+  "assessment": "Fiscal-cut skepticism was strongly supported, while the one-year bitcoin direction was wrong despite a higher intervening peak. Tentative SLB/HAL bottom signals failed and later operating results weakened, so low multiples did not eliminate business risk. EPD income continuity and MSTR accumulation were better supported.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

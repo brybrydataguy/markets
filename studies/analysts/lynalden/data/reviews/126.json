@@ -1,0 +1,1377 @@
+{
+  "article_id": "126",
+  "title": "Growth Stocks Deep Dive Update",
+  "date": "2023-12-23",
+  "source_url": "https://www.lynalden.com/premium-2023-12-23/",
+  "read_complete": true,
+  "summary": "Growth valuations and monetary alternatives.",
+  "coverage_note": "All numbered source blocks and chart labels read. All material macro, digital-asset and investment theses are reviewed. Routine holdings lists, incidental statistics and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "id": "126-C01",
+      "claim": "Liquidity offsets QT",
+      "kind": "explanation",
+      "source_blocks": [
+        9,
+        11
+      ],
+      "family": "liquidity-risk-assets",
+      "asset_or_variable": "Liquidity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Falling reverse repo balances can offset a shrinking Fed balance sheet in this proxy. US M2 is not the eight-bloc global aggregate, and correlation with equities does not establish that bill issuance caused the rally.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/RRPONTSYD",
+          "title": "RRPONTSYD: downloaded observations",
+          "publisher": "Federal Reserve Bank of St. Louis / originating statistical agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "RRP balances fell from $772.258 billion December 22, 2023 to $397.234 billion April 19, 2024. Latest vintage downloaded November 7, 2026; observation dates are not historical release dates."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/M2SL",
+          "title": "M2SL: downloaded observations",
+          "publisher": "Federal Reserve Bank of St. Louis / originating statistical agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "US M2 rose from $20.754 trillion December 2023 to $21.462 trillion December 2024. Latest vintage downloaded November 7, 2026; observation dates are not historical release dates."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C02",
+      "claim": "BTFP arbitrage expires",
+      "kind": "explanation",
+      "source_blocks": [
+        14
+      ],
+      "family": "btfp-arbitrage-liquidity",
+      "asset_or_variable": "BTFP",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The borrowing/reserve-rate arbitrage was real enough for the Fed to close it in January. March ended new lending, not the entire outstanding balance: loans could remain for a year. A $130 billion immediate March drain would misstate the maturity schedule. The taxpayer-cost statement also depends on future Fed remittances, not an immediate tax bill.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240124a.htm",
+          "title": "BTFP stops new lending March 11",
+          "publisher": "Federal Reserve",
+          "date": "2024-01-24",
+          "verified": true,
+          "finding": "New BTFP loans stopped March 11, 2024; existing loans remained subject to their terms. New borrowing rates were floored at IORB, removing the rate-arbitrage incentive. Term lending could last one year."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C03",
+      "claim": "Dollar range persists",
+      "kind": "forecast",
+      "source_blocks": [
+        16
+      ],
+      "family": "dxy-range",
+      "asset_or_variable": "DXY",
+      "horizon": null,
+      "conditions": "DXY remains above 99.5",
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A level and breakout trigger are given, but no duration defines the range call; broad trade-weighted dollar data are not interchangeable with DXY.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Specify the range horizon and inspect daily DXY closes around the trigger."
+    },
+    {
+      "id": "126-C04",
+      "claim": "Dollar break helps gold",
+      "kind": "forecast",
+      "source_blocks": [
+        18
+      ],
+      "family": "gold-dollar-breakout",
+      "asset_or_variable": "Gold",
+      "horizon": null,
+      "conditions": "DXY breaks below 99.5",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "The conditional DXY trigger has not been reconstructed. A subsequent gold rally alone cannot validate a conditional call or prove dollar weakness caused it.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Check dated DXY trigger and gold performance immediately after it."
+    },
+    {
+      "id": "126-C05",
+      "claim": "Sentiment invites consolidation",
+      "kind": "forecast",
+      "source_blocks": [
+        20
+      ],
+      "family": "sentiment-correction",
+      "asset_or_variable": "US equities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "not_testable",
+      "reason": "Neither depth nor duration defines the expected correction. Routine volatility cannot be retrospectively counted as a hit.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "126-C06",
+      "claim": "Fiscal dominance changes cycles",
+      "kind": "explanation",
+      "source_blocks": [
+        22,
+        24,
+        25,
+        26,
+        28
+      ],
+      "family": "two-speed-fiscal-monetary",
+      "asset_or_variable": "US cycle",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Positive output despite restrictive rates supports skepticism about a mechanical recession signal. It does not identify 2019 as a regime break or quantify how much deficit spending outweighed monetary restraint.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/A191RL1Q225SBEA",
+          "title": "A191RL1Q225SBEA: downloaded observations",
+          "publisher": "Federal Reserve Bank of St. Louis / originating statistical agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "All four 2024 real GDP quarterly growth rates were positive: 1.4%, 3.6%, 3.2%, 2.4% annualized in the downloaded vintage. Latest vintage downloaded November 7, 2026; observation dates are not historical release dates."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C07",
+      "claim": "Regional cycles diverge",
+      "kind": "empirical",
+      "source_blocks": [
+        26,
+        28,
+        29,
+        30
+      ],
+      "family": "regional-cycle-divergence",
+      "asset_or_variable": "US Europe China",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The manufacturing/consumption contrast and European CCC spread comparison need harmonized publication-date series. Unseen chart levels cannot establish the magnitude or causal direction.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "This is a factual observation, not independent evidence for a causal theory.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Recover the same survey, spending and rating-bucket spread series with country weights."
+    },
+    {
+      "id": "126-C08",
+      "claim": "Red Sea rerouting inflates",
+      "kind": "explanation",
+      "source_blocks": [
+        35,
+        37
+      ],
+      "family": "red-sea-shipping-inflation",
+      "asset_or_variable": "Shipping",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Detours raised voyage length and freight costs, consistent with the mechanism. The claim about virtually all ships is broader than UNCTAD traffic evidence, and a freight shock does not specify the size of consumer inflation.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://unctad.org/news/unprecedented-shipping-disruptions-raise-risk-global-trade-unctad-warns",
+          "title": "Shipping disruptions threaten trade",
+          "publisher": "UNCTAD",
+          "date": "2024-02-22",
+          "verified": true,
+          "finding": "UNCTAD reported Suez transits down 42% from their peak and weekly containership transits down 67%. Detours lengthened voyages and increased fuel consumption; traffic was disrupted, not universally stopped."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C09",
+      "claim": "Oil shorting risky",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        37
+      ],
+      "family": "oil-geopolitical-tail",
+      "asset_or_variable": "Oil",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "This is a tail-risk warning, not an oil-price target. Positioning and low strategic inventories do not guarantee a squeeze; no holding period or loss threshold is supplied.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "126-C10",
+      "claim": "Bitcoin higher end-2025",
+      "kind": "forecast",
+      "source_blocks": [
+        40
+      ],
+      "family": "bitcoin-2025-bull",
+      "asset_or_variable": "Bitcoin",
+      "horizon": "End of 2025",
+      "conditions": null,
+      "modality": "base case",
+      "verdict": "right",
+      "reason": "The explicit endpoint resolved positively: 2023-12-26 to 2025-12-31: BTC-USD adjusted-close proxy +105.80%, SPY +46.91%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade. This is the repeated Bitcoin-cycle thesis, not an independent forecast for each later reiteration. ETF, halving and liquidity contributions are not separately identified.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "Author horizon: End of 2025.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-26 to 2025-12-31: BTC-USD adjusted-close proxy +105.80%, SPY +46.91%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C11",
+      "claim": "ETH/BTC structural weakness",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        46
+      ],
+      "family": "eth-btc-relative-bear",
+      "asset_or_variable": "ETH/BTC",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "A short rebound was allowed, while the structural preference favored BTC. 2023-12-24 to 2025-12-23: ETH-USD adjusted-close proxy +30.79%, BTC-USD +103.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade. This supports the relative direction in a chosen two-year window, but does not resolve an undefined next-cycle peak.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ETH-USD/history/",
+          "title": "ETH-USD historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-24 to 2025-12-23: ETH-USD adjusted-close proxy +30.79%, BTC-USD +103.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C12",
+      "claim": "Crypto scaling compromises",
+      "kind": "explanation",
+      "source_blocks": [
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "family": "blockchain-scalability-tradeoffs",
+      "asset_or_variable": "BTC ETH SOL",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Different validation costs and bridge dependencies are real design choices. There is no single objective decentralization score proving Ethereum is trapped between two winners, and the conclusion cannot be inferred from token prices.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ethereum.org/en/developers/docs/scaling/",
+          "title": "Ethereum scaling documentation",
+          "publisher": "Ethereum.org",
+          "date": null,
+          "verified": true,
+          "finding": "Rollups execute outside Ethereum L1 while using it for settlement or data. Scaling systems have distinct security and interoperability properties; sidechains do not inherit the same security as rollups."
+        },
+        {
+          "url": "https://developer.bitcoin.org/devguide/transactions.html",
+          "title": "Transaction and UTXO documentation",
+          "publisher": "Bitcoin developer documentation",
+          "date": null,
+          "verified": true,
+          "finding": "Each transaction spends existing outputs as inputs and creates new outputs. Transaction fees and input sizes make small outputs uneconomic at sufficiently high fee rates; outputs can be consolidated when fees are low."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C13",
+      "claim": "Lightning activity hidden",
+      "kind": "explanation",
+      "source_blocks": [
+        51
+      ],
+      "family": "lightning-private-observability",
+      "asset_or_variable": "Lightning",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Private routing makes complete transaction measurement difficult. A statement that outsiders underestimate usage needs a representative sample and error estimate, not just the existence of private channels.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "126-C14",
+      "claim": "Tron stablecoin utility",
+      "kind": "empirical",
+      "source_blocks": [
+        52
+      ],
+      "family": "stablecoin-low-cost-adoption",
+      "asset_or_variable": "Tron",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Low fees can support transfer use, but comparative adoption requires active-user and economically adjusted transfer data. Gross on-chain volume includes bots and internal transfers.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "This is a factual observation, not independent evidence for a causal theory.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare dated stablecoin supply, adjusted volume and fee distributions across chains."
+    },
+    {
+      "id": "126-C15",
+      "claim": "Scarce blockspace raises fees",
+      "kind": "explanation",
+      "source_blocks": [
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "family": "bitcoin-fee-market",
+      "asset_or_variable": "Bitcoin fees",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Transaction construction supports fee competition and uneconomic small outputs; it does not guarantee a monotonic long-run fee increase. Demand can fall or migrate, and consolidation itself costs fees.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://developer.bitcoin.org/devguide/transactions.html",
+          "title": "Transaction and UTXO documentation",
+          "publisher": "Bitcoin developer documentation",
+          "date": null,
+          "verified": true,
+          "finding": "Each transaction spends existing outputs as inputs and creates new outputs. Transaction fees and input sizes make small outputs uneconomic at sufficiently high fee rates; outputs can be consolidated when fees are low."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C16",
+      "claim": "Inscription stress differentiates chains",
+      "kind": "empirical",
+      "source_blocks": [
+        60,
+        61
+      ],
+      "family": "inscription-network-resilience",
+      "asset_or_variable": "Chain availability",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The specific EVM activity share and named outages require chain logs and incident reports with consistent definitions. Bitcoin block production continuing is narrower than every service remaining fully functional.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "This is a factual observation, not independent evidence for a causal theory.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Check December 2023 TON and Arbitrum incident reports, block liveness and inscription classifier methodology."
+    },
+    {
+      "id": "126-C17",
+      "claim": "Inscription speculation fades",
+      "kind": "forecast",
+      "source_blocks": [
+        62
+      ],
+      "family": "inscriptions-speculation",
+      "asset_or_variable": "Inscription assets",
+      "horizon": null,
+      "conditions": null,
+      "modality": "base case",
+      "verdict": "not_testable",
+      "reason": "Eventually supplies no deadline or specified basket. Illiquidity is a manipulation risk, but a declining selected token is insufficient to verify a category-wide forecast.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "126-C18",
+      "claim": "Currency networks favor dollars",
+      "kind": "explanation",
+      "source_blocks": [
+        65,
+        66,
+        73
+      ],
+      "family": "dollar-network-effects",
+      "asset_or_variable": "Currency adoption",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Network depth offers a plausible adoption mechanism, but the statement bundles multiple countries without an operational market-share test. Permission to contract in Bitcoin does not predict widespread unit-of-account use.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "126-C19",
+      "claim": "Argentina contracts liberalized",
+      "kind": "empirical",
+      "source_blocks": [
+        67,
+        69,
+        70,
+        72
+      ],
+      "family": "argentina-currency-contracts",
+      "asset_or_variable": "Argentina law",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The decree changes contractual currency obligations. This narrow legal statement is supported; it does not abolish the peso or automatically grant every intermediary permission to distribute crypto.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "This is a factual observation, not independent evidence for a causal theory.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.argentina.gob.ar/normativa/nacional/395521/texto",
+          "title": "DNU 70/2023 original text",
+          "publisher": "Argentina government",
+          "date": "2023-12-21",
+          "verified": true,
+          "finding": "Articles 250-251 amend Civil Code currency-obligation rules to enforce the designated currency, including currencies without legal-tender status. This is a contract rule, not a repeal of all financial-intermediary restrictions."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C20",
+      "claim": "Argentina intermediary bans reversed",
+      "kind": "empirical",
+      "source_blocks": [
+        74,
+        75
+      ],
+      "family": "argentina-crypto-restrictions",
+      "asset_or_variable": "Argentina banking",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The administration changed contract rules, but the article blurs them with separate bank/payment-provider restrictions. BCRA still describes those prohibitions; the claim of reversing those specific policies is not established by the decree.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "This is a factual observation, not independent evidence for a causal theory.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.argentina.gob.ar/normativa/nacional/395521/texto",
+          "title": "DNU 70/2023 original text",
+          "publisher": "Argentina government",
+          "date": "2023-12-21",
+          "verified": true,
+          "finding": "Articles 250-251 amend Civil Code currency-obligation rules to enforce the designated currency, including currencies without legal-tender status. This is a contract rule, not a repeal of all financial-intermediary restrictions."
+        },
+        {
+          "url": "https://www.bcra.gob.ar/criptoactivos/",
+          "title": "Cryptoasset regulatory policy",
+          "publisher": "BCRA",
+          "date": null,
+          "verified": true,
+          "finding": "BCRA describes the May 2022 bank restrictions and May 2023 payment-provider restrictions. Those institutional prohibitions are distinct from private contracts in foreign currency or cryptoassets."
+        }
+      ],
+      "next_check": "Identify a dated BCRA instrument repealing the 2022 and 2023 institutional prohibitions."
+    },
+    {
+      "id": "126-C21",
+      "claim": "Nigeria bank access reopens",
+      "kind": "empirical",
+      "source_blocks": [
+        77,
+        80,
+        81
+      ],
+      "family": "nigeria-crypto-bank-access",
+      "asset_or_variable": "Nigeria banking",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The December 22 circular replaced the blanket VASP account restriction with regulated access. It expressly retained the ban on banks trading crypto on their own account, so this is a qualified reopening.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "This is a factual observation, not independent evidence for a causal theory.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.cbn.gov.ng/Out/2024/FPRD/GUIDELINES%20ON%20OPERATIONS%20OF%20BANK%20ACCOUNTS%20FOR%20VIRTUAL%20Asset%20Providers.pdf",
+          "title": "VASP bank-account guidelines",
+          "publisher": "Central Bank of Nigeria",
+          "date": "2023-12-22",
+          "verified": true,
+          "finding": "Regulated VASPs could obtain bank accounts under controls; banks remained prohibited from holding, trading or transacting in virtual currencies on their own account."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C22",
+      "claim": "Weak money promotes crypto",
+      "kind": "explanation",
+      "source_blocks": [
+        78,
+        79,
+        81
+      ],
+      "family": "currency-weakness-crypto-adoption",
+      "asset_or_variable": "Crypto adoption",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Adoption rankings and a regulatory reversal do not identify currency failure as the cause or prove bans are ineffective. Internet access, remittances, fraud and reporting biases can confound the relationship.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Test comparable adoption measures against currency instability while accounting for access and remittance intensity."
+    },
+    {
+      "id": "126-C23",
+      "claim": "PEG example arithmetic",
+      "kind": "explanation",
+      "source_blocks": [
+        104
+      ],
+      "family": "peg-arithmetic",
+      "asset_or_variable": "Valuation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The example divides 20 by 15 and states 13.3. The conventional PEG result is 1.333, a tenfold error. This matters to the screening threshold, although surrounding applications may use the intended convention.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "The bounded deduction is valid only under the explicit assumptions in the proof.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "P/E is 20; growth is entered as 15 percentage points."
+        ],
+        "derivation": "20 / 15 = 1.333333, not 13.3."
+      }
+    },
+    {
+      "id": "126-C24",
+      "claim": "Dividend-adjusted PEG heuristic",
+      "kind": "explanation",
+      "source_blocks": [
+        105,
+        106
+      ],
+      "family": "peg-yield-growth-heuristic",
+      "asset_or_variable": "Valuation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Adding yield and expected growth can organize assumptions, but it is not a full discounted-cash-flow identity. Growth duration, dilution, reinvestment, leverage and terminal multiples can reverse rankings.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "The bounded deduction is valid only under the explicit assumptions in the proof.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Per-share earnings grow at g; dividends yield y; the earnings multiple stays constant."
+        ],
+        "derivation": "Under the assumptions, one-period price growth is g and cash yield contributes approximately y; without a constant multiple, a valuation-change term remains."
+      }
+    },
+    {
+      "id": "126-C25",
+      "claim": "Visa remains attractive",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        108,
+        112,
+        113
+      ],
+      "family": "v-valuation",
+      "asset_or_variable": "V",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The business thesis is payment-network durability, not a calibrated excess-return promise. Competition and the purchase multiple remain risks. Evaluator-defined sensitivity: 2023-12-26 to 2025-12-23: V adjusted-close proxy +38.37%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/V/history/",
+          "title": "V historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-26 to 2025-12-23: V adjusted-close proxy +38.37%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C26",
+      "claim": "Fiserv leverage matters",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        114,
+        115,
+        116,
+        117
+      ],
+      "family": "fisv-valuation",
+      "asset_or_variable": "FISV",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The superficially lower equity PEG needs an enterprise-value and debt adjustment. Later returns cannot establish that leverage-adjusted valuation was equivalent to Visa; the successor-ticker series is used as a vendor proxy. Evaluator-defined sensitivity: 2023-12-26 to 2025-12-23: FISV adjusted-close proxy -48.93%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/FISV/history/",
+          "title": "FISV historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-26 to 2025-12-23: FISV adjusted-close proxy -48.93%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C27",
+      "claim": "Booking travel runway",
+      "kind": "forecast",
+      "source_blocks": [
+        119,
+        120,
+        121
+      ],
+      "family": "booking-travel-growth",
+      "asset_or_variable": "BKNG",
+      "horizon": "Five years, through December 2028",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The five-year travel/business outlook extends to December 2028. A good interim stock return cannot complete that economic forecast or eliminate recession sensitivity.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "Author horizon: Five years, through December 2028.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Evaluate five-year bookings, margins, per-share cash flow and valuation-adjusted investor returns."
+    },
+    {
+      "id": "126-C28",
+      "claim": "Booking reasonably priced",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        119,
+        120,
+        121
+      ],
+      "family": "bkng-valuation",
+      "asset_or_variable": "BKNG",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "A two-year price sensitivity informs the purchase, while the five-year operating forecast remains open. Evaluator-defined sensitivity: 2023-12-26 to 2025-12-23: BKNG adjusted-close proxy +55.00%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BKNG/history/",
+          "title": "BKNG historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-26 to 2025-12-23: BKNG adjusted-close proxy +55.00%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C29",
+      "claim": "Adobe five-year appreciation",
+      "kind": "forecast",
+      "source_blocks": [
+        125,
+        126,
+        127,
+        128
+      ],
+      "family": "adobe-five-year-upside",
+      "asset_or_variable": "ADBE",
+      "horizon": "Five years, through December 2028",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The stated five-year appreciation claim ends in December 2028. Large interim losses are important counterevidence, but not a completed five-year outcome.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "Author horizon: Five years, through December 2028.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare December 2028 outcome with the publication price and benchmark, including the intervening drawdown."
+    },
+    {
+      "id": "126-C30",
+      "claim": "Adobe correction risk",
+      "kind": "forecast",
+      "source_blocks": [
+        125,
+        127,
+        128
+      ],
+      "family": "adobe-valuation-correction",
+      "asset_or_variable": "ADBE",
+      "horizon": "One to two years",
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "right",
+      "reason": "The explicit one-to-two-year warning was borne out directionally. 2023-12-26 to 2025-12-23: ADBE adjusted-close proxy -41.09%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade. The predicted possibility occurred; this does not prove valuation alone caused the decline.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "Author horizon: One to two years.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ADBE/history/",
+          "title": "ADBE historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-26 to 2025-12-23: ADBE adjusted-close proxy -41.09%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C31",
+      "claim": "Cadence valuation stretched",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        130,
+        131,
+        132,
+        133
+      ],
+      "family": "cdns-valuation",
+      "asset_or_variable": "CDNS",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "An expensive PEG is a margin-of-safety judgment. Subsequent returns are shown without treating failure to buy as a promised short trade. Evaluator-defined sensitivity: 2023-12-26 to 2025-12-23: CDNS adjusted-close proxy +15.26%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/CDNS/history/",
+          "title": "CDNS historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-26 to 2025-12-23: CDNS adjusted-close proxy +15.26%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C32",
+      "claim": "Costco valuation stretched",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        135,
+        136,
+        137
+      ],
+      "family": "cost-valuation",
+      "asset_or_variable": "COST",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Business quality and purchase price are distinct. A chosen return window cannot falsify an undated margin-of-safety preference. Evaluator-defined sensitivity: 2023-12-26 to 2025-12-23: COST adjusted-close proxy +31.03%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/COST/history/",
+          "title": "COST historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-26 to 2025-12-23: COST adjusted-close proxy +31.03%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C33",
+      "claim": "HDFC long-run opportunity",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        139,
+        140,
+        141,
+        142
+      ],
+      "family": "hdb-valuation",
+      "asset_or_variable": "HDB",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Financial deepening is not automatically ADR outperformance; merger integration, financing and currency conversion matter. No fixed author deadline is given. Evaluator-defined sensitivity: 2023-12-26 to 2025-12-23: HDB adjusted-close proxy +11.38%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/HDB/history/",
+          "title": "HDB historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-26 to 2025-12-23: HDB adjusted-close proxy +11.38%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C34",
+      "claim": "Apple expensive",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        144,
+        145
+      ],
+      "family": "aapl-valuation",
+      "asset_or_variable": "AAPL",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Slow expected growth makes the entry multiple a central risk. Evaluator-defined sensitivity: 2023-12-26 to 2025-12-23: AAPL adjusted-close proxy +42.41%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/AAPL/history/",
+          "title": "AAPL historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-26 to 2025-12-23: AAPL adjusted-close proxy +42.41%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C35",
+      "claim": "Microsoft strong but expensive",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        144,
+        152
+      ],
+      "family": "msft-valuation",
+      "asset_or_variable": "MSFT",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "A strong franchise does not remove multiple risk. Evaluator-defined sensitivity: 2023-12-26 to 2025-12-23: MSFT adjusted-close proxy +31.88%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/MSFT/history/",
+          "title": "MSFT historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-26 to 2025-12-23: MSFT adjusted-close proxy +31.88%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C36",
+      "claim": "Tesla valuation unattractive",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        144,
+        152
+      ],
+      "family": "tsla-valuation",
+      "asset_or_variable": "TSLA",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Wide outcome dispersion requires explicit cash-flow scenarios; this is not a dated short call. Evaluator-defined sensitivity: 2023-12-26 to 2025-12-23: TSLA adjusted-close proxy +89.22%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TSLA/history/",
+          "title": "TSLA historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-26 to 2025-12-23: TSLA adjusted-close proxy +89.22%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C37",
+      "claim": "Google reasonably valued",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        147,
+        152
+      ],
+      "family": "googl-valuation",
+      "asset_or_variable": "GOOGL",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The author favors relative valuation without specifying required excess returns. Evaluator-defined sensitivity: 2023-12-26 to 2025-12-23: GOOGL adjusted-close proxy +123.80%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GOOGL/history/",
+          "title": "GOOGL historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-26 to 2025-12-23: GOOGL adjusted-close proxy +123.80%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C38",
+      "claim": "Meta reasonably valued",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        144,
+        152
+      ],
+      "family": "meta-valuation",
+      "asset_or_variable": "META",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "A lower multiple can coexist with advertising and capital-spending risks. Evaluator-defined sensitivity: 2023-12-26 to 2025-12-23: META adjusted-close proxy +88.71%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/META/history/",
+          "title": "META historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-26 to 2025-12-23: META adjusted-close proxy +88.71%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C39",
+      "claim": "Amazon reasonably valued",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        152
+      ],
+      "family": "amzn-valuation",
+      "asset_or_variable": "AMZN",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Cash generation and accounting earnings differ, complicating PEG comparison. Evaluator-defined sensitivity: 2023-12-26 to 2025-12-23: AMZN adjusted-close proxy +51.32%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/AMZN/history/",
+          "title": "AMZN historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-26 to 2025-12-23: AMZN adjusted-close proxy +51.32%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C40",
+      "claim": "Nvidia valuation plausible",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        149,
+        152
+      ],
+      "family": "nvda-valuation",
+      "asset_or_variable": "NVDA",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The favorable case depends on exceptional earnings growth; observed price appreciation is not sufficient proof of the assumed terminal multiple. Evaluator-defined sensitivity: 2023-12-26 to 2025-12-23: NVDA adjusted-close proxy +284.17%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/NVDA/history/",
+          "title": "NVDA historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-26 to 2025-12-23: NVDA adjusted-close proxy +284.17%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C41",
+      "claim": "AI earnings demand real",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        151,
+        152
+      ],
+      "family": "ai-gpu-earnings-demand",
+      "asset_or_variable": "NVIDIA earnings",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "NVIDIA subsequently realized a large earnings expansion, supporting the operating direction. The source predicts broad GPU demand without a quantity or endpoint, so this is partial evidence rather than a calibrated forecast win. It does not validate every consensus estimate or terminal valuation.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2025/default.aspx",
+          "title": "Fiscal 2025 financial results",
+          "publisher": "NVIDIA",
+          "date": "2025-02-26",
+          "verified": true,
+          "finding": "GAAP net income for the year ended January 26, 2025 was $72.880 billion, versus $29.760 billion a year earlier."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C42",
+      "claim": "Pepsi purchase attractive",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        89,
+        100,
+        155,
+        156,
+        157,
+        158
+      ],
+      "family": "pep-valuation",
+      "asset_or_variable": "PEP",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The two-year outcome was adverse despite a consumer-staples business. This limits the entry thesis, while an undefined long-term holding period prevents a definitive timed forecast miss. Evaluator-defined sensitivity: 2023-12-26 to 2025-12-23: PEP adjusted-close proxy -8.68%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/PEP/history/",
+          "title": "PEP historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-12-26 to 2025-12-23: PEP adjusted-close proxy -8.68%, SPY +48.21%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C43",
+      "claim": "Obesity-drug fears overstated",
+      "kind": "explanation",
+      "source_blocks": [
+        155,
+        156,
+        157
+      ],
+      "family": "glp1-consumer-staples",
+      "asset_or_variable": "Food demand",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Pricing and side effects can limit adoption, but the article does not identify the drugs' causal impact on snack volumes. A share-price decline or recovery cannot by itself answer that question.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use controlled consumption and treatment-persistence evidence plus company volume data, rather than stock-price attribution."
+    },
+    {
+      "id": "126-C44",
+      "claim": "Booking prior gains confirmed",
+      "kind": "empirical",
+      "source_blocks": [
+        119
+      ],
+      "family": "bkng-reported-prior-performance",
+      "asset_or_variable": "BKNG",
+      "horizon": "From quoted original recommendation to December 2023",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The reported historical outperformance is supported under the disclosed next-trading-close convention: 2022-05-31 to 2023-12-22: BKNG adjusted-close proxy +57.59%, SPY +17.97%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade. This verifies a retrospective performance statement and must not count as a new forecast win. Exact author percentages can differ with entry-price convention.",
+      "direction_assessment": "Prior-window relative gains confirmed.",
+      "timing_assessment": "Original recommendation dates preserved; ending at the last close before this article.",
+      "mechanism_assessment": "This is a factual observation, not independent evidence for a causal theory.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BKNG/history/",
+          "title": "BKNG historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2022-05-31 to 2023-12-22: BKNG adjusted-close proxy +57.59%, SPY +17.97%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "126-C45",
+      "claim": "Adobe prior gains confirmed",
+      "kind": "empirical",
+      "source_blocks": [
+        124
+      ],
+      "family": "adbe-reported-prior-performance",
+      "asset_or_variable": "ADBE",
+      "horizon": "From quoted original recommendation to December 2023",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The reported historical outperformance is supported under the disclosed next-trading-close convention: 2023-05-30 to 2023-12-22: ADBE adjusted-close proxy +43.51%, NVDA +21.77%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade. This verifies a retrospective performance statement and must not count as a new forecast win. Exact author percentages can differ with entry-price convention.",
+      "direction_assessment": "Prior-window relative gains confirmed.",
+      "timing_assessment": "Original recommendation dates preserved; ending at the last close before this article.",
+      "mechanism_assessment": "This is a factual observation, not independent evidence for a causal theory.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ADBE/history/",
+          "title": "ADBE historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-05-30 to 2023-12-22: ADBE adjusted-close proxy +43.51%, NVDA +21.77%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/ADBE/history/",
+          "title": "ADBE historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-05-30 to 2023-12-22: ADBE adjusted-close proxy +43.51%, SPY +14.00%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Liquidity",
+      "source_blocks": [
+        9,
+        11
+      ],
+      "use": "Flows",
+      "image_inspected": false
+    },
+    {
+      "name": "LEI and spreads",
+      "source_blocks": [
+        24,
+        29
+      ],
+      "use": "Cycle",
+      "image_inspected": false
+    },
+    {
+      "name": "ETH/BTC",
+      "source_blocks": [
+        46
+      ],
+      "use": "Relative strength",
+      "image_inspected": false
+    },
+    {
+      "name": "PEG and valuation",
+      "source_blocks": [
+        104,
+        105,
+        112
+      ],
+      "use": "Pricing",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate business quality from entry valuation."
+  ],
+  "assessment": "The strongest dated result is Bitcoin being substantially higher at end-2025; Adobe also suffered the warned-of one-to-two-year correction. These coexist with poor Pepsi sensitivity and unresolved five-year growth forecasts. The PEG arithmetic is plainly incorrect. BTFP maturity timing and Argentina intermediary policy need more precision than the narrative provides. Undated valuation screens are not scored as automatic wins or misses from prices alone.",
+  "verification_limitations": [
+    "Retrieved November 7, 2026; the current webpage is not authenticated as the original publication-date wording.",
+    "Chart labels were read but pixels and proprietary indicator vintages were not inspected.",
+    "Adjusted-close evidence is a vendor proxy for reinvested distributions and splits, in USD without fees or taxes. It does not reconstruct actual portfolio trades. Chosen sensitivity windows are not author deadlines. Macro series use latest vintages."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "1e40c277761d509013a7db61c2a0ea7cb481e2a6e082ca42e7243f683537a175"
+}

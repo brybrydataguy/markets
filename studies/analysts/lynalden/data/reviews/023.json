@@ -1,0 +1,141 @@
+{
+  "article_id": "023",
+  "title": "Risk Mitigation Update",
+  "date": "2020-06-09",
+  "source_url": "https://www.lynalden.com/risk-mitigation-update/",
+  "read_complete": true,
+  "summary": "A small equity reduction responds to speculative sentiment.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "Treasury substitution reduces equity exposure",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        4,
+        5,
+        6,
+        13
+      ],
+      "family": "june2020-risk-trim",
+      "asset_or_variable": "5% VTI to SHY",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The action reduces equity beta but carries opportunity cost and short-duration rate risk. The author explicitly disclaims a short-term forecast and gives no reversal date; performance cannot be judged from whichever later window looks favorable.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Link the next allocation change and reconstruct the full 5% sleeve with distributions.",
+      "id": "023-C01"
+    },
+    {
+      "claim": "Low put-call ratio signals optimism",
+      "kind": "explanation",
+      "source_blocks": [
+        7,
+        9,
+        10
+      ],
+      "family": "put-call-sentiment",
+      "asset_or_variable": "Options positioning",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The ratio measures traded contract counts, not necessarily directional net buying. Calls can be sold or hedged and institutional/index versus equity options differ. The stated decade low needs the exact series and dated CBOE data.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Identify total/equity/index ratio, smoothing and buy-to-open treatment.",
+      "id": "023-C02"
+    },
+    {
+      "claim": "Sentiment extremes can precede reversals",
+      "kind": "explanation",
+      "source_blocks": [
+        9
+      ],
+      "family": "contrarian-sentiment-timing",
+      "asset_or_variable": "US equities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A contrarian relationship needs a fixed threshold, horizon and false-positive test. Very bullish sentiment can persist; the source itself recognizes this limitation rather than promises an immediate drop.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "023-C03"
+    },
+    {
+      "claim": "Bankrupt shares can lose all value",
+      "kind": "forecast",
+      "source_blocks": [
+        11
+      ],
+      "family": "bankrupt-equity-recovery",
+      "asset_or_variable": "Speculative equities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "very likely",
+      "verdict": "evidence_needed",
+      "reason": "Equity is junior to creditors, but bankruptcy does not mechanically imply zero recovery. The article does not identify its basket; company-level reorganization outcomes are needed before judging the very-likely-zero claim.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Identify referenced issuers and inspect confirmed recovery plans, including exceptions such as improved enterprise value.",
+      "id": "023-C04"
+    },
+    {
+      "claim": "Crowded bearish expectations can delay corrections",
+      "kind": "explanation",
+      "source_blocks": [
+        12
+      ],
+      "family": "sentiment-reflexivity",
+      "asset_or_variable": "US equities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No measurable professional-positioning threshold or delay is specified. This is a caution about a trade's popularity, not a separately falsifiable market forecast.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "023-C05"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Put-call ratio",
+      "source_blocks": [
+        7
+      ],
+      "use": "Sentiment",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Risk reduction need not require predicting the next day."
+  ],
+  "assessment": "This is a modest allocation change, not an explicit crash forecast. A fair audit must follow the cash sleeve until its next documented change and distinguish options volume from net directional exposure.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "Public market series are available, but not every investment claim has a defined horizon or reconciled corporate-action-adjusted return. Unverified outcomes remain unscored; macro data use latest available vintages."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "10f999b9f68f65f78360de124a71c896e6f2057793b3ec4c54528803b25637f8"
+}

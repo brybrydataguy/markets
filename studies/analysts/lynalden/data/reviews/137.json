@@ -1,0 +1,762 @@
+{
+  "article_id": "137",
+  "title": "Komatsu Deep Dive Analysis",
+  "date": "2024-05-26",
+  "source_url": "https://www.lynalden.com/premium-2024-5-26/",
+  "read_complete": true,
+  "summary": "Komatsu value, monetary plumbing, and bitcoin models.",
+  "coverage_note": "Entire report and chart inventory read; included policy timing, crypto politics, mining, model criticism, Komatsu, dollar-cycle exposure and mortgage transmission.",
+  "claims": [
+    {
+      "id": "137-C01",
+      "claim": "Liquidity remains rangebound for months.",
+      "kind": "forecast",
+      "source_blocks": [
+        10,
+        18,
+        21
+      ],
+      "family": "near-term-liquidity-range",
+      "asset_or_variable": "near-term-liquidity-range",
+      "horizon": "Next several months",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The near-term window is now historical. Exact chart definition and range tolerance are required before an objective breakout test.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "Next several months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconstruct domestic proxy through August 2024 using the same sampling convention."
+    },
+    {
+      "id": "137-C02",
+      "claim": "Fed balance sheet turns in 2025.",
+      "kind": "forecast",
+      "source_blocks": [
+        23,
+        25,
+        178
+      ],
+      "family": "fed-balance-sheet-2025-pivot",
+      "asset_or_variable": "fed-balance-sheet-2025-pivot",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "New bill purchases began in December 2025, matching the year. This does not equate reserve management with a broad risk-asset stimulus program.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchases",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "The Desk announced $40 billion of initial bill purchases starting December 12, to maintain ample reserves. This is not itself evidence of deficit monetization as the causal motive."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "137-C03",
+      "claim": "Debt ceiling can release Treasury cash.",
+      "kind": "explanation",
+      "source_blocks": [
+        24,
+        25
+      ],
+      "family": "debt-ceiling-tga-liquidity",
+      "asset_or_variable": "debt-ceiling-tga-liquidity",
+      "horizon": null,
+      "conditions": "Ceiling binds in 2025",
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The ceiling bound in 2025 and Treasury cash was drawn down, so this is no longer a pending scenario. The cash-release mechanism is supported, while the final reserve effect depends on the rest of the Fed balance sheet.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.gao.gov/products/gao-26-107908",
+          "title": "Fiscal2025 federal debt audit",
+          "publisher": "GAO",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "Debt ceiling reinstatedJanuary2 2025; extraordinary measuresJanuary21-July7; July4 law raised limit$5tn to$41.1tn. FY2025deficit$1.8tn."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/WTREGEN",
+          "title": "Treasury cash observations",
+          "publisher": "FRED / Federal Reserve",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Weekly WTREGEN January 1, 2025 $719.873bn; April 9, 2025 $306.049bn, a $413.824bn drawdown during the extraordinary-measures period. Latest vintage downloaded November 7, 2026. Reserve effects also depend on other liabilities and assets."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "137-C04",
+      "claim": "Global money breaks upward in 2025.",
+      "kind": "forecast",
+      "source_blocks": [
+        26
+      ],
+      "family": "global-liquidity-upcycle",
+      "asset_or_variable": "global-liquidity-upcycle",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The specific global basket is not reproduced. U.S. M2 cannot stand in for a multi-country USD-converted measure.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Aggregate cited country M2 series and currencies."
+    },
+    {
+      "id": "137-C05",
+      "claim": "Dollar weakens with renewed expansion.",
+      "kind": "forecast",
+      "source_blocks": [
+        27
+      ],
+      "family": "dollar-liquidity-reversal",
+      "asset_or_variable": "dollar-liquidity-reversal",
+      "horizon": null,
+      "conditions": "Fed resumes expansion",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "This is a conditional dollar stance. A coincident dollar decline can reflect relative growth or foreign policy changes rather than Fed asset purchases.",
+      "direction_assessment": "Trigger and outcome have not both been established.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Measure dollar response after December 2025 separately from earlier moves."
+    },
+    {
+      "id": "137-C06",
+      "claim": "Fiscal support defeats mechanical recession signals.",
+      "kind": "explanation",
+      "source_blocks": [
+        30,
+        43
+      ],
+      "family": "fiscal-recession-indicator-break",
+      "asset_or_variable": "fiscal-recession-indicator-break",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Avoiding a predicted recession does not identify fiscal policy as the entire cause. Indicator calibration, supply recovery and household buffers are alternatives.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare dated LEI predictions with recession dating and controlled fiscal-shock estimates."
+    },
+    {
+      "id": "137-C07",
+      "claim": "Authorities resist severe liquidity contraction.",
+      "kind": "forecast",
+      "source_blocks": [
+        41,
+        43
+      ],
+      "family": "treasury-liquidity-backstop",
+      "asset_or_variable": "treasury-liquidity-backstop",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The reaction-function thesis has no objective severity trigger or deadline; selected interventions cannot establish an unconditional floor.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "137-C08",
+      "claim": "Crypto political opposition is weakening.",
+      "kind": "explanation",
+      "source_blocks": [
+        46,
+        51
+      ],
+      "family": "crypto-political-shift",
+      "asset_or_variable": "crypto-political-shift",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Bipartisan votes are observable; durable policy change requires enacted rules and enforcement changes, not a single vote.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare legislative votes, vetoes and subsequent enacted policy."
+    },
+    {
+      "id": "137-C09",
+      "claim": "Spot ether funds launch soon.",
+      "kind": "forecast",
+      "source_blocks": [
+        51
+      ],
+      "family": "ethereum-etf-launch",
+      "asset_or_variable": "ethereum-etf-launch",
+      "horizon": "Weeks to months",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "A U.S. spot ether product began trading July 23, within weeks to months of publication.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Weeks to months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2011535/000201153524000019/franklinethereumetfpressrele.htm",
+          "title": "Franklin Ethereum ETF launch",
+          "publisher": "Franklin Templeton via SEC",
+          "date": "2024-07-23",
+          "verified": true,
+          "finding": "The spot ether ETF EZET began exchange trading on July 23, 2024."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "137-C10",
+      "claim": "Mining monetizes otherwise stranded electricity.",
+      "kind": "explanation",
+      "source_blocks": [
+        54,
+        63
+      ],
+      "family": "bitcoin-stranded-energy",
+      "asset_or_variable": "bitcoin-stranded-energy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Interruptibility can make mining useful, but actual net benefit requires curtailment baselines, grid costs and alternative buyers. A company partnership announcement is not a measured outcome.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Audit project energy flows, subsidies, uptime and alternative uses."
+    },
+    {
+      "id": "137-C11",
+      "claim": "AI demands differ from mining.",
+      "kind": "explanation",
+      "source_blocks": [
+        61,
+        63
+      ],
+      "family": "ai-versus-mining-infrastructure",
+      "asset_or_variable": "ai-versus-mining-infrastructure",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Mining is unusually location-flexible and interruptible. AI inference may need latency and reliable connectivity, but model training is not uniformly close to end users; the generalization needs workload separation.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare training and inference uptime, networking and location constraints."
+    },
+    {
+      "id": "137-C12",
+      "claim": "Curve fits cannot determine bitcoin demand.",
+      "kind": "explanation",
+      "source_blocks": [
+        66,
+        106
+      ],
+      "family": "bitcoin-model-uncertainty",
+      "asset_or_variable": "bitcoin-model-uncertainty",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Extrapolating past prices is not an identified demand model. Model fit alone cannot establish invariant future adoption or causal law; the earlier 2020 target is historical, not a fresh forecast.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Narrow deductive identity only; no empirical forecasting credit.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Only a finite historical set of price observations is known",
+          "No independently established structural demand restriction"
+        ],
+        "derivation": "Infinitely many functions fit the same finite observations yet diverge afterward. Historical fit alone therefore does not uniquely determine future prices."
+      }
+    },
+    {
+      "id": "137-C13",
+      "claim": "Protocol entrenchment creates bitcoin resilience.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        109
+      ],
+      "family": "bitcoin-network-moat",
+      "asset_or_variable": "bitcoin-network-moat",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Entrenchment is a plausible qualitative advantage, but there is no quantified failure probability or valuation translation.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "137-C14",
+      "claim": "Cash and sovereign bonds lag scarcity.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        111
+      ],
+      "family": "hard-assets-over-fiat",
+      "asset_or_variable": "hard-assets-over-fiat",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Expected purchasing-power loss does not establish superiority across every horizon or liability need; no explicit comparator period is given.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "137-C15",
+      "claim": "Liquidity is bitcoin principal macro correlate.",
+      "kind": "empirical",
+      "source_blocks": [
+        114
+      ],
+      "family": "bitcoin-liquidity-beta",
+      "asset_or_variable": "bitcoin-liquidity-beta",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The strongest-correlate assertion requires a common sampling window, lag, currency definitions and comparisons with equity/risk measures.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Run pre-specified rolling correlations and out-of-sample tests against rival variables."
+    },
+    {
+      "id": "137-C16",
+      "claim": "Mining economics and cohorts guide valuation.",
+      "kind": "explanation",
+      "source_blocks": [
+        116,
+        122
+      ],
+      "family": "bitcoin-onchain-valuation",
+      "asset_or_variable": "bitcoin-onchain-valuation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Production costs respond to bitcoin price and competition, creating endogeneity. Cohort metrics need wallet-classification controls.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Test energy gravity and cohort thresholds without refitting to outcomes."
+    },
+    {
+      "id": "137-C17",
+      "claim": "Bitcoin retains intermediate upside.",
+      "kind": "forecast",
+      "source_blocks": [
+        123
+      ],
+      "family": "bitcoin-2023-2025-bull",
+      "asset_or_variable": "bitcoin-2023-2025-bull",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The source says fundamentals are strong and cyclical measures are not especially overheated; it does not specify a price target, return hurdle or intermediate-term endpoint. A selected later peak cannot convert that valuation judgment into a completed forecast.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin USD observations",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Public CSV downloaded November 7: 2024-05-26 $68474.60; 2025-10-06 $121393.95. Endpoint direction only; no strategy return, transaction-cost or timing-optimality claim."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "137-C18",
+      "claim": "Emerging markets may begin relative recovery.",
+      "kind": "forecast",
+      "source_blocks": [
+        140,
+        145
+      ],
+      "family": "em-relative-bottom",
+      "asset_or_variable": "em-relative-bottom",
+      "horizon": "Eighteen to twenty-four months",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The 18-24 month window has elapsed by May 2026. Currency-adjusted total-return benchmarks are needed; equipment earnings alone do not settle the regional call.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "Eighteen to twenty-four months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare EM and developed-market reinvested indexes through November 2025 and May 2026."
+    },
+    {
+      "id": "137-C19",
+      "claim": "Komatsu benefits from commodity capital spending.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        151,
+        162,
+        181
+      ],
+      "family": "komatsu-commodity-cycle",
+      "asset_or_variable": "komatsu-commodity-cycle",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The thesis allows years of delay and provides no terminal valuation or benchmark. Mining activity, replacement demand and currency translation need separate treatment.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "137-C20",
+      "claim": "The commodity cycle bottomed around 2020.",
+      "kind": "empirical",
+      "source_blocks": [
+        172,
+        177
+      ],
+      "family": "commodity-secular-bottom",
+      "asset_or_variable": "commodity-secular-bottom",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A secular low requires choosing a commodity basket and nominal versus real units; disparate commodities can make different lows.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Test broad real commodity indexes and mining-capex indicators against 2020."
+    },
+    {
+      "id": "137-C21",
+      "claim": "Komatsu is cheaper than Caterpillar.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        191
+      ],
+      "family": "komatsu-relative-value",
+      "asset_or_variable": "komatsu-relative-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Cyclically adjusted earnings and currency accounting must be normalized. A cheaper multiple is not necessarily mispricing or future outperformance.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reproduce CAPE inputs, pension adjustments and geographic earnings exposure."
+    },
+    {
+      "id": "137-C22",
+      "claim": "Yen liabilities hedge foreign revenue.",
+      "kind": "explanation",
+      "source_blocks": [
+        196
+      ],
+      "family": "komatsu-currency-hedge",
+      "asset_or_variable": "komatsu-currency-hedge",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Foreign revenue translated into yen can offset yen debt, but transaction exposure, foreign costs and operational hedges determine net sensitivity.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconcile currency sensitivity from annual report disclosures."
+    },
+    {
+      "id": "137-C23",
+      "claim": "Komatsu dividends remain attractive.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        197
+      ],
+      "family": "komatsu-distributions",
+      "asset_or_variable": "komatsu-distributions",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The next annual dividend rose to 190 yen from 167, supporting the distribution premise. USD receipts and equity total return depend on currency and withholding.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.komatsu.jp/en/newsroom/2025/20250428_1",
+          "title": "Komatsu year ended March 2025 results",
+          "publisher": "Komatsu",
+          "date": "2025-04-28",
+          "verified": true,
+          "finding": "Annual dividend reached 190 yen, up from 167 yen in the preceding year."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "137-C24",
+      "claim": "Repurchases can enhance per-share value.",
+      "kind": "explanation",
+      "source_blocks": [
+        199,
+        200
+      ],
+      "family": "komatsu-capital-return",
+      "asset_or_variable": "komatsu-capital-return",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Authorization does not equal execution; value creation requires repurchase price below intrinsic value and comparison with alternative investment.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "137-C25",
+      "claim": "Patience may be needed for revaluation.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        203
+      ],
+      "family": "komatsu-value-horizon",
+      "asset_or_variable": "komatsu-value-horizon",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "An explicit warning that shares may remain stagnant for years limits the timing claim; it must not be transformed into a near-term target.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "137-C26",
+      "claim": "Weak yen helps against Chinese competitors.",
+      "kind": "explanation",
+      "source_blocks": [
+        205
+      ],
+      "family": "komatsu-export-competition",
+      "asset_or_variable": "komatsu-export-competition",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Currency assists pricing, but Chinese market-share gains, product quality and local procurement policy can outweigh it.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Track share and margins by geography and currency-adjusted segment."
+    },
+    {
+      "id": "137-C27",
+      "claim": "Rate cuts will not recreate refinancing boom.",
+      "kind": "forecast",
+      "source_blocks": [
+        208,
+        216
+      ],
+      "family": "mortgage-lock-in",
+      "asset_or_variable": "mortgage-lock-in",
+      "horizon": "Next easing cycle",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "After the 2024 easing cycle, the 30-year mortgage rate was still 6.85%, far above the old refinancing trough. This supports the limited absence-of-new-lows claim.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Next easing cycle",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+          "title": "September 2024 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2024-09-18",
+          "verified": true,
+          "finding": "The Fed cut its target by 50 basis points to 4.75-5.00%, while describing inflation as still elevated and continuing securities runoff."
+        },
+        {
+          "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-continue-rise-2/",
+          "title": "Mortgage rates continue to rise",
+          "publisher": "Freddie Mac",
+          "date": "2024-12-26",
+          "verified": true,
+          "finding": "The 30-year mortgage survey rate was 6.85%, far above the 2021 refinancing trough despite 2024 Fed rate cuts."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "137-C28",
+      "claim": "Easing delivers weaker domestic stimulus.",
+      "kind": "explanation",
+      "source_blocks": [
+        216
+      ],
+      "family": "mortgage-refinancing-transmission",
+      "asset_or_variable": "mortgage-refinancing-transmission",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Higher mortgage rates constrain cash-flow refinancing, but aggregate stimulus also comes from credit, asset prices and fiscal policy.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-continue-rise-2/",
+          "title": "Mortgage rates continue to rise",
+          "publisher": "Freddie Mac",
+          "date": "2024-12-26",
+          "verified": true,
+          "finding": "The 30-year mortgage survey rate was 6.85%, far above the 2021 refinancing trough despite 2024 Fed rate cuts."
+        }
+      ],
+      "next_check": "Measure refinancing volumes and net household cash-flow changes, not just rates."
+    },
+    {
+      "id": "137-C29",
+      "claim": "Emerging markets gain most from easing.",
+      "kind": "forecast",
+      "source_blocks": [
+        217
+      ],
+      "family": "em-fed-easing-benefit",
+      "asset_or_variable": "em-fed-easing-benefit",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Most is a relative outcome claim requiring a benchmark basket and common window. A weaker dollar does not automatically dominate growth shocks.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare EM, U.S. and developed-ex-U.S. returns after September 2024 easing."
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "MVRV and energy gravity",
+      "source_blocks": [
+        116,
+        122
+      ],
+      "use": "Valuation",
+      "image_inspected": false
+    },
+    {
+      "name": "CAPE",
+      "source_blocks": [
+        191
+      ],
+      "use": "Cycle adjustment",
+      "image_inspected": false
+    },
+    {
+      "name": "Mortgage history",
+      "source_blocks": [
+        208
+      ],
+      "use": "Transmission",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Treat models as conditional tools."
+  ],
+  "assessment": "The ether-ETF timing, 2025 Fed turn and absence of a new mortgage-rate trough are supported. The report is appropriately skeptical of deterministic bitcoin price models. Komatsu valuation and EM rotation need independent relative-return testing; the thesis expressly allows a long wait.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

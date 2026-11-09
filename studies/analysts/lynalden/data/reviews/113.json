@@ -1,0 +1,1301 @@
+{
+  "article_id": "113",
+  "title": "Liquidity, Business Cycle, and Shale Updates",
+  "date": "2023-06-24",
+  "source_url": "https://www.lynalden.com/premium-2023-6-25/",
+  "read_complete": true,
+  "summary": "Funding offsets and commodity supply constraints.",
+  "coverage_note": "All article text blocks were read. Ledger covers material macro, investment, and causal propositions; incidental descriptive statistics, boilerplate, and unreasoned position lists are excluded. Image labels were read, not image pixels.",
+  "claims": [
+    {
+      "claim": "Liquidity shapes asset cycles",
+      "source_blocks": [
+        9,
+        13
+      ],
+      "kind": "explanation",
+      "family": "net-liquidity-risk-assets",
+      "verdict": "mixed",
+      "reason": "The flow framework describes important funding changes, but an ex post regime map does not establish that liquidity was the largest driver in every multi-month interval. Earnings, policy expectations and supply shocks must be considered independently.",
+      "evidence": [
+        {
+          "url": "https://www.kansascityfed.org/research/economic-bulletin/rapid-declines-in-the-feds-overnight-reverse-repurchase-on-rrp-facility-may-start-to-slow/",
+          "title": "ON RRP declines and bills",
+          "publisher": "Federal Reserve Bank of Kansas City",
+          "date": "2023-11-10",
+          "verified": true,
+          "finding": "Bill issuance after the debt-limit agreement drew money-fund cash from ON RRP into the TGA; higher relative bill yields attracted allocations.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2024-ar-monetary-policy.htm",
+          "title": "2024 Annual Report: Monetary Policy",
+          "publisher": "Federal Reserve",
+          "date": null,
+          "verified": true,
+          "finding": "Policy rates exceeded PCE inflation during sustained restriction.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "net-liquidity-risk-assets",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C01"
+    },
+    {
+      "claim": "RRP supplies rate floor",
+      "source_blocks": [
+        18,
+        20
+      ],
+      "kind": "explanation",
+      "family": "reverse-repo-rate-floor",
+      "verdict": "right",
+      "reason": "The facility gives eligible cash investors an administered-rate alternative and competes with bills. It supports money-market rate control; it is not a strict guarantee that every individual Treasury bill must trade above the facility rate.",
+      "evidence": [
+        {
+          "url": "https://www.kansascityfed.org/research/economic-bulletin/rapid-declines-in-the-feds-overnight-reverse-repurchase-on-rrp-facility-may-start-to-slow/",
+          "title": "ON RRP declines and bills",
+          "publisher": "Federal Reserve Bank of Kansas City",
+          "date": "2023-11-10",
+          "verified": true,
+          "finding": "Bill issuance after the debt-limit agreement drew money-fund cash from ON RRP into the TGA; higher relative bill yields attracted allocations.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "reverse-repo-rate-floor",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C02"
+    },
+    {
+      "claim": "Yield gaps pull deposits",
+      "source_blocks": [
+        20,
+        26
+      ],
+      "kind": "explanation",
+      "family": "deposit-moneyfund-yield-migration",
+      "verdict": "mixed",
+      "reason": "Money funds grew and banks faced deposit repricing, consistent with the channel. A money-fund purchase does not invariably destroy aggregate deposits; the final seller and use of proceeds determine system-wide effects. Government funds and prime funds also carry different risks.",
+      "evidence": [
+        {
+          "url": "https://content.schwab.com/web/retail/public/about-schwab/schw_q4_2023_earnings_release.pdf",
+          "title": "2023 results",
+          "publisher": "Charles Schwab",
+          "date": "2024-01-17",
+          "verified": true,
+          "finding": "2023 net revenues declined 9% to $18.8bn; net interest revenue fell 12% to $9.4bn as cash sorting and costly supplemental funding outweighed higher yields. Client assets reached $8.5tn.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/insights-from-mmf-portfolio-allocations-amid-balance-sheet-normalization-20250303.html",
+          "title": "MMF portfolio allocations",
+          "publisher": "Federal Reserve",
+          "date": "2025-03-03",
+          "verified": true,
+          "finding": "April 2023-November 2024 money-fund bill holdings rose roughly $1.7tn and private Treasury repo $0.9tn as ON RRP use fell about $2tn.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "deposit-moneyfund-yield-migration",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C03"
+    },
+    {
+      "claim": "Bills unlock RRP balances",
+      "source_blocks": [
+        28,
+        40
+      ],
+      "kind": "forecast",
+      "family": "treasury-bills-rrp-offset",
+      "verdict": "right",
+      "reason": "Large post-debt-limit bill issuance drew money-fund allocations away from ON RRP, exactly the offset identified. This corrects the earlier overly one-way TGA-drain narrative and is supported by subsequent Fed research.",
+      "evidence": [
+        {
+          "url": "https://www.kansascityfed.org/research/economic-bulletin/rapid-declines-in-the-feds-overnight-reverse-repurchase-on-rrp-facility-may-start-to-slow/",
+          "title": "ON RRP declines and bills",
+          "publisher": "Federal Reserve Bank of Kansas City",
+          "date": "2023-11-10",
+          "verified": true,
+          "finding": "Bill issuance after the debt-limit agreement drew money-fund cash from ON RRP into the TGA; higher relative bill yields attracted allocations.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/insights-from-mmf-portfolio-allocations-amid-balance-sheet-normalization-20250303.html",
+          "title": "MMF portfolio allocations",
+          "publisher": "Federal Reserve",
+          "date": "2025-03-03",
+          "verified": true,
+          "finding": "April 2023-November 2024 money-fund bill holdings rose roughly $1.7tn and private Treasury repo $0.9tn as ON RRP use fell about $2tn.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Post-debt-ceiling refill",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "treasury-bills-rrp-offset",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Post-debt-ceiling refill",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "113-C04"
+    },
+    {
+      "claim": "Short issuance raises financing cost",
+      "source_blocks": [
+        30,
+        33
+      ],
+      "kind": "explanation",
+      "family": "treasury-maturity-liquidity-tradeoff",
+      "verdict": "mixed",
+      "reason": "With an inverted curve, bills initially paid more than longer bonds and offered cash investors a substitute for RRP. However, average outstanding maturity, marginal issuance maturity and duration are different quantities; expected future rate changes also affect total financing cost.",
+      "evidence": [
+        {
+          "url": "https://www.kansascityfed.org/research/economic-bulletin/rapid-declines-in-the-feds-overnight-reverse-repurchase-on-rrp-facility-may-start-to-slow/",
+          "title": "ON RRP declines and bills",
+          "publisher": "Federal Reserve Bank of Kansas City",
+          "date": "2023-11-10",
+          "verified": true,
+          "finding": "Bill issuance after the debt-limit agreement drew money-fund cash from ON RRP into the TGA; higher relative bill yields attracted allocations.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/tips-from-tips-update-and-discussions-20190521.html",
+          "title": "Tips from TIPS",
+          "publisher": "Federal Reserve",
+          "date": "2019-05-21",
+          "verified": true,
+          "finding": "Nominal yields decompose into expected real short rates, expected inflation, inflation risk premium and real term premium; breakevens also contain liquidity effects.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "treasury-maturity-liquidity-tradeoff",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C05"
+    },
+    {
+      "claim": "First-half liquidity call worked",
+      "source_blocks": [
+        35
+      ],
+      "kind": "empirical",
+      "family": "2023-first-half-liquidity-recap",
+      "verdict": "mixed",
+      "reason": "TGA drawdown did offset QT, but the March emergency balance-sheet expansion was material and not the initial forecast. Sideways is a rough regime description, not exact flatness or a fully prespecified causal model.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312a.htm",
+          "title": "Bank Term Funding Program",
+          "publisher": "Federal Reserve",
+          "date": "2023-03-12",
+          "verified": true,
+          "finding": "Introduced one-year bank loans against eligible government/agency securities valued at par, during SVB and Signature failures.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.kansascityfed.org/research/economic-bulletin/rapid-declines-in-the-feds-overnight-reverse-repurchase-on-rrp-facility-may-start-to-slow/",
+          "title": "ON RRP declines and bills",
+          "publisher": "Federal Reserve Bank of Kansas City",
+          "date": "2023-11-10",
+          "verified": true,
+          "finding": "Bill issuance after the debt-limit agreement drew money-fund cash from ON RRP into the TGA; higher relative bill yields attracted allocations.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2023-first-half-liquidity-recap",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C06"
+    },
+    {
+      "claim": "Liquidity outlook now neutral",
+      "source_blocks": [
+        41
+      ],
+      "kind": "investment_thesis",
+      "family": "2023-liquidity-neutral-revision",
+      "verdict": "not_testable",
+      "reason": "An explicit neutral stance with a requirement for more data is a useful update, not a bullish forecast to credit after the rally. Keep it chronologically separate from the prior defensive hedge.",
+      "evidence": [
+        {
+          "url": "https://www.kansascityfed.org/research/economic-bulletin/rapid-declines-in-the-feds-overnight-reverse-repurchase-on-rrp-facility-may-start-to-slow/",
+          "title": "ON RRP declines and bills",
+          "publisher": "Federal Reserve Bank of Kansas City",
+          "date": "2023-11-10",
+          "verified": true,
+          "finding": "Bill issuance after the debt-limit agreement drew money-fund cash from ON RRP into the TGA; higher relative bill yields attracted allocations.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Link subsequent stance change and observable money-fund/RRP thresholds.",
+      "asset_or_variable": "2023-liquidity-neutral-revision",
+      "modality": "neutral",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C07"
+    },
+    {
+      "claim": "Megacaps could correct",
+      "source_blocks": [
+        42
+      ],
+      "kind": "forecast",
+      "family": "megacap-valuation-liquidity-gap",
+      "verdict": "not_testable",
+      "reason": "Could and a bit provide neither a probability nor a drawdown threshold. A later correction would not establish that a liquidity gap, rather than rates or earnings, caused it.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2024-ar-monetary-policy.htm",
+          "title": "2024 Annual Report: Monetary Policy",
+          "publisher": "Federal Reserve",
+          "date": null,
+          "verified": true,
+          "finding": "Policy rates exceeded PCE inflation during sustained restriction.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Set benchmark, magnitude and interval before scoring.",
+      "asset_or_variable": "megacap-valuation-liquidity-gap",
+      "modality": "possible",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "113-C08"
+    },
+    {
+      "claim": "Housing lock-in aids builders",
+      "source_blocks": [
+        53
+      ],
+      "kind": "explanation",
+      "family": "mortgage-lockin-homebuilder-share",
+      "verdict": "right",
+      "reason": "Research confirms that low fixed-rate mortgages constrained existing-home supply; major builders sustained deliveries and used incentives. This explains why expensive mortgages need not hurt new construction as much as existing-home turnover.",
+      "evidence": [
+        {
+          "url": "https://www.fhfa.gov/research/papers/wp2403",
+          "title": "Mortgage lock-in research",
+          "publisher": "FHFA",
+          "date": null,
+          "verified": true,
+          "finding": "Empirical research estimates mortgage-rate lock-in materially reduced home sales during 2022-2024; model estimates are not direct counts.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://investor.drhorton.com/news-and-events/press-releases/2023/11-07-2023-113102902",
+          "title": "Fiscal 2023 results",
+          "publisher": "D.R. Horton",
+          "date": "2023-11-07",
+          "verified": true,
+          "finding": "FY2023 revenue rose 6%, EPS fell 16%; operating cash flow 4.3b, leverage 18.3%, shares reduced 3%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "mortgage-lockin-homebuilder-share",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C09"
+    },
+    {
+      "claim": "Mild stagflationary recession favored",
+      "source_blocks": [
+        44,
+        56,
+        70
+      ],
+      "kind": "forecast",
+      "family": "2023-stagflationary-recession",
+      "verdict": "wrong",
+      "reason": "This section explicitly identifies a base case, unlike a mere risk caveat. The remainder of 2023 delivered growth and disinflation with no NBER recession. The mildness argument cannot rescue a recession that did not occur in the proposed episode.",
+      "evidence": [
+        {
+          "url": "https://www.nber.org/research/business-cycle-dating",
+          "title": "Business Cycle Dating",
+          "publisher": "NBER",
+          "date": null,
+          "verified": true,
+          "finding": "Official chronology identifies April 2020 as the pandemic recession trough; no 2022 recession is dated.",
+          "verification_method": "retrieved official chronology search extract; direct page denied"
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/GDPC1",
+          "title": "Real GDP",
+          "publisher": "BEA via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Real GDP rose from 22001.640bn inQ 42021 to 22272.546bn inQ 42022, about 1.23%, versus about 4.24% fromQ 12021 toQ 42021 alone.",
+          "verification_method": "computed from downloaded latest-vintage CSV; not a real-time vintage"
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2024-ar-monetary-policy.htm",
+          "title": "2024 Annual Report: Monetary Policy",
+          "publisher": "Federal Reserve",
+          "date": null,
+          "verified": true,
+          "finding": "Policy rates exceeded PCE inflation during sustained restriction.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Later 2023 / upcoming cycle",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2023-stagflationary-recession",
+      "modality": "base case",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Later 2023 / upcoming cycle",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "113-C10"
+    },
+    {
+      "claim": "Demographics constrain labor slack",
+      "source_blocks": [
+        61
+      ],
+      "kind": "explanation",
+      "family": "aging-blue-collar-labor-shortage",
+      "verdict": "mixed",
+      "reason": "Aging can constrain labor supply, but participation, immigration, wages and occupational retraining also move the available workforce. This mechanism did not imply the forecast combination of recession and persistent inflation.",
+      "evidence": [
+        {
+          "url": "https://www.nber.org/research/business-cycle-dating",
+          "title": "Business Cycle Dating",
+          "publisher": "NBER",
+          "date": null,
+          "verified": true,
+          "finding": "Official chronology identifies April 2020 as the pandemic recession trough; no 2022 recession is dated.",
+          "verification_method": "retrieved official chronology search extract; direct page denied"
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2024-ar-monetary-policy.htm",
+          "title": "2024 Annual Report: Monetary Policy",
+          "publisher": "Federal Reserve",
+          "date": null,
+          "verified": true,
+          "finding": "Policy rates exceeded PCE inflation during sustained restriction.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "aging-blue-collar-labor-shortage",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C11"
+    },
+    {
+      "claim": "Deficits cushion contractions",
+      "source_blocks": [
+        62,
+        68
+      ],
+      "kind": "explanation",
+      "family": "fiscal-deficit-recession-buffer",
+      "verdict": "mixed",
+      "reason": "Large fiscal transfers can stabilize income, but a deficit is not the same as its incremental demand impulse. Automatic stabilizers, foreign recipients and interest-saving propensities matter. Resilient growth is compatible with the channel without proving fiscal deficits were sufficient by themselves.",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy1829",
+          "title": "FY2023 budget results",
+          "publisher": "US Treasury",
+          "date": "2023-10-20",
+          "verified": true,
+          "finding": "Receipts were $4,439.3b, down from $4,896.1b in FY2022; deficit $1.7tn.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.cbo.gov/system/files/2025-03/61181-Federal-Budget.pdf",
+          "title": "FY2024 budget infographic",
+          "publisher": "CBO",
+          "date": "2025-03-20",
+          "verified": true,
+          "finding": "Net interest USD 881b exceeded discretionary defense USD 850b; debt held by public 98% of GDP and deficit USD 1.8tn.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/GDPC1",
+          "title": "Real GDP",
+          "publisher": "BEA via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Real GDP rose from 22001.640bn inQ 42021 to 22272.546bn inQ 42022, about 1.23%, versus about 4.24% fromQ 12021 toQ 42021 alone.",
+          "verification_method": "computed from downloaded latest-vintage CSV; not a real-time vintage"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "fiscal-deficit-recession-buffer",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C12"
+    },
+    {
+      "claim": "Large deficits persist this decade",
+      "source_blocks": [
+        67
+      ],
+      "kind": "forecast",
+      "family": "persistent-fiscal-deficits-2020s",
+      "verdict": "too_early",
+      "reason": "The decade continues through 2029; fiscal deficits remained large, but high single digits every year is stronger than simply persistent deficits. Gross versus net interest and student-loan accounting must be consistently defined.",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy1829",
+          "title": "FY2023 budget results",
+          "publisher": "US Treasury",
+          "date": "2023-10-20",
+          "verified": true,
+          "finding": "Receipts were $4,439.3b, down from $4,896.1b in FY2022; deficit $1.7tn.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.cbo.gov/system/files/2025-03/61181-Federal-Budget.pdf",
+          "title": "FY2024 budget infographic",
+          "publisher": "CBO",
+          "date": "2025-03-20",
+          "verified": true,
+          "finding": "Net interest USD 881b exceeded discretionary defense USD 850b; debt held by public 98% of GDP and deficit USD 1.8tn.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Rest of 2020s",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "persistent-fiscal-deficits-2020s",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Rest of 2020s",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "113-C13"
+    },
+    {
+      "claim": "Commodity spare capacity limited",
+      "source_blocks": [
+        69
+      ],
+      "kind": "explanation",
+      "family": "commodity-underinvestment-supply-tightness",
+      "verdict": "mixed",
+      "reason": "Long investment lags can constrain supply, but US oil output grew despite lower rigs. A broad no-spare-capacity statement needs separate OPEC capacity, inventory and demand assessments, not an aggregate capex analogy.",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=61545",
+          "title": "United States produces more crude oil than any country, ever",
+          "publisher": "EIA",
+          "date": "2024-03-11",
+          "verified": true,
+          "finding": "2023 production set a record, driven by Permian growth.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.eia.gov/dnav/pet/hist/leafhandler.ashx?f=m&n=pet&s=mcrfpus2",
+          "title": "Monthly US crude production",
+          "publisher": "EIA",
+          "date": null,
+          "verified": true,
+          "finding": "Latest vintage: June 2023 12.826mb/d; June 2024 13.243mb/d, +3.25%. Monthly averages are revised and are not the originally available weekly estimates.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.iea.org/reports/the-role-of-critical-minerals-in-clean-energy-transitions",
+          "title": "Critical minerals and clean energy",
+          "publisher": "IEA",
+          "date": "2021-05-05",
+          "verified": true,
+          "finding": "Clean-energy deployment requires rapid mineral-demand growth; supply investment, diversification and recycling affect feasibility.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "commodity-underinvestment-supply-tightness",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C14"
+    },
+    {
+      "claim": "Illiquid Bitcoin amplifies demand",
+      "source_blocks": [
+        73,
+        77
+      ],
+      "kind": "explanation",
+      "family": "bitcoin-illiquid-supply-cycle",
+      "verdict": "mixed",
+      "reason": "Thin freely traded supply can amplify incremental demand, but on-chain holder-age labels are not binding commitments: dormant owners may sell when price rises. New altcoin issuance competes for attention but is not mechanically interchangeable Bitcoin supply.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1980994/000143774925006260/bit20241231_10k.htm",
+          "title": "2024 Form 10-K",
+          "publisher": "iShares Bitcoin Trust / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Fund began trading January 2024; year-end cost of Bitcoin investments $37.373bn, distinct from market-value appreciation. Filing describes share issuance/redemption and custody.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://investor.coinbase.com/files/doc_financials/2022/q4/Shareholder-Letter-Q4-2022.pdf",
+          "title": "Q4 and Full-Year 2022 shareholder letter",
+          "publisher": "Coinbase",
+          "date": "2023-02-21",
+          "verified": true,
+          "finding": "A deep 2022 crypto bear market replaced late-2021 optimism.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bitcoin-illiquid-supply-cycle",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C15"
+    },
+    {
+      "claim": "PMI and halving drive rallies",
+      "source_blocks": [
+        75
+      ],
+      "kind": "explanation",
+      "family": "bitcoin-liquidity-pmi-halving",
+      "verdict": "mixed",
+      "reason": "The halving mechanically reduces new issuance, while demand and positioning determine price. Bitcoin rallied during 2023 despite manufacturing PMI remaining below 50, so PMI improvement is not a necessary condition and the tiny historical sample cannot isolate the halving effect.",
+      "evidence": [
+        {
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2024/2024-01/rob-roundup-december-2023-manufacturing-pmi/",
+          "title": "December 2023 manufacturing PMI",
+          "publisher": "ISM",
+          "date": "2024-01-03",
+          "verified": true,
+          "finding": "PMI 47.4, the fourteenth consecutive month below 50; 2023 peak 49 in September, trough 46 in June.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.coinbase.com/bytes/archive/bitcoins-latest-all-time-high",
+          "title": "Bitcoin latest all-time high",
+          "publisher": "Coinbase",
+          "date": "2024-03-13",
+          "verified": true,
+          "finding": "Bitcoin exceeded $73,000 in March 2024.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bitcoin-liquidity-pmi-halving",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C16"
+    },
+    {
+      "claim": "ETF approval boosts Bitcoin",
+      "source_blocks": [
+        79,
+        84
+      ],
+      "kind": "forecast",
+      "family": "bitcoin-spot-etf-demand",
+      "verdict": "right",
+      "reason": "Spot products were approved in January 2024, substantial actual fund purchases followed, and Bitcoin reached a new record in March. This supports the conditional access-demand channel; it does not assign the entire rally to BlackRock or turn approval into a guarantee against manipulation.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1588489/000095017025029408/gbtc-20241231.htm",
+          "title": "GBTC 2024 Form 10-K",
+          "publisher": "Grayscale / SEC",
+          "date": "2025-02-24",
+          "verified": true,
+          "finding": "NYSE Arca trading began January 11, 2024 after approval; 2024 average premium 0.08%, average discount 0.10%; July 2024 mini-trust distribution affects later return reconstruction.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1980994/000143774925006260/bit20241231_10k.htm",
+          "title": "2024 Form 10-K",
+          "publisher": "iShares Bitcoin Trust / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Fund began trading January 2024; year-end cost of Bitcoin investments $37.373bn, distinct from market-value appreciation. Filing describes share issuance/redemption and custody.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.coinbase.com/bytes/archive/bitcoins-latest-all-time-high",
+          "title": "Bitcoin latest all-time high",
+          "publisher": "Coinbase",
+          "date": "2024-03-13",
+          "verified": true,
+          "finding": "Bitcoin exceeded $73,000 in March 2024.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Intermediate term after approval",
+      "conditions": "US spot product approved",
+      "next_check": null,
+      "asset_or_variable": "bitcoin-spot-etf-demand",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Intermediate term after approval",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "113-C17"
+    },
+    {
+      "claim": "Trust form strengthens approval case",
+      "source_blocks": [
+        79,
+        82
+      ],
+      "kind": "explanation",
+      "family": "bitcoin-etf-legal-wrapper",
+      "verdict": "mixed",
+      "reason": "The sponsor and surveillance proposal mattered, but trust form is not a unique workaround that makes market manipulation disappear. Many commodity ETPs use trusts; historical approval percentages without a comparable application universe are weak probability estimates.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1980994/000143774925006260/bit20241231_10k.htm",
+          "title": "2024 Form 10-K",
+          "publisher": "iShares Bitcoin Trust / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Fund began trading January 2024; year-end cost of Bitcoin investments $37.373bn, distinct from market-value appreciation. Filing describes share issuance/redemption and custody.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1588489/000095017025029408/gbtc-20241231.htm",
+          "title": "GBTC 2024 Form 10-K",
+          "publisher": "Grayscale / SEC",
+          "date": "2025-02-24",
+          "verified": true,
+          "finding": "NYSE Arca trading began January 11, 2024 after approval; 2024 average premium 0.08%, average discount 0.10%; July 2024 mini-trust distribution affects later return reconstruction.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bitcoin-etf-legal-wrapper",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C18"
+    },
+    {
+      "claim": "Shale requires continuous replacement",
+      "source_blocks": [
+        100,
+        107
+      ],
+      "kind": "explanation",
+      "family": "shale-decline-duck-inventory",
+      "verdict": "right",
+      "reason": "Rapid well decline creates replacement drilling/completion needs, while DUC inventories can bridge timing. Operational efficiency and longer laterals can lower the number of rigs required per incremental barrel.",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=64124",
+          "title": "Record production from fewer rigs",
+          "publisher": "EIA",
+          "date": "2024-12-23",
+          "verified": true,
+          "finding": "Lower-48 production grew 3% year over year despite fewer rigs in most major regions; improved efficiency offsets declining drilling counts.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=61545",
+          "title": "United States produces more crude oil than any country, ever",
+          "publisher": "EIA",
+          "date": "2024-03-11",
+          "verified": true,
+          "finding": "2023 production set a record, driven by Permian growth.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "shale-decline-duck-inventory",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C19"
+    },
+    {
+      "claim": "Falling rigs stall production",
+      "source_blocks": [
+        101,
+        103
+      ],
+      "kind": "forecast",
+      "family": "2023-shale-stagnation",
+      "verdict": "wrong",
+      "reason": "Despite continued rig declines, June 2024 production was 13.243mb/d versus 12.826mb/d in June 2023, up 3.25%. EIA attributes output gains with fewer rigs to efficiency. The report acknowledged productivity in levels but underweighted its continuing effect on changes.",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/dnav/pet/hist/leafhandler.ashx?f=m&n=pet&s=mcrfpus2",
+          "title": "Monthly US crude production",
+          "publisher": "EIA",
+          "date": null,
+          "verified": true,
+          "finding": "Latest vintage: June 2023 12.826mb/d; June 2024 13.243mb/d, +3.25%. Monthly averages are revised and are not the originally available weekly estimates.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=64124",
+          "title": "Record production from fewer rigs",
+          "publisher": "EIA",
+          "date": "2024-12-23",
+          "verified": true,
+          "finding": "Lower-48 production grew 3% year over year despite fewer rigs in most major regions; improved efficiency offsets declining drilling counts.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Next year",
+      "conditions": "Rig downtrend persists",
+      "next_check": null,
+      "asset_or_variable": "2023-shale-stagnation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Next year",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "113-C20"
+    },
+    {
+      "claim": "DUC depletion raises capital needs",
+      "source_blocks": [
+        104,
+        107
+      ],
+      "kind": "explanation",
+      "family": "shale-duck-inventory-capex",
+      "verdict": "mixed",
+      "reason": "Lower ready-to-complete inventory can require more drilling, but it does not establish that aggregate spending or unit cost must rise: well productivity and project selection can offset it. Subsequent production growth with fewer rigs is strong counterevidence to a simple depletion-to-stagnation rule.",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=64124",
+          "title": "Record production from fewer rigs",
+          "publisher": "EIA",
+          "date": "2024-12-23",
+          "verified": true,
+          "finding": "Lower-48 production grew 3% year over year despite fewer rigs in most major regions; improved efficiency offsets declining drilling counts.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "shale-duck-inventory-capex",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C21"
+    },
+    {
+      "claim": "SPR refill supports oil",
+      "source_blocks": [
+        108,
+        110
+      ],
+      "kind": "forecast",
+      "family": "spr-refill-oil-support",
+      "verdict": "mixed",
+      "reason": "Purchases resumed in 2023 and release pressure diminished, supporting the direction of the flow change. The volumes were small relative to global supply, and this alone did not determine oil prices. Distinguish announced purchases from delivery dates and reserve-stock totals.",
+      "evidence": [
+        {
+          "url": "https://www.energy.gov/documents/spr-2023-annual-report-congress",
+          "title": "Strategic Petroleum Reserve annual report 2023",
+          "publisher": "US Department of Energy",
+          "date": null,
+          "verified": true,
+          "finding": "July 2026 report records June 2023 award for 3.1 million barrels in the summer oil purchase program.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.energy.gov/hgeo/opr/history-spr-releases",
+          "title": "History of SPR releases",
+          "publisher": "US Department of Energy",
+          "date": null,
+          "verified": true,
+          "finding": "A congressionally mandated sale released 26m barrels in FY2023, after the 2022 emergency release.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "spr-refill-oil-support",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "113-C22"
+    },
+    {
+      "claim": "Long reserves favor majors",
+      "source_blocks": [
+        111
+      ],
+      "kind": "investment_thesis",
+      "family": "oil-majors-long-reserve-value",
+      "verdict": "not_testable",
+      "reason": "BP three-year sensitivity was +26.22% versus SPY +76.41%. Positive returns and cash distributions do not validate the predicted shale stagnation or establish a relative advantage for all majors; the author gives no fixed horizon.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BP/history/",
+          "title": "BP three-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-06-24\", \"requested_endpoint\": \"2026-06-24\", \"entry\": \"2023-06-26\", \"exit\": \"2026-06-24\", \"days\": 1094, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"BP\": {\"entry_adjusted_close\": 29.63157844543457, \"exit_adjusted_close\": 37.40034103393555, \"cumulative_return_pct\": 26.217849321820164, \"annualized_return_pct\": 8.083859442865249, \"source\": \"https://finance.yahoo.com/quote/BP/history/\"}, \"SPY\": {\"entry_adjusted_close\": 414.6191101074219, \"exit_adjusted_close\": 731.4237060546875, \"cumulative_return_pct\": 76.40858518682028, \"annualized_return_pct\": 20.86614931503652, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -50.19073586500011}",
+          "verification_method": "computed USD adjusted close dividend/split proxy; no fees/taxes; evaluator window"
+        },
+        {
+          "url": "https://www.bp.com/content/dam/bp/business-sites/en/global/corporate/pdfs/investors/bp-fourth-quarter-2023-results.pdf",
+          "title": "2023 results",
+          "publisher": "BP",
+          "date": "2024-02-06",
+          "verified": true,
+          "finding": "2023 operating cash flow $32bn; net debt $20.9bn; quarterly dividend +10% year over year and continued buybacks; underlying profit per ADS $4.78 versus $8.74 in 2022.",
+          "verification_method": "indexed issuer release; direct PDF denied"
+        },
+        {
+          "url": "https://www.eia.gov/dnav/pet/hist/leafhandler.ashx?f=m&n=pet&s=mcrfpus2",
+          "title": "Monthly US crude production",
+          "publisher": "EIA",
+          "date": null,
+          "verified": true,
+          "finding": "Latest vintage: June 2023 12.826mb/d; June 2024 13.243mb/d, +3.25%. Monthly averages are revised and are not the originally available weekly estimates.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify producer cohort and horizon; separate reserve life, capital intensity, commodity prices and per-share returns.",
+      "asset_or_variable": "oil-majors-long-reserve-value",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C23"
+    },
+    {
+      "claim": "Majors fund capital returns",
+      "source_blocks": [
+        111
+      ],
+      "kind": "explanation",
+      "family": "oil-major-capital-return-capacity",
+      "verdict": "right",
+      "reason": "BP generated $32bn operating cash flow in 2023 and continued dividends and repurchases despite lower profits. The ability to distribute at the prevailing price is supported; future oil-price assumptions remain decisive.",
+      "evidence": [
+        {
+          "url": "https://www.bp.com/content/dam/bp/business-sites/en/global/corporate/pdfs/investors/bp-fourth-quarter-2023-results.pdf",
+          "title": "2023 results",
+          "publisher": "BP",
+          "date": "2024-02-06",
+          "verified": true,
+          "finding": "2023 operating cash flow $32bn; net debt $20.9bn; quarterly dividend +10% year over year and continued buybacks; underlying profit per ADS $4.78 versus $8.74 in 2022.",
+          "verification_method": "indexed issuer release; direct PDF denied"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "oil-major-capital-return-capacity",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C24"
+    },
+    {
+      "claim": "EPD grows distributions double-digit",
+      "source_blocks": [
+        113
+      ],
+      "kind": "empirical",
+      "family": "epd-distribution-growth-rate",
+      "verdict": "wrong",
+      "reason": "EPD distributions increased 5.3% in 2023, not low double digits. The long consecutive-growth record and high yield do not make the stated growth rate accurate; it may be a wording error but should not be silently corrected.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1061219/000114036124004973/exhibit99_1.htm",
+          "title": "Fourth-quarter and full-year 2023 results",
+          "publisher": "Enterprise Products Partners / SEC",
+          "date": "2024-02-01",
+          "verified": true,
+          "finding": "2023 distributions increased 5.3%; coverage 1.7x; retained DCF $3.2b; EPS $2.52 versus $2.50 in 2022 despite lower commodity prices; terminal volumes increased 20%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "epd-distribution-growth-rate",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C25"
+    },
+    {
+      "claim": "Diversified pipelines offer income",
+      "source_blocks": [
+        113
+      ],
+      "kind": "investment_thesis",
+      "family": "epd-diversified-income",
+      "verdict": "not_testable",
+      "reason": "EPD three-year adjusted return +71.34% versus SPY +76.41% supports a productive income holding without beating the equity benchmark. This article states no deadline, and NGL/petrochemical exposure diversifies rather than abolishes commodity risk.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EPD/history/",
+          "title": "EPD three-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-06-24\", \"requested_endpoint\": \"2026-06-24\", \"entry\": \"2023-06-26\", \"exit\": \"2026-06-24\", \"days\": 1094, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"EPD\": {\"entry_adjusted_close\": 20.45675277709961, \"exit_adjusted_close\": 35.04987335205078, \"cumulative_return_pct\": 71.33644686407656, \"annualized_return_pct\": 19.69461444822107, \"source\": \"https://finance.yahoo.com/quote/EPD/history/\"}, \"SPY\": {\"entry_adjusted_close\": 414.6191101074219, \"exit_adjusted_close\": 731.4237060546875, \"cumulative_return_pct\": 76.40858518682028, \"annualized_return_pct\": 20.86614931503652, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -5.072138322743712}",
+          "verification_method": "computed USD adjusted close dividend/split proxy; no fees/taxes; evaluator window"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1061219/000114036124004973/exhibit99_1.htm",
+          "title": "Fourth-quarter and full-year 2023 results",
+          "publisher": "Enterprise Products Partners / SEC",
+          "date": "2024-02-01",
+          "verified": true,
+          "finding": "2023 distributions increased 5.3%; coverage 1.7x; retained DCF $3.2b; EPS $2.52 versus $2.50 in 2022 despite lower commodity prices; terminal volumes increased 20%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Use the original explicit 5-10-year thesis for episode scoring rather than inventing a new deadline here.",
+      "asset_or_variable": "epd-diversified-income",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C26"
+    },
+    {
+      "claim": "Russian turmoil risks oil supply",
+      "source_blocks": [
+        115
+      ],
+      "kind": "forecast",
+      "family": "russia-political-oil-risk",
+      "verdict": "not_testable",
+      "reason": "The author explicitly withholds a conclusion while an event unfolds. A possibility of supply disruption is a scenario, not a prediction that Wagner would reduce output or seize power.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "No definite outcome or probability was forecast.",
+      "asset_or_variable": "russia-political-oil-risk",
+      "modality": "possible",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "113-C27"
+    },
+    {
+      "claim": "Uranium breakout may persist",
+      "source_blocks": [
+        117,
+        121
+      ],
+      "kind": "forecast",
+      "family": "uranium-2023-breakout",
+      "verdict": "mixed",
+      "reason": "Cameco price history confirms a powerful advance to $91/lb at December 2023 and $100.25 in January 2024. The durability threshold is unspecified and no next-few-month call is made; retain the clear directional support without inventing a permanent floor.",
+      "evidence": [
+        {
+          "url": "https://www.cameco.com/invest/markets/uranium-price",
+          "title": "Historical uranium prices",
+          "publisher": "Cameco",
+          "date": null,
+          "verified": true,
+          "finding": "Industry-average month-end spot uranium rose from about $50 early 2023 to $91 December 2023 and $100.25 January 2024. Not an investable total return.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "uranium-2023-breakout",
+      "modality": "possible",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "113-C28"
+    },
+    {
+      "claim": "Uranium trusts gain multi-year",
+      "source_blocks": [
+        121
+      ],
+      "kind": "investment_thesis",
+      "family": "uranium-structural-bullish",
+      "verdict": "right",
+      "reason": "SRUUF gained 41.00% over the disclosed three-year checkpoint, versus SPY 76.41%. The bullish absolute direction is supported; outperformance was not promised. OTC pricing, fees and NAV discounts mean this is a trust return, not the spot commodity return.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/SRUUF/history/",
+          "title": "SRUUF three-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-06-24\", \"requested_endpoint\": \"2026-06-24\", \"entry\": \"2023-06-26\", \"exit\": \"2026-06-24\", \"days\": 1094, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"SRUUF\": {\"entry_adjusted_close\": 12.949999809265137, \"exit_adjusted_close\": 18.260000228881836, \"cumulative_return_pct\": 41.003864848072325, \"annualized_return_pct\": 12.15618902256843, \"source\": \"https://finance.yahoo.com/quote/SRUUF/history/\"}, \"SPY\": {\"entry_adjusted_close\": 414.6191101074219, \"exit_adjusted_close\": 731.4237060546875, \"cumulative_return_pct\": 76.40858518682028, \"annualized_return_pct\": 20.86614931503652, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -35.40472033874795}",
+          "verification_method": "computed USD adjusted close dividend/split proxy; no fees/taxes; evaluator window"
+        }
+      ],
+      "horizon": "Multi-year; three-year checkpoint",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "uranium-structural-bullish",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Multi-year; three-year checkpoint",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C29"
+    },
+    {
+      "claim": "Reactors need more contracting",
+      "source_blocks": [
+        121
+      ],
+      "kind": "explanation",
+      "family": "uranium-contracting-supply-gap",
+      "verdict": "mixed",
+      "reason": "US operators bought 55.9m pounds in 2024 and had large future contracted deliveries, supporting the ongoing fuel need. This does not alone prove a global mine deficit; inventories, secondary supplies and enrichment practices complete that balance.",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/uranium/marketing/pdf/2024%20UMAR.pdf",
+          "title": "2024 uranium marketing report",
+          "publisher": "EIA",
+          "date": null,
+          "verified": true,
+          "finding": "US reactor operators purchased 55.9m pounds in 2024 at average $52.71/lb; future contracted deliveries 2025-2034 maximum 234m pounds. US purchases are not a complete global mine-demand balance.",
+          "verification_method": "indexed official report extract; archived PDF URL now returns 404"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "uranium-contracting-supply-gap",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C30"
+    },
+    {
+      "claim": "China demand lags industry",
+      "source_blocks": [
+        123,
+        129
+      ],
+      "kind": "explanation",
+      "family": "china-supply-demand-imbalance",
+      "verdict": "right",
+      "reason": "Weak property/domestic prices and rapid auto-export growth corroborate the two-sided diagnosis. Attributing the entire gap to fiscal restraint would neglect household balance sheets and structural investment allocation.",
+      "evidence": [
+        {
+          "url": "https://www.stats.gov.cn/english/PressRelease/202502/t20250228_1958822.html",
+          "title": "2024 economic and demographic statistics",
+          "publisher": "China NBS",
+          "date": "2025-02-28",
+          "verified": true,
+          "finding": "Population fell 1.39 million; consumer inflation only 0.2% and producer prices fell 2.2%. Aging did not mechanically create inflation.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://english.scio.gov.cn/m/pressroom/2024-02/01/content_116979671_5.htm",
+          "title": "2023 industrial development briefing",
+          "publisher": "State Council Information Office",
+          "date": "2024-02-01",
+          "verified": true,
+          "finding": "2023 vehicle exports 4.91 million, +57.9%; NEV exports 1.203 million, +77.6%.",
+          "verification_method": "indexed official briefing; direct page timed out"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "china-supply-demand-imbalance",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "113-C31"
+    },
+    {
+      "claim": "China stimulus lifts equities",
+      "source_blocks": [
+        130
+      ],
+      "kind": "forecast",
+      "family": "china-fiscal-stimulus-equity-catalyst",
+      "verdict": "conditional_pending",
+      "reason": "The trigger lacks a size or composition threshold; ordinary policy easing cannot be declared sufficient after observing prices. Three-year MCHI +25.12% lagged SPY +76.41%, but that sensitivity is not a clean test of the specified stimulus scenario.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/MCHI/history/",
+          "title": "MCHI three-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-06-24\", \"requested_endpoint\": \"2026-06-24\", \"entry\": \"2023-06-26\", \"exit\": \"2026-06-24\", \"days\": 1094, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"MCHI\": {\"entry_adjusted_close\": 41.104671478271484, \"exit_adjusted_close\": 51.43000030517578, \"cumulative_return_pct\": 25.11959944105724, \"annualized_return_pct\": 7.7689562680111734, \"source\": \"https://finance.yahoo.com/quote/MCHI/history/\"}, \"SPY\": {\"entry_adjusted_close\": 414.6191101074219, \"exit_adjusted_close\": 731.4237060546875, \"cumulative_return_pct\": 76.40858518682028, \"annualized_return_pct\": 20.86614931503652, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -51.288985745763036}",
+          "verification_method": "computed USD adjusted close dividend/split proxy; no fees/taxes; evaluator window"
+        },
+        {
+          "url": "https://www.stats.gov.cn/english/PressRelease/202502/t20250228_1958822.html",
+          "title": "2024 economic and demographic statistics",
+          "publisher": "China NBS",
+          "date": "2025-02-28",
+          "verified": true,
+          "finding": "Population fell 1.39 million; consumer inflation only 0.2% and producer prices fell 2.2%. Aging did not mechanically create inflation.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": "Meaningful fiscal stimulus replacing the prevailing restraint",
+      "next_check": "Define stimulus magnitude and event window, then isolate equity and EM responses.",
+      "asset_or_variable": "china-fiscal-stimulus-equity-catalyst",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "113-C32"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Money-fund flows",
+      "source_blocks": [
+        18,
+        40
+      ],
+      "use": "RRP versus reserves",
+      "image_inspected": false
+    },
+    {
+      "name": "Cycle indicators",
+      "source_blocks": [
+        44,
+        70
+      ],
+      "use": "Recession assessment",
+      "image_inspected": false
+    },
+    {
+      "name": "Rigs and DUCs",
+      "source_blocks": [
+        100,
+        107
+      ],
+      "use": "Supply leads",
+      "image_inspected": false
+    },
+    {
+      "name": "Uranium",
+      "source_blocks": [
+        117,
+        121
+      ],
+      "use": "Fuel cycle",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Track who funds government issuance."
+  ],
+  "assessment": "The update properly recognizes the RRP escape route and retains uncertainty around markets. The clear misses are the upcoming stagflationary recession, next-year oil stagnation despite falling rigs, and overstated EPD distribution growth. Spot ETF access and uranium direction receive credit with explicit causality and return limits.",
+  "verification_limitations": [
+    "Captured website text is not an authenticated publication-date version.",
+    "Chart-only numerical claims have not been visually verified.",
+    "Selected stock/ETF adjusted-close comparisons are disclosed where used; no reconstructed portfolio backtest has been performed.",
+    "Unresolved verdicts are not forecast failures or successes; no aggregate hit rate is inferred."
+  ]
+}

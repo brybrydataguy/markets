@@ -1,0 +1,1479 @@
+{
+  "article_id": "121",
+  "title": "Deep Dive: Treasury Inflation Protected Securities",
+  "date": "2023-10-15",
+  "source_url": "https://www.lynalden.com/premium-2023-10-15/",
+  "read_complete": true,
+  "summary": "TIPS entry, fiscal transmission, and energy insurance.",
+  "coverage_note": "Read all blocks 0-166 and 17 image labels. Includes liquidity timing, BTC supply/demand, tokenization, allocation changes, fiscal-interest mechanism, detailed TIPS contract/risk math, inflation spectrum and geopolitical energy scenarios. Historical quotations identified as recaps, not new independent wins.",
+  "claims": [
+    {
+      "id": "121-C01",
+      "claim": "Liquidity offsets",
+      "kind": "explanation",
+      "source_blocks": [
+        9
+      ],
+      "family": "fed-liquidity-plumbing",
+      "asset_or_variable": "fed-liquidity-plumbing",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "RRP runoff can offset QT in reserve arithmetic, but a net-liquidity chart is not an identity for private credit or risk appetite. Verify liabilities and counterparties rather than equating all balance-sheet movements.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_240501",
+          "title": "Changes to balance sheet reduction",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2024-05-01",
+          "verified": true,
+          "finding": "Effective June 1, Treasury runoff cap fell from $60 billion to $25 billion monthly; agency cap remained $35 billion."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C02",
+      "claim": "Global M2 rollover",
+      "kind": "forecast",
+      "source_blocks": [
+        11,
+        13,
+        53
+      ],
+      "family": "global-liquidity-base-effects",
+      "asset_or_variable": "global-liquidity-base-effects",
+      "horizon": "After November 2023",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The year-over-year base-effect claim is measurable only with the same currency basket and vintage. USM 2 alone cannot test a dollar-converted global aggregate.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "After November 2023",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconstruct the author global M2 country coverage and exchange-rate conversion, then compute rolling year-over-year growth through June 2024."
+    },
+    {
+      "id": "121-C03",
+      "claim": "Eight-month caution",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        13,
+        40
+      ],
+      "family": "liquidity-risk-assets",
+      "asset_or_variable": "liquidity-risk-assets",
+      "horizon": "Next eight months",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "SPY gained 25.37% and BTC 131.46% by June 2024, adverse to the cautious opportunity assessment. The source says conditions are not bullish and expresses concern, rather than explicitly forecasting negative returns.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "Next eight months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-10-15\",\"requested_endpoint\":\"2024-06-15\",\"entry\":\"2023-10-16\",\"exit\":\"2024-06-14\",\"days\":242,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"BTC-USD\":{\"entry_adjusted_close\":28519.466796875,\"exit_adjusted_close\":66011.09375,\"cumulative_return_pct\":131.45977524808816,\"annualized_return_pct\":254.89673944869423,\"source\":\"https://finance.yahoo.com/quote/BTC-USD/history/\"},\"SPY\":{\"entry_adjusted_close\":420.517822265625,\"exit_adjusted_close\":527.2135009765625,\"cumulative_return_pct\":25.372451073795844,\"annualized_return_pct\":40.674769114977735,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":106.08732417429232}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C04",
+      "claim": "Two economies",
+      "kind": "explanation",
+      "source_blocks": [
+        16,
+        40
+      ],
+      "family": "fiscal-private-divergence",
+      "asset_or_variable": "fiscal-private-divergence",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Sector dispersion is plausible, but total real GDP grew 2.9% in 2023 and 2.8% in 2024. Stall-speed language overstates aggregate weakness; deflating every nominal sector with headline CPI is not a valid sector-volume calculation.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://bea.gov/news/2025/gross-domestic-product-4th-quarter-and-year-2024-third-estimate-gdp-industry-and",
+          "title": "2024 GDP third estimate",
+          "publisher": "BEA",
+          "date": "2025-03-27",
+          "verified": true,
+          "finding": "Annual real GDP grew 2.8% in 2024 after 2.9% in 2023 in this release vintage; sustained expansion did not resemble a broad output stall."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C05",
+      "claim": "Fiscal construction boost",
+      "kind": "explanation",
+      "source_blocks": [
+        16
+      ],
+      "family": "industrial-fiscal-policy",
+      "asset_or_variable": "industrial-fiscal-policy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Timing and sector data are needed to distinguish IRA/CHIPS subsidies from private investment response and construction-price inflation.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare Census manufacturing construction volumes and Treasury incentive uptake with pre-law project commitments."
+    },
+    {
+      "id": "121-C06",
+      "claim": "Temporary labor lead",
+      "kind": "explanation",
+      "source_blocks": [
+        34
+      ],
+      "family": "employment-leading-indicators",
+      "asset_or_variable": "employment-leading-indicators",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Temporary staffing can weaken first, but occupational substitution and direct hiring change relationships. No recession lead time or threshold is specified.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "121-C07",
+      "claim": "GDPNow quotation",
+      "kind": "forecast",
+      "source_blocks": [
+        36
+      ],
+      "family": "gdp-nowcast",
+      "asset_or_variable": "gdp-nowcast",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "An external 5.1% nowcast is reported as a competing data point, not adopted as a personal precise forecast.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "121-C08",
+      "claim": "Inflation rebound",
+      "kind": "empirical",
+      "source_blocks": [
+        38
+      ],
+      "family": "inflation-base-effects",
+      "asset_or_variable": "inflation-base-effects",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Need June-September 2023 CPI and energy contribution from release vintages to verify the local reacceleration.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Retrieve BLS July-October 2023 releases; separate sequential changes from year-ago base effects."
+    },
+    {
+      "id": "121-C09",
+      "claim": "Illiquid supply",
+      "kind": "explanation",
+      "source_blocks": [
+        43,
+        52
+      ],
+      "family": "bitcoin-holder-supply",
+      "asset_or_variable": "bitcoin-holder-supply",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Coin age does not equal unwillingness to sell; lost coins, custodian transfers and derivatives matter. A coiled-spring interpretation needs demand and available-float measures jointly.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Archive one-year inactive supply and entity adjustments, then test out-of-sample price response controlling for demand."
+    },
+    {
+      "id": "121-C10",
+      "claim": "Liquidity strongest correlate",
+      "kind": "empirical",
+      "source_blocks": [
+        46
+      ],
+      "family": "bitcoin-global-liquidity",
+      "asset_or_variable": "bitcoin-global-liquidity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A strongest-correlation ranking needs a declared asset universe, frequency, lag and stationarity treatment. Similar trending levels can generate spurious fit.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Recompute BTC/global M2 and rival assets on returns and changes with fixed lags; report rolling and out-of-sample correlations."
+    },
+    {
+      "id": "121-C11",
+      "claim": "Bitcoin next leg",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        53
+      ],
+      "family": "bitcoin-bullish",
+      "asset_or_variable": "bitcoin-bullish",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "BTC gained 288.45% over two-year sensitivity and spot ETPs launched in 2024. Favorable direction, but liquidity causation and undefined author endpoint prevent an exact-horizon hit.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-10-15\",\"requested_endpoint\":\"2025-10-15\",\"entry\":\"2023-10-16\",\"exit\":\"2025-10-15\",\"days\":730,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"BTC-USD\":{\"entry_adjusted_close\":28519.466796875,\"exit_adjusted_close\":110783.1640625,\"cumulative_return_pct\":288.4475290212613,\"annualized_return_pct\":97.18233617517782,\"source\":\"https://finance.yahoo.com/quote/BTC-USD/history/\"},\"SPY\":{\"entry_adjusted_close\":420.517822265625,\"exit_adjusted_close\":658.0703125,\"cumulative_return_pct\":56.49046904944785,\"annualized_return_pct\":25.11533744475527,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":231.95705997181344}"
+        },
+        {
+          "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
+          "title": "Spot bitcoin ETP approval",
+          "publisher": "SEC",
+          "date": "2024-01-10",
+          "verified": true,
+          "finding": "Commission approved exchange listing/trading of multiple spot bitcoin ETPs, expanding regulated brokerage access. Approval is not investment endorsement."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C12",
+      "claim": "ETF access",
+      "kind": "forecast",
+      "source_blocks": [
+        53
+      ],
+      "family": "bitcoin-etf",
+      "asset_or_variable": "bitcoin-etf",
+      "horizon": null,
+      "conditions": null,
+      "modality": "potential catalyst",
+      "verdict": "right",
+      "reason": "January 2024 approvals delivered the contemplated regulated brokerage access. This verifies the catalyst, not adoption by every pool of capital.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
+          "title": "Spot bitcoin ETP approval",
+          "publisher": "SEC",
+          "date": "2024-01-10",
+          "verified": true,
+          "finding": "Commission approved exchange listing/trading of multiple spot bitcoin ETPs, expanding regulated brokerage access. Approval is not investment endorsement."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C13",
+      "claim": "Portable dollar savings",
+      "kind": "explanation",
+      "source_blocks": [
+        55,
+        58
+      ],
+      "family": "stablecoin-dollarization",
+      "asset_or_variable": "stablecoin-dollarization",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Transferable tokens can broaden access, but exchange availability, custody, issuer freezes and local capital controls affect actual usability. Broad welfare gains require household-level evidence.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "121-C14",
+      "claim": "Issuer interest profits",
+      "kind": "explanation",
+      "source_blocks": [
+        56
+      ],
+      "family": "stablecoin-business-model",
+      "asset_or_variable": "stablecoin-business-model",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Tether reported $1.5 bn Q3 2026 operating profit and $132.4 bn Treasury holdings. Supports reserve-interest economics without claiming every issuer is equally safe or profitable.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://tether.io/news/tether-generates-1-5-billion-in-q3-net-operating-profit-as-reserve-buffer-doubles-to-almost-8-billion/",
+          "title": "Third quarter 2026 attestation announcement",
+          "publisher": "Tether",
+          "date": "2026-10-30",
+          "verified": true,
+          "finding": "September 30 token liabilities $183.470 bn; direct/indirect Treasury bill holdings $132.4 bn, assets $191.451 bn and excess reserves $7.955 bn. Issuer report of BDO attestation, not independent adoption measurement."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C15",
+      "claim": "Tokenized T-bill access",
+      "kind": "empirical",
+      "source_blocks": [
+        57
+      ],
+      "family": "tokenized-assets",
+      "asset_or_variable": "tokenized-assets",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Yield and backing depend on the precise token, fees, investor eligibility, legal claim and redemption terms. The article names no product, so broad worldwide retail access is unverified.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Identify 2023 products and prospectuses; check US/non US eligibility, bankruptcy remoteness and net yield after fees."
+    },
+    {
+      "id": "121-C16",
+      "claim": "ATO replaces SWK",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        62,
+        84
+      ],
+      "family": "atmos-diversification",
+      "asset_or_variable": "atmos-diversification",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Three-year sensitivity: ATO 57.09% versus SWK 27.11%. The replacement comparison informs selection, but no exact author deadline or diversification criterion was supplied.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ATO/history/",
+          "title": "ATO adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-10-15\",\"requested_endpoint\":\"2026-10-15\",\"entry\":\"2023-10-16\",\"exit\":\"2026-10-15\",\"days\":1095,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"ATO\":{\"entry_adjusted_close\":104.36981964111328,\"exit_adjusted_close\":163.9499969482422,\"cumulative_return_pct\":57.085637890341935,\"annualized_return_pct\":16.258203233817458,\"source\":\"https://finance.yahoo.com/quote/ATO/history/\"},\"SWK\":{\"entry_adjusted_close\":72.96954345703125,\"exit_adjusted_close\":92.75,\"cumulative_return_pct\":27.107825547266362,\"annualized_return_pct\":8.32978470826189,\"source\":\"https://finance.yahoo.com/quote/SWK/history/\"}},\"excess_percentage_points\":29.977812343075573}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C17",
+      "claim": "VAL replaces uranium",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        63,
+        76,
+        81,
+        83,
+        86
+      ],
+      "family": "offshore-uranium-rotation",
+      "asset_or_variable": "offshore-uranium-rotation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Three-year sensitivity VAL+16.87% versus URNM+14.39%, modestly favorable to the allocation change. No author endpoint or actual exits were specified.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/VAL/history/",
+          "title": "VAL adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-10-15\",\"requested_endpoint\":\"2026-10-15\",\"entry\":\"2023-10-16\",\"exit\":\"2026-10-15\",\"days\":1095,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"VAL\":{\"entry_adjusted_close\":71.66000366210938,\"exit_adjusted_close\":83.75,\"cumulative_return_pct\":16.871330895958735,\"annualized_return_pct\":5.337932079484187,\"source\":\"https://finance.yahoo.com/quote/VAL/history/\"},\"URNM\":{\"entry_adjusted_close\":38.27129364013672,\"exit_adjusted_close\":43.779998779296875,\"cumulative_return_pct\":14.3938305063797,\"annualized_return_pct\":4.587761572651194,\"source\":\"https://finance.yahoo.com/quote/URNM/history/\"}},\"excess_percentage_points\":2.477500389579035}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C18",
+      "claim": "TDW offshore cycle",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        63,
+        86
+      ],
+      "family": "offshore-support-vessels",
+      "asset_or_variable": "offshore-support-vessels",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Three-year sensitivity: TDW 18.07% versus URNM 14.39%. Price outcome does not independently establish replacement cost or fleet scarcity; no author endpoint was stated.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TDW/history/",
+          "title": "TDW adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-10-15\",\"requested_endpoint\":\"2026-10-15\",\"entry\":\"2023-10-16\",\"exit\":\"2026-10-15\",\"days\":1095,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"TDW\":{\"entry_adjusted_close\":67.05999755859375,\"exit_adjusted_close\":79.18000030517578,\"cumulative_return_pct\":18.07337188760283,\"annualized_return_pct\":5.698087271689656,\"source\":\"https://finance.yahoo.com/quote/TDW/history/\"},\"URNM\":{\"entry_adjusted_close\":38.27129364013672,\"exit_adjusted_close\":43.779998779296875,\"cumulative_return_pct\":14.3938305063797,\"annualized_return_pct\":4.587761572651194,\"source\":\"https://finance.yahoo.com/quote/URNM/history/\"}},\"excess_percentage_points\":3.679541381223128}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C19",
+      "claim": "Chevron addition",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        66
+      ],
+      "family": "chevron-bullish",
+      "asset_or_variable": "chevron-bullish",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Two-year CVX sensitivity+0.31% versus SPY+56.49%, weak opportunity-cost outcome. Positive carry and longer horizon were emphasized, so no fixed-deadline loss is invented.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/CVX/history/",
+          "title": "CVX adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-10-15\",\"requested_endpoint\":\"2025-10-15\",\"entry\":\"2023-10-16\",\"exit\":\"2025-10-15\",\"days\":730,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"CVX\":{\"entry_adjusted_close\":145.89744567871094,\"exit_adjusted_close\":146.34336853027344,\"cumulative_return_pct\":0.30564130131824907,\"annualized_return_pct\":0.15280872970506731,\"source\":\"https://finance.yahoo.com/quote/CVX/history/\"},\"SPY\":{\"entry_adjusted_close\":420.517822265625,\"exit_adjusted_close\":658.0703125,\"cumulative_return_pct\":56.49046904944785,\"annualized_return_pct\":25.11533744475527,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-56.18482774812961}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C20",
+      "claim": "China/bank exits",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        73,
+        74,
+        80
+      ],
+      "family": "portfolio-conviction-change",
+      "asset_or_variable": "portfolio-conviction-change",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Sales without specific bearish reasons or forward targets are execution changes rather than new price forecasts. Link them to prior BNS/MCHI theses and follow actual replacement capital only where specified.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "121-C21",
+      "claim": "Offshore fleet scarcity",
+      "kind": "explanation",
+      "source_blocks": [
+        86
+      ],
+      "family": "offshore-supply-cycle",
+      "asset_or_variable": "offshore-supply-cycle",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Replacement cost is not realizable value; spare capacity, vessel reactivation and financing can matter more than newbuild counts.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Verify 2023 orderbook, active/stacked fleet, reactivation costs and contracts for VAL/TDW separately."
+    },
+    {
+      "id": "121-C22",
+      "claim": "Bond warning recap",
+      "kind": "empirical",
+      "source_blocks": [
+        89,
+        90,
+        99,
+        101,
+        103
+      ],
+      "family": "long-bond-inflation-risk",
+      "asset_or_variable": "long-bond-inflation-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The retrospective risk identification is sound, and the author explicitly acknowledges underestimating Fed tightening. Do not count the recap as another independent successful forecast.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-continue-rise-2/",
+          "title": "Mortgage rates continue to rise",
+          "publisher": "Freddie Mac",
+          "date": "2024-12-26",
+          "verified": true,
+          "finding": "The 30-year mortgage survey rate was 6.85%, far above the 2021 refinancing trough despite 2024 Fed rate cuts."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C23",
+      "claim": "QE stays at Fed",
+      "kind": "explanation",
+      "source_blocks": [
+        97
+      ],
+      "family": "money-creation",
+      "asset_or_variable": "money-creation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "QE purchases from nonbanks create bank deposits as well as reserves. The quoted explanation wrongly says printed money remained on central-bank balance sheets; different spending effects do not follow from that claim.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy.pdf",
+          "title": "Money creation in the modern economy",
+          "publisher": "Bank of England",
+          "date": null,
+          "verified": true,
+          "finding": "2014 Q1 bulletin: bank lending creates deposits; reserves are not multiplied into loans. QE can buy from nonbanks, directly increasing their deposits as well as bank reserves."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C24",
+      "claim": "Interest offsets tightening",
+      "kind": "explanation",
+      "source_blocks": [
+        105
+      ],
+      "family": "fiscal-interest-channel",
+      "asset_or_variable": "fiscal-interest-channel",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Interest income is one channel, but recipients marginal spending, taxes, foreign ownership, asset losses and credit contraction determine net demand. Deficit arithmetic does not establish net inflationary tightening.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "121-C25",
+      "claim": "Deficit counterpart income",
+      "kind": "explanation",
+      "source_blocks": [
+        106
+      ],
+      "family": "sectoral-balances",
+      "asset_or_variable": "sectoral-balances",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Government outlays are recipients receipts, but deficits equal net financial flows after taxes, not household consumption one-for-one. Some interest is intragovernmental or paid abroad; consolidated definitions matter.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Consistent sector boundaries",
+          "Government deficit spending minus receipts",
+          "Financial flows recorded symmetrically"
+        ],
+        "derivation": "Government net borrowing equals combined non-government net lending, including foreign sector; this identity does not determine consumption."
+      }
+    },
+    {
+      "id": "121-C26",
+      "claim": "Senior spending strength",
+      "kind": "explanation",
+      "source_blocks": [
+        110,
+        111,
+        112
+      ],
+      "family": "household-distribution",
+      "asset_or_variable": "household-distribution",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "BLS supports distinguishing age cohorts, but 65+ average spending was $60,087 in 2023 and is not the highest per household. A larger aggregate share can reflect group size; verify the exact WSJ denominator before calling seniors the biggest spenders.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/opub/reports/consumer-expenditures/2023/home.htm",
+          "title": "Consumer expenditures 2023",
+          "publisher": "BLS",
+          "date": null,
+          "verified": true,
+          "finding": "Age tables distinguish average spending per consumer unit from aggregate spending shares. Households 65+ averaged $60,087 in 2023; population size, household size and age grouping affect aggregate comparisons."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C27",
+      "claim": "Young housing exclusion",
+      "kind": "explanation",
+      "source_blocks": [
+        111
+      ],
+      "family": "housing-affordability",
+      "asset_or_variable": "housing-affordability",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "High mortgage rates disadvantage new borrowers versus locked-in owners. Effectively shut out is a qualitative generalization without income, down-payment or region thresholds.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "121-C28",
+      "claim": "Five-percent debt math",
+      "kind": "explanation",
+      "source_blocks": [
+        114
+      ],
+      "family": "sovereign-interest-arithmetic",
+      "asset_or_variable": "sovereign-interest-arithmetic",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "At fixed $33.5 tn principal and 5% average rate, annual gross interest is $1.675 tn. Intragovernmental holdings and refinancing schedule prevent treating this as an immediate federal net-interest forecast.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "All $33.5tn of gross debt pays 5%",
+          "No consolidation or netting"
+        ],
+        "derivation": "$33.5tn * 0.05 = $1.675tn annual gross interest."
+      }
+    },
+    {
+      "id": "121-C29",
+      "claim": "Forty-trillion scenario",
+      "kind": "explanation",
+      "source_blocks": [
+        115
+      ],
+      "family": "sovereign-interest-arithmetic",
+      "asset_or_variable": "sovereign-interest-arithmetic",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Four years of $1.7 tn additions to $33.5 tn yields $40.3 tn and 5% gross interest $2.015 tn. Conditional arithmetic, not a new empirical prediction.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Annual debt addition of $1.7tn for four years",
+          "Starting gross debt of $33.5tn",
+          "Average effective coupon of 5%"
+        ],
+        "derivation": "Debt = 33.5 + 4*1.7 = $40.3tn; annual gross interest = 0.05*40.3 = $2.015tn."
+      }
+    },
+    {
+      "id": "121-C30",
+      "claim": "Recession fiscal tradeoff",
+      "kind": "forecast",
+      "source_blocks": [
+        116
+      ],
+      "family": "recession-deficit-scenario",
+      "asset_or_variable": "recession-deficit-scenario",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Lower rates and weaker tax receipts are plausible opposing effects, but no specific recession threshold, deficit magnitude or rate path is promised.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "121-C31",
+      "claim": "Long-bond bottom possibility",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        118
+      ],
+      "family": "duration-opportunity",
+      "asset_or_variable": "duration-opportunity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Possible tradeable bottom with an explicit preference for shorter maturities gives no entry/exit horizon. Do not award a win from a selected later yield trough.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "121-C32",
+      "claim": "Equity five-percent doubt",
+      "kind": "forecast",
+      "source_blocks": [
+        119
+      ],
+      "family": "equity-return-caution",
+      "asset_or_variable": "equity-return-caution",
+      "horizon": "Next couple years",
+      "conditions": null,
+      "modality": "low-conviction concern",
+      "verdict": "wrong",
+      "reason": "SPY gained 56.49% in two years, far above 5% annually. This contradicts the stated low-return concern while preserving its low conviction and explicit acknowledgment equities might exceed it.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "Next couple years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "SPY adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-10-15\",\"requested_endpoint\":\"2025-10-15\",\"entry\":\"2023-10-16\",\"exit\":\"2025-10-15\",\"days\":730,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"SPY\":{\"entry_adjusted_close\":420.517822265625,\"exit_adjusted_close\":658.0703125,\"cumulative_return_pct\":56.49046904944785,\"annualized_return_pct\":25.11533744475527,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":0.0}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C33",
+      "claim": "TIPS entry",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        120,
+        129
+      ],
+      "family": "tips-bullish",
+      "asset_or_variable": "tips-bullish",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Two-year TIP return 14.39% and STIP 13.36% were positive; intermediate nominal IEF 15.09% slightly exceeded TIP. Favorable holding result is not proof TIPS beats nominal bonds over its 5/10 year maturity.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TIP/history/",
+          "title": "TIP adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-10-15\",\"requested_endpoint\":\"2025-10-15\",\"entry\":\"2023-10-16\",\"exit\":\"2025-10-15\",\"days\":730,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"TIP\":{\"entry_adjusted_close\":93.50117492675781,\"exit_adjusted_close\":106.95508575439453,\"cumulative_return_pct\":14.389028627902857,\"annualized_return_pct\":6.957730862418465,\"source\":\"https://finance.yahoo.com/quote/TIP/history/\"},\"IEF\":{\"entry_adjusted_close\":81.12520599365234,\"exit_adjusted_close\":93.3659896850586,\"cumulative_return_pct\":15.088755142716103,\"annualized_return_pct\":7.284590521183243,\"source\":\"https://finance.yahoo.com/quote/IEF/history/\"}},\"excess_percentage_points\":-0.6997265148132463}"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/STIP/history/",
+          "title": "STIP adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-10-15\",\"requested_endpoint\":\"2025-10-15\",\"entry\":\"2023-10-16\",\"exit\":\"2025-10-15\",\"days\":730,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"STIP\":{\"entry_adjusted_close\":87.08574676513672,\"exit_adjusted_close\":98.72006225585938,\"cumulative_return_pct\":13.359609262006412,\"annualized_return_pct\":6.475042048556134,\"source\":\"https://finance.yahoo.com/quote/STIP/history/\"},\"SPY\":{\"entry_adjusted_close\":420.517822265625,\"exit_adjusted_close\":658.0703125,\"cumulative_return_pct\":56.49046904944785,\"annualized_return_pct\":25.11533744475527,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-43.13085978744144}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C34",
+      "claim": "TIPS contract",
+      "kind": "explanation",
+      "source_blocks": [
+        122
+      ],
+      "family": "tips-mechanics",
+      "asset_or_variable": "tips-mechanics",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Treasury confirms CPI-adjusted principal and coupon payments on that principal. Market price can still fall as real yields rise; bond value should not be confused with guaranteed accrued principal.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.treasurydirect.gov/marketable-securities/tips/",
+          "title": "TIPS terms",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "TIPS principal adjusts with inflation/deflation; fixed coupon applies to adjusted principal. At maturity Treasury pays greater of adjusted or original principal. This floor is original par, not an arbitrary secondary-market purchase premium; terms 5/10/30 years."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C35",
+      "claim": "Breakeven comparison",
+      "kind": "explanation",
+      "source_blocks": [
+        125,
+        126
+      ],
+      "family": "tips-relative-value",
+      "asset_or_variable": "tips-relative-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Nominal-minus-real yield is a useful approximate inflation hurdle, but convexity, coupon reinvestment, indexation lag, taxes and liquidity premia affect exact realized comparisons. It is not a pure expected-inflation reading.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.treasurydirect.gov/marketable-securities/tips/",
+          "title": "TIPS terms",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "TIPS principal adjusts with inflation/deflation; fixed coupon applies to adjusted principal. At maturity Treasury pays greater of adjusted or original principal. This floor is original par, not an arbitrary secondary-market purchase premium; terms 5/10/30 years."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C36",
+      "claim": "Upside inflation skew",
+      "kind": "forecast",
+      "source_blocks": [
+        127,
+        128
+      ],
+      "family": "inflation-risk-asymmetry",
+      "asset_or_variable": "inflation-risk-asymmetry",
+      "horizon": "Next ten years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "Ten-year average through 2033 remains open. The stated downside/upside numbers are scenarios, with no probabilities or floor ruling out deflation.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "Next ten years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "121-C37",
+      "claim": "Real-yield risk",
+      "kind": "forecast",
+      "source_blocks": [
+        129,
+        132
+      ],
+      "family": "tips-duration-risk",
+      "asset_or_variable": "tips-duration-risk",
+      "horizon": "Next eight months",
+      "conditions": null,
+      "modality": "could",
+      "verdict": "mixed",
+      "reason": "Ten-year real yield briefly rose from 2.29% October 13 to 2.52% October 25, then fell to 2.03% June 14 2024. Near-term drawdown risk occurred but did not become eight months of steadily higher yields.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "Next eight months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DFII10",
+          "title": "DFII 10 downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2023-10-13 2.29%; 2023-10-25 2.52%; 2023-12-27 1.64%; 2024-06-14 2.03%. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C38",
+      "claim": "Inflation undershoot risk",
+      "kind": "explanation",
+      "source_blocks": [
+        133
+      ],
+      "family": "tips-opportunity-cost",
+      "asset_or_variable": "tips-opportunity-cost",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "A realized inflation rate below the effective breakeven can favor a nominal bond held to maturity; guaranteed real compensation is tied to official CPI and purchase yield, not every personal expense basket.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.treasurydirect.gov/marketable-securities/tips/",
+          "title": "TIPS terms",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "TIPS principal adjusts with inflation/deflation; fixed coupon applies to adjusted principal. At maturity Treasury pays greater of adjusted or original principal. This floor is original par, not an arbitrary secondary-market purchase premium; terms 5/10/30 years."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C39",
+      "claim": "Deflation floor",
+      "kind": "explanation",
+      "source_blocks": [
+        133
+      ],
+      "family": "tips-principal-protection",
+      "asset_or_variable": "tips-principal-protection",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Floor is original principal, not necessarily all dollars put into a secondary-market purchase. Paying a premium or buying an ETF can still lose purchase capital. The source correctly identifies a floor but describes its scope too broadly.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.treasurydirect.gov/marketable-securities/tips/",
+          "title": "TIPS terms",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "TIPS principal adjusts with inflation/deflation; fixed coupon applies to adjusted principal. At maturity Treasury pays greater of adjusted or original principal. This floor is original par, not an arbitrary secondary-market purchase premium; terms 5/10/30 years."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C40",
+      "claim": "Personal inflation buffer",
+      "kind": "explanation",
+      "source_blocks": [
+        134,
+        140
+      ],
+      "family": "tips-basis-risk",
+      "asset_or_variable": "tips-basis-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Positive real yield provides a cushion relative to official CPI, but different household baskets can outrun it. Treasury promises index linkage, not full protection of every personal standard of living.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.treasurydirect.gov/marketable-securities/tips/",
+          "title": "TIPS terms",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "TIPS principal adjusts with inflation/deflation; fixed coupon applies to adjusted principal. At maturity Treasury pays greater of adjusted or original principal. This floor is original par, not an arbitrary secondary-market purchase premium; terms 5/10/30 years."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C41",
+      "claim": "Inflation spectrum",
+      "kind": "explanation",
+      "source_blocks": [
+        136,
+        137,
+        138
+      ],
+      "family": "scarcity-productivity",
+      "asset_or_variable": "scarcity-productivity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The hierarchy is intuitive but the selected asset categories have different time windows, quality adjustments and supply elasticity. Broad-money growth does not mechanically set art or waterfront returns.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "121-C42",
+      "claim": "AI price deflation",
+      "kind": "forecast",
+      "source_blocks": [
+        139
+      ],
+      "family": "ai-productivity",
+      "asset_or_variable": "ai-productivity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No occupational basket, price measure, magnitude or horizon makes the white-collar claim resolvable. Productivity can raise quality or profits rather than lower sticker prices.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "121-C43",
+      "claim": "Physical inflation decade",
+      "kind": "forecast",
+      "source_blocks": [
+        139
+      ],
+      "family": "real-assets-inflation",
+      "asset_or_variable": "real-assets-inflation",
+      "horizon": "2020s versus 2010s",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The 2020s-versus 2010s comparison for energy/materials/labor/infrastructure remains open and needs consistent real/nominal category measures.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "2020s versus 2010s",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "121-C44",
+      "claim": "TIPS hard-asset blend",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        140
+      ],
+      "family": "inflation-diversification",
+      "asset_or_variable": "inflation-diversification",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A portfolio construction principle without weights and risk objective cannot be scored as outperforming. Gold, BTC and producers add distinct volatility and cash-flow exposures.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "121-C45",
+      "claim": "War escalation risk",
+      "kind": "forecast",
+      "source_blocks": [
+        142,
+        147
+      ],
+      "family": "middle-east-energy-risk",
+      "asset_or_variable": "middle-east-energy-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "2026 Gulf shutdowns establish that serious regional oil disruption eventually occurred. This does not verify an exact 2023 intermediate-term probability or author prediction of the later war sequence.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/reports/oil-market-report-september-2026",
+          "title": "September 2026 Oil Market Report",
+          "publisher": "IEA",
+          "date": "2026-09-11",
+          "verified": true,
+          "finding": "More than 10 mb/d Gulf production remained shut in during August; flows through Hormuz severely constrained and Gulf exports nearly half prewar levels. Establishes realized supply disruption, not a forecast from hindsight."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C46",
+      "claim": "Egypt vulnerability",
+      "kind": "explanation",
+      "source_blocks": [
+        144
+      ],
+      "family": "egypt-external-financing",
+      "asset_or_variable": "egypt-external-financing",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Tourism, foreign exchange and refugee-cost exposures need dated balance-of-payments/fiscal evidence rather than geography alone.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Check IMF 2023-2024 Egypt reviews, tourism receipts, Suez revenues and fiscal support measures."
+    },
+    {
+      "id": "121-C47",
+      "claim": "BRICS entry list",
+      "kind": "forecast",
+      "source_blocks": [
+        150
+      ],
+      "family": "brics-membership",
+      "asset_or_variable": "brics-membership",
+      "horizon": "January 2024",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Four invited countries joined January 2024; Argentina declined, as the article itself flags as a possibility. Saudi status remains inconsistently described by official sources, so the six-country certainty is overstated.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "January 2024",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://cbr.ru/eng/about_br/ip/momo/brics/",
+          "title": "BRICS membership",
+          "publisher": "Bank of Russia",
+          "date": null,
+          "verified": true,
+          "finding": "Four countries joined January 1 2024: Egypt, Iran, UAE, Ethiopia. Page describes Saudi Arabia as invited. Other presidency sites list Saudi Arabia as a member, so official descriptions differ; Argentina did not join."
+        },
+        {
+          "url": "https://www3.hcdn.gob.ar/dependencias/secparl/dgral_info_parlamentaria/dip/informes/informe-141.pdf",
+          "title": "Government report to Congress 141",
+          "publisher": "Argentina government",
+          "date": null,
+          "verified": true,
+          "finding": "Government states that after taking office December 10 2023 the president decided Argentina would not join BRICS, despite the August 2023 invitation."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C48",
+      "claim": "BRICS disunity",
+      "kind": "explanation",
+      "source_blocks": [
+        149,
+        151,
+        153,
+        154
+      ],
+      "family": "brics-geopolitics",
+      "asset_or_variable": "brics-geopolitics",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Divergent regional interests and existing disputes constrain coordination but no common-policy outcome or deadline is specified. Membership does not require resolving every bilateral dispute.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "121-C49",
+      "claim": "Attackers motives",
+      "kind": "explanation",
+      "source_blocks": [
+        152
+      ],
+      "family": "conflict-strategy",
+      "asset_or_variable": "conflict-strategy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Intent to derail normalization is a plausible interpretation, not directly established by the events alone. Treat tactical timing and leadership motives as contested causal claims.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use contemporaneous organization statements and independent investigations, distinguishing stated motives from inferred strategic effects."
+    },
+    {
+      "id": "121-C50",
+      "claim": "Milei changes alignment",
+      "kind": "forecast",
+      "source_blocks": [
+        155
+      ],
+      "family": "argentina-brics",
+      "asset_or_variable": "argentina-brics",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible political shift",
+      "verdict": "right",
+      "reason": "Milei took office and Argentina rejected accession, validating the highlighted political contingency. This was a possibility, not a high-confidence election forecast.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www3.hcdn.gob.ar/dependencias/secparl/dgral_info_parlamentaria/dip/informes/informe-141.pdf",
+          "title": "Government report to Congress 141",
+          "publisher": "Argentina government",
+          "date": null,
+          "verified": true,
+          "finding": "Government states that after taking office December 10 2023 the president decided Argentina would not join BRICS, despite the August 2023 invitation."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C51",
+      "claim": "Oil breakout decade",
+      "kind": "forecast",
+      "source_blocks": [
+        156
+      ],
+      "family": "energy-supply-shock",
+      "asset_or_variable": "energy-supply-shock",
+      "horizon": "Remainder of 2020s",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "WTI reached $114.58 April 7 2026, above the discussed $70-90 range, while IEA documents Gulf supply losses. The remainder-of-decade possibility occurred; no exact timing or full causal attribution is claimed.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Remainder of 2020s",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+          "title": "DCOILWTICO downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "WTI spot April 7 2026 $114.58/barrel. Latest vintage, cutoff November 7 2026."
+        },
+        {
+          "url": "https://www.iea.org/reports/oil-market-report-september-2026",
+          "title": "September 2026 Oil Market Report",
+          "publisher": "IEA",
+          "date": "2026-09-11",
+          "verified": true,
+          "finding": "More than 10 mb/d Gulf production remained shut in during August; flows through Hormuz severely constrained and Gulf exports nearly half prewar levels. Establishes realized supply disruption, not a forecast from hindsight."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "121-C52",
+      "claim": "Producers shock insurance",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        156,
+        157
+      ],
+      "family": "energy-inflation-hedge",
+      "asset_or_variable": "energy-inflation-hedge",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Supply-shock upside can hedge some portfolios, but CVX barely gained over the first two years and operations/geography can also be hit. Positive carry is not a guaranteed total-return hedge.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/CVX/history/",
+          "title": "CVX adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-10-15\",\"requested_endpoint\":\"2025-10-15\",\"entry\":\"2023-10-16\",\"exit\":\"2025-10-15\",\"days\":730,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"CVX\":{\"entry_adjusted_close\":145.89744567871094,\"exit_adjusted_close\":146.34336853027344,\"cumulative_return_pct\":0.30564130131824907,\"annualized_return_pct\":0.15280872970506731,\"source\":\"https://finance.yahoo.com/quote/CVX/history/\"},\"SPY\":{\"entry_adjusted_close\":420.517822265625,\"exit_adjusted_close\":658.0703125,\"cumulative_return_pct\":56.49046904944785,\"annualized_return_pct\":25.11533744475527,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-56.18482774812961}"
+        },
+        {
+          "url": "https://www.iea.org/reports/oil-market-report-september-2026",
+          "title": "September 2026 Oil Market Report",
+          "publisher": "IEA",
+          "date": "2026-09-11",
+          "verified": true,
+          "finding": "More than 10 mb/d Gulf production remained shut in during August; flows through Hormuz severely constrained and Gulf exports nearly half prewar levels. Establishes realized supply disruption, not a forecast from hindsight."
+        }
+      ],
+      "next_check": null
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Liquidity",
+      "source_blocks": [
+        9,
+        11,
+        44,
+        48,
+        50
+      ],
+      "use": "Flows; supply.",
+      "image_inspected": false
+    },
+    {
+      "name": "Heatmap",
+      "source_blocks": [
+        15,
+        21,
+        34
+      ],
+      "use": "Cycle breadth.",
+      "image_inspected": false
+    },
+    {
+      "name": "Bonds",
+      "source_blocks": [
+        114,
+        123,
+        125
+      ],
+      "use": "Refinancing; real yields.",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate contract protection from market-price and opportunity-cost risks."
+  ],
+  "assessment": "The TIPS entry earned positive returns but did not beat nominal intermediate Treasuries over the two-year sensitivity. Broad equity caution proved too pessimistic. The report usefully concedes the earlier Fed-hawkishness miss, while the revised claim that higher rates are net inflationary remains unproven. TIPS principal protection needs a par-value qualification. Energy-disruption risk materialized within the decade, without validating every intermediate geopolitical scenario.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

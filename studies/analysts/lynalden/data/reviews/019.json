@@ -1,0 +1,889 @@
+{
+  "article_id": "019",
+  "title": "Ambev (ABEV) Deep Dive Analysis",
+  "date": "2020-05-10",
+  "source_url": "https://www.lynalden.com/premium-2020-5-10/",
+  "read_complete": true,
+  "summary": "Dollar funding links the recovery to emerging-market value.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "Job losses should rise unless reopening",
+      "kind": "forecast",
+      "source_blocks": [
+        16
+      ],
+      "family": "covid-may-employment",
+      "asset_or_variable": "US labor",
+      "horizon": "May 2020",
+      "conditions": "Unless substantial rehiring",
+      "modality": "expected",
+      "verdict": "mixed",
+      "reason": "May payrolls instead rose 2.5 million and unemployment fell to 13.3% in the initial release. The stated exception, many people returning to work, occurred; classify the net bearish expectation as a miss with an explicit escape condition, not an unconditional false statement.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: May 2020",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/empsit_06052020.htm",
+          "title": "May 2020 Employment Situation",
+          "publisher": "Bureau of Labor Statistics",
+          "date": "2020-06-05",
+          "verified": true,
+          "finding": "Initially reported payroll employment rose 2.5 million in May, while unemployment fell from 14.7% to 13.3%. Release discusses pandemic misclassification; this does not reverse the reported improvement."
+        }
+      ],
+      "next_check": null,
+      "id": "019-C01"
+    },
+    {
+      "claim": "Markets lead employment recovery",
+      "kind": "explanation",
+      "source_blocks": [
+        17,
+        18,
+        21,
+        27,
+        28,
+        31,
+        32
+      ],
+      "family": "claims-market-turning-points",
+      "asset_or_variable": "Stocks and labor",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The 2020 market low preceded the payroll trough and full recovery. Two selected historical recessions do not establish a stable trading rule; revised initial claims can change apparent peak timing. Need a complete vintage-based event study.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/SP500",
+          "title": "S&P 500 daily price index",
+          "publisher": "S&P Dow Jones Indices via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "March 23, 2020 close 2237.40 remained the 2020 closing low. April lowest close 2470.50 on April 1; April ended 2912.43, up 12.68% from March 31. No dividends included."
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/empsit_08052022.htm",
+          "title": "July 2022 Employment Situation release",
+          "publisher": "Bureau of Labor Statistics",
+          "date": "2022-08-05",
+          "verified": true,
+          "finding": "The release reported payroll employment and unemployment rate had returned to February 2020 levels in July 2022. This is a publication-vintage recovery date, not a claim about subsequently revised payroll history."
+        }
+      ],
+      "next_check": null,
+      "id": "019-C02"
+    },
+    {
+      "claim": "Stocks may grind for several years",
+      "kind": "forecast",
+      "source_blocks": [
+        33
+      ],
+      "family": "2020-grindy-equity-outlook",
+      "asset_or_variable": "US stocks",
+      "horizon": "next few years",
+      "conditions": null,
+      "modality": "high probability",
+      "verdict": "not_testable",
+      "reason": "Meandering up and down lacks a return range, drawdown size or terminal criterion. Strong gains followed by 2022 losses can be narrated as a grind, but that is not a falsifiable scoring rule.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: next few years",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "019-C03"
+    },
+    {
+      "claim": "Dollar debts create forced asset selling",
+      "kind": "explanation",
+      "source_blocks": [
+        42,
+        49,
+        52,
+        56
+      ],
+      "family": "dollar-shortage-asset-liquidation",
+      "asset_or_variable": "Global funding",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The Fed documents offshore funding stress, credit-line/hedging demand and swaps that reduced the need to sell dollar assets. This substantiates the mechanism, without verifying the full $20 trillion derivative estimate or attributing all equity selling to foreigners.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/may-2021-funding-risk.htm",
+          "title": "Financial Stability Report: funding risk",
+          "publisher": "Federal Reserve",
+          "date": "2021-05-06",
+          "verified": true,
+          "finding": "March 2020 global dollar funding pressures increased as wholesale funding contracted and hedging/credit-line demand rose. Swap-funded auctions helped foreign banks meet commitments and build liquid assets without selling dollar assets."
+        }
+      ],
+      "next_check": null,
+      "id": "019-C04"
+    },
+    {
+      "claim": "Swap lines counter a dollar squeeze",
+      "kind": "explanation",
+      "source_blocks": [
+        38,
+        43
+      ],
+      "family": "dollar-swap-relief",
+      "asset_or_variable": "Federal Reserve",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The Fed retrospective directly identifies improved funding access through swap-funded auctions. Such lending redistributes dollar liquidity and does not automatically create a one-for-one increase in private-sector net wealth.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/may-2021-funding-risk.htm",
+          "title": "Financial Stability Report: funding risk",
+          "publisher": "Federal Reserve",
+          "date": "2021-05-06",
+          "verified": true,
+          "finding": "March 2020 global dollar funding pressures increased as wholesale funding contracted and hedging/credit-line demand rose. Swap-funded auctions helped foreign banks meet commitments and build liquid assets without selling dollar assets."
+        }
+      ],
+      "next_check": null,
+      "id": "019-C05"
+    },
+    {
+      "claim": "Another dollar spike threatens stocks",
+      "kind": "forecast",
+      "source_blocks": [
+        48,
+        56
+      ],
+      "family": "dollar-risk-asset-conditional",
+      "asset_or_variable": "US equities",
+      "horizon": "later 2020",
+      "conditions": "Renewed material dollar spike",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "The article presents the spike as a conditional scenario, not a firm dollar forecast. The broad dollar declined into year-end; no threshold for another spike is specified, so brief fluctuations cannot be selectively counted.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: later 2020",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+          "title": "Nominal broad US dollar index",
+          "publisher": "Federal Reserve via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Latest-vintage historical observations: 114.9867 on January 3, 2020; 111.3169 on December 31, 2020; 110.5046 on June 1, 2021; 121.4256 on December 30, 2022. Weakness was temporary, not sustained across the following three years."
+        }
+      ],
+      "next_check": null,
+      "id": "019-C06"
+    },
+    {
+      "claim": "Dollar pivots often lead activity",
+      "kind": "explanation",
+      "source_blocks": [
+        62,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "family": "dollar-leads-global-cycle",
+      "asset_or_variable": "Dollar and ISM",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The funding mechanism is supported, but annotated turning points selected by regime can overfit. Directional feedback runs both ways, as the source acknowledges; price index level, funding basis and liquidity quantity are not interchangeable.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/may-2021-funding-risk.htm",
+          "title": "Financial Stability Report: funding risk",
+          "publisher": "Federal Reserve",
+          "date": "2021-05-06",
+          "verified": true,
+          "finding": "March 2020 global dollar funding pressures increased as wholesale funding contracted and hedging/credit-line demand rose. Swap-funded auctions helped foreign banks meet commitments and build liquid assets without selling dollar assets."
+        }
+      ],
+      "next_check": "Define regime and peak rules in advance; test lagged relationships on original data.",
+      "id": "019-C07"
+    },
+    {
+      "claim": "Recovery needs easier dollar liquidity",
+      "kind": "forecast",
+      "source_blocks": [
+        70,
+        71,
+        150,
+        154
+      ],
+      "family": "dollar-liquidity-recovery",
+      "asset_or_variable": "Global economy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Funding relief and later recovery are consistent with the thesis. A necessary condition is stronger than a helpful channel: fiscal demand, local-currency credit and supply reopening can also drive growth. Dollar exchange value alone is not dollar availability.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/may-2021-funding-risk.htm",
+          "title": "Financial Stability Report: funding risk",
+          "publisher": "Federal Reserve",
+          "date": "2021-05-06",
+          "verified": true,
+          "finding": "March 2020 global dollar funding pressures increased as wholesale funding contracted and hedging/credit-line demand rose. Swap-funded auctions helped foreign banks meet commitments and build liquid assets without selling dollar assets."
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/empsit_08052022.htm",
+          "title": "July 2022 Employment Situation release",
+          "publisher": "Bureau of Labor Statistics",
+          "date": "2022-08-05",
+          "verified": true,
+          "finding": "The release reported payroll employment and unemployment rate had returned to February 2020 levels in July 2022. This is a publication-vintage recovery date, not a claim about subsequently revised payroll history."
+        }
+      ],
+      "next_check": null,
+      "id": "019-C08"
+    },
+    {
+      "claim": "Bitcoin miners adjust after halving",
+      "kind": "forecast",
+      "source_blocks": [
+        77
+      ],
+      "family": "bitcoin-halving-miner-exit",
+      "asset_or_variable": "Bitcoin mining",
+      "horizon": "May 2020 halving",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Lower subsidy squeezes inefficient miners at unchanged price/difficulty. The protocol subsequently adjusts difficulty, so actual exit magnitude needs hash-rate and profitability data; it is not guaranteed by subsidy arithmetic alone.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: May 2020 halving",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://help.blockstream.com/education/economics/bitcoin-economics/what-is-the-bitcoin-halving",
+          "title": "Bitcoin halving and difficulty mechanics",
+          "publisher": "Blockstream",
+          "date": null,
+          "verified": true,
+          "finding": "Subsidy halves every 210,000 blocks; 2020 cut 12.5 to 6.25 BTC. Difficulty retargets every 2016 blocks, so miner exit can lower difficulty. Reduced issuance is not a protocol requirement for permanently higher mining cost or market price."
+        }
+      ],
+      "next_check": null,
+      "id": "019-C09"
+    },
+    {
+      "claim": "Halving need not create immediate gains",
+      "kind": "forecast",
+      "source_blocks": [
+        77,
+        84
+      ],
+      "family": "bitcoin-halving-event-risk",
+      "asset_or_variable": "BTC",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The source avoids promising a day/week jump and treats sell-the-news as possible. This is a risk qualification, not a directional trade that can be graded from a single daily move.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "019-C10"
+    },
+    {
+      "claim": "Bitcoin remains attractive for a year",
+      "kind": "forecast",
+      "source_blocks": [
+        82,
+        85
+      ],
+      "family": "bitcoin-2020-2021-bull",
+      "asset_or_variable": "BTC USD",
+      "horizon": "at least one year",
+      "conditions": null,
+      "modality": "speculation",
+      "verdict": "right",
+      "reason": "Next-day May 11, 2020 close $8557.37 to May 10, 2021 $55936.77 implies 553.67% appreciation over the minimum one-year window. This does not identify liquidity/halving causation or imply the interim position was low risk.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: at least one year",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin USD daily price",
+          "publisher": "Coinbase via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "2020-04-13:$6871; 2021-12-31:$46244.63 (+573.04%).2020-04-27:$7773; 2022-04-26:$38102.78; 2023-04-26:$28406.04. Daily-close peak drawdowns: Apr 13, 2020-Dec 31, 2021 -53.21%; Apr 27, 2020-Apr 26, 2023 -76.66%. No fees, custody loss or tax included. May 11, 2020:$8557.37; May 10, 2021:$55936.77, a 553.67% price increase."
+        }
+      ],
+      "next_check": null,
+      "id": "019-C11"
+    },
+    {
+      "claim": "Recovered principal leaves free money",
+      "kind": "explanation",
+      "source_blocks": [
+        80,
+        83
+      ],
+      "family": "mental-accounting-house-money",
+      "asset_or_variable": "Portfolio sizing",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Recovering the initial cash outlay is a position-sizing heuristic, not a forecast. The remaining asset is still wealth with opportunity cost, so the free-money metaphor should not imply losses are costless. No objective return or risk criterion is supplied for grading the heuristic.",
+      "direction_assessment": "No directional forecast.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Fungibility and opportunity cost, not a historical outcome.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "id": "019-C12"
+    },
+    {
+      "claim": "Ambev balance sheet protects survival",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        92,
+        103,
+        105,
+        109,
+        110,
+        119
+      ],
+      "family": "ambev-net-cash-resilience",
+      "asset_or_variable": "ABEV",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Ambev retained net cash through 2020 and 2025 and remained profitable. This supports the low-financial-distress thesis, but does not protect USD share value from currency, margins or valuation.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ri.ambev.com.br/en/overview/financial-highlights/",
+          "title": "Financial highlights 2015-2025",
+          "publisher": "Ambev",
+          "date": null,
+          "verified": true,
+          "finding": "2020 EPS R$0.72 versus 0.75 in 2019, 2021 R$0.81, 2025 R$0.99.2020 net cash R$14.0 b; 2025 R$16.9 b. 2020 EBITDA margin 37%,2022 29.8%,2025 33.4%, versus 40.2% in 2019. Per-share figures are issuer-adjusted for corporate actions."
+        }
+      ],
+      "next_check": null,
+      "id": "019-C13"
+    },
+    {
+      "claim": "Ambev is preferable to leveraged parent",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        111,
+        119
+      ],
+      "family": "ambev-vs-abinbev",
+      "asset_or_variable": "ABEV BUD",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "ABEV beat BUD at three years (55.64% versus 50.65%) but trailed at five (53.38% versus 69.26%). The preference did not dominate across the disclosed windows. Lower leverage can reduce funding risk without guaranteeing better equity returns; exact risk-adjusted superiority remains undefined.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ABEV/history/",
+          "title": "ABEV historical price sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "3-year comparison 2020-05-11 to 2023-05-10: ABEV +55.64% cumulative, 15.92% annualized; SPY +47.76% cumulative. 5-year comparison 2020-05-11 to 2025-05-09: ABEV +53.38% cumulative, 8.94% annualized; SPY +107.51% cumulative. First common close strictly after publication, last common close on/before anniversary. USD vendor-adjusted-close proxies include vendor dividend/split adjustments; no fees, taxes or actual subscriber trades. These are evaluator-defined sensitivities unless the claim explicitly names the horizon."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/BUD/history/",
+          "title": "BUD historical price sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "3-year comparison 2020-05-11 to 2023-05-10: BUD +50.65% cumulative, 14.66% annualized; SPY +47.76% cumulative. 5-year comparison 2020-05-11 to 2025-05-09: BUD +69.26% cumulative, 11.11% annualized; SPY +107.51% cumulative. First common close strictly after publication, last common close on/before anniversary. USD vendor-adjusted-close proxies include vendor dividend/split adjustments; no fees, taxes or actual subscriber trades. These are evaluator-defined sensitivities unless the claim explicitly names the horizon."
+        }
+      ],
+      "next_check": null,
+      "id": "019-C14",
+      "test_specification": {
+        "window_type": "evaluator-defined sensitivity unless explicitly matched to source horizon",
+        "windows_years": [
+          3,
+          5
+        ],
+        "returns": {
+          "ABEV": {
+            "3": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-05-10",
+              "requested_endpoint": "2023-05-10",
+              "entry": "2020-05-11",
+              "exit": "2023-05-10",
+              "days": 1094,
+              "endpoint_gap_days": 0,
+              "endpoint_covered": true,
+              "instruments": {
+                "ABEV": {
+                  "entry_adjusted_close": 1.6052429676055908,
+                  "exit_adjusted_close": 2.4983716011047363,
+                  "cumulative_return_pct": 55.63822122400275,
+                  "annualized_return_pct": 15.915414215020274,
+                  "source": "https://finance.yahoo.com/quote/ABEV/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 267.52294921875,
+                  "exit_adjusted_close": 395.28564453125,
+                  "cumulative_return_pct": 47.75765805722714,
+                  "annualized_return_pct": 13.921861378677214,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 7.880563166775609
+            },
+            "5": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-05-10",
+              "requested_endpoint": "2025-05-10",
+              "entry": "2020-05-11",
+              "exit": "2025-05-09",
+              "days": 1824,
+              "endpoint_gap_days": 1,
+              "endpoint_covered": true,
+              "instruments": {
+                "ABEV": {
+                  "entry_adjusted_close": 1.6052429676055908,
+                  "exit_adjusted_close": 2.4621121883392334,
+                  "cumulative_return_pct": 53.379409723361945,
+                  "annualized_return_pct": 8.942978097732501,
+                  "source": "https://finance.yahoo.com/quote/ABEV/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 267.52294921875,
+                  "exit_adjusted_close": 555.1318359375,
+                  "cumulative_return_pct": 107.50811754978673,
+                  "annualized_return_pct": 15.740467975032612,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": -54.12870782642479
+            }
+          },
+          "BUD": {
+            "3": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-05-10",
+              "requested_endpoint": "2023-05-10",
+              "entry": "2020-05-11",
+              "exit": "2023-05-10",
+              "days": 1094,
+              "endpoint_gap_days": 0,
+              "endpoint_covered": true,
+              "instruments": {
+                "BUD": {
+                  "entry_adjusted_close": 39.16127395629883,
+                  "exit_adjusted_close": 58.99551773071289,
+                  "cumulative_return_pct": 50.64759587889724,
+                  "annualized_return_pct": 14.660973996170657,
+                  "source": "https://finance.yahoo.com/quote/BUD/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 267.52294921875,
+                  "exit_adjusted_close": 395.28564453125,
+                  "cumulative_return_pct": 47.75765805722714,
+                  "annualized_return_pct": 13.921861378677214,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 2.8899378216701024
+            },
+            "5": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-05-10",
+              "requested_endpoint": "2025-05-10",
+              "entry": "2020-05-11",
+              "exit": "2025-05-09",
+              "days": 1824,
+              "endpoint_gap_days": 1,
+              "endpoint_covered": true,
+              "instruments": {
+                "BUD": {
+                  "entry_adjusted_close": 39.16127395629883,
+                  "exit_adjusted_close": 66.28588104248047,
+                  "cumulative_return_pct": 69.26385264292156,
+                  "annualized_return_pct": 11.114115508206801,
+                  "source": "https://finance.yahoo.com/quote/BUD/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 267.52294921875,
+                  "exit_adjusted_close": 555.1318359375,
+                  "cumulative_return_pct": 107.50811754978673,
+                  "annualized_return_pct": 15.740467975032612,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": -38.24426490686517
+            }
+          }
+        }
+      }
+    },
+    {
+      "claim": "Currency explains weak dollar results",
+      "kind": "explanation",
+      "source_blocks": [
+        101,
+        127,
+        149
+      ],
+      "family": "ambev-currency-translation",
+      "asset_or_variable": "ABEV USD earnings",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Local EPS and cash growth can coexist with weak USD outcomes; the 2025 filing demonstrates the translation issue. Product mix, costs and volumes also affect earnings, so currency is not a complete explanation of stagnation.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ri.ambev.com.br/en/overview/financial-highlights/",
+          "title": "Financial highlights 2015-2025",
+          "publisher": "Ambev",
+          "date": null,
+          "verified": true,
+          "finding": "2020 EPS R$0.72 versus 0.75 in 2019, 2021 R$0.81, 2025 R$0.99.2020 net cash R$14.0 b; 2025 R$16.9 b. 2020 EBITDA margin 37%,2022 29.8%,2025 33.4%, versus 40.2% in 2019. Per-share figures are issuer-adjusted for corporate actions."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1565025/000129281426000640/abevform20f_2025.htm",
+          "title": "2025 Form 20-F",
+          "publisher": "Ambev / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "2025 basic/diluted EPS R$0.99; one ADS represents one common share. Filing uses R$5.50/US$1 year-end convenience translation, implying approximately US$0.18 per ADS; this is not an average-year currency translation."
+        }
+      ],
+      "next_check": null,
+      "id": "019-C15"
+    },
+    {
+      "claim": "Historical multiples imply deep value",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        113,
+        114,
+        115,
+        117,
+        128
+      ],
+      "family": "ambev-valuation-history",
+      "asset_or_variable": "ABEV",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The claimed 2013 sales multiple 38 x is unusually large and requires checking against the 2013 corporate reorganization and ADR/share series. Potential vendor discontinuity should be resolved before calling current multiples multi-decade lows.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Rebuild 2013 market capitalization and sales from issuer filings; reconcile old/new ADR ratios.",
+      "id": "019-C16"
+    },
+    {
+      "claim": "Boston Beer premium appears excessive",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        120,
+        122,
+        123
+      ],
+      "family": "beer-relative-valuation",
+      "asset_or_variable": "SAM versus ABEV",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A premium-size opinion requires matched growth, geography, margins and currency risk. Future relative return can inform it, but no horizon or fair premium threshold is specified.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "019-C17"
+    },
+    {
+      "claim": "Earnings fall then recover gradually",
+      "kind": "forecast",
+      "source_blocks": [
+        124,
+        128
+      ],
+      "family": "ambev-pandemic-earnings-path",
+      "asset_or_variable": "ABEV",
+      "horizon": "2020-2022",
+      "conditions": null,
+      "modality": "analyst scenario adopted cautiously",
+      "verdict": "mixed",
+      "reason": "Issuer local EPS fell from R$0.75 in 2019 to 0.72 in 2020 and rose 0.81 in 2021. Direction fits, but the forecast uses USD and expects a large 2020 decline; currency conversion and normalized versus GAAP definitions must be reconciled.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2020-2022",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ri.ambev.com.br/en/overview/financial-highlights/",
+          "title": "Financial highlights 2015-2025",
+          "publisher": "Ambev",
+          "date": null,
+          "verified": true,
+          "finding": "2020 EPS R$0.72 versus 0.75 in 2019, 2021 R$0.81, 2025 R$0.99.2020 net cash R$14.0 b; 2025 R$16.9 b. 2020 EBITDA margin 37%,2022 29.8%,2025 33.4%, versus 40.2% in 2019. Per-share figures are issuer-adjusted for corporate actions."
+        }
+      ],
+      "next_check": null,
+      "id": "019-C18"
+    },
+    {
+      "claim": "Model reaches twenty-two-cent earnings",
+      "kind": "forecast",
+      "source_blocks": [
+        130,
+        131,
+        132
+      ],
+      "family": "ambev-2025-model-earnings",
+      "asset_or_variable": "ABEV EPS",
+      "horizon": "2025",
+      "conditions": "Reopening, margin normalization and currency stabilization",
+      "modality": "illustrative model",
+      "verdict": "mixed",
+      "reason": "2025 R$0.99 EPS translates to about US$0.18 at the filing's 5.50 year-end rate, below the $0.22 scenario. It was an illustrative assumption, not a guarantee; full average-year USD and normalized-EPS reconciliation remains necessary.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1565025/000129281426000640/abevform20f_2025.htm",
+          "title": "2025 Form 20-F",
+          "publisher": "Ambev / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "2025 basic/diluted EPS R$0.99; one ADS represents one common share. Filing uses R$5.50/US$1 year-end convenience translation, implying approximately US$0.18 per ADS; this is not an average-year currency translation."
+        }
+      ],
+      "next_check": null,
+      "id": "019-C19"
+    },
+    {
+      "claim": "Ten-year model offers ten-percent returns",
+      "kind": "forecast",
+      "source_blocks": [
+        131,
+        134,
+        135,
+        136
+      ],
+      "family": "ambev-ten-year-value",
+      "asset_or_variable": "ABEV",
+      "horizon": "2020-2030",
+      "conditions": "Model recovery and terminal assumptions",
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The model includes recovery through 2025 and another five years to 2030. Five-year vendor adjusted-close sensitivity was +53.38%/8.94% annualized versus SPY+107.51%/15.74%; this is interim evidence, not the final model verdict.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2020-2030",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ABEV/history/",
+          "title": "Historical adjusted closes, local archived vendor data",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Evaluator-defined five-year sensitivity, next common close 2020-05-11 to 2025-05-09: ABEV adjusted-close proxy 1.6052429676 to 2.4621121883 (+53.3794%,8.9430% annualized); SPY 267.5229492188 to 555.1318359375 (+107.5081%,15.7405% annualized). Not audited P&L; no taxes or fees."
+        }
+      ],
+      "next_check": "Reconcile distributions/ADR charges and terminal value at 2030; preserve interim underperformance.",
+      "id": "019-C20"
+    },
+    {
+      "claim": "Liquidity permits opportunistic acquisitions",
+      "kind": "forecast",
+      "source_blocks": [
+        136
+      ],
+      "family": "ambev-acquisition-optionality",
+      "asset_or_variable": "ABEV",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Net cash provides capacity, but neither a required acquisition nor its return is forecast. Optionality is not equivalent to value creation.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ri.ambev.com.br/en/overview/financial-highlights/",
+          "title": "Financial highlights 2015-2025",
+          "publisher": "Ambev",
+          "date": null,
+          "verified": true,
+          "finding": "2020 EPS R$0.72 versus 0.75 in 2019, 2021 R$0.81, 2025 R$0.99.2020 net cash R$14.0 b; 2025 R$16.9 b. 2020 EBITDA margin 37%,2022 29.8%,2025 33.4%, versus 40.2% in 2019. Per-share figures are issuer-adjusted for corporate actions."
+        }
+      ],
+      "next_check": null,
+      "id": "019-C21"
+    },
+    {
+      "claim": "Changing tastes threaten mainstream beer",
+      "kind": "explanation",
+      "source_blocks": [
+        144,
+        145,
+        146,
+        147
+      ],
+      "family": "beer-consumer-mix-risk",
+      "asset_or_variable": "Beer industry",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Craft, premiumization, seltzer and overall alcohol demand vary by country and income. Need regional volume/share data rather than extrapolate US trends directly to Brazil.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Track Brazilian and Canadian volume/mix and acquisition returns separately.",
+      "id": "019-C22"
+    },
+    {
+      "claim": "Currency and reopening can delay value",
+      "kind": "forecast",
+      "source_blocks": [
+        135,
+        142,
+        150,
+        152
+      ],
+      "family": "ambev-value-risk",
+      "asset_or_variable": "ABEV",
+      "horizon": null,
+      "conditions": "Weak reopening or persistent dollar pressure",
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The issuer remained profitable and net-cash, while margins stayed below 2019 levels through 2025. That supports distinguishing durable assets from rapid earnings normalization; no exact delay deadline is provided.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ri.ambev.com.br/en/overview/financial-highlights/",
+          "title": "Financial highlights 2015-2025",
+          "publisher": "Ambev",
+          "date": null,
+          "verified": true,
+          "finding": "2020 EPS R$0.72 versus 0.75 in 2019, 2021 R$0.81, 2025 R$0.99.2020 net cash R$14.0 b; 2025 R$16.9 b. 2020 EBITDA margin 37%,2022 29.8%,2025 33.4%, versus 40.2% in 2019. Per-share figures are issuer-adjusted for corporate actions."
+        }
+      ],
+      "next_check": null,
+      "id": "019-C23"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Claims versus equities",
+      "source_blocks": [
+        18,
+        21,
+        24
+      ],
+      "use": "Timing",
+      "image_inspected": false
+    },
+    {
+      "name": "Dollar ISM swaps",
+      "source_blocks": [
+        38,
+        45,
+        62
+      ],
+      "use": "Funding",
+      "image_inspected": false
+    },
+    {
+      "name": "ROIC and staged valuation",
+      "source_blocks": [
+        103,
+        130
+      ],
+      "use": "ABEV value",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Funding relief helps recovery but does not uniquely cause it."
+  ],
+  "assessment": "The dollar-funding diagnosis has strong independent support and the Bitcoin minimum holding window succeeded. Ambev financial resilience was real, while earnings normalization and USD value required more than a strong balance sheet. The article conditionally missed May's jobs turn and uses misleading free-money framing.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "Public market series are available, but not every investment claim has a defined horizon or reconciled corporate-action-adjusted return. Unverified outcomes remain unscored."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "942488af5fdbc4ef712ca951601c2b98e7e75c884d5cc3ed23d0a6f93a8c3774"
+}

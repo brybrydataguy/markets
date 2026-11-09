@@ -1,0 +1,1243 @@
+{
+  "article_id": "119",
+  "title": "Cash and Energy Update",
+  "date": "2023-09-17",
+  "source_url": "https://www.lynalden.com/premium-2023-9-17/",
+  "read_complete": true,
+  "evaluation_as_of": "2026-11-07",
+  "summary": "Cash, energy and custody.",
+  "assessment": "Bitcoin’s 2024-2025 direction succeeded. The six-month equity caution and durable oil floor failed. Custody architecture needs legal and operational qualifications; cash comparisons need consistent monetary aggregates. The 2019 QT chronology is incorrect. Long commodity horizons remain open.",
+  "claims": [
+    {
+      "claim": "Equities face six-month headwinds.",
+      "source_blocks": [
+        8
+      ],
+      "verdict": "wrong",
+      "reason": "The broad directional caution failed over its stated horizon: SPY gained 15.75% from September 18, 2023 to March 15, 2024 versus BIL 2.64%. An intervening autumn drawdown does not turn the full six-month outcome into sustained market weakness.",
+      "kind": "forecast",
+      "family": "equity-six-month-2023",
+      "asset_or_variable": "equity-six-month-2023",
+      "horizon": "Next six months",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "SPY adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-09-17\", \"requested_endpoint\": \"2024-03-17\", \"entry\": \"2023-09-18\", \"exit\": \"2024-03-15\", \"days\": 179, \"endpoint_gap_days\": 2, \"endpoint_covered\": true, \"instruments\": {\"SPY\": {\"entry_adjusted_close\": 427.83770751953125, \"exit_adjusted_close\": 495.2084045410156, \"cumulative_return_pct\": 15.7467880547693, \"annualized_return_pct\": 34.76905601759472, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}, \"BIL\": {\"entry_adjusted_close\": 80.03034210205078, \"exit_adjusted_close\": 82.1402359008789, \"cumulative_return_pct\": 2.636367336950385, \"annualized_return_pct\": 5.453325029623479, \"source\": \"https://finance.yahoo.com/quote/BIL/history/\"}}, \"excess_percentage_points\": 13.110420717818915}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Next six months",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C01"
+    },
+    {
+      "claim": "Global liquidity is stagnant.",
+      "source_blocks": [
+        10,
+        12
+      ],
+      "verdict": "not_testable",
+      "reason": "The translated basket combines money growth and exchange-rate effects. Without fixed weights, frequency and a flatness tolerance, the visual characterization is not a reproducible forecasting rule.",
+      "kind": "explanation",
+      "family": "global-m2-proxy",
+      "asset_or_variable": "global-m2-proxy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Freeze the basket and lag before comparing it with subsequent asset returns.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C02"
+    },
+    {
+      "claim": "Dollar strength tightens conditions.",
+      "source_blocks": [
+        12,
+        110
+      ],
+      "verdict": "right",
+      "reason": "An unhedged borrower with local-currency receipts needs more local currency to service a fixed dollar liability when that currency depreciates. Oil import dependence can compound the cash-flow pressure. This is a conditional accounting mechanism, not proof of each country outcome.",
+      "kind": "explanation",
+      "family": "dollar-debt-energy-squeeze",
+      "asset_or_variable": "dollar-debt-energy-squeeze",
+      "horizon": null,
+      "conditions": "Unhedged dollar liabilities and insufficient offsetting dollar receipts",
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "high",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C03",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": "Unhedged dollar liabilities and insufficient offsetting dollar receipts",
+        "derivation": "An unhedged borrower with local-currency receipts needs more local currency to service a fixed dollar liability when that currency depreciates. Oil import dependence can compound the cash-flow pressure. This is a conditional accounting mechanism, not proof of each country outcome."
+      }
+    },
+    {
+      "claim": "Diesel sustains inflation pressure.",
+      "source_blocks": [
+        17
+      ],
+      "verdict": "mixed",
+      "reason": "A sustained diesel increase raises a relevant transport input cost. Final consumer-price pass-through depends on margins, contracts and demand, and does not mechanically determine the Fed response. The statement is explicitly conditional on prices remaining high.",
+      "kind": "explanation",
+      "family": "diesel-cost-pass-through",
+      "asset_or_variable": "diesel-cost-pass-through",
+      "horizon": null,
+      "conditions": "Diesel prices remain elevated",
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Track diesel, freight rates, margins and CPI components on consistent dates.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C04"
+    },
+    {
+      "claim": "RRP buffers QT.",
+      "source_blocks": [
+        18,
+        20
+      ],
+      "verdict": "mixed",
+      "reason": "Money funds can replace reverse repos with bills, cushioning the effect of Fed asset runoff on reserves. The offset is contingent on buyer identity and financing; the RRP stock is neither a fixed deadline nor the entire pool of system liquidity.",
+      "kind": "explanation",
+      "family": "rrp-qt-buffer",
+      "asset_or_variable": "rrp-qt-buffer",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/RRPONTSYD",
+          "title": "RRPONTSYD observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "September 15, 2023: $1,401.403bn; September 16, 2024: $239.386bn."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C05"
+    },
+    {
+      "claim": "RRP may empty annually.",
+      "source_blocks": [
+        20
+      ],
+      "verdict": "mixed",
+      "reason": "The large decline occurred, but the facility was not empty a year later: it retained roughly $239bn on September 16, 2024. The source presents an extrapolation as a possibility, so the directional success and incomplete depletion should both remain visible.",
+      "kind": "forecast",
+      "family": "rrp-depletion-2024",
+      "asset_or_variable": "rrp-depletion-2024",
+      "horizon": "Another year",
+      "conditions": null,
+      "modality": "could",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/RRPONTSYD",
+          "title": "RRPONTSYD observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "September 15, 2023 $1401.403bn; September 16, 2024 $239.386bn; September 17 $256.337bn."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Another year",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C06"
+    },
+    {
+      "claim": "Small-bank cash stabilized.",
+      "source_blocks": [
+        21
+      ],
+      "verdict": "evidence_needed",
+      "reason": "The exact 7% observation needs the chart definition, seasonal convention and bank-size series. A ratio associated with prior stress is not a universal regulatory or insolvency threshold.",
+      "kind": "empirical",
+      "family": "small-bank-cash-buffer",
+      "asset_or_variable": "small-bank-cash-buffer",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Reconstruct cash/assets from the same H.8 vintage and bank classification.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C07"
+    },
+    {
+      "claim": "Continued tightening weakens assets.",
+      "source_blocks": [
+        23
+      ],
+      "verdict": "mixed",
+      "reason": "The conditional prediction cannot simply inherit the unconditional six-month verdict: monetary and funding expectations changed during the window. Nevertheless the observed broad-equity gain is adverse to the near-term bearish positioning. The trigger needs a precise definition to distinguish failure from changed conditions.",
+      "kind": "forecast",
+      "family": "conditional-liquidity-risk-assets",
+      "asset_or_variable": "conditional-liquidity-risk-assets",
+      "horizon": "Six months or longer",
+      "conditions": "Current conditions continue for six or more months",
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "SPY adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-09-17\", \"requested_endpoint\": \"2024-03-17\", \"entry\": \"2023-09-18\", \"exit\": \"2024-03-15\", \"days\": 179, \"endpoint_gap_days\": 2, \"endpoint_covered\": true, \"instruments\": {\"SPY\": {\"entry_adjusted_close\": 427.83770751953125, \"exit_adjusted_close\": 495.2084045410156, \"cumulative_return_pct\": 15.7467880547693, \"annualized_return_pct\": 34.76905601759472, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}, \"BIL\": {\"entry_adjusted_close\": 80.03034210205078, \"exit_adjusted_close\": 82.1402359008789, \"cumulative_return_pct\": 2.636367336950385, \"annualized_return_pct\": 5.453325029623479, \"source\": \"https://finance.yahoo.com/quote/BIL/history/\"}}, \"excess_percentage_points\": 13.110420717818915}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Six months or longer",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C08"
+    },
+    {
+      "claim": "Debt structures divide outcomes.",
+      "source_blocks": [
+        27,
+        28,
+        29,
+        30
+      ],
+      "verdict": "mixed",
+      "reason": "Fixed long-maturity debt delays refinancing costs while floating or maturing debt transmits them sooner. Transfers and interest income can support other recipients. This mechanism does not by itself quantify the net fiscal offset or establish that every named sector will outperform.",
+      "kind": "explanation",
+      "family": "fiscal-two-economies",
+      "asset_or_variable": "fiscal-two-economies",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Compare borrowing terms, recipient spending and operating results by cohort.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C09"
+    },
+    {
+      "claim": "Energy and travel benefit.",
+      "source_blocks": [
+        29
+      ],
+      "verdict": "not_testable",
+      "reason": "The sector preference has no weights, return threshold or endpoint. Industry demand, company earnings and investor returns must be judged separately; a profitable traveler-facing business can still be an expensive stock.",
+      "kind": "investment_thesis",
+      "family": "energy-travel-senior-preference",
+      "asset_or_variable": "energy-travel-senior-preference",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Specify securities, weights, horizon and a risk benchmark.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C10"
+    },
+    {
+      "claim": "Bitcoin supply tightens.",
+      "source_blocks": [
+        32
+      ],
+      "verdict": "evidence_needed",
+      "reason": "Older coin balances do not directly measure saleable supply, and a price rebound does not establish that supply migration caused it. Custodial transfers, lost coins and price-sensitive selling complicate the inference.",
+      "kind": "explanation",
+      "family": "bitcoin-holder-supply",
+      "asset_or_variable": "bitcoin-holder-supply",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Use entity-adjusted spending and market-depth evidence with fixed measurement dates.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C11"
+    },
+    {
+      "claim": "Bitcoin bulls return soon.",
+      "source_blocks": [
+        33
+      ],
+      "verdict": "right",
+      "reason": "The predicted 2024-2025 bull phase occurred. The disclosed September 18, 2023 to December 31, 2025 Bitcoin sensitivity returned 227.08%. This resolves direction in the stated window, without proving that global money was the dominant cause.",
+      "kind": "forecast",
+      "family": "bitcoin-2024-2025-bull",
+      "asset_or_variable": "bitcoin-2024-2025-bull",
+      "horizon": "2024 or 2025",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-09-17\", \"requested_endpoint\": \"2025-12-31\", \"entry\": \"2023-09-18\", \"exit\": \"2025-12-31\", \"days\": 835, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"BTC-USD\": {\"entry_adjusted_close\": 26754.28125, \"exit_adjusted_close\": 87508.828125, \"cumulative_return_pct\": 227.08345743730268, \"annualized_return_pct\": 67.92857640661308, \"source\": \"https://finance.yahoo.com/quote/BTC-USD/history/\"}, \"MARA\": {\"entry_adjusted_close\": 9.789999961853027, \"exit_adjusted_close\": 8.979999542236328, \"cumulative_return_pct\": -8.273753041602506, \"annualized_return_pct\": -3.7072104761371683, \"source\": \"https://finance.yahoo.com/quote/MARA/history/\"}}, \"excess_percentage_points\": 235.3572104789052}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "2024 or 2025",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C12"
+    },
+    {
+      "claim": "ETF approval accelerates demand.",
+      "source_blocks": [
+        33
+      ],
+      "verdict": "mixed",
+      "reason": "Approval in January 2024 and substantial subsequent market appreciation support the proposed channel. Separating ETF demand from concurrent risk appetite, leverage and monetary changes needs more than a before-and-after price comparison.",
+      "kind": "forecast",
+      "family": "spot-etf-bitcoin-demand",
+      "asset_or_variable": "spot-etf-bitcoin-demand",
+      "horizon": null,
+      "conditions": "Spot ETF approval",
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
+          "title": "Spot Bitcoin ETP approval",
+          "publisher": "SEC",
+          "date": "2024-01-10",
+          "verified": true,
+          "finding": "The SEC approved spot Bitcoin ETP listings on January 10, 2024."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C13"
+    },
+    {
+      "claim": "Average into Bitcoin.",
+      "source_blocks": [
+        35
+      ],
+      "verdict": "not_testable",
+      "reason": "Regular purchases can reduce entry-date concentration and behavioral burden. Calling the method best for most people needs an investor objective and comparison; it is not mathematically optimal under every return path.",
+      "kind": "investment_thesis",
+      "family": "bitcoin-dollar-cost-averaging",
+      "asset_or_variable": "bitcoin-dollar-cost-averaging",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Compare identical capital availability, risk limits and purchase schedules.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C14"
+    },
+    {
+      "claim": "Separate custody improves protection.",
+      "source_blocks": [
+        37,
+        39,
+        40,
+        42,
+        43
+      ],
+      "verdict": "mixed",
+      "reason": "Segregation and independent custody can limit intermediary conflicts. Bankruptcy remoteness depends on actual contracts, title, commingling and applicable law; the business label alone cannot guarantee recovery. Financial separation rules also differ by activity and jurisdiction.",
+      "kind": "explanation",
+      "family": "segregated-crypto-custody",
+      "asset_or_variable": "segregated-crypto-custody",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Inspect dated custody agreements, asset-control rights and applicable insolvency treatment.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C15"
+    },
+    {
+      "claim": "Bitcoin-only trust is planned.",
+      "source_blocks": [
+        44,
+        48
+      ],
+      "verdict": "right",
+      "reason": "The contemporaneous issuer release confirms a plan subject to regulatory approval. This verifies the announcement, not completed authorization or future operational safety.",
+      "kind": "empirical",
+      "family": "swan-bitgo-trust-plan",
+      "asset_or_variable": "swan-bitgo-trust-plan",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.prweb.com/releases/bitgo-and-swan-announce-plans-for-usas-first-bitcoin-only-trust-company-301928557.html",
+          "title": "Bitcoin-only trust announcement",
+          "publisher": "BitGo and Swan",
+          "date": "2023-09-15",
+          "verified": true,
+          "finding": "BitGo and Swan announced plans for a joint trust company, subject to regulatory approval."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C16"
+    },
+    {
+      "claim": "Vault arrives in 2023.",
+      "source_blocks": [
+        49
+      ],
+      "verdict": "mixed",
+      "reason": "An October 2023 partner announcement supports product development and describes launch, but Swan dates general-public availability to September 12, 2024 after early access. Availability to some early users differs from a complete public launch.",
+      "kind": "forecast",
+      "family": "swan-vault-launch",
+      "asset_or_variable": "swan-vault-launch",
+      "horizon": "Later in 2023",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://blockstream.com/press-releases/2023-10-05-blockstream-swan-partnership/",
+          "title": "Swan collaborative custody announcement",
+          "publisher": "Blockstream",
+          "date": "2023-10-05",
+          "verified": true,
+          "finding": "October announcement described a two-of-three arrangement with two customer keys and one recovery key held by Swan."
+        },
+        {
+          "url": "https://s24.q4cdn.com/538403808/files/doc_news/Swan-Bitcoin-Launches-Swan-Vault-to-Make-Advanced-Bitcoin-Self-Custody-Seamless-and-Simple-for-All-2024.pdf",
+          "title": "Swan Vault public launch",
+          "publisher": "Swan Bitcoin",
+          "date": "2024-09-12",
+          "verified": true,
+          "finding": "September 12, 2024 release says general-public availability followed months of early access; planned inheritance services were still future work."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Later in 2023",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C17"
+    },
+    {
+      "claim": "Multisig separates recovery control.",
+      "source_blocks": [
+        49
+      ],
+      "verdict": "right",
+      "reason": "With independent keys in a two-of-three arrangement, two customer keys can authorize without the provider; one provider key cannot spend alone. The advertised product matches that structure. Backup quality, key independence and operational mistakes remain separate risks.",
+      "kind": "explanation",
+      "family": "two-of-three-custody",
+      "asset_or_variable": "two-of-three-custody",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://blockstream.com/press-releases/2023-10-05-blockstream-swan-partnership/",
+          "title": "Swan collaborative custody announcement",
+          "publisher": "Blockstream",
+          "date": "2023-10-05",
+          "verified": true,
+          "finding": "October announcement described a two-of-three arrangement with two customer keys and one recovery key held by Swan."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C18"
+    },
+    {
+      "claim": "Digital control is unique.",
+      "source_blocks": [
+        49
+      ],
+      "verdict": "mixed",
+      "reason": "Cryptographic thresholds can enforce joint authorization directly on the network. Joint control and recovery arrangements also exist for physical assets, so the absolute contrast with cash or gold is too broad. Inheritance additionally requires a workable legal and operational process.",
+      "kind": "explanation",
+      "family": "digital-versus-physical-custody",
+      "asset_or_variable": "digital-versus-physical-custody",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://s24.q4cdn.com/538403808/files/doc_news/Swan-Bitcoin-Launches-Swan-Vault-to-Make-Advanced-Bitcoin-Self-Custody-Seamless-and-Simple-for-All-2024.pdf",
+          "title": "Swan Vault public launch",
+          "publisher": "Swan Bitcoin",
+          "date": "2024-09-12",
+          "verified": true,
+          "finding": "September 12, 2024 release says general-public availability followed months of early access; planned inheritance services were still future work."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C19"
+    },
+    {
+      "claim": "Bitcoin beats mining complexity.",
+      "source_blocks": [
+        65
+      ],
+      "verdict": "mixed",
+      "reason": "BTC gained 227.08% versus MARA -8.27% through 2025 year-end in the disclosed sensitivity. That supports the relative preference in this window, but return alone does not establish risk-adjusted superiority. The sale explicitly reduced a non-core holding rather than predicting company failure.",
+      "kind": "investment_thesis",
+      "family": "bitcoin-over-miners",
+      "asset_or_variable": "bitcoin-over-miners",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-09-17\", \"requested_endpoint\": \"2025-12-31\", \"entry\": \"2023-09-18\", \"exit\": \"2025-12-31\", \"days\": 835, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"BTC-USD\": {\"entry_adjusted_close\": 26754.28125, \"exit_adjusted_close\": 87508.828125, \"cumulative_return_pct\": 227.08345743730268, \"annualized_return_pct\": 67.92857640661308, \"source\": \"https://finance.yahoo.com/quote/BTC-USD/history/\"}, \"MARA\": {\"entry_adjusted_close\": 9.789999961853027, \"exit_adjusted_close\": 8.979999542236328, \"cumulative_return_pct\": -8.273753041602506, \"annualized_return_pct\": -3.7072104761371683, \"source\": \"https://finance.yahoo.com/quote/MARA/history/\"}}, \"excess_percentage_points\": 235.3572104789052}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C20"
+    },
+    {
+      "claim": "Cash has attractive value.",
+      "source_blocks": [
+        67,
+        70,
+        82,
+        111
+      ],
+      "verdict": "not_testable",
+      "reason": "Cash income and low nominal volatility are observable, but an unspecified risk/reward ranking has no unique binary outcome. The cash-plus-hedges allocation needs weights and a stated objective; later equity gains are relevant opportunity costs, not a complete risk test.",
+      "kind": "investment_thesis",
+      "family": "cash-barbell-2023",
+      "asset_or_variable": "cash-barbell-2023",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "SPY adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-09-17\", \"requested_endpoint\": \"2024-03-17\", \"entry\": \"2023-09-18\", \"exit\": \"2024-03-15\", \"days\": 179, \"endpoint_gap_days\": 2, \"endpoint_covered\": true, \"instruments\": {\"SPY\": {\"entry_adjusted_close\": 427.83770751953125, \"exit_adjusted_close\": 495.2084045410156, \"cumulative_return_pct\": 15.7467880547693, \"annualized_return_pct\": 34.76905601759472, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}, \"BIL\": {\"entry_adjusted_close\": 80.03034210205078, \"exit_adjusted_close\": 82.1402359008789, \"cumulative_return_pct\": 2.636367336950385, \"annualized_return_pct\": 5.453325029623479, \"source\": \"https://finance.yahoo.com/quote/BIL/history/\"}}, \"excess_percentage_points\": 13.110420717818915}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C21"
+    },
+    {
+      "claim": "CPI misses wealth dilution.",
+      "source_blocks": [
+        71,
+        76
+      ],
+      "verdict": "mixed",
+      "reason": "CPI measures a consumption basket, not the cost of purchasing an ownership share in scarce assets. That distinction is useful. It does not imply every asset must appreciate at money-growth rates or that each relative-price increase has a monetary cause.",
+      "kind": "explanation",
+      "family": "cpi-versus-asset-dilution",
+      "asset_or_variable": "cpi-versus-asset-dilution",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Separate consumption purchasing power, nominal money share and real net wealth.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C22"
+    },
+    {
+      "claim": "Savings rates lagged money.",
+      "source_blocks": [
+        74,
+        75
+      ],
+      "verdict": "evidence_needed",
+      "reason": "The broad decade comparison requires the complete interest-rate and money series, including the chosen cash product and compounding. A policy rate is not automatically the yield available to an individual saver.",
+      "kind": "empirical",
+      "family": "cash-money-growth-history",
+      "asset_or_variable": "cash-money-growth-history",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Reconstruct 1980-2023 total cash income and the specified money aggregate using consistent frequencies.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C23"
+    },
+    {
+      "claim": "Relative money share shrinks.",
+      "source_blocks": [
+        76,
+        79
+      ],
+      "verdict": "right",
+      "reason": "If a balance grows more slowly than the defined aggregate, its percentage of that aggregate falls by arithmetic. This verifies a narrow share identity; it does not equate the aggregate with national wealth or establish a particular consumer-price outcome.",
+      "kind": "explanation",
+      "family": "money-share-arithmetic",
+      "asset_or_variable": "money-share-arithmetic",
+      "horizon": null,
+      "conditions": "Account growth is below growth of the consistently defined aggregate",
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "high",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C24",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": "Account growth is below growth of the consistently defined aggregate",
+        "derivation": "If a balance grows more slowly than the defined aggregate, its percentage of that aggregate falls by arithmetic. This verifies a narrow share identity; it does not equate the aggregate with national wealth or establish a particular consumer-price outcome."
+      }
+    },
+    {
+      "claim": "Fixed borrowers gain exposure.",
+      "source_blocks": [
+        77
+      ],
+      "verdict": "mixed",
+      "reason": "Long fixed-rate liabilities can preserve cheap funding when nominal incomes and assets rise. Leverage also adds refinancing, collateral and cash-flow risks, so the advantage is conditional on retained solvency and asset performance.",
+      "kind": "explanation",
+      "family": "fixed-rate-debt-inflation",
+      "asset_or_variable": "fixed-rate-debt-inflation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Evaluate debt service and asset cash flows under adverse real and nominal scenarios.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C25"
+    },
+    {
+      "claim": "Money totals need expansion.",
+      "source_blocks": [
+        78
+      ],
+      "verdict": "mixed",
+      "reason": "Adding all money-market balances to M2 would double-count the retail funds already included. Adding Treasury bills also requires consolidation because money funds own bills. A carefully constructed broader liquidity aggregate is possible, but the simple addition is incomplete.",
+      "kind": "explanation",
+      "family": "m2-bills-money-funds-double-count",
+      "asset_or_variable": "m2-bills-money-funds-double-count",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/M2SL",
+          "title": "M2SL observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "The series definition includes retail money-market funds, with specified retirement-account exclusions."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C26"
+    },
+    {
+      "claim": "Cash now outgrows M2.",
+      "source_blocks": [
+        78,
+        81
+      ],
+      "verdict": "right",
+      "reason": "Short cash yields above 5% exceeded near-zero M2 growth during the specified 2023 plateau. M2 was $20,808.0bn in May and $20,770.3bn in July. The conclusion is narrow nominal-share preservation, not a guarantee of real or asset-relative purchasing power.",
+      "kind": "empirical",
+      "family": "cash-m2-2023",
+      "asset_or_variable": "cash-m2-2023",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/M2SL",
+          "title": "M2SL observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "May 2023 $20808.0bn; July $20770.3bn."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/DFF",
+          "title": "DFF observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Effective funds rate reached 5.33% in late July 2023."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C27"
+    },
+    {
+      "claim": "Cash advantage eventually ends.",
+      "source_blocks": [
+        82
+      ],
+      "verdict": "not_testable",
+      "reason": "An indefinite eventual reversal lacks a deadline, and high public debt alone does not determine the next cash-return regime. A useful allocation rule needs a measurable transition signal and an execution policy.",
+      "kind": "forecast",
+      "family": "cash-regime-eventual-reversal",
+      "asset_or_variable": "cash-regime-eventual-reversal",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Specify which rate, money-growth trend and persistence threshold trigger reallocation.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C28"
+    },
+    {
+      "claim": "Repo stress ended QT.",
+      "source_blocks": [
+        82
+      ],
+      "verdict": "wrong",
+      "reason": "The chronology is reversed: the Fed ended runoff effective August 1, 2019. Repo stress occurred in September and was followed by interventions. Those later measures cannot be the event that caused an already-announced August stop.",
+      "kind": "explanation",
+      "family": "2019-qt-repo-chronology",
+      "asset_or_variable": "2019-qt-repo-chronology",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20190731a1.htm",
+          "title": "July 2019 implementation note",
+          "publisher": "Federal Reserve",
+          "date": "2019-07-31",
+          "verified": true,
+          "finding": "Securities runoff ended effective August 1, before the September repo-market disruption."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C29"
+    },
+    {
+      "claim": "Oil established a higher-low.",
+      "source_blocks": [
+        86,
+        98,
+        105
+      ],
+      "verdict": "wrong",
+      "reason": "The spring 2023 WTI daily-spot low was $66.61 on March 17. WTI subsequently closed at $66.58 on March 5, 2025 and declined further. The claimed durable spring floor failed; the much longer commodity-cycle thesis is assessed separately.",
+      "kind": "forecast",
+      "family": "oil-spring-2023-floor",
+      "asset_or_variable": "oil-spring-2023-floor",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+          "title": "DCOILWTICO observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "March 17, 2023 $66.61; March 5, 2025 $66.58. Spring minimum calculated over March-May 2023."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C30"
+    },
+    {
+      "claim": "Oil inventories are depleted.",
+      "source_blocks": [
+        87
+      ],
+      "verdict": "evidence_needed",
+      "reason": "The assertion is sensitive to whether strategic reserves, commercial crude, products and consumption denominators are included. The inventory image has not been inspected, so the exact multi-decade comparison remains unverified.",
+      "kind": "empirical",
+      "family": "us-oil-inventory-low",
+      "asset_or_variable": "us-oil-inventory-low",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Identify the chart series and compare stocks and days of consumption over the same history.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C31"
+    },
+    {
+      "claim": "Capital cycles constrain supply.",
+      "source_blocks": [
+        90
+      ],
+      "verdict": "mixed",
+      "reason": "Long lead times and sunk capital explain why investment can respond slowly to demand and price. The framework is useful, but it does not determine the current balance without capacity, inventories, demand and project-level evidence.",
+      "kind": "explanation",
+      "family": "commodity-capital-cycle",
+      "asset_or_variable": "commodity-capital-cycle",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Track sanctioned projects, decline rates, utilization and demand rather than infer scarcity from past low prices.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C32"
+    },
+    {
+      "claim": "Dollar cycles shape commodities.",
+      "source_blocks": [
+        91,
+        94
+      ],
+      "verdict": "mixed",
+      "reason": "Dollar liabilities and import purchasing power provide plausible transmission channels. The selected historical episodes also differ in war, technology, supply and demand; their alignment does not identify a single stable dollar-to-oil causal relationship.",
+      "kind": "explanation",
+      "family": "dollar-commodity-regime",
+      "asset_or_variable": "dollar-commodity-regime",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Test a fixed historical specification with supply shocks and global demand controls.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C33"
+    },
+    {
+      "claim": "Energy and CPI co-move.",
+      "source_blocks": [
+        97
+      ],
+      "verdict": "mixed",
+      "reason": "Energy contributes directly and indirectly to consumer costs. CPI also contains large non-energy components, and rolling five-year charts smooth timing differences. Acknowledged exceptions already show the two variables are not interchangeable measures.",
+      "kind": "explanation",
+      "family": "energy-cpi-causality",
+      "asset_or_variable": "energy-cpi-causality",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Separate direct index contribution, indirect pass-through and common macro shocks.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C34"
+    },
+    {
+      "claim": "Commodity bull spans decades.",
+      "source_blocks": [
+        98
+      ],
+      "verdict": "too_early",
+      "reason": "The stated 2020s/2030s regime extends beyond the cutoff. Its eventual endpoint remains open, although the nearer spring-2023 oil floor failed. A final test needs a defined commodity basket and real-return benchmark.",
+      "kind": "forecast",
+      "family": "commodity-bull-2020s-2030s",
+      "asset_or_variable": "commodity-bull-2020s-2030s",
+      "horizon": "2020s and 2030s",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Specify the basket and evaluate the full original interval, retaining interim drawdowns.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "2020s and 2030s",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C35"
+    },
+    {
+      "claim": "Oil majors offer carry.",
+      "source_blocks": [
+        99,
+        101,
+        102
+      ],
+      "verdict": "mixed",
+      "reason": "Dividends and buybacks can fund patient ownership, but equities are not literal options with limited downside to a premium. CVX returned 44.14% versus SPY 71.86% in the disclosed sensitivity. Issuer balance sheets, commodity assumptions and valuation matter individually.",
+      "kind": "investment_thesis",
+      "family": "integrated-oil-value-2023",
+      "asset_or_variable": "integrated-oil-value-2023",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/CVX/history/",
+          "title": "CVX adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-09-17\", \"requested_endpoint\": \"2026-11-07\", \"entry\": \"2023-09-18\", \"exit\": \"2026-11-06\", \"days\": 1145, \"endpoint_gap_days\": 1, \"endpoint_covered\": true, \"instruments\": {\"CVX\": {\"entry_adjusted_close\": 147.50283813476562, \"exit_adjusted_close\": 212.61000061035156, \"cumulative_return_pct\": 44.13959981983595, \"annualized_return_pct\": 12.370207583277026, \"source\": \"https://finance.yahoo.com/quote/CVX/history/\"}, \"SPY\": {\"entry_adjusted_close\": 427.83770751953125, \"exit_adjusted_close\": 735.2899780273438, \"cumulative_return_pct\": 71.86189181180973, \"annualized_return_pct\": 18.856041397961466, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -27.722291991973776}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C36"
+    },
+    {
+      "claim": "Cash and energy diversify.",
+      "source_blocks": [
+        104,
+        105,
+        111
+      ],
+      "verdict": "not_testable",
+      "reason": "Diversification depends on portfolio weights, covariances and the investor’s liabilities. A favorable narrative for two sleeves does not establish an efficient combined portfolio or a guaranteed hedge against every inflation shock.",
+      "kind": "investment_thesis",
+      "family": "cash-energy-barbell",
+      "asset_or_variable": "cash-energy-barbell",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Evaluate a specified portfolio across energy-supply shocks, demand recessions and disinflation.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C37"
+    },
+    {
+      "claim": "Rates inhibit drilling.",
+      "source_blocks": [
+        106,
+        108
+      ],
+      "verdict": "mixed",
+      "reason": "More expensive financing can discourage marginal projects. U.S. production nevertheless increased with fewer rigs as efficiency improved. The article acknowledges technology, so observed production growth challenges a simple rig-based forecast without disproving the financing mechanism.",
+      "kind": "explanation",
+      "family": "rates-rigs-oil-supply",
+      "asset_or_variable": "rates-rigs-oil-supply",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/TODAYinENERGY/detail.php?id=64124",
+          "title": "Production with fewer rigs",
+          "publisher": "EIA",
+          "date": "2024-12-23",
+          "verified": true,
+          "finding": "Lower-48 production excluding Alaska and offshore reached an estimated 11.3m barrels/day in November 2024, up 3% year on year despite fewer rigs. Productivity increased."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C38"
+    },
+    {
+      "claim": "Fewer rigs constrain output.",
+      "source_blocks": [
+        108
+      ],
+      "verdict": "mixed",
+      "reason": "By November 2024 lower-48 output was up 3% year on year despite fewer rigs. This is counterevidence to a simple absolute output decline, but not a direct estimate of production relative to the counterfactual with more drilling.",
+      "kind": "forecast",
+      "family": "rig-count-production-lag",
+      "asset_or_variable": "rig-count-production-lag",
+      "horizon": "One or two years",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/TODAYinENERGY/detail.php?id=64124",
+          "title": "Production with fewer rigs",
+          "publisher": "EIA",
+          "date": "2024-12-23",
+          "verified": true,
+          "finding": "Lower-48 production excluding Alaska and offshore reached an estimated 11.3m barrels/day in November 2024, up 3% year on year despite fewer rigs. Productivity increased."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "One or two years",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C39"
+    },
+    {
+      "claim": "Recessions rarely crash oil.",
+      "source_blocks": [
+        109
+      ],
+      "verdict": "evidence_needed",
+      "reason": "The historical generalization needs predeclared recession dates and a numerical crash threshold. The 2008 example does not establish the frequency across all recessions, and post-peak measurement can materially change the result.",
+      "kind": "explanation",
+      "family": "oil-recession-history",
+      "asset_or_variable": "oil-recession-history",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Test all dated U.S. recessions with fixed peak and trough windows, including supply shocks.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C40"
+    },
+    {
+      "claim": "China leads auto exports.",
+      "source_blocks": [
+        114,
+        117
+      ],
+      "verdict": "mixed",
+      "reason": "Official year-end data confirm very strong vehicle export growth. The exact threefold-to-fourfold statement needs the chart’s monthly or annual starting point; comparing annual 2021 and 2023 totals cannot validate an unspecified monthly chart.",
+      "kind": "empirical",
+      "family": "china-auto-export-growth",
+      "asset_or_variable": "china-auto-export-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://english.scio.gov.cn/pressroom/2024-02/01/content_116979671_5.htm",
+          "title": "2023 auto industry briefing",
+          "publisher": "State Council Information Office",
+          "date": "2024-02-01",
+          "verified": true,
+          "finding": "China exported 4.91m complete vehicles in 2023, up 57.9%; new-energy vehicle exports were 1.203m. Annual and monthly measures must not be conflated."
+        }
+      ],
+      "next_check": "Reconcile industry versus customs definitions and the exact chart endpoints.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C41"
+    },
+    {
+      "claim": "China exports remain strong.",
+      "source_blocks": [
+        117
+      ],
+      "verdict": "mixed",
+      "reason": "Automotive strength should not be generalized to all exports. The official August activity release reported total goods exports down 3.2% year on year in yuan, while vehicle exports were strong. Value, volume and currency denomination require separate comparisons.",
+      "kind": "empirical",
+      "family": "china-broad-export-strength",
+      "asset_or_variable": "china-broad-export-strength",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.stats.gov.cn/sj/zxfb/202309/t20230915_1942848.html",
+          "title": "August 2023 national economic indicators",
+          "publisher": "National Bureau of Statistics of China",
+          "date": "2023-09-15",
+          "verified": true,
+          "finding": "Industrial value added rose 4.5% year on year and retail sales 4.6%; the release still identified inadequate domestic demand and an insecure recovery foundation."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C42"
+    },
+    {
+      "claim": "China has sectoral divergence.",
+      "source_blocks": [
+        120
+      ],
+      "verdict": "mixed",
+      "reason": "The official release supports production recovery and persistent domestic-demand concerns. Retail sales also improved, so weak consumption describes a relative or level assessment rather than literal across-the-board contraction. Property conditions require their own measures.",
+      "kind": "explanation",
+      "family": "china-production-consumption-split",
+      "asset_or_variable": "china-production-consumption-split",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.stats.gov.cn/sj/zxfb/202309/t20230915_1942848.html",
+          "title": "August 2023 national economic indicators",
+          "publisher": "National Bureau of Statistics of China",
+          "date": "2023-09-15",
+          "verified": true,
+          "finding": "Industrial value added rose 4.5% year on year and retail sales 4.6%; the release still identified inadequate domestic demand and an insecure recovery foundation."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C43"
+    },
+    {
+      "claim": "Germany weakens European activity.",
+      "source_blocks": [
+        121
+      ],
+      "verdict": "mixed",
+      "reason": "The construction-cancellation claim is independently confirmed by the survey record. That supports domestic stress; the broader attribution to energy-driven industrial relocation and Europe-wide spillovers requires plant and trade evidence beyond the cancellation statistic.",
+      "kind": "explanation",
+      "family": "germany-industrial-construction-stress",
+      "asset_or_variable": "germany-industrial-construction-stress",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.ifo.de/pressemitteilung/2023-09-12/stornierungswelle-im-wohnungsbau-markiert-neuen-hoechststand",
+          "title": "Housing construction cancellations",
+          "publisher": "ifo Institute",
+          "date": "2023-09-12",
+          "verified": true,
+          "finding": "20.7% of surveyed firms reported cancellations, a record since the survey began in 1991; higher construction costs and rates were identified pressures."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "119-C44"
+    }
+  ],
+  "coverage_note": "Full numbered text and image inventory read. All material theses across macro, digital assets, investment analysis and concluding sections considered. Position listings and incidental descriptive statistics are excluded unless they support a thesis.",
+  "tools_charts": [
+    {
+      "name": "Liquidity",
+      "source_blocks": [
+        10,
+        18
+      ],
+      "use": "Funding context.",
+      "image_inspected": false
+    },
+    {
+      "name": "M2/rates",
+      "source_blocks": [
+        72,
+        79
+      ],
+      "use": "Money-share comparison.",
+      "image_inspected": false
+    },
+    {
+      "name": "Oil/rigs",
+      "source_blocks": [
+        85,
+        107
+      ],
+      "use": "Supply context.",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        99
+      ],
+      "use": "Valuation.",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Match timing, vehicle and mechanism."
+  ],
+  "verification_limitations": [
+    "Current page snapshot is not an authenticated publication-date version.",
+    "A missing horizon is not replaced with an invented author deadline.",
+    "Market sensitivities use vendor adjusted closes and do not reconstruct portfolio execution.",
+    "Chart pixels were not inspected; exact chart-only assertions remain flagged."
+  ]
+}

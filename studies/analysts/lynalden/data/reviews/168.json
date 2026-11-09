@@ -1,0 +1,915 @@
+{
+  "article_id": "168",
+  "title": "Updates on Tariffs, Liquidity, and Strategy",
+  "date": "2025-08-03",
+  "source_url": "https://www.lynalden.com/premium-2025-8-3/",
+  "read_complete": true,
+  "evaluation_as_of": "2026-11-07",
+  "summary": "Tariff pressure and Strategy’s preferred-share financing.",
+  "assessment": "The TGA undershoot forecast was wrong. The preferred-share analysis correctly distinguishes maturity risk from dividend deferral, but overstates par stability and eventual recovery. STRC grew substantially while its yield rose rather than converging toward seven percent; STRF and STRC delivered very different returns.",
+  "claims": [
+    {
+      "claim": "Tariffs impose material domestic costs.",
+      "source_blocks": [
+        11,
+        12,
+        13
+      ],
+      "verdict": "right",
+      "reason": "The static goods-import arithmetic is internally consistent and subsequent research found nearly 90% of tariff incidence fell on US firms and consumers. This does not imply that unchanged import-price indexes prove zero foreign burden in every sector or that static revenue would be collected.",
+      "kind": "explanation",
+      "family": "tariff-incidence",
+      "asset_or_variable": "tariff-incidence",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://libertystreeteconomics.newyorkfed.org/2026/07/more-tariff-pass-through-is-in-the-pipeline/",
+          "title": "Tariff incidence and pass-through",
+          "publisher": "New York Fed",
+          "date": "2026-07-08",
+          "verified": true,
+          "finding": "Domestic firms and consumers bore nearly 90% of the burden."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C01"
+    },
+    {
+      "claim": "Payroll revisions reveal a labor slowdown.",
+      "source_blocks": [
+        15,
+        18
+      ],
+      "verdict": "right",
+      "reason": "The August 1 release reported 73,000 July jobs and combined May-June downward revisions of 258,000. The distinction between weak hiring and still-contained layoffs is appropriate. This verifies the data release, not a claim that the figures were deliberately manipulated.",
+      "kind": "empirical",
+      "family": "july2025-payroll-revisions",
+      "asset_or_variable": "july2025-payroll-revisions",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/empsit_08012025.htm",
+          "title": "July 2025 employment situation",
+          "publisher": "BLS",
+          "date": "2025-08-01",
+          "verified": true,
+          "finding": "73,000 July payroll gain and 258,000 combined prior-month downward revision."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "title": "ICSA observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Initial claims did not mirror the size of payroll revisions."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C02"
+    },
+    {
+      "claim": "Manufacturing faces weaker activity and cost pressure.",
+      "source_blocks": [
+        20,
+        22,
+        23
+      ],
+      "verdict": "mixed",
+      "reason": "Survey responses support concern over tariffs, while the construction series later confirms declining factory spending. Survey attribution is not a causal estimate, and construction spending is a flow rather than a measure of completed productive capacity.",
+      "kind": "explanation",
+      "family": "manufacturing-tariff-slowdown",
+      "asset_or_variable": "manufacturing-tariff-slowdown",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.census.gov/construction/c30/pdf/privsa.pdf",
+          "title": "Private construction spending",
+          "publisher": "U.S. Census Bureau",
+          "date": null,
+          "verified": true,
+          "finding": "Factory construction spending declined by September 2026."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C03"
+    },
+    {
+      "claim": "Factory spending measures replacement needs.",
+      "source_blocks": [
+        25
+      ],
+      "verdict": "wrong",
+      "reason": "Flat industrial output does not establish that a historical construction spending level equals replacement cost. Output can be flat while capacity, utilization, capital intensity, prices and equipment investment change. Building construction excludes major components of the productive capital stock.",
+      "kind": "explanation",
+      "family": "factory-spending-replacement-cost",
+      "asset_or_variable": "factory-spending-replacement-cost",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.census.gov/construction/c30/definitions.html",
+          "title": "Construction spending definitions",
+          "publisher": "U.S. Census Bureau",
+          "date": null,
+          "verified": true,
+          "finding": "Construction measures structures and related work, not all productive capital investment."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C04"
+    },
+    {
+      "claim": "IRA subsidies drove semiconductor factory construction.",
+      "source_blocks": [
+        25
+      ],
+      "verdict": "wrong",
+      "reason": "The principal dedicated semiconductor incentives came from the separate CHIPS and Science Act, including $39 billion for facilities and equipment. IRA energy and manufacturing provisions also affected construction, but the report attributes the chip program to the wrong statute.",
+      "kind": "explanation",
+      "family": "chips-versus-ira-policy",
+      "asset_or_variable": "chips-versus-ira-policy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.nist.gov/chips",
+          "title": "CHIPS for America",
+          "publisher": "NIST",
+          "date": null,
+          "verified": true,
+          "finding": "CHIPS Act allocated $39 billion to production incentives and $11 billion to R&D."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C05"
+    },
+    {
+      "claim": "Replacing imports requires enormous capital spending.",
+      "source_blocks": [
+        26
+      ],
+      "verdict": "not_testable",
+      "reason": "The scale is plausible but no capital-output model or replacement share is supplied. Annual imports are a flow and factory capital is a stock, so their dollar amounts cannot be directly equated.",
+      "kind": "explanation",
+      "family": "reshoring-capital-requirement",
+      "asset_or_variable": "reshoring-capital-requirement",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C06"
+    },
+    {
+      "claim": "Treasury will miss its September cash target.",
+      "source_blocks": [
+        31,
+        32
+      ],
+      "verdict": "wrong",
+      "reason": "Treasury ended September with $891 billion, above the $850 billion target rather than below it. Use the quarter-end balance, not a weekly average: the latter can give a different answer around tax dates.",
+      "kind": "forecast",
+      "family": "tga-september2025-undershoot",
+      "asset_or_variable": "tga-september2025-undershoot",
+      "horizon": "End of September 2025",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fraser.stlouisfed.org/files/docs/publications/treaspr/2025/2025-11-03_sb0300.pdf",
+          "title": "November borrowing estimates",
+          "publisher": "U.S. Treasury",
+          "date": "2025-11-03",
+          "verified": true,
+          "finding": "Reported $891 billion end-September balance versus prior $850 billion assumption."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "End of September 2025",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C07"
+    },
+    {
+      "claim": "TGA rebuilding threatens near-term equity returns.",
+      "source_blocks": [
+        8,
+        9,
+        32
+      ],
+      "verdict": "mixed",
+      "reason": "The reserve-drain mechanism was meaningful, but SPY gained 6.32% over the following two-month evaluator window. Funding pressure and equity returns are separate outcomes. Marginal cash allocation was cautious positioning, not an explicit market short.",
+      "kind": "forecast",
+      "family": "july2025-tariff-caution",
+      "asset_or_variable": "july2025-tariff-caution",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "SPY market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "August 4-October 3, 2025 adjusted return +6.32%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C08"
+    },
+    {
+      "claim": "Bitcoin absorbed an 80,000-coin sale.",
+      "source_blocks": [
+        39,
+        40
+      ],
+      "verdict": "mixed",
+      "reason": "Galaxy confirms the sale, but public completion notices do not reveal execution timing, counterfactual prices or full market impact. The warning that bull-market depth cannot be extrapolated to a bear market is sensible and should not be confused with proof that the sale had negligible impact.",
+      "kind": "explanation",
+      "family": "bitcoin-market-depth-whale-sale",
+      "asset_or_variable": "bitcoin-market-depth-whale-sale",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://investor.galaxy.com/news-releases/news-release-details/galaxy-executes-one-largest-notional-bitcoin-transactions-ever",
+          "title": "Galaxy completed major Bitcoin sale",
+          "publisher": "Galaxy",
+          "date": "2025-07-25",
+          "verified": true,
+          "finding": "Sold over 80,000 bitcoin for a long-standing investor."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C09"
+    },
+    {
+      "claim": "Bitcoin’s cycle remains favorable.",
+      "source_blocks": [
+        35,
+        37,
+        41
+      ],
+      "verdict": "mixed",
+      "reason": "The source allows volatility and gives no exit date, but BTC subsequently lost 34.17% through the cutoff. Healthy-looking on-chain indicators did not prevent a severe drawdown. The corporate-treasury froth warning was a useful caveat, not an explicit reversal of the bullish view.",
+      "kind": "forecast",
+      "family": "bitcoin-2025-cycle-extension",
+      "asset_or_variable": "bitcoin-2025-cycle-extension",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "August 4, 2025-November 6, 2026 return -34.17%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C10"
+    },
+    {
+      "claim": "MSTR outperformed Nvidia since Bitcoin adoption.",
+      "source_blocks": [
+        59,
+        60,
+        62
+      ],
+      "verdict": "right",
+      "reason": "Using the first trading close on the August 11, 2020 adoption announcement through August 1, 2025, MSTR gained approximately 2,617.99% versus NVDA 1,506.38%. This verifies the named comparison, not the broader superlative across every major stock or the model portfolio’s realized return.",
+      "kind": "empirical",
+      "family": "mstr-adoption-retrospective",
+      "asset_or_variable": "mstr-adoption-retrospective",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/MSTR/history/",
+          "title": "MSTR market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "August 11, 2020-August 1, 2025 adjusted return +2,617.99%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/NVDA/history/",
+          "title": "NVDA market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched adjusted return +1,506.38%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C11"
+    },
+    {
+      "claim": "Convertibles trade lower coupons for equity upside.",
+      "source_blocks": [
+        68,
+        70,
+        71
+      ],
+      "verdict": "right",
+      "reason": "A conversion option can reduce the coupon investors require relative to otherwise comparable straight debt. Long maturities reduced near-term refinancing pressure in 2022. Convertible principal remains exposed to issuer credit risk; downside protection is not a guarantee of repayment.",
+      "kind": "explanation",
+      "family": "convertible-financing-tradeoff",
+      "asset_or_variable": "convertible-financing-tradeoff",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526186922/d249984dars.pdf",
+          "title": "Strategy 2025 annual report",
+          "publisher": "Strategy / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Preferred dividends depend on declaration and legally available funds; cumulative and noncumulative terms differ."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C12"
+    },
+    {
+      "claim": "Premium equity issuance can increase Bitcoin per share.",
+      "source_blocks": [
+        69,
+        85
+      ],
+      "verdict": "right",
+      "reason": "Issuing shares above net asset value and buying the same underlying asset can increase assets per share after costs. Enterprise-value-to-gross-Bitcoin mNAV is not identical to common-equity-to-net-assets NAV and must be adjusted for senior claims. Share-count dilution and per-share accretion can occur together.",
+      "kind": "explanation",
+      "family": "bitcoin-treasury-nav-accretion",
+      "asset_or_variable": "bitcoin-treasury-nav-accretion",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Issue price above existing net assets per share",
+          "Net proceeds invested without offsetting losses",
+          "Senior claims and transaction costs included"
+        ],
+        "derivation": "New net assets per share exceed old net assets per share when proceeds per new share exceed the prior net asset value per share."
+      },
+      "id": "168-C13"
+    },
+    {
+      "claim": "Preferreds reduce maturity-driven failure risk.",
+      "source_blocks": [
+        74,
+        75,
+        94,
+        95
+      ],
+      "verdict": "right",
+      "reason": "Perpetual preferreds remove a scheduled principal maturity and dividends can generally be deferred without a bond default. This reduces one failure channel while raising recurring distribution needs and leaving asset, market-price and funding risks. It does not eliminate all redemption or change-of-control provisions.",
+      "kind": "explanation",
+      "family": "preferred-versus-debt-fragility",
+      "asset_or_variable": "preferred-versus-debt-fragility",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526186922/d249984dars.pdf",
+          "title": "Strategy 2025 annual report",
+          "publisher": "Strategy / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Preferred dividends depend on declaration and legally available funds; cumulative and noncumulative terms differ."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C14"
+    },
+    {
+      "claim": "Cumulative dividends eventually make investors whole.",
+      "source_blocks": [
+        76,
+        77,
+        78,
+        107
+      ],
+      "verdict": "mixed",
+      "reason": "Accumulation preserves an unpaid claim, but eventual cash payment requires resources, board action and legal availability. Recovery is not guaranteed merely because the company survives or Bitcoin later rises. Noncumulative STRD payments differ materially.",
+      "kind": "explanation",
+      "family": "preferred-cumulative-dividend-protection",
+      "asset_or_variable": "preferred-cumulative-dividend-protection",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526186922/d249984dars.pdf",
+          "title": "Strategy 2025 annual report",
+          "publisher": "Strategy / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Preferred dividends depend on declaration and legally available funds; cumulative and noncumulative terms differ."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C15"
+    },
+    {
+      "claim": "STRC is designed to trade near par.",
+      "source_blocks": [
+        77,
+        96
+      ],
+      "verdict": "mixed",
+      "reason": "The rate-adjustment mechanism exists, but it is not a redemption guarantee. STRC traded as low as $71.25 on June 26, 2026 before returning near $100. A positive final total return does not make it equivalent to a stable-value money-market holding.",
+      "kind": "explanation",
+      "family": "strc-par-stability",
+      "asset_or_variable": "strc-par-stability",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/STRC/history/",
+          "title": "STRC market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "June 26, 2026 intraday low $71.25; November 6 close $99.84."
+        },
+        {
+          "url": "https://www.strategy.com/strc",
+          "title": "STRC metrics",
+          "publisher": "Strategy",
+          "date": null,
+          "verified": true,
+          "finding": "November 7 snapshot shows $99.84 price and 12% dividend rate."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C16"
+    },
+    {
+      "claim": "STRC demand will expand substantially.",
+      "source_blocks": [
+        77,
+        96
+      ],
+      "verdict": "right",
+      "reason": "The issuer dashboard shows approximately $8.18 billion notional outstanding by the cutoff, above the initial roughly $2.5 billion offering. That supports demand growth. It does not establish that the security offers the same risk as Treasury bills or commercial paper.",
+      "kind": "forecast",
+      "family": "strc-demand-growth",
+      "asset_or_variable": "strc-demand-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.strategy.com/press/strategy-announces-second-quarter-2025-financial-results_07-31-2025",
+          "title": "Strategy Q2 2025 results",
+          "publisher": "Strategy",
+          "date": "2025-07-31",
+          "verified": true,
+          "finding": "Describes preferred issuance, capital framework and financing dependence."
+        },
+        {
+          "url": "https://www.strategy.com/strc",
+          "title": "STRC metrics",
+          "publisher": "Strategy",
+          "date": null,
+          "verified": true,
+          "finding": "About $8.18 billion notional outstanding at cutoff."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C17"
+    },
+    {
+      "claim": "STRC’s yield should approach seven percent.",
+      "source_blocks": [
+        96
+      ],
+      "verdict": "mixed",
+      "reason": "The suggested fair yield was an opinion without a deadline, but the observed direction went the other way: the issuer’s dividend rate reached 12% and effective yield about 12.02% by the cutoff. Rate resets and market yield must be distinguished.",
+      "kind": "forecast",
+      "family": "strc-seven-percent-yield",
+      "asset_or_variable": "strc-seven-percent-yield",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.strategy.com/strc",
+          "title": "STRC metrics",
+          "publisher": "Strategy",
+          "date": null,
+          "verified": true,
+          "finding": "12% dividend and approximately 12.02% effective yield at cutoff."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C18"
+    },
+    {
+      "claim": "STRF and STRC are attractive income additions.",
+      "source_blocks": [
+        47,
+        48,
+        52,
+        54,
+        76,
+        77,
+        98
+      ],
+      "verdict": "mixed",
+      "reason": "From August 4, 2025 through the cutoff, vendor adjusted returns were STRF -1.75% and STRC +19.81%, compared with BTI +17.76% and SPY +18.08%. These outcomes differ sharply by instrument. They are total-return proxies, not proof of safety, tax treatment or actual portfolio execution.",
+      "kind": "investment_thesis",
+      "family": "strategy-preferred-entry-2025",
+      "asset_or_variable": "strategy-preferred-entry-2025",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/STRF/history/",
+          "title": "STRF market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched adjusted return -1.75%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/STRC/history/",
+          "title": "STRC market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched adjusted return +19.81%; BTI +17.76%; SPY +18.08%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C19"
+    },
+    {
+      "claim": "Removing senior debt improves STRF’s position.",
+      "source_blocks": [
+        97
+      ],
+      "verdict": "conditional_pending",
+      "reason": "Retiring convertible debt without adding equivalent senior obligations would improve the preferred’s relative claim. The scenario is explicitly conditional; replacing one liability with another or issuing more senior capital could alter the benefit.",
+      "kind": "explanation",
+      "family": "strf-seniority-debt-retirement",
+      "asset_or_variable": "strf-seniority-debt-retirement",
+      "horizon": null,
+      "conditions": "Convertibles retired or converted without equivalent replacement senior obligations",
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526186922/d249984dars.pdf",
+          "title": "Strategy 2025 annual report",
+          "publisher": "Strategy / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Preferred dividends depend on declaration and legally available funds; cumulative and noncumulative terms differ."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C20"
+    },
+    {
+      "claim": "Liquidity and scale create a financing moat.",
+      "source_blocks": [
+        99
+      ],
+      "verdict": "mixed",
+      "reason": "Deep trading and options markets can help distribute securities, but issuance access is cyclical and a premium is not permanent competitive protection. MSTR fell 66.88% through the cutoff, illustrating common-equity risk without proving the entire financing franchise disappeared.",
+      "kind": "explanation",
+      "family": "strategy-capital-markets-moat",
+      "asset_or_variable": "strategy-capital-markets-moat",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/MSTR/history/",
+          "title": "MSTR market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "August 4, 2025-November 6, 2026 adjusted return -66.88%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C21"
+    },
+    {
+      "claim": "The financing framework improves transparency.",
+      "source_blocks": [
+        84,
+        87,
+        88,
+        89,
+        90,
+        91,
+        93
+      ],
+      "verdict": "mixed",
+      "reason": "The issuer published mNAV issuance bands, but the report correctly acknowledges they can be changed. This is discretionary guidance rather than a binding covenant. A preference for a different threshold is valuation judgment, not a forecast.",
+      "kind": "explanation",
+      "family": "strategy-capital-framework",
+      "asset_or_variable": "strategy-capital-framework",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.strategy.com/press/strategy-announces-second-quarter-2025-financial-results_07-31-2025",
+          "title": "Strategy Q2 2025 results",
+          "publisher": "Strategy",
+          "date": "2025-07-31",
+          "verified": true,
+          "finding": "Describes preferred issuance, capital framework and financing dependence."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C22"
+    },
+    {
+      "claim": "Dividend funding depends on capital-market access.",
+      "source_blocks": [
+        101,
+        102,
+        105,
+        106
+      ],
+      "verdict": "right",
+      "reason": "The issuer’s financing disclosures support reliance on issuance and balance-sheet liquidity beyond software cash generation. Asset coverage is different from liquid cash available for distributions, and indirect economic backing is not a perfected collateral lien for preferred holders.",
+      "kind": "explanation",
+      "family": "strategy-dividend-funding-risk",
+      "asset_or_variable": "strategy-dividend-funding-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526186922/d249984dars.pdf",
+          "title": "Strategy 2025 annual report",
+          "publisher": "Strategy / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Preferred dividends depend on declaration and legally available funds; cumulative and noncumulative terms differ."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312525170550/d83620dex991.htm",
+          "title": "STRC ATM program",
+          "publisher": "Strategy / SEC",
+          "date": "2025-07-31",
+          "verified": true,
+          "finding": "Proceeds may fund certain other preferred dividends and corporate needs."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C23"
+    },
+    {
+      "claim": "Failure requires three adverse conditions together.",
+      "source_blocks": [
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        122
+      ],
+      "verdict": "mixed",
+      "reason": "The combination is a useful stress scenario but not an exhaustive necessary condition. Funding can close after a smaller drawdown, and custody, legal, operational or governance failures can impair payments independently. Saylor’s 80-95% claims are attributed management assertions, not independently validated loss thresholds or Lyn’s numerical forecast.",
+      "kind": "explanation",
+      "family": "strategy-extreme-stress-scenario",
+      "asset_or_variable": "strategy-extreme-stress-scenario",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312526186922/d249984dars.pdf",
+          "title": "Strategy 2025 annual report",
+          "publisher": "Strategy / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Preferred dividends depend on declaration and legally available funds; cumulative and noncumulative terms differ."
+        }
+      ],
+      "next_check": "Model distributions, legal availability, reserves and issuance under prolonged stress rather than only spot asset coverage.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C24"
+    },
+    {
+      "claim": "Gold remains in consolidation.",
+      "source_blocks": [
+        126,
+        127,
+        130,
+        131,
+        133
+      ],
+      "verdict": "mixed",
+      "reason": "A pause had occurred, but GLD gained 19.82% from the first post-publication trading close through the cutoff. The recurring near-term caution and three-to-five-year bullish view are different horizons. No complete sale rule was given, and this is the same April 2025 thesis episode.",
+      "kind": "investment_thesis",
+      "family": "gold-2025-consolidation-risk",
+      "asset_or_variable": "gold-2025-consolidation-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "August 4, 2025-November 6, 2026 +19.82%; SPY +18.08%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "168-C25"
+    }
+  ],
+  "coverage_note": "Full numbered text and image inventory read. All material theses across macro, digital assets, investment analysis and concluding sections considered. Position listings and incidental descriptive statistics are excluded unless they support a thesis.",
+  "tools_charts": [
+    {
+      "name": "Treasury cash target",
+      "source_blocks": [
+        31,
+        32
+      ],
+      "use": "Use daily quarter-end balances, not weekly averages",
+      "image_inspected": false
+    },
+    {
+      "name": "Strategy capital stack",
+      "source_blocks": [
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "use": "Separate maturity, seniority, cumulative claims and legal availability",
+      "image_inspected": false
+    },
+    {
+      "name": "mNAV issuance bands",
+      "source_blocks": [
+        85,
+        88,
+        89,
+        90,
+        91
+      ],
+      "use": "Policy guidance can change; gross and net NAV differ",
+      "image_inspected": false
+    },
+    {
+      "name": "Bitcoin stress scenarios",
+      "source_blocks": [
+        103,
+        108
+      ],
+      "use": "Asset coverage is not recurring cash-flow coverage",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "A security can avoid legal default and still impose a large investor loss.",
+    "Price stabilization intent is not guaranteed par redemption."
+  ],
+  "verification_limitations": [
+    "Current page snapshot is not an authenticated publication-date version.",
+    "A missing horizon is not replaced with an invented author deadline.",
+    "Market sensitivities use vendor adjusted closes and do not reconstruct portfolio execution."
+  ]
+}

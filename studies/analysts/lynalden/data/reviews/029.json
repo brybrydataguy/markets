@@ -1,0 +1,831 @@
+{
+  "article_id": "029",
+  "title": "e Bay Inc (EBAY) Deep Dive Analysis",
+  "date": "2020-08-16",
+  "source_url": "https://www.lynalden.com/premium-2020-8-16/",
+  "read_complete": true,
+  "summary": "Fiscal dependence and e Bay consolidation.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "Fiscal transfers sustain consumer income",
+      "kind": "explanation",
+      "source_blocks": [
+        6,
+        8,
+        9,
+        49,
+        54,
+        57,
+        60,
+        62
+      ],
+      "family": "fiscal-income-buffer",
+      "asset_or_variable": "US demand",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "BEA recorded rising transfers and income despite lost employment, supporting the buffer. Currency depreciation is not a mechanical consequence of every fiscal expansion, and simultaneous reopening also affects spending.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/news/2020/personal-income-and-outlays-may-2020",
+          "title": "May 2020 personal income and outlays",
+          "publisher": "BEA",
+          "date": "2020-06-26",
+          "verified": true,
+          "finding": "Personal income fell 4.2% in May after revised 10.8% growth in April. Declining recovery payments explained much of the decrease, partly offset by unemployment benefits. Spending rose 8.2%."
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07132022.htm",
+          "title": "June 2022 Consumer Price Index",
+          "publisher": "Bureau of Labor Statistics",
+          "date": "2022-07-13",
+          "verified": true,
+          "finding": "June 2022 headline CPI rose 9.1% over twelve months."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C01"
+    },
+    {
+      "claim": "Deaths flatten with lag",
+      "kind": "empirical",
+      "source_blocks": [
+        11,
+        14,
+        18,
+        19
+      ],
+      "family": "covid-death-lag",
+      "asset_or_variable": "US and foreign deaths",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Finalized Texas data corroborate the southern-US improvement. This does not independently establish each comparison with Brazil, India, Europe and East Asia or contemporary reporting definitions.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.dshs.texas.gov/sites/default/files/chs/data/COVID/CaseCountData.xlsx",
+          "title": "Historical Texas dashboard data",
+          "publisher": "Texas DSHS",
+          "date": "2023-05-10",
+          "verified": true,
+          "finding": "Archived Trends sheet Total Fatalities Current Day: seven-day averages ending July 5, July 19, August 2, August 16, August 30, 2020 were 118.00,242.14,233.29,179.43,108.14. Later-vintage data, not contemporary reporting snapshots."
+        }
+      ],
+      "next_check": "Compare dated national death series using common population and reporting conventions.",
+      "id": "029-C02"
+    },
+    {
+      "claim": "PPP maturation explains layoffs",
+      "kind": "explanation",
+      "source_blocks": [
+        22,
+        28,
+        29
+      ],
+      "family": "ppp-expiry-layoffs",
+      "asset_or_variable": "US employment",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Some early borrowers reached their initial coverage window, but PPP forgiveness periods were extended and loan maturity was not July. White-collar job loss needs sector flows; a single employer anecdote cannot establish a national credit-cycle cause.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://legacy.sba.gov/article/2020/jun/08/joint-statement-sba-administrator-jovita-carranza-us-treasury-secretary-steven-t-mnuchin-regarding-0",
+          "title": "PPP Flexibility Act implementation",
+          "publisher": "SBA / Treasury",
+          "date": "2020-06-08",
+          "verified": true,
+          "finding": "Forgiveness covered period extended to 24 weeks; prior borrowers could elect eight weeks. Loan maturity was distinct, generally two or five years, not end-June 2020."
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/empsit_08072020.htm",
+          "title": "July 2020 employment situation",
+          "publisher": "BLS",
+          "date": "2020-08-07",
+          "verified": true,
+          "finding": "Payrolls rose 1.8 m in July after 4.8 m in June and 2.7 m in May; unemployment fell to 10.2%. Permanent job losers were approximately unchanged at 2.9 m in July; temporary layoffs fell 1.3 m."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C03"
+    },
+    {
+      "claim": "Claims count unique beneficiaries",
+      "kind": "empirical",
+      "source_blocks": [
+        26
+      ],
+      "family": "ui-claims-persons-confusion",
+      "asset_or_variable": "US benefits",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "GAO found counts measured claim weeks and could include backlogs and duplicates, so the quoted 28 m cannot safely be treated as distinct people.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://files.gao.gov/reports/GAO-21-265/index.html",
+          "title": "COVID-19 oversight report",
+          "publisher": "GAO",
+          "date": "2021-01-28",
+          "verified": true,
+          "finding": "GAO found continued-claim totals counted weeks, not unique beneficiaries. DOL clarified this in December 2020; backlogs could produce several weeks per person in one report."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C04"
+    },
+    {
+      "claim": "Second quarter marks bottom",
+      "kind": "forecast",
+      "source_blocks": [
+        47
+      ],
+      "family": "covid-q2-trough",
+      "asset_or_variable": "US activity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The NBER recession ended in April 2020 and subsequent growth resumed. This supports the quarterly trough assessment, not recovery of every indicator by the same date.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.stlouisfed.org/publications/page-one-economics/2023/03/01/all-about-the-business-cycle-where-do-recessions-come-from?edu-embed=1",
+          "title": "All about the business cycle",
+          "publisher": "Federal Reserve Bank of St Louis",
+          "date": "2023-03-01",
+          "verified": true,
+          "finding": "The NBER-dated COVID recession lasted two months, with February 2020 peak and April trough. Ending contraction does not imply immediate recovery to prior output or employment levels."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C05"
+    },
+    {
+      "claim": "Jobs recovery takes time",
+      "kind": "forecast",
+      "source_blocks": [
+        47
+      ],
+      "family": "covid-jobs-slow-recovery",
+      "asset_or_variable": "US employment",
+      "horizon": "quite a while",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Payrolls did not recover the February 2020 level until July 2022. That supports the slow-recovery warning, although the technological-acceleration causal explanation is not identified.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: quite a while",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/empsit_08052022.htm",
+          "title": "July 2022 Employment Situation release",
+          "publisher": "Bureau of Labor Statistics",
+          "date": "2022-08-05",
+          "verified": true,
+          "finding": "The release reported payroll employment and unemployment rate had returned to February 2020 levels in July 2022. This is a publication-vintage recovery date, not a claim about subsequently revised payroll history."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C06"
+    },
+    {
+      "claim": "Fiscal withdrawal risks renewed recession",
+      "kind": "forecast",
+      "source_blocks": [
+        58,
+        61,
+        66
+      ],
+      "family": "fiscal-cliff-double-dip",
+      "asset_or_variable": "US economy",
+      "horizon": "next year",
+      "conditions": "Aid remains absent for months",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "The stated sustained-withdrawal condition was interrupted by subsequent relief and direct checks. Fiscal sensitivity is plausible, but the counterfactual cannot be credited as an observed recession.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: next year",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/policy-issues/coronavirus/about-the-cares-act",
+          "title": "CARES and Consolidated Appropriations Acts",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "The subsequent broad relief act passed Congress December 21 and was signed December 27, 2020, after the election rather than during summer."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sm1224",
+          "title": "Second economic impact payments",
+          "publisher": "US Treasury / IRS",
+          "date": "2020-12-29",
+          "verified": true,
+          "finding": "Second-round payments began in late December, up to $600 per eligible individual and qualifying child; the next round of direct checks occurred, with substantial timing delay."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C07"
+    },
+    {
+      "claim": "Debt cycles force devaluation",
+      "kind": "explanation",
+      "source_blocks": [
+        67,
+        68
+      ],
+      "family": "long-debt-cycle",
+      "asset_or_variable": "US fiscal regime",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The argument names many possible routes and uncertain timing without an invalidation test. Inflation later rising does not establish inevitability or civil unrest as the identified policy cause.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "029-C08"
+    },
+    {
+      "claim": "Relief arrives before election",
+      "kind": "forecast",
+      "source_blocks": [
+        69
+      ],
+      "family": "pre-election-stimulus",
+      "asset_or_variable": "US fiscal legislation",
+      "horizon": "before November 2020 election",
+      "conditions": null,
+      "modality": "base case",
+      "verdict": "mixed",
+      "reason": "The major negotiated package arrived December 27, after the election. August executive unemployment assistance means some fiscal spending did precede it, but the anticipated congressional compromise did not. Preserve this scope ambiguity rather than score all fiscal action as the same event.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: before November 2020 election",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/policy-issues/coronavirus/about-the-cares-act",
+          "title": "CARES and Consolidated Appropriations Acts",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "The subsequent broad relief act passed Congress December 21 and was signed December 27, 2020, after the election rather than during summer."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C09"
+    },
+    {
+      "claim": "Apple growth depends on buybacks/services",
+      "kind": "explanation",
+      "source_blocks": [
+        76,
+        77,
+        81
+      ],
+      "family": "apple-growth-quality",
+      "asset_or_variable": "AAPL",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Services and buybacks contributed, but Apple subsequently grew earnings materially. A valuation rise can coexist with underestimated future fundamentals; historical multiple expansion alone cannot prove disconnection from all forward earnings.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.apple.com/newsroom/pdfs/FY20_Q4_Consolidated_Financial_Statements.pdf",
+          "title": "Fiscal 2020 consolidated financial statements",
+          "publisher": "Apple",
+          "date": "2020-10-29",
+          "verified": true,
+          "finding": "Fiscal 2020 diluted EPS was $3.28 versus split-restated $2.97 in 2019, growth of about 10.4%, below 14%; annual revenue grew about 5.5%."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C10"
+    },
+    {
+      "claim": "Mega-cap prices reduce prospective returns",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        82,
+        86,
+        87
+      ],
+      "family": "megacap-valuation-risk",
+      "asset_or_variable": "AAPL MSFT",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No forward return threshold or holding period is supplied for either company. Higher price lowers an unchanged cash-flow yield, but forecast cash flows and discount rates need not stay unchanged.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "029-C11"
+    },
+    {
+      "claim": "Bitcoin rises through end-2021",
+      "kind": "forecast",
+      "source_blocks": [
+        89
+      ],
+      "family": "bitcoin-end2021-relative",
+      "asset_or_variable": "BTC",
+      "horizon": "end of 2021",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Bitcoin rose about 275% between the next daily observation and the explicit year-end endpoint. The rise included severe drawdowns; no trade-specific profit or exit is established.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: end of 2021",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Bitcoin daily prices",
+          "publisher": "Coinbase via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "August 17, 2020 $12,325.10; December 31, 2021 $46,244.63: +275.21% spot-price change, excluding costs."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C12"
+    },
+    {
+      "claim": "Gold outperforms equities this cycle",
+      "kind": "forecast",
+      "source_blocks": [
+        90,
+        93
+      ],
+      "family": "gold-multiyear-relative",
+      "asset_or_variable": "Gold S&P 500",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The cycle-end date is unspecified. Nearby two- and five-year checks in article 027 showed adverse relative performance, but should not be silently reassigned as this claim's author-defined endpoint.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "Gold and silver fund sensitivities",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "From August 3, 2020 to August 2, 2022: GLD -11.63%, SLV -19.04%, SPY +27.75%; to August 1, 2025: +66.51%, +47.71%, +103.08%. Evaluator-defined windows, adjusted-close proxies."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C13"
+    },
+    {
+      "claim": "Classifieds sale closes early-2021",
+      "kind": "forecast",
+      "source_blocks": [
+        107,
+        128,
+        147
+      ],
+      "family": "ebay-classifieds-sale",
+      "asset_or_variable": "EBAY",
+      "horizon": "early 2021",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The transaction completed with the expected cash and share structure, but in late June. Substantial equity consideration preserved valuation risk rather than immediately monetizing all paper value.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: early 2021",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1065088/000155278121000551/e21453_ex99-1.htm",
+          "title": "Classifieds transfer completed",
+          "publisher": "e Bay / SEC",
+          "date": "2021-06-25",
+          "verified": true,
+          "finding": "e Bay announced completion for $2.5 bn cash and 44% equity in Adevinta; net after-tax cash approximately $2 bn. Timing was June, not early 2021."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C14"
+    },
+    {
+      "claim": "Adevinta consolidation creates synergies",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        108,
+        109,
+        114
+      ],
+      "family": "ebay-adevinta-synergies",
+      "asset_or_variable": "Adevinta",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Closing establishes the transaction, not the predicted $150 m-plus recurring savings or incremental value. Need realized cost reductions net of integration expense and a stand-alone counterfactual.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1065088/000155278121000551/e21453_ex99-1.htm",
+          "title": "Classifieds transfer completed",
+          "publisher": "e Bay / SEC",
+          "date": "2021-06-25",
+          "verified": true,
+          "finding": "e Bay announced completion for $2.5 bn cash and 44% equity in Adevinta; net after-tax cash approximately $2 bn. Timing was June, not early 2021."
+        }
+      ],
+      "next_check": "Verify Adevinta synergy realization and integration costs against the initial baseline.",
+      "id": "029-C15"
+    },
+    {
+      "claim": "New leadership sustainably grows marketplace",
+      "kind": "forecast",
+      "source_blocks": [
+        123,
+        130,
+        133,
+        151,
+        152
+      ],
+      "family": "ebay-marketplace-turnaround",
+      "asset_or_variable": "EBAY",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Revenue ultimately grew from the comparable 2020 base to $11.1 bn in 2025, but fell in 2022 and growth depended partly on payments monetization. This is qualified progress rather than a smooth market-share turnaround; managerial attribution remains uncertain.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508823000006/ebay-20221231.htm",
+          "title": "2022 Form 10-K",
+          "publisher": "e Bay / SEC",
+          "date": "2023-02-23",
+          "verified": true,
+          "finding": "Continuing revenue 2020/2021/2022: $8.894/$10.420/$9.795 bn. Continuing diluted GAAP EPS $3.46/$0.38/-$2.28; total EPS $7.89/$20.54/-$2.27. Investment revaluations and discontinued operations materially distort comparison. Managed payments covered all transactions since late 2021; 2022 lower demand partly offset by higher take rate."
+        },
+        {
+          "url": "https://investors.ebayinc.com/investor-news/press-release-details/2026/eBay-Inc--Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
+          "title": "2025 results",
+          "publisher": "e Bay",
+          "date": "2026-02-18",
+          "verified": true,
+          "finding": "2025 revenue $11.1 bn, GAAP EPS $4.26, adjusted EPS $5.52, operating cash $2 bn, free cash $1.5 bn; buybacks $2.5 bn and dividends $531 m. Continuing business grew but payout exceeded annual free cash flow."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C16"
+    },
+    {
+      "claim": "Liquidity supports shareholder distributions",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        124,
+        125,
+        128,
+        129
+      ],
+      "family": "ebay-capital-return",
+      "asset_or_variable": "EBAY",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Large repurchases and dividends continued, supporting capacity. Yet 2025 payouts exceeded that year's free cash flow; divestiture proceeds, debt and accumulated cash matter. Do not extrapolate a perpetual payout from one profitable year.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1065088/000155278121000551/e21453_ex99-1.htm",
+          "title": "Classifieds transfer completed",
+          "publisher": "e Bay / SEC",
+          "date": "2021-06-25",
+          "verified": true,
+          "finding": "e Bay announced completion for $2.5 bn cash and 44% equity in Adevinta; net after-tax cash approximately $2 bn. Timing was June, not early 2021."
+        },
+        {
+          "url": "https://investors.ebayinc.com/investor-news/press-release-details/2026/eBay-Inc--Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
+          "title": "2025 results",
+          "publisher": "e Bay",
+          "date": "2026-02-18",
+          "verified": true,
+          "finding": "2025 revenue $11.1 bn, GAAP EPS $4.26, adjusted EPS $5.52, operating cash $2 bn, free cash $1.5 bn; buybacks $2.5 bn and dividends $531 m. Continuing business grew but payout exceeded annual free cash flow."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C17"
+    },
+    {
+      "claim": "EPS follows rising consensus path",
+      "kind": "forecast",
+      "source_blocks": [
+        139,
+        140
+      ],
+      "family": "ebay-eps-2022",
+      "asset_or_variable": "EBAY earnings",
+      "horizon": "2020-2022",
+      "conditions": null,
+      "modality": "analyst consensus adopted",
+      "verdict": "wrong",
+      "reason": "Actual GAAP results were highly nonmonotonic, ending negative in 2022 rather than $3.95. Discontinued operations and investment marks make a normalized operating forecast different from the explicitly labeled GAAP numbers. This scores the adopted path, not a hidden adjusted estimate.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2020-2022",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508823000006/ebay-20221231.htm",
+          "title": "2022 Form 10-K",
+          "publisher": "e Bay / SEC",
+          "date": "2023-02-23",
+          "verified": true,
+          "finding": "Continuing revenue 2020/2021/2022: $8.894/$10.420/$9.795 bn. Continuing diluted GAAP EPS $3.46/$0.38/-$2.28; total EPS $7.89/$20.54/-$2.27. Investment revaluations and discontinued operations materially distort comparison. Managed payments covered all transactions since late 2021; 2022 lower demand partly offset by higher take rate."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C18"
+    },
+    {
+      "claim": "Valuation tolerates modest growth",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        135,
+        138,
+        139,
+        144,
+        145,
+        146
+      ],
+      "family": "ebay-fair-value",
+      "asset_or_variable": "EBAY",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Fair value depends on the stated return hurdle and growth assumptions. The underlying DCF cells are not readable from labels; valuation sensitivity is meaningful but cannot independently establish a realized hit.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "029-C19"
+    },
+    {
+      "claim": "Streamlining permits takeover premium",
+      "kind": "forecast",
+      "source_blocks": [
+        147
+      ],
+      "family": "ebay-takeover-option",
+      "asset_or_variable": "EBAY",
+      "horizon": null,
+      "conditions": null,
+      "modality": "decent possibility",
+      "verdict": "not_testable",
+      "reason": "No deadline or probability is provided, and eventual acquisition is an open-ended possibility. Divestiture itself does not establish a likely buyer or premium.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "029-C20"
+    },
+    {
+      "claim": "Managed payments improves marketplace",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        154,
+        155
+      ],
+      "family": "ebay-managed-payments",
+      "asset_or_variable": "EBAY",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Migration completed by late 2021 and higher take rate supported revenue. The filing also reports higher processing costs and chargeback risks, so successful migration alone does not prove a top-tier user experience or full incremental profitability.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508823000006/ebay-20221231.htm",
+          "title": "2022 Form 10-K",
+          "publisher": "e Bay / SEC",
+          "date": "2023-02-23",
+          "verified": true,
+          "finding": "Continuing revenue 2020/2021/2022: $8.894/$10.420/$9.795 bn. Continuing diluted GAAP EPS $3.46/$0.38/-$2.28; total EPS $7.89/$20.54/-$2.27. Investment revaluations and discontinued operations materially distort comparison. Managed payments covered all transactions since late 2021; 2022 lower demand partly offset by higher take rate."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C21"
+    },
+    {
+      "claim": "Used goods cushion recessions",
+      "kind": "explanation",
+      "source_blocks": [
+        157
+      ],
+      "family": "ebay-countercyclical-resale",
+      "asset_or_variable": "EBAY",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The 2022 filing explicitly cited inflation and weaker consumer confidence hurting discretionary demand. Resale may offset some pressure, but the business was not insulated; pandemic success cannot establish resistance to all recessions.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1065088/000106508823000006/ebay-20221231.htm",
+          "title": "2022 Form 10-K",
+          "publisher": "e Bay / SEC",
+          "date": "2023-02-23",
+          "verified": true,
+          "finding": "Continuing revenue 2020/2021/2022: $8.894/$10.420/$9.795 bn. Continuing diluted GAAP EPS $3.46/$0.38/-$2.28; total EPS $7.89/$20.54/-$2.27. Investment revaluations and discontinued operations materially distort comparison. Managed payments covered all transactions since late 2021; 2022 lower demand partly offset by higher take rate."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C22"
+    },
+    {
+      "claim": "Corporate taxes may increase",
+      "kind": "forecast",
+      "source_blocks": [
+        158
+      ],
+      "family": "2020s-corporate-tax-risk",
+      "asset_or_variable": "US taxes EBAY",
+      "horizon": "2020s",
+      "conditions": null,
+      "modality": "significant possibility",
+      "verdict": "too_early",
+      "reason": "The decade remains incomplete. Distinguish headline statutory rate from minimum taxes and firm-specific effective rates; the conditional valuation arithmetic is separate from predicting legislation.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2020s",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "029-C23"
+    },
+    {
+      "claim": "Rotation could cause interim underperformance",
+      "kind": "forecast",
+      "source_blocks": [
+        161,
+        162
+      ],
+      "family": "ebay-rotation-risk",
+      "asset_or_variable": "EBAY SPY",
+      "horizon": "one or two years",
+      "conditions": null,
+      "modality": "could",
+      "verdict": "mixed",
+      "reason": "e Bay did underperform over the stated two-year window, with a negative adjusted-price proxy versus positive SPY. This supports the risk direction; operational normalization and rate changes prevent attributing the entire gap to sentiment.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: one or two years",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EBAY/history/",
+          "title": "EBAY five-year and two-year checks",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "August 17, 2020-August 15, 2025 adjusted-close proxy +91.50%, annualized 13.89%, versus SPY +104.50%. To August 16, 2022 EBAY -11.43% versus SPY +30.89%. USD, vendor dividend/split adjustments, no fees/taxes; not actual trades."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C24"
+    },
+    {
+      "claim": "e Bay delivers good five-year returns",
+      "kind": "forecast",
+      "source_blocks": [
+        163,
+        164,
+        168
+      ],
+      "family": "ebay-five-year-return",
+      "asset_or_variable": "EBAY",
+      "horizon": "5+ years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The first five-year checkpoint delivered about 13.89% annualized, exceeding the discussion's 10% valuation hurdle. It lagged SPY, so this is an absolute-return success, not market-beating selection. Longer continuation remains open.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: 5+ years",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EBAY/history/",
+          "title": "EBAY five-year and two-year checks",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "August 17, 2020-August 15, 2025 adjusted-close proxy +91.50%, annualized 13.89%, versus SPY +104.50%. To August 16, 2022 EBAY -11.43% versus SPY +30.89%. USD, vendor dividend/split adjustments, no fees/taxes; not actual trades."
+        }
+      ],
+      "next_check": null,
+      "id": "029-C25"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Heatmap and claims",
+      "source_blocks": [
+        21,
+        31,
+        36
+      ],
+      "use": "Activity",
+      "image_inspected": false
+    },
+    {
+      "name": "Valuation and ratios",
+      "source_blocks": [
+        78,
+        83,
+        90,
+        139,
+        141
+      ],
+      "use": "Pricing",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate divestiture gains from recurring earnings."
+  ],
+  "assessment": "The long-horizon e Bay investment produced solid absolute returns, though below SPY. Its operating turnaround was uneven and the GAAP earnings path failed. The major fiscal compromise came after the election. The dated Bitcoin view succeeded; open-ended gold and valuation views need explicit failure conditions.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "Public market series are available, but not every investment claim has a defined horizon or reconciled corporate-action-adjusted return. Unverified outcomes remain unscored; macro data use latest available vintages."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "3ced4edbd0e65e0f02595e08eb8f2f0f56f0ffb8b441223224beff52cdd27c89"
+}

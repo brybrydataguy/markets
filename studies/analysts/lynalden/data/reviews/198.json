@@ -1,0 +1,648 @@
+{
+  "article_id": "198",
+  "title": "The Global Bond Rout",
+  "date": "2026-09-27",
+  "source_url": "https://www.lynalden.com/premium-2026-9-27/",
+  "read_complete": true,
+  "evaluation_as_of": "2026-11-07",
+  "summary": "Higher yields, fiscal transmission and energy income.",
+  "assessment": "The rate decision and energy windfalls are verified. The central unresolved step is the leap from large public borrowing to an approximately stimulative net effect of rate hikes. EPD’s stated distribution-growth rate is overstated; its long-term income thesis and Bitcoin outlook remain open.",
+  "claims": [
+    {
+      "claim": "The hike matches the central policy scenario.",
+      "source_blocks": [
+        7,
+        9,
+        10,
+        11,
+        13,
+        14
+      ],
+      "verdict": "right",
+      "reason": "The official decision verifies the quarter-point increase. This is a realized observation within the prior scenario, not a fresh forecast win. The remaining 2026 meeting outcome is still open.",
+      "kind": "empirical",
+      "family": "2026-fed-hike-scenario",
+      "asset_or_variable": "2026-fed-hike-scenario",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "title": "September FOMC decision",
+          "publisher": "Federal Reserve",
+          "date": "2026-09-16",
+          "verified": true,
+          "finding": "Unanimous quarter-point increase to 3.75-4.00%, alongside continued ample-reserves implementation."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "198-C01"
+    },
+    {
+      "claim": "Bond yields reached a new cycle high.",
+      "source_blocks": [
+        16,
+        17,
+        18,
+        20,
+        22,
+        23,
+        24,
+        29,
+        30
+      ],
+      "verdict": "right",
+      "reason": "FRED records the 10-year yield at 5.17% on September 25, above the 2023 high. It subsequently eased to 4.84% by November 5. This confirms the reported level, not an uninterrupted future rise.",
+      "kind": "empirical",
+      "family": "2026-treasury-yield-high",
+      "asset_or_variable": "2026-treasury-yield-high",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "title": "DGS10 observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "September 25:5.17%; November 5:4.84%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "198-C02"
+    },
+    {
+      "claim": "Higher volatility is not yet market dysfunction.",
+      "source_blocks": [
+        33,
+        36,
+        37,
+        38,
+        46
+      ],
+      "verdict": "mixed",
+      "reason": "The distinction is sound: nominal government credit quality does not eliminate duration-price volatility. MOVE alone does not measure market depth, bid-ask spreads or settlement capacity. Later dealer feedback suggests functioning improved modestly, but a complete September liquidity comparison is not reconstructed.",
+      "kind": "explanation",
+      "family": "bond-volatility-versus-liquidity",
+      "asset_or_variable": "bond-volatility-versus-liquidity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0680",
+          "title": "November Treasury advisory minutes",
+          "publisher": "U.S. Treasury",
+          "date": "2026-11-04",
+          "verified": true,
+          "finding": "Dealers reported modest liquidity improvements from expanded buybacks, with mixed intermediation effects."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "198-C03"
+    },
+    {
+      "claim": "Energy and deficits justify persistently higher yields.",
+      "source_blocks": [
+        39,
+        40,
+        42,
+        43,
+        44,
+        47,
+        66
+      ],
+      "verdict": "mixed",
+      "reason": "Energy disruption and fiscal borrowing plausibly affect inflation and term premia, but observed yields do not uniquely identify those channels. The 10-year/3-month spread was +0.93 percentage point, so “flat” means shallow relative to a chosen history, not literally zero. Bessent’s goals are not themselves an interest-rate model.",
+      "kind": "explanation",
+      "family": "fiscal-energy-term-premium",
+      "asset_or_variable": "fiscal-energy-term-premium",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/T10Y3M",
+          "title": "T 10 Y 3 M observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "September 25 spread +0.93 percentage point."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "198-C04"
+    },
+    {
+      "claim": "Rate hikes are approximately net stimulative now.",
+      "source_blocks": [
+        44,
+        52,
+        54,
+        56,
+        57,
+        58,
+        59
+      ],
+      "verdict": "evidence_needed",
+      "reason": "Comparing total government issuance with private lending does not establish the marginal response to a rate change. Repricing maturities, recipient spending propensities, credit demand, asset values, exchange rates and expectations all matter. The claimed net offset requires an estimated counterfactual, not an accounting comparison of flow sizes.",
+      "kind": "explanation",
+      "family": "rate-hikes-net-stimulative",
+      "asset_or_variable": "rate-hikes-net-stimulative",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Estimate incremental interest transfers and private-demand effects under a common shock and horizon.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "198-C05"
+    },
+    {
+      "claim": "Cash-rich fixed-rate borrowers gain interest income.",
+      "source_blocks": [
+        53,
+        54,
+        55
+      ],
+      "verdict": "right",
+      "reason": "For unchanged cash balances earning a floating rate and unchanged fixed-rate debt payments, a rate increase raises nominal net interest income. This validates the personal example but cannot be generalized to the whole economy without measuring other households and firms.",
+      "kind": "explanation",
+      "family": "rate-hike-income-distribution",
+      "asset_or_variable": "rate-hike-income-distribution",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Cash yield reprices upward",
+          "Debt payment is fixed",
+          "Balances unchanged"
+        ],
+        "derivation": "Net interest-income change equals cash balance times yield increase, while debt interest is unchanged."
+      },
+      "id": "198-C06"
+    },
+    {
+      "claim": "The Fed continues gradual balance-sheet expansion.",
+      "source_blocks": [
+        48
+      ],
+      "verdict": "mixed",
+      "reason": "Assets were about $6.748tn on September 23 and nearly unchanged on November 4. Earlier reserve-management purchases support the gradual-expansion regime, but funding Treasury deficits is not the same stated objective as maintaining ample reserves.",
+      "kind": "explanation",
+      "family": "gradual-print-2026",
+      "asset_or_variable": "gradual-print-2026",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/newsevents/speeches/2026/per260326",
+          "title": "Early experience with reserve management purchases",
+          "publisher": "New York Fed",
+          "date": "2026-03-26",
+          "verified": true,
+          "finding": "The Desk purchased about $40 billion monthly ahead of expected April tax flows. The objective was maintaining ample reserves."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "WALCL observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "September 23:$6.747704tn; November 4:$6.748145tn."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "198-C07"
+    },
+    {
+      "claim": "Domestic balance sheets must absorb residual issuance.",
+      "source_blocks": [
+        48,
+        49,
+        50,
+        51
+      ],
+      "verdict": "mixed",
+      "reason": "As an accounting identity, issuance not bought abroad must be held domestically. The claim that nonbank capacity is severely limited needs a demand model, and bank purchases are not automatically unconstrained money creation. Relative prices, saving flows and balance-sheet regulation affect all buyer groups.",
+      "kind": "explanation",
+      "family": "treasury-buyer-composition",
+      "asset_or_variable": "treasury-buyer-composition",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sb0680",
+          "title": "Treasury buyer-demand discussion",
+          "publisher": "U.S. Treasury",
+          "date": "2026-11-04",
+          "verified": true,
+          "finding": "Dealers identified money funds, stablecoins, SOMA and banks as demand sources, with mixed long-end demand."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "198-C08"
+    },
+    {
+      "claim": "Policy can contain a disorderly bond market.",
+      "source_blocks": [
+        67
+      ],
+      "verdict": "conditional_pending",
+      "reason": "Standing lending tools, outright purchases and shorter Treasury issuance provide options, but the report makes deployment conditional on disorder. Their effectiveness, legal scope, collateral constraints and inflation consequences differ; availability is not an unconditional yield guarantee.",
+      "kind": "explanation",
+      "family": "bond-market-policy-backstop",
+      "asset_or_variable": "bond-market-policy-backstop",
+      "horizon": null,
+      "conditions": "Treasury trading becomes disorderly",
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchase announcement",
+          "publisher": "New York Fed",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "Purchases began December 12, 2025 to maintain ample reserves; initial monthly amount about $40 billion. Technical reserve supply does not itself establish a change in the interest-rate stance."
+        }
+      ],
+      "next_check": "Track the trigger and actual facility use, separating liquidity lending from QE or issuance changes.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "198-C09"
+    },
+    {
+      "claim": "U.S. inflation should stay far below 15%.",
+      "source_blocks": [
+        64,
+        65
+      ],
+      "verdict": "not_testable",
+      "reason": "The comparison with Egypt is illustrative, and “foreseeable timeframe” has no fixed endpoint. Current inflation well below 15% supports present scale but cannot settle an indefinite upper-bound forecast.",
+      "kind": "forecast",
+      "family": "us-inflation-not-emerging-market-scale",
+      "asset_or_variable": "us-inflation-not-emerging-market-scale",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "198-C10"
+    },
+    {
+      "claim": "Japanese financial institutions tolerate higher yields.",
+      "source_blocks": [
+        68,
+        70
+      ],
+      "verdict": "evidence_needed",
+      "reason": "The article repeats broad reassurance without a defined bank/insurer sample or stress scenario. Higher coupon income is helpful only alongside duration losses, deposit costs, capital requirements and credit performance. Country-level debt ratios do not resolve institution-level solvency.",
+      "kind": "explanation",
+      "family": "japan-bank-rate-resilience",
+      "asset_or_variable": "japan-bank-rate-resilience",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Compare major institutions’ capital, deposit beta, securities duration and hedges under rate stress.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "198-C11"
+    },
+    {
+      "claim": "Energy producers and refiners earn windfalls.",
+      "source_blocks": [
+        87,
+        88,
+        89,
+        91
+      ],
+      "verdict": "right",
+      "reason": "Shell’s reported results confirm strong refining-related earnings and cash generation. Marathon’s Q3 adjusted EBITDA also rose sharply. This verifies current operating conditions; a further equity rerating remains conditional on margins persisting longer than priced.",
+      "kind": "investment_thesis",
+      "family": "energy-2026-windfall",
+      "asset_or_variable": "energy-2026-windfall",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://shell.gcs-web.com/news-releases/news-release-details/shell-plc-3rd-quarter-2026-and-nine-months-unaudited-results",
+          "title": "Shell Q3 2026 results",
+          "publisher": "Shell",
+          "date": "2026-10-29",
+          "verified": true,
+          "finding": "Adjusted earnings $10.8bn, operating cash flow $21.0bn, FCF $16.3bn and net debt $39.7bn, down from $41.8bn in Q2. Refining margins contributed."
+        },
+        {
+          "url": "https://ir.marathonpetroleum.com/investor/news-releases/news-details/2026/Marathon-Petroleum-Corp--Reports-Third-Quarter-2026-Results/default.aspx",
+          "title": "Marathon Q3 results",
+          "publisher": "Marathon Petroleum",
+          "date": "2026-11-03",
+          "verified": true,
+          "finding": "Adjusted EBITDA $11.7bn versus $3.2bn a year earlier."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "198-C12"
+    },
+    {
+      "claim": "Integrated majors diversify portfolio exposures.",
+      "source_blocks": [
+        91,
+        93
+      ],
+      "verdict": "mixed",
+      "reason": "SHEL gained 2.72% while SPY fell 3.96% from September 28 through November 6, supporting the hedge over this particular interval. Integrated energy retains equity-market and commodity-cycle exposure; one divergent period does not establish stable low correlation.",
+      "kind": "investment_thesis",
+      "family": "integrated-energy-portfolio-hedge",
+      "asset_or_variable": "integrated-energy-portfolio-hedge",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/SHEL/history/",
+          "title": "SHEL market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "September 28-November 6 adjusted return +2.72%; SPY -3.96%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "198-C13"
+    },
+    {
+      "claim": "Temporary windfalls permanently strengthen balance sheets.",
+      "source_blocks": [
+        94
+      ],
+      "verdict": "mixed",
+      "reason": "Shell’s net debt fell during the quarter, supporting an observed improvement. Permanence is too strong: future losses, acquisitions, dividends and buybacks can consume the cash. A one-time earnings gain raises cumulative resources but does not guarantee a lasting net-debt reduction.",
+      "kind": "explanation",
+      "family": "energy-windfall-balance-sheet",
+      "asset_or_variable": "energy-windfall-balance-sheet",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://shell.gcs-web.com/news-releases/news-release-details/shell-plc-3rd-quarter-2026-and-nine-months-unaudited-results",
+          "title": "Shell Q3 2026 results",
+          "publisher": "Shell",
+          "date": "2026-10-29",
+          "verified": true,
+          "finding": "Adjusted earnings $10.8bn, operating cash flow $21.0bn, FCF $16.3bn and net debt $39.7bn, down from $41.8bn in Q2. Refining margins contributed."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "198-C14"
+    },
+    {
+      "claim": "Higher bond yields pressure midstream valuations.",
+      "source_blocks": [
+        95,
+        97,
+        98
+      ],
+      "verdict": "right",
+      "reason": "At a fixed distribution, a higher required equity yield mathematically implies a lower price. Actual valuation also depends on expected distribution growth, risk and taxes; Treasury yield alone does not dictate EPD’s spread.",
+      "kind": "explanation",
+      "family": "midstream-rate-sensitivity",
+      "asset_or_variable": "midstream-rate-sensitivity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Annual distribution unchanged",
+          "Required distribution yield rises"
+        ],
+        "derivation": "Price equals annual distribution divided by required yield; a higher denominator lowers price."
+      },
+      "id": "198-C15"
+    },
+    {
+      "claim": "EPD distribution growth is about 4% or more.",
+      "source_blocks": [
+        97
+      ],
+      "verdict": "wrong",
+      "reason": "The July 7, 2026 declaration, already available at publication, reported 2.8% year-over-year growth. That is below the current 4%-plus characterization. This is a correction to the stated growth rate, not a claim that the article guaranteed a minimum return or supplied a fixed future forecast horizon.",
+      "kind": "empirical",
+      "family": "epd-distribution-growth",
+      "asset_or_variable": "epd-distribution-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://ir.enterpriseproducts.com/news-releases/news-release-details/enterprise-declares-quarterly-distribution-20",
+          "title": "Enterprise July distribution declaration",
+          "publisher": "Enterprise Products Partners",
+          "date": "2026-07-07",
+          "verified": true,
+          "finding": "Quarterly distribution $0.56 per unit, annualized $2.24, 2.8% above Q2 2025; payment scheduled for August 14, 2026."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Contemporaneous distribution-growth characterization; July declaration preceded September publication.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "198-C16"
+    },
+    {
+      "claim": "EPD remains a long-term income holding.",
+      "source_blocks": [
+        98
+      ],
+      "verdict": "too_early",
+      "reason": "The long-term horizon is unfinished. EPD gained 2.51% through November 6 and declared its next distribution, providing favorable interim evidence. The hypothetical additional purchase depends on a yield move that is not treated as an executed trade.",
+      "kind": "investment_thesis",
+      "family": "epd-long-term-income",
+      "asset_or_variable": "epd-long-term-income",
+      "horizon": "Long term",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://ir.enterpriseproducts.com/news-releases/news-release-details/enterprise-declares-quarterly-distribution-21",
+          "title": "Enterprise distribution declaration",
+          "publisher": "Enterprise Products Partners",
+          "date": "2026-10-08",
+          "verified": true,
+          "finding": "Quarterly distribution $0.56, annualized $2.24, a 2.8% increase over Q3 2025; payment scheduled after the audit cutoff."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/EPD/history/",
+          "title": "EPD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "September 28-November 6 adjusted return +2.51%; SPY -3.96%."
+        }
+      ],
+      "next_check": "Track cash-flow coverage, leverage, distribution growth and full-horizon real returns.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Long term",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "198-C17"
+    },
+    {
+      "claim": "Bitcoin’s breakout improves its multiyear outlook.",
+      "source_blocks": [
+        100,
+        101,
+        102,
+        104
+      ],
+      "verdict": "too_early",
+      "reason": "The explicit two-to-three-year outlook reaches 2028-2029. Bitcoin fell 9.29% from September 28 through November 6, so the breakout did not eliminate near-term risk. The claimed monthly momentum signal depends on an unspecified indicator definition and does not independently establish forecast accuracy.",
+      "kind": "investment_thesis",
+      "family": "bitcoin-2026-accumulation",
+      "asset_or_variable": "bitcoin-2026-accumulation",
+      "horizon": "Two to three years",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "September 28-November 6 return -9.29%; SPY -3.96%."
+        }
+      ],
+      "next_check": "Preserve the horizon and evaluate total return, drawdown and the indicator’s out-of-sample record.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Two to three years",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "198-C18"
+    }
+  ],
+  "coverage_note": "Full numbered text and image inventory read. All material theses across macro, digital assets, investment analysis and concluding sections considered. Position listings and incidental descriptive statistics are excluded unless they support a thesis.",
+  "tools_charts": [
+    {
+      "name": "MOVE",
+      "source_blocks": [
+        33,
+        37
+      ],
+      "use": "Rate volatility, not complete liquidity",
+      "image_inspected": false
+    },
+    {
+      "name": "Yield curve",
+      "source_blocks": [
+        40
+      ],
+      "use": "Term structure",
+      "image_inspected": false
+    },
+    {
+      "name": "Fed balance sheet",
+      "source_blocks": [
+        48
+      ],
+      "use": "Reserve supply",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        89,
+        91,
+        95
+      ],
+      "use": "Cyclicality and income valuation",
+      "image_inspected": true
+    },
+    {
+      "name": "Monthly Bitcoin momentum",
+      "source_blocks": [
+        102
+      ],
+      "use": "Trend signal",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "An accounting income channel is not a complete macroeconomic causal estimate.",
+    "Temporary profits can improve a balance sheet without guaranteeing permanence."
+  ],
+  "verification_limitations": [
+    "Current page snapshot is not an authenticated publication-date version.",
+    "A missing horizon is not replaced with an invented author deadline.",
+    "Market sensitivities use vendor adjusted closes and do not reconstruct portfolio execution."
+  ]
+}

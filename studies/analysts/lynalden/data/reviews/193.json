@@ -1,0 +1,648 @@
+{
+  "article_id": "193",
+  "title": "Stock Market Rotations",
+  "date": "2026-07-19",
+  "source_url": "https://www.lynalden.com/premium-2026-7-19/",
+  "read_complete": true,
+  "evaluation_as_of": "2026-11-07",
+  "summary": "Japan’s financial options and a software entry.",
+  "assessment": "The four named software additions show positive interim results. Japan’s external balance sheet is a useful starting point, but pension governance and the allocation chronology materially qualify the intervention story. Gold and Bitcoin views remain open over their longer horizons.",
+  "claims": [
+    {
+      "claim": "Depleted inventories reduce the energy buffer.",
+      "source_blocks": [
+        9,
+        11,
+        14,
+        15
+      ],
+      "verdict": "right",
+      "reason": "For a fixed minimum operating stock and unchanged supply/demand, a lower inventory leaves less available drawdown capacity. This supports vulnerability, but the amount of future shortage also depends on rerouting, production and demand response.",
+      "kind": "explanation",
+      "family": "energy-inventory-buffer",
+      "asset_or_variable": "energy-inventory-buffer",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Same minimum operating inventory",
+          "No offsetting supply or demand change"
+        ],
+        "derivation": "Available buffer equals current stock minus minimum stock; prior drawdowns reduce that quantity."
+      },
+      "id": "193-C01"
+    },
+    {
+      "claim": "Inflation is cooling without monetary acceleration.",
+      "source_blocks": [
+        18,
+        20,
+        26,
+        28,
+        29,
+        33
+      ],
+      "verdict": "mixed",
+      "reason": "The CPI decline from May to June is confirmed, but the stronger rule that inflation necessarily fizzles without rapid money growth is too categorical. Velocity, real output, supply shocks, expectations and the money aggregate chosen matter; a one-month decline does not identify the mechanism.",
+      "kind": "explanation",
+      "family": "2026-inflation-containment",
+      "asset_or_variable": "2026-inflation-containment",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+          "title": "CPIAUCSL observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Current-vintage CPI implies approximately 4.17% Yo Y in May and 3.5% in June."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "193-C02"
+    },
+    {
+      "claim": "One hike remains the likely ceiling.",
+      "source_blocks": [
+        30,
+        31,
+        32
+      ],
+      "verdict": "mixed",
+      "reason": "The October range is one quarter point above July, consistent with the central scenario so far. The forecast extends through December and is conditional on energy disruption, so the full-year endpoint remains open.",
+      "kind": "forecast",
+      "family": "2026-fed-zero-or-one-hike",
+      "asset_or_variable": "2026-fed-zero-or-one-hike",
+      "horizon": "End of 2026",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+          "title": "October 2026 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2026-10-28",
+          "verified": true,
+          "finding": "Target range held at 3.75-4.00%; inflation remained elevated and two voters preferred a further increase."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "End of 2026",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "193-C03"
+    },
+    {
+      "claim": "Balance-sheet changes should remain modest.",
+      "source_blocks": [
+        35,
+        36,
+        38
+      ],
+      "verdict": "too_early",
+      "reason": "The report predicts gradual implementation and possible regulatory changes, without a precise balance-sheet target. Remaining 2026 actions are unobserved. The earlier reserve-management purchases support continuity but do not settle later policy design.",
+      "kind": "forecast",
+      "family": "warsh-balance-sheet-policy",
+      "asset_or_variable": "warsh-balance-sheet-policy",
+      "horizon": "Upcoming policy changes",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/2026-07-mpr-part2.htm",
+          "title": "July 2026 monetary policy report",
+          "publisher": "Federal Reserve",
+          "date": "2026-07-01",
+          "verified": true,
+          "finding": "Federal Reserve assets had increased about $150 billion to $6.7 trillion by July 1."
+        }
+      ],
+      "next_check": "Compare announced changes, implementation timing and reserve conditions against the gradualism thesis.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Upcoming policy changes",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "193-C04"
+    },
+    {
+      "claim": "Japanese cash suffers under negative real rates.",
+      "source_blocks": [
+        40,
+        43,
+        45
+      ],
+      "verdict": "mixed",
+      "reason": "A nominal return below inflation reduces purchasing power, but equities, foreign assets and hard money are not guaranteed hedges over every horizon. A weakening currency and rising yields alone do not prove capital flight or that all movements are deliberately controlled.",
+      "kind": "explanation",
+      "family": "japan-financial-repression",
+      "asset_or_variable": "japan-financial-repression",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Nominal after-tax return below relevant inflation",
+          "Same measurement interval"
+        ],
+        "derivation": "Real gross return equals nominal gross return divided by the price-level growth factor; it is below one under these assumptions."
+      },
+      "id": "193-C05"
+    },
+    {
+      "claim": "Japan’s external assets provide resilience.",
+      "source_blocks": [
+        45,
+        47,
+        48
+      ],
+      "verdict": "right",
+      "reason": "The finance ministry reports end-2025 assets of ¥1,805.634tn, liabilities ¥1,243.884tn and net assets ¥561.750tn. This supports a substantial net-creditor position. Private ownership, liquidity and currency hedging still determine how readily those assets support the yen.",
+      "kind": "explanation",
+      "family": "japan-external-balance-sheet",
+      "asset_or_variable": "japan-external-balance-sheet",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.mof.go.jp/english/policy/international_policy/reference/iip/e2025.htm",
+          "title": "Japan end-2025 international investment position",
+          "publisher": "Japan Ministry of Finance",
+          "date": "2026-05-26",
+          "verified": true,
+          "finding": "Assets ¥1,805.634tn; liabilities ¥1,243.884tn; net ¥561.750tn."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "193-C06"
+    },
+    {
+      "claim": "GPIF assets are available for currency defense.",
+      "source_blocks": [
+        49,
+        53,
+        55,
+        56
+      ],
+      "verdict": "mixed",
+      "reason": "The pension portfolio is large, but combining it with official reserves overstates immediately deployable government intervention capacity. GPIF has a beneficiary mandate and limits on unrelated policy objectives. Allocation changes are possible within governance constraints; they are not a freely available currency-defense account.",
+      "kind": "explanation",
+      "family": "japan-gpif-intervention-capacity",
+      "asset_or_variable": "japan-gpif-intervention-capacity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.gpif.go.jp/en/info/Medium-term_Objectives.pdf",
+          "title": "GPIF medium-term objectives",
+          "publisher": "GPIF / Ministry of Health, Labour and Welfare",
+          "date": "2022-10-03",
+          "verified": true,
+          "finding": "Pension assets must be managed for pension beneficiaries; the framework explicitly excludes investment for unrelated policy objectives."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "193-C07"
+    },
+    {
+      "claim": "GPIF adopted equal quarters in 2014.",
+      "source_blocks": [
+        50,
+        51
+      ],
+      "verdict": "wrong",
+      "reason": "The 2014 framework retained 35% domestic bonds and 15% foreign bonds, with 25% in each equity category. Equal 25% allocations arrived in 2020. The chronology matters because it changes the size and source of the claimed historical foreign-asset shift.",
+      "kind": "empirical",
+      "family": "gpif-allocation-history",
+      "asset_or_variable": "gpif-allocation-history",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.gpif.go.jp/en/performance/pdf/annual_report_fiscal_year_2015.pdf",
+          "title": "GPIF fiscal 2015 annual report",
+          "publisher": "GPIF",
+          "date": null,
+          "verified": true,
+          "finding": "Policy mix: domestic bonds 35%, domestic equities 25%, foreign bonds 15%, foreign equities 25%."
+        },
+        {
+          "url": "https://www.gpif.go.jp/en/performance/annual_report_fiscal_year_2020.pdf",
+          "title": "GPIF fiscal 2020 annual report",
+          "publisher": "GPIF",
+          "date": null,
+          "verified": true,
+          "finding": "Foreign bond target increased from 15% to 25% with the new mix."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "193-C08"
+    },
+    {
+      "claim": "Repatriation could materially support the yen.",
+      "source_blocks": [
+        53,
+        54,
+        55
+      ],
+      "verdict": "conditional_pending",
+      "reason": "The author describes a hypothetical reallocation, not a predicted executed transaction. Scale arithmetic does not determine exchange-rate impact, which depends on hedging, counterparties, timing and expectations. The illustrative ten-to-one market-cap multiplier is not an established constant.",
+      "kind": "forecast",
+      "family": "japan-capital-repatriation-scenario",
+      "asset_or_variable": "japan-capital-repatriation-scenario",
+      "horizon": null,
+      "conditions": "GPIF materially reduces foreign allocations and converts proceeds to yen",
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.gpif.go.jp/en/info/Medium-term_Objectives.pdf",
+          "title": "GPIF medium-term objectives",
+          "publisher": "GPIF / Ministry of Health, Labour and Welfare",
+          "date": "2022-10-03",
+          "verified": true,
+          "finding": "Pension assets must be managed for pension beneficiaries; the framework explicitly excludes investment for unrelated policy objectives."
+        }
+      ],
+      "next_check": "Verify approved allocations, actual currency conversion and market response if the trigger occurs.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "193-C09"
+    },
+    {
+      "claim": "Capital gains complicate switching Bitcoin funds.",
+      "source_blocks": [
+        74,
+        75,
+        76
+      ],
+      "verdict": "right",
+      "reason": "A taxable sale can recognize a gain, while fund fees create an ongoing cost. The correct comparison depends on basis, tax treatment, holding period and account type. This supports the article’s conditional framing, not a universal recommendation to retain GBTC.",
+      "kind": "explanation",
+      "family": "bitcoin-fund-tax-friction",
+      "asset_or_variable": "bitcoin-fund-tax-friction",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.irs.gov/taxtopics/tc409",
+          "title": "Capital gains and losses",
+          "publisher": "IRS",
+          "date": null,
+          "verified": true,
+          "finding": "Gain or loss generally reflects disposition proceeds relative to adjusted basis; account and transaction treatment matter."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "193-C10"
+    },
+    {
+      "claim": "RBX may defer an ETF conversion gain.",
+      "source_blocks": [
+        77,
+        78
+      ],
+      "verdict": "evidence_needed",
+      "reason": "The promotion discloses Alden’s Swan board role and appropriately notes individual legal constraints. The product documents could not be retrieved here. General partnership nonrecognition has exceptions, including investment-company contributions, so the marketing claim cannot be certified without the actual structure and tax analysis.",
+      "kind": "explanation",
+      "family": "swan-rbx-tax-deferral",
+      "asset_or_variable": "swan-rbx-tax-deferral",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.irs.gov/publications/p541",
+          "title": "Partnership taxation",
+          "publisher": "IRS",
+          "date": "2025-12-01",
+          "verified": true,
+          "finding": "Certain contributions to a partnership treated as an investment company trigger gain recognition."
+        }
+      ],
+      "next_check": "Review the governing documents, transaction sequence and qualified tax opinion; do not infer blanket tax exemption.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "193-C11"
+    },
+    {
+      "claim": "Space X remains expensive despite its decline.",
+      "source_blocks": [
+        81,
+        82,
+        83,
+        84,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        94,
+        95,
+        97,
+        98
+      ],
+      "verdict": "too_early",
+      "reason": "The decline supports earlier valuation caution, but the forecast of a lasting premium extends for years. The quoted orbital-servicing and hyperscaler generalizations retain the limitations recorded in article 191; repetition does not add new independent successes.",
+      "kind": "investment_thesis",
+      "family": "spacex-valuation",
+      "asset_or_variable": "spacex-valuation",
+      "horizon": "Several years",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm",
+          "title": "Space X June 2026 Form 10-Q",
+          "publisher": "SpaceX / SEC",
+          "date": "2026-08-14",
+          "verified": true,
+          "finding": "IPO shares including overallotment generated approximately $86.25bn gross proceeds. The company combined with x AI in February and disclosed the $60bn Cursor acquisition option."
+        }
+      ],
+      "next_check": "Track consolidated operating results, dilution and valuation after lockup expiry.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Several years",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "193-C12"
+    },
+    {
+      "claim": "Memory remains structurally attractive after excess.",
+      "source_blocks": [
+        100,
+        103,
+        110,
+        111,
+        113,
+        114,
+        116,
+        117,
+        137
+      ],
+      "verdict": "too_early",
+      "reason": "Micron’s later results support current demand, but a multi-year shortage and eventual stock recovery remain open. MU fell another 20.26% from July 20 through November 6, showing that a correct demand thesis does not establish an immediate entry.",
+      "kind": "investment_thesis",
+      "family": "ai-memory-cycle",
+      "asset_or_variable": "ai-memory-cycle",
+      "horizon": "Months to years",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/",
+          "title": "Micron fiscal 2026 results",
+          "publisher": "Micron",
+          "date": "2026-09-30",
+          "verified": true,
+          "finding": "Fiscal Q4 revenue $54.23 billion versus $11.32 billion a year earlier. Strong memory demand is observed; management guidance for 2027 is not an outcome."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/MU/history/",
+          "title": "MU market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "July 20-November 6 adjusted return -20.26%; SPY -0.67%."
+        }
+      ],
+      "next_check": "Measure supply additions, prices and margins through the cycle.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Months to years",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "193-C13"
+    },
+    {
+      "claim": "Software now offers a contrarian entry.",
+      "source_blocks": [
+        101,
+        102,
+        120,
+        121,
+        122,
+        123,
+        127,
+        129,
+        130,
+        131,
+        136
+      ],
+      "verdict": "right",
+      "reason": "All four specifically named additions gained from the next trading close through the cutoff: ADBE 1.94%, ACN 81.43%, CRM 23.15%, INTU 16.77%, versus SPY -0.67%. This is a bounded interim directional success; it does not establish a permanent bottom or fully resolve disruption risk.",
+      "kind": "investment_thesis",
+      "family": "2026-july-software-additions",
+      "asset_or_variable": "2026-july-software-additions",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ADBE/history/",
+          "title": "ADBE market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "July 20-November 6 adjusted returns: ADBE +1.94%, ACN +81.43%, CRM +23.15%, INTU +16.77%, SPY -0.67%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "193-C14"
+    },
+    {
+      "claim": "Buybacks signal conviction but change leverage.",
+      "source_blocks": [
+        132,
+        134
+      ],
+      "verdict": "mixed",
+      "reason": "Salesforce confirms its $25bn accelerated repurchase and subsequent reporting records debt funding. This validates the financing distinction. Repurchases are beneficial only at an appropriate price and financing cost; management confidence is not independent evidence of undervaluation.",
+      "kind": "explanation",
+      "family": "software-buybacks-and-leverage",
+      "asset_or_variable": "software-buybacks-and-leverage",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000119312526107403/d887663dex991.htm",
+          "title": "Salesforce accelerated repurchase",
+          "publisher": "Salesforce / SEC",
+          "date": "2026-03-16",
+          "verified": true,
+          "finding": "Initial delivery approximately 103m shares under a $25bn program; final quantity depends on transaction-period prices."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "193-C15"
+    },
+    {
+      "claim": "Gold should consolidate around $3,000-$4,000.",
+      "source_blocks": [
+        139,
+        141,
+        142
+      ],
+      "verdict": "too_early",
+      "reason": "The comparison is a potentially multi-year consolidation, not an immediate price target. GLD gained 1.34% from July 20 through November 6, but an ETF return cannot certify the exact bullion range. The full base-building horizon remains unresolved.",
+      "kind": "forecast",
+      "family": "gold-2026-consolidation",
+      "asset_or_variable": "gold-2026-consolidation",
+      "horizon": "Potentially several years",
+      "conditions": null,
+      "modality": "base case; tentative range",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "July 20-November 6 adjusted return +1.34%."
+        }
+      ],
+      "next_check": "Track spot-gold levels and duration without redefining the proposed range.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Potentially several years",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "193-C16"
+    },
+    {
+      "claim": "Bitcoin offers favorable multiyear asymmetry.",
+      "source_blocks": [
+        143,
+        144,
+        146,
+        147
+      ],
+      "verdict": "too_early",
+      "reason": "The proposed 100%-300% upside over several years is unobserved. Bitcoin gained 16.12% through November 6 and the post-entry low was above $62,000, so the below-$50,000 concern had not occurred. Historical indicator deciles do not independently calibrate future tail probabilities.",
+      "kind": "investment_thesis",
+      "family": "bitcoin-2026-accumulation",
+      "asset_or_variable": "bitcoin-2026-accumulation",
+      "horizon": "Several years",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "July 20-November 6 return +16.12%; minimum subsequent intraday price through cutoff $62,226.58 on August 3."
+        }
+      ],
+      "next_check": "Evaluate the stated upside and downside against a fixed horizon and independent risk measures.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Several years",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "193-C17"
+    }
+  ],
+  "coverage_note": "Full numbered text and image inventory read. All material theses across macro, digital assets, investment analysis and concluding sections considered. Position listings and incidental descriptive statistics are excluded unless they support a thesis.",
+  "tools_charts": [
+    {
+      "name": "GPIF allocation",
+      "source_blocks": [
+        48,
+        49,
+        51,
+        53
+      ],
+      "use": "External assets and policy options",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        123,
+        127
+      ],
+      "use": "Software entry valuation",
+      "image_inspected": false
+    },
+    {
+      "name": "Share count/net debt",
+      "source_blocks": [
+        132,
+        134
+      ],
+      "use": "Buyback funding",
+      "image_inspected": false
+    },
+    {
+      "name": "Price and valuation indicators",
+      "source_blocks": [
+        141,
+        146
+      ],
+      "use": "Accumulation zones",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Asset ownership and legal mandate matter as much as aggregate balance-sheet size.",
+    "A favorable entry outcome does not prove a permanent industry moat."
+  ],
+  "verification_limitations": [
+    "Current page snapshot is not an authenticated publication-date version.",
+    "A missing horizon is not replaced with an invented author deadline.",
+    "Market sensitivities use vendor adjusted closes and do not reconstruct portfolio execution."
+  ]
+}

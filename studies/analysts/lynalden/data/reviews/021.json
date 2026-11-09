@@ -1,0 +1,919 @@
+{
+  "article_id": "021",
+  "title": "Berkshire Hathaway (BRK.B) Deep Dive Analysis",
+  "date": "2020-05-24",
+  "source_url": "https://www.lynalden.com/premium-2020-5-24/",
+  "read_complete": true,
+  "summary": "Financial-sector value depends on solvency, fiscal support and rates.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "Full job recovery will be slow",
+      "kind": "forecast",
+      "source_blocks": [
+        12,
+        14,
+        15,
+        16,
+        17
+      ],
+      "family": "covid-recovery-scarring",
+      "asset_or_variable": "US employment",
+      "horizon": "post-quarantine recovery",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Payroll employment did not return to its February 2020 level until July 2022 in the contemporary release. That supports the distinction between a reopening bounce and full recovery. Continued claims are beneficiaries, however, not an exact count of all lost jobs.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: post-quarantine recovery",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/empsit_08052022.htm",
+          "title": "July 2022 Employment Situation release",
+          "publisher": "Bureau of Labor Statistics",
+          "date": "2022-08-05",
+          "verified": true,
+          "finding": "The release reported payroll employment and unemployment rate had returned to February 2020 levels in July 2022. This is a publication-vintage recovery date, not a claim about subsequently revised payroll history."
+        }
+      ],
+      "next_check": null,
+      "id": "021-C01"
+    },
+    {
+      "claim": "Benefit expiry creates a fiscal dilemma",
+      "kind": "forecast",
+      "source_blocks": [
+        18,
+        19,
+        20
+      ],
+      "family": "covid-fiscal-cliff",
+      "asset_or_variable": "US spending",
+      "horizon": "late summer 2020",
+      "conditions": "Jobs do not rebound almost fully",
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Substantial additional fiscal support ultimately arrived, including ARP. This supports the continued-support branch, but does not verify the predicted late-summer timing or a reacceleration of QE specifically caused by benefit expiry.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: late summer 2020",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/policy-issues/coronavirus/about-the-american-rescue-plan",
+          "title": "About the American Rescue Plan",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "ARP passed Congress March 10, 2021 and was signed March 11. Treasury managed over $1 trillion in its programs and tax credits, confirming further large fiscal support after 2020."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "Federal Reserve total assets",
+          "publisher": "Federal Reserve via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Weekly total assets rose from $4.183 trillion on February 12, 2020 to $4.242 trillion March 4 and $6.368 trillion April 15. A brief late-February decline preceded the surge."
+        }
+      ],
+      "next_check": null,
+      "id": "021-C02"
+    },
+    {
+      "claim": "Generous benefits weaken work incentives",
+      "kind": "explanation",
+      "source_blocks": [
+        18
+      ],
+      "family": "unemployment-benefit-work-incentives",
+      "asset_or_variable": "Labor supply",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Replacement rates can alter incentives, but pandemic health risk, child care and unavailable jobs confound observed employment. A causal estimate comparing otherwise similar eligible workers is needed.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "021-C03"
+    },
+    {
+      "claim": "Retail enthusiasm is unusually speculative",
+      "kind": "empirical",
+      "source_blocks": [
+        22,
+        23,
+        26,
+        29,
+        31,
+        34,
+        35
+      ],
+      "family": "retail-speculation-2020",
+      "asset_or_variable": "Trading flows",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Brokerage activity, option buys and holdings counts measure different things. New-account anecdotes and a few bankrupt stocks do not establish aggregate investor performance or the source of counterparties.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Verify broker DARTs, OCC customer opening transactions and archived Robintrack counts.",
+      "id": "021-C04"
+    },
+    {
+      "claim": "Changed fundamentals justify exiting losses",
+      "kind": "explanation",
+      "source_blocks": [
+        36,
+        37,
+        38,
+        40
+      ],
+      "family": "thesis-revision-vs-price",
+      "asset_or_variable": "CCL and airlines",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Carnival subsequently recorded severe losses, dilution and restrictions. This supports revising the operating premise; the original recommendation remains a separate score, and author-reported execution is not independently audited.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1125259/000081509721000027/ccl-20201130.htm",
+          "title": "Fiscal 2020 Form 10-K",
+          "publisher": "Carnival / SEC",
+          "date": "2021-01-26",
+          "verified": true,
+          "finding": "FY 2020 net loss was $10.236 billion, versus $2.990 billion profit in 2019. Weighted average shares rose from 690 million to 775 million. Dividend stopped after first quarter; financing restricted future payments."
+        }
+      ],
+      "next_check": null,
+      "id": "021-C05"
+    },
+    {
+      "claim": "Ambev has stronger income-portfolio resilience",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        42,
+        43
+      ],
+      "family": "ambev-vs-cake-resilience",
+      "asset_or_variable": "ABEV CAKE",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Ambev maintained net cash and profitability; Cheesecake halted its dividend and needed preferred financing. This supports financial resilience, without establishing replacement-trade total return.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ri.ambev.com.br/en/overview/financial-highlights/",
+          "title": "Financial highlights 2015-2025",
+          "publisher": "Ambev",
+          "date": null,
+          "verified": true,
+          "finding": "2020 EPS R$0.72 versus 0.75 in 2019, 2021 R$0.81, 2025 R$0.99.2020 net cash R$14.0 b; 2025 R$16.9 b. 2020 EBITDA margin 37%,2022 29.8%,2025 33.4%, versus 40.2% in 2019. Per-share figures are issuer-adjusted for corporate actions."
+        },
+        {
+          "url": "https://investors.thecheesecakefactory.com/news-and-events/news-releases/news-release-details/2020/The-Cheesecake-Factory-Reports-Preliminary-Results-for-First-Quarter-of-Fiscal-2020/default.aspx",
+          "title": "Preliminary first-quarter fiscal 2020 results",
+          "publisher": "The Cheesecake Factory",
+          "date": "2020-05-05",
+          "verified": true,
+          "finding": "Q1 comparable sales fell 12.9%. Company suspended dividends, buybacks and new-unit development; obtained $200 million convertible preferred financing and covenant relief."
+        }
+      ],
+      "next_check": null,
+      "id": "021-C06"
+    },
+    {
+      "claim": "Banks offer better risk than airlines",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        46
+      ],
+      "family": "banks-vs-airlines-value",
+      "asset_or_variable": "XLF versus airlines",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "System-wide banking profitability survived, but relative risk/return needs a defined airline basket, dates and drawdown or loss metric. Sector survival alone is insufficient.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://archive.fdic.gov/view/fdic/9545/fdic_9545_DS1.pdf",
+          "title": "2021 Annual Performance Plan:2020 banking results",
+          "publisher": "FDIC",
+          "date": null,
+          "verified": true,
+          "finding": "FDIC-insured institutions earned $147.9 b in 2020, down 36.5% from 2019. Aggregate banking profitability remained positive despite sharply higher loss provisions."
+        }
+      ],
+      "next_check": "Compare capital ratios, dilution, dividends and matched total-return paths.",
+      "id": "021-C07"
+    },
+    {
+      "claim": "Banks entered 2020 with better buffers",
+      "kind": "explanation",
+      "source_blocks": [
+        49,
+        50,
+        54,
+        55,
+        57
+      ],
+      "family": "bank-pandemic-resilience",
+      "asset_or_variable": "US banks",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The sector remained profitable despite the revenue shock, consistent with improved resilience. The article mixes liquidity, loan quality and loss-absorbing capital; exact historical cash/security ratios require the series definitions.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://archive.fdic.gov/view/fdic/9545/fdic_9545_DS1.pdf",
+          "title": "2021 Annual Performance Plan:2020 banking results",
+          "publisher": "FDIC",
+          "date": null,
+          "verified": true,
+          "finding": "FDIC-insured institutions earned $147.9 b in 2020, down 36.5% from 2019. Aggregate banking profitability remained positive despite sharply higher loss provisions."
+        },
+        {
+          "url": "https://www.bankofengland.co.uk/explainers/how-is-money-created",
+          "title": "How money is created",
+          "publisher": "Bank of England",
+          "date": "2019-10-01",
+          "verified": true,
+          "finding": "Reserves are electronic central-bank settlement money. Capital is a separate resource that absorbs loan-default losses; both liquidity and capital constraints apply to banks."
+        }
+      ],
+      "next_check": null,
+      "id": "021-C08"
+    },
+    {
+      "claim": "QE recapitalizes banks through reserves",
+      "kind": "explanation",
+      "source_blocks": [
+        49,
+        56,
+        59,
+        61
+      ],
+      "family": "qe-reserves-versus-capital",
+      "asset_or_variable": "Bank balance sheets",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "A market-value exchange of securities for reserves improves liquidity but does not automatically increase equity capital. If the seller is a nonbank, the bank gains a reserve asset and matching deposit liability. Loss absorption requires capital, profits, guarantees or direct recapitalization, not merely a larger reserve balance.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bankofengland.co.uk/explainers/how-is-money-created",
+          "title": "How money is created",
+          "publisher": "Bank of England",
+          "date": "2019-10-01",
+          "verified": true,
+          "finding": "Reserves are electronic central-bank settlement money. Capital is a separate resource that absorbs loan-default losses; both liquidity and capital constraints apply to banks."
+        }
+      ],
+      "next_check": null,
+      "id": "021-C09"
+    },
+    {
+      "claim": "Bank earnings will deteriorate in 2020",
+      "kind": "forecast",
+      "source_blocks": [
+        58
+      ],
+      "family": "bank-2020-earnings",
+      "asset_or_variable": "US banking",
+      "horizon": "2020",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "FDIC-insured net income fell 36.5% to $147.9 b. That validates deteriorating aggregate earnings while avoiding the stronger incorrect inference that the entire sector became loss-making.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: 2020",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://archive.fdic.gov/view/fdic/9545/fdic_9545_DS1.pdf",
+          "title": "2021 Annual Performance Plan:2020 banking results",
+          "publisher": "FDIC",
+          "date": null,
+          "verified": true,
+          "finding": "FDIC-insured institutions earned $147.9 b in 2020, down 36.5% from 2019. Aggregate banking profitability remained positive despite sharply higher loss provisions."
+        }
+      ],
+      "next_check": null,
+      "id": "021-C10"
+    },
+    {
+      "claim": "Large-bank prices can recover despite weakness",
+      "kind": "forecast",
+      "source_blocks": [
+        62,
+        64,
+        66,
+        67,
+        68
+      ],
+      "family": "large-bank-long-run-value",
+      "asset_or_variable": "XLF and large banks",
+      "horizon": "next several years",
+      "conditions": null,
+      "modality": "good probability",
+      "verdict": "mixed",
+      "reason": "XLF returned 46.75% and 138.30% over the three- and five-year sensitivities, exceeding SPY at both. This supports the broad recovery direction from depressed prices. XLF includes insurers and other financial businesses, so it is not an exact large-bank basket and cannot resolve each named bank independently.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "Original horizon retained: next several years",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/XLF/history/",
+          "title": "XLF historical price sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "3-year comparison 2020-05-26 to 2023-05-24: XLF +46.75% cumulative, 13.68% annualized; SPY +43.89% cumulative. 5-year comparison 2020-05-26 to 2025-05-23: XLF +138.30% cumulative, 19.00% annualized; SPY +108.25% cumulative. First common close strictly after publication, last common close on/before anniversary. USD vendor-adjusted-close proxies include vendor dividend/split adjustments; no fees, taxes or actual subscriber trades. These are evaluator-defined sensitivities unless the claim explicitly names the horizon."
+        }
+      ],
+      "next_check": null,
+      "id": "021-C11",
+      "test_specification": {
+        "window_type": "evaluator-defined sensitivity unless explicitly matched to source horizon",
+        "windows_years": [
+          3,
+          5
+        ],
+        "returns": {
+          "XLF": {
+            "3": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-05-24",
+              "requested_endpoint": "2023-05-24",
+              "entry": "2020-05-26",
+              "exit": "2023-05-24",
+              "days": 1093,
+              "endpoint_gap_days": 0,
+              "endpoint_covered": true,
+              "instruments": {
+                "XLF": {
+                  "entry_adjusted_close": 20.53890037536621,
+                  "exit_adjusted_close": 30.141742706298828,
+                  "cumulative_return_pct": 46.75441311575766,
+                  "annualized_return_pct": 13.676345956212366,
+                  "source": "https://finance.yahoo.com/quote/XLF/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 273.54107666015625,
+                  "exit_adjusted_close": 393.6004638671875,
+                  "cumulative_return_pct": 43.89080743298799,
+                  "annualized_return_pct": 12.93023212775748,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 2.8636056827696663
+            },
+            "5": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-05-24",
+              "requested_endpoint": "2025-05-24",
+              "entry": "2020-05-26",
+              "exit": "2025-05-23",
+              "days": 1823,
+              "endpoint_gap_days": 1,
+              "endpoint_covered": true,
+              "instruments": {
+                "XLF": {
+                  "entry_adjusted_close": 20.53890037536621,
+                  "exit_adjusted_close": 48.943607330322266,
+                  "cumulative_return_pct": 138.2971163783621,
+                  "annualized_return_pct": 19.00308526876058,
+                  "source": "https://finance.yahoo.com/quote/XLF/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 273.54107666015625,
+                  "exit_adjusted_close": 569.6607055664062,
+                  "cumulative_return_pct": 108.25417247082969,
+                  "annualized_return_pct": 15.833009089057493,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 30.042943907532404
+            }
+          }
+        }
+      }
+    },
+    {
+      "claim": "Policy should prevent systemic insolvency",
+      "kind": "forecast",
+      "source_blocks": [
+        69
+      ],
+      "family": "bank-systemic-support",
+      "asset_or_variable": "US banking",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The sector remained profitable and no 2008-scale collapse occurred in 2020. Intervention success is consistent with the forecast, but not proof no sector decline can occur unless the entire economy collapses; liquidity, duration and credit losses remain separate risks.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://archive.fdic.gov/view/fdic/9545/fdic_9545_DS1.pdf",
+          "title": "2021 Annual Performance Plan:2020 banking results",
+          "publisher": "FDIC",
+          "date": null,
+          "verified": true,
+          "finding": "FDIC-insured institutions earned $147.9 b in 2020, down 36.5% from 2019. Aggregate banking profitability remained positive despite sharply higher loss provisions."
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "July 2023 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Federal funds target increased to 5.25-5.50%; Treasury/MBS holdings continued to decline. This was tightening rather than a permanent low-rate cap."
+        }
+      ],
+      "next_check": null,
+      "id": "021-C12"
+    },
+    {
+      "claim": "Low rates are banks main threat",
+      "kind": "explanation",
+      "source_blocks": [
+        70,
+        101,
+        102,
+        103
+      ],
+      "family": "bank-interest-rate-risk",
+      "asset_or_variable": "US financials",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Low yields can compress margins, but rapidly rising rates introduce securities losses, deposit competition and duration mismatches. The 2023 tightening demonstrates why low-rate risk was not the only important direction.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "July 2023 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Federal funds target increased to 5.25-5.50%; Treasury/MBS holdings continued to decline. This was tightening rather than a permanent low-rate cap."
+        }
+      ],
+      "next_check": null,
+      "id": "021-C13"
+    },
+    {
+      "claim": "Loose fiscal policy changes the regime",
+      "kind": "forecast",
+      "source_blocks": [
+        71,
+        104
+      ],
+      "family": "fiscal-reflation-regime",
+      "asset_or_variable": "US inflation",
+      "horizon": "post-virus years",
+      "conditions": null,
+      "modality": "likely",
+      "verdict": "right",
+      "reason": "Further fiscal expansion and 9.1% CPI inflation by June 2022 support the directional post-virus reflation view. Fiscal size alone does not identify the contribution relative to supply, energy and reopening effects.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: post-virus years",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/policy-issues/coronavirus/about-the-american-rescue-plan",
+          "title": "About the American Rescue Plan",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "ARP passed Congress March 10, 2021 and was signed March 11. Treasury managed over $1 trillion in its programs and tax credits, confirming further large fiscal support after 2020."
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07132022.htm",
+          "title": "June 2022 Consumer Price Index",
+          "publisher": "Bureau of Labor Statistics",
+          "date": "2022-07-13",
+          "verified": true,
+          "finding": "June 2022 headline CPI rose 9.1% over twelve months."
+        }
+      ],
+      "next_check": null,
+      "id": "021-C14"
+    },
+    {
+      "claim": "Fed will probably cap Treasury yields",
+      "kind": "forecast",
+      "source_blocks": [
+        72
+      ],
+      "family": "us-yield-curve-control",
+      "asset_or_variable": "Federal Reserve",
+      "horizon": "post-pandemic policy cycle",
+      "conditions": null,
+      "modality": "likely",
+      "verdict": "wrong",
+      "reason": "The Fed discussed but did not adopt explicit Treasury yield caps in 2020, then raised policy rates to 5.25-5.50% by July 2023 while reducing securities holdings. The expected low-yield control regime did not occur in this cycle.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: post-pandemic policy cycle",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20200729.htm",
+          "title": "July 2020 FOMC minutes",
+          "publisher": "Federal Reserve",
+          "date": "2020-08-19",
+          "verified": true,
+          "finding": "Most participants discussing yield caps/targets judged benefits modest in the prevailing environment. The committee maintained guidance and purchases without adopting explicit Treasury yield-curve control."
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "July 2023 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Federal funds target increased to 5.25-5.50%; Treasury/MBS holdings continued to decline. This was tightening rather than a permanent low-rate cap."
+        }
+      ],
+      "next_check": null,
+      "id": "021-C15"
+    },
+    {
+      "claim": "US rates need not mirror Japan",
+      "kind": "forecast",
+      "source_blocks": [
+        72,
+        104
+      ],
+      "family": "us-vs-japan-rates",
+      "asset_or_variable": "US interest rates",
+      "horizon": "following years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The large 2022-23 tightening was inconsistent with decades of uninterrupted near-zero US rates. This narrower relative-duration view succeeded even though the simultaneous yield-curve-control prediction failed.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: following years",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "July 2023 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Federal funds target increased to 5.25-5.50%; Treasury/MBS holdings continued to decline. This was tightening rather than a permanent low-rate cap."
+        }
+      ],
+      "next_check": null,
+      "id": "021-C16"
+    },
+    {
+      "claim": "Berkshire offers resilient financial exposure",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        74,
+        75,
+        76,
+        77,
+        90
+      ],
+      "family": "berkshire-quality-value",
+      "asset_or_variable": "BRK.B",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Berkshire gained 77.55% and 179.17% over the disclosed three- and five-year windows, ahead of SPY. This supports the entry valuation and eventual return, but not an exact decomposition of resilience into cash, insurance float and operating assets. Cash reserved for insurance obligations is not all surplus capital.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BRK-B/history/",
+          "title": "BRK-B historical price sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "3-year comparison 2020-05-26 to 2023-05-24: BRK-B +77.55% cumulative, 21.15% annualized; SPY +43.89% cumulative. 5-year comparison 2020-05-26 to 2025-05-23: BRK-B +179.17% cumulative, 22.84% annualized; SPY +108.25% cumulative. First common close strictly after publication, last common close on/before anniversary. USD vendor-adjusted-close proxies include vendor dividend/split adjustments; no fees, taxes or actual subscriber trades. These are evaluator-defined sensitivities unless the claim explicitly names the horizon."
+        }
+      ],
+      "next_check": null,
+      "id": "021-C17",
+      "test_specification": {
+        "window_type": "evaluator-defined sensitivity unless explicitly matched to source horizon",
+        "windows_years": [
+          3,
+          5
+        ],
+        "returns": {
+          "BRK-B": {
+            "3": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-05-24",
+              "requested_endpoint": "2023-05-24",
+              "entry": "2020-05-26",
+              "exit": "2023-05-24",
+              "days": 1093,
+              "endpoint_gap_days": 0,
+              "endpoint_covered": true,
+              "instruments": {
+                "BRK-B": {
+                  "entry_adjusted_close": 180.33999633789062,
+                  "exit_adjusted_close": 320.20001220703125,
+                  "cumulative_return_pct": 77.55352041102105,
+                  "annualized_return_pct": 21.14873050742636,
+                  "source": "https://finance.yahoo.com/quote/BRK-B/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 273.54107666015625,
+                  "exit_adjusted_close": 393.6004638671875,
+                  "cumulative_return_pct": 43.89080743298799,
+                  "annualized_return_pct": 12.93023212775748,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 33.66271297803306
+            },
+            "5": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-05-24",
+              "requested_endpoint": "2025-05-24",
+              "entry": "2020-05-26",
+              "exit": "2025-05-23",
+              "days": 1823,
+              "endpoint_gap_days": 1,
+              "endpoint_covered": true,
+              "instruments": {
+                "BRK-B": {
+                  "entry_adjusted_close": 180.33999633789062,
+                  "exit_adjusted_close": 503.4599914550781,
+                  "cumulative_return_pct": 179.17267476915094,
+                  "annualized_return_pct": 22.838232773737044,
+                  "source": "https://finance.yahoo.com/quote/BRK-B/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 273.54107666015625,
+                  "exit_adjusted_close": 569.6607055664062,
+                  "cumulative_return_pct": 108.25417247082969,
+                  "annualized_return_pct": 15.833009089057493,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 70.91850229832126
+            }
+          }
+        }
+      }
+    },
+    {
+      "claim": "Float and stable assets explain Buffett returns",
+      "kind": "explanation",
+      "source_blocks": [
+        79
+      ],
+      "family": "berkshire-float-quality",
+      "asset_or_variable": "Berkshire strategy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "This references research but does not identify it in the text. Cheap leverage and quality selection are separable contributions; book-value loss avoidance alone cannot establish causation.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Read cited empirical research and compare leverage/factor-adjusted returns, including unreleased operating assets.",
+      "id": "021-C18"
+    },
+    {
+      "claim": "Financials may outperform during the decade",
+      "kind": "forecast",
+      "source_blocks": [
+        84,
+        114,
+        115,
+        116
+      ],
+      "family": "2020s-value-financials",
+      "asset_or_variable": "Financials versus growth/S&P 500",
+      "horizon": "2020s",
+      "conditions": null,
+      "modality": "could",
+      "verdict": "too_early",
+      "reason": "The decade has not ended. Relative performance requires total-return sector/factor benchmarks; a 2022 value rebound is only one subperiod and cannot resolve the whole-decade thesis.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2020s",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "021-C19"
+    },
+    {
+      "claim": "Cyclically adjusted earnings reveal value",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        86,
+        89,
+        91,
+        93
+      ],
+      "family": "berkshire-cape-value",
+      "asset_or_variable": "BRK.B",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Berkshire accounting changed to include unrealized equity gains in earnings, limiting mechanical comparisons across years. The author explicitly declines to adopt analysts'14% forecast, so it is not scored as her own prediction.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "021-C20"
+    },
+    {
+      "claim": "Succession can cause a stock decline",
+      "kind": "forecast",
+      "source_blocks": [
+        97,
+        98,
+        99
+      ],
+      "family": "berkshire-succession-event",
+      "asset_or_variable": "BRK.B",
+      "horizon": "succession announcement",
+      "conditions": null,
+      "modality": "could",
+      "verdict": "right",
+      "reason": "CEO succession was announced in May 2025; BRK-B fell 5.12% from May 2 to May 5. This matches the event-risk direction, although simultaneous results and Buffett remaining chairman prevent clean causal attribution.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: succession announcement",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.berkshirehathaway.com/news/may0525.pdf",
+          "title": "CEO succession announcement",
+          "publisher": "Berkshire Hathaway",
+          "date": "2025-05-05",
+          "verified": true,
+          "finding": "Buffett announced succession recommendation May 3, 2025; board unanimously approved Greg Abel as CEO effective January 1, 2026, with Buffett then remaining chairman."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/BRK-B/history/",
+          "title": "Berkshire historical closes",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Archived BRK-B closes: May 2, 2025 $539.79999; May 5 $512.15002, a 5.12% decline across the succession-announcement weekend. Earnings news was also contemporaneous, so the return is not a causal isolation."
+        }
+      ],
+      "next_check": null,
+      "id": "021-C21"
+    },
+    {
+      "claim": "Successors may unlock value through restructuring",
+      "kind": "forecast",
+      "source_blocks": [
+        99
+      ],
+      "family": "berkshire-post-buffett-restructuring",
+      "asset_or_variable": "Berkshire",
+      "horizon": "years following succession",
+      "conditions": null,
+      "modality": "probable possibilities",
+      "verdict": "too_early",
+      "reason": "Abel became CEO only January 2026. The anticipated following-years dividend/spin-off scenario remains immature; no fixed deadline or promised action was stated.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: years following succession",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.berkshirehathaway.com/news/may0525.pdf",
+          "title": "CEO succession announcement",
+          "publisher": "Berkshire Hathaway",
+          "date": "2025-05-05",
+          "verified": true,
+          "finding": "Buffett announced succession recommendation May 3, 2025; board unanimously approved Greg Abel as CEO effective January 1, 2026, with Buffett then remaining chairman."
+        }
+      ],
+      "next_check": null,
+      "id": "021-C22"
+    },
+    {
+      "claim": "Insurance tail risk requires liquid reserves",
+      "kind": "explanation",
+      "source_blocks": [
+        106,
+        107,
+        112
+      ],
+      "family": "berkshire-insurance-tail",
+      "asset_or_variable": "Berkshire",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Large catastrophe and liability exposures justify liquidity planning, but a twelve-figure reserve level needs stress-loss and capital analysis. Internal insurance transfers do not eliminate consolidated group loss.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "021-C23"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Claims and retail sentiment",
+      "source_blocks": [
+        6,
+        23,
+        26
+      ],
+      "use": "Cycle",
+      "image_inspected": false
+    },
+    {
+      "name": "Bank liquidity and tangible book",
+      "source_blocks": [
+        51,
+        62
+      ],
+      "use": "Solvency",
+      "image_inspected": false
+    },
+    {
+      "name": "CAPE and book value",
+      "source_blocks": [
+        91,
+        93
+      ],
+      "use": "BRK valuation",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Liquidity buffers and equity capital solve different problems."
+  ],
+  "assessment": "The delayed job recovery, bank earnings decline and fiscal-reflation direction were supported. The expected Treasury yield-control regime failed. Reserve creation is repeatedly confused with bank recapitalization, a material mechanistic error. Berkshire succession risk matched an observed decline, while the post-succession restructuring thesis remains early.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "Public market series are available, but not every investment claim has a defined horizon or reconciled corporate-action-adjusted return. Unverified outcomes remain unscored; macro data use latest available vintages."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "2e1a0f50cb08e5678a666304f8893f695ab8bf6a57aaef4a8752f6f09dd1d664"
+}

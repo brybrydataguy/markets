@@ -1,0 +1,1101 @@
+{
+  "article_id": "143",
+  "title": "Ulta Beauty: Deep Dive Analysis",
+  "date": "2024-08-18",
+  "source_url": "https://www.lynalden.com/premium-2024-8-18/",
+  "read_complete": true,
+  "summary": "Ulta value thesis and layered Bitcoin trust.",
+  "coverage_note": "Read complete including macro, quoted carry interview, Fedi, Bit VM, Ulta fundamentals/risks and gold. Excludes routine company descriptions and position trimmings without independent theses. Fedi discussion has disclosed author investment exposure. Current technical documents may be revised since 2024.",
+  "claims": [
+    {
+      "id": "143-C01",
+      "claim": "Liquidity stays sideways.",
+      "kind": "forecast",
+      "source_blocks": [
+        8,
+        10
+      ],
+      "family": "net-liquidity-range",
+      "asset_or_variable": "net-liquidity-range",
+      "horizon": null,
+      "conditions": "Until RRP depletion/stress",
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Approximately sideways has no tolerance. The conditional endpoint is repo depletion or an acute issue, not a date; a reproducible proxy path would remain sensitivity evidence.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Reconstruct Fed/TGA/RRP path and identify trigger before judging range."
+    },
+    {
+      "id": "143-C02",
+      "claim": "Liquidity floor rises.",
+      "kind": "explanation",
+      "source_blocks": [
+        10
+      ],
+      "family": "bank-reserve-floor",
+      "asset_or_variable": "bank-reserve-floor",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "2025 runoff cessation and subsequent reserve purchases support a reserve-management constraint; no unique floor follows from aggregate banking growth.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2025-10-29",
+          "verified": true,
+          "finding": "FOMC announced aggregate securities runoff would conclude December 1 2025."
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchases",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "The Desk announced $40 billion of initial bill purchases starting December 12, to maintain ample reserves. This is not itself evidence of deficit monetization as the causal motive."
+        }
+      ],
+      "next_check": "Estimate reserve demand and its distribution across banks."
+    },
+    {
+      "id": "143-C03",
+      "claim": "Foreign flows amplify rotation.",
+      "kind": "explanation",
+      "source_blocks": [
+        15,
+        21,
+        40
+      ],
+      "family": "us-external-capital-flows",
+      "asset_or_variable": "us-external-capital-flows",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Repetition of prior mechanism. Holdings, passive weighting and net flows are distinct; large foreign ownership alone cannot establish imminent repatriation.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Track TIC flows and FX-hedged investor exposures after easing."
+    },
+    {
+      "id": "143-C04",
+      "claim": "Carry unwind amplifies selling.",
+      "kind": "explanation",
+      "source_blocks": [
+        26,
+        29,
+        30,
+        31
+      ],
+      "family": "yen-carry-unwind",
+      "asset_or_variable": "yen-carry-unwind",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "BIS independently identifies leveraged currency/equity unwinds and margin feedback as amplifiers of the August shock. It does not claim all selling had one cause.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/bulletin-90-market-turbulence-and-carry-trade-unwind-august-2024",
+          "title": "August carry-trade unwind",
+          "publisher": "BIS",
+          "date": "2024-08-27",
+          "verified": true,
+          "finding": "Leveraged equity/currency unwinds amplified negative U.S. news; markets stabilized quickly without outright dysfunction. Carry sizing uncertain; roughly¥40 tn/$250 bn ballpark biased downward by gaps."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "143-C05",
+      "claim": "Volatility sellers face tails.",
+      "kind": "explanation",
+      "source_blocks": [
+        28
+      ],
+      "family": "short-volatility-risk",
+      "asset_or_variable": "short-volatility-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Short-option payoffs are asymmetric: collected premium is finite while adverse underlying moves can create larger liabilities. Free money is misleading shorthand, not actual risklessness.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Unhedged short call",
+          "Fixed strike K and premium P",
+          "Underlying terminal price S"
+        ],
+        "derivation": "Seller payoff=P-max(S-K, 0). If S exceeds K+P, the loss exceeds collected premium; losses grow with S."
+      }
+    },
+    {
+      "id": "143-C06",
+      "claim": "Carry mostly remains.",
+      "kind": "empirical",
+      "source_blocks": [
+        32
+      ],
+      "family": "yen-carry-sizing",
+      "asset_or_variable": "yen-carry-sizing",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "BIS confirms measurement difficulty and a much smaller rough identified carry estimate than total cross-border yen lending. The fraction remaining cannot be inferred from total yen loans.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/bulletin-90-market-turbulence-and-carry-trade-unwind-august-2024",
+          "title": "August carry-trade unwind",
+          "publisher": "BIS",
+          "date": "2024-08-27",
+          "verified": true,
+          "finding": "Leveraged equity/currency unwinds amplified negative U.S. news; markets stabilized quickly without outright dysfunction. Carry sizing uncertain; roughly¥40 tn/$250 bn ballpark biased downward by gaps."
+        }
+      ],
+      "next_check": "Obtain pre/post positions in futures, swaps, loans and domestic leverage without double counting."
+    },
+    {
+      "id": "143-C07",
+      "claim": "Selloff is temporary.",
+      "kind": "forecast",
+      "source_blocks": [
+        36,
+        37,
+        38,
+        44
+      ],
+      "family": "yen-shock-not-systemic",
+      "asset_or_variable": "yen-shock-not-systemic",
+      "horizon": "August 2024 episode",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The contemporaneous August 6 interview argued against crisis escalation. BIS subsequently documented rapid stabilization and no outright market dysfunction. This verifies that episode, not future Japanese crisis immunity.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "August 2024 episode",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/bulletin-90-market-turbulence-and-carry-trade-unwind-august-2024",
+          "title": "August carry-trade unwind",
+          "publisher": "BIS",
+          "date": "2024-08-27",
+          "verified": true,
+          "finding": "Leveraged equity/currency unwinds amplified negative U.S. news; markets stabilized quickly without outright dysfunction. Carry sizing uncertain; roughly¥40 tn/$250 bn ballpark biased downward by gaps."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "143-C08",
+      "claim": "Japanese valuations attractive.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        37
+      ],
+      "family": "japan-equity-value",
+      "asset_or_variable": "japan-equity-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Reasonable valuations lack a specified universe, valuation threshold or holding period. Crisis avoidance is not proof of equity value.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Evaluate a named Japan index and underlying earnings assumptions."
+    },
+    {
+      "id": "143-C09",
+      "claim": "Fed prioritizes core plumbing.",
+      "kind": "explanation",
+      "source_blocks": [
+        41
+      ],
+      "family": "fed-financial-stability-reaction",
+      "asset_or_variable": "fed-financial-stability-reaction",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "No emergency equity-driven response was needed, and next easing came at the scheduled Septembermeeting. This supports the episode distinction but not a universal rule excluding stock-market wealth effects.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/bulletin-90-market-turbulence-and-carry-trade-unwind-august-2024",
+          "title": "August carry-trade unwind",
+          "publisher": "BIS",
+          "date": "2024-08-27",
+          "verified": true,
+          "finding": "Leveraged equity/currency unwinds amplified negative U.S. news; markets stabilized quickly without outright dysfunction. Carry sizing uncertain; roughly¥40 tn/$250 bn ballpark biased downward by gaps."
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+          "title": "September 2024 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2024-09-18",
+          "verified": true,
+          "finding": "The Fed cut its target by 50 basis points to 4.75-5.00%, while describing inflation as still elevated and continuing securities runoff."
+        }
+      ],
+      "next_check": "Compare historical interventions with funding, employment and inflation indicators."
+    },
+    {
+      "id": "143-C10",
+      "claim": "Fiscal divergence splits consumption.",
+      "kind": "explanation",
+      "source_blocks": [
+        48,
+        55,
+        56
+      ],
+      "family": "fiscal-distribution-households",
+      "asset_or_variable": "fiscal-distribution-households",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "This revises August 4 mild-recession language to no clear recession. Income and asset-ownership differences are testable, but retail sales need an appropriate goods/services deflator, not blanket CPI.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use distributional household spending and consistent real-retail series."
+    },
+    {
+      "id": "143-C11",
+      "claim": "Rate cuts unlock little refinancing.",
+      "kind": "forecast",
+      "source_blocks": [
+        52,
+        53
+      ],
+      "family": "mortgage-lock-in",
+      "asset_or_variable": "mortgage-lock-in",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "December 2024 mortgages remained 6.85%, supporting lock-in. The report attributes 3.5-3.75% June 2025 rates to futures, not her own forecast; do not score that market projection as her miss.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-continue-rise-2/",
+          "title": "Mortgage rates continue to rise",
+          "publisher": "Freddie Mac",
+          "date": "2024-12-26",
+          "verified": true,
+          "finding": "The 30-year mortgage survey rate was 6.85%, far above the 2021 refinancing trough despite 2024 Fed rate cuts."
+        }
+      ],
+      "next_check": "Track household refinance volumes and small-business effective rates separately."
+    },
+    {
+      "id": "143-C12",
+      "claim": "Bitcoin gains eighteen months.",
+      "kind": "forecast",
+      "source_blocks": [
+        62
+      ],
+      "family": "bitcoin-cycle-upside",
+      "asset_or_variable": "bitcoin-cycle-upside",
+      "horizon": "18 months",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "First trading close after publication to February 18 2026 rose 11.65%. Direction resolved within stated eighteen months; SPY+24.88% is evaluator context, not an author outperformance promise. Path included large volatility.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "18 months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-08-18\",\"requested_endpoint\":\"2026-02-18\",\"entry\":\"2024-08-19\",\"exit\":\"2026-02-18\",\"days\":548,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"BTC-USD\":{\"entry_adjusted_close\":59493.453125,\"exit_adjusted_close\":66425.3203125,\"cumulative_return_pct\":11.651478983638164,\"annualized_return_pct\":7.622326202732266,\"source\":\"https://finance.yahoo.com/quote/BTC-USD/history/\"},\"SPY\":{\"entry_adjusted_close\":545.3142700195312,\"exit_adjusted_close\":680.9711303710938,\"cumulative_return_pct\":24.87682201067354,\"annualized_return_pct\":15.959558564906583,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-13.225343027035375}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "143-C13",
+      "claim": "Liquidity precedes breakout.",
+      "kind": "explanation",
+      "source_blocks": [
+        62
+      ],
+      "family": "bitcoin-liquidity",
+      "asset_or_variable": "bitcoin-liquidity",
+      "horizon": null,
+      "conditions": "Global liquidity breakout",
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The conditional linkage requires the exact global series and dates. A positive eighteen-month bitcoin result does not identify liquidity as the necessary catalyst.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare global composite changes and bitcoin timing against alternative ETF/policy catalysts."
+    },
+    {
+      "id": "143-C14",
+      "claim": "Federations distribute custody.",
+      "kind": "explanation",
+      "source_blocks": [
+        67,
+        68,
+        69
+      ],
+      "family": "fedimint-trust-model",
+      "asset_or_variable": "fedimint-trust-model",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Provider-versus-guardian custody is a meaningful distinction. Majority honesty is insufficient as a blanket safety guarantee without threshold, software, key-security and liveness assumptions.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Audit launch-version threshold and custody flow; separate theft safety, availability and software risk."
+    },
+    {
+      "id": "143-C15",
+      "claim": "Fedi already open-source.",
+      "kind": "empirical",
+      "source_blocks": [
+        70
+      ],
+      "family": "fedi-open-source",
+      "asset_or_variable": "fedi-open-source",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The app was source-available under a business-source license at launch; company describes AGPL transition in January 2026. The underlying Fedimint protocol being open-source does not make the entire Fedi app open-source in August 2024.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.fedi.xyz/blog/fedi-goes-open-source",
+          "title": "Fedi licensing transition",
+          "publisher": "Fedi",
+          "date": null,
+          "verified": true,
+          "finding": "Company states software was business-source licensed in 2024 and transitioned to AGPL January 3 2026. Header erroneously says January 3 2025; body and image label specify 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "143-C16",
+      "claim": "Blind signatures protect privacy.",
+      "kind": "explanation",
+      "source_blocks": [
+        72
+      ],
+      "family": "ecash-privacy",
+      "asset_or_variable": "ecash-privacy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Blind signatures can unlink issuance and redemption, but metadata, amount denominations, timing and endpoint logging remain. Stable balances also introduce hedge/liquidity risks absent from a simple privacy description.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Inspect launch-version mint protocol and stable-balance collateral design."
+    },
+    {
+      "id": "143-C17",
+      "claim": "Offline payments need trust.",
+      "kind": "explanation",
+      "source_blocks": [
+        73
+      ],
+      "family": "offline-ecash",
+      "asset_or_variable": "offline-ecash",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Without online mint contact, a recipient cannot establish a bearer note has not already been spent elsewhere. Sender trust covers delayed double-spend detection, not guaranteed finality.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Copyable digital bearer note",
+          "Recipient disconnected from shared spent-note state",
+          "No trusted hardware eliminating copies"
+        ],
+        "derivation": "Two disconnected recipients can receive identical note copies and each see the same locally valid signature. Local signature verification cannot distinguish first spend; online reconciliation is necessary."
+      }
+    },
+    {
+      "id": "143-C18",
+      "claim": "Fraud proofs enable bridges.",
+      "kind": "explanation",
+      "source_blocks": [
+        79,
+        80
+      ],
+      "family": "bitvm-bridging",
+      "asset_or_variable": "bitvm-bridging",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Formal work and 2026 mainnet challenge verification support feasibility of off-chain computation checked on Bitcoin without consensus changes. Feasibility is narrower than battle-tested production security.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://bitvm.org/bitvm_bridge.pdf",
+          "title": "BitVM2: Bridging Bitcoin to Second Layers",
+          "publisher": "Linus and coauthors",
+          "date": null,
+          "verified": true,
+          "finding": "Current paper assumes one honest setup signer, one active rational operator, rational challengers, and underlying-chain liveness. No Bitcoin consensus change required; this is not an unconditional security guarantee."
+        },
+        {
+          "url": "https://www.usenix.org/conference/usenixsecurity26/presentation/woll",
+          "title": "Bridging Bitcoin via BitVM2",
+          "publisher": "USENIX",
+          "date": "2026-08-01",
+          "verified": true,
+          "finding": "Peer-reviewed abstract reports production-level implementation and complete mainnet challenge verification; existential honesty is a setup assumption and liveness requires a rational operator."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "143-C19",
+      "claim": "Lightning alone truly second-layer.",
+      "kind": "explanation",
+      "source_blocks": [
+        81
+      ],
+      "family": "bitcoin-layer-definition",
+      "asset_or_variable": "bitcoin-layer-definition",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The author says arguably; true layer 2 depends on the trust/settlement definition. It is a classification choice, not a measurable forecast.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Declare custody, exit and settlement criteria before comparing layers."
+    },
+    {
+      "id": "143-C20",
+      "claim": "Liquid trades trust for features.",
+      "kind": "explanation",
+      "source_blocks": [
+        82,
+        83
+      ],
+      "family": "liquid-federation",
+      "asset_or_variable": "liquid-federation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Regular 11-of-15 custody is verified, but emergency backup keys create an additional trust path, and five offline members can impair liveness. Low conspiracy probability is a judgment, not demonstrated by geographic dispersion.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://help.blockstream.com/liquid-network/faqs/how-does-the-liquid-federations-multisig-work",
+          "title": "Liquid multisig operation",
+          "publisher": "Blockstream",
+          "date": null,
+          "verified": true,
+          "finding": "11-of-15 regular multisig; five offline functionaries can halt normal operation. Timelocked emergency backup keys add a separate withdrawal path."
+        }
+      ],
+      "next_check": "Audit emergency-key path and correlated legal/security failures."
+    },
+    {
+      "id": "143-C21",
+      "claim": "One honest signer suffices.",
+      "kind": "explanation",
+      "source_blocks": [
+        85,
+        86
+      ],
+      "family": "bitvm-existential-honesty",
+      "asset_or_variable": "bitvm-existential-honesty",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Core reduction from honest majority to one honest setup signer is supported. The article compresses setup, active challenging, chain liveness and operator rationality into a single honesty condition; that is not a sufficient unconditional guarantee.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://bitvm.org/bitvm_bridge.pdf",
+          "title": "BitVM2: Bridging Bitcoin to Second Layers",
+          "publisher": "Linus and coauthors",
+          "date": null,
+          "verified": true,
+          "finding": "Current paper assumes one honest setup signer, one active rational operator, rational challengers, and underlying-chain liveness. No Bitcoin consensus change required; this is not an unconditional security guarantee."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "143-C22",
+      "claim": "Large proofs need scale.",
+      "kind": "explanation",
+      "source_blocks": [
+        88
+      ],
+      "family": "bitvm-fee-economics",
+      "asset_or_variable": "bitvm-fee-economics",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The 2024 transaction size and cost are version-dependent, and subsequent optimizations matter. Economic feasibility needs collateral, fee stress and challenge-frequency modeling.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Recover August 2024 paper version and benchmark worst-case transactions at contemporary and stressed fees."
+    },
+    {
+      "id": "143-C23",
+      "claim": "Bridge complexity raises exploit risk.",
+      "kind": "explanation",
+      "source_blocks": [
+        89
+      ],
+      "family": "bridge-software-risk",
+      "asset_or_variable": "bridge-software-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "More complex code may add attack surface, but relative exploit probability is not quantified. Trust-minimization and implementation safety are separate dimensions.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Compare audits, formal guarantees and live incident rates with comparable exposure."
+    },
+    {
+      "id": "143-C24",
+      "claim": "Small mints complement rollups.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        90,
+        91,
+        92
+      ],
+      "family": "bitcoin-layer-ecosystem",
+      "asset_or_variable": "bitcoin-layer-ecosystem",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Payments-versus-DeFi specialization and preference for many small federations have no adoption threshold or horizon. Technical proof does not establish market demand.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Track active balances, payments and independent user counts by architecture."
+    },
+    {
+      "id": "143-C25",
+      "claim": "Ulta scale protects relevance.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        119,
+        123,
+        124
+      ],
+      "family": "ulta-competitive-moat",
+      "asset_or_variable": "ulta-competitive-moat",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "2025 comparable sales recovered 5.4%, supporting retained demand, while operating margin contracted to 12.4%. Scale/services did not guarantee pricing power or stable profitability.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025",
+          "title": "Ulta fiscal 2025 results",
+          "publisher": "Ulta Beauty",
+          "date": "2026-03-12",
+          "verified": true,
+          "finding": "Comparable sales+5.4%, EPS+1.2% to $25.64; operating margin 12.4% versus 13.9%. Repurchased 2 m shares for $890.5 m; cash $424.2 m, short-term investments $70 m, debt $62.3 m."
+        }
+      ],
+      "next_check": "Compare category share, unit margins and Sephora competition."
+    },
+    {
+      "id": "143-C26",
+      "claim": "Loyalty supports repeat demand.",
+      "kind": "explanation",
+      "source_blocks": [
+        125
+      ],
+      "family": "ulta-loyalty",
+      "asset_or_variable": "ulta-loyalty",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "High member share of sales does not establish incremental loyalty causation; frequent customers may simply enroll. Need cohort retention and incremental contribution.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Measure active-member retention and purchase frequency versus matched nonmembers."
+    },
+    {
+      "id": "143-C27",
+      "claim": "Mexico expansion proceeds.",
+      "kind": "forecast",
+      "source_blocks": [
+        127,
+        128,
+        158
+      ],
+      "family": "ulta-international-expansion",
+      "asset_or_variable": "ulta-international-expansion",
+      "horizon": "Mexico 2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Nine Mexico JV stores were operating by January 2026, validating entry direction. Successful unit economics are not established, and the Canada component remains indefinite.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "Mexico 2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.ulta.com/investor/sec-filings/all-sec-filings/content/0001104659-26-035243/ulta-20260131x10k.htm",
+          "title": "Ulta fiscal 2025 Form10-K",
+          "publisher": "Ulta Beauty",
+          "date": "2026-03-26",
+          "verified": true,
+          "finding": "January 31 2026 footprint included nine Mexico JV stores, 86 Space NK stores in UK/Ireland, and two Middle East franchise stores. Partnership with Grupo Axo supports Mexico; this does not demonstrate profitable Canadian expansion."
+        }
+      ],
+      "next_check": "Track Mexico mature-store margins and separate Canadian commitment."
+    },
+    {
+      "id": "143-C28",
+      "claim": "Canada offers growth.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        128
+      ],
+      "family": "ulta-canada-expansion",
+      "asset_or_variable": "ulta-canada-expansion",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Population/GDP are not obtainable market share. No entry date or profit criterion was stated; expansion elsewhere cannot resolve a Canadian thesis.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Observe explicit Canada commitment and unit economics."
+    },
+    {
+      "id": "143-C29",
+      "claim": "Ulta slowdown offers value.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        138,
+        139,
+        141,
+        153
+      ],
+      "family": "ulta-value-recovery",
+      "asset_or_variable": "ulta-value-recovery",
+      "horizon": "Long term",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No finite holding horizon is stated. Evaluator cutoff ULTA+71.00% versus SPY+34.84% supports the investment direction. Business recovery was uneven: sales improved but margin compressed and EPS barely rose, so a purely macro explanation is incomplete.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "Long term",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ULTA/history/",
+          "title": "ULTA adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-08-18\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-08-19\",\"exit\":\"2026-11-06\",\"days\":809,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"ULTA\":{\"entry_adjusted_close\":377.05999755859375,\"exit_adjusted_close\":644.760009765625,\"cumulative_return_pct\":70.99666205387689,\"annualized_return_pct\":27.406043224647703,\"source\":\"https://finance.yahoo.com/quote/ULTA/history/\"},\"SPY\":{\"entry_adjusted_close\":545.3142700195312,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":34.83783910533062,\"annualized_return_pct\":14.447906856969684,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":36.158822948546266}"
+        },
+        {
+          "url": "https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025",
+          "title": "Ulta fiscal 2025 results",
+          "publisher": "Ulta Beauty",
+          "date": "2026-03-12",
+          "verified": true,
+          "finding": "Comparable sales+5.4%, EPS+1.2% to $25.64; operating margin 12.4% versus 13.9%. Repurchased 2 m shares for $890.5 m; cash $424.2 m, short-term investments $70 m, debt $62.3 m."
+        }
+      ],
+      "next_check": "Retain disclosed evaluator endpoint and distinguish price rerating from earnings recovery."
+    },
+    {
+      "id": "143-C30",
+      "claim": "High returns fund repurchases.",
+      "kind": "explanation",
+      "source_blocks": [
+        146,
+        148
+      ],
+      "family": "ulta-capital-allocation",
+      "asset_or_variable": "ulta-capital-allocation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "2025 buybacks of 2 m shares confirm capital return. EPS rose 1.2% amid weaker operating margin, showing why reduced share count can support per-share results without stronger enterprise economics.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025",
+          "title": "Ulta fiscal 2025 results",
+          "publisher": "Ulta Beauty",
+          "date": "2026-03-12",
+          "verified": true,
+          "finding": "Comparable sales+5.4%, EPS+1.2% to $25.64; operating margin 12.4% versus 13.9%. Repurchased 2 m shares for $890.5 m; cash $424.2 m, short-term investments $70 m, debt $62.3 m."
+        }
+      ],
+      "next_check": "Compute lease-adjusted ROIC and acquisition-adjusted reinvestment; verify buyback prices versus value."
+    },
+    {
+      "id": "143-C31",
+      "claim": "Balance sheet limits downside.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        150,
+        151,
+        159
+      ],
+      "family": "ulta-balance-sheet-resilience",
+      "asset_or_variable": "ulta-balance-sheet-resilience",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Substantial cash and limited debt remain supportive, but lease obligations and operating leverage persist. Low financial leverage cannot guarantee a 15 x entry avoids long-run loss.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025",
+          "title": "Ulta fiscal 2025 results",
+          "publisher": "Ulta Beauty",
+          "date": "2026-03-12",
+          "verified": true,
+          "finding": "Comparable sales+5.4%, EPS+1.2% to $25.64; operating margin 12.4% versus 13.9%. Repurchased 2 m shares for $890.5 m; cash $424.2 m, short-term investments $70 m, debt $62.3 m."
+        }
+      ],
+      "next_check": "Stress rent commitments and earnings decline rather than assuming all-equity removes risk."
+    },
+    {
+      "id": "143-C32",
+      "claim": "Recession risks lower lows.",
+      "kind": "forecast",
+      "source_blocks": [
+        156
+      ],
+      "family": "ulta-recession-risk",
+      "asset_or_variable": "ulta-recession-risk",
+      "horizon": "One year",
+      "conditions": "Outright U.S. recession",
+      "modality": "possible",
+      "verdict": "conditional_pending",
+      "reason": "The source conditions the possible drawdown on an outright recession within a year. Price weakness alone cannot prove that trigger; no recession definition supplied.",
+      "direction_assessment": "Trigger and outcome have not both been established.",
+      "timing_assessment": "One year",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Establish recession trigger independently before attributing any drawdown."
+    },
+    {
+      "id": "143-C33",
+      "claim": "Competition threatens expansion.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        157,
+        158
+      ],
+      "family": "ulta-competitive-risk",
+      "asset_or_variable": "ulta-competitive-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Risks are real categories but no probability, magnitude or endpoint is specified. They qualify optimism rather than constitute separate precise forecasts.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Track share, brand agreements and Mexico operating results."
+    },
+    {
+      "id": "143-C34",
+      "claim": "Gold structural upside.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        163
+      ],
+      "family": "gold-secular-bull",
+      "asset_or_variable": "gold-secular-bull",
+      "horizon": "Long term",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Open-ended bullish view. GLD+60.84% versus SPY+34.84% to the evaluation cutoff supports direction without proving fiscal debasement causality.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "Long term",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-08-18\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-08-19\",\"exit\":\"2026-11-06\",\"days\":809,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"GLD\":{\"entry_adjusted_close\":231.61000061035156,\"exit_adjusted_close\":372.5199890136719,\"cumulative_return_pct\":60.839336830010126,\"annualized_return_pct\":23.9317743152635,\"source\":\"https://finance.yahoo.com/quote/GLD/history/\"},\"SPY\":{\"entry_adjusted_close\":545.3142700195312,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":34.83783910533062,\"annualized_return_pct\":14.447906856969684,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":26.001497724679503}"
+        }
+      ],
+      "next_check": "Keep endpoint sensitivity distinct from an author terminal target."
+    },
+    {
+      "id": "143-C35",
+      "claim": "Gold may lead decade.",
+      "kind": "forecast",
+      "source_blocks": [
+        164,
+        166
+      ],
+      "family": "gold-over-equities",
+      "asset_or_variable": "gold-over-equities",
+      "horizon": "To 2034",
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "too_early",
+      "reason": "The decade ends 2034. Early GLD outperformance is supporting evidence but cannot settle the ten-year equity total-return comparison.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "To 2034",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-08-18\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-08-19\",\"exit\":\"2026-11-06\",\"days\":809,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"GLD\":{\"entry_adjusted_close\":231.61000061035156,\"exit_adjusted_close\":372.5199890136719,\"cumulative_return_pct\":60.839336830010126,\"annualized_return_pct\":23.9317743152635,\"source\":\"https://finance.yahoo.com/quote/GLD/history/\"},\"SPY\":{\"entry_adjusted_close\":545.3142700195312,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":34.83783910533062,\"annualized_return_pct\":14.447906856969684,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":26.001497724679503}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "143-C36",
+      "claim": "Gold substitution improves Sharpe.",
+      "kind": "empirical",
+      "source_blocks": [
+        167
+      ],
+      "family": "gold-portfolio-diversification",
+      "asset_or_variable": "gold-portfolio-diversification",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Historical Sharpe improvement depends on sample, weights, bond duration, rebalance and risk-free series. A stock/gold price-ratio chart cannot prove it.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reproduce bond-to-gold replacement portfolios with dividends, fees and multiple start dates."
+    },
+    {
+      "id": "143-C37",
+      "claim": "Central banks diversify reserves.",
+      "kind": "explanation",
+      "source_blocks": [
+        167
+      ],
+      "family": "central-bank-gold-demand",
+      "asset_or_variable": "central-bank-gold-demand",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Central-bank survey evidence and large reported 2022-2023 gold additions support continued reserve diversification. This verifies the institutional direction, not a claim that every purchase was specifically motivated by sanctions.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.gold.org/goldhub/data/2024-central-bank-gold-reserves-survey",
+          "title": "2024 central-bank gold survey",
+          "publisher": "World Gold Council",
+          "date": "2024-06-18",
+          "verified": true,
+          "finding": "Central banks added 1,037 tonnes in 2023 after 1,082 tonnes in 2022. Survey of 70 respondents conducted February-April 2024: 29% planned higher own gold reserves. Motives included strategic rebalancing, domestic production, crisis and inflation risk; survey intentions are not completed purchases."
+        }
+      ],
+      "next_check": null
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Liquidity/FX",
+      "source_blocks": [
+        8,
+        11,
+        19
+      ],
+      "use": "Funding",
+      "image_inspected": false
+    },
+    {
+      "name": "Rates/retail",
+      "source_blocks": [
+        53,
+        56
+      ],
+      "use": "Transmission",
+      "image_inspected": false
+    },
+    {
+      "name": "BTC/M2",
+      "source_blocks": [
+        62
+      ],
+      "use": "Cycle",
+      "image_inspected": false
+    },
+    {
+      "name": "Ulta metrics",
+      "source_blocks": [
+        119,
+        125,
+        130,
+        144,
+        146,
+        148,
+        151
+      ],
+      "use": "Moat/value",
+      "image_inspected": false
+    },
+    {
+      "name": "Stock/gold",
+      "source_blocks": [
+        164
+      ],
+      "use": "Relative price",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Value needs business and price tests."
+  ],
+  "assessment": "The eighteen-month bitcoin direction resolved positively, while the Ulta recommendation has strong disclosed cutoff performance and only partial business-mechanism support. Carry-market analysis was supported by BIS. Technical exposition usefully separates custodial designs but overstates Fedi launch licensing and compresses Bit VM security assumptions. The source discloses a direct investment interest in Fedi; that warrants independent checks, not automatic dismissal.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

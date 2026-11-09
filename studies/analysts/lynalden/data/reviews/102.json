@@ -1,0 +1,1171 @@
+{
+  "article_id": "102",
+  "title": "Value vs Growth Equities Update",
+  "date": "2023-01-22",
+  "source_url": "https://www.lynalden.com/premium-2023-1-22/",
+  "read_complete": true,
+  "summary": "Style valuation and debt-ceiling liquidity.",
+  "coverage_note": "All article text blocks were read. Ledger covers material macro, investment, and causal propositions; incidental descriptive statistics, boilerplate, and unreasoned position lists are excluded. Image labels were read, not image pixels.",
+  "claims": [
+    {
+      "claim": "Liquidity affects fundamentals",
+      "source_blocks": [
+        8,
+        9
+      ],
+      "kind": "explanation",
+      "family": "dollar-global-debt-liquidity",
+      "verdict": "right",
+      "reason": "Funding conditions affect unhedged dollar debt servicing and investment capacity. That transmission is real, but does not mean all asset prices are primarily liquidity-driven at every short horizon.",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/qr-202312/global-liquidity-new-phase",
+          "title": "Global liquidity: a new phase?",
+          "publisher": "BIS",
+          "date": "2023-12-04",
+          "verified": true,
+          "finding": "Dollar-credit growth turned from +6% in Q3 2021 to -4% at end-2022; EME dollar credit fell 5% year-on-year by mid-2023, coinciding with stronger USD and tighter policy.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.bis.org/publications/202201-commentary-ibs-gli",
+          "title": "Global liquidity at September 2021",
+          "publisher": "BIS",
+          "date": null,
+          "verified": true,
+          "finding": "Dollar credit outside the US stood at $13.4tn, including $4.2tn to emerging/developing borrowers. Currency denomination differs from lender nationality.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "dollar-global-debt-liquidity",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "102-C01"
+    },
+    {
+      "claim": "Debt ceiling offsets QT",
+      "source_blocks": [
+        10,
+        13,
+        28,
+        32
+      ],
+      "kind": "forecast",
+      "family": "2023-debt-ceiling-liquidity-offset",
+      "verdict": "mixed",
+      "reason": "The revised view correctly recognizes TGA drawdown as an offset to QT. The formula rose about $135bn from January 25 to May 31, broadly compatible with sideways endpoints, but March emergency lending produced a large intervening movement not predicted here.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "Fed assets minus TGA minus ON RRP",
+          "publisher": "Federal Reserve via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Matched Wednesdays: January 25 $5,947.148bn; May 31 $6,082.041bn; June 7 $6,183.013bn; September 27 $5,878.116bn; December 27 $6,162.507bn. Formula uses WALCL and WTREGEN millions, RRPONTSYD billions converted.",
+          "verification_method": "computed downloaded CSVs"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312a.htm",
+          "title": "Bank Term Funding Program",
+          "publisher": "Federal Reserve",
+          "date": "2023-03-12",
+          "verified": true,
+          "finding": "Introduced one-year bank loans against eligible government/agency securities valued at par, during SVB and Signature failures.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Next few months",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2023-debt-ceiling-liquidity-offset",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Next few months",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "revision_links": [
+        "098",
+        "100",
+        "101"
+      ],
+      "id": "102-C02"
+    },
+    {
+      "claim": "Debt limit covers existing commitments",
+      "source_blocks": [
+        18,
+        27
+      ],
+      "kind": "explanation",
+      "family": "debt-ceiling-existing-obligations",
+      "verdict": "right",
+      "reason": "Treasury used statutory extraordinary measures and restored the G Fund after the June debt-limit suspension. These actions finance already-authorized obligations; increasing borrowing authority is distinct from approving new spending.",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/system/files/136/Report_Operation_Status_Government_Securities_Investment_Fund_January_23_2023-June_6_2023.pdf",
+          "title": "G Fund extraordinary measures report",
+          "publisher": "US Treasury",
+          "date": "2023-06-29",
+          "verified": true,
+          "finding": "G Fund investment suspension began January 23; debt limit suspended June 3; fund fully restored by June 6, including forgone interest.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "debt-ceiling-existing-obligations",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "102-C03"
+    },
+    {
+      "claim": "Shutdown is extraordinary debt measure",
+      "source_blocks": [
+        30
+      ],
+      "kind": "explanation",
+      "family": "debt-ceiling-versus-shutdown",
+      "verdict": "wrong",
+      "reason": "A shutdown is triggered by an appropriations lapse, not an authorized Treasury debt-ceiling accounting measure. Delaying debt-limit payments would be a different legal and operational event. This distinction materially affects the described sequence.",
+      "evidence": [
+        {
+          "url": "https://www.gao.gov/legal/appropriations-law/lapses-in-appropriations",
+          "title": "Shutdowns and appropriations lapses",
+          "publisher": "GAO",
+          "date": null,
+          "verified": true,
+          "finding": "Government shutdowns result from expired appropriations under the Antideficiency Act, not from Treasury electing a debt-limit extraordinary measure.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/Report_Operation_Status_Government_Securities_Investment_Fund_January_23_2023-June_6_2023.pdf",
+          "title": "G Fund extraordinary measures report",
+          "publisher": "US Treasury",
+          "date": "2023-06-29",
+          "verified": true,
+          "finding": "G Fund investment suspension began January 23; debt limit suspended June 3; fund fully restored by June 6, including forgone interest.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "debt-ceiling-versus-shutdown",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "102-C04"
+    },
+    {
+      "claim": "G Fund suspension buys time",
+      "source_blocks": [
+        27
+      ],
+      "kind": "forecast",
+      "family": "2023-gfund-extraordinary-measures",
+      "verdict": "right",
+      "reason": "Suspension began January 23 and the fund was made whole by June 6. The text date is January 23 while metadata say January 22, so this is at best a contemporaneous implementation call, not a long-lead forecast.",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/system/files/136/Report_Operation_Status_Government_Securities_Investment_Fund_January_23_2023-June_6_2023.pdf",
+          "title": "G Fund extraordinary measures report",
+          "publisher": "US Treasury",
+          "date": "2023-06-29",
+          "verified": true,
+          "finding": "G Fund investment suspension began January 23; debt limit suspended June 3; fund fully restored by June 6, including forgone interest.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Around publication",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2023-gfund-extraordinary-measures",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Around publication",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "102-C05"
+    },
+    {
+      "claim": "TGA refill drains net liquidity",
+      "source_blocks": [
+        14,
+        31,
+        32
+      ],
+      "kind": "forecast",
+      "family": "2023-post-debt-ceiling-liquidity-drain",
+      "verdict": "mixed",
+      "reason": "The trigger occurred while QT continued. Net liquidity fell around $305bn June 7-September 27, but recovered to within $21bn of the June level by December 27 as RRP fell. The temporary decline supports direction for one interval; the very-negative sustained story omitted a major offset.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "Fed assets minus TGA minus ON RRP",
+          "publisher": "Federal Reserve via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Matched Wednesdays: January 25 $5,947.148bn; May 31 $6,082.041bn; June 7 $6,183.013bn; September 27 $5,878.116bn; December 27 $6,162.507bn. Formula uses WALCL and WTREGEN millions, RRPONTSYD billions converted.",
+          "verification_method": "computed downloaded CSVs"
+        },
+        {
+          "url": "https://www.kansascityfed.org/research/economic-bulletin/rapid-declines-in-the-feds-overnight-reverse-repurchase-on-rrp-facility-may-start-to-slow/",
+          "title": "ON RRP declines and bills",
+          "publisher": "Federal Reserve Bank of Kansas City",
+          "date": "2023-11-10",
+          "verified": true,
+          "finding": "Bill issuance after the debt-limit agreement drew money-fund cash from ON RRP into the TGA; higher relative bill yields attracted allocations.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/insights-from-mmf-portfolio-allocations-amid-balance-sheet-normalization-20250303.html",
+          "title": "MMF portfolio allocations",
+          "publisher": "Federal Reserve",
+          "date": "2025-03-03",
+          "verified": true,
+          "finding": "April 2023-November 2024 money-fund bill holdings rose roughly $1.7tn and private Treasury repo $0.9tn as ON RRP use fell about $2tn.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "After debt-ceiling resolution in 2023",
+      "conditions": "Fed continues QT",
+      "next_check": null,
+      "asset_or_variable": "2023-post-debt-ceiling-liquidity-drain",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: After debt-ceiling resolution in 2023",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "102-C06"
+    },
+    {
+      "claim": "Recession indicators remain bearish",
+      "source_blocks": [
+        34,
+        43
+      ],
+      "kind": "forecast",
+      "family": "2023-us-recession",
+      "verdict": "mixed",
+      "reason": "The cited leading indicators were genuinely recessionary while contemporaneous payroll and claims data were stronger. No 2023 recession followed. This weakens their predictive use but does not make the descriptive statement about what the indicators pointed toward false; the source itself records counterevidence.",
+      "evidence": [
+        {
+          "url": "https://www.nber.org/research/business-cycle-dating",
+          "title": "Business Cycle Dating",
+          "publisher": "NBER",
+          "date": null,
+          "verified": true,
+          "finding": "Official chronology identifies April 2020 as the pandemic recession trough; no 2022 recession is dated.",
+          "verification_method": "retrieved official chronology search extract; direct page denied"
+        },
+        {
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2022/2022-12/rob-roundup-november-2022-manufacturing-pmi/",
+          "title": "November manufacturing PMI",
+          "publisher": "ISM",
+          "date": "2022-12-01",
+          "verified": true,
+          "finding": "Manufacturing PMI fell to 49 in November 2022, first contraction in 29 months.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2023",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2023-us-recession",
+      "modality": "indicators point toward",
+      "confidence": "medium",
+      "direction_assessment": "Partial support; distinguish observed indicators from inferred aggregate outcome.",
+      "timing_assessment": "Assessed against the stated horizon: 2023",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "102-C07"
+    },
+    {
+      "claim": "Copper ratio probably corrects",
+      "source_blocks": [
+        45,
+        59
+      ],
+      "kind": "forecast",
+      "family": "2023-first-half-copper-gold",
+      "verdict": "mixed",
+      "reason": "CPER declined 10.22% versus GLD 1.11% through June 30, supporting the direction of the prior copper/gold call. Futures roll and ETF expenses mean this is a proxy, not an exact spot-ratio replication. The possible supply-driven divergence is explicitly an alternative, not the adopted forecast.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/CPER/history/",
+          "title": "CPER adjusted comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-01-23\", \"requested_endpoint\": \"2023-06-30\", \"entry\": \"2023-01-24\", \"exit\": \"2023-06-30\", \"days\": 157, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"CPER\": {\"entry_adjusted_close\": 25.84000015258789, \"exit_adjusted_close\": 23.200000762939453, \"cumulative_return_pct\": -10.216715843881452, \"annualized_return_pct\": -22.176200254108892, \"source\": \"https://finance.yahoo.com/quote/CPER/history/\"}, \"GLD\": {\"entry_adjusted_close\": 180.27999877929688, \"exit_adjusted_close\": 178.27000427246094, \"cumulative_return_pct\": -1.1149292880219153, \"annualized_return_pct\": -2.5746520894045277, \"source\": \"https://finance.yahoo.com/quote/GLD/history/\"}}, \"excess_percentage_points\": -9.101786555859537}",
+          "verification_method": "first post-January23 close; downloaded USD adjusted proxy with dividends/splits, no fees/taxes"
+        },
+        {
+          "url": "https://ar2023.nornickel.com/en/strategic-report/commodity-markets/copper.html",
+          "title": "Copper market annual review",
+          "publisher": "Nornickel",
+          "date": null,
+          "verified": true,
+          "finding": "2023 copper averaged $8,478/t, down 4%; exchange stocks rose 13% but remained low; estimated refined-market surplus 130kt. Producer analysis, not an independent audit.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Reconstruct identical spot copper/gold series and date-defined turning points.",
+      "asset_or_variable": "2023-first-half-copper-gold",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "102-C08"
+    },
+    {
+      "claim": "Thin inventories amplify shocks",
+      "source_blocks": [
+        48,
+        59
+      ],
+      "kind": "explanation",
+      "family": "copper-inventory-supply-squeeze",
+      "verdict": "mixed",
+      "reason": "Low inventories increase vulnerability, but exchange stocks are not total usable supply and low stocks did not cause a sustained 2023 price surge. Producer analysis reports a small surplus and a 4% lower annual average price. The extreme-price language is attributed to Trafigura, not adopted as a strong Lyn forecast.",
+      "evidence": [
+        {
+          "url": "https://ar2023.nornickel.com/en/strategic-report/commodity-markets/copper.html",
+          "title": "Copper market annual review",
+          "publisher": "Nornickel",
+          "date": null,
+          "verified": true,
+          "finding": "2023 copper averaged $8,478/t, down 4%; exchange stocks rose 13% but remained low; estimated refined-market surplus 130kt. Producer analysis, not an independent audit.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "copper-inventory-supply-squeeze",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "102-C09"
+    },
+    {
+      "claim": "China reopening supports oil",
+      "source_blocks": [
+        61,
+        73
+      ],
+      "kind": "forecast",
+      "family": "china-reopening-oil-demand",
+      "verdict": "right",
+      "reason": "Record 2023 crude imports support the demand mechanism, explicitly all else equal. This does not predict the net price after supply and other countries demand changes.",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=61843",
+          "title": "China record crude imports",
+          "publisher": "EIA",
+          "date": "2024-04-16",
+          "verified": true,
+          "finding": "2023 crude imports rose 10% to 11.3 million barrels per day, supporting transportation and petrochemical demand.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2023",
+      "conditions": "Other factors equal",
+      "next_check": null,
+      "asset_or_variable": "china-reopening-oil-demand",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2023",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "102-C10"
+    },
+    {
+      "claim": "China tourism recovery benefits destinations",
+      "source_blocks": [
+        61,
+        62
+      ],
+      "kind": "forecast",
+      "family": "china-outbound-tourism-recovery",
+      "verdict": "right",
+      "reason": "Hong Kong arrivals and hotel occupancy recovered sharply after travel normalization. Recovery remained below pre-pandemic pace, and one destination does not prove equal benefits to all tourism markets.",
+      "evidence": [
+        {
+          "url": "https://www.tourism.gov.hk/pdf/FactSheet/2023/tourism_fact_sheets_2023_en.pdf",
+          "title": "Tourism facts 2023",
+          "publisher": "Hong Kong Tourism Commission",
+          "date": null,
+          "verified": true,
+          "finding": "Visitor arrivals reached 9.5 million by May 2023 versus 0.6 million during all 2022; early recovery was still only 47% of the comparable pre-pandemic pace.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2023",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "china-outbound-tourism-recovery",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2023",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "102-C11"
+    },
+    {
+      "claim": "2022 containment was mostly wasted",
+      "source_blocks": [
+        69
+      ],
+      "kind": "explanation",
+      "family": "china-lockdown-cost-benefit",
+      "verdict": "not_testable",
+      "reason": "That welfare judgment requires a counterfactual for deaths delayed or prevented, vaccination, economic losses and preparation. A later outbreak alone does not establish that earlier containment had no value.",
+      "evidence": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11444035/",
+          "title": "Taiwan Omicron excess mortality study",
+          "publisher": "Original epidemiological research",
+          "date": null,
+          "verified": true,
+          "finding": "Population-based analysis estimates 10% excess mortality January-June 2022 and highlights older cohort vulnerability.",
+          "verification_method": "indexed original-research extract; full fetch CAPTCHA"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a transparent welfare metric and plausible alternative policy path.",
+      "asset_or_variable": "china-lockdown-cost-benefit",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "102-C12"
+    },
+    {
+      "claim": "Chinese equities offer value",
+      "source_blocks": [
+        74
+      ],
+      "kind": "investment_thesis",
+      "family": "china-equity-valuation-opportunity",
+      "verdict": "not_testable",
+      "reason": "Valuation and geopolitical risk are both acknowledged, but no target return or deadline is stated. Cheap multiples do not by themselves establish favorable investor returns, especially under ownership and policy constraints.",
+      "evidence": [
+        {
+          "url": "https://www.stats.gov.cn/english/PressRelease/202502/t20250228_1958822.html",
+          "title": "2024 economic and demographic statistics",
+          "publisher": "China NBS",
+          "date": "2025-02-28",
+          "verified": true,
+          "finding": "Population fell 1.39 million; consumer inflation only 0.2% and producer prices fell 2.2%. Aging did not mechanically create inflation.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Define issuer basket, currency, valuation assumptions and holding horizon.",
+      "asset_or_variable": "china-equity-valuation-opportunity",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "102-C13"
+    },
+    {
+      "claim": "Consumption has catch-up potential",
+      "source_blocks": [
+        76,
+        81
+      ],
+      "kind": "explanation",
+      "family": "china-production-consumption-imbalance",
+      "verdict": "mixed",
+      "reason": "The production-heavy imbalance is real, but missing consumption is not automatically deferred spending. Weak property wealth and subdued inflation in 2024 limit the inference that households must catch up to the old trend.",
+      "evidence": [
+        {
+          "url": "https://www.stats.gov.cn/english/PressRelease/202502/t20250228_1958822.html",
+          "title": "2024 economic and demographic statistics",
+          "publisher": "China NBS",
+          "date": "2025-02-28",
+          "verified": true,
+          "finding": "Population fell 1.39 million; consumer inflation only 0.2% and producer prices fell 2.2%. Aging did not mechanically create inflation.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=61843",
+          "title": "China record crude imports",
+          "publisher": "EIA",
+          "date": "2024-04-16",
+          "verified": true,
+          "finding": "2023 crude imports rose 10% to 11.3 million barrels per day, supporting transportation and petrochemical demand.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "china-production-consumption-imbalance",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "102-C14"
+    },
+    {
+      "claim": "On-chain metrics indicate value",
+      "source_blocks": [
+        84,
+        89
+      ],
+      "kind": "explanation",
+      "family": "bitcoin-onchain-valuation",
+      "verdict": "mixed",
+      "reason": "Realized price measures last on-chain movement, not every owners economic cost basis. Lost coins, transfers within one owner and off-chain transactions complicate interpretation. Moving-average distance is a price-derived signal, not independent fundamental value. Subsequent gains do not eliminate those limitations.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Bitcoin daily series",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "January 24, 2023 $22,612.34; January 23, 2026 $89,365.99.",
+          "verification_method": "computed downloaded CSV"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bitcoin-onchain-valuation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "102-C15"
+    },
+    {
+      "claim": "Bitcoin bottom could retest",
+      "source_blocks": [
+        91,
+        92
+      ],
+      "kind": "forecast",
+      "family": "bitcoin-bottom-process-2023",
+      "verdict": "not_testable",
+      "reason": "The author allows both an existing bottom and a future retest under worsening liquidity. This is an uncertainty statement, not a forecast that the rally must fail.",
+      "evidence": [],
+      "horizon": "2023",
+      "conditions": null,
+      "next_check": "Specify a preferred case, retest threshold and triggering liquidity measure.",
+      "asset_or_variable": "bitcoin-bottom-process-2023",
+      "modality": "possible alternatives",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: 2023",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "102-C16"
+    },
+    {
+      "claim": "Bitcoin good multiyear returns",
+      "source_blocks": [
+        92
+      ],
+      "kind": "forecast",
+      "family": "bitcoin-three-five-year-returns",
+      "verdict": "right",
+      "reason": "The elapsed three-year spot price increased from $22,612.34 to $89,365.99. The five-year endpoint is January 2028. This supports direction, not an independently proven link from each on-chain metric to return.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Bitcoin daily series",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "January 24, 2023 $22,612.34; January 23, 2026 $89,365.99.",
+          "verification_method": "computed downloaded CSV"
+        }
+      ],
+      "horizon": "3-5 years",
+      "conditions": "Network fundamentals continue strengthening",
+      "next_check": null,
+      "asset_or_variable": "bitcoin-three-five-year-returns",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 3-5 years",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "102-C17"
+    },
+    {
+      "claim": "DCA preferable to active timing",
+      "source_blocks": [
+        92
+      ],
+      "kind": "investment_thesis",
+      "family": "bitcoin-dollar-cost-averaging",
+      "verdict": "not_testable",
+      "reason": "No schedule, portfolio weight or risk objective is specified. The positive three-year endpoint cannot establish the optimal purchase strategy.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify allocation, contributions and benchmark before assessing optimality.",
+      "asset_or_variable": "bitcoin-dollar-cost-averaging",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "102-C18"
+    },
+    {
+      "claim": "Lightning utility drives growth",
+      "source_blocks": [
+        94,
+        95
+      ],
+      "kind": "explanation",
+      "family": "lightning-payment-utility-growth",
+      "verdict": "mixed",
+      "reason": "River estimates substantial transaction growth across 2021-23, including gaming, tipping and streaming, despite lower BTC prices. The study is sampled, not a census, and does not isolate 2022 or prove absence of speculative use. Later estimates fell and recovered, so growth is not monotonic.",
+      "evidence": [
+        {
+          "url": "https://river.com/learn/files/river-lightning-report-2023.pdf",
+          "title": "Lightning report 2023",
+          "publisher": "River",
+          "date": null,
+          "verified": true,
+          "finding": "Survey-based lower-bound estimate: 6.6 million routed transactions August 2023 versus 503,000 August 2021; gaming, tipping and streaming drove 27% of growth. Sample covered operators representing 52% of public capacity.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://river.com/learn/files/river-bitcoin-adoption-report-2026.pdf",
+          "title": "Bitcoin adoption report 2026",
+          "publisher": "River",
+          "date": null,
+          "verified": true,
+          "finding": "Estimated monthly Lightning transactions: 6.60m August 2023, 2.42m November 2024, 5.22m November 2025; neither monotonic growth nor a full network census.",
+          "verification_method": "indexed original-research extract; PDF exceeds tool size limit"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "lightning-payment-utility-growth",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "102-C19"
+    },
+    {
+      "claim": "Fedi improves communal custody",
+      "source_blocks": [
+        98
+      ],
+      "kind": "explanation",
+      "family": "fedimint-community-custody",
+      "verdict": "mixed",
+      "reason": "Fedi delivered software and pilots, supporting product development. Federated custody reduces reliance on one custodian but retains guardian collusion, recovery and governance risks; privacy depends on implementation and network metadata.",
+      "evidence": [
+        {
+          "url": "https://www.savethechildren.net/news/save-children-and-fedi-announce-first-its-kind-collaboration-aimed-revolutionising-cash",
+          "title": "Fedi humanitarian pilot",
+          "publisher": "Save the Children",
+          "date": "2024-07-30",
+          "verified": true,
+          "finding": "Announced a Philippines pilot using Fedi for Bitcoin cash assistance, with community training and evaluation still prospective.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://dspace.mit.edu/entities/publication/29dd43b7-115f-4d76-a45c-602903903194",
+          "title": "Keys Under Doormats",
+          "publisher": "Abelson et al. / MIT",
+          "date": "2015-07-06",
+          "verified": true,
+          "finding": "Security analysis describes systemic risks of mandated exceptional-access systems and the history of abandoned broad access requirements.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "fedimint-community-custody",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "102-C20"
+    },
+    {
+      "claim": "Inflation favors value regimes",
+      "source_blocks": [
+        114,
+        116,
+        161,
+        177,
+        178
+      ],
+      "kind": "explanation",
+      "family": "inflation-value-growth-regimes",
+      "verdict": "mixed",
+      "reason": "Historical style cycles involve starting valuation, sector composition and cash-flow growth, not just inflation. Growth leadership subsequently persisted despite elevated inflation. Foreign-market relative performance also includes currency and sector differences.",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07112024.htm",
+          "title": "CPI, June 2024",
+          "publisher": "BLS",
+          "date": "2024-07-11",
+          "verified": true,
+          "finding": "June 2024 annual CPI inflation was 3.0%.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/IWD/history/",
+          "title": "IWD adjusted comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-01-23\", \"requested_endpoint\": \"2026-01-23\", \"entry\": \"2023-01-24\", \"exit\": \"2026-01-23\", \"days\": 1095, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"IWD\": {\"entry_adjusted_close\": 146.90457153320312, \"exit_adjusted_close\": 216.1776885986328, \"cumulative_return_pct\": 47.15518131426746, \"annualized_return_pct\": 13.753165504659792, \"source\": \"https://finance.yahoo.com/quote/IWD/history/\"}, \"SPY\": {\"entry_adjusted_close\": 381.7168884277344, \"exit_adjusted_close\": 683.8883056640625, \"cumulative_return_pct\": 79.16113391811177, \"annualized_return_pct\": 21.47094748395184, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -32.005952603844314}",
+          "verification_method": "first post-January23 close; downloaded USD adjusted proxy with dividends/splits, no fees/taxes"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/IWF/history/",
+          "title": "IWF adjusted comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-01-23\", \"requested_endpoint\": \"2026-01-23\", \"entry\": \"2023-01-24\", \"exit\": \"2026-01-23\", \"days\": 1095, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"IWF\": {\"entry_adjusted_close\": 55.78498077392578, \"exit_adjusted_close\": 116.75411987304688, \"cumulative_return_pct\": 109.29310766674752, \"annualized_return_pct\": 27.935638395333328, \"source\": \"https://finance.yahoo.com/quote/IWF/history/\"}, \"SPY\": {\"entry_adjusted_close\": 381.7168884277344, \"exit_adjusted_close\": 683.8883056640625, \"cumulative_return_pct\": 79.16113391811177, \"annualized_return_pct\": 21.47094748395184, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 30.131973748635744}",
+          "verification_method": "first post-January23 close; downloaded USD adjusted proxy with dividends/splits, no fees/taxes"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "inflation-value-growth-regimes",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "102-C21"
+    },
+    {
+      "claim": "Distant cash flows are rate-sensitive",
+      "source_blocks": [
+        117,
+        152
+      ],
+      "kind": "explanation",
+      "family": "equity-duration-discount-rates",
+      "verdict": "right",
+      "reason": "For fixed positive cash flows, a longer present-value-weighted duration means greater sensitivity to the discount rate. The three toy examples illustrate that mathematical principle. Exact displayed totals depend on first-payment and growth-boundary conventions and were not independently replicated from chart pixels. Risk-free rates need not move equity discount rates one-for-one.",
+      "evidence": [
+        {
+          "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/lectures/approach.html",
+          "title": "Discounted cash-flow valuation",
+          "publisher": "Aswath Damodaran / NYU",
+          "date": null,
+          "verified": true,
+          "finding": "Value is present value of expected future cash flows at a risk-consistent discount rate; equity and enterprise cash flows require corresponding discount rates.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "equity-duration-discount-rates",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "102-C22"
+    },
+    {
+      "claim": "Growth multiples outran fundamentals",
+      "source_blocks": [
+        153,
+        159
+      ],
+      "kind": "explanation",
+      "family": "growth-valuation-compression",
+      "verdict": "mixed",
+      "reason": "The 2022 repricing and Tesla margin pressure support concern about extrapolation. But company-specific durable growth can justify high multiples; later growth-stock leadership contradicts an inference that all prior winners had exhausted their fundamental upside.",
+      "evidence": [
+        {
+          "url": "https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2022/",
+          "title": "SPIVA U.S. Year-End 2022",
+          "publisher": "S&P Dow Jones Indices",
+          "date": "2023-03-07",
+          "verified": true,
+          "finding": "2022 stocks and investment-grade bonds both fell materially.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1318605/000095017024007073/tsla-ex99_1.htm",
+          "title": "2023 quarterly update",
+          "publisher": "Tesla / SEC",
+          "date": "2024-01-24",
+          "verified": true,
+          "finding": "Q4 gross margin fell from 23.8% to 17.6% and operating margin from 16.0% to 8.2%; price reductions contributed while deliveries grew.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/IWF/history/",
+          "title": "IWF adjusted comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-01-23\", \"requested_endpoint\": \"2026-01-23\", \"entry\": \"2023-01-24\", \"exit\": \"2026-01-23\", \"days\": 1095, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"IWF\": {\"entry_adjusted_close\": 55.78498077392578, \"exit_adjusted_close\": 116.75411987304688, \"cumulative_return_pct\": 109.29310766674752, \"annualized_return_pct\": 27.935638395333328, \"source\": \"https://finance.yahoo.com/quote/IWF/history/\"}, \"SPY\": {\"entry_adjusted_close\": 381.7168884277344, \"exit_adjusted_close\": 683.8883056640625, \"cumulative_return_pct\": 79.16113391811177, \"annualized_return_pct\": 21.47094748395184, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 30.131973748635744}",
+          "verification_method": "first post-January23 close; downloaded USD adjusted proxy with dividends/splits, no fees/taxes"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "growth-valuation-compression",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "102-C23"
+    },
+    {
+      "claim": "EPD income comillion pounds over five years",
+      "source_blocks": [
+        162
+      ],
+      "kind": "forecast",
+      "family": "enterprise-products-five-year-income",
+      "verdict": "too_early",
+      "reason": "The January 2028 endpoint is future. Three-year adjusted return was +55.69% versus SPY +79.16%, supporting positive income accumulation but not market outperformance. The original claim emphasizes income and gradual price appreciation.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EPD/history/",
+          "title": "EPD adjusted comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-01-23\", \"requested_endpoint\": \"2026-01-23\", \"entry\": \"2023-01-24\", \"exit\": \"2026-01-23\", \"days\": 1095, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"EPD\": {\"entry_adjusted_close\": 19.99038314819336, \"exit_adjusted_close\": 31.122751235961914, \"cumulative_return_pct\": 55.68861789812492, \"annualized_return_pct\": 15.912297841222344, \"source\": \"https://finance.yahoo.com/quote/EPD/history/\"}, \"SPY\": {\"entry_adjusted_close\": 381.7168884277344, \"exit_adjusted_close\": 683.8883056640625, \"cumulative_return_pct\": 79.16113391811177, \"annualized_return_pct\": 21.47094748395184, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -23.472516019986855}",
+          "verification_method": "first post-January23 close; downloaded USD adjusted proxy with dividends/splits, no fees/taxes"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1061219/000114036124004973/exhibit99_1.htm",
+          "title": "Fourth-quarter and full-year 2023 results",
+          "publisher": "Enterprise Products Partners / SEC",
+          "date": "2024-02-01",
+          "verified": true,
+          "finding": "2023 distributions increased 5.3%; coverage 1.7x; retained DCF $3.2b; EPS $2.52 versus $2.50 in 2022 despite lower commodity prices; terminal volumes increased 20%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Five years",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "enterprise-products-five-year-income",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Five years",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "102-C24"
+    },
+    {
+      "claim": "Tobacco outperforms over five years",
+      "source_blocks": [
+        164
+      ],
+      "kind": "forecast",
+      "family": "tobacco-five-year-outperformance",
+      "verdict": "too_early",
+      "reason": "January 2028 has not arrived. BTI is the illustrated proxy and returned +96.14% over three years versus SPY +79.16%, favorable interim evidence. Do not turn that into a completed five-year hit or a claim about every tobacco issuer.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTI/history/",
+          "title": "BTI adjusted comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-01-23\", \"requested_endpoint\": \"2026-01-23\", \"entry\": \"2023-01-24\", \"exit\": \"2026-01-23\", \"days\": 1095, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"BTI\": {\"entry_adjusted_close\": 28.861034393310547, \"exit_adjusted_close\": 56.609336853027344, \"cumulative_return_pct\": 96.1445181817473, \"annualized_return_pct\": 25.19650057880696, \"source\": \"https://finance.yahoo.com/quote/BTI/history/\"}, \"SPY\": {\"entry_adjusted_close\": 381.7168884277344, \"exit_adjusted_close\": 683.8883056640625, \"cumulative_return_pct\": 79.16113391811177, \"annualized_return_pct\": 21.47094748395184, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 16.98338426363553}",
+          "verification_method": "first post-January23 close; downloaded USD adjusted proxy with dividends/splits, no fees/taxes"
+        }
+      ],
+      "horizon": "Five years",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "tobacco-five-year-outperformance",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Five years",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "102-C25"
+    },
+    {
+      "claim": "Growth may rally this year",
+      "source_blocks": [
+        170
+      ],
+      "kind": "forecast",
+      "family": "2023-growth-stock-rally-scenario",
+      "verdict": "not_testable",
+      "reason": "A possible rally is not a falsifiable base case. The stock watchlist does not specify purchases or price targets; avoid manufacturing separate ADBE, GOOGL and AMZN return predictions.",
+      "evidence": [],
+      "horizon": "2023",
+      "conditions": null,
+      "next_check": "Identify a concrete entry or adopted directional forecast before assigning an outcome.",
+      "asset_or_variable": "2023-growth-stock-rally-scenario",
+      "modality": "possible",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: 2023",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "102-C26"
+    },
+    {
+      "claim": "Value structurally beats growth",
+      "source_blocks": [
+        170
+      ],
+      "kind": "forecast",
+      "family": "value-structural-outperformance",
+      "verdict": "not_testable",
+      "reason": "Structural has no endpoint. The disclosed three-year sensitivity is strongly adverse: IWD +47.16% versus IWF +109.29%. This counterevidence must be visible even though the claim is not a timed forecast.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/IWD/history/",
+          "title": "IWD adjusted comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-01-23\", \"requested_endpoint\": \"2026-01-23\", \"entry\": \"2023-01-24\", \"exit\": \"2026-01-23\", \"days\": 1095, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"IWD\": {\"entry_adjusted_close\": 146.90457153320312, \"exit_adjusted_close\": 216.1776885986328, \"cumulative_return_pct\": 47.15518131426746, \"annualized_return_pct\": 13.753165504659792, \"source\": \"https://finance.yahoo.com/quote/IWD/history/\"}, \"SPY\": {\"entry_adjusted_close\": 381.7168884277344, \"exit_adjusted_close\": 683.8883056640625, \"cumulative_return_pct\": 79.16113391811177, \"annualized_return_pct\": 21.47094748395184, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -32.005952603844314}",
+          "verification_method": "first post-January23 close; downloaded USD adjusted proxy with dividends/splits, no fees/taxes"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/IWF/history/",
+          "title": "IWF adjusted comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-01-23\", \"requested_endpoint\": \"2026-01-23\", \"entry\": \"2023-01-24\", \"exit\": \"2026-01-23\", \"days\": 1095, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"IWF\": {\"entry_adjusted_close\": 55.78498077392578, \"exit_adjusted_close\": 116.75411987304688, \"cumulative_return_pct\": 109.29310766674752, \"annualized_return_pct\": 27.935638395333328, \"source\": \"https://finance.yahoo.com/quote/IWF/history/\"}, \"SPY\": {\"entry_adjusted_close\": 381.7168884277344, \"exit_adjusted_close\": 683.8883056640625, \"cumulative_return_pct\": 79.16113391811177, \"annualized_return_pct\": 21.47094748395184, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 30.131973748635744}",
+          "verification_method": "first post-January23 close; downloaded USD adjusted proxy with dividends/splits, no fees/taxes"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Define the structural regime end date and style index pair.",
+      "asset_or_variable": "value-structural-outperformance",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "102-C27"
+    },
+    {
+      "claim": "Foreign equities recently outperformed",
+      "source_blocks": [
+        172,
+        175
+      ],
+      "kind": "empirical",
+      "family": "2022-q4-ex-us-relative-rally",
+      "verdict": "right",
+      "reason": "September 30-January 20 adjusted proxies: EFA +27.29%, EEM +21.46%, SPY +11.34%. This validates the recent relative observation, not its persistence.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EFA/history/",
+          "title": "EFA recent relative rally",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2022-09-29\", \"requested_endpoint\": \"2023-01-20\", \"entry\": \"2022-09-30\", \"exit\": \"2023-01-20\", \"days\": 112, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"EFA\": {\"entry_adjusted_close\": 49.8607177734375, \"exit_adjusted_close\": 63.46733474731445, \"cumulative_return_pct\": 27.289252103638304, \"annualized_return_pct\": 119.65580674266198, \"source\": \"https://finance.yahoo.com/quote/EFA/history/\"}, \"SPY\": {\"entry_adjusted_close\": 339.12646484375, \"exit_adjusted_close\": 377.5964050292969, \"cumulative_return_pct\": 11.343833104641842, \"annualized_return_pct\": 41.96649962530354, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 15.945418998996463}"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/EEM/history/",
+          "title": "EEM recent relative rally",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2022-09-29\", \"requested_endpoint\": \"2023-01-20\", \"entry\": \"2022-09-30\", \"exit\": \"2023-01-20\", \"days\": 112, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"EEM\": {\"entry_adjusted_close\": 31.74043083190918, \"exit_adjusted_close\": 38.552642822265625, \"cumulative_return_pct\": 21.46225432928912, \"annualized_return_pct\": 88.52839573938607, \"source\": \"https://finance.yahoo.com/quote/EEM/history/\"}, \"SPY\": {\"entry_adjusted_close\": 339.12646484375, \"exit_adjusted_close\": 377.5964050292969, \"cumulative_return_pct\": 11.343833104641842, \"annualized_return_pct\": 41.96649962530354, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 10.118421224647278}"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-q4-ex-us-relative-rally",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "102-C28"
+    },
+    {
+      "claim": "Foreign leadership emerges in 2023",
+      "source_blocks": [
+        179
+      ],
+      "kind": "forecast",
+      "family": "2023-ex-us-outperformance",
+      "verdict": "wrong",
+      "reason": "Using the text date January 23 and first subsequent close, EFA returned +9.11% and EEM -1.83% through December 29, versus SPY +20.57%. Both developed ex-US and emerging-market proxies lagged, contradicting the stated base expectation for a transition through this year.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EFA/history/",
+          "title": "EFA adjusted comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-01-23\", \"requested_endpoint\": \"2023-12-29\", \"entry\": \"2023-01-24\", \"exit\": \"2023-12-29\", \"days\": 339, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"EFA\": {\"entry_adjusted_close\": 63.646095275878906, \"exit_adjusted_close\": 69.44112396240234, \"cumulative_return_pct\": 9.105081248746583, \"annualized_return_pct\": 9.843775267183963, \"source\": \"https://finance.yahoo.com/quote/EFA/history/\"}, \"SPY\": {\"entry_adjusted_close\": 381.7168884277344, \"exit_adjusted_close\": 460.2484436035156, \"cumulative_return_pct\": 20.573246182333538, \"annualized_return_pct\": 22.332685504818794, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -11.468164933586955}",
+          "verification_method": "first post-January23 close; downloaded USD adjusted proxy with dividends/splits, no fees/taxes"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/EEM/history/",
+          "title": "EEM adjusted comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-01-23\", \"requested_endpoint\": \"2023-12-29\", \"entry\": \"2023-01-24\", \"exit\": \"2023-12-29\", \"days\": 339, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"EEM\": {\"entry_adjusted_close\": 38.85751724243164, \"exit_adjusted_close\": 38.147457122802734, \"cumulative_return_pct\": -1.8273429956907616, \"annualized_return_pct\": -1.9674399637832352, \"source\": \"https://finance.yahoo.com/quote/EEM/history/\"}, \"SPY\": {\"entry_adjusted_close\": 381.7168884277344, \"exit_adjusted_close\": 460.2484436035156, \"cumulative_return_pct\": 20.573246182333538, \"annualized_return_pct\": 22.332685504818794, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -22.400589178024298}",
+          "verification_method": "first post-January23 close; downloaded USD adjusted proxy with dividends/splits, no fees/taxes"
+        }
+      ],
+      "horizon": "Through 2023",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2023-ex-us-outperformance",
+      "modality": "base expectation",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Through 2023",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "102-C29"
+    },
+    {
+      "claim": "TGA refill could lift dollar",
+      "source_blocks": [
+        179
+      ],
+      "kind": "forecast",
+      "family": "2023-tga-refill-dollar-risk",
+      "verdict": "not_testable",
+      "reason": "This is a possible countertrend risk, not a committed currency forecast. Relative policy rates and global demand also move the dollar; a later rally cannot by itself prove TGA causation.",
+      "evidence": [
+        {
+          "url": "https://www.kansascityfed.org/research/economic-bulletin/rapid-declines-in-the-feds-overnight-reverse-repurchase-on-rrp-facility-may-start-to-slow/",
+          "title": "ON RRP declines and bills",
+          "publisher": "Federal Reserve Bank of Kansas City",
+          "date": "2023-11-10",
+          "verified": true,
+          "finding": "Bill issuance after the debt-limit agreement drew money-fund cash from ON RRP into the TGA; higher relative bill yields attracted allocations.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": "Debt ceiling resolved and TGA refills",
+      "next_check": "Specify event window and separate TGA effects from relative rates and risk sentiment.",
+      "asset_or_variable": "2023-tga-refill-dollar-risk",
+      "modality": "could",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "102-C30"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Net liquidity",
+      "source_blocks": [
+        10,
+        32
+      ],
+      "use": "Funding offsets",
+      "image_inspected": false
+    },
+    {
+      "name": "Copper/gold",
+      "source_blocks": [
+        45,
+        59
+      ],
+      "use": "Cycle divergence",
+      "image_inspected": false
+    },
+    {
+      "name": "China flights",
+      "source_blocks": [
+        62,
+        68
+      ],
+      "use": "Reopening demand",
+      "image_inspected": false
+    },
+    {
+      "name": "On-chain ratios",
+      "source_blocks": [
+        84,
+        89
+      ],
+      "use": "Cycle valuation",
+      "image_inspected": false
+    },
+    {
+      "name": "DCF cases",
+      "source_blocks": [
+        117,
+        152
+      ],
+      "use": "Duration sensitivity",
+      "image_inspected": false
+    },
+    {
+      "name": "Style/geographic ratios",
+      "source_blocks": [
+        166,
+        179
+      ],
+      "use": "Relative allocations",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "A sound valuation mechanism need not time leadership."
+  ],
+  "assessment": "The DCF explanation is useful, and the debt-ceiling analysis improves on prior flat-TGA assumptions. The shutdown description is factually wrong. Foreign-equity leadership failed during the named 2023 window; value also lagged badly in the disclosed interim sensitivity. Bitcoin gained over three years, while five-year pipeline and tobacco calls remain open. Broad possible-rally and bottom-retest statements are not forecast hits.",
+  "verification_limitations": [
+    "Captured website text is not an authenticated publication-date version.",
+    "Chart-only numerical claims have not been visually verified.",
+    "Selected stock/ETF adjusted-close comparisons are disclosed where used; no reconstructed portfolio backtest has been performed.",
+    "Unresolved verdicts are not forecast failures or successes; no aggregate hit rate is inferred.",
+    "Article body says January 23, 2023 while source metadata and URL indicate January 22; market tests conservatively start after January 23."
+  ],
+  "source_date_conflict": {
+    "index_date": "2023-01-22",
+    "body_date": "2023-01-23",
+    "evaluation_entry_basis": "First close after body date, January 24"
+  }
+}

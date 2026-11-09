@@ -1,0 +1,845 @@
+{
+  "article_id": "136",
+  "title": "Bank OZK Deep Dive Analysis",
+  "date": "2024-05-12",
+  "source_url": "https://www.lynalden.com/premium-2024-5-12/",
+  "read_complete": true,
+  "summary": "Bank OZK amid liquidity and crypto transitions.",
+  "coverage_note": "Full text read, including distributional macro, Japan, on-chain data, identity/stablecoins and the bank credit deep dive.",
+  "claims": [
+    {
+      "id": "136-C01",
+      "claim": "Policy guards a systemic liquidity floor.",
+      "kind": "forecast",
+      "source_blocks": [
+        9,
+        11,
+        13
+      ],
+      "family": "net-liquidity-policy-floor",
+      "asset_or_variable": "net-liquidity-policy-floor",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The $5.8 tn floor needs the exact proxy and sampling convention. Nearby public-component reconstructions below that level would be adverse, but using a different TGA convention can change the result.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconstruct the original daily liquidity definition and test all lows."
+    },
+    {
+      "id": "136-C02",
+      "claim": "QT taper precedes 2025 expansion.",
+      "kind": "forecast",
+      "source_blocks": [
+        18,
+        19
+      ],
+      "family": "fed-balance-sheet-2025-pivot",
+      "asset_or_variable": "fed-balance-sheet-2025-pivot",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "QT was already announced to slow; the genuinely forward component, new purchases during 2025, occurred in December. Avoid counting the known taper as a forecast.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_240501",
+          "title": "Changes to balance sheet reduction",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2024-05-01",
+          "verified": true,
+          "finding": "Effective June 1, Treasury runoff cap fell from $60 billion to $25 billion monthly; agency cap remained $35 billion."
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchases",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "The Desk announced $40 billion of initial bill purchases starting December 12, to maintain ample reserves. This is not itself evidence of deficit monetization as the causal motive."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "136-C03",
+      "claim": "Global broad money rises in 2025.",
+      "kind": "forecast",
+      "source_blocks": [
+        23
+      ],
+      "family": "global-liquidity-upcycle",
+      "asset_or_variable": "global-liquidity-upcycle",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "U.S. money growth is insufficient for the exact global aggregate; exchange-rate conversion can drive measured global money independently of local creation.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Rebuild the source global-M2 basket in local currencies and USD."
+    },
+    {
+      "id": "136-C04",
+      "claim": "Fiscal incentives support factory construction.",
+      "kind": "explanation",
+      "source_blocks": [
+        26
+      ],
+      "family": "fiscal-industrial-investment",
+      "asset_or_variable": "fiscal-industrial-investment",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Observed spending also reflects inflation, semiconductor demand and previously planned projects. Causal attribution requires sector and timing controls.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare real construction spending by subsidized and unsubsidized sector."
+    },
+    {
+      "id": "136-C05",
+      "claim": "Consumer sentiment diverges from aggregate output.",
+      "kind": "empirical",
+      "source_blocks": [
+        42,
+        44
+      ],
+      "family": "k-shaped-economy",
+      "asset_or_variable": "k-shaped-economy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Different samples, price-level frustration and composition can explain divergence. Verify original survey and GDP vintages.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare May 2024 Michigan survey with contemporaneous GDP release."
+    },
+    {
+      "id": "136-C06",
+      "claim": "Fiscal flows favor wealthy older consumers.",
+      "kind": "explanation",
+      "source_blocks": [
+        46,
+        63
+      ],
+      "family": "fiscal-distributional-growth",
+      "asset_or_variable": "fiscal-distributional-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Age, wealth and interest income overlap but are not identical. Travel spending requires household microdata to identify this causal claim.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Link household age/wealth/interest income with spending changes."
+    },
+    {
+      "id": "136-C07",
+      "claim": "Macro chatter may mark cycle exhaustion.",
+      "kind": "explanation",
+      "source_blocks": [
+        65
+      ],
+      "family": "sentiment-anecdotes",
+      "asset_or_variable": "sentiment-anecdotes",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "An anecdotal attention indicator has no defined sample, trigger or predictive scoring rule.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "136-C08",
+      "claim": "Japan intervention slows one-way carry trades.",
+      "kind": "explanation",
+      "source_blocks": [
+        69,
+        75
+      ],
+      "family": "japan-fx-intervention",
+      "asset_or_variable": "japan-fx-intervention",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Official dollar sales occurred. Their effect on carry positioning and durability is separate; repeated intervention is not proof of a lasting yen floor.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.mof.go.jp/english/policy/international_policy/reference/feio/quarter/2024_2Qe.html",
+          "title": "April-June 2024 foreign exchange intervention",
+          "publisher": "Japan Ministry of Finance",
+          "date": "2024-08-07",
+          "verified": true,
+          "finding": "Japan bought yen and sold dollars on April 29 and May 1, totaling 9,788.5 billion yen."
+        }
+      ],
+      "next_check": "Test yen paths and leveraged positioning around intervention dates."
+    },
+    {
+      "id": "136-C09",
+      "claim": "Debt limits Japan policy choices.",
+      "kind": "explanation",
+      "source_blocks": [
+        76,
+        82
+      ],
+      "family": "japan-fiscal-fx-constraint",
+      "asset_or_variable": "japan-fiscal-fx-constraint",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The constraint is plausible; currency controls remain a scenario, not an inevitable action or a dated prediction.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Estimate debt repricing and consolidated BOJ/government cash flows."
+    },
+    {
+      "id": "136-C10",
+      "claim": "Cohort aging identifies holder selling.",
+      "kind": "explanation",
+      "source_blocks": [
+        86
+      ],
+      "family": "bitcoin-onchain-cycle",
+      "asset_or_variable": "bitcoin-onchain-cycle",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The text says unmoved-coin share increased while describing holder sales, an internal directional inconsistency. Address movement itself is not equivalent to disposal by beneficial owners.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Inspect original HODL-wave chart and correct the directional wording."
+    },
+    {
+      "id": "136-C11",
+      "claim": "Bitcoin retains eighteen-month upside.",
+      "kind": "forecast",
+      "source_blocks": [
+        88
+      ],
+      "family": "bitcoin-2023-2025-bull",
+      "asset_or_variable": "bitcoin-2023-2025-bull",
+      "horizon": "Eighteen months, to November 2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The matched November 12 2025 Coinbase observation is above May 12 2024. This verifies direction over the explicit eighteen months without claiming a smooth path or optimal exit.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Eighteen months, to November 2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin USD observations",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Public CSV downloaded November 7: 2024-05-12 $61493.64; 2025-11-12 $101945.44. Endpoint direction only; no strategy return, transaction-cost or timing-optimality claim."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "136-C12",
+      "claim": "Four-year holding supports conviction.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        88
+      ],
+      "family": "bitcoin-long-horizon",
+      "asset_or_variable": "bitcoin-long-horizon",
+      "horizon": "Four years or longer",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The suggested minimum holding period runs to May 2028 and cannot yet be judged over its full length.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "Four years or longer",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Assess full holding-period outcomes after May 2028."
+    },
+    {
+      "id": "136-C13",
+      "claim": "Liquidity breakout supports next bitcoin leg.",
+      "kind": "forecast",
+      "source_blocks": [
+        90
+      ],
+      "family": "bitcoin-liquidity-beta",
+      "asset_or_variable": "bitcoin-liquidity-beta",
+      "horizon": null,
+      "conditions": "Liquidity resumes growth",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "No specific liquidity threshold is fixed and price can move before measured liquidity. A matching rally does not isolate this cause.",
+      "direction_assessment": "Trigger and outcome have not both been established.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Specify aggregate, lag and breakout threshold before testing."
+    },
+    {
+      "id": "136-C14",
+      "claim": "MSTR premium introduces independent risk.",
+      "kind": "explanation",
+      "source_blocks": [
+        93,
+        105
+      ],
+      "family": "mstr-premium-risk",
+      "asset_or_variable": "mstr-premium-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "A shareholder owns corporate liabilities and a market-valued wrapper as well as bitcoin. Verified BTC-per-share accretion can coexist with a falling premium, so proxy and coin returns differ.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.strategy.com/press/strategy-announces-fourth-quarter-2024-financial-results-and-launches-new-website-strategy-com_02-05-2025",
+          "title": "Strategy 2024 financial results",
+          "publisher": "Strategy",
+          "date": "2025-02-05",
+          "verified": true,
+          "finding": "Reported 2024 BTC Yield of 74.3%, a bitcoin-per-diluted-share measure, confirming financing-related accretion but not shareholder total return."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "136-C15",
+      "claim": "Decentralized identity improves authentication.",
+      "kind": "explanation",
+      "source_blocks": [
+        116,
+        126
+      ],
+      "family": "bitcoin-decentralized-identity",
+      "asset_or_variable": "bitcoin-decentralized-identity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Cryptographic signatures establish key control and message integrity, not truthfulness or the reliability of initial identity binding. Adoption and security superiority are not quantified.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "136-C16",
+      "claim": "Taproot assets enable Lightning stablecoins.",
+      "kind": "forecast",
+      "source_blocks": [
+        130,
+        131
+      ],
+      "family": "bitcoin-stablecoin-layers",
+      "asset_or_variable": "bitcoin-stablecoin-layers",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Feasibility, mainnet software availability, liquidity and usable scale are separate milestones. A demonstration alone does not establish widespread payment adoption.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Verify dated production releases and actual stablecoin settlement volumes."
+    },
+    {
+      "id": "136-C17",
+      "claim": "Mainland access could expand Hong Kong demand.",
+      "kind": "forecast",
+      "source_blocks": [
+        134,
+        135
+      ],
+      "family": "hong-kong-crypto-access",
+      "asset_or_variable": "hong-kong-crypto-access",
+      "horizon": null,
+      "conditions": "Mainland authorities permit access",
+      "modality": "possible",
+      "verdict": "conditional_pending",
+      "reason": "The mainland permission trigger is explicitly hypothetical. It should not count as an access forecast or adoption win.",
+      "direction_assessment": "Trigger and outcome have not both been established.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Check eligibility rules and cross-border participation flows."
+    },
+    {
+      "id": "136-C18",
+      "claim": "Dencun reduces burn and raises issuance.",
+      "kind": "explanation",
+      "source_blocks": [
+        138
+      ],
+      "family": "ethereum-dencun-monetary-effects",
+      "asset_or_variable": "ethereum-dencun-monetary-effects",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Independent on-chain analysis confirms reduced fee burn after Dencun and a shift back to net inflation. The precise claim concerns net supply growth; Dencun did not simply raise the gross validator reward schedule.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.cmegroup.com/articles/files/2025/glassnode-ether-report.pdf",
+          "title": "Ethereum issuance and burn analysis",
+          "publisher": "CME Group / Glassnode",
+          "date": null,
+          "verified": true,
+          "finding": "2025 report with data through May: net post-Merge supply change bottomed at about -427,000 ETH in March 2024; lower fee pressure after Dencun plus lighter demand reduced burn, leaving cumulative net supply about +294,000 ETH. Lower burn raises net issuance, not necessarily the gross validator issuance schedule."
+        },
+        {
+          "url": "https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement",
+          "title": "Dencun upgrade specification",
+          "publisher": "Ethereum Foundation",
+          "date": "2024-02-27",
+          "verified": true,
+          "finding": "Introduced temporary blobs through EIP-4844 to reduce rollup transaction fees; scheduled March 13, 2024."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "136-C19",
+      "claim": "Supply scarcity alone cannot establish value.",
+      "kind": "explanation",
+      "source_blocks": [
+        144,
+        146
+      ],
+      "family": "crypto-supply-versus-demand",
+      "asset_or_variable": "crypto-supply-versus-demand",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "A supply rule does not create demand. The stronger claim linking all frequent hard forks to centralization would require a governance measure and is not established.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Narrow deductive identity only; no empirical forecasting credit.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Asset supply is fixed at S>0",
+          "Demand may be zero or vary independently"
+        ],
+        "derivation": "A fixed supply permits multiple market-clearing prices for different demand schedules, including zero demand. Scarcity alone cannot determine positive value."
+      }
+    },
+    {
+      "id": "136-C20",
+      "claim": "Stablecoin expansion leaves chain winners uncertain.",
+      "kind": "forecast",
+      "source_blocks": [
+        151
+      ],
+      "family": "stablecoin-chain-competition",
+      "asset_or_variable": "stablecoin-chain-competition",
+      "horizon": "Five to ten years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The explicit five-to-ten-year competitive horizon extends to 2029-2034; dollar demand can grow without accruing value to a particular token.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "Five to ten years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Compare settlement share, users, fee capture and token dilution."
+    },
+    {
+      "id": "136-C21",
+      "claim": "CRE refinancing losses unfold over years.",
+      "kind": "forecast",
+      "source_blocks": [
+        174,
+        177
+      ],
+      "family": "commercial-real-estate-stress",
+      "asset_or_variable": "commercial-real-estate-stress",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Later OZK property charge-offs confirm real credit stress, but one bank is not an aggregate CRE index and cannot establish every sector-wide valuation claim.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://financialfilings.com/filings/bank-ozk/annual-report/2026/49998326/",
+          "title": "Bank OZK 2025 Form 10-K",
+          "publisher": "Bank OZK via Financial Filings",
+          "date": "2026-02-25",
+          "verified": true,
+          "finding": "2025 RESG charge-offs included Baltimore land $25.5 m, Boston office $72.4 m, Santa Monica office $5.7 m and Chicago life-science property $14.1 m."
+        }
+      ],
+      "next_check": "Compare office valuations, refinancing, defaults and non-office sectors."
+    },
+    {
+      "id": "136-C22",
+      "claim": "OZK offers three-to-five-year upside.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        178,
+        224
+      ],
+      "family": "ozk-three-five-year-value",
+      "asset_or_variable": "ozk-three-five-year-value",
+      "horizon": "Three to five years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The first full horizon ends May 2027 and the outer horizon May 2029. Later profits support viability but are not proof of superior shareholder returns.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "Three to five years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://ir.ozk.com/news-releases/news-release-details/bank-ozk-announces-fourth-quarter-and-full-year-2025-earnings",
+          "title": "Bank OZK 2025 earnings",
+          "publisher": "Bank OZK",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "2025 net income was $699.3 million versus $700.3 million in 2024; EPS reached $6.18 and net interest income $1.59 billion."
+        },
+        {
+          "url": "https://financialfilings.com/filings/bank-ozk/annual-report/2026/49998326/",
+          "title": "Bank OZK 2025 Form 10-K",
+          "publisher": "Bank OZK via Financial Filings",
+          "date": "2026-02-25",
+          "verified": true,
+          "finding": "2025 RESG charge-offs included Baltimore land $25.5 m, Boston office $72.4 m, Santa Monica office $5.7 m and Chicago life-science property $14.1 m."
+        }
+      ],
+      "next_check": "Measure total returns and drawdowns versus banking peers through 2027/2029."
+    },
+    {
+      "id": "136-C23",
+      "claim": "Owner leadership and demographics support growth.",
+      "kind": "explanation",
+      "source_blocks": [
+        181,
+        183
+      ],
+      "family": "ozk-owner-operator-moat",
+      "asset_or_variable": "ozk-owner-operator-moat",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Long tenure can indicate skill or survivor selection. Regional demographics do not automatically translate to disciplined national construction lending.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare underwriting results with peers and succession/loan concentration risks."
+    },
+    {
+      "id": "136-C24",
+      "claim": "Specialization creates a lending niche.",
+      "kind": "explanation",
+      "source_blocks": [
+        190,
+        191
+      ],
+      "family": "ozk-construction-specialization",
+      "asset_or_variable": "ozk-construction-specialization",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Service differentiation can earn spreads, but it also concentrates exposures and key-person risk. Economic moat requires sustained risk-adjusted excess returns.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare through-cycle loss-adjusted spreads and returns on capital."
+    },
+    {
+      "id": "136-C25",
+      "claim": "New projects avoid legacy property mismatch.",
+      "kind": "explanation",
+      "source_blocks": [
+        195,
+        196
+      ],
+      "family": "ozk-construction-legacy-risk",
+      "asset_or_variable": "ozk-construction-legacy-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Construction lending does not logically eliminate collateral mismatch, and subsequent RESG losses establish meaningful property risk. However, the retrieved filings do not identify origination/underwriting dates for these specific loans. Losses on pre-pandemic credits would not by themselves refute the narrower claim about new loans underwritten at current rates. The broad portfolio inference requires vintage analysis.",
+      "direction_assessment": "Adverse portfolio evidence; specific new-vintage claim unresolved.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://financialfilings.com/filings/bank-ozk/annual-report/2026/49998326/",
+          "title": "Bank OZK 2025 Form 10-K",
+          "publisher": "Bank OZK via Financial Filings",
+          "date": "2026-02-25",
+          "verified": true,
+          "finding": "2025 RESG charge-offs included Baltimore land $25.5 m, Boston office $72.4 m, Santa Monica office $5.7 m and Chicago life-science property $14.1 m."
+        }
+      ],
+      "next_check": "Identify origination, re-underwriting and appraisal dates for Boston, Baltimore, Santa Monica and Chicago credits; compare post-2022 cohorts."
+    },
+    {
+      "id": "136-C26",
+      "claim": "Floating loans support deposit competitiveness.",
+      "kind": "explanation",
+      "source_blocks": [
+        197,
+        198
+      ],
+      "family": "ozk-net-interest-margin",
+      "asset_or_variable": "ozk-net-interest-margin",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "2025 net interest income stayed strong, supporting funding resilience. That does not remove repricing, deposit competition or credit losses.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.ozk.com/news-releases/news-release-details/bank-ozk-announces-fourth-quarter-and-full-year-2025-earnings",
+          "title": "Bank OZK 2025 earnings",
+          "publisher": "Bank OZK",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "2025 net income was $699.3 million versus $700.3 million in 2024; EPS reached $6.18 and net interest income $1.59 billion."
+        }
+      ],
+      "next_check": "Compare asset yields, deposit costs and risk-adjusted margins over the cycle."
+    },
+    {
+      "id": "136-C27",
+      "claim": "Capital and insured deposits limit fragility.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        204,
+        208
+      ],
+      "family": "ozk-bank-risk",
+      "asset_or_variable": "ozk-bank-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Continuing earnings support resilience, but insurance and term deposits address liquidity more than borrower credit risk; later charge-offs are material counterevidence.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.ozk.com/news-releases/news-release-details/bank-ozk-announces-fourth-quarter-and-full-year-2025-earnings",
+          "title": "Bank OZK 2025 earnings",
+          "publisher": "Bank OZK",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "2025 net income was $699.3 million versus $700.3 million in 2024; EPS reached $6.18 and net interest income $1.59 billion."
+        },
+        {
+          "url": "https://financialfilings.com/filings/bank-ozk/annual-report/2026/49998326/",
+          "title": "Bank OZK 2025 Form 10-K",
+          "publisher": "Bank OZK via Financial Filings",
+          "date": "2026-02-25",
+          "verified": true,
+          "finding": "2025 RESG charge-offs included Baltimore land $25.5 m, Boston office $72.4 m, Santa Monica office $5.7 m and Chicago life-science property $14.1 m."
+        }
+      ],
+      "next_check": "Stress capital against construction concentrations and uninsured runoff."
+    },
+    {
+      "id": "136-C28",
+      "claim": "Low valuation permits profitable reinvestment.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        215,
+        224
+      ],
+      "family": "ozk-value-versus-trap",
+      "asset_or_variable": "ozk-value-versus-trap",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Buybacks below estimated intrinsic value may help, but the estimate and opportunity cost are not independently specified. Low P/E alone cannot prove mispricing.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "136-C29",
+      "claim": "China favors eighteen-month exposure.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        236
+      ],
+      "family": "em-relative-bottom",
+      "asset_or_variable": "em-relative-bottom",
+      "horizon": "Eighteen months, to November 2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Explicit eighteen-month China direction held: MCHI gained 44.81% from May 13 2024 to November 12 2025. SPY gained 33.62%, an evaluator comparison rather than an author outperformance promise. Benchmark is broad listed China, not every company.",
+      "direction_assessment": "Positive eighteen-month China outcome.",
+      "timing_assessment": "Eighteen months, to November 2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/MCHI/history/",
+          "title": "MCHI adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-05-12\",\"requested_endpoint\":\"2025-11-12\",\"entry\":\"2024-05-13\",\"exit\":\"2025-11-12\",\"days\":548,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"MCHI\":{\"entry_adjusted_close\":43.769126892089844,\"exit_adjusted_close\":63.38014602661133,\"cumulative_return_pct\":44.80559820823311,\"annualized_return_pct\":27.986977903138467,\"source\":\"https://finance.yahoo.com/quote/MCHI/history/\"},\"SPY\":{\"entry_adjusted_close\":505.9706115722656,\"exit_adjusted_close\":676.0859375,\"cumulative_return_pct\":33.62158236801813,\"annualized_return_pct\":21.310557464485093,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":11.184015840214975}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "136-C30",
+      "claim": "Broader EM bottom may form.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        237
+      ],
+      "family": "em-relative-bottom",
+      "asset_or_variable": "em-equities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The separate broader-EM observation names no index or exact bottom. EEM gained 34.19% over the evaluator eighteen-month window versus SPY 33.62%, supporting direction without resolving an unspecified bottom or proving Chinese spillovers.",
+      "direction_assessment": "Positive disclosed sensitivity; no exact bottom rule.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EEM/history/",
+          "title": "EEM adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-05-12\",\"requested_endpoint\":\"2025-11-12\",\"entry\":\"2024-05-13\",\"exit\":\"2025-11-12\",\"days\":548,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"EEM\":{\"entry_adjusted_close\":40.62357711791992,\"exit_adjusted_close\":54.51249313354492,\"cumulative_return_pct\":34.18929843452487,\"annualized_return_pct\":21.653843106833136,\"source\":\"https://finance.yahoo.com/quote/EEM/history/\"},\"SPY\":{\"entry_adjusted_close\":505.9706115722656,\"exit_adjusted_close\":676.0859375,\"cumulative_return_pct\":33.62158236801813,\"annualized_return_pct\":21.310557464485093,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":0.5677160665067404}"
+        }
+      ],
+      "next_check": "Preserve the distinction between China explicit horizon and undated broader-EM implication."
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "HODL waves",
+      "source_blocks": [
+        86
+      ],
+      "use": "Holder behavior",
+      "image_inspected": false
+    },
+    {
+      "name": "Loan-to-value",
+      "source_blocks": [
+        204
+      ],
+      "use": "Credit buffer",
+      "image_inspected": false
+    },
+    {
+      "name": "Net interest margin",
+      "source_blocks": [
+        198
+      ],
+      "use": "Funding economics",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Inspect loan structure before sector labels."
+  ],
+  "assessment": "OZK continued earning substantial profits but later incurred material property losses. Those losses challenge a broad impression of immunity; missing loan-vintage details prevent a clean refutation of the new-underwriting argument. The equity horizon remains open. The 2025 Fed balance-sheet turn was correctly anticipated.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

@@ -1,0 +1,1163 @@
+{
+  "article_id": "040",
+  "title": "Scotiabank (BNS) Deep Dive Analysis",
+  "date": "2020-11-22",
+  "source_url": "https://www.lynalden.com/premium-2020-11-22/",
+  "read_complete": true,
+  "summary": "Rotation, Bitcoin momentum, and bank value.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "Winter wave may peak soon",
+      "kind": "forecast",
+      "source_blocks": [
+        8
+      ],
+      "family": "covid-winter2020-peak",
+      "asset_or_variable": "US hospitalizations",
+      "horizon": null,
+      "conditions": null,
+      "modality": "signs may be topping",
+      "verdict": "mixed",
+      "reason": "Hospitalizations continued rising to January 6, 2021, so the tentative November topping signal was premature. The article was cautious and did not set a precise peak date.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://covidtracking.com/data/national/hospitalization/",
+          "title": "National hospitalizations",
+          "publisher": "COVID Tracking Project",
+          "date": null,
+          "verified": true,
+          "finding": "Archived US COVID hospitalization series reached 132474 on January 6, 2021, after further increases beyond November 2020. Reporting definitions vary by state."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C01"
+    },
+    {
+      "claim": "Reserve status requires trade deficits",
+      "kind": "explanation",
+      "source_blocks": [
+        17
+      ],
+      "family": "triffin-current-account-necessity",
+      "asset_or_variable": "US external balance",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "Bank-created dollar liabilities and gross capital flows can supply foreign dollar assets without a US trade deficit. The cited BIS research explains this distinction. Reserve demand can affect exchange rates, but it does not make deindustrialization an accounting necessity.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/working-paper-890-how-does-international-capital-flow",
+          "title": "How does international capital flow?",
+          "publisher": "Michael Kumhof et al. / BIS",
+          "date": "2020-10-01",
+          "verified": true,
+          "finding": "Authors explain that international bank money creation does not require a US current-account deficit; gross financial flows and net resource flows are distinct. Working-paper views are the authors' rather than official BIS policy."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C02"
+    },
+    {
+      "claim": "Reserve system damages employment",
+      "kind": "explanation",
+      "source_blocks": [
+        17
+      ],
+      "family": "reserve-status-us-industrial-jobs",
+      "asset_or_variable": "US employment",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The claim of structural harm requires separating exchange-rate effects from automation, global competition, labor institutions and the pandemic. A low participation rate is not sufficient causal evidence.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Estimate manufacturing/employment effects with explicit exchange-rate counterfactuals.",
+      "id": "040-C03"
+    },
+    {
+      "claim": "Equal-weight implies majority leadership",
+      "kind": "explanation",
+      "source_blocks": [
+        24
+      ],
+      "family": "equalweight-breadth-identity",
+      "asset_or_variable": "Equity breadth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "Relative average returns do not reveal how many constituents outperform. A minority of extreme winners can lift equal weight above cap weight while most stocks lag. See the bounded arithmetic counterexample.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "040-C04",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Three stocks have capitalization weights 80%,10%,10%.",
+          "Their same-period returns are 0%,100%,0%; equal weights are one-third."
+        ],
+        "derivation": "Cap-weight return is 10%; equal-weight return is 33.33%. Only one of three stocks outperforms the 10% cap-weight index, so equal-weight outperformance does not imply a majority of constituents outperform."
+      }
+    },
+    {
+      "claim": "Recession rotates equity leadership",
+      "kind": "explanation",
+      "source_blocks": [
+        25,
+        28,
+        29,
+        31
+      ],
+      "family": "recession-equity-rotation",
+      "asset_or_variable": "Equity styles",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Selected historical turning points do not establish a stable forecasting rule. A consistent recession date, forward window and false-positive count are necessary; attributing Juneprices to specific traders needs flow evidence.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "040-C05"
+    },
+    {
+      "claim": "2021 favors broader equities",
+      "kind": "forecast",
+      "source_blocks": [
+        29,
+        30,
+        43
+      ],
+      "family": "equalweight-2021-rotation",
+      "asset_or_variable": "RSP SPY",
+      "horizon": "2021",
+      "conditions": null,
+      "modality": "could easily",
+      "verdict": "mixed",
+      "reason": "RSP and SPY returned about 35.2% each from the next close through 2021. There were rotations within the window, but sustained terminal equal-weight superiority was absent.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2021",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/RSP/history/",
+          "title": "Equal weight versus cap weight",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "November 23, 2020-December 31, 2021 adjusted-close return RSP 35.17%, SPY 35.22%. Near-identical terminal result despite intervening rotations; USD vendor dividend/split proxies."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C06"
+    },
+    {
+      "claim": "Quality middle valuations offer value",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        19,
+        20,
+        34,
+        37,
+        39,
+        41,
+        178
+      ],
+      "family": "quality-value-rotation",
+      "asset_or_variable": "AMGN EPD versus AAPL",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The examples express relative valuation, but no fixed basket, weights or trading rule define this broad quality category. Historical multiples can shift with business mix and discount rates. The separately scored BNS and EPD results cannot substitute for the basket.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "040-C07"
+    },
+    {
+      "claim": "QE suppresses bond yields",
+      "kind": "explanation",
+      "source_blocks": [
+        46,
+        47,
+        50,
+        51
+      ],
+      "family": "qe-term-premium",
+      "asset_or_variable": "Treasuries",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The Fed did buy large quantities, but quantity purchases do not guarantee a yield ceiling; yields rose despite ongoing purchases. The copper/gold ratio is a correlation rather than an arbitrage bound.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323a.htm",
+          "title": "Federal Reserve announces extensive new measures",
+          "publisher": "Federal Reserve",
+          "date": "2020-03-23",
+          "verified": true,
+          "finding": "The Fed announced Treasury and agency MBS purchases in amounts needed to support market functioning amid the coronavirus emergency."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "title": "Treasury yield checkpoints",
+          "publisher": "Federal Reserve via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Ten-year yield 0.86% on November 23, 2020, 1.63% on May 21, 2021 and 1.63% on November 22, 2021. Latestvintage daily closes."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C08"
+    },
+    {
+      "claim": "Insolvency could lower yields",
+      "kind": "forecast",
+      "source_blocks": [
+        57,
+        178
+      ],
+      "family": "winter2020-deflation-tailrisk",
+      "asset_or_variable": "Treasury yields",
+      "horizon": "six months",
+      "conditions": "Broad insolvency event",
+      "modality": "not base case",
+      "verdict": "conditional_pending",
+      "reason": "The specified broad insolvency trigger is not established. Yields were higher at the six-month checkpoint, so the proposed alternative did not become the main path; a possibility is not an unconditional forecast miss.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: six months",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "title": "Treasury yield checkpoints",
+          "publisher": "Federal Reserve via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Ten-year yield 0.86% on November 23, 2020, 1.63% on May 21, 2021 and 1.63% on November 22, 2021. Latestvintage daily closes."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C09"
+    },
+    {
+      "claim": "Bond yields rise",
+      "kind": "forecast",
+      "source_blocks": [
+        58
+      ],
+      "family": "treasury-yield-rebound",
+      "asset_or_variable": "Treasury yields",
+      "horizon": "one year or more",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Ten-year yields rose from 0.86% to 1.63% by the one-year checkpoint and materially further later. The directional call succeeded before any formal ceiling was introduced.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: one year or more",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "title": "Treasury yield checkpoints",
+          "publisher": "Federal Reserve via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Ten-year yield 0.86% on November 23, 2020, 1.63% on May 21, 2021 and 1.63% on November 22, 2021. Latestvintage daily closes."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "title": "Ten-year Treasury yield",
+          "publisher": "Federal Reserve via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Ten-year nominal Treasury yield reached 4.98% October 19, 2023; ten-year real yield (DFII 10) reached 2.52% October 25. No 1-2.5% nominal ceiling persisted."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C10"
+    },
+    {
+      "claim": "Treasuries lose purchasing power",
+      "kind": "forecast",
+      "source_blocks": [
+        58
+      ],
+      "family": "treasury-real-bear",
+      "asset_or_variable": "Treasuries",
+      "horizon": "one year or more",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "High inflation and rising yields support the adverse direction. A precise real holding-period return still requires duration, coupon reinvestment and inflation dates; the yield series alone is not a total-return calculation.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: one year or more",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07132022.htm",
+          "title": "June 2022 Consumer Price Index",
+          "publisher": "Bureau of Labor Statistics",
+          "date": "2022-07-13",
+          "verified": true,
+          "finding": "June 2022 headline CPI rose 9.1% over twelve months."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "title": "Treasury yield checkpoints",
+          "publisher": "Federal Reserve via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Ten-year yield 0.86% on November 23, 2020, 1.63% on May 21, 2021 and 1.63% on November 22, 2021. Latestvintage daily closes."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C11"
+    },
+    {
+      "claim": "Fed eventually imposes yield caps",
+      "kind": "forecast",
+      "source_blocks": [
+        46,
+        58
+      ],
+      "family": "us-yield-curve-control",
+      "asset_or_variable": "Fed policy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No deadline is supplied for eventual intervention. Tapering, hikes and QT through the observed tightening cycle are material counterevidence to treating caps as inevitable, but an undated forecast cannot be definitively closed.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-federal-reserves-responses-to-the-post-covid-period-of-high-inflation-20240214.html",
+          "title": "Post-COVID inflation policy response",
+          "publisher": "Federal Reserve",
+          "date": "2024-02-14",
+          "verified": true,
+          "finding": "Fed began tapering purchases in November 2021, ended purchases in March 2022 and then raised policy rates; subsequent balance-sheet runoff replaced expansion. This differs from formal yield caps."
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "July 2023 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Federal funds target increased to 5.25-5.50%; Treasury/MBS holdings continued to decline. This was tightening rather than a permanent low-rate cap."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C12"
+    },
+    {
+      "claim": "Real yields pressure gold",
+      "kind": "explanation",
+      "source_blocks": [
+        62,
+        63
+      ],
+      "family": "gold-real-yield-link",
+      "asset_or_variable": "Gold",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A frequently observed inverse association is not a fixed causal law. Dollar movements, risk demand and official purchases can offset it; no coefficient, horizon or out-of-sample rule is specified.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "040-C13"
+    },
+    {
+      "claim": "Yield caps favor gold",
+      "kind": "forecast",
+      "source_blocks": [
+        62
+      ],
+      "family": "gold-ycc-upside",
+      "asset_or_variable": "Gold",
+      "horizon": null,
+      "conditions": "Formal US yield-curve control",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "The stipulated formal US yield-cap regime was not established in the observed period. The conditional scenario remains separate from gold's realized price performance.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-federal-reserves-responses-to-the-post-covid-period-of-high-inflation-20240214.html",
+          "title": "Post-COVID inflation policy response",
+          "publisher": "Federal Reserve",
+          "date": "2024-02-14",
+          "verified": true,
+          "finding": "Fed began tapering purchases in November 2021, ended purchases in March 2022 and then raised policy rates; subsequent balance-sheet runoff replaced expansion. This differs from formal yield caps."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C14"
+    },
+    {
+      "claim": "Bitcoin beats precious metals",
+      "kind": "forecast",
+      "source_blocks": [
+        68,
+        69
+      ],
+      "family": "bitcoin-over-metals2021",
+      "asset_or_variable": "BTC GLD SLV",
+      "horizon": "end 2021",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "BTC rose from 18391.21 to 46244.63 while the GLD and SLV proxies declined slightly through end 2021. This confirms the relative direction for this renewed call, despite distinct custody and fund costs.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: end 2021",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Bitcoin and precious-metal checkpoints",
+          "publisher": "Coinbase via FRED; Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "BTC 18391.21 on November 23, 2020; 17173 on November 26; 21384.63 on December 16; 46244.63 on December 31, 2021. Same entry/end dates GLD adjusted-close-0.74%, SLV-1.92%. Bitcoin price versus metal fund proxies, costs differ."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C15"
+    },
+    {
+      "claim": "Bitcoin meets near-term resistance",
+      "kind": "forecast",
+      "source_blocks": [
+        80,
+        89,
+        96,
+        180
+      ],
+      "family": "bitcoin-20k-resistance",
+      "asset_or_variable": "BTC",
+      "horizon": "near term",
+      "conditions": null,
+      "modality": "base case",
+      "verdict": "right",
+      "reason": "The November 26 decline preceded the December 16 close above 20000. The expected interruption occurred without preventing the larger uptrend; exact intraday highs and trading fills are not reconstructed.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: near term",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Bitcoin and precious-metal checkpoints",
+          "publisher": "Coinbase via FRED; Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "BTC 18391.21 on November 23, 2020; 17173 on November 26; 21384.63 on December 16; 46244.63 on December 31, 2021. Same entry/end dates GLD adjusted-close-0.74%, SLV-1.92%. Bitcoin price versus metal fund proxies, costs differ."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C16"
+    },
+    {
+      "claim": "Bitcoin cycle remains early",
+      "kind": "forecast",
+      "source_blocks": [
+        88,
+        90,
+        96,
+        99
+      ],
+      "family": "bitcoin-2021-bull",
+      "asset_or_variable": "BTC",
+      "horizon": "8-12 months",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The subsequent price advance through 2021 supports direction. The halving, holder-distribution and MVRV charts were suggestive, but their few historical cycles do not independently identify a repeatable causal model.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: 8-12 months",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Bitcoin and precious-metal checkpoints",
+          "publisher": "Coinbase via FRED; Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "BTC 18391.21 on November 23, 2020; 17173 on November 26; 21384.63 on December 16; 46244.63 on December 31, 2021. Same entry/end dates GLD adjusted-close-0.74%, SLV-1.92%. Bitcoin price versus metal fund proxies, costs differ."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C17"
+    },
+    {
+      "claim": "Institutional access increases demand",
+      "kind": "explanation",
+      "source_blocks": [
+        75,
+        76,
+        77,
+        97
+      ],
+      "family": "bitcoin-institutional-adoption",
+      "asset_or_variable": "BTC demand",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Micro Strategy provides a verified example of institutional demand. The stronger assertion that specific platforms bought more than daily issuance requires audited purchase data, and net exchange demand is different from gross platform turnover.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1050446/000119312520215604/d921849dex991.htm",
+          "title": "Bitcoin treasury allocation",
+          "publisher": "Micro Strategy / SEC",
+          "date": "2020-08-11",
+          "verified": true,
+          "finding": "The company acquired 21,454 bitcoins for $250 m including fees and adopted Bitcoin as principal treasury reserve asset."
+        }
+      ],
+      "next_check": "Reconcile platform customer flows and net issuance without double-counting transfers.",
+      "id": "040-C18"
+    },
+    {
+      "claim": "Rebalancing controls concentration",
+      "kind": "explanation",
+      "source_blocks": [
+        98
+      ],
+      "family": "bitcoin-portfolio-rebalance",
+      "asset_or_variable": "Portfolio",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Mechanical trimming can cap exposure relative to a chosen target, but performance and risk depend on thresholds and frequencies. The article offers alternatives rather than a unique auditable allocation rule.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "040-C19"
+    },
+    {
+      "claim": "Brookfield valuation favors replacement",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        105,
+        108,
+        112
+      ],
+      "family": "brookfield-relative-value",
+      "asset_or_variable": "BIP BIPC BTI BNS",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "BIPC returned -22.44% and +18.20% in the three- and five-year sensitivities, versus BTI +11.03%/+124.78% and BNS +5.98%/+79.04%. These specific replacements improved subsequent return outcomes. That does not reconstruct portfolio weights, the additional TPL switch, taxes or the share-class premium mechanism.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BIPC/history/",
+          "title": "BIPC historical price sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "3-year comparison 2020-11-23 to 2023-11-22: BIPC -22.44% cumulative, -8.14% annualized; SPY +33.10% cumulative. 5-year comparison 2020-11-23 to 2025-11-21: BIPC +18.20% cumulative, 3.40% annualized; SPY +97.76% cumulative. First common close strictly after publication, last common close on/before anniversary. USD vendor-adjusted-close proxies include vendor dividend/split adjustments; no fees, taxes or actual subscriber trades. These are evaluator-defined sensitivities unless the claim explicitly names the horizon."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/BTI/history/",
+          "title": "BTI historical price sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "3-year comparison 2020-11-23 to 2023-11-22: BTI +11.03% cumulative, 3.55% annualized; SPY +33.10% cumulative. 5-year comparison 2020-11-23 to 2025-11-21: BTI +124.78% cumulative, 17.61% annualized; SPY +97.76% cumulative. First common close strictly after publication, last common close on/before anniversary. USD vendor-adjusted-close proxies include vendor dividend/split adjustments; no fees, taxes or actual subscriber trades. These are evaluator-defined sensitivities unless the claim explicitly names the horizon."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/BNS/history/",
+          "title": "BNS historical price sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "3-year comparison 2020-11-23 to 2023-11-22: BNS +5.98% cumulative, 1.96% annualized; SPY +33.10% cumulative. 5-year comparison 2020-11-23 to 2025-11-21: BNS +79.04% cumulative, 12.37% annualized; SPY +97.76% cumulative. First common close strictly after publication, last common close on/before anniversary. USD vendor-adjusted-close proxies include vendor dividend/split adjustments; no fees, taxes or actual subscriber trades. These are evaluator-defined sensitivities unless the claim explicitly names the horizon."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C20",
+      "test_specification": {
+        "window_type": "evaluator-defined sensitivity unless explicitly matched to source horizon",
+        "windows_years": [
+          3,
+          5
+        ],
+        "returns": {
+          "BIPC": {
+            "3": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-11-22",
+              "requested_endpoint": "2023-11-22",
+              "entry": "2020-11-23",
+              "exit": "2023-11-22",
+              "days": 1094,
+              "endpoint_gap_days": 0,
+              "endpoint_covered": true,
+              "instruments": {
+                "BIPC": {
+                  "entry_adjusted_close": 35.954627990722656,
+                  "exit_adjusted_close": 27.884885787963867,
+                  "cumulative_return_pct": -22.44423779003086,
+                  "annualized_return_pct": -8.135898621421667,
+                  "source": "https://finance.yahoo.com/quote/BIPC/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 329.6889953613281,
+                  "exit_adjusted_close": 438.8221740722656,
+                  "cumulative_return_pct": 33.10185667293237,
+                  "annualized_return_pct": 10.017284410900373,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": -55.54609446296323
+            },
+            "5": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-11-22",
+              "requested_endpoint": "2025-11-22",
+              "entry": "2020-11-23",
+              "exit": "2025-11-21",
+              "days": 1824,
+              "endpoint_gap_days": 1,
+              "endpoint_covered": true,
+              "instruments": {
+                "BIPC": {
+                  "entry_adjusted_close": 35.954627990722656,
+                  "exit_adjusted_close": 42.49726486206055,
+                  "cumulative_return_pct": 18.196925505740413,
+                  "annualized_return_pct": 3.4044308872346773,
+                  "source": "https://finance.yahoo.com/quote/BIPC/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 329.6889953613281,
+                  "exit_adjusted_close": 651.995849609375,
+                  "cumulative_return_pct": 97.76087730644736,
+                  "annualized_return_pct": 14.630750807307713,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": -79.56395180070695
+            }
+          },
+          "BTI": {
+            "3": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-11-22",
+              "requested_endpoint": "2023-11-22",
+              "entry": "2020-11-23",
+              "exit": "2023-11-22",
+              "days": 1094,
+              "endpoint_gap_days": 0,
+              "endpoint_covered": true,
+              "instruments": {
+                "BTI": {
+                  "entry_adjusted_close": 23.211210250854492,
+                  "exit_adjusted_close": 25.770938873291016,
+                  "cumulative_return_pct": 11.02798430056997,
+                  "annualized_return_pct": 3.554357127278296,
+                  "source": "https://finance.yahoo.com/quote/BTI/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 329.6889953613281,
+                  "exit_adjusted_close": 438.8221740722656,
+                  "cumulative_return_pct": 33.10185667293237,
+                  "annualized_return_pct": 10.017284410900373,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": -22.073872372362402
+            },
+            "5": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-11-22",
+              "requested_endpoint": "2025-11-22",
+              "entry": "2020-11-23",
+              "exit": "2025-11-21",
+              "days": 1824,
+              "endpoint_gap_days": 1,
+              "endpoint_covered": true,
+              "instruments": {
+                "BTI": {
+                  "entry_adjusted_close": 23.211210250854492,
+                  "exit_adjusted_close": 52.173458099365234,
+                  "cumulative_return_pct": 124.77698291257578,
+                  "annualized_return_pct": 17.608076858193833,
+                  "source": "https://finance.yahoo.com/quote/BTI/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 329.6889953613281,
+                  "exit_adjusted_close": 651.995849609375,
+                  "cumulative_return_pct": 97.76087730644736,
+                  "annualized_return_pct": 14.630750807307713,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 27.01610560612842
+            }
+          },
+          "BNS": {
+            "3": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-11-22",
+              "requested_endpoint": "2023-11-22",
+              "entry": "2020-11-23",
+              "exit": "2023-11-22",
+              "days": 1094,
+              "endpoint_gap_days": 0,
+              "endpoint_covered": true,
+              "instruments": {
+                "BNS": {
+                  "entry_adjusted_close": 36.16119384765625,
+                  "exit_adjusted_close": 38.32233810424805,
+                  "cumulative_return_pct": 5.976418438219988,
+                  "annualized_return_pct": 1.956876275292907,
+                  "source": "https://finance.yahoo.com/quote/BNS/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 329.6889953613281,
+                  "exit_adjusted_close": 438.8221740722656,
+                  "cumulative_return_pct": 33.10185667293237,
+                  "annualized_return_pct": 10.017284410900373,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": -27.125438234712384
+            },
+            "5": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-11-22",
+              "requested_endpoint": "2025-11-22",
+              "entry": "2020-11-23",
+              "exit": "2025-11-21",
+              "days": 1824,
+              "endpoint_gap_days": 1,
+              "endpoint_covered": true,
+              "instruments": {
+                "BNS": {
+                  "entry_adjusted_close": 36.16119384765625,
+                  "exit_adjusted_close": 64.74175262451172,
+                  "cumulative_return_pct": 79.03654646266025,
+                  "annualized_return_pct": 12.370093378960533,
+                  "source": "https://finance.yahoo.com/quote/BNS/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 329.6889953613281,
+                  "exit_adjusted_close": 651.995849609375,
+                  "cumulative_return_pct": 97.76087730644736,
+                  "annualized_return_pct": 14.630750807307713,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": -18.7243308437871
+            }
+          }
+        }
+      }
+    },
+    {
+      "claim": "Platinum attracts renewed demand",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        117
+      ],
+      "family": "platinum-demand-recovery",
+      "asset_or_variable": "PPLT",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Platinum substitution in autocatalysts subsequently increased, supporting an industrial demand channel. Physical rarity and historical premium alone do not require price convergence with gold; a MACD entry needs explicit settings.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://platinuminvestment.com/investment-research/perspectives/with-palladium-oversold-and-platinums-attractive-fundamentals-both-metals-have-upside",
+          "title": "Platinum perspectives: palladium and platinum",
+          "publisher": "World Platinum Investment Council",
+          "date": "2024-02-27",
+          "verified": true,
+          "finding": "WPIC estimated platinum-for-palladium substitution exceeded 600 thousand ounces in 2023. It attributed substitution to palladium's premium, which had narrowed by 2024; WPIC promotes platinum investment."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C21"
+    },
+    {
+      "claim": "Royalties reduce operating leverage",
+      "kind": "explanation",
+      "source_blocks": [
+        128
+      ],
+      "family": "royalty-vs-producer-risk",
+      "asset_or_variable": "TPL",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A royalty owner avoids direct drilling costs but retains commodity-volume, operator and concentration risks. Lower operating leverage is not a guaranteed lower equity drawdown.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "040-C22"
+    },
+    {
+      "claim": "BNS dividend remains safe",
+      "kind": "forecast",
+      "source_blocks": [
+        132,
+        140,
+        142
+      ],
+      "family": "scotiabank-dividend-safety",
+      "asset_or_variable": "BNS dividend",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The annual payout was maintained in 2021 and increased thereafter through 2025. This supports the identified income resilience; future dividends remain discretionary.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.scotiabank.com/ca/en/about/investors-shareholders/equity-investors/dividend-history-and-stock-split.html",
+          "title": "Dividend history",
+          "publisher": "Scotiabank",
+          "date": null,
+          "verified": true,
+          "finding": "Annual dividends per common share:2020 C$3.60; 2021 C$3.60; 2022 C$4.06; 2023 C$4.18; 2024 C$4.24; 2025 C$4.32. Payments continued."
+        },
+        {
+          "url": "https://scotiabank.investorroom.com/2021-11-30-Scotiabank-reports-fourth-quarter-and-2021-results",
+          "title": "2021 results",
+          "publisher": "Scotiabank",
+          "date": "2021-11-30",
+          "verified": true,
+          "finding": "Net income 9.955 bn Canadian dollars versus 6.853 bn in 2020; lower credit-loss provisions supported recovery. Quarterly dividend increased 11% to C$1.00; fiscal 2021 payout ratio 46.5%."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C23"
+    },
+    {
+      "claim": "BNS outperforms this decade",
+      "kind": "forecast",
+      "source_blocks": [
+        135,
+        179
+      ],
+      "family": "scotiabank-decade-outperformance",
+      "asset_or_variable": "BNS SPY",
+      "horizon": "2020s",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The 2020s endpoint has not arrived. At both three and five years BNS lagged SPY, important adverse interim evidence that should remain visible rather than be erased by the open endpoint.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2020s",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BNS/history/",
+          "title": "Scotiabank stated-horizon sensitivities",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "November 23, 2020-November 22, 2023 BNS adjusted-close+5.98%, SPY 33.10%; to November 21, 2025 BNS+79.04%, annualized 12.37%, SPY 97.76%. USD vendor distribution/split proxies, before taxes/fees."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C24"
+    },
+    {
+      "claim": "BNS rewards three-to-five-year patience",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        150,
+        159
+      ],
+      "family": "scotiabank-fiveyear-value",
+      "asset_or_variable": "BNS",
+      "horizon": "3-5 years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Five-year return 79.04% was attractive in absolute terms, but three-year return 5.98% was weak and both endpoints lagged SPY. The explicitly stated range therefore has a materially uneven result.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 3-5 years",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BNS/history/",
+          "title": "Scotiabank stated-horizon sensitivities",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "November 23, 2020-November 22, 2023 BNS adjusted-close+5.98%, SPY 33.10%; to November 21, 2025 BNS+79.04%, annualized 12.37%, SPY 97.76%. USD vendor distribution/split proxies, before taxes/fees."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C25"
+    },
+    {
+      "claim": "Bank provisions have peaked",
+      "kind": "forecast",
+      "source_blocks": [
+        163,
+        164
+      ],
+      "family": "bank-credit-provision-peak2020",
+      "asset_or_variable": "BNS credit losses",
+      "horizon": "2021",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Scotiabank's 2021 profit recovery was driven partly by lower credit-loss provisions, confirming the specific bank direction. This does not establish that every global bank had already reached its peak.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: 2021",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://scotiabank.investorroom.com/2021-11-30-Scotiabank-reports-fourth-quarter-and-2021-results",
+          "title": "2021 results",
+          "publisher": "Scotiabank",
+          "date": "2021-11-30",
+          "verified": true,
+          "finding": "Net income 9.955 bn Canadian dollars versus 6.853 bn in 2020; lower credit-loss provisions supported recovery. Quarterly dividend increased 11% to C$1.00; fiscal 2021 payout ratio 46.5%."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C26"
+    },
+    {
+      "claim": "Steeper curves improve bank economics",
+      "kind": "explanation",
+      "source_blocks": [
+        166,
+        167
+      ],
+      "family": "bank-yield-curve-profitability",
+      "asset_or_variable": "Banks",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Asset repricing can help, but deposit competition, securities losses, hedges and credit stress can dominate. Higher nominal yields are not universally positive for bank shareholders.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "040-C27"
+    },
+    {
+      "claim": "Gold hedges bank-rate risk",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        168
+      ],
+      "family": "bank-gold-barbell",
+      "asset_or_variable": "Banks gold",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The two assets respond to different real/nominal-rate variables; a useful hedge requires weights and realized covariance. Their presumed opposing sensitivities do not guarantee portfolio protection.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "040-C28"
+    },
+    {
+      "claim": "Commodities support Canadian dollar",
+      "kind": "explanation",
+      "source_blocks": [
+        170,
+        171,
+        172
+      ],
+      "family": "cad-commodity-link",
+      "asset_or_variable": "CAD",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Terms of trade matter, but exchange rates also depend on rate differentials and capital flows. The author explicitly avoids a one-year currency prediction; no outcome should be invented.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "040-C29"
+    },
+    {
+      "claim": "Digital adoption protects banks",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        143,
+        175
+      ],
+      "family": "bank-digital-adaptation",
+      "asset_or_variable": "BNS and bank basket",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Digital access may improve customer retention, but Sberbank sanctions show technology quality did not protect foreign ownership. Bank-specific digital profitability and costs remain unverified.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0705",
+          "title": "U.S. Treasury escalates sanctions on Russia",
+          "publisher": "US Treasury",
+          "date": "2022-04-06",
+          "verified": true,
+          "finding": "Treasury imposed full blocking sanctions on Sberbank. The accompanying executive order prohibited new investment in Russia by US persons."
+        }
+      ],
+      "next_check": null,
+      "id": "040-C30"
+    },
+    {
+      "claim": "Bitcoin hedges banking disruption",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        174,
+        176
+      ],
+      "family": "banks-bitcoin-disruption-hedge",
+      "asset_or_variable": "Banks BTC",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Tokenization or DeFi growth need not accrue value to Bitcoin, and common liquidity shocks can hurt both assets. The causal hedge requires a defined disruption scenario and allocation, not merely owning two different business models.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "040-C31"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Relative returns yields",
+      "source_blocks": [
+        22,
+        51
+      ],
+      "use": "Rotation",
+      "image_inspected": false
+    },
+    {
+      "name": "MVRV holders halving",
+      "source_blocks": [
+        85,
+        90,
+        93
+      ],
+      "use": "Cycle",
+      "image_inspected": false
+    },
+    {
+      "name": "PE 5 coverage ROE",
+      "source_blocks": [
+        139,
+        146,
+        156
+      ],
+      "use": "Bank value",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Track income, total return, and relative return separately."
+  ],
+  "assessment": "Bitcoin direction and the bond-yield rebound were strong calls. The BTI and BNS replacements outperformed BIPC in disclosed three- and five-year sensitivities. Scotiabank itself eventually delivered solid absolute returns but lagged SPY. The claims that reserve status requires trade deficits and equal weighting proves breadth need correction.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "Public market series are available, but not every investment claim has a defined horizon or reconciled corporate-action-adjusted return. Unverified outcomes remain unscored; macro data use latest available vintages."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "680639cfd6c72da992321c6276dc92f6eb00f74f6941b8a35fecf88b87a16a57"
+}

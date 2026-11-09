@@ -1,0 +1,822 @@
+{
+  "article_id": "138",
+  "title": "Sorting Through Value",
+  "date": "2024-06-09",
+  "source_url": "https://www.lynalden.com/premium-2024-6-9/",
+  "read_complete": true,
+  "summary": "Reassessing lagging holdings and policy transmission.",
+  "coverage_note": "Read every section and chart label, including macro, Mt. Gox, crypto politics/Nostr, CVS, BMY, Bank OZK and EM rotation.",
+  "claims": [
+    {
+      "id": "138-C01",
+      "claim": "Domestic liquidity stays rangebound.",
+      "kind": "forecast",
+      "source_blocks": [
+        8
+      ],
+      "family": "near-term-liquidity-range",
+      "asset_or_variable": "near-term-liquidity-range",
+      "horizon": "Next months",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A bounded-range prediction needs explicit tolerance and the original proxy. The source provides no numerical breakout threshold.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "Next months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconstruct source liquidity measure through September 2024."
+    },
+    {
+      "id": "138-C02",
+      "claim": "Foreign cuts foreshadow eventual Fed easing.",
+      "kind": "forecast",
+      "source_blocks": [
+        10,
+        13
+      ],
+      "family": "fed-rate-cuts-2024",
+      "asset_or_variable": "fed-rate-cuts-2024",
+      "horizon": "Later 2024",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The Fed began easing September 18. Foreign decisions did not determine the U.S. decision; domestic inflation and employment evidence remained central.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Later 2024",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+          "title": "September 2024 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2024-09-18",
+          "verified": true,
+          "finding": "The Fed cut its target by 50 basis points to 4.75-5.00%, while describing inflation as still elevated and continuing securities runoff."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "138-C03",
+      "claim": "Bank earnings cushion unrealized losses.",
+      "kind": "explanation",
+      "source_blocks": [
+        15,
+        21
+      ],
+      "family": "bank-loss-absorption",
+      "asset_or_variable": "bank-loss-absorption",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Retained profits can rebuild capital, while aggregate unrealized losses do not identify individual failure risk. OZK later remained profitable despite property losses; this is one bank, not a system-wide proof.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.ozk.com/news-releases/news-release-details/bank-ozk-announces-fourth-quarter-and-full-year-2025-earnings",
+          "title": "Bank OZK 2025 earnings",
+          "publisher": "Bank OZK",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "2025 net income was $699.3 million versus $700.3 million in 2024; EPS reached $6.18 and net interest income $1.59 billion."
+        },
+        {
+          "url": "https://financialfilings.com/filings/bank-ozk/annual-report/2026/49998326/",
+          "title": "Bank OZK 2025 Form 10-K",
+          "publisher": "Bank OZK via Financial Filings",
+          "date": "2026-02-25",
+          "verified": true,
+          "finding": "2025 RESG charge-offs included Baltimore land $25.5 m, Boston office $72.4 m, Santa Monica office $5.7 m and Chicago life-science property $14.1 m."
+        }
+      ],
+      "next_check": "Track FDIC capital and loss distribution, not just aggregate totals."
+    },
+    {
+      "id": "138-C04",
+      "claim": "Bank fragility limits further rate hikes.",
+      "kind": "forecast",
+      "source_blocks": [
+        21
+      ],
+      "family": "bank-stress-policy-ceiling",
+      "asset_or_variable": "bank-stress-policy-ceiling",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A soft ceiling is not quantified and can be relaxed by emergency liquidity tools. Later cuts do not prove banks forced them.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "138-C05",
+      "claim": "Cooling labor favors mild late-year cuts.",
+      "kind": "forecast",
+      "source_blocks": [
+        26,
+        39
+      ],
+      "family": "fed-rate-cuts-2024",
+      "asset_or_variable": "fed-rate-cuts-2024",
+      "horizon": "Later 2024",
+      "conditions": "Unemployment exceeds 4%",
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Timing and direction matched, but the initial move was 50 basis points rather than a small 25-point step. The source was conditional on further labor softening.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "Later 2024",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+          "title": "September 2024 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2024-09-18",
+          "verified": true,
+          "finding": "The Fed cut its target by 50 basis points to 4.75-5.00%, while describing inflation as still elevated and continuing securities runoff."
+        }
+      ],
+      "next_check": "Compare size and cumulative easing with the original mild scenario."
+    },
+    {
+      "id": "138-C06",
+      "claim": "Surveys expose uneven labor conditions.",
+      "kind": "explanation",
+      "source_blocks": [
+        33,
+        39
+      ],
+      "family": "labor-survey-divergence",
+      "asset_or_variable": "labor-survey-divergence",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Household and establishment surveys measure different populations and are revised differently. Divergence alone does not identify which measure is correct.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconcile payroll revisions, household controls and multiple-jobholder adjustments."
+    },
+    {
+      "id": "138-C07",
+      "claim": "Mortgage lock-in blunts easing stimulus.",
+      "kind": "explanation",
+      "source_blocks": [
+        40
+      ],
+      "family": "mortgage-refinancing-transmission",
+      "asset_or_variable": "mortgage-refinancing-transmission",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The year-end mortgage rate stayed far above outstanding low-rate loans, supporting the channel. It does not establish the size of the aggregate consumption effect.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://freddiemac.gcs-web.com/news-releases/news-release-details/mortgage-rates-continue-rise-2/",
+          "title": "Mortgage rates continue to rise",
+          "publisher": "Freddie Mac",
+          "date": "2024-12-26",
+          "verified": true,
+          "finding": "The 30-year mortgage survey rate was 6.85%, far above the 2021 refinancing trough despite 2024 Fed rate cuts."
+        }
+      ],
+      "next_check": "Measure refinance applications and household payment savings."
+    },
+    {
+      "id": "138-C08",
+      "claim": "Cuts favor EM, gold and bitcoin.",
+      "kind": "forecast",
+      "source_blocks": [
+        41
+      ],
+      "family": "easing-hard-assets-em",
+      "asset_or_variable": "easing-hard-assets-em",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "These are separate assets with different exposures. Matched return windows and a causal counterfactual are needed; gold or bitcoin appreciation alone cannot validate the whole bundle.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare each asset after September easing, with dollar and growth controls."
+    },
+    {
+      "id": "138-C09",
+      "claim": "Bitcoin ETF inflows have resumed.",
+      "kind": "empirical",
+      "source_blocks": [
+        45
+      ],
+      "family": "bitcoin-etf-flows",
+      "asset_or_variable": "bitcoin-etf-flows",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The independent daily net-flow series confirms the report-date observation that inflows resumed in the second half of May. This is an empirical confirmation, not a new price forecast.",
+      "direction_assessment": "Defined direction supported.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://farside.co.uk/bitcoin-etf-flow-all-data/",
+          "title": "U.S. spot bitcoin ETF daily net flows",
+          "publisher": "Farside Investors",
+          "date": null,
+          "verified": true,
+          "finding": "All trading days May 15-June 7 2024 had positive aggregate net flows; June 4 reached +$886.6 m."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "138-C10",
+      "claim": "Mt. Gox failure advanced self-custody.",
+      "kind": "explanation",
+      "source_blocks": [
+        52
+      ],
+      "family": "bitcoin-custody-learning",
+      "asset_or_variable": "bitcoin-custody-learning",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The sequence is plausible, but hardware-wallet growth also reflects prices and other exchange failures.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare dated wallet adoption and customer motivations with competing shocks."
+    },
+    {
+      "id": "138-C11",
+      "claim": "Mt. Gox distributions arrive in 2024.",
+      "kind": "forecast",
+      "source_blocks": [
+        55
+      ],
+      "family": "mt-gox-distributions",
+      "asset_or_variable": "mt-gox-distributions",
+      "horizon": "Later 2024",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The trustee announced BTC/BCH repayments had begun on July 5 2024, within the stated calendar year. This verifies distributions commencing, not completion of all claims or the size of creditor selling.",
+      "direction_assessment": "Defined direction supported.",
+      "timing_assessment": "Later 2024",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.mtgox.com/img/pdf/20240705_01_announcement_en.pdf",
+          "title": "Repayment announcement",
+          "publisher": "Mt. Gox rehabilitation trustee",
+          "date": "2024-07-05",
+          "verified": true,
+          "finding": "BTC/BCH repayments began through designated exchanges on July 5 2024."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "138-C12",
+      "claim": "Creditors sell a minority of coins.",
+      "kind": "forecast",
+      "source_blocks": [
+        56
+      ],
+      "family": "mt-gox-selling-pressure",
+      "asset_or_variable": "mt-gox-selling-pressure",
+      "horizon": "Distribution period",
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "evidence_needed",
+      "reason": "The less-than-20-30% estimate is attributed to other analysts and adopted cautiously. Exchange transfers cannot reveal actual beneficiary sales reliably.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "Distribution period",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use creditor sales or exchange execution evidence, not wallet transfers alone."
+    },
+    {
+      "id": "138-C13",
+      "claim": "Distribution pressure is intermediate-term noise.",
+      "kind": "forecast",
+      "source_blocks": [
+        57
+      ],
+      "family": "mt-gox-market-impact",
+      "asset_or_variable": "mt-gox-market-impact",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Minor and priced-in have no quantified drawdown or recovery threshold; a later rally cannot establish that the supply event had no material impact.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "138-C14",
+      "claim": "Crypto gains bipartisan political influence.",
+      "kind": "explanation",
+      "source_blocks": [
+        64,
+        67
+      ],
+      "family": "crypto-political-shift",
+      "asset_or_variable": "crypto-political-shift",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A veto and campaign promises are not enacted policy. The claimed influence requires tracing votes, donations and actual legal changes.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare congressional votes and enacted crypto provisions, excluding unfulfilled promises."
+    },
+    {
+      "id": "138-C15",
+      "claim": "Open social protocols preserve user control.",
+      "kind": "explanation",
+      "source_blocks": [
+        84,
+        92
+      ],
+      "family": "nostr-open-protocol-control",
+      "asset_or_variable": "nostr-open-protocol-control",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Client portability can reduce platform dependence, but discovery, relays, moderation and key custody retain power centers. The report offers architecture and advocacy, not a dated adoption target.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "138-C16",
+      "claim": "Lightning integrates social micropayments.",
+      "kind": "explanation",
+      "source_blocks": [
+        92
+      ],
+      "family": "nostr-lightning-payments",
+      "asset_or_variable": "nostr-lightning-payments",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Technical interoperability can exist without sustained user adoption or superior economics.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Verify client implementations and actual non-incentivized payment activity."
+    },
+    {
+      "id": "138-C17",
+      "claim": "Structural deterioration distinguishes value traps.",
+      "kind": "explanation",
+      "source_blocks": [
+        111,
+        112
+      ],
+      "family": "value-trap-discipline",
+      "asset_or_variable": "value-trap-discipline",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "This is a decision rule. Applying it needs explicit invalidation thresholds, otherwise weak performance can be indefinitely relabeled temporary.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "138-C18",
+      "claim": "CVS integration supports shareholder returns.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        117
+      ],
+      "family": "cvs-integration-value",
+      "asset_or_variable": "cvs-integration-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "2025 adjusted earnings improved, but the large care-delivery goodwill impairment directly challenges purchase-price and synergy assumptions. Operational recovery does not erase capital-allocation loss.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://investors.cvshealth.com/news/news-details/2026/CVS-HEALTH-CORPORATION-REPORTS-FOURTH-QUARTER-AND-FULL-YEAR-2025-RESULTS/",
+          "title": "CVS Health 2025 results",
+          "publisher": "CVS Health",
+          "date": "2026-02-10",
+          "verified": true,
+          "finding": "Adjusted EPS recovered from $5.42 to $6.75 and health-insurance adjusted operating income from $307 m to $2,939 m; a $5.7 bn care-delivery goodwill impairment undercuts the acquisition-synergy premise."
+        }
+      ],
+      "next_check": "Compare cumulative acquisition cash costs, impairments, debt reduction and cash distributions."
+    },
+    {
+      "id": "138-C19",
+      "claim": "CVS insurance problems are temporary.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        119,
+        121
+      ],
+      "family": "cvs-insurance-recovery",
+      "asset_or_variable": "cvs-insurance-recovery",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Insurance adjusted earnings recovered substantially in 2025 after a weak 2024, supporting a cyclical component. Broader acquisition impairment means the whole company problem was not merely temporary utilization.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://investors.cvshealth.com/news/news-details/2026/CVS-HEALTH-CORPORATION-REPORTS-FOURTH-QUARTER-AND-FULL-YEAR-2025-RESULTS/",
+          "title": "CVS Health 2025 results",
+          "publisher": "CVS Health",
+          "date": "2026-02-10",
+          "verified": true,
+          "finding": "Adjusted EPS recovered from $5.42 to $6.75 and health-insurance adjusted operating income from $307 m to $2,939 m; a $5.7 bn care-delivery goodwill impairment undercuts the acquisition-synergy premise."
+        }
+      ],
+      "next_check": "Track normalized medical-cost ratios and consolidated cash returns beyond one rebound year."
+    },
+    {
+      "id": "138-C20",
+      "claim": "CVS may be forming a bottom.",
+      "kind": "forecast",
+      "source_blocks": [
+        121
+      ],
+      "family": "cvs-equity-bottom",
+      "asset_or_variable": "cvs-equity-bottom",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "wrong",
+      "reason": "The tentative bottom did not hold: CVS closed below the prior 2024 closing low on November 15. The low-conviction wording is retained, and the later positive total return does not rescue that timing call.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/CVS/history/",
+          "title": "CVS bottom check",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Minimum raw daily close January 1-June 9, 2024: May 28 $53.630001. First subsequent lower close November 15, 2024 $53.189999. This is a dated raw price-floor test, separate from dividend-reinvested returns."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/CVS/history/",
+          "title": "CVS adjusted-return comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-06-09\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-06-10\",\"exit\":\"2026-11-06\",\"days\":879,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"CVS\":{\"entry_adjusted_close\":54.84832000732422,\"exit_adjusted_close\":83.8499984741211,\"cumulative_return_pct\":52.87614727839269,\"annualized_return_pct\":19.288480140052755,\"source\":\"https://finance.yahoo.com/quote/CVS/history/\"},\"SPY\":{\"entry_adjusted_close\":520.2976684570312,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":41.32102113928031,\"annualized_return_pct\":15.455670873001704,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":11.555126139112382}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "138-C21",
+      "claim": "BMY faces a genuine patent cliff.",
+      "kind": "explanation",
+      "source_blocks": [
+        124,
+        126
+      ],
+      "family": "bmy-patent-cliff",
+      "asset_or_variable": "bmy-patent-cliff",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The later Legacy Portfolio contraction confirms the business risk; Growth Portfolio gains also show the company was not simply in irreversible decline.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2025/BMY-Q4-2025-Earnings-Press-Release.pdf",
+          "title": "Bristol Myers Squibb 2025 results",
+          "publisher": "Bristol Myers Squibb",
+          "date": "2026-02-05",
+          "verified": true,
+          "finding": "Growth Portfolio revenue rose from $22.563 bn to $26.409 bn while Legacy Portfolio fell from $25.737 bn to $21.785 bn; aggregate revenue was approximately flat."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "138-C22",
+      "claim": "BMY may be undervalued despite risk.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        127
+      ],
+      "family": "bmy-value-versus-trap",
+      "asset_or_variable": "bmy-value-versus-trap",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The author is explicitly mixed, with no deadline for rerating. A sub-7 x FCF multiple is a valuation input, not proof of a bargain.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "138-C23",
+      "claim": "BMY payout supports a cautious hold.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        128,
+        129
+      ],
+      "family": "bmy-dividend-coverage",
+      "asset_or_variable": "bmy-dividend-coverage",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Dividend safety requires operating cash after acquisitions, debt and pipeline spending. Credit rating and stated yield alone are incomplete.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconcile BMY dividends, cash flow and leverage through 2025."
+    },
+    {
+      "id": "138-C24",
+      "claim": "OZK discount compensates for CRE risk.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        134,
+        136
+      ],
+      "family": "ozk-value-versus-trap",
+      "asset_or_variable": "ozk-value-versus-trap",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A low multiple may or may not compensate for concentrated tail losses. Later strong EPS and property charge-offs point in opposing directions; neither settles fair value.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://ir.ozk.com/news-releases/news-release-details/bank-ozk-announces-fourth-quarter-and-full-year-2025-earnings",
+          "title": "Bank OZK 2025 earnings",
+          "publisher": "Bank OZK",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "2025 net income was $699.3 million versus $700.3 million in 2024; EPS reached $6.18 and net interest income $1.59 billion."
+        },
+        {
+          "url": "https://financialfilings.com/filings/bank-ozk/annual-report/2026/49998326/",
+          "title": "Bank OZK 2025 Form 10-K",
+          "publisher": "Bank OZK via Financial Filings",
+          "date": "2026-02-25",
+          "verified": true,
+          "finding": "2025 RESG charge-offs included Baltimore land $25.5 m, Boston office $72.4 m, Santa Monica office $5.7 m and Chicago life-science property $14.1 m."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "138-C25",
+      "claim": "Low loan-to-value protects OZK lenders.",
+      "kind": "explanation",
+      "source_blocks": [
+        135
+      ],
+      "family": "ozk-bank-risk",
+      "asset_or_variable": "ozk-bank-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "An equity cushion absorbs first losses, but appraised collateral can deteriorate sharply. Subsequent charge-offs show protection was finite, while continued earnings show no catastrophic impairment.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.ozk.com/news-releases/news-release-details/bank-ozk-announces-fourth-quarter-and-full-year-2025-earnings",
+          "title": "Bank OZK 2025 earnings",
+          "publisher": "Bank OZK",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "2025 net income was $699.3 million versus $700.3 million in 2024; EPS reached $6.18 and net interest income $1.59 billion."
+        },
+        {
+          "url": "https://financialfilings.com/filings/bank-ozk/annual-report/2026/49998326/",
+          "title": "Bank OZK 2025 Form 10-K",
+          "publisher": "Bank OZK via Financial Filings",
+          "date": "2026-02-25",
+          "verified": true,
+          "finding": "2025 RESG charge-offs included Baltimore land $25.5 m, Boston office $72.4 m, Santa Monica office $5.7 m and Chicago life-science property $14.1 m."
+        }
+      ],
+      "next_check": "Compare original appraisals, stressed collateral values and realized recovery rates."
+    },
+    {
+      "id": "138-C26",
+      "claim": "Dollar cycles drive EM relative performance.",
+      "kind": "explanation",
+      "source_blocks": [
+        141,
+        144
+      ],
+      "family": "dollar-em-transmission",
+      "asset_or_variable": "dollar-em-transmission",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The historical relationship needs return/currency decomposition and commodity/global-growth controls; cheap purchasing-power estimates do not set reversal timing.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Regress currency-hedged and unhedged EM relative returns on dollar and growth variables."
+    },
+    {
+      "id": "138-C27",
+      "claim": "China and Latin America show basing.",
+      "kind": "empirical",
+      "source_blocks": [
+        146
+      ],
+      "family": "em-relative-bottom",
+      "asset_or_variable": "em-relative-bottom",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The Latin America assertion explicitly includes dividends. Price-only data would mis-score it, and China requires a named index.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reproduce late-2021-to-publication total-return comparison and China lows."
+    },
+    {
+      "id": "138-C28",
+      "claim": "Fed easing could catalyze EM recovery.",
+      "kind": "forecast",
+      "source_blocks": [
+        147
+      ],
+      "family": "em-fed-easing-benefit",
+      "asset_or_variable": "em-fed-easing-benefit",
+      "horizon": "Later 2024 or 2025",
+      "conditions": "Softer economy and dollar",
+      "modality": "possible",
+      "verdict": "mixed",
+      "reason": "The Fed did ease in September 2024. Through end-2025 IEMG returned 34.17% from publication versus SPY 30.05%, while EWZ returned 26.54%. The proposed catalyst had partial regional support; it was not uniformly successful across cheap emerging markets.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "Later 2024 or 2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+          "title": "September 2024 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2024-09-18",
+          "verified": true,
+          "finding": "The Fed cut its target by 50 basis points to 4.75-5.00%, while describing inflation as still elevated and continuing securities runoff."
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+          "title": "September 2024 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2024-09-18",
+          "verified": true,
+          "finding": "The Fed cut its target by 50 basis points to 4.75-5.00%, while describing inflation as still elevated and continuing securities runoff."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/IEMG/history/",
+          "title": "IEMG adjusted-return comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-06-09\",\"requested_endpoint\":\"2025-12-31\",\"entry\":\"2024-06-10\",\"exit\":\"2025-12-31\",\"days\":569,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"IEMG\":{\"entry_adjusted_close\":49.70045471191406,\"exit_adjusted_close\":66.684326171875,\"cumulative_return_pct\":34.172466949059135,\"annualized_return_pct\":20.767238717865343,\"source\":\"https://finance.yahoo.com/quote/IEMG/history/\"},\"SPY\":{\"entry_adjusted_close\":520.2976684570312,\"exit_adjusted_close\":676.635009765625,\"cumulative_return_pct\":30.047672858542683,\"annualized_return_pct\":18.37070497115829,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":4.124794090516453}"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/EWZ/history/",
+          "title": "EWZ adjusted-return comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-06-09\",\"requested_endpoint\":\"2025-12-31\",\"entry\":\"2024-06-10\",\"exit\":\"2025-12-31\",\"days\":569,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"EWZ\":{\"entry_adjusted_close\":24.87054443359375,\"exit_adjusted_close\":31.47040367126465,\"cumulative_return_pct\":26.536850672059174,\"annualized_return_pct\":16.309370384872814,\"source\":\"https://finance.yahoo.com/quote/EWZ/history/\"},\"SPY\":{\"entry_adjusted_close\":520.2976684570312,\"exit_adjusted_close\":676.635009765625,\"cumulative_return_pct\":30.047672858542683,\"annualized_return_pct\":18.37070497115829,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-3.5108221864835087}"
+        }
+      ],
+      "next_check": null
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "FDIC losses",
+      "source_blocks": [
+        15
+      ],
+      "use": "Bank resilience",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        121,
+        127,
+        134
+      ],
+      "use": "Value traps",
+      "image_inspected": false
+    },
+    {
+      "name": "Currency valuation",
+      "source_blocks": [
+        144
+      ],
+      "use": "EM context",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Set business invalidation tests before averaging down."
+  ],
+  "assessment": "The explicit review of losers improves accountability. CVS ultimately showed both an insurance earnings rebound and acquisition impairment, warranting mixed assessment. BMY patent risk materialized alongside new-product growth. OZK survived profitably but its loan cushions did not prevent losses.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

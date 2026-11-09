@@ -1,0 +1,868 @@
+{
+  "article_id": "075",
+  "title": "HDFC Bank Deep Dive Analysis",
+  "date": "2022-01-09",
+  "source_url": "https://www.lynalden.com/premium-2022-1-9/",
+  "read_complete": true,
+  "summary": "HDFC growth is weighed against a tightening cycle.",
+  "coverage_note": "All article text blocks were read. Ledger covers material macro, investment, and causal propositions; incidental descriptive statistics, boilerplate, and unreasoned position lists are excluded. Image labels were read, not image pixels.",
+  "claims": [
+    {
+      "claim": "Omicron burden eventually eases",
+      "source_blocks": [
+        6,
+        11
+      ],
+      "kind": "forecast",
+      "family": "omicron-lower-severity",
+      "verdict": "right",
+      "reason": "CDC found lower relative severity during Omicron despite rapid spread. The observation supports the public-health premise, without quantifying the article's separate economic effect.",
+      "evidence": [
+        {
+          "url": "https://www.cdc.gov/mmwr/volumes/71/wr/mm7106a4.htm",
+          "title": "Delta and Omicron genomic surveillance",
+          "publisher": "CDC",
+          "date": "2022-02-11",
+          "verified": true,
+          "finding": "Omicron spread rapidly; relative severity was lower.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Next couple months",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "omicron-lower-severity",
+      "modality": "likely",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Next couple months",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "075-C01"
+    },
+    {
+      "claim": "US growth momentum slows",
+      "source_blocks": [
+        14,
+        31
+      ],
+      "kind": "forecast",
+      "family": "2022-us-growth-slowdown",
+      "verdict": "right",
+      "reason": "Latest-vintage real GDP shows Q4 2022 only 1.23% above Q4 2021, versus much faster 2021 expansion. The separate contemporary BEA release verifies the Q4 2021 rebound. Directional slowdown is supported without treating weak quarterly GDP as proof of an NBER recession.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/GDPC1",
+          "title": "Real GDP",
+          "publisher": "BEA via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Real GDP rose from 22001.640bn in Q4 2021 to 22272.546bn in Q4 2022, about 1.23%, versus about 4.24% from Q1 2021 to Q4 2021 alone.",
+          "verification_method": "computed from downloaded latest-vintage CSV; not a real-time vintage"
+        },
+        {
+          "url": "https://www.bea.gov/news/2022/gross-domestic-product-fourth-quarter-and-year-2021-second-estimate",
+          "title": "Fourth quarter 2021 GDP, second estimate",
+          "publisher": "BEA",
+          "date": "2022-02-24",
+          "verified": true,
+          "finding": "Q4 growth accelerated from Q3 in this release vintage.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2022 relative to 2021",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-us-growth-slowdown",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Q4 2021 versus Q3",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "075-C02"
+    },
+    {
+      "claim": "Labor shortage constrains hiring",
+      "source_blocks": [
+        32,
+        33
+      ],
+      "kind": "explanation",
+      "family": "us-labor-supply-shortage",
+      "verdict": "evidence_needed",
+      "reason": "Divergence between payroll and household surveys does not itself identify labor supply as the cause. Participation, vacancies, quits and demographic adjustments are required.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Compare contemporaneous CPS participation and JOLTS vacancy series, allowing survey revisions.",
+      "asset_or_variable": "us-labor-supply-shortage",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "075-C03"
+    },
+    {
+      "claim": "Q1 local CPI peak",
+      "source_blocks": [
+        34
+      ],
+      "kind": "forecast",
+      "family": "q1-2022-local-cpi-peak",
+      "verdict": "right",
+      "reason": "March 8.5% followed by April 8.3% establishes the explicitly local peak. Higher June inflation does not erase that local turning point; the oil-price caveat was material.",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_04122022.htm",
+          "title": "Consumer Price Index, March 2022",
+          "publisher": "BLS",
+          "date": "2022-04-12",
+          "verified": true,
+          "finding": "March CPI inflation reached 8.5%; shelter contributed.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_05112022.htm",
+          "title": "CPI, April 2022",
+          "publisher": "BLS",
+          "date": "2022-05-11",
+          "verified": true,
+          "finding": "Annual CPI eased to 8.3%, following March 8.5%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Q1 2022",
+      "conditions": "Energy can delay the turn",
+      "next_check": null,
+      "asset_or_variable": "q1-2022-local-cpi-peak",
+      "modality": "asserted",
+      "confidence": "high",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Q1 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "075-C04"
+    },
+    {
+      "claim": "PMI momentum informs stocks",
+      "source_blocks": [
+        36
+      ],
+      "kind": "explanation",
+      "family": "pmi-equity-rate-of-change",
+      "verdict": "not_testable",
+      "reason": "No rule, lead time, sample, or success criterion is given for this recurring relationship. Charts can suggest a hypothesis but do not establish out-of-sample predictive power.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Freeze a PMI change rule and test price and total-return outcomes out of sample.",
+      "asset_or_variable": "pmi-equity-rate-of-change",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "075-C05"
+    },
+    {
+      "claim": "China rebounds while US cools",
+      "source_blocks": [
+        49,
+        56
+      ],
+      "kind": "forecast",
+      "family": "china-2022-credit-rebound",
+      "verdict": "wrong",
+      "reason": "China grew 3.0% in 2022 and real estate contracted. The expected broad recovery did not follow the political incentive to ease credit.",
+      "evidence": [
+        {
+          "url": "https://www.stats.gov.cn/english/PressRelease/202401/t20240110_1946428.html",
+          "title": "Final verification of 2022 GDP",
+          "publisher": "National Bureau of Statistics of China",
+          "date": "2023-12-29",
+          "verified": true,
+          "finding": "2022 growth was 3.0%; real estate contracted.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.worldbank.org/en/news/press-release/2022/06/08/covid-19-outbreaks-and-headwinds-have-disrupted-china-s-growth-normalization-world-bank-report",
+          "title": "China growth normalization disrupted",
+          "publisher": "World Bank",
+          "date": "2022-06-08",
+          "verified": true,
+          "finding": "After a strong early-2022 start, Omicron outbreaks and mobility restrictions disrupted growth normalization.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "china-2022-credit-rebound",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "075-C06"
+    },
+    {
+      "claim": "China property remains stagnant",
+      "source_blocks": [
+        49,
+        56
+      ],
+      "kind": "forecast",
+      "family": "china-property-downturn",
+      "verdict": "right",
+      "reason": "The 2022 real-estate contraction supports the sector distinction. This is not evidence that Chinese equities necessarily beat property.",
+      "evidence": [
+        {
+          "url": "https://www.stats.gov.cn/english/PressRelease/202401/t20240110_1946428.html",
+          "title": "Final verification of 2022 GDP",
+          "publisher": "National Bureau of Statistics of China",
+          "date": "2023-12-29",
+          "verified": true,
+          "finding": "2022 growth was 3.0%; real estate contracted.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Several years",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "china-property-downturn",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Several years",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "075-C07"
+    },
+    {
+      "claim": "Copper-gold shift signals risk",
+      "source_blocks": [
+        59,
+        74
+      ],
+      "kind": "forecast",
+      "family": "copper-gold-cycle-warning",
+      "verdict": "conditional_pending",
+      "reason": "The article says the signal has not yet occurred. Later volatility cannot validate an unobserved trigger without the exact ratio rule and trigger date. Four historical episodes also leave substantial overfitting risk.",
+      "evidence": [],
+      "horizon": "One to two years after trigger",
+      "conditions": "Copper/gold ratio confirms shift",
+      "next_check": "Recover chart rule and date a qualifying break using consistent price series.",
+      "asset_or_variable": "copper-gold-cycle-warning",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: One to two years after trigger",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "075-C08"
+    },
+    {
+      "claim": "Stimulus withdrawal pressures stocks",
+      "source_blocks": [
+        75,
+        87
+      ],
+      "kind": "explanation",
+      "family": "2022-tightening-equity-headwind",
+      "verdict": "right",
+      "reason": "The repeated warning matched the 2022 equity decline, and Fed policy did tighten. This is the same forecast family as December, not an independent new success.",
+      "evidence": [
+        {
+          "url": "https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2022/",
+          "title": "SPIVA U.S. Year-End 2022",
+          "publisher": "S&P Dow Jones Indices",
+          "date": "2023-03-07",
+          "verified": true,
+          "finding": "2022 stocks and investment-grade bonds both fell materially.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Policy target rose to 5.25-5.50%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-tightening-equity-headwind",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2022",
+      "mechanism_assessment": "Outcome supports direction; simultaneous inflation, war and earnings shocks prevent exclusive causal attribution.",
+      "id": "075-C09"
+    },
+    {
+      "claim": "Quality value remains preferable",
+      "source_blocks": [
+        88,
+        89
+      ],
+      "kind": "investment_thesis",
+      "family": "defensive-value-preference",
+      "verdict": "not_testable",
+      "reason": "The preferences do not define portfolio weights or a measurable relative-return target. Keep valuation reasoning separate from realized performance.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify sector basket, benchmark, currency and total-return window.",
+      "asset_or_variable": "defensive-value-preference",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "075-C10"
+    },
+    {
+      "claim": "Resource supply drives inflation",
+      "source_blocks": [
+        88,
+        97
+      ],
+      "kind": "explanation",
+      "family": "resource-underinvestment-inflation",
+      "verdict": "mixed",
+      "reason": "Oil production later reached records, illustrating supply responsiveness. Scarcity matters, but the long supply constraint must be evaluated jointly with demand and investment; a price spike alone cannot identify causation.",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=61545",
+          "title": "United States produces more crude oil than any country, ever",
+          "publisher": "EIA",
+          "date": "2024-03-11",
+          "verified": true,
+          "finding": "2023 production set a record, driven by Permian growth.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "resource-underinvestment-inflation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "075-C11"
+    },
+    {
+      "claim": "Kazakhstan disruption threatens supply",
+      "source_blocks": [
+        90,
+        97
+      ],
+      "kind": "forecast",
+      "family": "kazakhstan-resource-disruption",
+      "verdict": "conditional_pending",
+      "reason": "This is a risk scenario, not an unconditional prediction of prolonged uranium or oil shortfalls. Protest intensity alone does not establish realized production loss.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": "Unrest interrupts extraction or exports",
+      "next_check": "Check 2022 Kazatomprom production, oil exports and documented outage days.",
+      "asset_or_variable": "kazakhstan-resource-disruption",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "075-C12"
+    },
+    {
+      "claim": "Energy costs encourage unrest",
+      "source_blocks": [
+        90,
+        97
+      ],
+      "kind": "explanation",
+      "family": "energy-food-social-stress",
+      "verdict": "not_testable",
+      "reason": "A causal interpretation of unrest has no defined comparison or sufficient condition. Political institutions and distributional impacts can change responses to the same commodity shock.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Compare price changes and unrest across countries with explicit controls.",
+      "asset_or_variable": "energy-food-social-stress",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "075-C13"
+    },
+    {
+      "claim": "Bitcoin needs renewed demand",
+      "source_blocks": [
+        99,
+        117
+      ],
+      "kind": "explanation",
+      "family": "bitcoin-illiquid-supply",
+      "verdict": "right",
+      "reason": "The neutral stance recognizes that constrained tradable supply cannot prevent falling prices when demand retreats. BTC subsequently fell to $15,755.75 in 2022, supporting the caution rather than a renewed-bull forecast.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin daily price",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "BTC: $57,471.87 November 28, 2021; $15,755.75 November 21, 2022; first subsequent daily close above $70,000 March 11, 2024.",
+          "verification_method": "computed from coordinator-downloaded CSV, provenance research/evidence/series-manifest.json"
+        }
+      ],
+      "horizon": null,
+      "conditions": "Bullish turn requires new demand",
+      "next_check": null,
+      "asset_or_variable": "bitcoin-illiquid-supply",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "Supply/demand logic is valid; exact contribution of holder behavior remains unmeasured.",
+      "id": "075-C14"
+    },
+    {
+      "claim": "Asian selling largely finished",
+      "source_blocks": [
+        104,
+        106
+      ],
+      "kind": "explanation",
+      "family": "china-crypto-exchange-exit",
+      "verdict": "evidence_needed",
+      "reason": "Exchange wind-down dates do not establish that all affected investors completed liquidation. Price weakness after the deadline neither confirms nor disproves attribution.",
+      "evidence": [],
+      "horizon": "End 2021",
+      "conditions": null,
+      "next_check": "Verify exchange withdrawal deadlines and independently attributed flow data.",
+      "asset_or_variable": "china-crypto-exchange-exit",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: End 2021",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "075-C15"
+    },
+    {
+      "claim": "Bitcoin equity correlation later fades",
+      "source_blocks": [
+        110
+      ],
+      "kind": "forecast",
+      "family": "bitcoin-equity-correlation",
+      "verdict": "not_testable",
+      "reason": "No deadline, measurement window or target correlation was stated. Short windows can alternate signs without resolving a structural prediction.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Predeclare rolling window, equity index and end date.",
+      "asset_or_variable": "bitcoin-equity-correlation",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "075-C16"
+    },
+    {
+      "claim": "Dormancy signals attractive entry",
+      "source_blocks": [
+        111,
+        114
+      ],
+      "kind": "explanation",
+      "family": "bitcoin-dormancy-flow",
+      "verdict": "conditional_pending",
+      "reason": "The proposed exit-from-green condition had not yet triggered in the article. No score is assigned based on the earlier historical examples.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": "Dormancy flow exits identified zone",
+      "next_check": "Recover exact indicator construction and timestamp trigger without hindsight.",
+      "asset_or_variable": "bitcoin-dormancy-flow",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "075-C17"
+    },
+    {
+      "claim": "Regular accumulation suits holders",
+      "source_blocks": [
+        118
+      ],
+      "kind": "investment_thesis",
+      "family": "bitcoin-dollar-cost-averaging",
+      "verdict": "not_testable",
+      "reason": "Suitability depends on horizon, cash-flow constraints and acceptable loss. The article does not specify an outcome comparator or finite target.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Compare a fixed contribution plan against a specified alternative and risk budget.",
+      "asset_or_variable": "bitcoin-dollar-cost-averaging",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "075-C18"
+    },
+    {
+      "claim": "HDFC operational restrictions resolve",
+      "source_blocks": [
+        147,
+        148,
+        188,
+        190
+      ],
+      "kind": "forecast",
+      "family": "hdfc-digital-remediation",
+      "verdict": "right",
+      "reason": "HDFC announced the remaining Digital 2.0 restrictions were lifted in March 2022, following earlier card relief. This directly supports the remediation expectation, not the stock-return thesis.",
+      "evidence": [
+        {
+          "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/pdf/press-release/2022/q1-jan-mar/march/rbiliftsrestrictionsondigital20.pdf",
+          "title": "RBI lifts restrictions on Digital 2.0",
+          "publisher": "HDFC Bank",
+          "date": "2022-03-12",
+          "verified": true,
+          "finding": "RBI lifted remaining Digital 2.0 restrictions March 11, 2022.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Near term",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "hdfc-digital-remediation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Near term",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "075-C19"
+    },
+    {
+      "claim": "December local bottom preceded rebound",
+      "source_blocks": [
+        150
+      ],
+      "kind": "empirical",
+      "family": "hdfc-december-2021-bottom",
+      "verdict": "right",
+      "reason": "The statement describes a local low followed by an already-observed rebound. Split-adjusted HDB closes rose from $30.985 on December 20 to $35.295 on January 7. May 2022 later broke that low, but the article did not claim an unbreakable floor.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/HDB/history/",
+          "title": "HDB historical daily market data",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Split-adjusted HDB: December 20, 2021 $30.985; January 7, 2022 $35.295; May 9 $25.35. Prices reflect later split adjustment.",
+          "verification_method": "computed from coordinator-downloaded research/evidence/market CSV; adjusted-close total-return proxy or split-adjusted close as explicitly stated; no fees or taxes"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "hdfc-december-2021-bottom",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported on the specified observation or horizon.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "Retrospective local-bottom observation, not a forecast hit.",
+      "id": "075-C20"
+    },
+    {
+      "claim": "India enables bank growth",
+      "source_blocks": [
+        153,
+        166
+      ],
+      "kind": "explanation",
+      "family": "india-credit-deepening",
+      "verdict": "mixed",
+      "reason": "HDFC book value per share rose from INR 432.95 in FY2022 to INR 579.51 in FY2024. Growth is real, but the 2023 merger changes the comparison and does not prove demographics caused it.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1144967/000119312524186700/d872712dex99.htm",
+          "title": "Integrated Annual Report 2023-24",
+          "publisher": "HDFC Bank / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Book value per share increased from INR 432.95 FY2022 to INR 579.51 FY2024; July 2023 merger complicates comparison.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Separate organic loan, deposit, EPS growth from acquired balances and currency.",
+      "asset_or_variable": "india-credit-deepening",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "075-C21"
+    },
+    {
+      "claim": "HDFC offers reasonable value",
+      "source_blocks": [
+        151,
+        169,
+        174
+      ],
+      "kind": "investment_thesis",
+      "family": "hdfc-growth-valuation",
+      "verdict": "not_testable",
+      "reason": "Premium book valuation can be justified only by future sustainable returns on equity and growth. PEG comparisons across banks and software ignore different capital and credit risks.",
+      "evidence": [],
+      "horizon": "Several years",
+      "conditions": null,
+      "next_check": "Specify required shareholder return and a book-value/ROE valuation model.",
+      "asset_or_variable": "hdfc-growth-valuation",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Several years",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "075-C22"
+    },
+    {
+      "claim": "HDFC approaches JPMorgan scale",
+      "source_blocks": [
+        175
+      ],
+      "kind": "forecast",
+      "family": "hdfc-jpmorgan-relative-scale",
+      "verdict": "not_testable",
+      "reason": "An eventual half-size claim has no deadline and combines market capitalization with book value, two different targets. Each needs a separate endpoint.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Set deadline, reporting basis and foreign-exchange conversion for both ratios.",
+      "asset_or_variable": "hdfc-jpmorgan-relative-scale",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "075-C23"
+    },
+    {
+      "claim": "Dollar book value triples",
+      "source_blocks": [
+        176
+      ],
+      "kind": "forecast",
+      "family": "hdfc-dollar-book-value-decade",
+      "verdict": "too_early",
+      "reason": "The 2032 endpoint remains future. A merger can enlarge total equity without proportionately benefiting existing shareholders, so per-share USD book value is the relevant test.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1144967/000119312524186700/d872712dex99.htm",
+          "title": "Integrated Annual Report 2023-24",
+          "publisher": "HDFC Bank / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Book value per share increased from INR 432.95 FY2022 to INR 579.51 FY2024; July 2023 merger complicates comparison.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Next decade",
+      "conditions": null,
+      "next_check": "Measure split/ADR-adjusted USD book value per original share at 2032 endpoint.",
+      "asset_or_variable": "hdfc-dollar-book-value-decade",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Next decade",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "075-C24"
+    },
+    {
+      "claim": "HDFC beats Indian equities",
+      "source_blocks": [
+        178
+      ],
+      "kind": "investment_thesis",
+      "family": "hdfc-india-outperformance",
+      "verdict": "too_early",
+      "reason": "The decade is incomplete. A fair test uses matched currency and reinvested dividends, with no automatic credit for rapid national GDP growth.",
+      "evidence": [],
+      "horizon": "Next decade",
+      "conditions": null,
+      "next_check": "Compare HDB total return with a predeclared Indian equity benchmark through 2032.",
+      "asset_or_variable": "hdfc-india-outperformance",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Next decade",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "075-C25"
+    },
+    {
+      "claim": "Oil pressures Indian importers",
+      "source_blocks": [
+        180,
+        185
+      ],
+      "kind": "explanation",
+      "family": "india-energy-import-vulnerability",
+      "verdict": "evidence_needed",
+      "reason": "The accounting exposure is credible but equity hedging effectiveness requires quantified import costs, rupee movement and hedge returns. A high oil price alone does not demonstrate portfolio protection.",
+      "evidence": [],
+      "horizon": "Five or more years",
+      "conditions": null,
+      "next_check": "Test India current-account sensitivity and a predeclared energy hedge.",
+      "asset_or_variable": "india-energy-import-vulnerability",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Five or more years",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "075-C26"
+    },
+    {
+      "claim": "India-Russia pairing diversifies",
+      "source_blocks": [
+        186
+      ],
+      "kind": "investment_thesis",
+      "family": "india-russia-barbell",
+      "verdict": "mixed",
+      "reason": "Commodity-importer and exporter exposures are complementary in principle. However, Sberbank blocking sanctions in 2022 show that a foreign-investor implementation could lose access when the hedge mattered. This is an implementation failure, not proof that the underlying macro correlations are false.",
+      "evidence": [
+        {
+          "url": "https://2021-2025.state.gov/targeting-additional-russian-financial-institutions-officials-and-other-individuals/",
+          "title": "Targeting additional Russian financial institutions",
+          "publisher": "US Department of State",
+          "date": "2022-04-06",
+          "verified": true,
+          "finding": "Sberbank became subject to full blocking sanctions.",
+          "verification_method": "retrieved official statement search extract"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Reconstruct the actual investable holdings, sanctions eligibility and distribution access before computing portfolio performance.",
+      "asset_or_variable": "india-russia-barbell",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Economic complementarity plausible; investability premise materially impaired.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "Commodity diversification omitted sanctions and custody risk.",
+      "id": "075-C27"
+    },
+    {
+      "claim": "Expensive equities face compression",
+      "source_blocks": [
+        199,
+        207
+      ],
+      "kind": "forecast",
+      "family": "us-megacap-valuation-risk",
+      "verdict": "right",
+      "reason": "Broad US equities suffered in 2022 and investment-grade bonds also declined. This supports the risk warning, but not a claim that every named stock peaked at publication.",
+      "evidence": [
+        {
+          "url": "https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2022/",
+          "title": "SPIVA U.S. Year-End 2022",
+          "publisher": "S&P Dow Jones Indices",
+          "date": "2023-03-07",
+          "verified": true,
+          "finding": "2022 stocks and investment-grade bonds both fell materially.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "us-megacap-valuation-risk",
+      "modality": "vulnerable",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "075-C28"
+    },
+    {
+      "claim": "Valuation alone cannot time",
+      "source_blocks": [
+        203,
+        207
+      ],
+      "kind": "explanation",
+      "family": "valuation-needs-catalyst",
+      "verdict": "not_testable",
+      "reason": "This methodological qualification is sensible but not an empirical forecast with a finite resolution. It also limits how much credit the preceding warning deserves.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Evaluate any explicit valuation-plus-catalyst rule independently.",
+      "asset_or_variable": "valuation-needs-catalyst",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "075-C29"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Copper/gold ratio",
+      "source_blocks": [
+        59,
+        74
+      ],
+      "use": "Cycle warning",
+      "image_inspected": false
+    },
+    {
+      "name": "Dormancy flow",
+      "source_blocks": [
+        111,
+        114
+      ],
+      "use": "Entry condition",
+      "image_inspected": false
+    },
+    {
+      "name": "Book value and PEG",
+      "source_blocks": [
+        169,
+        178
+      ],
+      "use": "Bank valuation",
+      "image_inspected": false
+    },
+    {
+      "name": "Household leverage",
+      "source_blocks": [
+        153,
+        166
+      ],
+      "use": "Credit capacity",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Growth runway needs per-share valuation discipline.",
+    "Treat supply scarcity and new demand separately."
+  ],
+  "assessment": "The report increasingly separated long-term Bitcoin optimism from tactical caution. Macro risk warnings were useful, while China optimism failed. HDFC remediation is independently confirmed, but decade investment outcomes remain open. The Russia pairing exposes a major blind spot: national balance-sheet strength does not guarantee foreign shareholder access.",
+  "verification_limitations": [
+    "Captured website text is not an authenticated publication-date version.",
+    "Chart-only numerical claims have not been visually verified.",
+    "Selected stock/ETF adjusted-close comparisons are disclosed where used; no reconstructed portfolio backtest has been performed.",
+    "Unresolved verdicts are not forecast failures or successes; no aggregate hit rate is inferred."
+  ]
+}

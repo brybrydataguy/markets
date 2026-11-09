@@ -1,0 +1,247 @@
+{
+  "article_id": "007",
+  "title": "Elevated Market Risk Alert",
+  "date": "2020-01-26",
+  "source_url": "https://www.lynalden.com/premium-2020-1-26/",
+  "read_complete": true,
+  "summary": "Technical excess and coronavirus justify elevated risk.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "Equities are unusually technically overbought",
+      "kind": "empirical",
+      "source_blocks": [
+        5,
+        8,
+        10
+      ],
+      "family": "2020-equity-overbought",
+      "asset_or_variable": "US equity technicals",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The exact RSI/MACD settings and chart interval are needed to reproduce the claim that conditions were the most extreme since January 2018. A later correction does not verify an indicator reading.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Recompute source-chart RSI/MACD from the specified price series and lookback, including 2018 comparison.",
+      "id": "007-C01"
+    },
+    {
+      "claim": "Buyer exhaustion raises downside asymmetry",
+      "kind": "explanation",
+      "source_blocks": [
+        9,
+        12
+      ],
+      "family": "technical-exhaustion",
+      "asset_or_variable": "US equities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Price momentum alone does not measure remaining buyers or establish causation. The author explicitly avoids claiming a certain next-week crash.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "007-C02"
+    },
+    {
+      "claim": "China matters more globally than during SARS",
+      "kind": "explanation",
+      "source_blocks": [
+        15
+      ],
+      "family": "china-global-integration",
+      "asset_or_variable": "Global exposure to China",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The proposition requires comparable GDP, trade and travel shares for 2003 and 2020. The mechanism is plausible but those denominators have not been verified.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare World Bank GDP/trade shares and outbound travel using same definitions.",
+      "id": "007-C03"
+    },
+    {
+      "claim": "Silent transmission could complicate containment",
+      "kind": "forecast",
+      "source_blocks": [
+        17
+      ],
+      "family": "covid-presymptomatic-spread",
+      "asset_or_variable": "COVID-19",
+      "horizon": null,
+      "conditions": null,
+      "modality": "uncertain risk",
+      "verdict": "right",
+      "reason": "Subsequent CDC investigation documented likely presymptomatic transmission and explained the containment challenge. This supports the qualitative concern, not every early incubation estimate.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.cdc.gov/mmwr/volumes/69/wr/mm6914e1.htm",
+          "title": "Presymptomatic transmission in Singapore",
+          "publisher": "CDC MMWR",
+          "date": "2020-04-01",
+          "verified": true,
+          "finding": "Investigation identified seven clusters consistent with presymptomatic transmission; in four clusters exposure occurred one to three days before source-patient symptoms. This created containment difficulties."
+        }
+      ],
+      "next_check": null,
+      "id": "007-C04"
+    },
+    {
+      "claim": "China disruption spills into global growth",
+      "kind": "forecast",
+      "source_blocks": [
+        19
+      ],
+      "family": "covid-global-economic-shock",
+      "asset_or_variable": "Global economy",
+      "horizon": "near term",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The later global pandemic and US contraction confirm economic damage, but they do not isolate spillovers from China from domestic outbreaks. The original China-only pathway needs separate evidence.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: near term",
+      "mechanism_assessment": "Travel and production disruption supported; China-only attribution unresolved.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/news/2020/gross-domestic-product-1st-quarter-2020-advance-estimate",
+          "title": "First-quarter 2020 GDP advance estimate",
+          "publisher": "BEA",
+          "date": "2020-04-29",
+          "verified": true,
+          "finding": "Initial Q1 real GDP estimate was -4.8% annualized. BEA linked the decline partly to pandemic responses, with lower services and travel exports, while warning the complete COVID effect could not be isolated."
+        }
+      ],
+      "next_check": null,
+      "id": "007-C05"
+    },
+    {
+      "claim": "Past-outbreak pattern could mean temporary disruption",
+      "kind": "forecast",
+      "source_blocks": [
+        19
+      ],
+      "family": "covid-temporary-scenario",
+      "asset_or_variable": "COVID economic damage",
+      "horizon": null,
+      "conditions": "Outbreak resembles previous contained episodes",
+      "modality": "conditional",
+      "verdict": "conditional_pending",
+      "reason": "The benign outcome was conditional on a past-outbreak-like course. The worldwide pandemic violated that trigger; the scenario is neither an unconditional miss nor a forecast win.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Do not score as a realized branch; compare explicit later revisions when containment fails.",
+      "id": "007-C06"
+    },
+    {
+      "claim": "A severe outbreak remains a tail risk",
+      "kind": "forecast",
+      "source_blocks": [
+        20
+      ],
+      "family": "covid-severe-tail",
+      "asset_or_variable": "COVID-19",
+      "horizon": null,
+      "conditions": null,
+      "modality": "tail risk",
+      "verdict": "right",
+      "reason": "A severe pandemic and substantial economic interruption occurred. Credit this as identifying a material risk, not as an accurate numerical probability or magnitude forecast.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/news/2020/gross-domestic-product-1st-quarter-2020-advance-estimate",
+          "title": "First-quarter 2020 GDP advance estimate",
+          "publisher": "BEA",
+          "date": "2020-04-29",
+          "verified": true,
+          "finding": "Initial Q1 real GDP estimate was -4.8% annualized. BEA linked the decline partly to pandemic responses, with lower services and travel exports, while warning the complete COVID effect could not be isolated."
+        },
+        {
+          "url": "https://www.cdc.gov/mmwr/volumes/69/wr/mm6914e1.htm",
+          "title": "Presymptomatic transmission in Singapore",
+          "publisher": "CDC MMWR",
+          "date": "2020-04-01",
+          "verified": true,
+          "finding": "Investigation identified seven clusters consistent with presymptomatic transmission; in four clusters exposure occurred one to three days before source-patient symptoms. This created containment difficulties."
+        }
+      ],
+      "next_check": null,
+      "id": "007-C07"
+    },
+    {
+      "claim": "Monday is likely to gap lower",
+      "kind": "forecast",
+      "source_blocks": [
+        21
+      ],
+      "family": "jan27-opening-gap",
+      "asset_or_variable": "S&P 500 opening level",
+      "horizon": "Monday January 27, 2020",
+      "conditions": null,
+      "modality": "good chance",
+      "verdict": "right",
+      "reason": "The S&P 500 opened January 27, 2020 at 3247.16, below the January 24 close of 3295.47, a 1.47% opening gap. This verifies the explicit next-session directional forecast, separately from the later pandemic crash.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "Original horizon retained: Monday January 27, 2020",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/%5EGSPC/history/?filter=history&frequency=1d&includeAdjustedClose=true&interval=1d&period1=1193097600&period2=1716595200",
+          "title": "S&P 500 historical OHLC",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "January 27, 2020 open 3247.16; prior January 24 close 3295.47; opening gap -1.47%."
+        }
+      ],
+      "next_check": null,
+      "id": "007-C08"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "RSI and MACD",
+      "source_blocks": [
+        5,
+        10
+      ],
+      "use": "Momentum extremes",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Combine positioning with a plausible shock."
+  ],
+  "assessment": "This was a timely warning about a material emerging risk. It did not predict the full pandemic path or a certain immediate crash, and should not be credited retrospectively with either. The next-day gap call is unusually testable but awaits a verified opening-price source.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "No complete adjusted total-return series or original-vintage macro database was available for this review. Unverified outcomes are explicitly unscored."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "00a2bdb9ee3261057d69a6342f3bce92d8c77cfc4c782674efd99a1a12c9119b"
+}

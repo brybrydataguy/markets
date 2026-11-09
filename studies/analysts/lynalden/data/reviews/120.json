@@ -1,0 +1,1401 @@
+{
+  "article_id": "120",
+  "title": "Visa Deep Dive Analysis",
+  "date": "2023-10-01",
+  "source_url": "https://www.lynalden.com/premium-2023-10-1/",
+  "read_complete": true,
+  "evaluation_as_of": "2026-11-07",
+  "summary": "Visa, NFTs and duration.",
+  "assessment": "Visa’s business growth and Egypt’s devaluation support core calls. Equity-top caution failed; Visa lagged Apple in the disclosed return comparison. NFT skepticism was useful, but precise value claims need better evidence. Debt-maturity wording overstates Visa’s refinancing distance. Long disruption horizons remain open.",
+  "claims": [
+    {
+      "claim": "Liquidity offsets continue.",
+      "source_blocks": [
+        9
+      ],
+      "verdict": "mixed",
+      "reason": "Reverse-repo drawdown can offset reserve effects of asset runoff. The result depends on Treasury cash, purchaser identity and other Fed liabilities; a visually flat proxy is not equivalent to unchanged financial conditions.",
+      "kind": "explanation",
+      "family": "rrp-qt-buffer",
+      "asset_or_variable": "rrp-qt-buffer",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Reconcile the full balance-sheet identity and specify the chart tolerance.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C01"
+    },
+    {
+      "claim": "Equity rally ended.",
+      "source_blocks": [
+        11
+      ],
+      "verdict": "wrong",
+      "reason": "The S&P 500 exceeded its prior closing record on January 19, 2024, reaching 4,839.81 versus 4,796.56. SPY gained 23.07% in the next six-month sensitivity. The source is tentative, but the proposed cyclical top did not hold.",
+      "kind": "forecast",
+      "family": "spx-bear-rally-top-2023",
+      "asset_or_variable": "spx-bear-rally-top-2023",
+      "horizon": null,
+      "conditions": null,
+      "modality": "tentative argument",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/%5EGSPC/history/",
+          "title": "S&P 500 daily closes",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Previous closing maximum 4,796.56; first subsequent higher close January 19, 2024 at 4,839.81."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "SPY adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-10-01\", \"requested_endpoint\": \"2024-04-01\", \"entry\": \"2023-10-02\", \"exit\": \"2024-04-01\", \"days\": 182, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"SPY\": {\"entry_adjusted_close\": 412.0986328125, \"exit_adjusted_close\": 507.1847839355469, \"cumulative_return_pct\": 23.07363906405144, \"annualized_return_pct\": 51.68734488638984, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}, \"BIL\": {\"entry_adjusted_close\": 80.1910629272461, \"exit_adjusted_close\": 82.31513977050781, \"cumulative_return_pct\": 2.6487700321278895, \"annualized_return_pct\": 5.386620718605428, \"source\": \"https://finance.yahoo.com/quote/BIL/history/\"}}, \"excess_percentage_points\": 20.424869031923553}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C02"
+    },
+    {
+      "claim": "Cash offers defense.",
+      "source_blocks": [
+        11,
+        12,
+        137,
+        148,
+        170
+      ],
+      "verdict": "not_testable",
+      "reason": "BIL returned 2.65% versus SPY 23.07% in the next six-month sensitivity. That shows opportunity cost, but the author asks a volatility-adjusted question without specifying a metric or horizon. Cash defense and maximum terminal wealth are different objectives.",
+      "kind": "investment_thesis",
+      "family": "cash-over-equities-2023",
+      "asset_or_variable": "cash-over-equities-2023",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "SPY adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-10-01\", \"requested_endpoint\": \"2024-04-01\", \"entry\": \"2023-10-02\", \"exit\": \"2024-04-01\", \"days\": 182, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"SPY\": {\"entry_adjusted_close\": 412.0986328125, \"exit_adjusted_close\": 507.1847839355469, \"cumulative_return_pct\": 23.07363906405144, \"annualized_return_pct\": 51.68734488638984, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}, \"BIL\": {\"entry_adjusted_close\": 80.1910629272461, \"exit_adjusted_close\": 82.31513977050781, \"cumulative_return_pct\": 2.6487700321278895, \"annualized_return_pct\": 5.386620718605428, \"source\": \"https://finance.yahoo.com/quote/BIL/history/\"}}, \"excess_percentage_points\": 20.424869031923553}"
+        }
+      ],
+      "next_check": "Specify the loss constraint, volatility measure, capital availability and holding period.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C03"
+    },
+    {
+      "claim": "Dollar strength tightens.",
+      "source_blocks": [
+        13,
+        15,
+        16
+      ],
+      "verdict": "mixed",
+      "reason": "A stronger dollar reduces a fixed foreign-money stock when translated into dollars and can raise unhedged debt-service burdens. Those identities do not establish that the translated aggregate is a sufficient causal predictor of asset prices.",
+      "kind": "explanation",
+      "family": "global-m2-dollar-translation",
+      "asset_or_variable": "global-m2-dollar-translation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Distinguish local money growth, exchange rates and borrower exposure.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C04"
+    },
+    {
+      "claim": "Egypt devalues soon.",
+      "source_blocks": [
+        16
+      ],
+      "verdict": "right",
+      "reason": "The March 6, 2024 official depreciation occurred within the specified first-half deadline. Temporary bilateral support did not prevent the adjustment.",
+      "kind": "forecast",
+      "family": "egypt-devaluation-2024",
+      "asset_or_variable": "egypt-devaluation-2024",
+      "horizon": "First half of 2024 or sooner",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.imf.org/en/-/media/files/publications/cr/2024/english/1egyea2024001.pdf",
+          "title": "Egypt program review",
+          "publisher": "IMF",
+          "date": null,
+          "verified": true,
+          "finding": "March 6, 2024 exchange-rate unification brought a 38% official depreciation against USD."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "First half of 2024 or sooner",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C05"
+    },
+    {
+      "claim": "Fed squeezes foreigners.",
+      "source_blocks": [
+        17
+      ],
+      "verdict": "mixed",
+      "reason": "Dollar debt and commodity import exposure provide a plausible international transmission channel. The further assertion of an intentional strategy requires policymaker evidence; the selected historical crises also involved local balance sheets and policy choices.",
+      "kind": "explanation",
+      "family": "fed-foreign-demand-disinflation",
+      "asset_or_variable": "fed-foreign-demand-disinflation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Separate documented policy objectives from inferred cross-border consequences.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C06"
+    },
+    {
+      "claim": "Sector analysis helps.",
+      "source_blocks": [
+        21,
+        24,
+        25,
+        26
+      ],
+      "verdict": "not_testable",
+      "reason": "This is an analytical preference rather than a dated forecast. It usefully distinguishes refinancing exposure and fiscal recipients, but needs sector-level predictions to establish forecasting superiority over aggregate indicators.",
+      "kind": "explanation",
+      "family": "two-economies-sector-framework",
+      "asset_or_variable": "two-economies-sector-framework",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Track predefined sectors and compare with an aggregate baseline.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C07"
+    },
+    {
+      "claim": "Property lands hard.",
+      "source_blocks": [
+        22
+      ],
+      "verdict": "mixed",
+      "reason": "Office distress and refinancing pressure were well diagnosed. The cited evidence is strongest for offices, while the source uses the broader commercial-real-estate category and leaves the severity threshold undefined.",
+      "kind": "forecast",
+      "family": "commercial-property-hard-landing",
+      "asset_or_variable": "commercial-property-hard-landing",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/April-2024-financial-stability-report-asset-valuations.htm",
+          "title": "Commercial property valuations",
+          "publisher": "Federal Reserve",
+          "date": "2024-04-19",
+          "verified": true,
+          "finding": "Office conditions deteriorated, with falling prices, high vacancies, weak rents and refinancing pressure."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C08"
+    },
+    {
+      "claim": "Unemployment stays moderate.",
+      "source_blocks": [
+        22
+      ],
+      "verdict": "right",
+      "reason": "The unemployment rate remained between 3.7% and 4.4% from October 2023 through September 2025 in the downloaded vintage. That supports the qualitative two-year call, although very high was not given a numerical boundary.",
+      "kind": "forecast",
+      "family": "unemployment-no-hard-landing-2023",
+      "asset_or_variable": "unemployment-no-hard-landing-2023",
+      "horizon": "Next couple of years",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/UNRATE",
+          "title": "UNRATE observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "October 2023-September 2025 range 3.7%-4.4%; latest vintage."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Next couple of years",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C09"
+    },
+    {
+      "claim": "Inflation returns conditionally.",
+      "source_blocks": [
+        31,
+        32,
+        33
+      ],
+      "verdict": "not_testable",
+      "reason": "The scenario requires renewed monetary-base expansion, persistent deficits and tight physical supply. The author explicitly declines a three-to-six-month inflation call. An undated conditional cycle cannot be marked successful merely because a later geopolitical shock raises energy prices.",
+      "kind": "forecast",
+      "family": "second-inflation-wave",
+      "asset_or_variable": "second-inflation-wave",
+      "horizon": null,
+      "conditions": "Persistent deficits, renewed base expansion and tight energy supply",
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Define the trigger dates, inflation measure, expected lag and competing supply shocks.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C10"
+    },
+    {
+      "claim": "Supply repair matters.",
+      "source_blocks": [
+        32
+      ],
+      "verdict": "mixed",
+      "reason": "Improved supply can lower inflation with less output loss, but a permanent reduction in nominal demand growth can also produce sustained disinflation. The assertion that only supply repair can persist is stronger than the evidence establishes.",
+      "kind": "explanation",
+      "family": "supply-versus-demand-disinflation",
+      "asset_or_variable": "supply-versus-demand-disinflation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Compare sustained demand restraint, supply recovery and inflation expectations separately.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C11"
+    },
+    {
+      "claim": "Oil rewards patience.",
+      "source_blocks": [
+        33
+      ],
+      "verdict": "not_testable",
+      "reason": "Current operating profitability and distributions can reduce waiting costs but cannot guarantee a positive investment return through a commodity downturn. The source gives no portfolio weights or fixed exit horizon.",
+      "kind": "investment_thesis",
+      "family": "oil-positive-carry",
+      "asset_or_variable": "oil-positive-carry",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Stress commodity prices, capital needs, distributions and balance sheets by issuer.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C12"
+    },
+    {
+      "claim": "Bitcoin remains attractive.",
+      "source_blocks": [
+        37
+      ],
+      "verdict": "mixed",
+      "reason": "BTC’s disclosed October 2, 2023-November 6, 2026 sensitivity returned 175.14% versus SPY 78.43%, favorable directional evidence. The author leaves the intermediate/long horizon undefined and explicitly avoids a six-month call; this is not a precisely timed victory.",
+      "kind": "investment_thesis",
+      "family": "bitcoin-long-horizon-2023",
+      "asset_or_variable": "bitcoin-long-horizon-2023",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-10-01\", \"requested_endpoint\": \"2026-11-07\", \"entry\": \"2023-10-02\", \"exit\": \"2026-11-06\", \"days\": 1131, \"endpoint_gap_days\": 1, \"endpoint_covered\": true, \"instruments\": {\"BTC-USD\": {\"entry_adjusted_close\": 27530.78515625, \"exit_adjusted_close\": 75746.9296875, \"cumulative_return_pct\": 175.13537756951342, \"annualized_return_pct\": 38.65930370562172, \"source\": \"https://finance.yahoo.com/quote/BTC-USD/history/\"}, \"SPY\": {\"entry_adjusted_close\": 412.0986328125, \"exit_adjusted_close\": 735.2899780273438, \"cumulative_return_pct\": 78.42572614452035, \"annualized_return_pct\": 20.56097646719257, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 96.70965142499307}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C13"
+    },
+    {
+      "claim": "Average Bitcoin purchases.",
+      "source_blocks": [
+        37
+      ],
+      "verdict": "not_testable",
+      "reason": "Purchase averaging changes timing concentration and investor behavior. Calling it best needs an objective and a matched capital-availability comparison; no single schedule dominates all paths.",
+      "kind": "investment_thesis",
+      "family": "bitcoin-dollar-cost-averaging",
+      "asset_or_variable": "bitcoin-dollar-cost-averaging",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Compare fixed purchase plans under the same risk budget.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C14"
+    },
+    {
+      "claim": "NFT caution succeeded.",
+      "source_blocks": [
+        39,
+        40,
+        42,
+        46,
+        49,
+        50,
+        74
+      ],
+      "verdict": "right",
+      "reason": "Independent industry data confirm the subsequent contraction in trading value. This is a retrospective reaffirmation of earlier warnings, not a new independent forecast or proof that every collection became worthless.",
+      "kind": "empirical",
+      "family": "nft-speculative-bust",
+      "asset_or_variable": "nft-speculative-bust",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://dappradar.com/blog/dapp-industry-report-2023-defi-nft-web3-games",
+          "title": "Dapp industry report 2023",
+          "publisher": "DappRadar",
+          "date": "2024-01-11",
+          "verified": true,
+          "finding": "NFT trading value fell 49% to $12.6bn in 2023, while transaction count and participating wallets increased. Value, count and platform market share are different measures."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C15"
+    },
+    {
+      "claim": "NFT self-trading distorts.",
+      "source_blocks": [
+        44
+      ],
+      "verdict": "right",
+      "reason": "Independent transaction tracing documents sales to self-financed addresses, supporting the manipulation mechanism. The original explicitly does not estimate prevalence; the audit should preserve that restraint.",
+      "kind": "explanation",
+      "family": "nft-wash-trading",
+      "asset_or_variable": "nft-wash-trading",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.chainalysis.com/blog/2022-crypto-crime-report-preview-nft-wash-trading-money-laundering/",
+          "title": "NFT wash-trading analysis",
+          "publisher": "Chainalysis",
+          "date": "2022-02-02",
+          "verified": true,
+          "finding": "On-chain tracing identified repeated NFT sales to addresses financed by the seller, supporting the existence of self-trading without proving every high-price sale was fraudulent."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C16"
+    },
+    {
+      "claim": "NFTs are worthless.",
+      "source_blocks": [
+        49
+      ],
+      "verdict": "evidence_needed",
+      "reason": "The cited original study could not be retrieved. A zero recorded collection capitalization is also not necessarily an executable liquidation price or a test of every token. The precise 95% claim remains unverified rather than borrowing confidence from the broader market decline.",
+      "kind": "empirical",
+      "family": "nft-zero-value-percentage",
+      "asset_or_variable": "nft-zero-value-percentage",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Recover the original sample, valuation rules and collection-level data.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C17"
+    },
+    {
+      "claim": "NFTs bounce cyclically.",
+      "source_blocks": [
+        53
+      ],
+      "verdict": "not_testable",
+      "reason": "Bounce has no fixed size, interval or universe. Trading value, sale count and collection prices can move differently, so a later activity increase cannot alone settle the assertion.",
+      "kind": "forecast",
+      "family": "nft-next-cycle-bounce",
+      "asset_or_variable": "nft-next-cycle-bounce",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Specify a fixed collection basket and comparable volume and price measures.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C18"
+    },
+    {
+      "claim": "Early collections endure.",
+      "source_blocks": [
+        53
+      ],
+      "verdict": "not_testable",
+      "reason": "Historical priority cannot be recreated, but its price premium depends on demand and on which sets qualify as early. No value floor or deadline is supplied.",
+      "kind": "forecast",
+      "family": "nft-provenance-premium",
+      "asset_or_variable": "nft-provenance-premium",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Define the cohort and residual-value threshold before testing.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C19"
+    },
+    {
+      "claim": "NFTs empower creators.",
+      "source_blocks": [
+        54,
+        55,
+        56
+      ],
+      "verdict": "not_testable",
+      "reason": "Funding volume, creator income, cultural impact and delivery quality are different outcomes. The Kickstarter comparison is an evaluative judgment, while NFT royalties also depend on marketplace and contract enforcement.",
+      "kind": "explanation",
+      "family": "nft-versus-crowdfunding-utility",
+      "asset_or_variable": "nft-versus-crowdfunding-utility",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Compare net creator income, delivered work and buyer outcomes across matched projects.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C20"
+    },
+    {
+      "claim": "Speculation degrades gaming.",
+      "source_blocks": [
+        69,
+        71,
+        72,
+        73
+      ],
+      "verdict": "not_testable",
+      "reason": "Financial incentives can encourage grinding and automation, but fun and quality lack defined measures here. Token ownership also does not oblige another publisher to support an item. The argument is a design critique, not a demonstrated universal game outcome.",
+      "kind": "explanation",
+      "family": "blockchain-gaming-incentives",
+      "asset_or_variable": "blockchain-gaming-incentives",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Measure retention and player satisfaction separately from token prices and paid activity.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C21"
+    },
+    {
+      "claim": "Decentralization requires justification.",
+      "source_blocks": [
+        73
+      ],
+      "verdict": "not_testable",
+      "reason": "A replicated consensus system incurs costs in exchange for particular trust properties. Whether those properties justify a game design depends on the threat model and alternatives; the rule is a decision framework rather than a numerical forecast.",
+      "kind": "explanation",
+      "family": "blockchain-use-case-threshold",
+      "asset_or_variable": "blockchain-use-case-threshold",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "State the required trust property and compare centralized and decentralized implementations.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C22"
+    },
+    {
+      "claim": "AGLD never recovers.",
+      "source_blocks": [
+        76
+      ],
+      "verdict": "not_testable",
+      "reason": "The sampled pre-article high was $7.63 on September 3, 2021; the later maximum through the cutoff was $3.18 on November 13, 2024. That is supportive interim evidence, but an unbounded never proposition cannot yet be resolved as permanently right.",
+      "kind": "forecast",
+      "family": "agld-no-new-high",
+      "asset_or_variable": "agld-no-new-high",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/AGLD-USD/history/",
+          "title": "Adventure Gold daily history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Daily-high maxima: pre-October 2023 $7.627916; after publication through cutoff $3.181095."
+        }
+      ],
+      "next_check": "Continue checking the original peak without inventing an expiry.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C23"
+    },
+    {
+      "claim": "Tokenization broadens access.",
+      "source_blocks": [
+        79,
+        82
+      ],
+      "verdict": "mixed",
+      "reason": "Portable tokens can reduce some distribution friction. A token does not automatically convey enforceable equity ownership, redemption, unrestricted access or a safe dollar claim; issuer, custody and jurisdictional constraints remain.",
+      "kind": "explanation",
+      "family": "tokenization-access-versus-rights",
+      "asset_or_variable": "tokenization-access-versus-rights",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Examine ownership terms, transfer restrictions, redemption and counterparty exposure for each product.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C24"
+    },
+    {
+      "claim": "Orbs tokenize services.",
+      "source_blocks": [
+        83,
+        84,
+        85
+      ],
+      "verdict": "mixed",
+      "reason": "The published product design supports recurring access and a self-assessed resale price with ongoing charges. An available resale price does not guarantee a buyer or liquid market, and current product descriptions are not a complete archived 2023 contract audit.",
+      "kind": "explanation",
+      "family": "orb-service-market",
+      "asset_or_variable": "orb-service-market",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://orb.land/",
+          "title": "Orb Land product description",
+          "publisher": "Orb Land",
+          "date": null,
+          "verified": true,
+          "finding": "The design links an NFT to a service commitment and records actions publicly; holders set a resale price that determines a recurring charge."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C25"
+    },
+    {
+      "claim": "Records enforce reputation.",
+      "source_blocks": [
+        86,
+        87
+      ],
+      "verdict": "mixed",
+      "reason": "A public record can reveal missed responses and make promises inspectable. It cannot force useful answers or rule out legal enforcement of an underlying service agreement. The contract design verifies a record, not the quality or completeness of performance.",
+      "kind": "explanation",
+      "family": "orb-reputation-enforcement",
+      "asset_or_variable": "orb-reputation-enforcement",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://orb.land/",
+          "title": "Orb Land product description",
+          "publisher": "Orb Land",
+          "date": null,
+          "verified": true,
+          "finding": "The design links an NFT to a service commitment and records actions publicly; holders set a resale price that determines a recurring charge."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C26"
+    },
+    {
+      "claim": "Carrying costs discourage speculation.",
+      "source_blocks": [
+        88
+      ],
+      "verdict": "mixed",
+      "reason": "A recurring charge penalizes passive hoarding, but does not logically eliminate speculation or guarantee productive use. A user could still expect access scarcity or resale prices to change.",
+      "kind": "explanation",
+      "family": "harberger-tax-incentives",
+      "asset_or_variable": "harberger-tax-incentives",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://orb.land/",
+          "title": "Orb Land product description",
+          "publisher": "Orb Land",
+          "date": null,
+          "verified": true,
+          "finding": "The design links an NFT to a service commitment and records actions publicly; holders set a resale price that determines a recurring charge."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C27"
+    },
+    {
+      "claim": "Disintermediation expands risk.",
+      "source_blocks": [
+        90,
+        91,
+        92,
+        93,
+        94
+      ],
+      "verdict": "mixed",
+      "reason": "Lower distribution barriers can increase both access and exposure to poor-quality products. The degree of unavoidable regulatory displacement is not established; legal jurisdiction and enforcement still matter even when a token transfers peer to peer.",
+      "kind": "explanation",
+      "family": "financial-gatekeeper-disintermediation",
+      "asset_or_variable": "financial-gatekeeper-disintermediation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Distinguish technological transfer ability, market adoption and enforceable legal rights.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C28"
+    },
+    {
+      "claim": "VC exits decouple value.",
+      "source_blocks": [
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101
+      ],
+      "verdict": "mixed",
+      "reason": "Early token liquidity can let insiders profit before a durable service exists. Conventional private shares can also be sold through secondary transactions, and IPO or acquisition due diligence is not a guarantee of quality. The incentive problem is credible; the categorical contrast and industry-wide zero-sum claim are broader than established.",
+      "kind": "explanation",
+      "family": "token-insider-exit-incentives",
+      "asset_or_variable": "token-insider-exit-incentives",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Compare vesting, insider sales, net user value and disclosure across matched equity and token projects.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C29"
+    },
+    {
+      "claim": "Visa separates lending risk.",
+      "source_blocks": [
+        127,
+        128
+      ],
+      "verdict": "right",
+      "reason": "Visa’s filing confirms that it operates payment processing and does not issue cards or extend cardholder credit. This supports the core distinction from a card lender, without implying absence of settlement, litigation or business risk.",
+      "kind": "explanation",
+      "family": "payment-network-versus-lender",
+      "asset_or_variable": "payment-network-versus-lender",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+          "title": "Visa fiscal 2026 Form 10-K",
+          "publisher": "Visa / SEC",
+          "date": "2026-11-05",
+          "verified": true,
+          "finding": "Net revenue rose from $35.926bn in 2024 to $40.000bn in 2025 and $45.903bn in 2026; net income reached $23.504bn. Visa describes itself as a payment network rather than a card lender."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C30"
+    },
+    {
+      "claim": "Visa keeps compounding.",
+      "source_blocks": [
+        125,
+        129,
+        145
+      ],
+      "verdict": "right",
+      "reason": "Later financial statements support continuing business growth: fiscal 2026 revenue reached $45.903bn and net income $23.504bn. This verifies the operating direction, not an indefinitely guaranteed growth rate or every valuation inference.",
+      "kind": "investment_thesis",
+      "family": "visa-network-compounding",
+      "asset_or_variable": "visa-network-compounding",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316123000069/q32023earningsrelease.htm",
+          "title": "Visa fiscal Q3 2023 results",
+          "publisher": "Visa / SEC",
+          "date": "2023-07-25",
+          "verified": true,
+          "finding": "Revenue $8.123bn, quarterly net income $4.156bn, cash $15.590bn and debt $20.560bn; nine-month operating cash flow and shareholder distributions are separately disclosed."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+          "title": "Visa fiscal 2026 Form 10-K",
+          "publisher": "Visa / SEC",
+          "date": "2026-11-05",
+          "verified": true,
+          "finding": "Net revenue rose from $35.926bn in 2024 to $40.000bn in 2025 and $45.903bn in 2026; net income reached $23.504bn. Visa describes itself as a payment network rather than a card lender."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C31"
+    },
+    {
+      "claim": "Capital allocation is disciplined.",
+      "source_blocks": [
+        131,
+        145
+      ],
+      "verdict": "mixed",
+      "reason": "The company distributed $3.9bn through buybacks and dividends in fiscal Q3 2023, supporting the shareholder-return emphasis. Calling all major acquisitions non-wasteful requires investment-specific outcomes and a counterfactual; distributions alone do not establish capital-allocation quality.",
+      "kind": "explanation",
+      "family": "visa-capital-allocation",
+      "asset_or_variable": "visa-capital-allocation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316123000069/q32023earningsrelease.htm",
+          "title": "Visa fiscal Q3 2023 results",
+          "publisher": "Visa / SEC",
+          "date": "2023-07-25",
+          "verified": true,
+          "finding": "Q3 2023 repurchases and dividends totaled $3.9bn."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C32"
+    },
+    {
+      "claim": "Visa looks reasonable.",
+      "source_blocks": [
+        133,
+        135,
+        137,
+        138
+      ],
+      "verdict": "not_testable",
+      "reason": "A lower historical multiple can coexist with lower relative attractiveness when bond yields rise. Earnings yield minus Treasury yield is a rough comparison, not a full forward equity risk premium; expected growth, reinvestment and risk must be modeled.",
+      "kind": "investment_thesis",
+      "family": "visa-relative-valuation-2023",
+      "asset_or_variable": "visa-relative-valuation-2023",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Use a cash-flow forecast and consistent discount-rate assumptions.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C33"
+    },
+    {
+      "claim": "Visa remains flexible.",
+      "source_blocks": [
+        139,
+        141
+      ],
+      "verdict": "right",
+      "reason": "Publication-era financials show $20.560bn debt and $15.590bn cash, approximately $4.970bn net debt, versus $4.156bn quarterly earnings. The rough four-month earnings comparison is reasonable, although earnings are not unrestricted cash available for immediate repayment.",
+      "kind": "explanation",
+      "family": "visa-balance-sheet-strength",
+      "asset_or_variable": "visa-balance-sheet-strength",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316123000069/q32023earningsrelease.htm",
+          "title": "Visa fiscal Q3 2023 results",
+          "publisher": "Visa / SEC",
+          "date": "2023-07-25",
+          "verified": true,
+          "finding": "Revenue $8.123bn, quarterly net income $4.156bn, cash $15.590bn and debt $20.560bn; nine-month operating cash flow and shareholder distributions are separately disclosed."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C34"
+    },
+    {
+      "claim": "Maturities are distant.",
+      "source_blocks": [
+        142
+      ],
+      "verdict": "mixed",
+      "reason": "The broad low-cost, long-maturity funding observation is useful. But about $5.475bn in the March schedule matured in 2025-2026, roughly a quarter of face debt, so almost all beginning in 2027 overstates the deferral. Some coupons also exceeded 4%.",
+      "kind": "explanation",
+      "family": "visa-debt-maturity-precision",
+      "asset_or_variable": "visa-debt-maturity-precision",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://s1.q4cdn.com/050606653/files/doc_financials/2023/q2/2Q23-Visa-10-Q.pdf",
+          "title": "Visa March 2023 debt schedule",
+          "publisher": "Visa",
+          "date": null,
+          "verified": true,
+          "finding": "Debt included $4bn due December 2025 and about $1.475bn of euro notes due June 2026, alongside longer maturities extending to 2050. Some coupons exceeded 4%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C35"
+    },
+    {
+      "claim": "Cash generates carry.",
+      "source_blocks": [
+        141,
+        142
+      ],
+      "verdict": "mixed",
+      "reason": "Higher cash yields can benefit a borrower with fixed coupons. Q3 investment income and other exceeded interest expense, but the combined line includes more than cash interest, and the nine-month comparison differed. The exact net-carry assertion needs disaggregated income.",
+      "kind": "explanation",
+      "family": "visa-cash-interest-carry",
+      "asset_or_variable": "visa-cash-interest-carry",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316123000069/q32023earningsrelease.htm",
+          "title": "Visa fiscal Q3 2023 results",
+          "publisher": "Visa / SEC",
+          "date": "2023-07-25",
+          "verified": true,
+          "finding": "Q3 interest expense $182m versus investment income and other $304m; nine-month amounts $461m and $412m."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C36"
+    },
+    {
+      "claim": "Visa beats Apple.",
+      "source_blocks": [
+        149
+      ],
+      "verdict": "mixed",
+      "reason": "V returned 86.97% versus AAPL 99.71% through November 6, 2026 in the disclosed sensitivity, adverse relative-return evidence. Better buy has no fixed endpoint or risk metric, so the comparison does not by itself settle every valuation or geopolitical-risk component.",
+      "kind": "investment_thesis",
+      "family": "visa-over-apple-2023",
+      "asset_or_variable": "visa-over-apple-2023",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/V/history/",
+          "title": "V adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-10-01\", \"requested_endpoint\": \"2026-11-07\", \"entry\": \"2023-10-02\", \"exit\": \"2026-11-06\", \"days\": 1131, \"endpoint_gap_days\": 1, \"endpoint_covered\": true, \"instruments\": {\"V\": {\"entry_adjusted_close\": 226.05540466308594, \"exit_adjusted_close\": 422.6499938964844, \"cumulative_return_pct\": 86.96743593739949, \"annualized_return_pct\": 22.395449285464153, \"source\": \"https://finance.yahoo.com/quote/V/history/\"}, \"AAPL\": {\"entry_adjusted_close\": 171.4313507080078, \"exit_adjusted_close\": 342.3699951171875, \"cumulative_return_pct\": 99.71259265193137, \"annualized_return_pct\": 25.029998735924195, \"source\": \"https://finance.yahoo.com/quote/AAPL/history/\"}}, \"excess_percentage_points\": -12.745156714531888}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C37"
+    },
+    {
+      "claim": "Growth consolidation appeals.",
+      "source_blocks": [
+        150,
+        160
+      ],
+      "verdict": "not_testable",
+      "reason": "The named securities are a preference without fixed weights or exit rules. BKNG gained 32.91% versus SPY 78.43% in the disclosed sensitivity, while Visa did better. A useful group-level score requires an actual specified basket.",
+      "kind": "investment_thesis",
+      "family": "network-growth-stock-selection",
+      "asset_or_variable": "network-growth-stock-selection",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BKNG/history/",
+          "title": "BKNG adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-10-01\", \"requested_endpoint\": \"2026-11-07\", \"entry\": \"2023-10-02\", \"exit\": \"2026-11-06\", \"days\": 1131, \"endpoint_gap_days\": 1, \"endpoint_covered\": true, \"instruments\": {\"BKNG\": {\"entry_adjusted_close\": 120.88441467285156, \"exit_adjusted_close\": 160.6699981689453, \"cumulative_return_pct\": 32.9120868093419, \"annualized_return_pct\": 9.62369668848224, \"source\": \"https://finance.yahoo.com/quote/BKNG/history/\"}, \"SPY\": {\"entry_adjusted_close\": 412.0986328125, \"exit_adjusted_close\": 735.2899780273438, \"cumulative_return_pct\": 78.42572614452035, \"annualized_return_pct\": 20.56097646719257, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -45.51363933517845}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C38"
+    },
+    {
+      "claim": "Visa approaches trillion.",
+      "source_blocks": [
+        151
+      ],
+      "verdict": "not_testable",
+      "reason": "The market-cap scenario has no date or probability. A future market-cap test must reconcile all share classes and repurchases, not multiply one quoted class by an unrelated share count.",
+      "kind": "forecast",
+      "family": "visa-trillion-market-cap",
+      "asset_or_variable": "visa-trillion-market-cap",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Specify a horizon and fully diluted economic share count.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C39"
+    },
+    {
+      "claim": "Disruption takes generations.",
+      "source_blocks": [
+        153,
+        154,
+        158
+      ],
+      "verdict": "too_early",
+      "reason": "The expectation explicitly extends beyond five years and in some cases a generation. Continuing Visa growth is favorable interim evidence, but cannot close that horizon or establish the eventual role of Bitcoin and Lightning in retail payments.",
+      "kind": "forecast",
+      "family": "payment-network-disruption-horizon",
+      "asset_or_variable": "payment-network-disruption-horizon",
+      "horizon": "Five-plus years and generational change",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1403161/000140316126000134/v-20260930.htm",
+          "title": "Visa fiscal 2026 Form 10-K",
+          "publisher": "Visa / SEC",
+          "date": "2026-11-05",
+          "verified": true,
+          "finding": "Net revenue rose from $35.926bn in 2024 to $40.000bn in 2025 and $45.903bn in 2026; net income reached $23.504bn. Visa describes itself as a payment network rather than a card lender."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Five-plus years and generational change",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C40"
+    },
+    {
+      "claim": "CBDC needs authorization.",
+      "source_blocks": [
+        155
+      ],
+      "verdict": "right",
+      "reason": "The Fed’s October 2023 statement confirms that issuance would require executive support and authorizing congressional legislation. This verifies the U.S. institutional constraint, not a prediction of whether a particular future CBDC would take Visa share.",
+      "kind": "explanation",
+      "family": "us-cbdc-authorization",
+      "asset_or_variable": "us-cbdc-authorization",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/barr20231027a.htm",
+          "title": "Payments conference remarks",
+          "publisher": "Federal Reserve",
+          "date": "2023-10-27",
+          "verified": true,
+          "finding": "Barr states that a CBDC would proceed only with clear executive support and authorizing legislation from Congress."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C41"
+    },
+    {
+      "claim": "Fragmentation threatens networks.",
+      "source_blocks": [
+        157,
+        158
+      ],
+      "verdict": "not_testable",
+      "reason": "The scenario identifies real exposure to jurisdiction and local alternatives but specifies no measurable loss of share or terminal date. One travel experience cannot establish global merchant acceptance or currency preferences.",
+      "kind": "forecast",
+      "family": "payment-network-geopolitical-risk",
+      "asset_or_variable": "payment-network-geopolitical-risk",
+      "horizon": null,
+      "conditions": "Greater geopolitical separation",
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Track revenue exposure, acceptance and payment shares by country against a fixed baseline.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C42"
+    },
+    {
+      "claim": "HDFC diversifies exposure.",
+      "source_blocks": [
+        159
+      ],
+      "verdict": "too_early",
+      "reason": "The five-plus-year horizon reaches at least October 2028. HDB’s interim USD adjusted return was -11.09% versus SPY 78.43%, material adverse evidence even while the original horizon remains open. Geographic exposure alone does not guarantee a hedge.",
+      "kind": "investment_thesis",
+      "family": "hdfc-five-year-2023",
+      "asset_or_variable": "hdfc-five-year-2023",
+      "horizon": "Five-plus years through at least October 2028",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/HDB/history/",
+          "title": "HDB adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-10-01\", \"requested_endpoint\": \"2026-11-07\", \"entry\": \"2023-10-02\", \"exit\": \"2026-11-06\", \"days\": 1131, \"endpoint_gap_days\": 1, \"endpoint_covered\": true, \"instruments\": {\"HDB\": {\"entry_adjusted_close\": 28.275869369506836, \"exit_adjusted_close\": 25.139999389648438, \"cumulative_return_pct\": -11.090269016591837, \"annualized_return_pct\": -3.725013511911257, \"source\": \"https://finance.yahoo.com/quote/HDB/history/\"}, \"SPY\": {\"entry_adjusted_close\": 412.0986328125, \"exit_adjusted_close\": 735.2899780273438, \"cumulative_return_pct\": 78.42572614452035, \"annualized_return_pct\": 20.56097646719257, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -89.51599516111219}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Five-plus years through at least October 2028",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C43"
+    },
+    {
+      "claim": "Revise with fundamentals.",
+      "source_blocks": [
+        160
+      ],
+      "verdict": "not_testable",
+      "reason": "The intended several-year holding rule has explicit categories for reconsideration but no numerical valuation or growth threshold. It is a process rule whose success needs dated decisions, not a post hoc selection of exits.",
+      "kind": "explanation",
+      "family": "fundamental-thesis-revision",
+      "asset_or_variable": "fundamental-thesis-revision",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Record measurable overvaluation and disruption thresholds with actual revisions.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C44"
+    },
+    {
+      "claim": "Duration magnifies losses.",
+      "source_blocks": [
+        162,
+        164
+      ],
+      "verdict": "right",
+      "reason": "For fixed cash flows, a higher discount rate reduces present value, with longer-duration exposure generally more sensitive. Nominal credit safety does not eliminate mark-to-market or purchasing-power risk. This verifies the mechanism, not the exact chart’s 60% figure.",
+      "kind": "explanation",
+      "family": "bond-duration-real-risk",
+      "asset_or_variable": "bond-duration-real-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": "Fixed contractual cash flows; discount yields rise; no offsetting cash-flow change.",
+        "derivation": "Each positive cash flow is discounted by a larger factor. Longer weighted timing produces greater first-order price sensitivity."
+      },
+      "id": "120-C45"
+    },
+    {
+      "claim": "Bond warnings succeeded.",
+      "source_blocks": [
+        165,
+        166,
+        167,
+        168
+      ],
+      "verdict": "mixed",
+      "reason": "The broad duration/inflation warning aligned with the later selloff, but the author also acknowledges underestimating yield increases and owning a temporary bond hedge. The current recap must not count as another independent forecast or erase those qualifications.",
+      "kind": "empirical",
+      "family": "bond-warning-retrospective",
+      "asset_or_variable": "bond-warning-retrospective",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Use the original dated entries and distinguish direction, timing and allocation size.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C46"
+    },
+    {
+      "claim": "IEF lost modestly.",
+      "source_blocks": [
+        169
+      ],
+      "verdict": "evidence_needed",
+      "reason": "The stated 2.5% position loss and 0.15% portfolio effect require actual entry/exit prices, weights and distributions. Public ETF histories alone cannot authenticate a subscriber portfolio’s execution.",
+      "kind": "empirical",
+      "family": "ief-hedge-reported-performance",
+      "asset_or_variable": "ief-hedge-reported-performance",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Reconcile dated portfolio transactions and cash distributions.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C47"
+    },
+    {
+      "claim": "Cash beats bonds.",
+      "source_blocks": [
+        170,
+        174
+      ],
+      "verdict": "not_testable",
+      "reason": "TLT subsequently returned 8.56% versus BIL 2.65% over the disclosed six-month sensitivity. That is adverse opportunity-cost evidence, but the author explicitly avoids the potential trade and gives no investment endpoint or volatility target.",
+      "kind": "investment_thesis",
+      "family": "cash-over-duration-2023",
+      "asset_or_variable": "cash-over-duration-2023",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TLT/history/",
+          "title": "TLT adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-10-01\", \"requested_endpoint\": \"2024-04-01\", \"entry\": \"2023-10-02\", \"exit\": \"2024-04-01\", \"days\": 182, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"TLT\": {\"entry_adjusted_close\": 76.4940185546875, \"exit_adjusted_close\": 83.0395278930664, \"cumulative_return_pct\": 8.55689041058727, \"annualized_return_pct\": 17.912456926420496, \"source\": \"https://finance.yahoo.com/quote/TLT/history/\"}, \"BIL\": {\"entry_adjusted_close\": 80.1910629272461, \"exit_adjusted_close\": 82.31513977050781, \"cumulative_return_pct\": 2.6487700321278895, \"annualized_return_pct\": 5.386620718605428, \"source\": \"https://finance.yahoo.com/quote/BIL/history/\"}}, \"excess_percentage_points\": 5.9081203784593805}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C48"
+    },
+    {
+      "claim": "Supply pressures Treasuries.",
+      "source_blocks": [
+        168,
+        171,
+        173
+      ],
+      "verdict": "mixed",
+      "reason": "More duration supply can raise the compensation marginal buyers demand. The magnitude also depends on expected policy, inflation, savings and investor substitution. RRP-funded bill demand differs from duration absorption, but the exact $2tn allocation requires a consolidated flow reconciliation.",
+      "kind": "explanation",
+      "family": "treasury-supply-private-absorption",
+      "asset_or_variable": "treasury-supply-private-absorption",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Reconcile Treasury borrowing, SOMA redemptions, foreign and bank holdings, and nonbank purchases without double-counting.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C49"
+    },
+    {
+      "claim": "Trade after stabilization.",
+      "source_blocks": [
+        174
+      ],
+      "verdict": "not_testable",
+      "reason": "The conditional trade idea mentions a prior-low stop but does not identify a trigger date, instrument, sizing or actual entry. Later price recovery cannot establish a realized trade or risk-adjusted result.",
+      "kind": "investment_thesis",
+      "family": "bond-rebound-conditional-trade",
+      "asset_or_variable": "bond-rebound-conditional-trade",
+      "horizon": null,
+      "conditions": "Price stabilizes and recession risk rises",
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Specify the signal and preserve the actual stop and execution history.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "120-C50"
+    }
+  ],
+  "coverage_note": "Full numbered text and image inventory read. All material theses across macro, digital assets, investment analysis and concluding sections considered. Position listings and incidental descriptive statistics are excluded unless they support a thesis.",
+  "tools_charts": [
+    {
+      "name": "Liquidity",
+      "source_blocks": [
+        9,
+        13
+      ],
+      "use": "Funding context.",
+      "image_inspected": false
+    },
+    {
+      "name": "NFT volume",
+      "source_blocks": [
+        50
+      ],
+      "use": "Activity.",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        125
+      ],
+      "use": "Valuation.",
+      "image_inspected": false
+    },
+    {
+      "name": "Debt schedule",
+      "source_blocks": [
+        142
+      ],
+      "use": "Refinancing.",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Distinguish useful networks from attractive entry prices."
+  ],
+  "verification_limitations": [
+    "Current page snapshot is not an authenticated publication-date version.",
+    "A missing horizon is not replaced with an invented author deadline.",
+    "Market sensitivities use vendor adjusted closes and do not reconstruct portfolio execution.",
+    "Chart pixels were not inspected; current source versions can contain later edits.",
+    "Return sensitivities do not reconstruct portfolio execution."
+  ]
+}

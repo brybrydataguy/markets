@@ -1,0 +1,1132 @@
+{
+  "article_id": "161",
+  "title": "Global Equity Rotation Checkup",
+  "date": "2025-04-27",
+  "source_url": "https://www.lynalden.com/premium-2025-4-27/",
+  "read_complete": true,
+  "evaluation_as_of": "2026-11-07",
+  "summary": "Global rotation, fiscal persistence and contrasting entry outcomes.",
+  "assessment": "The TSM-over-RTX switch and AMD and USB entries received strong support. Bitcoin’s six-month gain became a twelve-month loss and its proposed floor failed. Ulta’s earnings caution was partly right despite a rising stock. Fiscal skepticism was supported; the multi-year international and China theses remain open.",
+  "claims": [
+    {
+      "claim": "Gold imports distorted GDPNow.",
+      "source_blocks": [
+        8,
+        9,
+        11,
+        12
+      ],
+      "verdict": "right",
+      "reason": "Atlanta Fed documentation confirms the nowcast required a gold adjustment. This is correctly about GDPNow, unlike a claim that BEA’s actual GDP treats investment gold imports as an unoffset subtraction. The preliminary model is not a final growth outcome.",
+      "kind": "explanation",
+      "family": "gdpnow-gold-distortion",
+      "asset_or_variable": "gdpnow-gold-distortion",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.atlantafed.org/research-and-data/publications/policy-hub-macroblog/2025/04/23/the-switch-changing-conditions-behind-new-gdpnow-model",
+          "title": "GDPNow model change",
+          "publisher": "Atlanta Fed",
+          "date": "2025-04-23",
+          "verified": true,
+          "finding": "Explains gold-import adjustment and model limitations."
+        },
+        {
+          "url": "https://www.bea.gov/help/faq/1478",
+          "title": "Nonmonetary gold in national accounts",
+          "publisher": "BEA",
+          "date": "2025-03-20",
+          "verified": true,
+          "finding": "BEA removes investment gold trade and substitutes domestic production less industrial use. Investment-gold transfers are not domestic production."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C01"
+    },
+    {
+      "claim": "Tariff uncertainty restrains private activity.",
+      "source_blocks": [
+        13,
+        50,
+        51,
+        52
+      ],
+      "verdict": "mixed",
+      "reason": "The proposed delays and wealth effects are plausible and the business anecdote illustrates real option value in waiting. A single anonymous company does not establish aggregate effects, and subsequent stock gains contrast with the cautious market stance. Fiscal support and private weakness need separate measurement.",
+      "kind": "explanation",
+      "family": "tariff-uncertainty-demand",
+      "asset_or_variable": "tariff-uncertainty-demand",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "SPY market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "April 28, 2025-April 27, 2026 adjusted return +31.32%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C02"
+    },
+    {
+      "claim": "Domestic liquidity remains rangebound.",
+      "source_blocks": [
+        15,
+        17,
+        19,
+        23
+      ],
+      "verdict": "not_testable",
+      "reason": "The report uses an aggregate proxy without a numerical band or fixed endpoint. Fed assets, TGA, RRP and bank cash are distinct balance-sheet entries; a composite chart cannot by itself establish financial-system resilience.",
+      "kind": "forecast",
+      "family": "domestic-liquidity-range",
+      "asset_or_variable": "domestic-liquidity-range",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "WALCL observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Fed assets component."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/WTREGEN",
+          "title": "WTREGEN observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Treasury cash component."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/RRPONTSYD",
+          "title": "RRPONTSYD observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Overnight RRP component."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C03"
+    },
+    {
+      "claim": "Treasury cash draws support reserves.",
+      "source_blocks": [
+        19,
+        21
+      ],
+      "verdict": "right",
+      "reason": "Holding other Fed liabilities and assets constant, a Treasury payment transfers balances from TGA to bank reserves. A simultaneous tax receipt or debt sale can offset this, so the direction is conditional accounting rather than a guaranteed asset-price effect.",
+      "kind": "explanation",
+      "family": "tga-reserve-transfer",
+      "asset_or_variable": "tga-reserve-transfer",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Other Fed balance-sheet entries fixed",
+          "Treasury payment settles through commercial banks"
+        ],
+        "derivation": "The Fed debits TGA and credits recipient banks’ reserve balances by the same amount."
+      },
+      "id": "161-C04"
+    },
+    {
+      "claim": "Debt-limit runway may reach autumn.",
+      "source_blocks": [
+        21
+      ],
+      "verdict": "mixed",
+      "reason": "CBO estimated August or September and Treasury warned of possible exhaustion in August after tax receipts were known. Congress raised the limit in July, so the no-deal exhaustion date was never observed. Autumn was an optimistic edge of the estimated range, not a verified outcome.",
+      "kind": "forecast",
+      "family": "2025-debt-limit-x-date",
+      "asset_or_variable": "2025-debt-limit-x-date",
+      "horizon": null,
+      "conditions": "No earlier debt-limit deal",
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.cbo.gov/publication/61265",
+          "title": "Debt-limit estimate",
+          "publisher": "CBO",
+          "date": "2025-03-26",
+          "verified": true,
+          "finding": "Estimated exhaustion August or September."
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/136/Debt-Limit-Letter-to-Congress-May-9-2025.pdf",
+          "title": "Treasury debt-limit letter",
+          "publisher": "U.S. Treasury",
+          "date": "2025-05-09",
+          "verified": true,
+          "finding": "Reasonable probability of August exhaustion."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C05"
+    },
+    {
+      "claim": "Weak markets would depress later taxes.",
+      "source_blocks": [
+        22
+      ],
+      "verdict": "not_testable",
+      "reason": "The April 2026 horizon has passed, but “lackluster” never defines a measurable trigger. Strong 2025 equity gains also undermine the low-capital-gains premise. This cannot remain an unfinished future forecast or be scored as an unconditional tax-revenue miss. Realized gains, filing behavior and law changes matter separately from index prices.",
+      "kind": "forecast",
+      "family": "2026-tax-receipt-conditional",
+      "asset_or_variable": "2026-tax-receipt-conditional",
+      "horizon": "April 2026",
+      "conditions": "2025 stock market and economy are lackluster",
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Specify the condition and compare capital-gains-linked receipts, separating tariff revenue and tax-law changes.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "April 2026",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C06"
+    },
+    {
+      "claim": "QT may extend into early 2026.",
+      "source_blocks": [
+        25
+      ],
+      "verdict": "mixed",
+      "reason": "The report preserves late-2025 expansion as a significant possibility and only says slower QT could extend the date. Actual runoff ended December 1, 2025 and reserve purchases began December 12. The broad reserve-constraint framework worked, while the possible extension did not occur.",
+      "kind": "forecast",
+      "family": "qt-end-2025",
+      "asset_or_variable": "qt-end-2025",
+      "horizon": "Late 2025 or first half 2026",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchase announcement",
+          "publisher": "New York Fed",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "Purchases began December 12, 2025 to maintain ample reserves; initial monthly amount about $40 billion. Technical reserve supply does not itself establish a change in the interest-rate stance."
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251029",
+          "title": "Reinvestment instructions",
+          "publisher": "New York Fed",
+          "date": "2025-10-29",
+          "verified": true,
+          "finding": "Full Treasury rollover and agency reinvestment began December 1."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Late 2025 or first half 2026",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C07"
+    },
+    {
+      "claim": "Dollar weakness eases foreign debt burdens.",
+      "source_blocks": [
+        27,
+        28,
+        30,
+        145
+      ],
+      "verdict": "right",
+      "reason": "For unchanged dollar liabilities and local-currency resources, dollar depreciation reduces the local-currency debt burden. The total effect also depends on export prices, hedges and financing access. Calling every dollar decline an increase in global liquidity is broader than this bounded mechanism.",
+      "kind": "explanation",
+      "family": "dollar-liability-currency-channel",
+      "asset_or_variable": "dollar-liability-currency-channel",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Debt fixed in dollars",
+          "Local-currency resources unchanged",
+          "No offsetting hedge"
+        ],
+        "derivation": "Local debt burden equals dollar debt times local-currency units per dollar; a lower exchange rate reduces the burden."
+      },
+      "id": "161-C08"
+    },
+    {
+      "claim": "Dollar valuation remains excessive.",
+      "source_blocks": [
+        30
+      ],
+      "verdict": "evidence_needed",
+      "reason": "Trade balances and reserve demand are relevant but do not provide a reproducible fair-value estimate. Interest differentials, productivity, risk premia and gross capital flows also affect exchange rates.",
+      "kind": "explanation",
+      "family": "dollar-reserve-premium",
+      "asset_or_variable": "dollar-reserve-premium",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Specify an equilibrium-exchange-rate model and uncertainty interval.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C09"
+    },
+    {
+      "claim": "International capital rotation lasts years.",
+      "source_blocks": [
+        31,
+        138,
+        140,
+        141,
+        143,
+        144
+      ],
+      "verdict": "too_early",
+      "reason": "The explicit three-to-five-year view runs to 2028-2030. IEMG gained 39.05% versus SPY 35.70% through the cutoff, a modest favorable interim comparison. It does not establish a sustained global capital outflow or complete the cycle thesis.",
+      "kind": "investment_thesis",
+      "family": "2025-international-rotation",
+      "asset_or_variable": "2025-international-rotation",
+      "horizon": "Three to five years",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/IEMG/history/",
+          "title": "IEMG market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "April 28, 2025-November 6, 2026 adjusted return +39.05%; SPY +35.70%."
+        }
+      ],
+      "next_check": "Compare matched total returns and cross-border flow data through 2028-2030.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Three to five years",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C10"
+    },
+    {
+      "claim": "Dollar may find near-term support.",
+      "source_blocks": [
+        31,
+        32
+      ],
+      "verdict": "not_testable",
+      "reason": "Low conviction is explicit and neither a deadline nor a sustained-support test is supplied. The yen 140 level is presented as worth watching, not an unconditional trading recommendation.",
+      "kind": "forecast",
+      "family": "2025-dollar-local-support",
+      "asset_or_variable": "2025-dollar-local-support",
+      "horizon": null,
+      "conditions": null,
+      "modality": "low conviction",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C11"
+    },
+    {
+      "claim": "Tariff policy is de-escalating.",
+      "source_blocks": [
+        35,
+        36,
+        37,
+        39,
+        40,
+        47,
+        48,
+        176
+      ],
+      "verdict": "right",
+      "reason": "The May Geneva agreement reduced the April escalation, supporting the directional reading. It did not eliminate tariffs, sector exemptions or business uncertainty. The feared shortage is explicitly conditional on shipment reductions persisting.",
+      "kind": "forecast",
+      "family": "2025-tariff-deescalation",
+      "asset_or_variable": "2025-tariff-deescalation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/DCPD-202500592/html/DCPD-202500592.htm",
+          "title": "U.S.-China Geneva joint statement",
+          "publisher": "U.S. Government Publishing Office",
+          "date": "2025-05-12",
+          "verified": true,
+          "finding": "Both sides reduced the April tariff escalation for an initial 90-day period."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C12"
+    },
+    {
+      "claim": "Persistent shipment cuts risk shortages.",
+      "source_blocks": [
+        39
+      ],
+      "verdict": "conditional_pending",
+      "reason": "The warning depends on sustained deep shipping declines. Subsequent tariff de-escalation changes that condition; no universal Covid-scale shortage prediction should be extracted from the conditional wording.",
+      "kind": "forecast",
+      "family": "tariff-shipping-shortages",
+      "asset_or_variable": "tariff-shipping-shortages",
+      "horizon": "Summer 2025",
+      "conditions": "Deep shipment reductions persist",
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/DCPD-202500592/html/DCPD-202500592.htm",
+          "title": "U.S.-China Geneva joint statement",
+          "publisher": "U.S. Government Publishing Office",
+          "date": "2025-05-12",
+          "verified": true,
+          "finding": "Both sides reduced the April tariff escalation for an initial 90-day period."
+        }
+      ],
+      "next_check": "Match import categories, inventories and retail availability to the duration of shipment cuts.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Summer 2025",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C13"
+    },
+    {
+      "claim": "A broad anti-China bloc is improbable.",
+      "source_blocks": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "verdict": "not_testable",
+      "reason": "The proposition lacks a defined membership threshold, policy scope and deadline. Continued Japanese business engagement is relevant evidence, but cannot by itself settle whether a broad coalition exists.",
+      "kind": "forecast",
+      "family": "anti-china-trade-coalition",
+      "asset_or_variable": "anti-china-trade-coalition",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C14"
+    },
+    {
+      "claim": "Cash-secured puts suit volatile markets.",
+      "source_blocks": [
+        52
+      ],
+      "verdict": "not_testable",
+      "reason": "No strike, expiry, premium or benchmark is specified. A short put earns premium while retaining large downside and capping upside; volatility alone does not establish attractive expected return.",
+      "kind": "investment_thesis",
+      "family": "cash-secured-put-strategy",
+      "asset_or_variable": "cash-secured-put-strategy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C15"
+    },
+    {
+      "claim": "DOGE’s temporary unit ends in July.",
+      "source_blocks": [
+        54,
+        55,
+        58,
+        70
+      ],
+      "verdict": "right",
+      "reason": "The executive order sets July 4, 2026 for the temporary organization, while explicitly preserving other authorities. This legal sunset is narrower than claiming every DOGE-related activity must cease on that date. The article distinguishes the original proposal from its actual implementation.",
+      "kind": "empirical",
+      "family": "doge-legal-structure",
+      "asset_or_variable": "doge-legal-structure",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.govinfo.gov/app/details/DCPD-202500125",
+          "title": "Executive Order 14158",
+          "publisher": "U.S. Government Publishing Office",
+          "date": "2025-01-20",
+          "verified": true,
+          "finding": "Temporary unit sunset July 4, 2026; other authorities are not terminated by that clause."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C16"
+    },
+    {
+      "claim": "DOGE cannot deliver enormous deficit cuts.",
+      "source_blocks": [
+        57,
+        60,
+        64,
+        65,
+        67,
+        69,
+        79,
+        81,
+        84,
+        85,
+        86,
+        89,
+        90
+      ],
+      "verdict": "right",
+      "reason": "The observed fiscal deficit remained about $2tn and increased in FY 2026, supporting the rejection of dramatic announced deficit reductions. The budget-composition argument is useful. This does not prove zero savings relative to a counterfactual or rule out every future reform.",
+      "kind": "forecast",
+      "family": "doge-deficit-under",
+      "asset_or_variable": "doge-deficit-under",
+      "horizon": "By 2026",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.cbo.gov/publication/61985",
+          "title": "September 2026 budget review",
+          "publisher": "CBO",
+          "date": "2026-10-08",
+          "verified": true,
+          "finding": "FY 2026 deficit about $2.0tn, $218bn larger than FY 2025."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "By 2026",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C17"
+    },
+    {
+      "claim": "Headcount savings are modest at macro scale.",
+      "source_blocks": [
+        73,
+        75,
+        76,
+        77,
+        78,
+        79,
+        81
+      ],
+      "verdict": "mixed",
+      "reason": "The arithmetic illustrates why personnel reductions alone cannot eliminate a multitrillion-dollar deficit. But contractor spending includes nonlabor inputs, average compensation is not marginal avoidable cost, and tax offsets vary. The estimate is a scenario rather than an audited savings forecast.",
+      "kind": "explanation",
+      "family": "government-personnel-savings",
+      "asset_or_variable": "government-personnel-savings",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.cbo.gov/publication/61985",
+          "title": "September 2026 budget review",
+          "publisher": "CBO",
+          "date": "2026-10-08",
+          "verified": true,
+          "finding": "FY 2026 deficit about $2.0tn, $218bn larger than FY 2025."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C18"
+    },
+    {
+      "claim": "Bitcoin has limited euphoric overhang.",
+      "source_blocks": [
+        93,
+        94,
+        95,
+        97
+      ],
+      "verdict": "evidence_needed",
+      "reason": "MVRV and momentum can describe prior cost bases and price trends, but a low reading is not a calibrated probability of avoiding a multiyear drawdown. Coins can move for reasons other than new economic cost bases, and regime comparability must be tested.",
+      "kind": "explanation",
+      "family": "bitcoin-mvrv-drawdown-risk",
+      "asset_or_variable": "bitcoin-mvrv-drawdown-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Backtest pre-specified MVRV and momentum thresholds using out-of-sample drawdowns.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C19"
+    },
+    {
+      "claim": "Bitcoin’s April floor should hold.",
+      "source_blocks": [
+        99,
+        100
+      ],
+      "verdict": "wrong",
+      "reason": "The stated approximate $75,000 floor was breached intraday in Yahoo BTC-USD on February 2, 2026, within the following twelve months. The probabilistic caveat reduces certainty, but does not turn the realized floor miss into a success.",
+      "kind": "forecast",
+      "family": "bitcoin-2025-april-floor",
+      "asset_or_variable": "bitcoin-2025-april-floor",
+      "horizon": "This cycle / next six to twelve months",
+      "conditions": null,
+      "modality": "likely",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "February 2, 2026 intraday low $74,551.34; further declines followed."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "This cycle / next six to twelve months",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C20"
+    },
+    {
+      "claim": "Bitcoin’s next year looks favorable.",
+      "source_blocks": [
+        99,
+        100
+      ],
+      "verdict": "mixed",
+      "reason": "From the first post-publication common close, Bitcoin gained 20.15% at six months but lost 18.54% at twelve months. SPY gained 25.11% and 31.32% respectively. The six-to-twelve-month range therefore does not justify selecting only the favorable endpoint.",
+      "kind": "forecast",
+      "family": "bitcoin-2025-six-twelve-month",
+      "asset_or_variable": "bitcoin-2025-six-twelve-month",
+      "horizon": "Six to twelve months",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "April 28-October 27, 2025 +20.15%; April 28, 2025-April 27, 2026 -18.54%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Six to twelve months",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C21"
+    },
+    {
+      "claim": "TSM is preferable to RTX.",
+      "source_blocks": [
+        105,
+        113,
+        119,
+        121,
+        124,
+        126,
+        165,
+        167
+      ],
+      "verdict": "right",
+      "reason": "The disclosed switch received strong interim support: one-year adjusted returns were TSM +150.92% versus RTX +41.27%. Through the cutoff they were +133.78% and +55.59%. The business and geopolitical risks remain, and these comparisons do not reconstruct portfolio sizing or later exits.",
+      "kind": "investment_thesis",
+      "family": "tsm-versus-rtx-2025",
+      "asset_or_variable": "tsm-versus-rtx-2025",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TSM/history/",
+          "title": "TSM market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "April 28, 2025-April 27, 2026 +150.92%; through November 6 +133.78%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/RTX/history/",
+          "title": "RTX market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched returns +41.27% and +55.59%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C22"
+    },
+    {
+      "claim": "AMD merits a new position.",
+      "source_blocks": [
+        110
+      ],
+      "verdict": "right",
+      "reason": "The explicit entry returned 247.16% over the first year and 365.86% through the cutoff, well above SPY. The source supplies little distinct thesis here; this is bounded investment-outcome evidence, not proof of every semiconductor explanation.",
+      "kind": "investment_thesis",
+      "family": "amd-2025-entry",
+      "asset_or_variable": "amd-2025-entry",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/AMD/history/",
+          "title": "AMD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "One-year adjusted return +247.16%; through November 6, 2026 +365.86%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C23"
+    },
+    {
+      "claim": "Ulta fundamentals will stagnate.",
+      "source_blocks": [
+        109,
+        117,
+        128
+      ],
+      "verdict": "mixed",
+      "reason": "Fiscal 2025 EPS grew only 1.2% and operating margin fell, supporting the earnings caution. Sales rose 9.7% and comparable sales 5.4%, contradicting a broad stagnation claim. The stock gained 39.65% over the one-year comparison, so the sale was not vindicated merely by weak EPS growth.",
+      "kind": "forecast",
+      "family": "ulta-2025-stagnation",
+      "asset_or_variable": "ulta-2025-stagnation",
+      "horizon": "Next year",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.ulta.com/investor/news-events/press-releases/detail/224/ulta-beauty-announces-fourth-quarter-and-fiscal-2025",
+          "title": "Ulta fiscal 2025 results",
+          "publisher": "Ulta Beauty",
+          "date": "2026-03-12",
+          "verified": true,
+          "finding": "Sales +9.7%, comps +5.4%, EPS +1.2%, operating margin 12.4% versus 13.9%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/ULTA/history/",
+          "title": "ULTA market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "April 28, 2025-April 27, 2026 +39.65%; SPY +31.32%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Next year",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C24"
+    },
+    {
+      "claim": "USB’s selloff offers value.",
+      "source_blocks": [
+        124,
+        129
+      ],
+      "verdict": "right",
+      "reason": "The explicit purchase gained 57.01% through the cutoff versus SPY 35.70%. This supports the entry outcome over the disclosed observation window; the unspecified holding period and valuation assumptions remain limitations.",
+      "kind": "investment_thesis",
+      "family": "usb-2025-entry",
+      "asset_or_variable": "usb-2025-entry",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/USB/history/",
+          "title": "USB market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "April 28, 2025-November 6, 2026 adjusted return +57.01%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C25"
+    },
+    {
+      "claim": "Royalty profit-taking is appropriate.",
+      "source_blocks": [
+        106,
+        123,
+        127
+      ],
+      "verdict": "not_testable",
+      "reason": "The author explicitly disclaims a bearish forecast and supplies no return objective for the sale. FNV and WPM subsequently gained 41.63% and 66.92% over one year, illustrating the opportunity cost, but a risk-reduction sale is not automatically a prediction of negative returns.",
+      "kind": "investment_thesis",
+      "family": "gold-royalty-profit-taking",
+      "asset_or_variable": "gold-royalty-profit-taking",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/FNV/history/",
+          "title": "FNV market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "One-year adjusted return +41.63%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/WPM/history/",
+          "title": "WPM market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "One-year adjusted return +66.92%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C26"
+    },
+    {
+      "claim": "Currency and equities reinforce flows.",
+      "source_blocks": [
+        144,
+        145
+      ],
+      "verdict": "mixed",
+      "reason": "A foreign investor loses on both legs when U.S. shares and the dollar fall, absent hedging. The proposed repatriation feedback is possible but not automatic; investors can rebalance into cheaper assets, hedge or hold. Flow evidence is needed to establish the mechanism’s actual magnitude.",
+      "kind": "explanation",
+      "family": "currency-equity-feedback",
+      "asset_or_variable": "currency-equity-feedback",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C27"
+    },
+    {
+      "claim": "Rate cuts will not restore old lows.",
+      "source_blocks": [
+        146
+      ],
+      "verdict": "right",
+      "reason": "The policy range ended 2025 at 3.50-3.75%, well above the prior near-zero cycle low. Three quarter-point cuts occurred rather than the four priced by markets in April; the market quotation should not be scored as Lyn’s own numerical forecast. Mortgage refinancing stimulus requires separate rate and borrower data.",
+      "kind": "forecast",
+      "family": "2025-higher-rate-floor",
+      "asset_or_variable": "2025-higher-rate-floor",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a1.htm",
+          "title": "December policy implementation",
+          "publisher": "Federal Reserve",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "Target range 3.50-3.75%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C28"
+    },
+    {
+      "claim": "China offers multiyear equity value.",
+      "source_blocks": [
+        147,
+        148,
+        149,
+        151,
+        152,
+        155,
+        157,
+        158,
+        160,
+        162
+      ],
+      "verdict": "too_early",
+      "reason": "The three-to-five-year horizon remains open. MCHI gained only 2.98% versus SPY 35.70% through the cutoff, a weak interim relative result. Low industrial-sector weight does not mean no tariff sensitivity because consumer, technology and financial companies still face macro and policy effects.",
+      "kind": "investment_thesis",
+      "family": "china-2025-value",
+      "asset_or_variable": "china-2025-value",
+      "horizon": "Three to five years",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/MCHI/history/",
+          "title": "MCHI market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "April 28, 2025-November 6, 2026 +2.98%; SPY +35.70%."
+        }
+      ],
+      "next_check": "Evaluate earnings, shareholder access, currency and relative total returns through 2028-2030.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Three to five years",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C29"
+    },
+    {
+      "claim": "Broad emerging funds limit China concentration.",
+      "source_blocks": [
+        163,
+        164
+      ],
+      "verdict": "right",
+      "reason": "Spreading a portfolio across several countries lowers the weight directly exposed to any single-country restriction, holding fund structure constant. It does not remove sanctions, index concentration or correlated regional risks.",
+      "kind": "explanation",
+      "family": "em-diversification-china-risk",
+      "asset_or_variable": "em-diversification-china-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "China weight below 100%",
+          "Compare the same direct China shock",
+          "Other holdings unchanged"
+        ],
+        "derivation": "Portfolio loss from the direct shock equals China weight times its loss; a smaller weight reduces that direct contribution."
+      },
+      "id": "161-C30"
+    },
+    {
+      "claim": "Gold can outperform over years.",
+      "source_blocks": [
+        169,
+        170,
+        173,
+        177
+      ],
+      "verdict": "too_early",
+      "reason": "The three-to-five-year relative forecast runs to 2028-2030. At one year GLD gained 39.09% versus SPY 31.32%, but by the cutoff GLD’s 20.53% trailed SPY’s 35.70%. Gold clearly beat TLT over this observation window; neither interim endpoint settles the longer target.",
+      "kind": "investment_thesis",
+      "family": "gold-versus-spy-2025",
+      "asset_or_variable": "gold-versus-spy-2025",
+      "horizon": "Three to five years",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "One year +39.09%; through November 6, 2026 +20.53%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/TLT/history/",
+          "title": "TLT market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Through November 6, 2026 -2.02%."
+        }
+      ],
+      "next_check": "Compare total returns at the stated three- and five-year endpoints.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Three to five years",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C31"
+    },
+    {
+      "claim": "Gold risks prolonged consolidation.",
+      "source_blocks": [
+        173,
+        174,
+        176,
+        177
+      ],
+      "verdict": "mixed",
+      "reason": "This is a risk warning rather than a guaranteed flat-price forecast. Gold nevertheless gained 18.75% over six months and 39.09% over twelve months, so the caution was early and would have carried substantial opportunity cost for a buyer who stayed out. The author retained existing exposure.",
+      "kind": "forecast",
+      "family": "gold-2025-consolidation-risk",
+      "asset_or_variable": "gold-2025-consolidation-risk",
+      "horizon": "Six to twelve months",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Six-month +18.75%; twelve-month +39.09%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Six to twelve months",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "161-C32"
+    }
+  ],
+  "coverage_note": "Full numbered text and image inventory read. All material theses across macro, digital assets, investment analysis and concluding sections considered. Position listings and incidental descriptive statistics are excluded unless they support a thesis.",
+  "tools_charts": [
+    {
+      "name": "Gold-adjusted GDPNow",
+      "source_blocks": [
+        9,
+        11
+      ],
+      "use": "Separate model artifact from domestic demand",
+      "image_inspected": false
+    },
+    {
+      "name": "Domestic liquidity",
+      "source_blocks": [
+        15,
+        19,
+        23
+      ],
+      "use": "Fed, TGA and RRP interaction",
+      "image_inspected": false
+    },
+    {
+      "name": "MVRV, RSI and MACD",
+      "source_blocks": [
+        95,
+        97,
+        99
+      ],
+      "use": "Cost basis and momentum, not calibrated floor probabilities",
+      "image_inspected": false
+    },
+    {
+      "name": "Relative equity ratios",
+      "source_blocks": [
+        141,
+        143,
+        160,
+        162
+      ],
+      "use": "Compare countries on a common currency and total-return basis",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        131,
+        132,
+        133,
+        134,
+        135,
+        136
+      ],
+      "use": "Distinguish historical earnings from analyst forecasts",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "A horizon range requires reporting both endpoints.",
+    "A correct earnings concern does not establish a correct stock sale."
+  ],
+  "verification_limitations": [
+    "Current page snapshot is not an authenticated publication-date version.",
+    "A missing horizon is not replaced with an invented author deadline.",
+    "Market sensitivities use vendor adjusted closes and do not reconstruct portfolio execution."
+  ]
+}

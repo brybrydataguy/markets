@@ -1,0 +1,975 @@
+{
+  "article_id": "035",
+  "title": "Facebook (FB) Deep Dive Analysis",
+  "date": "2020-09-27",
+  "source_url": "https://www.lynalden.com/premium-2020-9-27/",
+  "read_complete": true,
+  "summary": "Facebook value and a fiscal trading framework.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "Inflation expectations govern risk assets",
+      "kind": "explanation",
+      "source_blocks": [
+        6,
+        7,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "family": "breakeven-risk-asset-regime",
+      "asset_or_variable": "Cross-assets",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The 2020 co-movement is observable, and the author correctly notes chart-axis alignment exaggerates similarity. Common liquidity shocks can move both series; a two-axis chart does not establish inflation expectations as the independent cause.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DFII10",
+          "title": "Ten-year inflation compensation sensitivity",
+          "publisher": "Federal Reserve via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "DGS 10 minus DFII 10: August 31, 2020 1.80%, September 14 1.65%, September 25 1.58%, December 23 1.97%. Breakeven includes inflation-risk and liquidity premia, not pure expected CPI."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/SP500",
+          "title": "Autumn 2020 correction",
+          "publisher": "S&P Dow Jones Indices via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "S&P 500 closes August 24 3431.28, September 2 3580.84, September 23 3236.92, December 24 3703.06. September peak-to-trough close decline approximately 9.60%, followed by new highs. Excludes dividends."
+        },
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/2020-06-mpr-part2.htm",
+          "title": "June 2020 Monetary Policy Report, part 2",
+          "publisher": "Federal Reserve",
+          "date": "2020-06-12",
+          "verified": true,
+          "finding": "Investors sold longer Treasuries and MBS for liquid assets; Treasury bid-ask spreads widened and dealer balance-sheet constraints impaired intermediation. Purchases and lending aimed to restore market function."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C01"
+    },
+    {
+      "claim": "Fiscal transfers prevent income collapse",
+      "kind": "explanation",
+      "source_blocks": [
+        21,
+        23,
+        25,
+        26,
+        30
+      ],
+      "family": "fiscal-income-buffer",
+      "asset_or_variable": "US households",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Transfers supported income, but an on/off fiscal label ignores ongoing deficits, emergency programs and savings buffers. Conditional future insolvency is not established merely by reduced transfer growth.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/news/2020/personal-income-and-outlays-may-2020",
+          "title": "May 2020 personal income and outlays",
+          "publisher": "BEA",
+          "date": "2020-06-26",
+          "verified": true,
+          "finding": "Personal income fell 4.2% in May after revised 10.8% growth in April. Declining recovery payments explained much of the decrease, partly offset by unemployment benefits. Spending rose 8.2%."
+        },
+        {
+          "url": "https://home.treasury.gov/policy-issues/coronavirus/about-the-cares-act",
+          "title": "CARES and Consolidated Appropriations Acts",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "The subsequent broad relief act passed Congress December 21 and was signed December 27, 2020, after the election rather than during summer."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C02"
+    },
+    {
+      "claim": "Earnings recover only in 2022",
+      "kind": "forecast",
+      "source_blocks": [
+        29
+      ],
+      "family": "sp500-earnings-recovery",
+      "asset_or_variable": "S&P 500 earnings sales",
+      "horizon": "2022",
+      "conditions": null,
+      "modality": "analyst consensus",
+      "verdict": "wrong",
+      "reason": "The index provider reported record earnings and sales already in 2021. This adopted consensus view underestimated the speed of corporate recovery.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2022",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.spglobal.com/spdji/en/commentary/article/us-equities-market-attributes-december-2021/",
+          "title": "December 2021 market attributes",
+          "publisher": "S&P Dow Jones Indices",
+          "date": "2022-01-04",
+          "verified": true,
+          "finding": "Index provider reports record S&P 500 earnings, sales and margins in 2021, before 2022."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C03"
+    },
+    {
+      "claim": "Fiscal pause favors defensive assets",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        31,
+        33,
+        34,
+        35,
+        157
+      ],
+      "family": "fiscal-asset-allocation-switch",
+      "asset_or_variable": "Equities cash real assets",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "September weakness fit the proposed regime, but breakevens and stocks recovered before the major December bill. Anticipated policy and other forces matter; no exact signal/holding rule is supplied for a performance backtest.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DFII10",
+          "title": "Ten-year inflation compensation sensitivity",
+          "publisher": "Federal Reserve via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "DGS 10 minus DFII 10: August 31, 2020 1.80%, September 14 1.65%, September 25 1.58%, December 23 1.97%. Breakeven includes inflation-risk and liquidity premia, not pure expected CPI."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/SP500",
+          "title": "Autumn 2020 correction",
+          "publisher": "S&P Dow Jones Indices via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "S&P 500 closes August 24 3431.28, September 2 3580.84, September 23 3236.92, December 24 3703.06. September peak-to-trough close decline approximately 9.60%, followed by new highs. Excludes dividends."
+        },
+        {
+          "url": "https://home.treasury.gov/policy-issues/coronavirus/about-the-cares-act",
+          "title": "CARES and Consolidated Appropriations Acts",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "The subsequent broad relief act passed Congress December 21 and was signed December 27, 2020, after the election rather than during summer."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C04"
+    },
+    {
+      "claim": "Further fiscal rounds become inevitable",
+      "kind": "forecast",
+      "source_blocks": [
+        37
+      ],
+      "family": "2020-fiscal-next-package",
+      "asset_or_variable": "US stimulus",
+      "horizon": "long run",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Additional relief did arrive, validating direction. The stronger claim of inevitability from market or unrest pressure is unproven; negotiations and pandemic needs provide alternative causes.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: long run",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/policy-issues/coronavirus/about-the-cares-act",
+          "title": "CARES and Consolidated Appropriations Acts",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "The subsequent broad relief act passed Congress December 21 and was signed December 27, 2020, after the election rather than during summer."
+        },
+        {
+          "url": "https://home.treasury.gov/policy-issues/coronavirus/about-the-american-rescue-plan",
+          "title": "About the American Rescue Plan",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "ARP passed Congress March 10, 2021 and was signed March 11. Treasury managed over $1 trillion in its programs and tax credits, confirming further large fiscal support after 2020."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C05"
+    },
+    {
+      "claim": "Recovery remains a slow grind",
+      "kind": "forecast",
+      "source_blocks": [
+        61,
+        62
+      ],
+      "family": "covid-jobs-slow-recovery",
+      "asset_or_variable": "US jobs GDP",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Employment took until July 2022 to recover, while GDP rebounded more quickly. The two variables should not be treated as one identical recovery curve.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/index.php/news/2021/gross-domestic-product-fourth-quarter-and-year-2020-second-estimate",
+          "title": "2020 Q4 GDP second estimate",
+          "publisher": "BEA",
+          "date": "2021-02-25",
+          "verified": true,
+          "finding": "Contemporary estimate: Q3 2020 real GDP +33.4% annualized, Q4 +4.1%. There was no renewed quarterly contraction in the second half of 2020."
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/empsit_08052022.htm",
+          "title": "July 2022 Employment Situation release",
+          "publisher": "Bureau of Labor Statistics",
+          "date": "2022-08-05",
+          "verified": true,
+          "finding": "The release reported payroll employment and unemployment rate had returned to February 2020 levels in July 2022. This is a publication-vintage recovery date, not a claim about subsequently revised payroll history."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C06"
+    },
+    {
+      "claim": "Etsy supports lower-price put entry",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        68,
+        69
+      ],
+      "family": "etsy-jan2021-put",
+      "asset_or_variable": "ETSY",
+      "horizon": "January 2021",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The option specifies 90 strike and January expiry but lacks premium, exact date and execution. Bullish business views and a desired entry do not establish the option return or whether assignment occurred.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: January 2021",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Obtain exact contract and fill; distinguish strike touch from exercise and subsequent stock performance.",
+      "id": "035-C07"
+    },
+    {
+      "claim": "MACD improves equity reentry timing",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        71,
+        73,
+        74,
+        93,
+        158,
+        159
+      ],
+      "family": "macd-fiscal-reentry",
+      "asset_or_variable": "S&P 500 FB",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A 3000 entry is explicitly a wish, not a forecast. The actual rule requires MACD parameters, crossing convention and whether fiscal/technical signals are alternatives or jointly necessary; discretionary interpretation prevents a reliable timing score.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Freeze daily 12/26/9 or actual settings, signal timing and execution rule before a no-lookahead backtest.",
+      "id": "035-C08"
+    },
+    {
+      "claim": "Adobe growth fails to justify valuation",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        78,
+        79,
+        85
+      ],
+      "family": "adobe-multiple-risk",
+      "asset_or_variable": "ADBE",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A 50 x multiple may imply demanding expectations, but no return or growth invalidation threshold is supplied. Subscription transition and taxes are not enough to determine all future revenue and margins.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "035-C09"
+    },
+    {
+      "claim": "Cadence growth normalizes sharply",
+      "kind": "forecast",
+      "source_blocks": [
+        82
+      ],
+      "family": "cadence-growth-normalization",
+      "asset_or_variable": "CDNS EPS",
+      "horizon": "next analyst forecast years",
+      "conditions": null,
+      "modality": "consensus adopted",
+      "verdict": "wrong",
+      "reason": "Adjusted EPS grew 17.5% in 2021 and 29.79% in 2022, exceeding the suggested high-single-/low-double-digit path. The business forecast was too pessimistic; this is separate from whether the stock was expensive.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: next analyst forecast years",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/813672/000081367223000010/cfocommentary02132023ex9902.htm",
+          "title": "Cadence 2022 CFO results",
+          "publisher": "Cadence / SEC",
+          "date": "2023-02-13",
+          "verified": true,
+          "finding": "Non-GAAP diluted EPS 2020/2021/2022:2.80/3.29/4.27, growth 17.5% and 29.79%. GAAP 2021/2022 EPS 2.50/3.09; growth exceeded high-single-digit expectations."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C10"
+    },
+    {
+      "claim": "Tail-risk discounts create opportunity",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        86,
+        87,
+        88
+      ],
+      "family": "regulatory-risk-value-basket",
+      "asset_or_variable": "FB Chinese internet",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Facebook's later return sensitivity was favorable while JD and BABA were adverse. Diversification reduced single-name dependence, but regulatory and global growth risks are correlated; joint-event probabilities cannot be inferred from labels alone.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/META/history/",
+          "title": "Meta five-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "September 28, 2020-September 26, 2025 vendor adjusted-close+191.39%,23.88% annualized, versus SPY+112.43%. Five-year source model stage matches broad duration, but ten-year terminal return forecast remains unresolved; no investor costs."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/JD/history/",
+          "title": "JD five-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "September 21, 2020-September 19, 2025 vendor adjusted-close proxy -48.51%, SPY+117.73%. Evaluator-defined five-year period; USDADR, no fees/taxes."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/BABA/history/",
+          "title": "BABA five-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "September 21, 2020-September 19, 2025 vendor adjusted-close proxy -37.39%, SPY+117.73%. Evaluator-defined five-year period; USDADR, no fees/taxes."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C11"
+    },
+    {
+      "claim": "Instagram acquisition created value",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        99
+      ],
+      "family": "facebook-instagram-acquisition",
+      "asset_or_variable": "Instagram",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "User scale and advertising reach do not by themselves quantify acquisition ROI. Need attributable cash flow, incremental costs and counterfactual cannibalization; consolidated Meta results cannot uniquely value Instagram.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Review disclosed Instagram revenues/profits and acquisition cash flows without treating consolidated growth as segment proof.",
+      "id": "035-C12"
+    },
+    {
+      "claim": "WhatsApp acquisition created value",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        99,
+        101
+      ],
+      "family": "facebook-whatsapp-acquisition",
+      "asset_or_variable": "WhatsApp",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The 19 bn price requires a separate monetization and strategic-value audit. Global use alone is not equivalent to cash returns or evidence the acquisition was cheap.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Identify WhatsApp monetization, attributable costs and defensible strategic counterfactual.",
+      "id": "035-C13"
+    },
+    {
+      "claim": "International monetization extends growth",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        100,
+        105,
+        108,
+        109,
+        155
+      ],
+      "family": "meta-global-monetization",
+      "asset_or_variable": "Meta",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Company revenue more than doubled between 2020 and 2025, consistent with a large runway. Aggregate growth cannot isolate rising foreign incomes from ad load, prices, AI-targeting, product mix or US monetization.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2021/Facebook-Reports-Fourth-Quarter-and-Full-Year-2020-Results/default.aspx",
+          "title": "Facebook 2020 results",
+          "publisher": "Facebook",
+          "date": "2021-01-27",
+          "verified": true,
+          "finding": "2020 revenue 85.965 bn versus 70.697 bn in 2019,+22%; diluted EPS 10.09. Repurchases 6.272 bn in 2020 and 4.202 bn in 2019, so capital returns already existed before the article."
+        },
+        {
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/",
+          "title": "Meta 2025 results",
+          "publisher": "Meta",
+          "date": "2026-01-28",
+          "verified": true,
+          "finding": "2025 revenue 200.966 bn and diluted EPS 23.49; 2020-2025 EPSCAGR 18.41%.2025 includes a large tax valuation allowance. Weighted diluted shares 2.574 bn. Figures are full calendar-year comparisons, not an exact September anniversary."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C14"
+    },
+    {
+      "claim": "Network effects preserve social moats",
+      "kind": "explanation",
+      "source_blocks": [
+        110
+      ],
+      "family": "social-network-moat",
+      "asset_or_variable": "Facebook Instagram",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Network effects are plausible but not literally exponential forever; attention can migrate to new formats. Google+ failure alone does not prove immunity to future competitors.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "035-C15"
+    },
+    {
+      "claim": "Shops adds ecommerce opportunity",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        111
+      ],
+      "family": "meta-shops-commerce",
+      "asset_or_variable": "Meta Etsy e Bay",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A product launch does not establish durable checkout adoption or profit. Need realized commerce volume and net economics, distinguishing merchant discovery ads from direct marketplace fees.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Track Shops/checkout product revisions and disclosed monetization against initial intended model.",
+      "id": "035-C16"
+    },
+    {
+      "claim": "2020 revenue grows thirteen percent",
+      "kind": "forecast",
+      "source_blocks": [
+        119,
+        121
+      ],
+      "family": "meta-revenue2020",
+      "asset_or_variable": "FB revenue",
+      "horizon": "2020",
+      "conditions": null,
+      "modality": "consensus adopted",
+      "verdict": "mixed",
+      "reason": "Revenue grew 22%, materially above 13%; the direction was right but the pandemic drag was overstated relative to ecommerce advertising gains.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2020",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2021/Facebook-Reports-Fourth-Quarter-and-Full-Year-2020-Results/default.aspx",
+          "title": "Facebook 2020 results",
+          "publisher": "Facebook",
+          "date": "2021-01-27",
+          "verified": true,
+          "finding": "2020 revenue 85.965 bn versus 70.697 bn in 2019,+22%; diluted EPS 10.09. Repurchases 6.272 bn in 2020 and 4.202 bn in 2019, so capital returns already existed before the article."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C17"
+    },
+    {
+      "claim": "2021 revenue rebounds twenty-four percent",
+      "kind": "forecast",
+      "source_blocks": [
+        120,
+        121,
+        122
+      ],
+      "family": "meta-revenue2021",
+      "asset_or_variable": "FB revenue",
+      "horizon": "2021",
+      "conditions": null,
+      "modality": "consensus adopted",
+      "verdict": "mixed",
+      "reason": "Revenue grew about 37.18%, exceeding 24%. The key rebound direction succeeded, but the numerical path underestimated strength; fiscal support was only one contributor.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2021",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm",
+          "title": "Meta 2022 Form 10-K",
+          "publisher": "Meta / SEC",
+          "date": "2023-02-02",
+          "verified": true,
+          "finding": "Revenue 2020/2021/2022:85.965/117.929/116.609 bn; diluted EPS 10.09/13.77/8.59. Weighted diluted shares 2.888/2.859/2.702 bn. Filing attributes advertising headwinds partly to Apple 2021 privacy changes that impaired targeting/measurement."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C18"
+    },
+    {
+      "claim": "Growth disappointment triggers rerating",
+      "kind": "forecast",
+      "source_blocks": [
+        122,
+        126
+      ],
+      "family": "meta-growth-price-sensitivity",
+      "asset_or_variable": "FB META",
+      "horizon": null,
+      "conditions": "Growth disappoints",
+      "modality": "could",
+      "verdict": "mixed",
+      "reason": "The 2022 revenue decline and EPS drop show the operating downside scenario materialized after a strong 2021. The illustrative 5-10% gap is not a ceiling; exact announcement attribution and daily gaps need separate event analysis.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm",
+          "title": "Meta 2022 Form 10-K",
+          "publisher": "Meta / SEC",
+          "date": "2023-02-02",
+          "verified": true,
+          "finding": "Revenue 2020/2021/2022:85.965/117.929/116.609 bn; diluted EPS 10.09/13.77/8.59. Weighted diluted shares 2.888/2.859/2.702 bn. Filing attributes advertising headwinds partly to Apple 2021 privacy changes that impaired targeting/measurement."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C19"
+    },
+    {
+      "claim": "PEG below two offers safety",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        123
+      ],
+      "family": "peg-margin-of-safety",
+      "asset_or_variable": "FB",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "PEG assumes growth is comparable and sustainable and ignores capital needs, discount rates and terminal margins. A ratio below two is not an independently validated margin of safety.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "035-C20"
+    },
+    {
+      "claim": "Legal charges are nonfundamental",
+      "kind": "explanation",
+      "source_blocks": [
+        127,
+        138
+      ],
+      "family": "meta-legal-cost-normalization",
+      "asset_or_variable": "FB profits",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Revenue growth can coexist with a one-time fine, but privacy-related legal expense is an economic cost of the operating model. Excluding it may clarify recurring earnings without proving regulation is irrelevant to fair value.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2021/Facebook-Reports-Fourth-Quarter-and-Full-Year-2020-Results/default.aspx",
+          "title": "Facebook 2020 results",
+          "publisher": "Facebook",
+          "date": "2021-01-27",
+          "verified": true,
+          "finding": "2020 revenue 85.965 bn versus 70.697 bn in 2019,+22%; diluted EPS 10.09. Repurchases 6.272 bn in 2020 and 4.202 bn in 2019, so capital returns already existed before the article."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm",
+          "title": "Meta 2022 Form 10-K",
+          "publisher": "Meta / SEC",
+          "date": "2023-02-02",
+          "verified": true,
+          "finding": "Revenue 2020/2021/2022:85.965/117.929/116.609 bn; diluted EPS 10.09/13.77/8.59. Weighted diluted shares 2.888/2.859/2.702 bn. Filing attributes advertising headwinds partly to Apple 2021 privacy changes that impaired targeting/measurement."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C21"
+    },
+    {
+      "claim": "Five-year EPS grows fifteen percent",
+      "kind": "forecast",
+      "source_blocks": [
+        128
+      ],
+      "family": "meta-eps15",
+      "asset_or_variable": "META EPS",
+      "horizon": "first 5 years",
+      "conditions": null,
+      "modality": "conservative model assumption",
+      "verdict": "right",
+      "reason": "Calendar 2020-2025 diluted EPS grew 18.41% annually, exceeding the conservative 15% assumption despite 2025 tax charges. The exact DCF base date is unseen, so this is a matching-duration business check rather than an exact model audit.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: first 5 years",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2021/Facebook-Reports-Fourth-Quarter-and-Full-Year-2020-Results/default.aspx",
+          "title": "Facebook 2020 results",
+          "publisher": "Facebook",
+          "date": "2021-01-27",
+          "verified": true,
+          "finding": "2020 revenue 85.965 bn versus 70.697 bn in 2019,+22%; diluted EPS 10.09. Repurchases 6.272 bn in 2020 and 4.202 bn in 2019, so capital returns already existed before the article."
+        },
+        {
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/",
+          "title": "Meta 2025 results",
+          "publisher": "Meta",
+          "date": "2026-01-28",
+          "verified": true,
+          "finding": "2025 revenue 200.966 bn and diluted EPS 23.49; 2020-2025 EPSCAGR 18.41%.2025 includes a large tax valuation allowance. Weighted diluted shares 2.574 bn. Figures are full calendar-year comparisons, not an exact September anniversary."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C22"
+    },
+    {
+      "claim": "Second-stage growth earns ten-percent return",
+      "kind": "forecast",
+      "source_blocks": [
+        128,
+        130
+      ],
+      "family": "meta-tenyear-return",
+      "asset_or_variable": "META",
+      "horizon": "2030",
+      "conditions": "Growth stages and 25 x terminal multiple",
+      "modality": "base-case model",
+      "verdict": "too_early",
+      "reason": "The 10% second-stage earnings growth, 25 x terminal multiple and 10% annualized shareholder-return scenario extend to 2030. The favorable first five-year stock return cannot settle the ten-year conditional outcome.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2030",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/META/history/",
+          "title": "Meta five-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "September 28, 2020-September 26, 2025 vendor adjusted-close+191.39%,23.88% annualized, versus SPY+112.43%. Five-year source model stage matches broad duration, but ten-year terminal return forecast remains unresolved; no investor costs."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C23"
+    },
+    {
+      "claim": "Facebook has not returned capital",
+      "kind": "empirical",
+      "source_blocks": [
+        132
+      ],
+      "family": "meta-existing-buybacks",
+      "asset_or_variable": "FB",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The company repurchased 4.202 bn of stock in 2019, before the article. It had not yet initiated a dividend, but grouping dividends and repurchases into a never-returned-capital claim is incorrect.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2021/Facebook-Reports-Fourth-Quarter-and-Full-Year-2020-Results/default.aspx",
+          "title": "Facebook 2020 results",
+          "publisher": "Facebook",
+          "date": "2021-01-27",
+          "verified": true,
+          "finding": "2020 revenue 85.965 bn versus 70.697 bn in 2019,+22%; diluted EPS 10.09. Repurchases 6.272 bn in 2020 and 4.202 bn in 2019, so capital returns already existed before the article."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C24"
+    },
+    {
+      "claim": "Buybacks reduce future share count",
+      "kind": "forecast",
+      "source_blocks": [
+        133
+      ],
+      "family": "meta-share-count-reduction",
+      "asset_or_variable": "META",
+      "horizon": "years ahead",
+      "conditions": null,
+      "modality": "would not be surprised",
+      "verdict": "right",
+      "reason": "Weighted diluted shares fell from 2.888 bn in 2020 to 2.574 bn in 2025. Net reduction survived stock compensation, supporting the stated per-share mechanism.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: years ahead",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm",
+          "title": "Meta 2022 Form 10-K",
+          "publisher": "Meta / SEC",
+          "date": "2023-02-02",
+          "verified": true,
+          "finding": "Revenue 2020/2021/2022:85.965/117.929/116.609 bn; diluted EPS 10.09/13.77/8.59. Weighted diluted shares 2.888/2.859/2.702 bn. Filing attributes advertising headwinds partly to Apple 2021 privacy changes that impaired targeting/measurement."
+        },
+        {
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/",
+          "title": "Meta 2025 results",
+          "publisher": "Meta",
+          "date": "2026-01-28",
+          "verified": true,
+          "finding": "2025 revenue 200.966 bn and diluted EPS 23.49; 2020-2025 EPSCAGR 18.41%.2025 includes a large tax valuation allowance. Weighted diluted shares 2.574 bn. Figures are full calendar-year comparisons, not an exact September anniversary."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C25"
+    },
+    {
+      "claim": "Privacy limits undermine ad economics",
+      "kind": "forecast",
+      "source_blocks": [
+        141,
+        142,
+        143
+      ],
+      "family": "meta-privacy-targeting",
+      "asset_or_variable": "Meta ads",
+      "horizon": null,
+      "conditions": null,
+      "modality": "risk",
+      "verdict": "right",
+      "reason": "The 2022 filing specifically reports reduced targeting/measurement and advertising revenue from Apple policy changes. This validates the mechanism even though the most visible shock came from a platform owner rather than legislation alone.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm",
+          "title": "Meta 2022 Form 10-K",
+          "publisher": "Meta / SEC",
+          "date": "2023-02-02",
+          "verified": true,
+          "finding": "Revenue 2020/2021/2022:85.965/117.929/116.609 bn; diluted EPS 10.09/13.77/8.59. Weighted diluted shares 2.888/2.859/2.702 bn. Filing attributes advertising headwinds partly to Apple 2021 privacy changes that impaired targeting/measurement."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C26"
+    },
+    {
+      "claim": "Fixed costs amplify revenue loss",
+      "kind": "explanation",
+      "source_blocks": [
+        144
+      ],
+      "family": "meta-operating-leverage",
+      "asset_or_variable": "Meta profits",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The direction follows fixed-cost arithmetic, but exact 40-50% profit sensitivity needs the initial margin, revenue-versus-profit shock definition and variable costs. Ads being less profitable is ambiguous and cannot simply be substituted for revenue falling 25%.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "035-C27"
+    },
+    {
+      "claim": "Regulators could force divestitures",
+      "kind": "forecast",
+      "source_blocks": [
+        149,
+        150
+      ],
+      "family": "bigtech-antitrust-breakup",
+      "asset_or_variable": "Meta Alphabet Amazon",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "This is an undated possibility across three firms, not a dated prediction of mandatory separation. Litigation or an investigation is not itself divestiture; each firm requires its own legal outcome.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "035-C28"
+    },
+    {
+      "claim": "Cash buffers support adaptation",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        153,
+        154
+      ],
+      "family": "meta-balance-sheet-flexibility",
+      "asset_or_variable": "Meta",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Meta continued growing substantially despite privacy and macro shocks, consistent with financial capacity to adapt. Cash is not sufficient proof that every reinvestment earns its cost, and later capital intensity can change the original business economics.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680123000013/meta-20221231.htm",
+          "title": "Meta 2022 Form 10-K",
+          "publisher": "Meta / SEC",
+          "date": "2023-02-02",
+          "verified": true,
+          "finding": "Revenue 2020/2021/2022:85.965/117.929/116.609 bn; diluted EPS 10.09/13.77/8.59. Weighted diluted shares 2.888/2.859/2.702 bn. Filing attributes advertising headwinds partly to Apple 2021 privacy changes that impaired targeting/measurement."
+        },
+        {
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/",
+          "title": "Meta 2025 results",
+          "publisher": "Meta",
+          "date": "2026-01-28",
+          "verified": true,
+          "finding": "2025 revenue 200.966 bn and diluted EPS 23.49; 2020-2025 EPSCAGR 18.41%.2025 includes a large tax valuation allowance. Weighted diluted shares 2.574 bn. Figures are full calendar-year comparisons, not an exact September anniversary."
+        }
+      ],
+      "next_check": null,
+      "id": "035-C29"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Breakevens and heatmap",
+      "source_blocks": [
+        7,
+        45
+      ],
+      "use": "Regime",
+      "image_inspected": false
+    },
+    {
+      "name": "MACD PEG DCF",
+      "source_blocks": [
+        71,
+        123,
+        128
+      ],
+      "use": "Entry/value",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Risk recognition can coexist with a good investment."
+  ],
+  "assessment": "Facebook was a successful long-window selection and its conservative initial EPS growth was surpassed. The analysis usefully identified privacy sensitivity, but its assertion that buybacks had not begun was wrong. The comparison also underestimated Cadence growth. Fiscal timing and the proposed technical entry rule remain less auditable than the company forecast.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "Public market series are available, but not every investment claim has a defined horizon or reconciled corporate-action-adjusted return. Unverified outcomes remain unscored; macro data use latest available vintages."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "11f37d07e4cc25d421518a50ba4e78e93134026e64b7b15ffad6e4277a599a4c"
+}

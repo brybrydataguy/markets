@@ -1,0 +1,984 @@
+{
+  "article_id": "152",
+  "title": "HDFC Bank Deep Dive Analysis",
+  "date": "2024-12-22",
+  "source_url": "https://www.lynalden.com/premium-2024-12-22/",
+  "read_complete": true,
+  "summary": "Reserve constraints, quantum risk, and Indian banking.",
+  "coverage_note": "Read all macro, China, bitcoin accounting/treasuries/quantum, HDFC and UAE sections. Quoted prior Bitcoin forecasts retain original dates rather than becoming fresh calls. Crypto technical assertions are separated from adoption predictions.",
+  "claims": [
+    {
+      "id": "152-C01",
+      "claim": "RRP drainage tightens reserve margin.",
+      "kind": "explanation",
+      "source_blocks": [
+        8,
+        10,
+        12
+      ],
+      "family": "reserve-scarcity-warning",
+      "asset_or_variable": "reserve-scarcity-warning",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "QT later ended, but reserve scarcity cannot be timed from zero RRP balances or a historical cash-to-assets ratio alone. Facility segmentation and reserve distribution are important.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2025-10-29",
+          "verified": true,
+          "finding": "FOMC announced aggregate securities runoff would conclude December 1 2025."
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchases",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "The Desk announced $40 billion of initial bill purchases starting December 12, to maintain ample reserves. This is not itself evidence of deficit monetization as the causal motive."
+        },
+        {
+          "url": "https://www.newyorkfed.org/medialibrary/media/markets/omo/omo2024-pdf.pdf",
+          "title": "Open market operations during 2024",
+          "publisher": "New York Fed",
+          "date": null,
+          "verified": true,
+          "finding": "Page 15 states the only material SRF usage in 2024 was September quarter-end, totaling $2.6bn; other use was small operational-readiness transactions. December operations were offered but did not generate a larger material draw."
+        }
+      ],
+      "next_check": "Compare funding spreads and marginal reserve demand with declining RRP balances."
+    },
+    {
+      "id": "152-C02",
+      "claim": "Year-end repo exceeds September.",
+      "kind": "forecast",
+      "source_blocks": [
+        16
+      ],
+      "family": "repo-quarter-end-pressure",
+      "asset_or_variable": "repo-quarter-end-pressure",
+      "horizon": "Q4 2024 end",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The New York Fed annual review says September was the only material 2024 usage. Offering extra operations did not imply counterparties would borrow more at year-end.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "Q4 2024 end",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/medialibrary/media/markets/omo/omo2024-pdf.pdf",
+          "title": "Open market operations during 2024",
+          "publisher": "New York Fed",
+          "date": null,
+          "verified": true,
+          "finding": "Page 15 states the only material SRF usage in 2024 was September quarter-end, totaling $2.6bn; other use was small operational-readiness transactions. December operations were offered but did not generate a larger material draw."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "152-C03",
+      "claim": "QT ends and balance sheet floors.",
+      "kind": "forecast",
+      "source_blocks": [
+        17,
+        32
+      ],
+      "family": "fed-balance-sheet-turn",
+      "asset_or_variable": "fed-balance-sheet-turn",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Runoff ended in December 2025 and reserve purchases began that month. This is the recurring 2025 transition thesis.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2025-10-29",
+          "verified": true,
+          "finding": "FOMC announced aggregate securities runoff would conclude December 1 2025."
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchases",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "The Desk announced $40 billion of initial bill purchases starting December 12, to maintain ample reserves. This is not itself evidence of deficit monetization as the causal motive."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "152-C04",
+      "claim": "Repo backstop can delay QT end.",
+      "kind": "explanation",
+      "source_blocks": [
+        17
+      ],
+      "family": "repo-backstop-policy",
+      "asset_or_variable": "repo-backstop-policy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The counterfactual stopping date without a facility is unobserved. Readiness, pricing and stigma can affect actual use.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Model reserve demand with and without backstop access."
+    },
+    {
+      "id": "152-C05",
+      "claim": "Global liquidity pressured in Q1.",
+      "kind": "forecast",
+      "source_blocks": [
+        18
+      ],
+      "family": "global-liquidity-tightness",
+      "asset_or_variable": "global-liquidity-tightness",
+      "horizon": "Q1 2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A stronger dollar at the start does not establish the whole-quarter global aggregate. Exact country weights and money definitions are needed.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "Q1 2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compute the disclosed global measure from December 2024 to March 2025 and show changes within the period."
+    },
+    {
+      "id": "152-C06",
+      "claim": "Q4 growth exceeds 3%.",
+      "kind": "forecast",
+      "source_blocks": [
+        21
+      ],
+      "family": "us-growth-nowcast",
+      "asset_or_variable": "us-growth-nowcast",
+      "horizon": "Q4 2024",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The cited nowcast was above 3%, while latest-vintage Q4 growth is 2.4%. This is an endorsed nowcast near quarter-end, not evidence that she predicted recession.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "Q4 2024",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/A191RL1Q225SBEA",
+          "title": "A191RL1Q225SBEA downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2024 Q4 annualized real GDP growth 2.4% in latest downloaded vintage. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "152-C07",
+      "claim": "Policy headwinds arrive in first half.",
+      "kind": "forecast",
+      "source_blocks": [
+        23,
+        24
+      ],
+      "family": "tariff-growth-headwind",
+      "asset_or_variable": "tariff-growth-headwind",
+      "horizon": "First half 2025",
+      "conditions": null,
+      "modality": "concern",
+      "verdict": "mixed",
+      "reason": "2025 Q1 growth slowed sharply and policy uncertainty rose, consistent with the warning. Aggregate GDP alone cannot assign the slowdown to tariffs or isolate anticipation and import timing.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "First half 2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/A191RL1Q225SBEA",
+          "title": "A191RL1Q225SBEA downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2025 Q1 real GDP growth 0.1%, versus 2.4% in 2024 Q4;2025 Q2 rebounded 4.0%. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": "Separate tariff costs, inventory and import front-loading, and other demand shifts."
+    },
+    {
+      "id": "152-C08",
+      "claim": "Fiscal money sustains inflation.",
+      "kind": "explanation",
+      "source_blocks": [
+        29,
+        30
+      ],
+      "family": "fiscal-inflation-persistence",
+      "asset_or_variable": "fiscal-inflation-persistence",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Inflation persistence is consistent with demand support but does not prove a single fiscal origin. Supply conditions, wage adjustment and expectations also matter.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.cbo.gov/publication/61985",
+          "title": "September 2026 monthly budget review",
+          "publisher": "CBO",
+          "date": "2026-10-08",
+          "verified": true,
+          "finding": "Estimated FY 2026 deficit $2.0tn, up $218bn; revenues +3%, outlays +6%. Major increases included interest, benefits, defense and education."
+        }
+      ],
+      "next_check": "Estimate the fiscal contribution to PCE inflation with monetary and supply controls."
+    },
+    {
+      "id": "152-C09",
+      "claim": "Higher rates raise fiscal expense.",
+      "kind": "explanation",
+      "source_blocks": [
+        31
+      ],
+      "family": "fiscal-interest-channel",
+      "asset_or_variable": "fiscal-interest-channel",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Net interest costs increased with refinancing, consistent with the direct budget channel. This does not prove that all contractionary effects of higher rates are outweighed.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.cbo.gov/publication/61985",
+          "title": "September 2026 monthly budget review",
+          "publisher": "CBO",
+          "date": "2026-10-08",
+          "verified": true,
+          "finding": "Estimated FY 2026 deficit $2.0tn, up $218bn; revenues +3%, outlays +6%. Major increases included interest, benefits, defense and education."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "152-C10",
+      "claim": "Fiscal impulse outweighs credit restraint.",
+      "kind": "explanation",
+      "source_blocks": [
+        31
+      ],
+      "family": "fiscal-dominance-growth",
+      "asset_or_variable": "fiscal-dominance-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Net macro effect is an empirical question, not an accounting identity. Interest paid can be saved or flow abroad.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Estimate spending propensities of recipients and private borrowing losses."
+    },
+    {
+      "id": "152-C11",
+      "claim": "Low Chinese yields signal stagnation.",
+      "kind": "explanation",
+      "source_blocks": [
+        38
+      ],
+      "family": "china-bond-growth-signal",
+      "asset_or_variable": "china-bond-growth-signal",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Bond yields also reflect policy, inflation expectations and financial repression. No unique mapping from yield to economic health is supplied.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Decompose real yields and compare domestic-demand indicators."
+    },
+    {
+      "id": "152-C12",
+      "claim": "China stimulus recurs at pain points.",
+      "kind": "forecast",
+      "source_blocks": [
+        38,
+        39
+      ],
+      "family": "china-stimulus-pivot",
+      "asset_or_variable": "china-stimulus-pivot",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The red lines and required stimulus magnitude are not defined. Repeated intervention cannot validate a trigger that can be labeled afterward.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Specify observable stress thresholds and subsequent measures."
+    },
+    {
+      "id": "152-C13",
+      "claim": "Consumption weakness limits China.",
+      "kind": "explanation",
+      "source_blocks": [
+        39
+      ],
+      "family": "china-consumption-rebalance",
+      "asset_or_variable": "china-consumption-rebalance",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Export strength can coexist with domestic weakness, but household wealth and uncertainty need direct evidence; headline GDP does not resolve the composition claim.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare household consumption share, property losses and fiscal transfers."
+    },
+    {
+      "id": "152-C14",
+      "claim": "Bitcoin remains bullish over year.",
+      "kind": "forecast",
+      "source_blocks": [
+        44,
+        47
+      ],
+      "family": "bitcoin-medium-term-bull",
+      "asset_or_variable": "bitcoin-medium-term-bull",
+      "horizon": "Original 12-month horizons",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "This section quotes the November 24 and December 8 forecasts rather than setting a new clock. Both original twelve-month price comparisons were lower; preserve those dates when grouping repeated claims.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "Original 12-month horizons",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD daily closes",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2024-11-24 close $98,013.82; 2025-11-24 close $88,270.56. Calendar daily-close convention; no execution assumption or fees. Crypto spot excludes yield."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD daily closes",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2024-12-08 close $101,236.02; 2025-12-08 close $90,640.20. Calendar daily-close convention; no execution assumption or fees. Crypto spot excludes yield."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "152-C15",
+      "claim": "Index inclusion creates passive demand.",
+      "kind": "explanation",
+      "source_blocks": [
+        52
+      ],
+      "family": "mstr-index-demand",
+      "asset_or_variable": "mstr-index-demand",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Index-tracking holdings should rise mechanically at inclusion, but actual purchases and offsetting sales need fund and index data. Announcement price action is not execution evidence.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Check the Nasdaq change notice and QQQ holdings around the December 2024 rebalance."
+    },
+    {
+      "id": "152-C16",
+      "claim": "Fair-value accounting removes asymmetry.",
+      "kind": "explanation",
+      "source_blocks": [
+        53
+      ],
+      "family": "bitcoin-fair-value-accounting",
+      "asset_or_variable": "bitcoin-fair-value-accounting",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The new standard requires fair-value gains and losses for qualifying assets. Effective dates are fiscal years beginning after December 15, 2024, not a universal switch on that date; early adoption was permitted.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Confirm entity-specific adoption dates and scope."
+    },
+    {
+      "id": "152-C17",
+      "claim": "Large-company proposals fail.",
+      "kind": "forecast",
+      "source_blocks": [
+        58
+      ],
+      "family": "corporate-bitcoin-vote",
+      "asset_or_variable": "corporate-bitcoin-vote",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Microsoft rejected its proposal. Amazon later obtained permission to omit a similar assessment proposal rather than having shareholders vote it down. The direction of resistance fits; the mechanism differs.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312524275524/d865252d8k.htm",
+          "title": "2024 shareholder results",
+          "publisher": "Microsoft / SEC",
+          "date": "2024-12-11",
+          "verified": true,
+          "finding": "December 10 shareholders rejected assessment of investing in bitcoin; not a binding treasury allocation proposal."
+        }
+      ],
+      "next_check": "Distinguish exclusion from rejection and verify the Amazon no-action letter."
+    },
+    {
+      "id": "152-C18",
+      "claim": "Smaller firms lead treasury adoption.",
+      "kind": "forecast",
+      "source_blocks": [
+        59
+      ],
+      "family": "corporate-bitcoin-adoption",
+      "asset_or_variable": "corporate-bitcoin-adoption",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Strategy dramatically expanded holdings, but that alone does not establish a universe ranked by size or guarantee that adoption causes outperformance.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.strategy.com/press/strategy-announces-fourth-quarter-2024-financial-results-and-launches-new-website-strategy-com_02-05-2025",
+          "title": "Strategy 2024 financial results",
+          "publisher": "Strategy",
+          "date": "2025-02-05",
+          "verified": true,
+          "finding": "Reported 2024 BTC Yield of 74.3%, a bitcoin-per-diluted-share measure, confirming financing-related accretion but not shareholder total return."
+        }
+      ],
+      "next_check": "Build a dated adopter cohort and compare size, operating weakness and risk-adjusted returns."
+    },
+    {
+      "id": "152-C19",
+      "claim": "Quantum threat requires migration.",
+      "kind": "explanation",
+      "source_blocks": [
+        63,
+        64
+      ],
+      "family": "quantum-cryptography-transition",
+      "asset_or_variable": "quantum-cryptography-transition",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "NIST standardization and migration advice independently support preparation. They do not establish a precise date when existing cryptography fails.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+          "title": "First finalized post-quantum standards",
+          "publisher": "NIST",
+          "date": "2024-08-13",
+          "verified": true,
+          "finding": "NIST finalized key-encapsulation and signature standards designed for future quantum threats and urged migration to begin; this is not a prediction of a precise quantum-breaking date."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "152-C20",
+      "claim": "Signatures face greater quantum risk.",
+      "kind": "explanation",
+      "source_blocks": [
+        65
+      ],
+      "family": "bitcoin-quantum-signatures",
+      "asset_or_variable": "bitcoin-quantum-signatures",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The distinction between public-key signatures and hashing is sound in broad terms, but calling SHA-256 unqualifiedly quantum resilient hides generic quantum speedups. Practical security depends on circuit resources and the threat model.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+          "title": "First finalized post-quantum standards",
+          "publisher": "NIST",
+          "date": "2024-08-13",
+          "verified": true,
+          "finding": "NIST finalized key-encapsulation and signature standards designed for future quantum threats and urged migration to begin; this is not a prediction of a precise quantum-breaking date."
+        }
+      ],
+      "next_check": "Compare Shor and Grover resource requirements for Bitcoin-specific key exposure and mining."
+    },
+    {
+      "id": "152-C21",
+      "claim": "Migration has coordination costs.",
+      "kind": "explanation",
+      "source_blocks": [
+        68,
+        69
+      ],
+      "family": "bitcoin-quantum-governance",
+      "asset_or_variable": "bitcoin-quantum-governance",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Opt-in versus mandatory migration is a real policy tradeoff, not a forecast with one correct outcome. Treatment of lost keys changes property rights and supply availability.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Track actual Bitcoin improvement proposals and consensus adoption."
+    },
+    {
+      "id": "152-C22",
+      "claim": "Quantum theft could release old supply.",
+      "kind": "forecast",
+      "source_blocks": [
+        70
+      ],
+      "family": "bitcoin-quantum-old-coins",
+      "asset_or_variable": "bitcoin-quantum-old-coins",
+      "horizon": null,
+      "conditions": "Practical signature-breaking capability",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "Requires a cryptographically relevant quantum computer and vulnerable accessible public keys. Estimated Satoshi holdings and sale behavior are uncertain, so millions of coins being released is not automatic.",
+      "direction_assessment": "Trigger and outcome have not both been established.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Verify the exposed-key coin set, attack cost and migration status before quantifying selling pressure."
+    },
+    {
+      "id": "152-C23",
+      "claim": "Bitcoin upgrades successfully in 2030s.",
+      "kind": "forecast",
+      "source_blocks": [
+        71
+      ],
+      "family": "bitcoin-quantum-upgrade",
+      "asset_or_variable": "bitcoin-quantum-upgrade",
+      "horizon": "2030s",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The stated decade remains ahead. Current research progress cannot establish successful decentralized migration under real attack pressure.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "2030s",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Evaluate secure deployment, legacy-coin policy and actual quantum capabilities."
+    },
+    {
+      "id": "152-C24",
+      "claim": "HDFC merger drag is easing.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        89,
+        100
+      ],
+      "family": "hdfc-merger-normalization",
+      "asset_or_variable": "hdfc-merger-normalization",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Deposit growth exceeded loan growth and asset quality improved by March 2026, consistent with normalization. This did not prevent later ADR price weakness.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1144967/000119312526162748/d133399dex99.htm",
+          "title": "HDFC fiscal 2026 results",
+          "publisher": "HDFC Bank / SEC",
+          "date": "2026-04-18",
+          "verified": true,
+          "finding": "Deposits of ₹31,053bn grew 14.4%; gross advances of ₹29,600bn grew 12%; the ratio was approximately 95.3%. Gross NPA was 1.15% versus 1.33% a year earlier; capital adequacy was 19.7% versus 11.9% required. Dividends were adjusted for the 2025 bonus issue."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/HDB/history/",
+          "title": "HDB adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-12-22\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-12-23\",\"exit\":\"2026-11-06\",\"days\":683,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"HDB\":{\"entry_adjusted_close\":32.159393310546875,\"exit_adjusted_close\":25.139999389648438,\"cumulative_return_pct\":-21.82688539275517,\"annualized_return_pct\":-12.338280145427849,\"source\":\"https://finance.yahoo.com/quote/HDB/history/\"},\"SPY\":{\"entry_adjusted_close\":583.2320556640625,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":26.071598926459828,\"annualized_return_pct\":13.189828134915892,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-47.898484319215}"
+        }
+      ],
+      "next_check": "Track funding margin, return on equity and governance independently of balance-sheet growth."
+    },
+    {
+      "id": "152-C25",
+      "claim": "HDFC prior bottom holds.",
+      "kind": "forecast",
+      "source_blocks": [
+        91
+      ],
+      "family": "hdfc-price-bottom",
+      "asset_or_variable": "hdfc-price-bottom",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The ADR later traded below the 2022/2024 floor in the split-adjusted vendor history. Long-run business growth does not rescue this distinct price-floor call.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/HDB/history/",
+          "title": "HDB comparable historical lows",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Split-adjusted quoted history: the minimum from 2022 through December 22, 2024 was $25.305 on May 9, 2022; a subsequent low of $21.36 occurred October 27, 2026. Accounts for the 2025 bonus/split adjustment; this is not a dividend-return claim."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "152-C26",
+      "claim": "Deposits outgrow loans during repair.",
+      "kind": "forecast",
+      "source_blocks": [
+        101
+      ],
+      "family": "hdfc-deposit-normalization",
+      "asset_or_variable": "hdfc-deposit-normalization",
+      "horizon": "2-3 years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Fiscal 2026 deposits grew 14.4% versus gross advances of 12%; the gross loan-to-deposit ratio was about 95.3%. This verifies direction, not completion of the full two-to-three-year normalization.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "2-3 years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1144967/000119312526162748/d133399dex99.htm",
+          "title": "HDFC fiscal 2026 results",
+          "publisher": "HDFC Bank / SEC",
+          "date": "2026-04-18",
+          "verified": true,
+          "finding": "Deposits of ₹31,053bn grew 14.4%; gross advances of ₹29,600bn grew 12%; the ratio was approximately 95.3%. Gross NPA was 1.15% versus 1.33% a year earlier; capital adequacy was 19.7% versus 11.9% required. Dividends were adjusted for the 2025 bonus issue."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "152-C27",
+      "claim": "Costlier funding compresses margins.",
+      "kind": "explanation",
+      "source_blocks": [
+        102
+      ],
+      "family": "bank-funding-margin",
+      "asset_or_variable": "bank-funding-margin",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "At a fixed asset yield, more expensive funding directly reduces net interest income. Mix, hedges and credit losses are separate.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Interest-earning assets A and funded liabilities L fixed",
+          "Assetyieldy fixed",
+          "Fundingcostc rises"
+        ],
+        "derivation": "NII=A*y-L*c; d NII/dc=-L. Profit after credit losses is a separate measure."
+      }
+    },
+    {
+      "id": "152-C28",
+      "claim": "Diversification limits solvency risk.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        107,
+        122
+      ],
+      "family": "hdfc-asset-quality",
+      "asset_or_variable": "hdfc-asset-quality",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Gross nonperforming assets of 1.15% and a capital ratio of 19.7% support near-term soundness. Low aggregate private leverage and large size do not eliminate correlated credit, governance or liquidity risk.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1144967/000119312526162748/d133399dex99.htm",
+          "title": "HDFC fiscal 2026 results",
+          "publisher": "HDFC Bank / SEC",
+          "date": "2026-04-18",
+          "verified": true,
+          "finding": "Deposits of ₹31,053bn grew 14.4%; gross advances of ₹29,600bn grew 12%; the ratio was approximately 95.3%. Gross NPA was 1.15% versus 1.33% a year earlier; capital adequacy was 19.7% versus 11.9% required. Dividends were adjusted for the 2025 bonus issue."
+        }
+      ],
+      "next_check": "Stress sector losses, deposit outflows and capital buffers."
+    },
+    {
+      "id": "152-C29",
+      "claim": "HDFC premium valuation reasonable.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        112,
+        113
+      ],
+      "family": "hdfc-value",
+      "asset_or_variable": "hdfc-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A historical premium is not intrinsic value. Return on equity, cost of equity and growth determine the justified price-to-book multiple.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Model residual income and growth rather than comparing with the historical average alone."
+    },
+    {
+      "id": "152-C30",
+      "claim": "Growth outweighs multiple compression.",
+      "kind": "forecast",
+      "source_blocks": [
+        119
+      ],
+      "family": "hdfc-long-term-compounding",
+      "asset_or_variable": "hdfc-long-term-compounding",
+      "horizon": "5-10 years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "Explicit five- and ten-year horizons run through 2029 and 2034. The failed near-term bottom does not resolve this longer forecast.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "5-10 years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/HDB/history/",
+          "title": "HDB adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-12-22\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-12-23\",\"exit\":\"2026-11-06\",\"days\":683,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"HDB\":{\"entry_adjusted_close\":32.159393310546875,\"exit_adjusted_close\":25.139999389648438,\"cumulative_return_pct\":-21.82688539275517,\"annualized_return_pct\":-12.338280145427849,\"source\":\"https://finance.yahoo.com/quote/HDB/history/\"},\"SPY\":{\"entry_adjusted_close\":583.2320556640625,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":26.071598926459828,\"annualized_return_pct\":13.189828134915892,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-47.898484319215}"
+        }
+      ],
+      "next_check": "Compare USD total return, book-value growth and valuation at the 2029 and 2034 endpoints."
+    },
+    {
+      "id": "152-C31",
+      "claim": "Rupee erosion limits foreign gains.",
+      "kind": "explanation",
+      "source_blocks": [
+        123,
+        125
+      ],
+      "family": "foreign-equity-currency-risk",
+      "asset_or_variable": "foreign-equity-currency-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "For unchanged local asset value, a weaker currency reduces USD value. Local growth and hedges may offset this effect.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Localassetprice P fixed",
+          "e local currency per USD",
+          "Nohedge"
+        ],
+        "derivation": "USD value=P/e; increasing e lowers USD value."
+      }
+    },
+    {
+      "id": "152-C32",
+      "claim": "Energy shock threatens Indian FX.",
+      "kind": "forecast",
+      "source_blocks": [
+        123
+      ],
+      "family": "india-energy-external-risk",
+      "asset_or_variable": "india-energy-external-risk",
+      "horizon": null,
+      "conditions": "Prolonged energy supply crunch",
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The prolonged Gulf supply disruption occurred in 2026, so the trigger is no longer pending. The size of the effect on India current account and rupee still needs direct evidence, controlling for capital flows, remittances and intervention.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/reports/oil-market-report-september-2026",
+          "title": "September 2026 oil market report",
+          "publisher": "IEA",
+          "date": "2026-09-11",
+          "verified": true,
+          "finding": "More than 10mb/d of Gulf output was shut in August and Hormuz flows remained severely constrained. This is a realized major supply disruption, not an unobserved trigger."
+        }
+      ],
+      "next_check": "Compare RBI current account, monthly oil import bill, rupee exchange rate and FX intervention before and during the 2026 disruption."
+    },
+    {
+      "id": "152-C33",
+      "claim": "UAE policy/oil support financial hub.",
+      "kind": "explanation",
+      "source_blocks": [
+        132,
+        134
+      ],
+      "family": "uae-capital-hub",
+      "asset_or_variable": "uae-capital-hub",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Growth and capital inflows may fit, but oil wealth, policy, taxation and regional risk need separate attribution. Dubai credit stress in 2009 should not be dismissed as a skyscraper indicator.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use UAE balance-of-payments data, non-oil GDP and bank credit cycles."
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Repo/RRP",
+      "source_blocks": [
+        10,
+        16
+      ],
+      "use": "Reserves",
+      "image_inspected": false
+    },
+    {
+      "name": "China yields",
+      "source_blocks": [
+        34
+      ],
+      "use": "Demand",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs/PB",
+      "source_blocks": [
+        91,
+        113
+      ],
+      "use": "Bank value",
+      "image_inspected": false
+    },
+    {
+      "name": "Loan/deposit",
+      "source_blocks": [
+        101
+      ],
+      "use": "Funding",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate local solvency from foreign purchasing power."
+  ],
+  "assessment": "Two concrete misses were larger year-end 2024 repo usage and the HDFC price floor. QT timing and deposit-led balance-sheet repair were supported. HDFC returns over the stated long horizon and Bitcoin quantum migration remain open. Accounting implementation dates and shareholder-proposal exclusion must be described precisely.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

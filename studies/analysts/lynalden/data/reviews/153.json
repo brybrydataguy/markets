@@ -1,0 +1,1006 @@
+{
+  "article_id": "153",
+  "title": "New Year’s Portfolio Cleaning",
+  "date": "2025-01-05",
+  "source_url": "https://www.lynalden.com/premium-2025-1-5/",
+  "read_complete": true,
+  "summary": "Liquidity caution and healthcare thesis revisions.",
+  "coverage_note": "Read all macro, bitcoin, portfolio-change rationale, healthcare and gold sections. Historical quotations retain original horizons; neutral BMY exit is not recast as a bearish forecast. Source contains an edit dated 1/7/2024 within a January 2025 article, an apparent year error and sign of later editing.",
+  "claims": [
+    {
+      "id": "153-C01",
+      "claim": "Fed removed over $3tn liquidity.",
+      "kind": "empirical",
+      "source_blocks": [
+        10
+      ],
+      "family": "qt-balance-sheet-arithmetic",
+      "asset_or_variable": "qt-balance-sheet-arithmetic",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "From the maximum 2022 total-asset level to January 2025, the decline was about $2.113tn, not over $3tn. If another liquidity concept is intended it must be named; the paragraph explicitly refers to balance-sheet reduction.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "WALCL downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "April 13 2022 assets $8.965487tn; January 1 2025 $6.852491tn; difference $2.112996tn. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "153-C02",
+      "claim": "Shrinking buffers strain balance sheets.",
+      "kind": "explanation",
+      "source_blocks": [
+        8,
+        11,
+        14,
+        15
+      ],
+      "family": "reserve-scarcity-warning",
+      "asset_or_variable": "reserve-scarcity-warning",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Quarter-end financing frictions are consistent with scarce intermediary balance-sheet capacity. They do not imply aggregate reserves have crossed a fixed March 2023 threshold.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2025-10-29",
+          "verified": true,
+          "finding": "FOMC announced aggregate securities runoff would conclude December 1 2025."
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchases",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "The Desk announced $40 billion of initial bill purchases starting December 12, to maintain ample reserves. This is not itself evidence of deficit monetization as the causal motive."
+        }
+      ],
+      "next_check": "Separate SOFR-IORB spreads, reporting effects and reserve distribution."
+    },
+    {
+      "id": "153-C03",
+      "claim": "Stigma explains unused repo backstop.",
+      "kind": "explanation",
+      "source_blocks": [
+        17
+      ],
+      "family": "repo-stigma",
+      "asset_or_variable": "repo-stigma",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Non-use despite higher private rates can reflect transaction segmentation, netting and settlement advantages, not just stigma.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use counterparty surveys and eligibility or netting data to identify reasons for non-use."
+    },
+    {
+      "id": "153-C04",
+      "claim": "RRP trends down during Q1.",
+      "kind": "forecast",
+      "source_blocks": [
+        19
+      ],
+      "family": "rrp-drainage",
+      "asset_or_variable": "rrp-drainage",
+      "horizon": "Q1 2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Daily balances generally declined, but quarter-end reporting caused another large spike. A single March 31 endpoint would misrepresent the trend; monthly averages and daily minima should both be shown.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "Q1 2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/RRPONTSYD",
+          "title": "RRPONTSYD downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "January 3 2025=$237.377bn; March 31=$399.167bn. Quarter-end spikes complicate trend measurement. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": "Compute monthly means and explicitly report quarter-end effects."
+    },
+    {
+      "id": "153-C05",
+      "claim": "QT ends around midyear.",
+      "kind": "forecast",
+      "source_blocks": [
+        21
+      ],
+      "family": "fed-balance-sheet-turn",
+      "asset_or_variable": "fed-balance-sheet-turn",
+      "horizon": "Around mid 2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The 2025 year call succeeded, but December 1 termination was later than the favored midyear window. The debt-ceiling cash drawdown was correctly identified as a possible delay.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "Around mid 2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2025-10-29",
+          "verified": true,
+          "finding": "FOMC announced aggregate securities runoff would conclude December 1 2025."
+        },
+        {
+          "url": "https://www.gao.gov/products/gao-26-107908",
+          "title": "Fiscal 2025 federal debt audit",
+          "publisher": "GAO",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "Debt ceiling reinstated January 2 2025; extraordinary measures January 21-July 7; July 4 law raised limit $5tn to $41.1tn. FY 2025 deficit $1.8tn."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "153-C06",
+      "claim": "Debt-ceiling drawdown supports reserves.",
+      "kind": "forecast",
+      "source_blocks": [
+        21
+      ],
+      "family": "debt-ceiling-liquidity",
+      "asset_or_variable": "debt-ceiling-liquidity",
+      "horizon": null,
+      "conditions": "Debt-ceiling fight",
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The conditional debt-ceiling constraint materialized and the TGA declined. Net reserves also depend on other Fed liabilities and assets.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.gao.gov/products/gao-26-107908",
+          "title": "Fiscal 2025 federal debt audit",
+          "publisher": "GAO",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "Debt ceiling reinstated January 2 2025; extraordinary measures January 21-July 7; July 4 law raised limit $5tn to $41.1tn. FY 2025 deficit $1.8tn."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/WTREGEN",
+          "title": "WTREGEN downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "January 8 2025 TGA $652.636bn; July 16 $296.247bn. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "153-C07",
+      "claim": "Dollar strength pressures asset prices.",
+      "kind": "explanation",
+      "source_blocks": [
+        25
+      ],
+      "family": "dollar-global-liquidity",
+      "asset_or_variable": "dollar-global-liquidity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "More often than not lacks a sample, lag and asset universe. Shared rate or growth shocks can drive both the dollar and other assets.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Estimate asset-specific responses to identified dollar shocks."
+    },
+    {
+      "id": "153-C08",
+      "claim": "Dollar stress eventually prompts intervention.",
+      "kind": "forecast",
+      "source_blocks": [
+        26
+      ],
+      "family": "dollar-policy-backstop",
+      "asset_or_variable": "dollar-policy-backstop",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Strong enough and eventually provide no trigger or deadline. The actual QT end does not prove dollar strength caused it; a Mar-a-Lago accord was an example, not a prediction.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchases",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "The Desk announced $40 billion of initial bill purchases starting December 12, to maintain ample reserves. This is not itself evidence of deficit monetization as the causal motive."
+        }
+      ],
+      "next_check": "Specify a funding-stress measure and document the official reaction function."
+    },
+    {
+      "id": "153-C09",
+      "claim": "Q4 real growth about 2.4%.",
+      "kind": "forecast",
+      "source_blocks": [
+        28
+      ],
+      "family": "us-growth-nowcast",
+      "asset_or_variable": "us-growth-nowcast",
+      "horizon": "Q4 2024",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Latest-vintage Q4 growth equals the cited 2.4% nowcast. Treat this as an update near the end of the quarter, not a long-range forecast.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Q4 2024",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/A191RL1Q225SBEA",
+          "title": "A191RL1Q225SBEA downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2024 Q4 annualized real GDP growth 2.4%. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "153-C10",
+      "claim": "Fiscal recipients outperform credit-sensitive groups.",
+      "kind": "explanation",
+      "source_blocks": [
+        32,
+        34
+      ],
+      "family": "fiscal-dominance-growth",
+      "asset_or_variable": "fiscal-dominance-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Sector income patterns may fit, but the universal divide between recipients and nonrecipients requires data. Government contracts, transfers, private wealth and employment overlap.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Map fiscal flows and real income or consumption by recipient cohort."
+    },
+    {
+      "id": "153-C11",
+      "claim": "2025 equities become choppier.",
+      "kind": "forecast",
+      "source_blocks": [
+        35,
+        39,
+        41
+      ],
+      "family": "us-equity-2025-caution",
+      "asset_or_variable": "us-equity-2025-caution",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "SPY adjusted-close volatility and maximum drawdown were greater in 2025 than in 2024, while the annual return remained positive and lower. This supports caution without recasting it as a crash forecast.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "SPY calendar-year comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "From the prior year's last close to year-end adjusted close: 2024 return 24.886%, 2025 return 17.719%. Within-year peak-to-trough drawdown: 8.406% versus 18.755%. Annualized daily standard deviation: 12.569% versus 19.487%, using 252-day scaling. Vendor-adjusted USD proxy, not an execution claim."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "153-C12",
+      "claim": "State spending turns more austere.",
+      "kind": "forecast",
+      "source_blocks": [
+        40
+      ],
+      "family": "state-budget-tightening",
+      "asset_or_variable": "state-budget-tightening",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Federal deficits do not establish the direction of state budgets. Aggregate and state-specific enacted budgets, adjusted for inflation, are needed.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use the NASBO Fiscal Survey and Census state and local spending data, distinguishing budget years from calendar years."
+    },
+    {
+      "id": "153-C13",
+      "claim": "Stagflation risk rises.",
+      "kind": "forecast",
+      "source_blocks": [
+        41
+      ],
+      "family": "us-stagflation-risk",
+      "asset_or_variable": "us-stagflation-risk",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A higher probability cannot be scored directly from one outcome, and normal risk is unspecified. Separate slower growth, sticky inflation and equity volatility.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Define a joint growth/inflation threshold and an ex-ante probability."
+    },
+    {
+      "id": "153-C14",
+      "claim": "Bitcoin rises over original year.",
+      "kind": "forecast",
+      "source_blocks": [
+        50
+      ],
+      "family": "bitcoin-medium-term-bull",
+      "asset_or_variable": "bitcoin-medium-term-bull",
+      "horizon": "November 2024-November 2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The quoted November 24 forecast retains its original clock; the one-year closing price was lower. Later higher highs are not a substitute exit strategy.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "November 2024-November 2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD daily closes",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2024-11-24 close $98,013.82; 2025-11-24 close $88,270.56. Calendar daily-close convention; no execution assumption or fees. Crypto spot excludes yield."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "153-C15",
+      "claim": "Trimming premium MSTR controls risk.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        53
+      ],
+      "family": "mstr-premium-risk",
+      "asset_or_variable": "mstr-premium-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Reported partial trims cannot be audited as portfolio results without executions, weights and remaining positions. Premium risk can be discussed separately.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/MSTR/history/",
+          "title": "MSTR adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2025-01-05\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2025-01-06\",\"exit\":\"2026-11-06\",\"days\":669,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"MSTR\":{\"entry_adjusted_close\":379.0899963378906,\"exit_adjusted_close\":128.92999267578125,\"cumulative_return_pct\":-65.98960829320768,\"annualized_return_pct\":-44.50207377735934,\"source\":\"https://finance.yahoo.com/quote/MSTR/history/\"},\"BTC-USD\":{\"entry_adjusted_close\":102078.0859375,\"exit_adjusted_close\":75746.9296875,\"cumulative_return_pct\":-25.79511166198977,\"annualized_return_pct\":-15.03094232838922,\"source\":\"https://finance.yahoo.com/quote/BTC-USD/history/\"}},\"excess_percentage_points\":-40.194496631217916}"
+        }
+      ],
+      "next_check": "Evaluate the premium and position concentration without claiming a full strategy return."
+    },
+    {
+      "id": "153-C16",
+      "claim": "MVRV analog supports consolidation.",
+      "kind": "explanation",
+      "source_blocks": [
+        55
+      ],
+      "family": "bitcoin-mvrv-cycle",
+      "asset_or_variable": "bitcoin-mvrv-cycle",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Similarity to March 2024 does not impose the same path, and the author explicitly rejects exact timing. This is an analogy without a predeclared threshold.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Test frozen analogues against all historical comparable cases."
+    },
+    {
+      "id": "153-C17",
+      "claim": "Higher realized value raises floor.",
+      "kind": "explanation",
+      "source_blocks": [
+        56
+      ],
+      "family": "bitcoin-realized-cap-floor",
+      "asset_or_variable": "bitcoin-realized-cap-floor",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Realized capitalization revalues coins at movement prices, not necessarily at prices of new cash invested. A higher average cost does not prevent holders from selling at a loss.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Separate entity-adjusted purchases from self-transfers and test forward drawdown conditional on realized capitalization."
+    },
+    {
+      "id": "153-C18",
+      "claim": "Correction precedes new bitcoin high.",
+      "kind": "forecast",
+      "source_blocks": [
+        57
+      ],
+      "family": "bitcoin-midcycle-consolidation",
+      "asset_or_variable": "bitcoin-midcycle-consolidation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "A new high arrived in 2025, but the price later fell substantially. The directional breakout component succeeded; low risk of a multiyear correction is unquantified and cannot be guaranteed.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD daily closes",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2025-01-05 close $98,314.96; 2025-10-06 close $124,752.53. Calendar daily-close convention; no execution assumption or fees. Crypto spot excludes yield."
+        }
+      ],
+      "next_check": "Keep breakout success separate from subsequent drawdown and an undefined cycle classification."
+    },
+    {
+      "id": "153-C19",
+      "claim": "SLB preferred to HAL.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        77,
+        88
+      ],
+      "family": "slb-over-hal",
+      "asset_or_variable": "slb-over-hal",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Best-of-breed is a quality preference without a deadline. Both companies had weak operating results in 2025, so compare business quality and prices separately.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://investorcenter.slb.com/news-releases/news-release-details/slb-announces-fourth-quarter-and-full-year-2025-results",
+          "title": "SLB 2025 results",
+          "publisher": "SLB",
+          "date": "2026-01-23",
+          "verified": true,
+          "finding": "2025 organic revenue fell 6%, international 6%, North America 2%; adjusted EPS fell 14% to $2.93. ChampionX acquisition inflated reported North American growth."
+        },
+        {
+          "url": "https://ir.halliburton.com/node/36011",
+          "title": "Halliburton 2025 results",
+          "publisher": "Halliburton",
+          "date": "2026-01-21",
+          "verified": true,
+          "finding": "2025 revenue declined to $22.2 billion and operating income to $2.3 billion; adjusted operating income was $3.1 billion versus $3.9 billion."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SLB/history/",
+          "title": "SLB adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2025-01-05\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2025-01-06\",\"exit\":\"2026-11-06\",\"days\":669,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"SLB\":{\"entry_adjusted_close\":36.96369934082031,\"exit_adjusted_close\":49.91999816894531,\"cumulative_return_pct\":35.05141276218775,\"annualized_return_pct\":17.827820456528354,\"source\":\"https://finance.yahoo.com/quote/SLB/history/\"},\"HAL\":{\"entry_adjusted_close\":26.496185302734375,\"exit_adjusted_close\":31.84000015258789,\"cumulative_return_pct\":20.16824229147447,\"annualized_return_pct\":10.55090917266548,\"source\":\"https://finance.yahoo.com/quote/HAL/history/\"}},\"excess_percentage_points\":14.883170470713281}"
+        }
+      ],
+      "next_check": "Compare organic growth, margins, leverage and relative USD total returns."
+    },
+    {
+      "id": "153-C20",
+      "claim": "Stock wealth creation is concentrated.",
+      "kind": "empirical",
+      "source_blocks": [
+        82
+      ],
+      "family": "equity-return-skew",
+      "asset_or_variable": "equity-return-skew",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The central concentration finding is supported by the original research. The article mixes dates: the 86-stock figure pertains to the 1926-2016 study; a 2019 update is distinct.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://wpcarey.asu.edu/department-finance/faculty-research/do-stocks-outperform-treasury-bills",
+          "title": "Do stocks outperform Treasury bills?",
+          "publisher": "Arizona State University",
+          "date": null,
+          "verified": true,
+          "finding": "The original 1926-2016 study found roughly 4% of companies accounted for net wealth creation above bills, and 86 stocks accounted for about half. A later 2019 update exists; the cited 1929 start date is inaccurate."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "153-C21",
+      "claim": "Falling prices may signal impairment.",
+      "kind": "explanation",
+      "source_blocks": [
+        81
+      ],
+      "family": "value-trap-discipline",
+      "asset_or_variable": "value-trap-discipline",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A sound review principle rather than an empirical forecast. Low prices do not distinguish temporary sentiment from a permanent loss of cash flow.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Identify explicit operating metrics that would break the thesis before averaging down."
+    },
+    {
+      "id": "153-C22",
+      "claim": "BMY transition underwhelms.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        91,
+        95
+      ],
+      "family": "bmy-patent-transition",
+      "asset_or_variable": "bmy-patent-transition",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Growth products expanded while legacy revenue fell; the offset is real, but no high-conviction forecast remains here. An exit should not be scored as a subsequent bearish call.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bms.com/assets/bms/us/en-us/pdf/investor-info/doc_financials/quarterly_reports/2025/BMY-Q4-2025-Earnings-Press-Release.pdf",
+          "title": "BMY 2025 results",
+          "publisher": "Bristol Myers Squibb",
+          "date": "2026-02-05",
+          "verified": true,
+          "finding": "Growth portfolio revenue was $26.409bn versus $22.563bn; legacy revenue was $21.785bn versus $25.737bn; total revenue was approximately flat."
+        }
+      ],
+      "next_check": "Track product-level sales and patent expiries against margins from new launches."
+    },
+    {
+      "id": "153-C23",
+      "claim": "BMY lacks compelling catalyst.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        76,
+        95,
+        96
+      ],
+      "family": "bmy-exit-conviction",
+      "asset_or_variable": "bmy-exit-conviction",
+      "horizon": "Next 2 years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The author explicitly states no view on outperformance or underperformance. No catalyst is not equivalent to a falling-price forecast.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "Next 2 years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Document later catalysts without treating them as a directional call."
+    },
+    {
+      "id": "153-C24",
+      "claim": "OZK lending is less risky.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        98
+      ],
+      "family": "ozk-construction-underwriting",
+      "asset_or_variable": "ozk-construction-underwriting",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "2025 profits remained broadly flat, but that does not prove an underwriting advantage. Later charge-offs need loan-vintage and collateral data before they can refute the argument about new loans.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.ozk.com/news-releases/news-release-details/bank-ozk-announces-fourth-quarter-and-full-year-2025-earnings",
+          "title": "Bank OZK 2025 earnings",
+          "publisher": "Bank OZK",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "2025 net income was $699.3 million versus $700.3 million in 2024; EPS reached $6.18 and net interest income $1.59 billion."
+        }
+      ],
+      "next_check": "Compare losses on loans originated after COVID, loan-to-value ratios and guarantees with peers."
+    },
+    {
+      "id": "153-C25",
+      "claim": "Insurance headwinds prove temporary.",
+      "kind": "forecast",
+      "source_blocks": [
+        104
+      ],
+      "family": "health-insurance-normalization",
+      "asset_or_variable": "health-insurance-normalization",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "CVS insurance adjusted profit recovered in 2025, but this is not an industry-wide or permanent resolution. Reimbursement and medical costs remain separate risks.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://investors.cvshealth.com/news/news-details/2026/CVS-HEALTH-CORPORATION-REPORTS-FOURTH-QUARTER-AND-FULL-YEAR-2025-RESULTS/",
+          "title": "CVS 2025 results",
+          "publisher": "CVS Health",
+          "date": "2026-02-10",
+          "verified": true,
+          "finding": "Adjusted EPS rose from $5.42 to $6.75, and insurance adjusted operating income rose from $307m to $2.939bn. GAAP EPS of $1.39 included a $5.7bn care-delivery goodwill impairment."
+        }
+      ],
+      "next_check": "Compare issuer benefit ratios and normalized earnings across 2024-2026."
+    },
+    {
+      "id": "153-C26",
+      "claim": "CVS acquisitions damaged investment case.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        105
+      ],
+      "family": "cvs-capital-allocation-risk",
+      "asset_or_variable": "cvs-capital-allocation-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The 2025 care-delivery goodwill impairment is material evidence of overpayment or weaker acquisition prospects. It does not mean all vertical integration was worthless.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://investors.cvshealth.com/news/news-details/2026/CVS-HEALTH-CORPORATION-REPORTS-FOURTH-QUARTER-AND-FULL-YEAR-2025-RESULTS/",
+          "title": "CVS 2025 results",
+          "publisher": "CVS Health",
+          "date": "2026-02-10",
+          "verified": true,
+          "finding": "Adjusted EPS rose from $5.42 to $6.75, and insurance adjusted operating income rose from $307m to $2.939bn. GAAP EPS of $1.39 included a $5.7bn care-delivery goodwill impairment."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "153-C27",
+      "claim": "CVS income stabilizes in 2025.",
+      "kind": "forecast",
+      "source_blocks": [
+        107
+      ],
+      "family": "cvs-earnings-stabilization",
+      "asset_or_variable": "cvs-earnings-stabilization",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Adjusted EPS and insurance profit recovered, but GAAP EPS was depressed by the large goodwill charge. Income is ambiguous; report both rather than selecting the adjusted win.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://investors.cvshealth.com/news/news-details/2026/CVS-HEALTH-CORPORATION-REPORTS-FOURTH-QUARTER-AND-FULL-YEAR-2025-RESULTS/",
+          "title": "CVS 2025 results",
+          "publisher": "CVS Health",
+          "date": "2026-02-10",
+          "verified": true,
+          "finding": "Adjusted EPS rose from $5.42 to $6.75, and insurance adjusted operating income rose from $307m to $2.939bn. GAAP EPS of $1.39 included a $5.7bn care-delivery goodwill impairment."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "153-C28",
+      "claim": "Tax-loss selling depresses CVS.",
+      "kind": "explanation",
+      "source_blocks": [
+        107
+      ],
+      "family": "tax-loss-selling",
+      "asset_or_variable": "tax-loss-selling",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A year-end decline cannot identify tax-motivated sales; fundamental revisions and portfolio flows are alternatives.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use ownership and tax-lot flow evidence, or compare with matched tax-loss candidates."
+    },
+    {
+      "id": "153-C29",
+      "claim": "Gold beats long bonds over five years.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        119
+      ],
+      "family": "gold-over-long-bonds",
+      "asset_or_variable": "gold-over-long-bonds",
+      "horizon": "September 2024-2029+",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The quoted September 2024 horizon matures in September 2029. Do not reset the clock to January 2025 or count repetition as a new forecast.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "September 2024-2029+",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Revisit total returns over matched durations at the original horizon."
+    },
+    {
+      "id": "153-C30",
+      "claim": "Gold held up versus bonds.",
+      "kind": "empirical",
+      "source_blocks": [
+        142
+      ],
+      "family": "gold-bond-relative",
+      "asset_or_variable": "gold-bond-relative",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Start-date sensitivity is confirmed. September 16-January 3: GLD +2.02% versus IEF -5.69% and TLT -12.65%. October 30-January 3: GLD -5.44% versus IEF -1.42% and TLT -4.41%. Both intermediate and long-duration Treasury proxies match the claimed reversal of relative ranking.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD adjusted-return comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-09-13\",\"requested_endpoint\":\"2025-01-03\",\"entry\":\"2024-09-16\",\"exit\":\"2025-01-03\",\"days\":109,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"GLD\":{\"entry_adjusted_close\":238.66000366210938,\"exit_adjusted_close\":243.49000549316406,\"cumulative_return_pct\":2.023800283642374,\"annualized_return_pct\":6.944387228898319,\"source\":\"https://finance.yahoo.com/quote/GLD/history/\"},\"IEF\":{\"entry_adjusted_close\":91.50302124023438,\"exit_adjusted_close\":86.29762268066406,\"cumulative_return_pct\":-5.688772336712167,\"annualized_return_pct\":-17.820395368920728,\"source\":\"https://finance.yahoo.com/quote/IEF/history/\"}},\"excess_percentage_points\":7.712572620354541}"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD adjusted-return comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-09-13\",\"requested_endpoint\":\"2025-01-03\",\"entry\":\"2024-09-16\",\"exit\":\"2025-01-03\",\"days\":109,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"GLD\":{\"entry_adjusted_close\":238.66000366210938,\"exit_adjusted_close\":243.49000549316406,\"cumulative_return_pct\":2.023800283642374,\"annualized_return_pct\":6.944387228898319,\"source\":\"https://finance.yahoo.com/quote/GLD/history/\"},\"TLT\":{\"entry_adjusted_close\":92.44476318359375,\"exit_adjusted_close\":80.75382232666016,\"cumulative_return_pct\":-12.646406842662984,\"annualized_return_pct\":-36.43226735514935,\"source\":\"https://finance.yahoo.com/quote/TLT/history/\"}},\"excess_percentage_points\":14.670207126305357}"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD adjusted-return comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-10-29\",\"requested_endpoint\":\"2025-01-03\",\"entry\":\"2024-10-30\",\"exit\":\"2025-01-03\",\"days\":65,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"GLD\":{\"entry_adjusted_close\":257.5,\"exit_adjusted_close\":243.49000549316406,\"cumulative_return_pct\":-5.44077456576153,\"annualized_return_pct\":-26.974482787952457,\"source\":\"https://finance.yahoo.com/quote/GLD/history/\"},\"IEF\":{\"entry_adjusted_close\":87.54022216796875,\"exit_adjusted_close\":86.29762268066406,\"cumulative_return_pct\":-1.4194611991279138,\"annualized_return_pct\":-7.719221478387839,\"source\":\"https://finance.yahoo.com/quote/IEF/history/\"}},\"excess_percentage_points\":-4.021313366633617}"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD adjusted-return comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-10-29\",\"requested_endpoint\":\"2025-01-03\",\"entry\":\"2024-10-30\",\"exit\":\"2025-01-03\",\"days\":65,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"GLD\":{\"entry_adjusted_close\":257.5,\"exit_adjusted_close\":243.49000549316406,\"cumulative_return_pct\":-5.44077456576153,\"annualized_return_pct\":-26.974482787952457,\"source\":\"https://finance.yahoo.com/quote/GLD/history/\"},\"TLT\":{\"entry_adjusted_close\":84.47867584228516,\"exit_adjusted_close\":80.75382232666016,\"cumulative_return_pct\":-4.409223367301585,\"annualized_return_pct\":-22.383701265626378,\"source\":\"https://finance.yahoo.com/quote/TLT/history/\"}},\"excess_percentage_points\":-1.0315511984599457}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "153-C31",
+      "claim": "Dollar strength creates gold headwind.",
+      "kind": "explanation",
+      "source_blocks": [
+        145
+      ],
+      "family": "gold-dollar-rate-sensitivity",
+      "asset_or_variable": "gold-dollar-rate-sensitivity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Often is not universal; real rates, risk premiums and central-bank demand can overwhelm USD translation.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Estimate the conditional gold response with real-rate and demand controls."
+    },
+    {
+      "id": "153-C32",
+      "claim": "Extreme RSI predicts consolidation.",
+      "kind": "explanation",
+      "source_blocks": [
+        147
+      ],
+      "family": "gold-rsi-consolidation",
+      "asset_or_variable": "gold-rsi-consolidation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Five historical instances are a small sample; the RSI period, threshold and consolidation definition must be fixed in advance. Calling a correction healthy does not measure predictive value.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reproduce all threshold crossings and forward-return distributions."
+    },
+    {
+      "id": "153-C33",
+      "claim": "Gold reaches fresh highs.",
+      "kind": "forecast",
+      "source_blocks": [
+        148
+      ],
+      "family": "gold-secular-breakout",
+      "asset_or_variable": "gold-secular-breakout",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The gold ETF price exceeded pre-report highs during 2025. This resolves the event direction but not the exact timing of stabilization.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2025-01-05\",\"requested_endpoint\":\"2025-12-31\",\"entry\":\"2025-01-06\",\"exit\":\"2025-12-31\",\"days\":359,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"GLD\":{\"entry_adjusted_close\":243.19000244140625,\"exit_adjusted_close\":396.30999755859375,\"cumulative_return_pct\":62.963112619763194,\"annualized_return_pct\":64.35452812799511,\"source\":\"https://finance.yahoo.com/quote/GLD/history/\"},\"SPY\":{\"entry_adjusted_close\":583.8890991210938,\"exit_adjusted_close\":676.635009765625,\"cumulative_return_pct\":15.884165466376787,\"annualized_return_pct\":16.181966535631375,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":47.07894715338641}"
+        }
+      ],
+      "next_check": null
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "SOFR/IORB",
+      "source_blocks": [
+        15
+      ],
+      "use": "Funding",
+      "image_inspected": false
+    },
+    {
+      "name": "MVRV",
+      "source_blocks": [
+        55,
+        56
+      ],
+      "use": "Cost basis",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        93,
+        98,
+        103
+      ],
+      "use": "Revision",
+      "image_inspected": false
+    },
+    {
+      "name": "RSI/IEF",
+      "source_blocks": [
+        142,
+        147
+      ],
+      "use": "Gold",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Revise conviction when cash-flow evidence changes."
+  ],
+  "assessment": "The stronger 2025 equity-caution call was supported by lower return, higher realized volatility and a deeper drawdown. The Fed liquidity arithmetic overstated balance-sheet shrinkage, and midyear QT timing was early. CVS operating recovery coexisted with acquisition impairment; its verdict must remain mixed. The BMY sale expressed lost conviction, not an outperformance forecast.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

@@ -1,0 +1,1101 @@
+{
+  "article_id": "073",
+  "title": "Healthcare Sector Update",
+  "date": "2021-12-12",
+  "source_url": "https://www.lynalden.com/premium-2021-12-12/",
+  "read_complete": true,
+  "summary": "Tightening meets inflation, crypto risks, and defensive equities.",
+  "coverage_note": "All article text blocks were read. Ledger covers material macro, investment, and causal propositions; incidental descriptive statistics, boilerplate, and unreasoned position lists are excluded. Image labels were read, not image pixels.",
+  "claims": [
+    {
+      "claim": "Omicron spreads with lower severity",
+      "source_blocks": [
+        10,
+        13,
+        16
+      ],
+      "kind": "empirical",
+      "family": "omicron-severity",
+      "verdict": "right",
+      "reason": "Subsequent surveillance supported rapid transmission and lower relative severity. Hospital burdens can nevertheless rise with infections; the article preserved that distinction.",
+      "evidence": [
+        {
+          "url": "https://www.cdc.gov/mmwr/volumes/71/wr/mm7106a4.htm",
+          "title": "Delta and Omicron genomic surveillance",
+          "publisher": "CDC",
+          "date": "2022-02-11",
+          "verified": true,
+          "finding": "Omicron spread rapidly; relative severity was lower.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "omicron-severity",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "073-C01"
+    },
+    {
+      "claim": "Historical-method CPI reaches double digits",
+      "source_blocks": [
+        20
+      ],
+      "kind": "empirical",
+      "family": "alternative-cpi-methodology",
+      "verdict": "evidence_needed",
+      "reason": "This counterfactual requires a specified historical basket, housing treatment and hedonic adjustments. It cannot be validated by simply adding house-price growth to current CPI.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "alternative-cpi-methodology",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "073-C02"
+    },
+    {
+      "claim": "Shelter inflation remains persistent",
+      "source_blocks": [
+        22,
+        25
+      ],
+      "kind": "forecast",
+      "family": "sticky-shelter-inflation",
+      "verdict": "right",
+      "reason": "BLS documented continuing shelter pressure in the target period. This supports persistence, not the exact lag or contribution from market rents.",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_04122022.htm",
+          "title": "Consumer Price Index, March 2022",
+          "publisher": "BLS",
+          "date": "2022-04-12",
+          "verified": true,
+          "finding": "March CPI inflation reached 8.5%; shelter contributed.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "sticky-shelter-inflation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C03"
+    },
+    {
+      "claim": "Q1 CPI local peak 7-9%",
+      "source_blocks": [
+        28
+      ],
+      "kind": "forecast",
+      "family": "cpi-2022-local-peak",
+      "verdict": "right",
+      "reason": "March inflation was 8.5% and April eased to 8.3%, satisfying a local-peak interpretation. June later exceeded it, so this must not be recast as predicting the final cycle peak.",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_04122022.htm",
+          "title": "Consumer Price Index, March 2022",
+          "publisher": "BLS",
+          "date": "2022-04-12",
+          "verified": true,
+          "finding": "March CPI inflation reached 8.5%; shelter contributed.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_05112022.htm",
+          "title": "CPI, April 2022",
+          "publisher": "BLS",
+          "date": "2022-05-11",
+          "verified": true,
+          "finding": "Annual CPI eased to 8.3%, following March 8.5%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Q1 2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "cpi-2022-local-peak",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Q1 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C04"
+    },
+    {
+      "claim": "Smaller fiscal bill passes",
+      "source_blocks": [
+        29
+      ],
+      "kind": "forecast",
+      "family": "bbb-revised-bill",
+      "verdict": "mixed",
+      "reason": "A narrower successor became the IRA before the midterms, but it differed materially from the assumed package, notably in short-run household support. Treat legislative survival and stimulus content separately.",
+      "evidence": [
+        {
+          "url": "https://files.gao.gov/reports/GAO-25-106996/index.html",
+          "title": "Implementation of Medicare Drug Pricing Provisions",
+          "publisher": "GAO",
+          "date": "2025-04-28",
+          "verified": true,
+          "finding": "IRA introduced negotiation and inflation rebates.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "before 2022 midterms",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bbb-revised-bill",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: before 2022 midterms",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C05"
+    },
+    {
+      "claim": "Wage pressure stays strong",
+      "source_blocks": [
+        38
+      ],
+      "kind": "forecast",
+      "family": "wage-pressure",
+      "verdict": "right",
+      "reason": "Official employment-cost data show strong subsequent nominal wage increases. This supports the pressure call, not proof of a self-sustaining wage-price spiral.",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/opub/ted/2023/compensation-costs-up-5-1-percent-from-december-2021-to-december-2022.htm",
+          "title": "Compensation costs in 2022",
+          "publisher": "BLS",
+          "date": "2023-02-02",
+          "verified": true,
+          "finding": "Nominal wages and salaries rose 5.1% in 2022.",
+          "verification_method": "retrieved official statistical extract; exact release day not verified"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "wage-pressure",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C06"
+    },
+    {
+      "claim": "Deglobalization raises price pressure",
+      "source_blocks": [
+        44,
+        45
+      ],
+      "kind": "explanation",
+      "family": "deglobalization-inflation",
+      "verdict": "conditional_pending",
+      "reason": "The claimed direction is conditional on production moving toward higher-cost configurations; aggregate inflation has many competing causes.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": "globalization stabilizes or reverses",
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "deglobalization-inflation",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "073-C07"
+    },
+    {
+      "claim": "Positive real rates unlikely",
+      "source_blocks": [
+        49,
+        53,
+        56,
+        57
+      ],
+      "kind": "forecast",
+      "family": "negative-real-rates",
+      "verdict": "wrong",
+      "reason": "The Fed reached 5.25-5.50% and retained restrictive policy into 2024 while CPI fell to about 3%. This is a sustained positive ex-post real-rate interval within the stated several years. Fiscal interest costs rose, but did not impose the suggested near-2% ceiling.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Policy target rose to 5.25-5.50%.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2024-ar-monetary-policy.htm",
+          "title": "2024 Annual Report: Monetary Policy",
+          "publisher": "Federal Reserve",
+          "date": "2025-02-07",
+          "verified": true,
+          "finding": "Policy rates exceeded PCE inflation during sustained restriction.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07112024.htm",
+          "title": "CPI, June 2024",
+          "publisher": "BLS",
+          "date": "2024-07-11",
+          "verified": true,
+          "finding": "June 2024 annual CPI inflation was 3.0%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "next several years",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "negative-real-rates",
+      "modality": "asserted",
+      "confidence": "high",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: next several years",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C08"
+    },
+    {
+      "claim": "Debt refinancing raises interest costs",
+      "source_blocks": [
+        53,
+        54
+      ],
+      "kind": "explanation",
+      "family": "fiscal-interest-refinancing",
+      "verdict": "right",
+      "reason": "CBO reports FY2024 net interest $881b, about 2.5 times FY2021. This confirms the direction of fiscal interest-cost pressure. It does not establish the claim that those transfers independently raise inflation.",
+      "evidence": [
+        {
+          "url": "https://www.cbo.gov/publication/61258",
+          "title": "Federal Budget in Fiscal Year 2024: infographic release",
+          "publisher": "Congressional Budget Office",
+          "date": "2025-03-20",
+          "verified": true,
+          "retrieved": "2026-11-07",
+          "finding": "FY2024 net interest costs were $881 billion, approximately 2.5 times FY2021; the deficit was $1.8 trillion.",
+          "relevant_claims": [
+            "073-C09"
+          ],
+          "limits": "Confirms rising fiscal interest expense; does not identify the causal effect of interest transfers on inflation."
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "fiscal-interest-refinancing",
+      "modality": "asserted",
+      "confidence": "high",
+      "direction_assessment": "Confirmed for the identified endpoint.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "073-C09"
+    },
+    {
+      "claim": "Tightening ends when stability breaks",
+      "source_blocks": [
+        58,
+        198,
+        200,
+        201
+      ],
+      "kind": "forecast",
+      "family": "fed-financial-stability-pivot",
+      "verdict": "mixed",
+      "reason": "The banking shock led to liquidity support, yet policy tightening continued. The framework identified conflicting mandates but overstates a single dovish policy switch if liquidity facilities and rates are treated as interchangeable.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/cook20230331a.htm",
+          "title": "U.S. Economic Outlook and Monetary Policy",
+          "publisher": "Federal Reserve",
+          "date": "2023-03-31",
+          "verified": true,
+          "finding": "Tightening continued through inflation and banking stress.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Policy target rose to 5.25-5.50%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "fed-financial-stability-pivot",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C10"
+    },
+    {
+      "claim": "RRP signals ending QE",
+      "source_blocks": [
+        59,
+        66
+      ],
+      "kind": "explanation",
+      "family": "rrp-liquidity-signal",
+      "verdict": "evidence_needed",
+      "reason": "The taper did occur, but high RRP and policy decisions share institutional drivers. Their correlation does not independently validate a reliable causal trigger.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20211215a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2021-12-15",
+          "verified": true,
+          "finding": "Taper accelerated; zero rates initially remained.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "rrp-liquidity-signal",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "073-C11"
+    },
+    {
+      "claim": "Stocks depend on stimulus",
+      "source_blocks": [
+        71,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ],
+      "kind": "explanation",
+      "family": "equity-stimulus-dependence",
+      "verdict": "evidence_needed",
+      "reason": "Selected episodes do not control for earnings, risk premia and common responses to recessions. A graph overlay is descriptive rather than a causal test.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "equity-stimulus-dependence",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "073-C12"
+    },
+    {
+      "claim": "2022 equities turn volatile",
+      "source_blocks": [
+        81,
+        82
+      ],
+      "kind": "forecast",
+      "family": "tightening-risk-assets",
+      "verdict": "right",
+      "reason": "Broad equities and bonds experienced substantial losses during the identified year. This supports the caution, without crediting every causal element.",
+      "evidence": [
+        {
+          "url": "https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2022/",
+          "title": "SPIVA U.S. Year-End 2022",
+          "publisher": "S&P Dow Jones Indices",
+          "date": "2023-03-07",
+          "verified": true,
+          "finding": "2022 stocks and investment-grade bonds both fell materially.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "tightening-risk-assets",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C13"
+    },
+    {
+      "claim": "Chinese equities have decent 2022",
+      "source_blocks": [
+        87,
+        96,
+        101
+      ],
+      "kind": "forecast",
+      "family": "china-equity-rebound-2022",
+      "verdict": "wrong",
+      "reason": "The selected China ETF subsequently returned about -22.5% in USD during calendar 2022. This directly contradicts the year-specific optimism, notwithstanding later recoveries.",
+      "evidence": [
+        {
+          "url": "https://www.ishares.com/uk/professionals/en/products/239619/mchi",
+          "title": "iShares MSCI China ETF performance",
+          "publisher": "iShares",
+          "date": null,
+          "verified": true,
+          "finding": "Calendar 2022 total return was negative.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "china-equity-rebound-2022",
+      "modality": "asserted",
+      "confidence": "high",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C14"
+    },
+    {
+      "claim": "China policy favors recovery",
+      "source_blocks": [
+        94,
+        102
+      ],
+      "kind": "forecast",
+      "family": "china-policy-rebound-2022",
+      "verdict": "mixed",
+      "reason": "Political incentives and looser monetary policy favored recovery, but 2022 growth was only 3.0% with property contraction and lockdown disruption. The stated inference about what Xi wanted is not independently observable; credit the easing direction while rejecting the implied smooth recovery.",
+      "evidence": [
+        {
+          "url": "https://www.stats.gov.cn/english/PressRelease/202401/t20240110_1946428.html",
+          "title": "Final verification of 2022 GDP",
+          "publisher": "National Bureau of Statistics of China",
+          "date": "2023-12-29",
+          "verified": true,
+          "finding": "2022 growth was 3.0%; real estate contracted.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.worldbank.org/en/news/press-release/2022/06/08/covid-19-outbreaks-and-headwinds-have-disrupted-china-s-growth-normalization-world-bank-report",
+          "title": "China growth normalization disrupted",
+          "publisher": "World Bank",
+          "date": "2022-06-08",
+          "verified": true,
+          "finding": "After a strong early-2022 start, Omicron outbreaks and mobility restrictions disrupted growth normalization.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "china-policy-rebound-2022",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Partial support; distinguish observed indicators from inferred aggregate outcome.",
+      "timing_assessment": "Assessed against the stated horizon: 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C15"
+    },
+    {
+      "claim": "Chinese ADR delisting manageable",
+      "source_blocks": [
+        88,
+        89
+      ],
+      "kind": "explanation",
+      "family": "china-listing-access",
+      "verdict": "evidence_needed",
+      "reason": "An ETF can reduce instrument-specific exposure, but custody, conversion rights and trading restrictions still matter. Specific ADR contracts and fund holdings are needed to assess access rather than assume it.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "china-listing-access",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "073-C16"
+    },
+    {
+      "claim": "Taiwan conflict threatens supply chains",
+      "source_blocks": [
+        97,
+        99
+      ],
+      "kind": "forecast",
+      "family": "taiwan-supply-chain-risk",
+      "verdict": "conditional_pending",
+      "reason": "This is a contingent scenario, not a forecast that invasion will occur. No hit is earned merely because tensions remain.",
+      "evidence": [],
+      "horizon": "2023 and beyond",
+      "conditions": "invasion of Taiwan",
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "taiwan-supply-chain-risk",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: 2023 and beyond",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C17"
+    },
+    {
+      "claim": "Bitcoin cycle still has upside",
+      "source_blocks": [
+        107,
+        110,
+        117,
+        118
+      ],
+      "kind": "forecast",
+      "family": "bitcoin-2021-bull-continuation",
+      "verdict": "wrong",
+      "reason": "The expected continuation did not materialize in the ensuing bear market. A new high in 2024 does not rescue an expectation about the late-2021 cycle. The author acknowledged tactical downside risk, which reduces conviction but does not reverse the base case.",
+      "evidence": [
+        {
+          "url": "https://investor.coinbase.com/files/doc_financials/2022/q4/Shareholder-Letter-Q4-2022.pdf",
+          "title": "Q4 and Full-Year 2022 shareholder letter",
+          "publisher": "Coinbase",
+          "date": "2023-02-21",
+          "verified": true,
+          "finding": "A deep 2022 crypto bear market replaced late-2021 optimism.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.coinbase.com/bytes/archive/bitcoins-latest-all-time-high",
+          "title": "Bitcoin latest all-time high",
+          "publisher": "Coinbase",
+          "date": "2024-03-13",
+          "verified": true,
+          "finding": "Bitcoin exceeded $73,000 in March 2024.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "current cycle",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bitcoin-2021-bull-continuation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: current cycle",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C18"
+    },
+    {
+      "claim": "Bitcoin cycles become smaller",
+      "source_blocks": [
+        117
+      ],
+      "kind": "forecast",
+      "family": "bitcoin-cycle-moderation",
+      "verdict": "not_testable",
+      "reason": "No definition of cycle, sample horizon or volatility threshold is provided. It needs a consistent drawdown/return measurement across completed cycles.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "bitcoin-cycle-moderation",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C19"
+    },
+    {
+      "claim": "Illiquid supply supports Bitcoin",
+      "source_blocks": [
+        111,
+        114,
+        118
+      ],
+      "kind": "explanation",
+      "family": "bitcoin-illiquid-supply",
+      "verdict": "evidence_needed",
+      "reason": "Dormant coins and low exchange balances do not measure marginal demand or off-chain leverage. Subsequent losses show this indicator cannot alone establish a price floor.",
+      "evidence": [
+        {
+          "url": "https://investor.coinbase.com/files/doc_financials/2022/q4/Shareholder-Letter-Q4-2022.pdf",
+          "title": "Q4 and Full-Year 2022 shareholder letter",
+          "publisher": "Coinbase",
+          "date": "2023-02-21",
+          "verified": true,
+          "finding": "A deep 2022 crypto bear market replaced late-2021 optimism.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "bitcoin-illiquid-supply",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "073-C20"
+    },
+    {
+      "claim": "Ether lockup supports price",
+      "source_blocks": [
+        125
+      ],
+      "kind": "explanation",
+      "family": "ethereum-lockup-supply",
+      "verdict": "evidence_needed",
+      "reason": "Reduced immediately available supply is plausible, but the price contribution requires controlling for derivatives, substitutes and demand. Locked ETH is not the same as permanently absent economic supply.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "ethereum-lockup-supply",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "073-C21"
+    },
+    {
+      "claim": "Merge unlocks staked ether",
+      "source_blocks": [
+        128,
+        129
+      ],
+      "kind": "forecast",
+      "family": "ethereum-merge-withdrawals",
+      "verdict": "wrong",
+      "reason": "Withdrawals were enabled by Shapella in April 2023, after the Merge. The article conflates two separate milestones, undermining the proposed timing of the sell-pressure mechanism.",
+      "evidence": [
+        {
+          "url": "https://blog.ethereum.org/2023/03/28/shapella-mainnet-announcement",
+          "title": "Mainnet Shapella Announcement",
+          "publisher": "Ethereum Foundation",
+          "date": "2023-03-28",
+          "verified": true,
+          "finding": "Withdrawals followed the Merge, in April 2023.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "ethereum-merge-withdrawals",
+      "modality": "asserted",
+      "confidence": "high",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C22"
+    },
+    {
+      "claim": "Ethereum faces multiple bear catalysts",
+      "source_blocks": [
+        129,
+        130
+      ],
+      "kind": "forecast",
+      "family": "ethereum-bear-risks",
+      "verdict": "not_testable",
+      "reason": "The broad list covers mutually different outcomes without probabilities. The 2022 crypto decline cannot retrospectively validate the incorrect unlock mechanism.",
+      "evidence": [
+        {
+          "url": "https://investor.coinbase.com/files/doc_financials/2022/q4/Shareholder-Letter-Q4-2022.pdf",
+          "title": "Q4 and Full-Year 2022 shareholder letter",
+          "publisher": "Coinbase",
+          "date": "2023-02-21",
+          "verified": true,
+          "finding": "A deep 2022 crypto bear market replaced late-2021 optimism.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://blog.ethereum.org/2023/03/28/shapella-mainnet-announcement",
+          "title": "Mainnet Shapella Announcement",
+          "publisher": "Ethereum Foundation",
+          "date": "2023-03-28",
+          "verified": true,
+          "finding": "Withdrawals followed the Merge, in April 2023.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "ethereum-bear-risks",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C23"
+    },
+    {
+      "claim": "Crypto enforcement intensifies",
+      "source_blocks": [
+        134,
+        141
+      ],
+      "kind": "forecast",
+      "family": "crypto-securities-enforcement",
+      "verdict": "right",
+      "reason": "Major 2023 exchange enforcement actions support the timed enforcement forecast. Allegations are not final judicial findings and do not prove every token was legally a security.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2023-102",
+          "title": "SEC charges Coinbase",
+          "publisher": "SEC",
+          "date": "2023-06-06",
+          "verified": true,
+          "finding": "A major securities enforcement action occurred in 2023.",
+          "verification_method": "retrieved official press-release search extract"
+        }
+      ],
+      "horizon": "2022-2023",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "crypto-securities-enforcement",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2022-2023",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C24"
+    },
+    {
+      "claim": "Risky stablecoin reserves need buffers",
+      "source_blocks": [
+        136,
+        137,
+        138,
+        139
+      ],
+      "kind": "explanation",
+      "family": "stablecoin-reserve-risk",
+      "verdict": "mixed",
+      "reason": "The actual 2021 assurance report confirms risky reserve assets, supporting the need for loss-absorbing capital. However, uninsured bank deposits carry credit risk too, and bank regulatory capital is not a universal 110:100 asset/liability rule. The risk principle is stronger than the simplified banking analogy.",
+      "evidence": [
+        {
+          "url": "https://assets.ctfassets.net/vyse88cgwfbl/01lZdtaNYx7jZ4jU5xmlYO/90aa0d5b1e3559c393ff135f987ddbd0/tether-assurance-sept-30-2021.pdf",
+          "title": "September 2021 assurance report",
+          "publisher": "Tether / Moore Cayman",
+          "date": "2021-11-18",
+          "verified": true,
+          "finding": "Reserves include commercial paper, corporate instruments, secured loans and other investments beyond cash/Treasuries; attestation uses specified point-in-time accounting assumptions.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.circle.com/pressroom/3-3-billion-of-usdc-reserve-risk-removed-dollar-de-peg-closes",
+          "title": "USDC reserve risk and depeg",
+          "publisher": "Circle",
+          "date": "2023-03-13",
+          "verified": true,
+          "finding": "Statement dated March 12 reports $3.3b of reserves at SVB, 8% of total, becoming accessible after government depositor protection; USDC had depegged.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "stablecoin-reserve-risk",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "See qualified outcome in rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "073-C25"
+    },
+    {
+      "claim": "Stablecoin rules move bankward",
+      "source_blocks": [
+        135,
+        140
+      ],
+      "kind": "forecast",
+      "family": "stablecoin-prudential-regulation",
+      "verdict": "mixed",
+      "reason": "The 2025 GENIUS Act confirms substantial reserve, prudential and AML regulation, but expressly permits qualified nonbank issuers. Thus bank-like oversight direction was broadly right while a literal bank-only conclusion would be wrong; implementation remains phased as of the review date.",
+      "evidence": [
+        {
+          "url": "https://www.govinfo.gov/content/pkg/COMPS-18221/pdf/COMPS-18221.pdf",
+          "title": "GENIUS Act, Public Law 119-27",
+          "publisher": "US Congress",
+          "date": "2025-07-18",
+          "verified": true,
+          "finding": "Enacted reserve, capital, supervision and AML framework for payment stablecoin issuers, including qualified nonbank issuers; it does not require every issuer to become a deposit-taking bank. Implementation is phased.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "stablecoin-prudential-regulation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "See qualified outcome in rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C26"
+    },
+    {
+      "claim": "Russian sanctions threaten exits",
+      "source_blocks": [
+        161,
+        162
+      ],
+      "kind": "forecast",
+      "family": "russian-investor-access-risk",
+      "verdict": "right",
+      "reason": "Full blocking sanctions on Sberbank confirmed the specific investor-access hazard. Position reductions show a contemporaneous response; remaining exposure should not be described as fully protected.",
+      "evidence": [
+        {
+          "url": "https://2021-2025.state.gov/targeting-additional-russian-financial-institutions-officials-and-other-individuals/",
+          "title": "Targeting additional Russian financial institutions",
+          "publisher": "US Department of State",
+          "date": "2022-04-06",
+          "verified": true,
+          "finding": "Sberbank became subject to full blocking sanctions.",
+          "verification_method": "retrieved official statement search extract"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "russian-investor-access-risk",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C27"
+    },
+    {
+      "claim": "Healthcare reform stays limited",
+      "source_blocks": [
+        170,
+        171
+      ],
+      "kind": "forecast",
+      "family": "healthcare-regulation-limited",
+      "verdict": "mixed",
+      "reason": "Inflation rebates and patient caps aligned with the expected direction, but negotiated Medicare prices were also authorized. The adjective sweeping lacks a numerical boundary; evaluate specific provisions.",
+      "evidence": [
+        {
+          "url": "https://files.gao.gov/reports/GAO-25-106996/index.html",
+          "title": "Implementation of Medicare Drug Pricing Provisions",
+          "publisher": "GAO",
+          "date": "2025-04-28",
+          "verified": true,
+          "finding": "IRA introduced negotiation and inflation rebates.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "next couple election cycles",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "healthcare-regulation-limited",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: next couple election cycles",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "073-C28"
+    },
+    {
+      "claim": "Cigna is attractively valued",
+      "source_blocks": [
+        173,
+        176,
+        178
+      ],
+      "kind": "investment_thesis",
+      "family": "cigna-value",
+      "verdict": "not_testable",
+      "reason": "The analyst growth estimate is not a guaranteed author forecast. A low PEG ratio requires sustainable margins and appropriate cash-flow accounting; no holding-period return target is stated.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "cigna-value",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "073-C29"
+    },
+    {
+      "claim": "CVS is attractively valued",
+      "source_blocks": [
+        182,
+        184,
+        185
+      ],
+      "kind": "investment_thesis",
+      "family": "cvs-value",
+      "verdict": "not_testable",
+      "reason": "Acquisition deleveraging and buybacks are not sufficient evidence of eventual shareholder returns. Assess insurer cost trends, pharmacy economics and total returns separately.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "cvs-value",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "073-C30"
+    },
+    {
+      "claim": "Healthcare beats bonds",
+      "source_blocks": [
+        179,
+        184,
+        191
+      ],
+      "kind": "investment_thesis",
+      "family": "healthcare-versus-bonds",
+      "verdict": "evidence_needed",
+      "reason": "Requires a defined healthcare basket and bond duration benchmark. Sector defensiveness should be assessed across the specified stress periods rather than inferred from low valuation.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "healthcare-versus-bonds",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "073-C31"
+    },
+    {
+      "claim": "Cerner offers overlooked value",
+      "source_blocks": [
+        186,
+        189
+      ],
+      "kind": "investment_thesis",
+      "family": "cerner-value",
+      "verdict": "mixed",
+      "reason": "The subsequent $95 cash acquisition provided a concrete realization event. It supports value realization, but not a claim that standalone competitive performance improved; entry cost and prior dividends still determine realized return.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312522169835/d290344d8k.htm",
+          "title": "Oracle acquisition of Cerner, Form 8-K",
+          "publisher": "Oracle / SEC",
+          "date": "2022-06-08",
+          "verified": true,
+          "finding": "Cerner acquired for $95 cash per share.",
+          "verification_method": "retrieved original filing search extract"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "cerner-value",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "073-C32"
+    },
+    {
+      "claim": "Diversified drug holdings attractive",
+      "source_blocks": [
+        190
+      ],
+      "kind": "investment_thesis",
+      "family": "pharma-dividend-value",
+      "verdict": "not_testable",
+      "reason": "BMY, JNJ, AMGN, NVS and ABC have different patent, litigation and margin risks. This basket has no stated weights, endpoint or return hurdle, so one successful constituent cannot validate the group.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "pharma-dividend-value",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "073-C33"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "CPI/wages",
+      "source_blocks": [
+        20,
+        31
+      ],
+      "use": "real purchasing power",
+      "image_inspected": false
+    },
+    {
+      "name": "Taylor rule",
+      "source_blocks": [
+        50
+      ],
+      "use": "policy gap",
+      "image_inspected": false
+    },
+    {
+      "name": "RRP/cash",
+      "source_blocks": [
+        59,
+        60
+      ],
+      "use": "liquidity",
+      "image_inspected": false
+    },
+    {
+      "name": "SOPR/HODL",
+      "source_blocks": [
+        107,
+        111
+      ],
+      "use": "holder behavior",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        173,
+        186
+      ],
+      "use": "valuation",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Political incentives need independent policy and timing tests."
+  ],
+  "assessment": "The report anticipated 2022 market stress and regulatory action, but its China rebound, durable negative-real-rate ceiling, and current crypto-cycle optimism were materially weaker. The Ethereum withdrawal timing is technically wrong. The local CPI peak should receive narrower credit without confusing it with the final annual peak.",
+  "verification_limitations": [
+    "Captured website text is not an authenticated publication-date version.",
+    "Chart-only numerical claims have not been visually verified.",
+    "Selected stock/ETF adjusted-close comparisons are disclosed where used; no reconstructed portfolio backtest has been performed.",
+    "Unresolved verdicts are not forecast failures or successes; no aggregate hit rate is inferred."
+  ]
+}

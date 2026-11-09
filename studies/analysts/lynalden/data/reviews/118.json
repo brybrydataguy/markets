@@ -1,0 +1,1261 @@
+{
+  "article_id": "118",
+  "title": "Growth vs Value Equities Update",
+  "date": "2023-09-03",
+  "source_url": "https://www.lynalden.com/premium-2023-9-3/",
+  "read_complete": true,
+  "evaluation_as_of": "2026-11-07",
+  "summary": "Liquidity, BRICS and equity valuation.",
+  "assessment": "The Egypt devaluation horizon was a clear success, and the Grayscale procedural interpretation was careful. The BRICS entry headline overstated completed membership, although the Argentina caveat was explicit. Visa and HDFC have sharply divergent interim outcomes under the same unfinished five-year horizon. Uranium’s near-term follow-through was strong; oil and growth-versus-value narratives require separation of commodity prices, equity returns and causal explanations. Neutral exits are not bearish predictions.",
+  "claims": [
+    {
+      "claim": "Domestic liquidity is flat.",
+      "source_blocks": [
+        12,
+        15,
+        16
+      ],
+      "verdict": "not_testable",
+      "reason": "The selected proxy and visual time window are informative, but flat has no stated tolerance. Fed assets minus Treasury cash and reverse repos is not an exhaustive measure of credit or investable liquidity.",
+      "kind": "explanation",
+      "family": "domestic-liquidity-proxy",
+      "asset_or_variable": "domestic-liquidity-proxy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Specify the proxy, dates, frequency and tolerance before testing flatness.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C01"
+    },
+    {
+      "claim": "Bank facilities offset QT.",
+      "source_blocks": [
+        15
+      ],
+      "verdict": "mixed",
+      "reason": "Emergency lending adds Fed assets while securities runoff subtracts them. That accounting offset occurred during banking stress. It does not establish that QT alone caused the bank failures or that temporary lending permanently reversed the tightening stance.",
+      "kind": "explanation",
+      "family": "qt-bank-facility-offset",
+      "asset_or_variable": "qt-bank-facility-offset",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "WALCL observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Fed total assets rose during March 2023 banking stress while securities runoff continued."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C02"
+    },
+    {
+      "claim": "Issuance mix changes drains.",
+      "source_blocks": [
+        16
+      ],
+      "verdict": "mixed",
+      "reason": "Bills purchased with money-fund reverse-repo balances can replace one Fed liability with another and cushion reserve drains. The outcome depends on who buys and how purchases are financed. Newly issued long-maturity notes differ from short remaining-maturity securities eligible for money funds.",
+      "kind": "explanation",
+      "family": "tga-rrp-issuance-mix",
+      "asset_or_variable": "tga-rrp-issuance-mix",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Reconcile Treasury issuance, money-fund holdings, RRP and reserve changes over the same dates.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C03"
+    },
+    {
+      "claim": "M2 has stabilized.",
+      "source_blocks": [
+        17
+      ],
+      "verdict": "right",
+      "reason": "Latest-vintage M2 was $20,808.0bn in May and $20,770.3bn in July 2023, a decline of about 0.18%, consistent with a short plateau after the prior contraction. This verifies the narrow observed stabilization, not future money growth.",
+      "kind": "empirical",
+      "family": "m2-2023-plateau",
+      "asset_or_variable": "m2-2023-plateau",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/M2SL",
+          "title": "M2SL observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "May 2023 20808.0; June 20777.3; July 20770.3, billions of dollars. Latest vintage."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C04"
+    },
+    {
+      "claim": "Global money drives assets.",
+      "source_blocks": [
+        19,
+        20,
+        22,
+        23
+      ],
+      "verdict": "evidence_needed",
+      "reason": "Dollar-translated broad money mixes local money growth with exchange-rate changes. A contemporaneous chart does not establish a stable causal model, and country weights or leads cannot be selected after observing prices.",
+      "kind": "explanation",
+      "family": "global-m2-risk-assets",
+      "asset_or_variable": "global-m2-risk-assets",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Freeze the country basket, currency conversion and lag, then compare out-of-sample returns and alternative drivers.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C05"
+    },
+    {
+      "claim": "Fiscal flows offset tightening.",
+      "source_blocks": [
+        27,
+        34
+      ],
+      "verdict": "mixed",
+      "reason": "Interest repricing raises government outlays, and transfers can support selected recipients while credit-sensitive sectors slow. The net macro effect requires spending propensities, refinancing lags and a counterfactual; a large deficit does not mechanically prove that monetary restraint has been neutralized.",
+      "kind": "explanation",
+      "family": "fiscal-dominance-two-economies",
+      "asset_or_variable": "fiscal-dominance-two-economies",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Compare fiscal impulse and recipient spending with private-credit and valuation effects.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C06"
+    },
+    {
+      "claim": "Cyclical labor is weakening.",
+      "source_blocks": [
+        28,
+        30
+      ],
+      "verdict": "mixed",
+      "reason": "Temporary-help employment declined from 2.9673m in January to 2.8098m in August 2023 in the downloaded vintage, supporting the cyclical warning. Exact claims about initial payroll revisions and overtime require publication-era releases, not only revised data.",
+      "kind": "empirical",
+      "family": "cyclical-labor-2023",
+      "asset_or_variable": "cyclical-labor-2023",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/TEMPHELPS",
+          "title": "TEMPHELPS observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "January 2023 2967.3 thousand; August 2809.8 thousand, latest vintage."
+        }
+      ],
+      "next_check": "Reconcile initial monthly payroll releases and revisions with the contemporaneous overtime series.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C07"
+    },
+    {
+      "claim": "Manufacturing improves below expansion.",
+      "source_blocks": [
+        32
+      ],
+      "verdict": "right",
+      "reason": "The published ISM release confirms a rising headline index still below 50. New orders weakened, so the narrow rate-of-change observation should not be promoted into a declared broad recovery.",
+      "kind": "empirical",
+      "family": "manufacturing-2023-inflection",
+      "asset_or_variable": "manufacturing-2023-inflection",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2023/2023-09/rob-roundup-july-2023-manufacturing-pmi/",
+          "title": "August manufacturing PMI",
+          "publisher": "ISM",
+          "date": "2023-09-01",
+          "verified": true,
+          "finding": "PMI rose from 46.4 to 47.6 but remained below 50; new orders weakened despite the headline improvement."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C08"
+    },
+    {
+      "claim": "Select sectors and retain cash.",
+      "source_blocks": [
+        35,
+        99
+      ],
+      "verdict": "not_testable",
+      "reason": "This is a portfolio construction rule without fixed weights, a return target or a holding horizon. Its usefulness cannot be inferred from a later winner chosen from the listed sectors.",
+      "kind": "investment_thesis",
+      "family": "portfolio-four-pillars",
+      "asset_or_variable": "portfolio-four-pillars",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Evaluate a contemporaneously specified portfolio and risk budget, including cash income and rebalancing.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C09"
+    },
+    {
+      "claim": "Dollar dominates FX trading.",
+      "source_blocks": [
+        38
+      ],
+      "verdict": "right",
+      "reason": "The BIS survey reports 88%, close to the rounded 90% description. This is a share of currency sides in FX turnover, not a share of all international trade payments.",
+      "kind": "empirical",
+      "family": "dollar-fx-network-share",
+      "asset_or_variable": "dollar-fx-network-share",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/media-releases/20221027-triennial-survey-shows-global-foreign-exchange-trading-averaged-75-trillion-day-april-2022-otc",
+          "title": "2022 FX market survey",
+          "publisher": "BIS",
+          "date": "2022-10-27",
+          "verified": true,
+          "finding": "Dollar on one side of 88% of trades; euro 31%, yen and sterling also widely traded. Two currency sides sum to 200%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C10"
+    },
+    {
+      "claim": "Trade requires dollars or barter.",
+      "source_blocks": [
+        38,
+        39
+      ],
+      "verdict": "mixed",
+      "reason": "Dollar dominance is real, but the binary framing is too strong: euro, yen and other currency markets also support monetary exchange. Dollar contracts and correspondent banking are not all literal accounts on one Federal Reserve ledger. Sanctions power also depends on legal jurisdiction and intermediaries.",
+      "kind": "explanation",
+      "family": "dollar-ledger-constraint",
+      "asset_or_variable": "dollar-ledger-constraint",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/media-releases/20221027-triennial-survey-shows-global-foreign-exchange-trading-averaged-75-trillion-day-april-2022-otc",
+          "title": "2022 FX market survey",
+          "publisher": "BIS",
+          "date": "2022-10-27",
+          "verified": true,
+          "finding": "Dollar on one side of 88% of trades; euro 31%, yen and sterling also widely traded. Two currency sides sum to 200%."
+        },
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-international-role-of-the-us-dollar-post-covid-edition-20230623.html",
+          "title": "International role of the dollar",
+          "publisher": "Federal Reserve",
+          "date": "2023-06-23",
+          "verified": true,
+          "finding": "Documents dollar network effects, deep U.S. capital markets, renminbi capital-account restrictions and European market fragmentation."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C11"
+    },
+    {
+      "claim": "Networks slow currency displacement.",
+      "source_blocks": [
+        41,
+        43
+      ],
+      "verdict": "right",
+      "reason": "The Fed research independently identifies deep markets, liquidity, capital-account openness and institutional confidence as barriers to changing international currency use. This supports the mechanism, without supplying a precise date or proving permanent dominance.",
+      "kind": "explanation",
+      "family": "currency-network-effects",
+      "asset_or_variable": "currency-network-effects",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-international-role-of-the-us-dollar-post-covid-edition-20230623.html",
+          "title": "International role of the dollar",
+          "publisher": "Federal Reserve",
+          "date": "2023-06-23",
+          "verified": true,
+          "finding": "Documents dollar network effects, deep U.S. capital markets, renminbi capital-account restrictions and European market fragmentation."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C12"
+    },
+    {
+      "claim": "BRICS changes incrementally.",
+      "source_blocks": [
+        42
+      ],
+      "verdict": "mixed",
+      "reason": "The summit declaration emphasized local currencies and invited additional members rather than launching a shared gold currency. Later expansion supports incremental institution-building. The future scale of swaps and reserve diversification is a separate, incompletely specified proposition.",
+      "kind": "forecast",
+      "family": "brics-gradual-dedollarization",
+      "asset_or_variable": "brics-gradual-dedollarization",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.dirco.gov.za/wp-content/uploads/2023/08/Jhb-II-Declaration-24-August-2023.pdf",
+          "title": "Johannesburg declaration",
+          "publisher": "BRICS",
+          "date": "2023-08-24",
+          "verified": true,
+          "finding": "Official declaration invites new members and discusses financial cooperation without creating a joint gold-backed currency."
+        },
+        {
+          "url": "https://www.dirco.gov.za/wp-content/uploads/2024/04/annual-performance-plan-2024-LOW-RES.pdf",
+          "title": "2024-25 annual performance plan",
+          "publisher": "South African DIRCO",
+          "date": null,
+          "verified": true,
+          "finding": "Four invited countries joined on January 1, 2024; Argentina and Saudi Arabia did not accept the invitation at that point."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C13"
+    },
+    {
+      "claim": "Diversification increases this decade.",
+      "source_blocks": [
+        44
+      ],
+      "verdict": "too_early",
+      "reason": "The stated decade ahead runs into 2033. A final test needs separate measures of reserves, trade invoicing, debt issuance and payment use, with valuation adjustments. One bilateral agreement does not settle the full claim.",
+      "kind": "forecast",
+      "family": "dedollarization-decade",
+      "asset_or_variable": "dedollarization-decade",
+      "horizon": "Decade ahead, through 2033",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Compare fixed international-currency usage measures through the original decade endpoint.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Decade ahead, through 2033",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C14"
+    },
+    {
+      "claim": "Six BRICS entrants arrive.",
+      "source_blocks": [
+        45,
+        49
+      ],
+      "verdict": "mixed",
+      "reason": "Four of the six invitees joined on the stated date. Argentina and Saudi Arabia had not accepted. The article itself warned that Argentina could reverse course, so that qualification must accompany the overbroad headline statement.",
+      "kind": "forecast",
+      "family": "brics-2024-membership",
+      "asset_or_variable": "brics-2024-membership",
+      "horizon": "January 1, 2024",
+      "conditions": "Argentina explicitly uncertain",
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.dirco.gov.za/wp-content/uploads/2024/04/annual-performance-plan-2024-LOW-RES.pdf",
+          "title": "2024-25 annual performance plan",
+          "publisher": "South African DIRCO",
+          "date": null,
+          "verified": true,
+          "finding": "Four invited countries joined on January 1, 2024; Argentina and Saudi Arabia did not accept the invitation at that point."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "January 1, 2024",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C15"
+    },
+    {
+      "claim": "BRICS consolidates geopolitical peace.",
+      "source_blocks": [
+        47,
+        50
+      ],
+      "verdict": "not_testable",
+      "reason": "The suggested coalition and peace effects lack a defined outcome or horizon. Diplomatic participation does not establish a durable alliance or eliminate conflicts between members. The bilateral normalization predates the membership invitation.",
+      "kind": "forecast",
+      "family": "brics-geopolitical-coalition",
+      "asset_or_variable": "brics-geopolitical-coalition",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Define concrete cooperation, conflict and settlement outcomes rather than infer them from membership.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C16"
+    },
+    {
+      "claim": "Egypt devalues within a year.",
+      "source_blocks": [
+        48
+      ],
+      "verdict": "right",
+      "reason": "Official exchange-rate unification and a 38% depreciation occurred on March 6, 2024, within approximately six months. This is a clear directional and horizon success; membership in BRICS did not prevent the currency adjustment.",
+      "kind": "forecast",
+      "family": "egypt-devaluation-2024",
+      "asset_or_variable": "egypt-devaluation-2024",
+      "horizon": "Next year or so",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.imf.org/en/-/media/files/publications/cr/2024/english/1egyea2024001.pdf",
+          "title": "Egypt program review",
+          "publisher": "IMF",
+          "date": null,
+          "verified": true,
+          "finding": "March 6, 2024 exchange-rate unification brought a 38% official depreciation against USD, closing the parallel-market premium."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Next year or so",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C17"
+    },
+    {
+      "claim": "Argentina may reverse course.",
+      "source_blocks": [
+        49
+      ],
+      "verdict": "mixed",
+      "reason": "Argentina ultimately declined the invitation, validating the identified political contingency. The source said the election’s effect was unclear rather than making a firm non-entry forecast, so this deserves less predictive weight than an explicit base case.",
+      "kind": "forecast",
+      "family": "argentina-brics-reversal",
+      "asset_or_variable": "argentina-brics-reversal",
+      "horizon": null,
+      "conditions": "Milei wins the 2023 election",
+      "modality": "possible/unclear",
+      "evidence": [
+        {
+          "url": "https://www.dirco.gov.za/wp-content/uploads/2024/04/annual-performance-plan-2024-LOW-RES.pdf",
+          "title": "2024-25 annual performance plan",
+          "publisher": "South African DIRCO",
+          "date": null,
+          "verified": true,
+          "finding": "Four invited countries joined on January 1, 2024; Argentina and Saudi Arabia did not accept the invitation at that point."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C18"
+    },
+    {
+      "claim": "Grayscale denial lacked justification.",
+      "source_blocks": [
+        52,
+        54
+      ],
+      "verdict": "right",
+      "reason": "The court vacated the denial for inadequately explained differential treatment. The report correctly separates that decision from immediate approval; the SEC subsequently approved spot products in January 2024.",
+      "kind": "explanation",
+      "family": "grayscale-court-spot-etf",
+      "asset_or_variable": "grayscale-court-spot-etf",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://media.cadc.uscourts.gov/opinions/docs/2023/08/22-1142-2014527.pdf",
+          "title": "Grayscale v SEC opinion",
+          "publisher": "D.C. Circuit",
+          "date": "2023-08-29",
+          "verified": true,
+          "finding": "Court vacated the denial because the SEC had not adequately justified different treatment of materially similar spot and futures products; it did not itself approve the product."
+        },
+        {
+          "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
+          "title": "Spot Bitcoin ETP approval",
+          "publisher": "SEC",
+          "date": "2024-01-10",
+          "verified": true,
+          "finding": "January approval followed the court remand; the SEC did not endorse Bitcoin or decide all crypto assets had the same regulatory status."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C19"
+    },
+    {
+      "claim": "Correlation implies equivalent prices.",
+      "source_blocks": [
+        52,
+        53
+      ],
+      "verdict": "mixed",
+      "reason": "The opinion treated the market relationship as relevant to regulatory surveillance. Near-perfect correlation does not mean identical price levels, no futures basis, or absence of manipulation in either market. The legal inconsistency finding is narrower than a general market-efficiency claim.",
+      "kind": "explanation",
+      "family": "spot-futures-correlation",
+      "asset_or_variable": "spot-futures-correlation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://media.cadc.uscourts.gov/opinions/docs/2023/08/22-1142-2014527.pdf",
+          "title": "Grayscale v SEC opinion",
+          "publisher": "D.C. Circuit",
+          "date": "2023-08-29",
+          "verified": true,
+          "finding": "Court vacated the denial because the SEC had not adequately justified different treatment of materially similar spot and futures products; it did not itself approve the product."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C20"
+    },
+    {
+      "claim": "Liquidity dominates Bitcoin demand.",
+      "source_blocks": [
+        55,
+        57
+      ],
+      "verdict": "evidence_needed",
+      "reason": "The claim needs a model that distinguishes money growth, currency translation, ETF demand, leverage and risk appetite. A strong later Bitcoin return cannot establish which factor dominated.",
+      "kind": "explanation",
+      "family": "bitcoin-global-m2-causality",
+      "asset_or_variable": "bitcoin-global-m2-causality",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Estimate a predeclared model with fixed lags and compare explanatory power outside the fitted sample.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C21"
+    },
+    {
+      "claim": "Holder migration tightens supply.",
+      "source_blocks": [
+        55
+      ],
+      "verdict": "evidence_needed",
+      "reason": "Coin age is not a direct measure of willingness to sell. Custodial transfers, lost keys and changing prices complicate the mapping from older coins to available supply.",
+      "kind": "explanation",
+      "family": "bitcoin-holder-supply",
+      "asset_or_variable": "bitcoin-holder-supply",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Use entity-adjusted spending and order-market evidence rather than age alone.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C22"
+    },
+    {
+      "claim": "Accumulate Bitcoin through weakness.",
+      "source_blocks": [
+        56,
+        61
+      ],
+      "verdict": "not_testable",
+      "reason": "The favorable September 5, 2023-November 6, 2026 sensitivity was +193.82%, versus SPY +70.31%. The author expressly declines a duration or depth forecast; this observed window does not create an author-defined exit or prove the liquidity mechanism.",
+      "kind": "investment_thesis",
+      "family": "bitcoin-long-horizon-accumulation",
+      "asset_or_variable": "bitcoin-long-horizon-accumulation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-09-03\", \"requested_endpoint\": \"2026-11-07\", \"entry\": \"2023-09-05\", \"exit\": \"2026-11-06\", \"days\": 1158, \"endpoint_gap_days\": 1, \"endpoint_covered\": true, \"instruments\": {\"BTC-USD\": {\"entry_adjusted_close\": 25779.982421875, \"exit_adjusted_close\": 75746.9296875, \"cumulative_return_pct\": 193.82071891261927, \"annualized_return_pct\": 40.48824431989737, \"source\": \"https://finance.yahoo.com/quote/BTC-USD/history/\"}, \"SPY\": {\"entry_adjusted_close\": 431.72515869140625, \"exit_adjusted_close\": 735.2899780273438, \"cumulative_return_pct\": 70.31436858024836, \"annualized_return_pct\": 18.287815489764235, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 123.50635033237091}"
+        }
+      ],
+      "next_check": "Retain the undefined holding horizon and distinguish later revisions from the original view.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C23"
+    },
+    {
+      "claim": "Metal differs from miners.",
+      "source_blocks": [
+        69,
+        72,
+        73
+      ],
+      "verdict": "mixed",
+      "reason": "Energy and operating costs can make a miner diverge from its commodity, while royalties alter the exposure again. The article explicitly has no firm miner-price view; selling these positions cannot be scored as predicting all miners would fall.",
+      "kind": "investment_thesis",
+      "family": "metal-versus-miner-exposure",
+      "asset_or_variable": "metal-versus-miner-exposure",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Compare matched metal, producer and royalty returns with operating costs and actual portfolio weights.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C24"
+    },
+    {
+      "claim": "Card-network conviction exceeds DFS.",
+      "source_blocks": [
+        70
+      ],
+      "verdict": "not_testable",
+      "reason": "The author expresses no DFS view and higher conviction elsewhere. AXP and V subsequently gained 108.37% and 76.25% in the disclosed sensitivity, but no dated relative forecast against DFS was stated. A complete DFS comparison also requires its later corporate action.",
+      "kind": "investment_thesis",
+      "family": "card-networks-relative-value",
+      "asset_or_variable": "card-networks-relative-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/AXP/history/",
+          "title": "AXP adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-09-03\", \"requested_endpoint\": \"2026-11-07\", \"entry\": \"2023-09-05\", \"exit\": \"2026-11-06\", \"days\": 1158, \"endpoint_gap_days\": 1, \"endpoint_covered\": true, \"instruments\": {\"AXP\": {\"entry_adjusted_close\": 154.0471649169922, \"exit_adjusted_close\": 320.989990234375, \"cumulative_return_pct\": 108.37124163066511, \"annualized_return_pct\": 26.056737045848255, \"source\": \"https://finance.yahoo.com/quote/AXP/history/\"}, \"V\": {\"entry_adjusted_close\": 239.80816650390625, \"exit_adjusted_close\": 422.6499938964844, \"cumulative_return_pct\": 76.24503788097634, \"annualized_return_pct\": 19.571820189648893, \"source\": \"https://finance.yahoo.com/quote/V/history/\"}}, \"excess_percentage_points\": 32.12620374968877}"
+        }
+      ],
+      "next_check": "Preserve neutral exit language and reconcile the DFS successor security before a relative-return comparison.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C25"
+    },
+    {
+      "claim": "Energy replaces neutral RTX.",
+      "source_blocks": [
+        77,
+        78
+      ],
+      "verdict": "not_testable",
+      "reason": "XOM returned +61.23% versus RTX +136.58% in the disclosed window. This is unfavorable opportunity-cost evidence, but the author explicitly declined an RTX forecast and gave no holding-period benchmark for the swap.",
+      "kind": "investment_thesis",
+      "family": "energy-over-rtx-allocation",
+      "asset_or_variable": "energy-over-rtx-allocation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/XOM/history/",
+          "title": "XOM adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-09-03\", \"requested_endpoint\": \"2026-11-07\", \"entry\": \"2023-09-05\", \"exit\": \"2026-11-06\", \"days\": 1158, \"endpoint_gap_days\": 1, \"endpoint_covered\": true, \"instruments\": {\"XOM\": {\"entry_adjusted_close\": 102.8751220703125, \"exit_adjusted_close\": 165.8699951171875, \"cumulative_return_pct\": 61.23431183276713, \"annualized_return_pct\": 16.261278705248028, \"source\": \"https://finance.yahoo.com/quote/XOM/history/\"}, \"RTX\": {\"entry_adjusted_close\": 80.11195373535156, \"exit_adjusted_close\": 189.52999877929688, \"cumulative_return_pct\": 136.58142130125287, \"annualized_return_pct\": 31.207577880005523, \"source\": \"https://finance.yahoo.com/quote/RTX/history/\"}}, \"excess_percentage_points\": -75.34710946848574}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C26"
+    },
+    {
+      "claim": "Growth has greater duration.",
+      "source_blocks": [
+        84
+      ],
+      "verdict": "mixed",
+      "reason": "For fixed expected cash flows, a later cash-flow profile has greater discount-rate sensitivity. Growth and value index labels are imperfect proxies; earnings revisions, leverage and sector composition can dominate realized returns.",
+      "kind": "explanation",
+      "family": "growth-equity-duration",
+      "asset_or_variable": "growth-equity-duration",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Hold cash-flow forecasts fixed when comparing valuation sensitivity, then separately test realized returns.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C27"
+    },
+    {
+      "claim": "Growth lost in 2022.",
+      "source_blocks": [
+        85
+      ],
+      "verdict": "right",
+      "reason": "Dividend-adjusted IWF fell 29.31% during 2022 versus IWD’s 7.75% decline. That confirms the broad relative-return observation. It does not isolate rate hikes from changing earnings or starting valuations.",
+      "kind": "empirical",
+      "family": "growth-value-2022",
+      "asset_or_variable": "growth-value-2022",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/IWF/history/",
+          "title": "Growth and value ETF histories",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Common-close 2021-12-31 to 2022-12-30: IWF -29.31%, IWD -7.75%; adjusted USD proxies."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C28"
+    },
+    {
+      "claim": "Growth rebounded in 2023.",
+      "source_blocks": [
+        86,
+        89
+      ],
+      "verdict": "mixed",
+      "reason": "Through September 1, IWF returned +32.11% versus IWD +6.39% from the last 2022 close. The observed reversal is supported. Its attribution to anticipated peak rates and AI requires more than the price comparison.",
+      "kind": "explanation",
+      "family": "growth-value-2023",
+      "asset_or_variable": "growth-value-2023",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/IWF/history/",
+          "title": "Growth and value ETF histories",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "2022-12-30 to 2023-09-01 adjusted returns: IWF +32.11%, IWD +6.39%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C29"
+    },
+    {
+      "claim": "Alphabet merits a lower multiple.",
+      "source_blocks": [
+        90,
+        92,
+        94,
+        104
+      ],
+      "verdict": "not_testable",
+      "reason": "The earnings-yield comparison and desired entry below 20 times earnings express valuation discipline, not a promised fall. GOOGL subsequently returned +111.75% in the disclosed sensitivity; that is important opportunity-cost evidence but does not alone identify fair value.",
+      "kind": "investment_thesis",
+      "family": "alphabet-valuation-maturity",
+      "asset_or_variable": "alphabet-valuation-maturity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GOOGL/history/",
+          "title": "GOOGL adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-09-03\", \"requested_endpoint\": \"2026-11-07\", \"entry\": \"2023-09-05\", \"exit\": \"2026-11-06\", \"days\": 1158, \"endpoint_gap_days\": 1, \"endpoint_covered\": true, \"instruments\": {\"GOOGL\": {\"entry_adjusted_close\": 134.490234375, \"exit_adjusted_close\": 284.7799987792969, \"cumulative_return_pct\": 111.74771544024745, \"annualized_return_pct\": 26.69747373390381, \"source\": \"https://finance.yahoo.com/quote/GOOGL/history/\"}, \"SPY\": {\"entry_adjusted_close\": 431.72515869140625, \"exit_adjusted_close\": 735.2899780273438, \"cumulative_return_pct\": 70.31436858024836, \"annualized_return_pct\": 18.287815489764235, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 41.43334685999909}"
+        }
+      ],
+      "next_check": "Model growth, reinvestment and risk consistently with Treasury alternatives rather than compare yields alone.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C30"
+    },
+    {
+      "claim": "Apple and Microsoft look stretched.",
+      "source_blocks": [
+        95,
+        96,
+        97
+      ],
+      "verdict": "not_testable",
+      "reason": "These are relative valuation and risk assessments without an exit date or defined downside target. Apple supply-chain risk, net cash and Microsoft earnings expectations require separate tests; subsequent share gains cannot alone settle the fair-value judgment.",
+      "kind": "investment_thesis",
+      "family": "megacap-valuation-2023",
+      "asset_or_variable": "megacap-valuation-2023",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Reconcile publication-date earnings estimates, net debt and geographic exposure, then distinguish business outcomes from price performance.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C31"
+    },
+    {
+      "claim": "Visa comillion pounds over five years.",
+      "source_blocks": [
+        97
+      ],
+      "verdict": "too_early",
+      "reason": "The five-year endpoint is September 2028. V’s +76.25% interim adjusted return exceeded SPY’s +70.31% through November 6, 2026, favorable evidence that does not close the author’s horizon.",
+      "kind": "investment_thesis",
+      "family": "visa-five-year-2023",
+      "asset_or_variable": "visa-five-year-2023",
+      "horizon": "Five years through September 2028",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/V/history/",
+          "title": "V adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-09-03\", \"requested_endpoint\": \"2026-11-07\", \"entry\": \"2023-09-05\", \"exit\": \"2026-11-06\", \"days\": 1158, \"endpoint_gap_days\": 1, \"endpoint_covered\": true, \"instruments\": {\"V\": {\"entry_adjusted_close\": 239.80816650390625, \"exit_adjusted_close\": 422.6499938964844, \"cumulative_return_pct\": 76.24503788097634, \"annualized_return_pct\": 19.571820189648893, \"source\": \"https://finance.yahoo.com/quote/V/history/\"}, \"SPY\": {\"entry_adjusted_close\": 431.72515869140625, \"exit_adjusted_close\": 735.2899780273438, \"cumulative_return_pct\": 70.31436858024836, \"annualized_return_pct\": 18.287815489764235, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 5.930669300727985}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Five years through September 2028",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C32"
+    },
+    {
+      "claim": "HDFC comillion pounds over five years.",
+      "source_blocks": [
+        97
+      ],
+      "verdict": "too_early",
+      "reason": "The same five-year endpoint remains open. HDB’s -17.37% interim USD adjusted return versus SPY +70.31% is sharply adverse evidence; it must not disappear behind the unfinished horizon.",
+      "kind": "investment_thesis",
+      "family": "hdfc-five-year-2023",
+      "asset_or_variable": "hdfc-five-year-2023",
+      "horizon": "Five years through September 2028",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/HDB/history/",
+          "title": "HDB adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-09-03\", \"requested_endpoint\": \"2026-11-07\", \"entry\": \"2023-09-05\", \"exit\": \"2026-11-06\", \"days\": 1158, \"endpoint_gap_days\": 1, \"endpoint_covered\": true, \"instruments\": {\"HDB\": {\"entry_adjusted_close\": 30.423900604248047, \"exit_adjusted_close\": 25.139999389648438, \"cumulative_return_pct\": -17.36759951766943, \"annualized_return_pct\": -5.839658594390762, \"source\": \"https://finance.yahoo.com/quote/HDB/history/\"}, \"SPY\": {\"entry_adjusted_close\": 431.72515869140625, \"exit_adjusted_close\": 735.2899780273438, \"cumulative_return_pct\": 70.31436858024836, \"annualized_return_pct\": 18.287815489764235, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -87.68196809791779}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Five years through September 2028",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C33"
+    },
+    {
+      "claim": "Cash-rich value offers protection.",
+      "source_blocks": [
+        98,
+        101
+      ],
+      "verdict": "not_testable",
+      "reason": "Free cash flow, pricing power and capital returns are useful screening variables. An unspecified basket of energy, healthcare and financials has no unique return or risk test, and equity income is not contractually equivalent to a Treasury coupon.",
+      "kind": "investment_thesis",
+      "family": "cashflow-value-selection",
+      "asset_or_variable": "cash flow-value-selection",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Specify holdings, weights, dividend durability and real total returns under adverse operating scenarios.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C34"
+    },
+    {
+      "claim": "PEG screens reasonable growth.",
+      "source_blocks": [
+        100
+      ],
+      "verdict": "not_testable",
+      "reason": "A price/earnings-to-growth ratio below two is a heuristic, not a valuation identity. Growth duration, required reinvestment, competitive decay and the cost of capital can justify very different multiples at the same headline growth rate.",
+      "kind": "explanation",
+      "family": "garp-peg-heuristic",
+      "asset_or_variable": "garp-peg-heuristic",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Compare a cash-flow valuation with the PEG shortcut using the same assumptions.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C35"
+    },
+    {
+      "claim": "Revise positions with evidence.",
+      "source_blocks": [
+        102
+      ],
+      "verdict": "not_testable",
+      "reason": "This is a decision rule rather than a dated forecast. Its value depends on identifying deterioration and overvaluation before returns are known, and on the transaction record.",
+      "kind": "explanation",
+      "family": "fundamental-thesis-revision",
+      "asset_or_variable": "fundamental-thesis-revision",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Keep dated operating thresholds and revision logs rather than classify every subsequent loser as a value trap.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C36"
+    },
+    {
+      "claim": "Oil enters a structural bull.",
+      "source_blocks": [
+        105,
+        110
+      ],
+      "verdict": "too_early",
+      "reason": "The explicit five-year window reaches September 2028. WTI fell from $85.52 on September 1, 2023 to $57.26 at 2025 year-end before later conflict shocks, adverse interim evidence to a smooth structural ascent. A geopolitical spike does not by itself establish the supply-investment mechanism.",
+      "kind": "forecast",
+      "family": "oil-five-year-2023",
+      "asset_or_variable": "oil-five-year-2023",
+      "horizon": "Next five years through September 2028",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+          "title": "DCOILWTICO observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "September 1, 2023 $85.52; December 29 $71.89; December 31, 2025 $57.26 per barrel."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Next five years through September 2028",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C37"
+    },
+    {
+      "claim": "Oil equities offer favorable value.",
+      "source_blocks": [
+        105,
+        111,
+        112
+      ],
+      "verdict": "mixed",
+      "reason": "In the common sensitivity, XOM gained 61.23%, BP 36.31% and SHEL 77.44%, versus SPY 70.31%. Positive capital returns support the income/ownership case, but results differ materially across issuers and do not establish that every low multiple was superior risk-adjusted value.",
+      "kind": "investment_thesis",
+      "family": "integrated-oil-value-2023",
+      "asset_or_variable": "integrated-oil-value-2023",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/XOM/history/",
+          "title": "XOM adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-09-03\", \"requested_endpoint\": \"2026-11-07\", \"entry\": \"2023-09-05\", \"exit\": \"2026-11-06\", \"days\": 1158, \"endpoint_gap_days\": 1, \"endpoint_covered\": true, \"instruments\": {\"XOM\": {\"entry_adjusted_close\": 102.8751220703125, \"exit_adjusted_close\": 165.8699951171875, \"cumulative_return_pct\": 61.23431183276713, \"annualized_return_pct\": 16.261278705248028, \"source\": \"https://finance.yahoo.com/quote/XOM/history/\"}, \"SPY\": {\"entry_adjusted_close\": 431.72515869140625, \"exit_adjusted_close\": 735.2899780273438, \"cumulative_return_pct\": 70.31436858024836, \"annualized_return_pct\": 18.287815489764235, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -9.080056747481223}"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/BP/history/",
+          "title": "BP adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-09-03\", \"requested_endpoint\": \"2026-11-07\", \"entry\": \"2023-09-05\", \"exit\": \"2026-11-06\", \"days\": 1158, \"endpoint_gap_days\": 1, \"endpoint_covered\": true, \"instruments\": {\"BP\": {\"entry_adjusted_close\": 32.669315338134766, \"exit_adjusted_close\": 44.529998779296875, \"cumulative_return_pct\": 36.30527091982605, \"annualized_return_pct\": 10.262349266604076, \"source\": \"https://finance.yahoo.com/quote/BP/history/\"}, \"SPY\": {\"entry_adjusted_close\": 431.72515869140625, \"exit_adjusted_close\": 735.2899780273438, \"cumulative_return_pct\": 70.31436858024836, \"annualized_return_pct\": 18.287815489764235, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -34.009097660422306}"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SHEL/history/",
+          "title": "SHEL adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-09-03\", \"requested_endpoint\": \"2026-11-07\", \"entry\": \"2023-09-05\", \"exit\": \"2026-11-06\", \"days\": 1158, \"endpoint_gap_days\": 1, \"endpoint_covered\": true, \"instruments\": {\"SHEL\": {\"entry_adjusted_close\": 55.84424591064453, \"exit_adjusted_close\": 99.08999633789062, \"cumulative_return_pct\": 77.43993982198796, \"annualized_return_pct\": 19.826926192196346, \"source\": \"https://finance.yahoo.com/quote/SHEL/history/\"}, \"SPY\": {\"entry_adjusted_close\": 431.72515869140625, \"exit_adjusted_close\": 735.2899780273438, \"cumulative_return_pct\": 70.31436858024836, \"annualized_return_pct\": 18.287815489764235, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 7.125571241739607}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C38"
+    },
+    {
+      "claim": "Oil technical breakout is constructive.",
+      "source_blocks": [
+        108
+      ],
+      "verdict": "not_testable",
+      "reason": "WTI rose to $93.67 by September 27 but fell to $71.89 by year-end. With no holding period, stop or target, the chart observation cannot be converted into a binary trading forecast.",
+      "kind": "investment_thesis",
+      "family": "oil-momentum-2023",
+      "asset_or_variable": "oil-momentum-2023",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+          "title": "DCOILWTICO observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "September 1 $85.52; September 27 $93.67; December 29, 2023 $71.89."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C39"
+    },
+    {
+      "claim": "Uranium supply outlook tightened.",
+      "source_blocks": [
+        115
+      ],
+      "verdict": "right",
+      "reason": "Cameco’s same-day announcement confirms lower production guidance. The company also described inventories, purchases and borrowing as offsets to delivery risk; mine shortfalls do not mechanically equal an identical reduction in customer deliveries.",
+      "kind": "empirical",
+      "family": "cameco-2023-supply-shortfall",
+      "asset_or_variable": "cameco-2023-supply-shortfall",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.cameco.com/media/news/cameco-provides-production-and-market-update",
+          "title": "Production update",
+          "publisher": "Cameco",
+          "date": "2023-09-03",
+          "verified": true,
+          "finding": "Cigar Lake guidance reduced from 18m to 16.3m pounds and McArthur River/Key Lake from 15m to 14m; inventories and purchases could help meet deliveries."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C40"
+    },
+    {
+      "claim": "Uranium breakout has follow-through.",
+      "source_blocks": [
+        113,
+        121,
+        123
+      ],
+      "verdict": "mixed",
+      "reason": "Spot uranium subsequently reached $100 at January 2024 end and utilities contracted about 160m pounds during 2023. Those outcomes support the bullish direction. SRUUF’s later +23.80% sensitivity lagged SPY, illustrating entry timing and vehicle effects; the author supplied no fixed exit date.",
+      "kind": "investment_thesis",
+      "family": "uranium-multiyear-accumulation",
+      "asset_or_variable": "uranium-multiyear-accumulation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.cameco.com/invest/financial-information/quarterly-reports/2023/q4",
+          "title": "2023 year-end results",
+          "publisher": "Cameco",
+          "date": "2024-02-08",
+          "verified": true,
+          "finding": "Spot uranium reached $100/lb at January 2024 end after a $106 peak; utility long-term contracting totaled about 160m pounds during 2023."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SRUUF/history/",
+          "title": "SRUUF adjusted-return sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-09-03\", \"requested_endpoint\": \"2026-11-07\", \"entry\": \"2023-09-05\", \"exit\": \"2026-11-06\", \"days\": 1158, \"endpoint_gap_days\": 1, \"endpoint_covered\": true, \"instruments\": {\"SRUUF\": {\"entry_adjusted_close\": 14.960000038146973, \"exit_adjusted_close\": 18.520000457763672, \"cumulative_return_pct\": 23.796794188094527, \"annualized_return_pct\": 6.9650477254609156, \"source\": \"https://finance.yahoo.com/quote/SRUUF/history/\"}, \"SPY\": {\"entry_adjusted_close\": 431.72515869140625, \"exit_adjusted_close\": 735.2899780273438, \"cumulative_return_pct\": 70.31436858024836, \"annualized_return_pct\": 18.287815489764235, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -46.51757439215383}"
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C41"
+    },
+    {
+      "claim": "Uranium exit follows cost/sentiment.",
+      "source_blocks": [
+        123
+      ],
+      "verdict": "not_testable",
+      "reason": "The rule requires a chosen marginal production-cost estimate and a numerical sentiment threshold. Neither is fixed here, so retrospective selection of a peak cannot establish successful implementation.",
+      "kind": "investment_thesis",
+      "family": "uranium-cost-sentiment-exit",
+      "asset_or_variable": "uranium-cost-sentiment-exit",
+      "horizon": null,
+      "conditions": "Price exceeds production cost and sentiment becomes excessive",
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Define the cost curve, sentiment measure and actual exit before judging the rule.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "118-C42"
+    }
+  ],
+  "coverage_note": "Full numbered text and image inventory read. All material theses across macro, digital assets, investment analysis and concluding sections considered. Position listings and incidental descriptive statistics are excluded unless they support a thesis.",
+  "tools_charts": [
+    {
+      "name": "Liquidity/M2",
+      "source_blocks": [
+        12,
+        17,
+        20,
+        57
+      ],
+      "use": "Funding and money proxies.",
+      "image_inspected": false
+    },
+    {
+      "name": "Labor/PMI",
+      "source_blocks": [
+        28,
+        30,
+        32
+      ],
+      "use": "Cyclical momentum.",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        90,
+        103,
+        104,
+        105
+      ],
+      "use": "Valuation comparisons.",
+      "image_inspected": false
+    },
+    {
+      "name": "Momentum",
+      "source_blocks": [
+        108,
+        113
+      ],
+      "use": "Price trend context.",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate a valuation screen from a timed forecast."
+  ],
+  "verification_limitations": [
+    "Current page snapshot is not an authenticated publication-date version.",
+    "A missing horizon is not replaced with an invented author deadline.",
+    "Market sensitivities use vendor adjusted closes and do not reconstruct portfolio execution.",
+    "Chart pixels were not inspected; numerical checks use independently downloaded data.",
+    "Declared return windows are evaluator sensitivities unless the author supplied the five-year horizon."
+  ]
+}

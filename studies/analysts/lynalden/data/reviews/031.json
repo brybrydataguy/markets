@@ -1,0 +1,969 @@
+{
+  "article_id": "031",
+  "title": "Tencent Holdings (TCEHY) Deep Dive Analysis",
+  "date": "2020-08-30",
+  "source_url": "https://www.lynalden.com/premium-2020-8-30/",
+  "read_complete": true,
+  "summary": "Tencent growth meets political and valuation risks.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "Falling claims imply reemployment",
+      "kind": "explanation",
+      "source_blocks": [
+        10,
+        11
+      ],
+      "family": "ui-exits-not-all-jobs",
+      "asset_or_variable": "US jobs",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "A reduction in claims does not establish that the same number returned to work: eligibility expiry, reporting changes and program transfers also reduce counts. GAO identified counting problems, so the asserted inference overstates what this indicator measures.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://files.gao.gov/reports/GAO-21-265/index.html",
+          "title": "COVID-19 oversight report",
+          "publisher": "GAO",
+          "date": "2021-01-28",
+          "verified": true,
+          "finding": "GAO found continued-claim totals counted weeks, not unique beneficiaries. DOL clarified this in December 2020; backlogs could produce several weeks per person in one report."
+        }
+      ],
+      "next_check": null,
+      "id": "031-C01"
+    },
+    {
+      "claim": "Excess deaths corroborate pandemic severity",
+      "kind": "explanation",
+      "source_blocks": [
+        20,
+        23,
+        24,
+        25
+      ],
+      "family": "covid-excess-mortality",
+      "asset_or_variable": "US deaths",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "CDC independently found very large excess mortality. However, the gap includes indirect deaths and cannot uniquely validate the exact infection death count or the article's roughly 10% estimate, which used an earlier window.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.cdc.gov/mmwr/volumes/69/wr/mm6942e2.htm",
+          "title": "Excess mortality January-October 2020",
+          "publisher": "CDC",
+          "date": "2020-10-23",
+          "verified": true,
+          "finding": "Estimated 299,028 excess deaths through October 3, of which 198,081 or 66% were attributed to COVID-19. Excess mortality includes indirect effects and incomplete attribution, not a precise count of infection-caused deaths."
+        }
+      ],
+      "next_check": null,
+      "id": "031-C02"
+    },
+    {
+      "claim": "Infection fatality below case fatality",
+      "kind": "explanation",
+      "source_blocks": [
+        28,
+        29,
+        30
+      ],
+      "family": "covid-ifr-cfr",
+      "asset_or_variable": "COVID mortality",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Undiagnosed infections expand the denominator, but risk varies greatly with age, health and treatment. Need contemporaneous seroprevalence estimates and lag-corrected deaths; a crude 3% confirmed-case ratio is not population infection fatality.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare age-stratified serosurveys and deaths for the same infection cohorts.",
+      "id": "031-C03"
+    },
+    {
+      "claim": "India first wave peaks September",
+      "kind": "forecast",
+      "source_blocks": [
+        39
+      ],
+      "family": "india-first-covid-peak",
+      "asset_or_variable": "India cases",
+      "horizon": "September 2020",
+      "conditions": null,
+      "modality": "hopeful",
+      "verdict": "evidence_needed",
+      "reason": "This dated prediction is testable, but no daily Indian series has been reconciled here. Do not confuse a local first-wave peak with the much later pandemic maximum.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: September 2020",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Check WHO/Mo HFW daily cases and deaths through October 2020 with reporting corrections.",
+      "id": "031-C04"
+    },
+    {
+      "claim": "Fed target is core-PCE ceiling",
+      "kind": "explanation",
+      "source_blocks": [
+        48,
+        49
+      ],
+      "family": "fed-target-definition",
+      "asset_or_variable": "US inflation target",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The official goal is total PCE inflation and was already explicitly symmetric, not a hard ceiling. Core inflation is monitored as a signal but is not the formal target.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/2020-06-mpr-summary.htm",
+          "title": "June monetary report and prior strategy",
+          "publisher": "Federal Reserve",
+          "date": "2020-06-12",
+          "verified": true,
+          "finding": "The reprinted January 2019 strategy identifies total PCE inflation, not core PCE, as the 2% target and explicitly calls the objective symmetric."
+        }
+      ],
+      "next_check": null,
+      "id": "031-C05"
+    },
+    {
+      "claim": "Powell raised rates during 2019",
+      "kind": "explanation",
+      "source_blocks": [
+        55,
+        56
+      ],
+      "family": "fed-2019-policy-history",
+      "asset_or_variable": "Fed funds",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The FOMC cut rates in 2019. Attributing increases mainly to creating future ammunition also needs evidence of policy intent; the contemporary statement cited the outlook and inflation.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20191030a.htm",
+          "title": "October 2019 rate reduction",
+          "publisher": "Federal Reserve",
+          "date": "2019-10-30",
+          "verified": true,
+          "finding": "The FOMC cut its target range to 1.50-1.75%, citing global developments and muted inflation; this contradicts describing 2019 as a year of rate increases."
+        }
+      ],
+      "next_check": null,
+      "id": "031-C06"
+    },
+    {
+      "claim": "Fed tolerates next inflation overshoot",
+      "kind": "forecast",
+      "source_blocks": [
+        50,
+        51,
+        57,
+        62
+      ],
+      "family": "average-inflation-target-overshoot",
+      "asset_or_variable": "US monetary policy",
+      "horizon": "next inflation upswing",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The policy statement explicitly permitted moderate overshooting, and hikes began only in March 2022 after inflation had risen. This verifies delayed tightening, not unlimited accommodation.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: next inflation upswing",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/powell20200827a.htm",
+          "title": "New policy framework",
+          "publisher": "Federal Reserve",
+          "date": "2020-08-27",
+          "verified": true,
+          "finding": "Powell announced flexible average inflation targeting and employment-shortfall language; moderate overshooting after undershooting was intended, without a mechanical averaging formula."
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm",
+          "title": "March 2022 rate increase",
+          "publisher": "Federal Reserve",
+          "date": "2022-03-16",
+          "verified": true,
+          "finding": "The first post-pandemic increase set 0.25-0.50%, acknowledged elevated inflation and anticipated further increases and balance-sheet reduction."
+        }
+      ],
+      "next_check": null,
+      "id": "031-C07"
+    },
+    {
+      "claim": "Normal monetary tools cannot inflate",
+      "kind": "explanation",
+      "source_blocks": [
+        61,
+        63,
+        64,
+        66
+      ],
+      "family": "fiscal-versus-monetary-inflation",
+      "asset_or_variable": "Inflation mechanism",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Fiscal transfers differ from asset swaps, but normal monetary tools also affect borrowing, exchange rates, demand and expectations. Inability to guarantee inflation at the zero bound is not the same as having no ability to raise it.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/2020-06-mpr-summary.htm",
+          "title": "June monetary report and prior strategy",
+          "publisher": "Federal Reserve",
+          "date": "2020-06-12",
+          "verified": true,
+          "finding": "The reprinted January 2019 strategy identifies total PCE inflation, not core PCE, as the 2% target and explicitly calls the objective symmetric."
+        },
+        {
+          "url": "https://www.bankofengland.co.uk/explainers/how-is-money-created",
+          "title": "How money is created",
+          "publisher": "Bank of England",
+          "date": "2019-10-01",
+          "verified": true,
+          "finding": "Reserves are electronic central-bank settlement money. Capital is a separate resource that absorbs loan-default losses; both liquidity and capital constraints apply to banks."
+        }
+      ],
+      "next_check": null,
+      "id": "031-C08"
+    },
+    {
+      "claim": "Yield control keeps rates suppressed",
+      "kind": "forecast",
+      "source_blocks": [
+        62,
+        66
+      ],
+      "family": "treasury-yield-cap-2020s",
+      "asset_or_variable": "Treasury yields",
+      "horizon": "next inflation cycle",
+      "conditions": null,
+      "modality": "probably",
+      "verdict": "wrong",
+      "reason": "The Fed instead tightened and reduced holdings, with ten-year yields reaching 4.98% and positive real yields in 2023. No formal yield cap was adopted in this cycle.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: next inflation cycle",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "July 2023 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Federal funds target increased to 5.25-5.50%; Treasury/MBS holdings continued to decline. This was tightening rather than a permanent low-rate cap."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "title": "Ten-year Treasury yield",
+          "publisher": "Federal Reserve via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Ten-year nominal Treasury yield reached 4.98% October 19, 2023; ten-year real yield (DFII 10) reached 2.52% October 25. No 1-2.5% nominal ceiling persisted."
+        },
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20200729.htm",
+          "title": "July 2020 FOMC minutes",
+          "publisher": "Federal Reserve",
+          "date": "2020-08-19",
+          "verified": true,
+          "finding": "Most participants discussing yield caps/targets judged benefits modest in the prevailing environment. The committee maintained guidance and purchases without adopting explicit Treasury yield-curve control."
+        }
+      ],
+      "next_check": null,
+      "id": "031-C09"
+    },
+    {
+      "claim": "Fiscal withdrawal creates insolvency cascade",
+      "kind": "forecast",
+      "source_blocks": [
+        71,
+        75,
+        76,
+        78,
+        80,
+        198
+      ],
+      "family": "fiscal-cliff-solvency",
+      "asset_or_variable": "US households firms",
+      "horizon": null,
+      "conditions": "High unemployment persists without renewed aid",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "The sustained lack-of-support condition did not remain cleanly in force: further relief passed and prior transfers left cash buffers. Insolvency propagation is plausible but cannot be credited as an observed broad cascade.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/policy-issues/coronavirus/about-the-cares-act",
+          "title": "CARES and Consolidated Appropriations Acts",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "The subsequent broad relief act passed Congress December 21 and was signed December 27, 2020, after the election rather than during summer."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sm1224",
+          "title": "Second economic impact payments",
+          "publisher": "US Treasury / IRS",
+          "date": "2020-12-29",
+          "verified": true,
+          "finding": "Second-round payments began in late December, up to $600 per eligible individual and qualifying child; the next round of direct checks occurred, with substantial timing delay."
+        }
+      ],
+      "next_check": null,
+      "id": "031-C10"
+    },
+    {
+      "claim": "Equities vulnerable to correction",
+      "kind": "forecast",
+      "source_blocks": [
+        81,
+        89,
+        92,
+        93
+      ],
+      "family": "equity-overbought-correction",
+      "asset_or_variable": "S&P 500",
+      "horizon": "near term",
+      "conditions": null,
+      "modality": "increased likelihood",
+      "verdict": "right",
+      "reason": "The September index correction followed the warning closely. It was a possible risk rather than a specific trade; the rebound before major fiscal legislation limits the proposed fiscal-only mechanism.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: near term",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/SP500",
+          "title": "Autumn 2020 correction",
+          "publisher": "S&P Dow Jones Indices via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "S&P 500 closes August 24 3431.28, September 2 3580.84, September 23 3236.92, December 24 3703.06. September peak-to-trough close decline approximately 9.60%, followed by new highs. Excludes dividends."
+        }
+      ],
+      "next_check": null,
+      "id": "031-C11"
+    },
+    {
+      "claim": "Tobacco offers cheap durable income",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        98,
+        99,
+        100
+      ],
+      "family": "bti-value-income",
+      "asset_or_variable": "BTI",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "BTI produced 24.84% over three years and 150.94% over five, with the latter ahead of SPY. This supports income/value realization over a longer window, but a specific SYY replacement ledger and risk-adjusted comparison were not supplied. The repeated BTI thesis stays in its existing family.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTI/history/",
+          "title": "BTI historical price sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "3-year comparison 2020-08-31 to 2023-08-30: BTI +24.84% cumulative, 7.69% annualized; SPY +35.07% cumulative. 5-year comparison 2020-08-31 to 2025-08-29: BTI +150.94% cumulative, 20.23% annualized; SPY +98.33% cumulative. First common close strictly after publication, last common close on/before anniversary. USD vendor-adjusted-close proxies include vendor dividend/split adjustments; no fees, taxes or actual subscriber trades. These are evaluator-defined sensitivities unless the claim explicitly names the horizon."
+        }
+      ],
+      "next_check": null,
+      "id": "031-C12",
+      "test_specification": {
+        "window_type": "evaluator-defined sensitivity unless explicitly matched to source horizon",
+        "windows_years": [
+          3,
+          5
+        ],
+        "returns": {
+          "BTI": {
+            "3": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-08-30",
+              "requested_endpoint": "2023-08-30",
+              "entry": "2020-08-31",
+              "exit": "2023-08-30",
+              "days": 1094,
+              "endpoint_gap_days": 0,
+              "endpoint_covered": true,
+              "instruments": {
+                "BTI": {
+                  "entry_adjusted_close": 21.10187530517578,
+                  "exit_adjusted_close": 26.343997955322266,
+                  "cumulative_return_pct": 24.841975295251206,
+                  "annualized_return_pct": 7.689061249067963,
+                  "source": "https://finance.yahoo.com/quote/BTI/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 320.8877258300781,
+                  "exit_adjusted_close": 433.4261169433594,
+                  "cumulative_return_pct": 35.07095536987741,
+                  "annualized_return_pct": 10.558025628748968,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": -10.228980074626204
+            },
+            "5": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-08-30",
+              "requested_endpoint": "2025-08-30",
+              "entry": "2020-08-31",
+              "exit": "2025-08-29",
+              "days": 1824,
+              "endpoint_gap_days": 1,
+              "endpoint_covered": true,
+              "instruments": {
+                "BTI": {
+                  "entry_adjusted_close": 21.10187530517578,
+                  "exit_adjusted_close": 52.9535026550293,
+                  "cumulative_return_pct": 150.94216456696188,
+                  "annualized_return_pct": 20.230127311404278,
+                  "source": "https://finance.yahoo.com/quote/BTI/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 320.8877258300781,
+                  "exit_adjusted_close": 636.4006958007812,
+                  "cumulative_return_pct": 98.32503538567221,
+                  "annualized_return_pct": 14.696158993644758,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 52.61712918128967
+            }
+          }
+        }
+      }
+    },
+    {
+      "claim": "Russian equities remain attractive",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        105
+      ],
+      "family": "russia-equity-value",
+      "asset_or_variable": "RSX",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The explicitly acknowledged sanctions risk became severe enough to halt trading and force liquidation. This defeats the easy-access value implementation, although final loss cannot be assumed without liquidation proceeds. Also, RSX was a Van Eck fund, not i Shares.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1137360/000113736022001242/vaneckrsxsupplementtosumpr.htm",
+          "title": "RSX liquidation supplement",
+          "publisher": "Van Eck / SEC",
+          "date": "2022-12-28",
+          "verified": true,
+          "finding": "Russia ETF halted March 4, 2022 after sanctions/capital controls; redemption suspended and liquidation approved. Remaining assets and proceeds require a liquidation accounting, not a zero-return assumption."
+        }
+      ],
+      "next_check": null,
+      "id": "031-C13"
+    },
+    {
+      "claim": "Emerging markets become technology-heavy",
+      "kind": "explanation",
+      "source_blocks": [
+        110,
+        111,
+        112,
+        113
+      ],
+      "family": "em-index-tech-composition",
+      "asset_or_variable": "EM indices",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Sector definitions group retail and media with information technology. Need publication-date MSCI holdings/classifications to verify the 49/25/34% comparison and avoid treating all three sectors as identical technology exposure.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Rebuild sector weights from dated MSCI EM/EAFE and US factsheets.",
+      "id": "031-C14"
+    },
+    {
+      "claim": "Payment networks create durable moats",
+      "kind": "explanation",
+      "source_blocks": [
+        118,
+        119,
+        166
+      ],
+      "family": "tencent-network-moat",
+      "asset_or_variable": "Tencent payments social",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Network effects plausibly protect scale, but user count and population do not fix monetization or regulatory permission. Smartphone adoption language also overgeneralizes diverse emerging markets.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "031-C15"
+    },
+    {
+      "claim": "Tencent supports long-term growth",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        138,
+        141,
+        143,
+        149,
+        161,
+        199,
+        200,
+        201
+      ],
+      "family": "tencent-digital-growth",
+      "asset_or_variable": "Tencent",
+      "horizon": "long term",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Issuer results show substantial long-run earnings growth, with interruption in 2022. The business thesis has support; it does not establish superior USD shareholder returns or remove jurisdiction risk.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: long term",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.nasdaq.com/press-release/tencent-announces-2020-fourth-quarter-and-annual-results-2021-03-24",
+          "title": "Tencent 2020 results, issuer release",
+          "publisher": "Tencent via Nasdaq",
+          "date": "2021-03-24",
+          "verified": true,
+          "finding": "2020 revenue RMB 482.064 bn, +28%; non-IFRS basic EPS 12.934 and diluted 12.689. Gaming, advertising and fintech grew; figures are issuer-reported and adjusted earnings exclude specified items."
+        },
+        {
+          "url": "https://static.www.tencent.com/uploads/2023/03/22/3b5431187fdc8a053d9fee3a4c031aa6.pdf",
+          "title": "2022 annual results",
+          "publisher": "Tencent",
+          "date": "2023-03-22",
+          "verified": true,
+          "finding": "2022 revenue RMB 554.6 bn fell 1%; adjusted shareholder profit 115.6 bn fell 7%. Verified issuer-release text also syndicated at Market Screener; direct PDF reader returned no readable lines."
+        },
+        {
+          "url": "https://static.www.tencent.com/uploads/2026/03/18/f78591955e05a6db4e31e128bdaefefa.pdf",
+          "title": "2025 annual results",
+          "publisher": "Tencent",
+          "date": "2026-03-18",
+          "verified": true,
+          "finding": "Indexed issuer financial table reports non-IFRS basic EPS 28.577 and diluted 27.877. Basic EPS compound growth from 12.934 in 2020 is 17.18% over five calendar years. PDF text verified through indexed table, not rendered page."
+        }
+      ],
+      "next_check": null,
+      "id": "031-C16"
+    },
+    {
+      "claim": "TCEHY reaches ninety dollars",
+      "kind": "forecast",
+      "source_blocks": [
+        147,
+        148
+      ],
+      "family": "tencent-2022-target",
+      "asset_or_variable": "TCEHY",
+      "horizon": "end 2022",
+      "conditions": "Consensus growth and similar valuation",
+      "modality": "baseline scenario",
+      "verdict": "mixed",
+      "reason": "Year-end 2022 price was 42.36, far below 90. The target explicitly depended on consensus growth and near-stable valuation; earnings weakened and valuation changed, so the base scenario missed rather than proving a conditional valuation identity false.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: end 2022",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TCEHY/history/",
+          "title": "TCEHY end-2022 price",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "December 30, 2022 unadjusted close 42.36 versus August 31, 2020 68.34. Adjusted-close proxy -36.07% versus SPY+13.67%; in-kind distributions require reconciliation and do not turn ending share price into 90."
+        },
+        {
+          "url": "https://static.www.tencent.com/uploads/2023/03/22/3b5431187fdc8a053d9fee3a4c031aa6.pdf",
+          "title": "2022 annual results",
+          "publisher": "Tencent",
+          "date": "2023-03-22",
+          "verified": true,
+          "finding": "2022 revenue RMB 554.6 bn fell 1%; adjusted shareholder profit 115.6 bn fell 7%. Verified issuer-release text also syndicated at Market Screener; direct PDF reader returned no readable lines."
+        }
+      ],
+      "next_check": null,
+      "id": "031-C17"
+    },
+    {
+      "claim": "Tencent reaches trillion-dollar scale",
+      "kind": "forecast",
+      "source_blocks": [
+        149
+      ],
+      "family": "tencent-trillion-2023",
+      "asset_or_variable": "Tencent market cap",
+      "horizon": "within 3 years",
+      "conditions": null,
+      "modality": "potential",
+      "verdict": "evidence_needed",
+      "reason": "The wording allows reaching the threshold at any point within three years. A year-end quote cannot exclude a brief earlier crossing; need dated shares outstanding and FX alongside the price peak. No verified full path was obtained.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: within 3 years",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconstruct daily USD market capitalization through August 2023, preserving intraday versus close distinction.",
+      "id": "031-C18"
+    },
+    {
+      "claim": "Five-year earnings grow eighteen percent",
+      "kind": "forecast",
+      "source_blocks": [
+        152
+      ],
+      "family": "tencent-growth-18",
+      "asset_or_variable": "Tencent EPS",
+      "horizon": "next 5 years",
+      "conditions": null,
+      "modality": "DCF assumption",
+      "verdict": "mixed",
+      "reason": "Non-IFRS basic EPS grew 17.18% annually from calendar 2020 to 2025, near but below 18%. This is a disclosed sensitivity because the image's precise base EPS and growth measure were not inspected; revenue grew less quickly and IFRS figures differ.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: next 5 years",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.nasdaq.com/press-release/tencent-announces-2020-fourth-quarter-and-annual-results-2021-03-24",
+          "title": "Tencent 2020 results, issuer release",
+          "publisher": "Tencent via Nasdaq",
+          "date": "2021-03-24",
+          "verified": true,
+          "finding": "2020 revenue RMB 482.064 bn, +28%; non-IFRS basic EPS 12.934 and diluted 12.689. Gaming, advertising and fintech grew; figures are issuer-reported and adjusted earnings exclude specified items."
+        },
+        {
+          "url": "https://static.www.tencent.com/uploads/2026/03/18/f78591955e05a6db4e31e128bdaefefa.pdf",
+          "title": "2025 annual results",
+          "publisher": "Tencent",
+          "date": "2026-03-18",
+          "verified": true,
+          "finding": "Indexed issuer financial table reports non-IFRS basic EPS 28.577 and diluted 27.877. Basic EPS compound growth from 12.934 in 2020 is 17.18% over five calendar years. PDF text verified through indexed table, not rendered page."
+        }
+      ],
+      "next_check": null,
+      "id": "031-C19"
+    },
+    {
+      "claim": "Following five years grow twelve percent",
+      "kind": "forecast",
+      "source_blocks": [
+        152
+      ],
+      "family": "tencent-growth-12",
+      "asset_or_variable": "Tencent EPS",
+      "horizon": "years 6-10 through 2030",
+      "conditions": null,
+      "modality": "DCF assumption",
+      "verdict": "too_early",
+      "reason": "The second stage and assumed 25 x terminal multiple extend to 2030. Interim growth does not settle the terminal valuation or ten-year return.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: years 6-10 through 2030",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "031-C20"
+    },
+    {
+      "claim": "JD stake has large upside",
+      "kind": "forecast",
+      "source_blocks": [
+        155,
+        158
+      ],
+      "family": "tencent-jd-option",
+      "asset_or_variable": "JD Tencent",
+      "horizon": null,
+      "conditions": "Execution without major disruptions",
+      "modality": "possible",
+      "verdict": "not_testable",
+      "reason": "Half-trillion market capitalization has no deadline and depends on several conditions. Tencent's later distribution of JD shares also changes where the economic exposure sits; the original 20% stake cannot be held fixed forever.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "031-C21"
+    },
+    {
+      "claim": "Spotify and Sea add growth",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        155,
+        159
+      ],
+      "family": "tencent-investment-portfolio",
+      "asset_or_variable": "SPOT SE",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Revenue growth in portfolio companies is not sufficient to demonstrate value creation at Tencent's acquisition prices. Need ownership changes, disposals, dilution and attributable return for each investment.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Audit investment cash flows and distributions separately for Spotify and Sea.",
+      "id": "031-C22"
+    },
+    {
+      "claim": "Currency can offset business growth",
+      "kind": "explanation",
+      "source_blocks": [
+        169,
+        170
+      ],
+      "family": "foreign-equity-currency-risk",
+      "asset_or_variable": "TCEHY CNY USD",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "For an unhedged holder, home-currency returns combine local asset returns and FX multiplicatively. This is a conditional exposure description, not a directional currency forecast.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "031-C23"
+    },
+    {
+      "claim": "Regulation can interrupt Tencent growth",
+      "kind": "forecast",
+      "source_blocks": [
+        172,
+        173,
+        174
+      ],
+      "family": "china-tech-regulatory-risk",
+      "asset_or_variable": "Tencent",
+      "horizon": null,
+      "conditions": null,
+      "modality": "risk",
+      "verdict": "mixed",
+      "reason": "2022 operating contraction supports the vulnerability warning. Attribution needs regulatory timing separated from COVID restrictions, gaming normalization and macro weakness; mere price decline is not proof of each regulatory mechanism.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://static.www.tencent.com/uploads/2023/03/22/3b5431187fdc8a053d9fee3a4c031aa6.pdf",
+          "title": "2022 annual results",
+          "publisher": "Tencent",
+          "date": "2023-03-22",
+          "verified": true,
+          "finding": "2022 revenue RMB 554.6 bn fell 1%; adjusted shareholder profit 115.6 bn fell 7%. Verified issuer-release text also syndicated at Market Screener; direct PDF reader returned no readable lines."
+        }
+      ],
+      "next_check": null,
+      "id": "031-C24"
+    },
+    {
+      "claim": "Chinese accounting creates greater fraud risk",
+      "kind": "explanation",
+      "source_blocks": [
+        176,
+        177,
+        178,
+        179,
+        180
+      ],
+      "family": "china-accounting-risk",
+      "asset_or_variable": "Chinese equities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The cross-country incidence claim needs comparable enforcement, listing populations and detection rates. Cash spent on foreign deals verifies some resources but cannot rule out fraud elsewhere in a conglomerate.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use a defined audited population and comparable fraud findings; distinguish detection from incidence.",
+      "id": "031-C25"
+    },
+    {
+      "claim": "Dam failure threatens Chinese economy",
+      "kind": "forecast",
+      "source_blocks": [
+        183,
+        184,
+        185
+      ],
+      "family": "three-gorges-tail-risk",
+      "asset_or_variable": "China Tencent",
+      "horizon": null,
+      "conditions": "Catastrophic Three Gorges failure",
+      "modality": "tail risk",
+      "verdict": "conditional_pending",
+      "reason": "No verified catastrophic failure trigger is established. The conditional severity is plausible, but satellite-image distortion is not an engineering assessment, and this scenario is not an observed investment hit.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "031-C26"
+    },
+    {
+      "claim": "US restrictions expose foreign holders",
+      "kind": "forecast",
+      "source_blocks": [
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194
+      ],
+      "family": "china-us-investment-access",
+      "asset_or_variable": "Tencent US holders",
+      "horizon": null,
+      "conditions": null,
+      "modality": "extreme risk",
+      "verdict": "not_testable",
+      "reason": "The scenario correctly distinguishes business demand from shareholder access, but no firm-specific investment-ban trigger or deadline is predicted. A government list, export rule and securities prohibition are legally different events; avoid conflating them.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "031-C27"
+    },
+    {
+      "claim": "Earnings recover only in 2022",
+      "kind": "forecast",
+      "source_blocks": [
+        79
+      ],
+      "family": "sp500-earnings-recovery",
+      "asset_or_variable": "S&P 500 earnings sales",
+      "horizon": "2022",
+      "conditions": null,
+      "modality": "analyst consensus",
+      "verdict": "wrong",
+      "reason": "The index provider reported record earnings and sales already in 2021. This adopted consensus view underestimated the speed of corporate recovery.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2022",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.spglobal.com/spdji/en/commentary/article/us-equities-market-attributes-december-2021/",
+          "title": "December 2021 market attributes",
+          "publisher": "S&P Dow Jones Indices",
+          "date": "2022-01-04",
+          "verified": true,
+          "finding": "Index provider reports record S&P 500 earnings, sales and margins in 2021, before 2022."
+        }
+      ],
+      "next_check": null,
+      "id": "031-C28"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Excess mortality",
+      "source_blocks": [
+        20,
+        25
+      ],
+      "use": "Cross-check",
+      "image_inspected": false
+    },
+    {
+      "name": "RSI and valuation",
+      "source_blocks": [
+        89,
+        144,
+        150,
+        152
+      ],
+      "use": "Risk",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Operating moats do not protect ownership access."
+  ],
+  "assessment": "Tencent grew substantially but the end 2022 price scenario failed badly. Regulatory risks were recognized, yet the optimistic scale comparison relied too heavily on population and US analogies. The macro section correctly anticipated delayed tightening but misstated the formal inflation target and 2019 rate direction, then wrongly expected yield control.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "Public market series are available, but not every investment claim has a defined horizon or reconciled corporate-action-adjusted return. Unverified outcomes remain unscored; macro data use latest available vintages.",
+    "Tencent 2025 table verified through indexed issuer text; direct PDF rendering was unavailable. No claim of audited ADR total return is made."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "3efd14ddd786f879e08507aebc88ef255b4954416cedb07ca4de7060405b23a0"
+}

@@ -1,0 +1,1038 @@
+{
+  "article_id": "146",
+  "title": "Air Products and Chemicals Deep Dive Analysis",
+  "date": "2024-09-29",
+  "source_url": "https://www.lynalden.com/premium-2024-9-29/",
+  "read_complete": true,
+  "summary": "Liquidity, bitcoin, and industrial-gas valuation.",
+  "coverage_note": "Read all blocks, including recovered company-profile block 155. Covers macro, China, digital assets, APD and gold. Incidental company facts and portfolio sizes excluded. Quoted 2020 gold/bitcoin allocation is a historical repeat, not a fresh call.",
+  "claims": [
+    {
+      "id": "146-C01",
+      "claim": "Liquidity stays rangebound.",
+      "kind": "forecast",
+      "source_blocks": [
+        9
+      ],
+      "family": "net-liquidity-range",
+      "asset_or_variable": "net-liquidity-range",
+      "horizon": "Into 2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No numeric band or acceptable drift defines rangebound. The approximate Fed-minus-TGA-minus-RRP proxy declined during 2024-25, so flat should not be interpreted as no tightening.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "Into 2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Show full path with a predeclared tolerance rather than fit a range afterward."
+    },
+    {
+      "id": "146-C02",
+      "claim": "Dollar weakness supports liquidity.",
+      "kind": "explanation",
+      "source_blocks": [
+        13,
+        15
+      ],
+      "family": "dollar-global-liquidity",
+      "asset_or_variable": "dollar-global-liquidity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "A weaker dollar mechanically raises translated foreign money stocks but does not by itself create local purchasing power or prove risk-asset inflows. Currency composition and borrowing channels matter.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+          "title": "DTWEXBGS downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Broad dollar rose from 121.6551 September 13 2024 to 129.2775 December 31, an adverse near-term move. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": "Separate FX translation from credit creation and actual funding stress."
+    },
+    {
+      "id": "146-C03",
+      "claim": "Brazil runs current-account surplus.",
+      "kind": "empirical",
+      "source_blocks": [
+        17
+      ],
+      "family": "brazil-external-balance",
+      "asset_or_variable": "brazil-external-balance",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The contemporaneous central-bank report explicitly shows a current-account deficit. A merchandise trade surplus is not equivalent because services and income flows also count. This materially weakens the stated currency-support premise.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bcb.gov.br/content/about/presentationstexts/RI_2024_3Q_EN.pdf",
+          "title": "September inflation report",
+          "publisher": "Banco Central do Brasil",
+          "date": "2024-09-26",
+          "verified": true,
+          "finding": "Pages 21-22 describe an increased current-account deficit, not surplus, and forecast deficits of 2.3% GDP in 2024 and 2.7% in 2025."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "146-C04",
+      "claim": "Stable FX preserves money growth.",
+      "kind": "explanation",
+      "source_blocks": [
+        18
+      ],
+      "family": "fx-translated-money",
+      "asset_or_variable": "fx-translated-money",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "This is only a translation identity, not a causal asset-price forecast.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Dollar value M/e, where e is local units per dollar",
+          "Exchange rate e fixed",
+          "Comparable local money definition"
+        ],
+        "derivation": "With fixed e, percentage change in M/e equals percentage change in M."
+      }
+    },
+    {
+      "id": "146-C05",
+      "claim": "Global liquidity improves.",
+      "kind": "forecast",
+      "source_blocks": [
+        19
+      ],
+      "family": "global-liquidity-expansion",
+      "asset_or_variable": "global-liquidity-expansion",
+      "horizon": "12-18 months",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The precise global aggregate, weights and FX conversion are proprietary/unspecified. Fed reserve purchases alone cannot verify a global 12-18 month prediction.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "12-18 months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconstruct disclosed country money series and exchange rates at September 2025 and March 2026."
+    },
+    {
+      "id": "146-C06",
+      "claim": "Deficits support uneven growth.",
+      "kind": "explanation",
+      "source_blocks": [
+        21,
+        26
+      ],
+      "family": "fiscal-dominance-growth",
+      "asset_or_variable": "fiscal-dominance-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Positive real growth coexisted with weak sectors, consistent with fiscal support. That does not establish deficits as the dominant cause or erase private-sector income and credit effects.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/A191RL1Q225SBEA",
+          "title": "A191RL1Q225SBEA downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Real GDP growth annualized 2024 Q3=3.2%, Q4=2.4%; 2025 Q1=.1%, Q2=4.0%, Q3=3.9%, Q4=.2%. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": "Attribute sector income and spending using fiscal incidence rather than aggregate coincidence."
+    },
+    {
+      "id": "146-C07",
+      "claim": "Affordability mimics EM recession.",
+      "kind": "explanation",
+      "source_blocks": [
+        29,
+        31
+      ],
+      "family": "affordability-recession",
+      "asset_or_variable": "affordability-recession",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "An analogy to emerging-market stress has no defined recession criterion. Real-income distribution can deteriorate without aggregate contraction.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Compare real disposable income by cohort, unemployment and domestic demand."
+    },
+    {
+      "id": "146-C08",
+      "claim": "Defensives expensive versus cyclicals.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        34,
+        37
+      ],
+      "family": "defensive-valuation-risk",
+      "asset_or_variable": "defensive-valuation-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Valuation dispersion is not a dated return prediction. Growth, margin durability and discount rates must be specified.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Use contemporaneous estimates and matched return windows."
+    },
+    {
+      "id": "146-C09",
+      "claim": "Cuts favor weaker sectors.",
+      "kind": "forecast",
+      "source_blocks": [
+        38,
+        41
+      ],
+      "family": "value-em-rotation",
+      "asset_or_variable": "value-em-rotation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No basket, weights or end date. Rate cuts can reflect deteriorating demand; China stimulus does not benefit every cyclical equally.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Predefine sector exposures and compare total returns with market."
+    },
+    {
+      "id": "146-C10",
+      "claim": "China responds to renewed weakness.",
+      "kind": "forecast",
+      "source_blocks": [
+        47,
+        48
+      ],
+      "family": "china-stimulus-pivot",
+      "asset_or_variable": "china-stimulus-pivot",
+      "horizon": null,
+      "conditions": "Renewed malaise",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "Additional stimulus is contingent on renewed malaise, which has no threshold here. The September action already happened and is not new forecast credit.",
+      "direction_assessment": "Trigger and outcome have not both been established.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://english.www.gov.cn/news/202409/28/content_WS66f753bdc6d0868f4e8eb55b.html",
+          "title": "China stimulus implementation",
+          "publisher": "State Council/Xinhua",
+          "date": "2024-09-28",
+          "verified": true,
+          "finding": "September 27 RRR cut 50 bp and seven-day reverse-repo rate cut 20 bp to 1.5%; measures explicitly supported stable growth."
+        }
+      ],
+      "next_check": "Define the deterioration trigger and identify later incremental measures."
+    },
+    {
+      "id": "146-C11",
+      "claim": "Stimulus can strengthen renminbi.",
+      "kind": "explanation",
+      "source_blocks": [
+        49
+      ],
+      "family": "china-stimulus-fx",
+      "asset_or_variable": "china-stimulus-fx",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Possible capital-inflow confidence effects compete with lower interest differentials. No sign or magnitude is guaranteed.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Measure announcement surprises and risk-adjusted flows."
+    },
+    {
+      "id": "146-C12",
+      "claim": "China equities attractive.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        51,
+        53
+      ],
+      "family": "china-policy-risk-discount",
+      "asset_or_variable": "china-policy-risk-discount",
+      "horizon": "3+ years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The explicit three-plus-year horizon reaches September 2027 or later. Interim price movements cannot close it; sanctions and ownership rights remain separate risks.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "3+ years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/MCHI/history/",
+          "title": "MCHI adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-09-29\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-09-30\",\"exit\":\"2026-11-06\",\"days\":767,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"MCHI\":{\"entry_adjusted_close\":48.546913146972656,\"exit_adjusted_close\":51.88999938964844,\"cumulative_return_pct\":6.8863003350075,\"annualized_return_pct\":3.2221382646303587,\"source\":\"https://finance.yahoo.com/quote/MCHI/history/\"},\"SPY\":{\"entry_adjusted_close\":560.81787109375,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":31.110297286590537,\"annualized_return_pct\":13.767797576842455,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-24.223996951583036}"
+        }
+      ],
+      "next_check": "Recheck September 2027 and distinguish broad China from individual ADRs."
+    },
+    {
+      "id": "146-C13",
+      "claim": "JD buybacks exploit discount.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        52
+      ],
+      "family": "jd-buyback-value",
+      "asset_or_variable": "jd-buyback-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Authorization is not execution or proof of undervaluation. Net share count, compensation and operating value must be tracked.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Compare actual repurchases, diluted share count and cash generation."
+    },
+    {
+      "id": "146-C14",
+      "claim": "Bitcoin breaks upward next.",
+      "kind": "forecast",
+      "source_blocks": [
+        57
+      ],
+      "family": "bitcoin-range-upside",
+      "asset_or_variable": "bitcoin-range-upside",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The next decisive escape was above the prior record in November 2024, before a break below the cited roughly $53,000 range low. This event-order test does not imply a permanent floor.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin USD observations",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Public CSV downloaded November 7: 2024-09-29 $63301.25; 2024-11-07 $76566.73. Endpoint direction only; no strategy return, transaction-cost or timing-optimality claim."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC breakout ordering",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Previous intraday record $73,750.0703. After this report, November 6, 2024 high $76,460.1563 was the first new record, with no prior breach of $53,000. Minimum subsequent intraday low through November 6, 2026 was $57,747.7656 on July 1, 2026. Public daily OHLC convention; no intraday trade-execution inference."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "146-C15",
+      "claim": "Liquidity matches bitcoin 83%.",
+      "kind": "empirical",
+      "source_blocks": [
+        61
+      ],
+      "family": "bitcoin-liquidity-correlation",
+      "asset_or_variable": "bitcoin-liquidity-correlation",
+      "horizon": "Rolling 12 months",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The commissioned result needs independent reproduction. Overlapping 12 month signs are not independent observations; a high agreement rate may reflect shared upward trends.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "Rolling 12 months",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Rebuild country weights, sample dates, lags, missing-data handling and sign-baseline comparison."
+    },
+    {
+      "id": "146-C16",
+      "claim": "MVRV explains liquidity exceptions.",
+      "kind": "explanation",
+      "source_blocks": [
+        65
+      ],
+      "family": "bitcoin-mvrv-cycle",
+      "asset_or_variable": "bitcoin-mvrv-cycle",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Identifying extremes after observing failures risks overfitting. No out-of-sample threshold or comparative prediction score is supplied.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Freeze MVRV rules and test later residuals without refitting."
+    },
+    {
+      "id": "146-C17",
+      "claim": "Bitcoin appreciates.",
+      "kind": "forecast",
+      "source_blocks": [
+        68
+      ],
+      "family": "bitcoin-medium-term-bull",
+      "asset_or_variable": "bitcoin-medium-term-bull",
+      "horizon": "12-18 months",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Bitcoin was higher at both explicit endpoint horizons, although most twelve-month gains faded by eighteen months. Direction succeeded; trend smoothness and liquidity causation are separate.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "12-18 months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin USD observations",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Public CSV downloaded November 7: 2024-09-29 $63301.25; 2025-09-29 $114067.71. Endpoint direction only; no strategy return, transaction-cost or timing-optimality claim."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin USD observations",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Public CSV downloaded November 7: 2024-09-29 $63301.25; 2026-03-29 $65862.79. Endpoint direction only; no strategy return, transaction-cost or timing-optimality claim."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "146-C18",
+      "claim": "Shielded CSV scales privately.",
+      "kind": "explanation",
+      "source_blocks": [
+        71,
+        72
+      ],
+      "family": "bitcoin-shielded-csv",
+      "asset_or_variable": "bitcoin-shielded-csv",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The developer confirms no soft fork is needed and modeled capacity near 100 transactions/second, but bitcoin bridging still required trusted parties or a federation. The design supports the potential claim, not deployed throughput or unconditional trustlessness.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://blog.blockstream.com/bitcoins-shielded-csv-protocol-explained/",
+          "title": "Shielded CSV protocol explained",
+          "publisher": "Blockstream",
+          "date": "2024-12-11",
+          "verified": true,
+          "finding": "Protocol works without consensus fork and models near 100 transactions/second; native bitcoin integration needs a bridge, with trusted-party or federation approaches currently possible."
+        }
+      ],
+      "next_check": "Review paper assumptions, bridge security and independent implementation benchmarks."
+    },
+    {
+      "id": "146-C19",
+      "claim": "Scaling deployments arrive.",
+      "kind": "forecast",
+      "source_blocks": [
+        72
+      ],
+      "family": "bitcoin-scaling-adoption",
+      "asset_or_variable": "bitcoin-scaling-adoption",
+      "horizon": "Coming years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Coming years lacks adoption, throughput or deadline thresholds. Protocol research progress alone is not mass usage.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "Coming years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Specify production release, transaction volumes and custody guarantees."
+    },
+    {
+      "id": "146-C20",
+      "claim": "ETF options broaden access.",
+      "kind": "forecast",
+      "source_blocks": [
+        74
+      ],
+      "family": "bitcoin-etf-options",
+      "asset_or_variable": "bitcoin-etf-options",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "IBIT approval is independently confirmed. Wider fund approvals and incremental liquidity require separate evidence; options also enable hedging and short exposure.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/file/34-101128",
+          "title": "IBIT options approval",
+          "publisher": "SEC",
+          "date": "2024-09-20",
+          "verified": true,
+          "finding": "Order approved exchange listing/trading of IBIT options."
+        }
+      ],
+      "next_check": "Verify later fund-specific approvals and actual option volume."
+    },
+    {
+      "id": "146-C21",
+      "claim": "Liquidity reinforces leading ETFs.",
+      "kind": "explanation",
+      "source_blocks": [
+        75
+      ],
+      "family": "market-liquidity-network-effect",
+      "asset_or_variable": "market-liquidity-network-effect",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Tighter spreads can attract trading, but fees, distribution and mandates also determine fund share. Correlation of volume and assets is not causal identification.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare spreads, volume and fund flows controlling fees/distribution."
+    },
+    {
+      "id": "146-C22",
+      "claim": "Fixed debt benefits APD.",
+      "kind": "explanation",
+      "source_blocks": [
+        96
+      ],
+      "family": "productive-fiat-short",
+      "asset_or_variable": "productive-fiat-short",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Low fixed funding is valuable if funded projects earn more than their full capital cost. Large project losses show that cheap liabilities do not guarantee productive assets.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2969/000119312525033509/d830166dex991.htm",
+          "title": "Air Products exits three projects",
+          "publisher": "Air Products / SEC",
+          "date": "2025-02-24",
+          "verified": true,
+          "finding": "New board/CEO cancelled World Energy, Massena hydrogen and Texas CO projects, expecting up to $3.1 bn pretax charges for adverse economics/regulatory and demand changes."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000034/exhibit99130jun26.htm",
+          "title": "Fiscal 2026 third quarter",
+          "publisher": "Air Products / SEC",
+          "date": "2026-07-30",
+          "verified": true,
+          "finding": "Another $2.9 bn pretax project-exit charge caused GAAP operating loss $2.1 bn; adjusted operating income rose 9% to $810 m. Louisiana and Arizona clean-hydrogen projects cancelled."
+        }
+      ],
+      "next_check": "Compare project returns and impairments with financing costs."
+    },
+    {
+      "id": "146-C23",
+      "claim": "APD valuation reasonable.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        100,
+        108,
+        111
+      ],
+      "family": "apd-value",
+      "asset_or_variable": "apd-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A multiple opinion lacks a resolution date. Adjusted earnings can exclude real capital losses, especially megaproject write-offs.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2969/000119312525033509/d830166dex991.htm",
+          "title": "Air Products exits three projects",
+          "publisher": "Air Products / SEC",
+          "date": "2025-02-24",
+          "verified": true,
+          "finding": "New board/CEO cancelled World Energy, Massena hydrogen and Texas CO projects, expecting up to $3.1 bn pretax charges for adverse economics/regulatory and demand changes."
+        }
+      ],
+      "next_check": "Value normalized cash flow after sustaining capital and losses on growth projects."
+    },
+    {
+      "id": "146-C24",
+      "claim": "Growth plus yield approximates 10%.",
+      "kind": "explanation",
+      "source_blocks": [
+        112
+      ],
+      "family": "earnings-yield-compounding",
+      "asset_or_variable": "earnings-yield-compounding",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Expected earnings growth plus yield is a heuristic, not a guaranteed shareholder return. It requires stable valuation, sustainable payout and realization of consensus earnings.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Separate realized earnings, distributions and valuation change."
+    },
+    {
+      "id": "146-C25",
+      "claim": "Quality warrants elevated PEG.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        113,
+        114
+      ],
+      "family": "quality-peg-threshold",
+      "asset_or_variable": "quality-peg-threshold",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A 2.5 PEG cutoff is a screening preference. Forecast errors and cyclicality can make identical PEG ratios economically different.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Stress forecast growth and reinvestment needs."
+    },
+    {
+      "id": "146-C26",
+      "claim": "APD comillion pounds long term.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        115
+      ],
+      "family": "apd-long-term-compounding",
+      "asset_or_variable": "apd-long-term-compounding",
+      "horizon": "5-10+ years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The stated five-to-ten-plus-year holding period begins in 2024, so 2029 is the earliest full checkpoint. Subsequent project failures are adverse evidence but do not resolve terminal return.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "5-10+ years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2969/000119312525033509/d830166dex991.htm",
+          "title": "Air Products exits three projects",
+          "publisher": "Air Products / SEC",
+          "date": "2025-02-24",
+          "verified": true,
+          "finding": "New board/CEO cancelled World Energy, Massena hydrogen and Texas CO projects, expecting up to $3.1 bn pretax charges for adverse economics/regulatory and demand changes."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000034/exhibit99130jun26.htm",
+          "title": "Fiscal 2026 third quarter",
+          "publisher": "Air Products / SEC",
+          "date": "2026-07-30",
+          "verified": true,
+          "finding": "Another $2.9 bn pretax project-exit charge caused GAAP operating loss $2.1 bn; adjusted operating income rose 9% to $810 m. Louisiana and Arizona clean-hydrogen projects cancelled."
+        }
+      ],
+      "next_check": "Evaluate 2029 onward including dividends and benchmark."
+    },
+    {
+      "id": "146-C27",
+      "claim": "Core contracts stabilize earnings.",
+      "kind": "explanation",
+      "source_blocks": [
+        117,
+        155
+      ],
+      "family": "industrial-gas-contract-durability",
+      "asset_or_variable": "industrial-gas-contract-durability",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "2026 adjusted operating income grew despite giant project losses, supporting core operating resilience. Contracted traditional supply cannot be generalized to new hydrogen developments.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000034/exhibit99130jun26.htm",
+          "title": "Fiscal 2026 third quarter",
+          "publisher": "Air Products / SEC",
+          "date": "2026-07-30",
+          "verified": true,
+          "finding": "Another $2.9 bn pretax project-exit charge caused GAAP operating loss $2.1 bn; adjusted operating income rose 9% to $810 m. Louisiana and Arizona clean-hydrogen projects cancelled."
+        }
+      ],
+      "next_check": "Separate traditional on-site contracts from speculative clean-energy commitments."
+    },
+    {
+      "id": "146-C28",
+      "claim": "Buybacks offer capital flexibility.",
+      "kind": "explanation",
+      "source_blocks": [
+        118,
+        120
+      ],
+      "family": "apd-capital-allocation",
+      "asset_or_variable": "apd-capital-allocation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The ability to repurchase is conditional on financing, covenants and alternative uses. Cancelling growth projects may free future cash but can also crystallize losses.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2969/000119312525033509/d830166dex991.htm",
+          "title": "Air Products exits three projects",
+          "publisher": "Air Products / SEC",
+          "date": "2025-02-24",
+          "verified": true,
+          "finding": "New board/CEO cancelled World Energy, Massena hydrogen and Texas CO projects, expecting up to $3.1 bn pretax charges for adverse economics/regulatory and demand changes."
+        }
+      ],
+      "next_check": "Track free cash flow, leverage and executed buybacks."
+    },
+    {
+      "id": "146-C29",
+      "claim": "Pass-through protects margins.",
+      "kind": "explanation",
+      "source_blocks": [
+        121
+      ],
+      "family": "industrial-gas-cost-pass-through",
+      "asset_or_variable": "industrial-gas-cost-pass-through",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Adjusted margins can remain resilient while shareholder value is lost through project economics. Cost pass-through on existing contracts does not insure all capital spending.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000034/exhibit99130jun26.htm",
+          "title": "Fiscal 2026 third quarter",
+          "publisher": "Air Products / SEC",
+          "date": "2026-07-30",
+          "verified": true,
+          "finding": "Another $2.9 bn pretax project-exit charge caused GAAP operating loss $2.1 bn; adjusted operating income rose 9% to $810 m. Louisiana and Arizona clean-hydrogen projects cancelled."
+        }
+      ],
+      "next_check": "Verify contract provisions and lagged commodity-cost recovery."
+    },
+    {
+      "id": "146-C30",
+      "claim": "APD offers few surprises.",
+      "kind": "forecast",
+      "source_blocks": [
+        122
+      ],
+      "family": "apd-business-risk",
+      "asset_or_variable": "apd-business-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "Large project cancellations under new leadership within five months, followed by another major 2026 charge, contradict the low-surprise framing. Customer diversification did not control concentrated project-execution risk.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2969/000119312525033509/d830166dex991.htm",
+          "title": "Air Products exits three projects",
+          "publisher": "Air Products / SEC",
+          "date": "2025-02-24",
+          "verified": true,
+          "finding": "New board/CEO cancelled World Energy, Massena hydrogen and Texas CO projects, expecting up to $3.1 bn pretax charges for adverse economics/regulatory and demand changes."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000034/exhibit99130jun26.htm",
+          "title": "Fiscal 2026 third quarter",
+          "publisher": "Air Products / SEC",
+          "date": "2026-07-30",
+          "verified": true,
+          "finding": "Another $2.9 bn pretax project-exit charge caused GAAP operating loss $2.1 bn; adjusted operating income rose 9% to $810 m. Louisiana and Arizona clean-hydrogen projects cancelled."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "146-C31",
+      "claim": "Valuation is biggest APD risk.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        123
+      ],
+      "family": "apd-risk-ranking",
+      "asset_or_variable": "apd-risk-ranking",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The later billions of project losses are substantial counterevidence to the emphasis on valuation. Biggest risk is not objectively rankable without ex-ante probabilities, but the omitted capital-allocation exposure was material.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2969/000119312525033509/d830166dex991.htm",
+          "title": "Air Products exits three projects",
+          "publisher": "Air Products / SEC",
+          "date": "2025-02-24",
+          "verified": true,
+          "finding": "New board/CEO cancelled World Energy, Massena hydrogen and Texas CO projects, expecting up to $3.1 bn pretax charges for adverse economics/regulatory and demand changes."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2969/000000296926000034/exhibit99130jun26.htm",
+          "title": "Fiscal 2026 third quarter",
+          "publisher": "Air Products / SEC",
+          "date": "2026-07-30",
+          "verified": true,
+          "finding": "Another $2.9 bn pretax project-exit charge caused GAAP operating loss $2.1 bn; adjusted operating income rose 9% to $810 m. Louisiana and Arizona clean-hydrogen projects cancelled."
+        }
+      ],
+      "next_check": "Compare modeled expected loss from multiple compression and project failure."
+    },
+    {
+      "id": "146-C32",
+      "claim": "APD preferred to expensive giants.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        124
+      ],
+      "family": "quality-value-relative",
+      "asset_or_variable": "quality-value-relative",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The same consensus growth does not establish equal risk or reinvestment requirements. No relative-performance deadline is stated.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Disclose APD versus AAPL/COST horizon sensitivities and business-risk differences."
+    },
+    {
+      "id": "146-C33",
+      "claim": "Gold may cool briefly.",
+      "kind": "forecast",
+      "source_blocks": [
+        143
+      ],
+      "family": "gold-tactical-consolidation",
+      "asset_or_variable": "gold-tactical-consolidation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "not_testable",
+      "reason": "No magnitude or minimum duration defines cooling. A subsequent pullback cannot automatically validate this flexible statement.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Show price path without selecting a favorable pause."
+    },
+    {
+      "id": "146-C34",
+      "claim": "Gold avoids three-year consolidation.",
+      "kind": "forecast",
+      "source_blocks": [
+        143
+      ],
+      "family": "gold-secular-breakout",
+      "asset_or_variable": "gold-secular-breakout",
+      "horizon": "3+ years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The three-year comparison reaches September 2027. A new high before then supports strength but does not by itself define the length of a consolidation.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "3+ years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Set comparable consolidation definition and recheck 2027."
+    },
+    {
+      "id": "146-C35",
+      "claim": "Gold beats long Treasuries.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        144
+      ],
+      "family": "gold-over-long-bonds",
+      "asset_or_variable": "gold-over-long-bonds",
+      "horizon": "5+ years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "Explicit five-plus-year relative horizon does not mature until September 2029. Interim returns are not final credit.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "5+ years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Compare gold and identified duration-matched Treasury total returns in 2029."
+    },
+    {
+      "id": "146-C36",
+      "claim": "Gold diversifies bitcoin cycles.",
+      "kind": "explanation",
+      "source_blocks": [
+        145
+      ],
+      "family": "gold-bitcoin-diversification",
+      "asset_or_variable": "gold-bitcoin-diversification",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Diversification depends on weights, interval and stress correlation. Different historical paths do not establish a stable future hedge.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Measure portfolio drawdowns and correlations across independently defined regimes."
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Liquidity",
+      "source_blocks": [
+        9,
+        15,
+        61
+      ],
+      "use": "Funding",
+      "image_inspected": false
+    },
+    {
+      "name": "Credit/valuation",
+      "source_blocks": [
+        34,
+        108,
+        112
+      ],
+      "use": "Risk",
+      "image_inspected": false
+    },
+    {
+      "name": "MVRV",
+      "source_blocks": [
+        65
+      ],
+      "use": "Cycle",
+      "image_inspected": false
+    },
+    {
+      "name": "Gold RSI",
+      "source_blocks": [
+        143
+      ],
+      "use": "Momentum",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate legacy cash flows from new-project risk."
+  ],
+  "assessment": "Bitcoin direction succeeded at both twelve and eighteen months, with a substantial intervening gain reversal. The APD analysis underweighted concentrated project and capital-allocation risk despite durable legacy operations. Brazil current-account support was factually reversed. Long-horizon China, APD and gold-relative calls remain open.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

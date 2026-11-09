@@ -1,0 +1,890 @@
+{
+  "article_id": "179",
+  "title": "Energy Sector Update",
+  "date": "2026-01-04",
+  "source_url": "https://www.lynalden.com/premium-2026-1-4/",
+  "read_complete": true,
+  "evaluation_as_of": "2026-11-07",
+  "summary": "Funding normalization, energy allocation and continued metal caution.",
+  "assessment": "The temporary-funding diagnosis and metal caution were supported. EPD and ONEOK delivered favorable interim returns, while services lagged the major-producer example. The Bitcoin floor failed, and ONEOK’s dividend-growth record was misstated. The framework usefully distinguishes inventory assets from cash-generating commodity businesses, with important exceptions.",
+  "claims": [
+    {
+      "claim": "Year-end funding pressure was temporary.",
+      "source_blocks": [
+        9,
+        10,
+        11,
+        12,
+        28,
+        34
+      ],
+      "verdict": "right",
+      "reason": "The New York Fed subsequently documented orderly functioning and short-lived year-end pressures. Distribution and balance-sheet constraints can coexist with ample aggregate reserves. The small fraction of system reserves involved is useful context, but alone would not rule out serious stress at a particular institution.",
+      "kind": "explanation",
+      "family": "2025-year-end-funding",
+      "asset_or_variable": "2025-year-end-funding",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://tellerwindow.newyorkfed.org/2026/01/16/how-monetary-policy-tools-helped-limit-money-market-pressures-at-year-end/",
+          "title": "Year-end money-market pressures",
+          "publisher": "New York Fed",
+          "date": "2026-01-16",
+          "verified": true,
+          "finding": "Calendar pressures were brief, market functioning orderly, and the federal funds rate stayed within target."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C01"
+    },
+    {
+      "claim": "Overnight repo usage is not cumulative stimulus.",
+      "source_blocks": [
+        23
+      ],
+      "verdict": "right",
+      "reason": "A maturing overnight transaction reverses unless replaced. Summing each day’s gross rollovers as new permanent liquidity double-counts the same financing. Changes in outstanding balances, maturities and other Fed liabilities are the relevant reserve-accounting quantities.",
+      "kind": "explanation",
+      "family": "repo-stock-flow-accounting",
+      "asset_or_variable": "repo-stock-flow-accounting",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Overnight repo principal is repaid at maturity",
+          "No default or extension unless separately recorded"
+        ],
+        "derivation": "The reserve addition at settlement is offset by repayment at maturity; rolling the principal restores the outstanding stock rather than adding the daily principal cumulatively."
+      },
+      "id": "179-C02"
+    },
+    {
+      "claim": "December facilities absorbed $31 billion net.",
+      "source_blocks": [
+        24,
+        28
+      ],
+      "verdict": "mixed",
+      "reason": "The reported outstanding amounts are correct: $74.600bn repo against $105.993bn domestic reverse repo, a $31.393bn net absorption relative to neither facility. That is not necessarily the day-over-day reserve drain: prior outstanding transactions and other Fed liabilities also matter. Treasury-only repo data are insufficient because agency collateral is eligible too.",
+      "kind": "explanation",
+      "family": "repo-net-facility-accounting",
+      "asset_or_variable": "repo-net-facility-accounting",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/aboutthefed/files/quarterly-report-20260515.pdf",
+          "title": "Federal Reserve combined quarterly financial report",
+          "publisher": "Federal Reserve",
+          "date": null,
+          "verified": true,
+          "finding": "December 31 repo contract amount $74,600m and domestic reverse repo $105,993m."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C03"
+    },
+    {
+      "claim": "Reserve purchases should normalize funding.",
+      "source_blocks": [
+        29,
+        31,
+        34
+      ],
+      "verdict": "right",
+      "reason": "The matched SOFR-IORB spread averaged +0.77 basis points in Q1 and -2.17 in April-October 2026, consistent with subsequent normalization. Calendar spikes remained. This supports the funding prediction, not a guarantee that all risky assets must rise.",
+      "kind": "forecast",
+      "family": "2026-funding-normalization",
+      "asset_or_variable": "2026-funding-normalization",
+      "horizon": "Following weeks and months",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/SOFR",
+          "title": "SOFR observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Matched SOFR-IORB average Q1 +0.77bp; April-October -2.17bp."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/IORB",
+          "title": "IORB observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Administered reserve rate used for the matched spread."
+        },
+        {
+          "url": "https://www.newyorkfed.org/newsevents/speeches/2026/per260326",
+          "title": "Early experience with reserve management purchases",
+          "publisher": "New York Fed",
+          "date": "2026-03-26",
+          "verified": true,
+          "finding": "The Desk purchased about $40 billion monthly ahead of expected April tax flows. The objective was maintaining ample reserves."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Following weeks and months",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C04"
+    },
+    {
+      "claim": "2026 combines purchases with rate cuts.",
+      "source_blocks": [
+        8,
+        35
+      ],
+      "verdict": "mixed",
+      "reason": "Balance-sheet expansion continued, but the policy-rate path did not: the October target was 3.75-4.00%, above December 2025’s 3.50-3.75%. The calendar year is unfinished, yet the realized path already contradicts a simple ongoing-easing narrative.",
+      "kind": "forecast",
+      "family": "2026-fed-easing-mix",
+      "asset_or_variable": "2026-fed-easing-mix",
+      "horizon": "2026",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/2026-07-mpr-part2.htm",
+          "title": "July 2026 monetary policy report",
+          "publisher": "Federal Reserve",
+          "date": "2026-07-01",
+          "verified": true,
+          "finding": "Federal Reserve assets had increased about $150 billion to $6.7 trillion by July 1."
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+          "title": "October 2026 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2026-10-28",
+          "verified": true,
+          "finding": "Target range held at 3.75-4.00%; inflation remained elevated and two voters preferred a further increase."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "2026",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C05"
+    },
+    {
+      "claim": "Emerging markets remain attractive.",
+      "source_blocks": [
+        35
+      ],
+      "verdict": "mixed",
+      "reason": "IEMG gained 4.42% through the cutoff versus SPY 7.75%. Positive absolute returns offer some support, but no relative win for this window. An unspecified multi-country allocation and no explicit endpoint prevent a completed portfolio verdict.",
+      "kind": "investment_thesis",
+      "family": "em-2024-rotation",
+      "asset_or_variable": "em-2024-rotation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/IEMG/history/",
+          "title": "IEMG market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "January 5-November 6, 2026 +4.42%; SPY +7.75%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C06"
+    },
+    {
+      "claim": "Regional banks remain attractive.",
+      "source_blocks": [
+        35
+      ],
+      "verdict": "mixed",
+      "reason": "USB gained 10.19%, PNC 7.88% and TFC 0.84%, compared with SPY 7.75% through the cutoff. Results vary across the named banks in this recurring thesis. Reserve abundance does not determine net interest margins or credit losses by itself.",
+      "kind": "investment_thesis",
+      "family": "regional-bank-value",
+      "asset_or_variable": "regional-bank-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/USB/history/",
+          "title": "USB market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "January 5-November 6, 2026 +10.19%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/PNC/history/",
+          "title": "PNC market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched +7.88%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/TFC/history/",
+          "title": "TFC market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched +0.84%; SPY +7.75%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C07"
+    },
+    {
+      "claim": "Venezuela cannot rapidly supply abundant cheap oil.",
+      "source_blocks": [
+        41,
+        42,
+        44
+      ],
+      "verdict": "mixed",
+      "reason": "Large resources, constrained output and Chevron’s pre-existing presence are supported. The explanation blurs proved reserves, which already incorporate economic conditions, with technically recoverable resources. USGS describes sandstone reservoirs at depths of 150-1,400m; “deeply buried oil sands” is a poor blanket description. Infrastructure, diluent and contract constraints are more informative than reserves alone.",
+      "kind": "explanation",
+      "family": "venezuela-oil-capacity",
+      "asset_or_variable": "venezuela-oil-capacity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.congress.gov/crs_external_products/IN/PDF/IN12637/IN12637.2.pdf",
+          "title": "Venezuela oil-sector context",
+          "publisher": "Congressional Research Service",
+          "date": "2026-01-09",
+          "verified": true,
+          "finding": "Output had recovered above 1mb/d before the January intervention; infrastructure and legal arrangements constrain expansion."
+        },
+        {
+          "url": "https://pubs.usgs.gov/fs/2009/3028/pdf/FS09-3028.pdf",
+          "title": "Orinoco heavy-oil resource assessment",
+          "publisher": "USGS",
+          "date": null,
+          "verified": true,
+          "finding": "Extra-heavy oil occurs in sandstone reservoirs 150-1,400m deep; resource estimates are technical, not economic."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C08"
+    },
+    {
+      "claim": "Venezuelan output should rise gradually.",
+      "source_blocks": [
+        45
+      ],
+      "verdict": "too_early",
+      "reason": "The several-year horizon is unfinished. Chevron announced expanded development rights in September, which supports investment interest but is not completed production. Political control, contract enforceability, infrastructure and prices remain conditions; the report wisely declines a precise geopolitical trading forecast.",
+      "kind": "forecast",
+      "family": "venezuela-post2026-output",
+      "asset_or_variable": "venezuela-post2026-output",
+      "horizon": "Next several years",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.chevron.com/newsroom/2026/q3/chevron-expands-position-in-venezuela",
+          "title": "Chevron expands Venezuela position",
+          "publisher": "Chevron",
+          "date": "2026-09-02",
+          "verified": true,
+          "finding": "September announcement assigns additional Orinoco development areas and updates joint-venture terms."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Next several years",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C09"
+    },
+    {
+      "claim": "Bitcoin’s November floor should hold.",
+      "source_blocks": [
+        48,
+        50
+      ],
+      "verdict": "wrong",
+      "reason": "The qualified base case failed. The conservative November 21 intraday low of $80,659.81 was breached on January 31, 2026 at $75,815.88. BTC lost 19.32% over the post-report window. Stabilizing momentum and reduced treasury-company premiums did not establish a durable floor.",
+      "kind": "forecast",
+      "family": "bitcoin-november2025-floor",
+      "asset_or_variable": "bitcoin-november2025-floor",
+      "horizon": null,
+      "conditions": null,
+      "modality": "loosely held base case",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "November 21 low $80,659.81; January 31 low $75,815.88; January 5-November 6 return -19.32%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C10"
+    },
+    {
+      "claim": "Liquidity and deficits support Bitcoin.",
+      "source_blocks": [
+        35,
+        50
+      ],
+      "verdict": "not_testable",
+      "reason": "No deadline or magnitude makes the broad support thesis falsifiable. Reserve-management purchases occurred while Bitcoin fell. To establish a causal investment rule, specify which liquidity measure, transmission lag, competing variables and failure condition matter.",
+      "kind": "investment_thesis",
+      "family": "bitcoin-liquidity-longrun",
+      "asset_or_variable": "bitcoin-liquidity-longrun",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "January 5-November 6, 2026 -19.32%."
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchase announcement",
+          "publisher": "New York Fed",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "Purchases began December 12, 2025 to maintain ample reserves; initial monthly amount about $40 billion. Technical reserve supply does not itself establish a change in the interest-rate stance."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C11"
+    },
+    {
+      "claim": "Earlier energy-price expectations were too high.",
+      "source_blocks": [
+        66,
+        67
+      ],
+      "verdict": "right",
+      "reason": "The report explicitly acknowledges a miss. WTI ended 2025 around $57, substantially below its 2022 levels. This is a candid revision, not a new successful forecast. The explanation involving demand and resilient supply should be judged separately from the price outcome.",
+      "kind": "explanation",
+      "family": "energy-2024-2025-miss",
+      "asset_or_variable": "energy-2024-2025-miss",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+          "title": "DCOILWTICO observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "WTI fell from elevated 2022 prices to roughly $57 at the end of 2025."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C12"
+    },
+    {
+      "claim": "Oil production shifted from rapid to slower growth.",
+      "source_blocks": [
+        68,
+        69,
+        70,
+        74,
+        75
+      ],
+      "verdict": "mixed",
+      "reason": "The historical periodization is a useful descriptive lens, not a stable forecasting law. Continental aggregation hides major offsets, including Venezuela against Brazil and Guyana. “Conventional” definitions and crude-versus-total-liquids coverage must match before interpreting peaks or a fitted linear trend.",
+      "kind": "explanation",
+      "family": "oil-long-cycle-production",
+      "asset_or_variable": "oil-long-cycle-production",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C13"
+    },
+    {
+      "claim": "Shale needs continual replacement drilling.",
+      "source_blocks": [
+        76,
+        77
+      ],
+      "verdict": "right",
+      "reason": "The distinction between existing-well operating costs and new-well breakevens supports continued production even when new drilling is unattractive. Dallas Fed respondents put 2025 averages near $41 and $65 respectively. These are survey averages, not universal marginal-cost thresholds or price floors.",
+      "kind": "explanation",
+      "family": "shale-decline-reinvestment",
+      "asset_or_variable": "shale-decline-reinvestment",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.dallasfed.org/news/releases/2025/nr250326energy",
+          "title": "Dallas Fed first-quarter energy survey",
+          "publisher": "Dallas Fed",
+          "date": "2025-03-26",
+          "verified": true,
+          "finding": "Average existing-well operating threshold $41; new-well breakeven about $65."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C14"
+    },
+    {
+      "claim": "Worse remaining acreage accelerates depletion.",
+      "source_blocks": [
+        76
+      ],
+      "verdict": "evidence_needed",
+      "reason": "Inventory quality can deteriorate, but a faster percentage decline does not follow automatically from a lower-quality well. Completion design, lateral length, spacing and production mix affect observed decline rates. The article does not isolate these effects.",
+      "kind": "explanation",
+      "family": "shale-acreage-quality-decline",
+      "asset_or_variable": "shale-acreage-quality-decline",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Compare matched well cohorts and geology, controlling for design and production-age composition.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C15"
+    },
+    {
+      "claim": "EIA expected a 2026 oil glut.",
+      "source_blocks": [
+        79
+      ],
+      "verdict": "right",
+      "reason": "The December outlook did forecast rising inventories and subdued prices. This is attributed third-party context, not automatically Lyn’s own forecast. Subsequent supply disruptions can invalidate that baseline without making its contemporaneous attribution incorrect.",
+      "kind": "empirical",
+      "family": "eia-dec2025-oil-baseline",
+      "asset_or_variable": "eia-dec2025-oil-baseline",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/outlooks/steo/archives/dec25.pdf",
+          "title": "December 2025 Short-Term Energy Outlook",
+          "publisher": "EIA",
+          "date": "2025-12-09",
+          "verified": true,
+          "finding": "Forecast global inventory accumulation through 2026 and downward oil-price pressure."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C16"
+    },
+    {
+      "claim": "High stockpiles favor owning the commodity.",
+      "source_blocks": [
+        81,
+        82
+      ],
+      "verdict": "mixed",
+      "reason": "The stock/flow distinction helps separate monetary inventory assets from consumed inputs. It does not by itself establish expected real returns or weak producer pricing power. Available inventories, ownership concentration, storage costs and supply restrictions matter; uranium inventories are not interchangeable with freely tradable gold.",
+      "kind": "explanation",
+      "family": "commodity-stock-flow-allocation",
+      "asset_or_variable": "commodity-stock-flow-allocation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C17"
+    },
+    {
+      "claim": "Consumable commodities favor operating businesses.",
+      "source_blocks": [
+        83,
+        94,
+        99
+      ],
+      "verdict": "mixed",
+      "reason": "Producers and transporters can generate distributable cash while spot holdings incur storage or futures-roll costs. But business leverage, capex and dilution can overwhelm that advantage. Transport volumes and contract durability are separate risks from the commodity price, not complete insulation from it.",
+      "kind": "explanation",
+      "family": "commodity-equity-versus-physical",
+      "asset_or_variable": "commodity-equity-versus-physical",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C18"
+    },
+    {
+      "claim": "Large low-cost producers reduce downside exposure.",
+      "source_blocks": [
+        85,
+        87
+      ],
+      "verdict": "mixed",
+      "reason": "Stronger balance sheets and lower operating costs plausibly improve survival through low prices. An investment advantage still depends on purchase valuation and capital allocation. Avoiding small firms is a risk preference, not evidence that every large producer outperformed a specified small-company portfolio.",
+      "kind": "investment_thesis",
+      "family": "energy-quality-balance-sheets",
+      "asset_or_variable": "energy-quality-balance-sheets",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C19"
+    },
+    {
+      "claim": "Oil services offer better value than majors.",
+      "source_blocks": [
+        88,
+        91
+      ],
+      "verdict": "mixed",
+      "reason": "SLB returned 15.84% and HAL 1.13% through the cutoff, versus XOM 34.97%. The relative preference has not been rewarded in this window, though the article gives no fixed horizon and explicitly stops short of a strong buy. “Bottom” is probabilistic and not assigned a specific price level.",
+      "kind": "investment_thesis",
+      "family": "oil-services-late2025-value",
+      "asset_or_variable": "oil-services-late2025-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/SLB/history/",
+          "title": "SLB market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "January 5-November 6, 2026 +15.84%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/HAL/history/",
+          "title": "HAL market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched +1.13%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/XOM/history/",
+          "title": "XOM market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched +34.97%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C20"
+    },
+    {
+      "claim": "EPD remains an attractive income holding.",
+      "source_blocks": [
+        94,
+        95,
+        99
+      ],
+      "verdict": "right",
+      "reason": "EPD gained 22.24% through the cutoff versus SPY 7.75%, favorable interim evidence. A distribution yield is not a guaranteed total return; coverage, leverage, capex and investor-specific tax treatment remain relevant. The article’s partnership-versus-corporation distinction is useful.",
+      "kind": "investment_thesis",
+      "family": "epd-income-value",
+      "asset_or_variable": "epd-income-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EPD/history/",
+          "title": "EPD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "January 5-November 6, 2026 +22.24%; SPY +7.75%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C21"
+    },
+    {
+      "claim": "ONEOK has raised dividends every year.",
+      "source_blocks": [
+        97
+      ],
+      "verdict": "wrong",
+      "reason": "ONEOK’s own history shows the quarterly dividend stayed at $0.935 throughout 2020, 2021 and 2022. A record without cuts is different from consecutive annual increases. This matters because dividend-growth continuity is part of the stated income thesis.",
+      "kind": "explanation",
+      "family": "oneok-dividend-growth-record",
+      "asset_or_variable": "oneok-dividend-growth-record",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://ir.oneok.com/stock-information/dividend-history",
+          "title": "ONEOK dividend history",
+          "publisher": "ONEOK",
+          "date": null,
+          "verified": true,
+          "finding": "Quarterly dividend $0.935 for every quarter of 2020-2022; increased to $0.955 in 2023."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C22"
+    },
+    {
+      "claim": "ONEOK is reasonably valued again.",
+      "source_blocks": [
+        97
+      ],
+      "verdict": "right",
+      "reason": "OKE gained 21.41% through the cutoff versus SPY 7.75%, favorable interim evidence for adding capital. This does not validate the erroneous dividend-growth description or establish that the corporate structure alone explains its valuation premium over EPD.",
+      "kind": "investment_thesis",
+      "family": "oneok-january2026-value",
+      "asset_or_variable": "oneok-january2026-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/OKE/history/",
+          "title": "OKE market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "January 5-November 6, 2026 +21.41%; SPY +7.75%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C23"
+    },
+    {
+      "claim": "New capital should be cautious on metals.",
+      "source_blocks": [
+        101,
+        104,
+        105,
+        106,
+        107,
+        108,
+        110,
+        111,
+        112
+      ],
+      "verdict": "right",
+      "reason": "The continued caution was timely: GLD lost 8.87%, SLV 32.15% and PPLT 32.22% through the cutoff. These are post-report sensitivities, not realized profits from an exit; the article kept existing holdings. Broad two-sided silver scenarios are not separate winning targets.",
+      "kind": "investment_thesis",
+      "family": "metals-december2025-caution",
+      "asset_or_variable": "metals-december2025-caution",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "January 5-November 6, 2026 -8.87%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SLV/history/",
+          "title": "SLV market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched -32.15%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/PPLT/history/",
+          "title": "PPLT market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched -32.22%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C24"
+    },
+    {
+      "claim": "Metals retain a higher structural valuation.",
+      "source_blocks": [
+        105,
+        111
+      ],
+      "verdict": "not_testable",
+      "reason": "Neither the amount of repricing that should persist nor the definition of fair value is specified. Fiscal and geopolitical mechanisms are plausible hypotheses; a historical rally or an eventual recovery does not by itself verify a permanent equilibrium shift.",
+      "kind": "investment_thesis",
+      "family": "precious-metals-structural-repricing",
+      "asset_or_variable": "precious-metals-structural-repricing",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "179-C25"
+    }
+  ],
+  "coverage_note": "Full numbered text and image inventory read. All material theses across macro, digital assets, investment analysis and concluding sections considered. Position listings and incidental descriptive statistics are excluded unless they support a thesis.",
+  "tools_charts": [
+    {
+      "name": "Repo and reverse-repo facilities",
+      "source_blocks": [
+        24,
+        28
+      ],
+      "use": "Compare outstanding stocks and daily changes; include all eligible collateral",
+      "image_inspected": false
+    },
+    {
+      "name": "SOFR minus IORB",
+      "source_blocks": [
+        29,
+        31
+      ],
+      "use": "Separate calendar spikes from persistent funding pressure",
+      "image_inspected": false
+    },
+    {
+      "name": "Continental oil production",
+      "source_blocks": [
+        72,
+        74
+      ],
+      "use": "Expose regional contributions while checking offsetting countries",
+      "image_inspected": false
+    },
+    {
+      "name": "Commodity stock/flow comparison",
+      "source_blocks": [
+        81,
+        82,
+        83
+      ],
+      "use": "Combine inventories with storage costs and market structure",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs: energy equities",
+      "source_blocks": [
+        85,
+        91,
+        95,
+        97
+      ],
+      "use": "Separate operating resilience from entry valuation",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "A good industry thesis can coexist with a mistaken supporting factual claim.",
+    "Preserve the distinction between a useful funding diagnosis and asset-price timing."
+  ],
+  "verification_limitations": [
+    "Current page snapshot is not an authenticated publication-date version.",
+    "A missing horizon is not replaced with an invented author deadline.",
+    "Market sensitivities use vendor adjusted closes and do not reconstruct portfolio execution."
+  ]
+}

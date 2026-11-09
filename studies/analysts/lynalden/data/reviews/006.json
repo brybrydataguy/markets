@@ -1,0 +1,693 @@
+{
+  "article_id": "006",
+  "title": "Enterprise Products Partners L.P. (EPD) Deep-Dive Analysis",
+  "date": "2020-01-19",
+  "source_url": "https://www.lynalden.com/premium-2020-1-19/",
+  "read_complete": true,
+  "summary": "Platinum substitution and self-funded midstream income.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "Lower rates support housing activity",
+      "kind": "explanation",
+      "source_blocks": [
+        10
+      ],
+      "family": "rates-housing",
+      "asset_or_variable": "US housing",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The mortgage-payment channel is real, but attribution of the observed housing increase needs income, supply and mortgage-rate controls. No isolated causal estimate is specified.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "006-C01"
+    },
+    {
+      "claim": "Warm weather distorts seasonally adjusted construction",
+      "kind": "explanation",
+      "source_blocks": [
+        11,
+        13
+      ],
+      "family": "housing-weather-seasonality",
+      "asset_or_variable": "Housing starts",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A weather explanation requires regional temperature anomalies and unadjusted versus adjusted construction data; a later revision alone would not establish it.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare December 2019 regional starts, seasonal factors and NOAA weather observations.",
+      "id": "006-C02"
+    },
+    {
+      "claim": "JOLTS growth provides earlier cycle warnings",
+      "kind": "explanation",
+      "source_blocks": [
+        15,
+        21
+      ],
+      "family": "jolts-leading-growth",
+      "asset_or_variable": "US labor and GDP",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The proposed lead-lag relationship needs out-of-sample errors and historical revisions. High absolute openings can coexist with slowing growth, but that identity does not prove predictive power.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Test vintage JOLTS growth against later GDP and labor turns with false positives included.",
+      "id": "006-C03"
+    },
+    {
+      "claim": "Labor trajectory determines the 2020 cycle",
+      "kind": "forecast",
+      "source_blocks": [
+        26
+      ],
+      "family": "labor-cycle-conditional",
+      "asset_or_variable": "US economy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "This is an explicitly conditional branching framework without a separate predicted labor path. The pandemic changed both labor and demand simultaneously.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "006-C04"
+    },
+    {
+      "claim": "EV adoption threatens autocatalyst demand",
+      "kind": "forecast",
+      "source_blocks": [
+        39
+      ],
+      "family": "ev-autocatalyst-demand",
+      "asset_or_variable": "Platinum-group metals",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Battery-electric vehicles remove tailpipe catalysts, but hybrid growth, emission rules and substitution offset demand. Need actual powertrain-adjusted PGM loadings.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Measure global vehicle mix and per-vehicle catalyst loadings, not EV sales alone.",
+      "id": "006-C05"
+    },
+    {
+      "claim": "Palladium premiums induce platinum substitution",
+      "kind": "forecast",
+      "source_blocks": [
+        43,
+        44
+      ],
+      "family": "platinum-palladium-substitution",
+      "asset_or_variable": "Platinum",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "WPIC reported over 600 thousand ounces of substitution in 2023 and explicitly linked it to palladium's premium. This supports the specified mechanism; use caution because the source promotes platinum investment.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Manufacturer substitution occurred after sustained relative-price incentives.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://platinuminvestment.com/investment-research/perspectives/with-palladium-oversold-and-platinums-attractive-fundamentals-both-metals-have-upside",
+          "title": "Platinum perspectives: palladium and platinum",
+          "publisher": "World Platinum Investment Council",
+          "date": "2024-02-27",
+          "verified": true,
+          "finding": "WPIC estimated platinum-for-palladium substitution exceeded 600 thousand ounces in 2023. It attributed substitution to palladium's premium, which had narrowed by 2024; WPIC promotes platinum investment."
+        }
+      ],
+      "next_check": null,
+      "id": "006-C06"
+    },
+    {
+      "claim": "Cheap platinum can regain jewelry demand",
+      "kind": "forecast",
+      "source_blocks": [
+        45
+      ],
+      "family": "platinum-jewelry-substitution",
+      "asset_or_variable": "Platinum jewelry",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "evidence_needed",
+      "reason": "Relative cheapness does not establish consumer adoption. Need regional jewelry fabrication and retail demand with gold/platinum price ratios.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare WPIC or independent fabrication data by region through 2025.",
+      "id": "006-C07"
+    },
+    {
+      "claim": "Platinum may have bottomed in 2019",
+      "kind": "forecast",
+      "source_blocks": [
+        46,
+        47
+      ],
+      "family": "platinum-bottom",
+      "asset_or_variable": "Platinum price",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "wrong",
+      "reason": "The possible 2019 bottom did not hold in the named platinum vehicle. PPLT first breached its 2019 low on March 12, 2020. This resolves the bottoming proposition, while retaining the tentative modality and avoiding any claim that the author promised immediate gains.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/PPLT/history/",
+          "title": "PPLT daily price observations",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Vendor split-normalized 2019 intraday low was $7.388 on February 14; March 12, 2020 low $7.076 was the first subsequent breach. Historical OHLC is split-normalized by the vendor, not a record of executed trades; prices exclude distributions."
+        }
+      ],
+      "next_check": null,
+      "id": "006-C08"
+    },
+    {
+      "claim": "Platinum offers attractive long-run value",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        49
+      ],
+      "family": "platinum-long-run-value",
+      "asset_or_variable": "Platinum",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No price target or deadline is given. Substitution supports one demand channel but cannot alone establish expected investment return.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "006-C09"
+    },
+    {
+      "claim": "Enterprise is inexpensive resilient income",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        59,
+        63,
+        69,
+        76
+      ],
+      "family": "enterprise-self-funded-income",
+      "asset_or_variable": "EPD",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Cash-flow and payout resilience were supported in 2020, with only a modest DCF decline and continued distribution growth. Equity valuation and market-relative return still need a full unit-price and cash-distribution record.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.enterpriseproducts.com/node/40606/pdf",
+          "title": "Enterprise reports 2020 results",
+          "publisher": "Enterprise Products Partners",
+          "date": "2021-02-03",
+          "verified": true,
+          "finding": "2020 DCF was $6.4 billion versus $6.6 billion in 2019, with 1.6 times distribution coverage. Distribution increased 1.1% to $1.785; retained DCF was $2.5 billion."
+        }
+      ],
+      "next_check": null,
+      "id": "006-C10"
+    },
+    {
+      "claim": "Volumes matter more than commodity prices",
+      "kind": "explanation",
+      "source_blocks": [
+        65
+      ],
+      "family": "midstream-fee-resilience",
+      "asset_or_variable": "EPD cash flow",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The small 2020 DCF decline during an oil-price collapse supports relative insulation. It is not total independence: volumes, customers, processing margins and future drilling connect fees to commodity economics.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.enterpriseproducts.com/node/40606/pdf",
+          "title": "Enterprise reports 2020 results",
+          "publisher": "Enterprise Products Partners",
+          "date": "2021-02-03",
+          "verified": true,
+          "finding": "2020 DCF was $6.4 billion versus $6.6 billion in 2019, with 1.6 times distribution coverage. Distribution increased 1.1% to $1.785; retained DCF was $2.5 billion."
+        },
+        {
+          "url": "https://www.eia.gov/TodayinEnergy/detail.php?id=43495",
+          "title": "Low liquidity and limited storage pushed WTI futures below zero",
+          "publisher": "Energy Information Administration",
+          "date": "2020-04-27",
+          "verified": true,
+          "finding": "May WTI futures traded below zero on April 20 amid the demand collapse, expiring contract and limited storage. Positive deferred and other benchmark prices mean this was not all oil trading below zero."
+        }
+      ],
+      "next_check": null,
+      "id": "006-C11"
+    },
+    {
+      "claim": "Maturing infrastructure implies slower growth",
+      "kind": "forecast",
+      "source_blocks": [
+        67,
+        128,
+        130
+      ],
+      "family": "midstream-mature-growth",
+      "asset_or_variable": "EPD growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "One weak year cannot resolve a structural multi-year growth expectation. Need capacity additions, utilization and per-unit DCF growth with acquisitions separated.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare 2019-25 per-unit DCF and growth capex, distinguishing pandemic effects and acquired assets.",
+      "id": "006-C12"
+    },
+    {
+      "claim": "Long-duration fixed debt limits rate shocks",
+      "kind": "explanation",
+      "source_blocks": [
+        78
+      ],
+      "family": "fixed-debt-rate-protection",
+      "asset_or_variable": "EPD debt",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Protection lasts only until refinancing and does not cover floating-rate balances. The debt maturity ladder and coupon mix have not been independently reconciled.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Match 2019 debt maturities and fixed/floating mix to 2022-25 interest expense.",
+      "id": "006-C13"
+    },
+    {
+      "claim": "DCF better represents distributable pipeline cash",
+      "kind": "explanation",
+      "source_blocks": [
+        87
+      ],
+      "family": "midstream-dcf-accounting",
+      "asset_or_variable": "EPD valuation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "DCF is useful for payout coverage but is non-GAAP and depends on maintenance-capex judgments. The issuer reported both DCF and lower operating cash flow; neither should be substituted mechanically for economic earnings.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.enterpriseproducts.com/node/40606/pdf",
+          "title": "Enterprise reports 2020 results",
+          "publisher": "Enterprise Products Partners",
+          "date": "2021-02-03",
+          "verified": true,
+          "finding": "2020 DCF was $6.4 billion versus $6.6 billion in 2019, with 1.6 times distribution coverage. Distribution increased 1.1% to $1.785; retained DCF was $2.5 billion."
+        }
+      ],
+      "next_check": null,
+      "id": "006-C14"
+    },
+    {
+      "claim": "Yield and growth can produce ten percent",
+      "kind": "forecast",
+      "source_blocks": [
+        99,
+        103
+      ],
+      "family": "enterprise-income-return",
+      "asset_or_variable": "EPD",
+      "horizon": null,
+      "conditions": "Stable valuation and sustainable distribution growth",
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "EPD annualized at 5.13% over the three-year sensitivity and 12.16% over five years. Thus the longer checkpoint exceeded the approximate 10% expectation, but both cumulative endpoints lagged SPY. No exact original horizon was given. Taxable partnership distributions and vendor adjustments are not an audited investor return.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EPD/history/",
+          "title": "EPD historical price sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "3-year comparison 2020-01-21 to 2023-01-19: EPD +16.17% cumulative, 5.13% annualized; SPY +23.06% cumulative. 5-year comparison 2020-01-21 to 2025-01-17: EPD +77.30% cumulative, 12.16% annualized; SPY +94.55% cumulative. First common close strictly after publication, last common close on/before anniversary. USD vendor-adjusted-close proxies include vendor dividend/split adjustments; no fees, taxes or actual subscriber trades. These are evaluator-defined sensitivities unless the claim explicitly names the horizon."
+        }
+      ],
+      "next_check": null,
+      "id": "006-C15",
+      "test_specification": {
+        "window_type": "evaluator-defined sensitivity unless explicitly matched to source horizon",
+        "windows_years": [
+          3,
+          5
+        ],
+        "returns": {
+          "EPD": {
+            "3": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-01-19",
+              "requested_endpoint": "2023-01-19",
+              "entry": "2020-01-21",
+              "exit": "2023-01-19",
+              "days": 1094,
+              "endpoint_gap_days": 0,
+              "endpoint_covered": true,
+              "instruments": {
+                "EPD": {
+                  "entry_adjusted_close": 16.658977508544922,
+                  "exit_adjusted_close": 19.352632522583008,
+                  "cumulative_return_pct": 16.169389823933813,
+                  "annualized_return_pct": 5.131277975003279,
+                  "source": "https://finance.yahoo.com/quote/EPD/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 301.2383117675781,
+                  "exit_adjusted_close": 370.6908874511719,
+                  "cumulative_return_pct": 23.055691447766513,
+                  "annualized_return_pct": 7.172150415926759,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": -6.886301623832701
+            },
+            "5": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-01-19",
+              "requested_endpoint": "2025-01-19",
+              "entry": "2020-01-21",
+              "exit": "2025-01-17",
+              "days": 1823,
+              "endpoint_gap_days": 2,
+              "endpoint_covered": true,
+              "instruments": {
+                "EPD": {
+                  "entry_adjusted_close": 16.658977508544922,
+                  "exit_adjusted_close": 29.535675048828125,
+                  "cumulative_return_pct": 77.29584564045622,
+                  "annualized_return_pct": 12.157517137850448,
+                  "source": "https://finance.yahoo.com/quote/EPD/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 301.2383117675781,
+                  "exit_adjusted_close": 586.0664672851562,
+                  "cumulative_return_pct": 94.5524338674885,
+                  "annualized_return_pct": 14.264254674984066,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": -17.25658822703228
+            }
+          }
+        }
+      }
+    },
+    {
+      "claim": "Tax complexity depresses MLP ownership",
+      "kind": "explanation",
+      "source_blocks": [
+        107
+      ],
+      "family": "mlp-tax-friction",
+      "asset_or_variable": "MLP valuation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Need ownership or valuation evidence around comparable entities and tax changes. Investor inconvenience alone does not establish the magnitude of the discount.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare institutional eligibility and after-tax valuations of matched MLPs and corporations.",
+      "id": "006-C16"
+    },
+    {
+      "claim": "Corporate conversion could lift the multiple",
+      "kind": "forecast",
+      "source_blocks": [
+        109,
+        110
+      ],
+      "family": "mlp-conversion-rerating",
+      "asset_or_variable": "EPD legal form",
+      "horizon": null,
+      "conditions": "EPD converts into a corporation",
+      "modality": "possible",
+      "verdict": "conditional_pending",
+      "reason": "The article posits a contingent valuation effect and notes family tax incentives against conversion. It does not forecast that conversion must happen.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Verify whether conversion occurs; if so analyze taxes, ownership changes and event-window valuation.",
+      "id": "006-C17"
+    },
+    {
+      "claim": "Retained cash reduces equity-financing fragility",
+      "kind": "explanation",
+      "source_blocks": [
+        112,
+        123
+      ],
+      "family": "midstream-self-funding",
+      "asset_or_variable": "EPD funding",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Enterprise retained $2.5 billion of DCF during 2020 and maintained covered distributions. That supports the claimed reduction in reliance on selling new units at distressed prices. It does not remove borrowing risk.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Retained operating cash financed investment without depending entirely on new equity.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.enterpriseproducts.com/node/40606/pdf",
+          "title": "Enterprise reports 2020 results",
+          "publisher": "Enterprise Products Partners",
+          "date": "2021-02-03",
+          "verified": true,
+          "finding": "2020 DCF was $6.4 billion versus $6.6 billion in 2019, with 1.6 times distribution coverage. Distribution increased 1.1% to $1.785; retained DCF was $2.5 billion."
+        }
+      ],
+      "next_check": null,
+      "id": "006-C18"
+    },
+    {
+      "claim": "A correction is likely in coming months",
+      "kind": "forecast",
+      "source_blocks": [
+        133
+      ],
+      "family": "2020-equity-correction",
+      "asset_or_variable": "US equities",
+      "horizon": "coming months",
+      "conditions": null,
+      "modality": "expected",
+      "verdict": "right",
+      "reason": "The S&P 500 fell from its February 19 closing high of 3386.15 to 2237.40 on March 23, a 33.9% price drawdown. This occurred within the stated window; the warning did not specify pandemic severity.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: coming months",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/data/SP500",
+          "title": "S&P 500 daily closing index",
+          "publisher": "S&P Dow Jones Indices via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Closing prices: January 24, 2020 3295.47; January 27 3243.63; February 19 3386.15; February 25 3128.21; February 28 2954.22; March 2 3090.23; March 23 2237.40. Price index excludes dividends."
+        }
+      ],
+      "next_check": null,
+      "id": "006-C19"
+    },
+    {
+      "claim": "Enterprise should outperform expensive growth during selloff",
+      "kind": "forecast",
+      "source_blocks": [
+        132,
+        136
+      ],
+      "family": "epd-growth-relative-defense",
+      "asset_or_variable": "EPD versus growth equities",
+      "horizon": null,
+      "conditions": "Broad market selloff",
+      "modality": "should",
+      "verdict": "wrong",
+      "reason": "In the ensuing crash, the vendor distribution-adjusted proxy fell 51.94% for EPD versus 23.49% for QQQ from January 21 to March 23, 2020. QQQ is an evaluator-selected proxy for expensive growth, and March 23 is the common equity-crash endpoint. The very large relative loss contradicts the stated selloff-defense expectation despite resilient operating cash flow. No claim about all growth portfolios is made.",
+      "direction_assessment": "Wrong for the disclosed growth proxy and ensuing selloff.",
+      "timing_assessment": "The broad selloff occurred within the forecast coming-months window.",
+      "mechanism_assessment": "Cash-flow durability did not prevent equity repricing and energy-sector liquidation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EPD/history/",
+          "title": "EPD daily historical prices and corporate actions",
+          "publisher": "Yahoo Finance, retrieved by coordinator",
+          "date": null,
+          "verified": true,
+          "finding": "January 21-March 23 adjusted-close proxy: -51.94%; no split events in the downloaded history."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/QQQ/history/",
+          "title": "QQQ daily historical prices and corporate actions",
+          "publisher": "Yahoo Finance, retrieved by coordinator",
+          "date": null,
+          "verified": true,
+          "finding": "Same-window adjusted-close proxy: -23.49%. QQQ is a growth-heavy Nasdaq 100 ETF proxy, not an author-specified benchmark."
+        }
+      ],
+      "next_check": null,
+      "id": "006-C20",
+      "test_specification": {
+        "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+        "published": "2020-01-19",
+        "requested_endpoint": "2020-03-23",
+        "entry": "2020-01-21",
+        "exit": "2020-03-23",
+        "days": 62,
+        "endpoint_gap_days": 0,
+        "endpoint_covered": true,
+        "instruments": {
+          "EPD": {
+            "entry_adjusted_close": 16.658977508544922,
+            "exit_adjusted_close": 8.006733894348145,
+            "cumulative_return_pct": -51.93742298864841,
+            "annualized_return_pct": -98.6649906966567,
+            "source": "https://finance.yahoo.com/quote/EPD/history/"
+          },
+          "QQQ": {
+            "entry_adjusted_close": 214.7193145751953,
+            "exit_adjusted_close": 164.2737579345703,
+            "cumulative_return_pct": -23.493720972622988,
+            "annualized_return_pct": -79.35359264341032,
+            "source": "https://finance.yahoo.com/quote/QQQ/history/"
+          }
+        },
+        "excess_percentage_points": -28.44370201602542
+      }
+    },
+    {
+      "claim": "Sub-thirty entry supports gradual accumulation",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        144
+      ],
+      "family": "enterprise-entry",
+      "asset_or_variable": "EPD",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "An entry zone without exit, return target or terminal date is a valuation preference. It cannot be graded from subsequently touching that price.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "006-C21"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Housing and JOLTS growth",
+      "source_blocks": [
+        11,
+        15
+      ],
+      "use": "Cycle",
+      "image_inspected": false
+    },
+    {
+      "name": "Platinum relative prices",
+      "source_blocks": [
+        32,
+        44
+      ],
+      "use": "Substitution",
+      "image_inspected": false
+    },
+    {
+      "name": "DCF coverage and dividend model",
+      "source_blocks": [
+        87,
+        99
+      ],
+      "use": "Income sustainability",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate unit-price defense from business resilience."
+  ],
+  "assessment": "The strongest validated call is self-funding and payout resilience through 2020, alongside the platinum-substitution mechanism. The market correction warning also resolved within months. The relative equity-defense claim remains an important unresolved test and must not inherit a win from stable cash flows.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "Some claims use coordinator-downloaded Yahoo adjusted-close proxies with explicit dates; these are not audited portfolio P&L. Unverified outcomes remain unscored. Original-vintage macro backtests were not performed."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "bbab9de3caecc489d5ed0c78588dc647addb1862249aa5df7ca9f7f1e196af46"
+}

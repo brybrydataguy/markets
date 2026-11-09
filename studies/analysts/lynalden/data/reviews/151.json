@@ -1,0 +1,794 @@
+{
+  "article_id": "151",
+  "title": "PepsiCo Deep Dive Analysis",
+  "date": "2024-12-08",
+  "source_url": "https://www.lynalden.com/premium-2024-12-8/",
+  "read_complete": true,
+  "summary": "Fiscal resilience, currency erosion, and PepsiCo.",
+  "coverage_note": "Entire macro/Egypt, bitcoin coin-age, PepsiCo and gold analysis read. Marketing event and routine company-segment descriptions excluded. Private villa financing is analyzed as a general mechanism, not audited personal performance.",
+  "claims": [
+    {
+      "id": "151-C01",
+      "claim": "Liquidity flat until reserve constraint.",
+      "kind": "forecast",
+      "source_blocks": [
+        8,
+        10
+      ],
+      "family": "net-liquidity-range",
+      "asset_or_variable": "net-liquidity-range",
+      "horizon": null,
+      "conditions": "Until bank limits",
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No numeric tolerance defines flat or bank limits. Reserve-floor conditions change with distribution and regulation.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Measure reserve demand and repo spreads rather than fixed cash/assets threshold."
+    },
+    {
+      "id": "151-C02",
+      "claim": "Reserve buffer is $100-200bn.",
+      "kind": "empirical",
+      "source_blocks": [
+        11
+      ],
+      "family": "reserve-scarcity-threshold",
+      "asset_or_variable": "reserve-scarcity-threshold",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A systemwide buffer estimate cannot be independently verified from aggregate cash/assets alone. Bank-specific liquidity demand matters.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconstruct the author buffer calculation and compare repo-demand sensitivity."
+    },
+    {
+      "id": "151-C03",
+      "claim": "QT ends during 2025.",
+      "kind": "forecast",
+      "source_blocks": [
+        17
+      ],
+      "family": "fed-balance-sheet-turn",
+      "asset_or_variable": "fed-balance-sheet-turn",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Runoff ended December 1, 2025, followed by reserve-management purchases. This repeats earlier forecasts.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2025-10-29",
+          "verified": true,
+          "finding": "FOMC announced aggregate securities runoff would conclude December 1 2025."
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchases",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "The Desk announced $40 billion of initial bill purchases starting December 12, to maintain ample reserves. This is not itself evidence of deficit monetization as the causal motive."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "151-C04",
+      "claim": "Dollar may have topped.",
+      "kind": "forecast",
+      "source_blocks": [
+        15
+      ],
+      "family": "dollar-tactical-top",
+      "asset_or_variable": "dollar-tactical-top",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "wrong",
+      "reason": "The near-term peak hypothesis failed: the broad dollar index increased from 126.688 on December 6 to 130.0413 on January 13. The author later acknowledged a new DXY high in the December 22 report.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+          "title": "DTWEXBGS downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "December 6 2024=126.6880; January 13 2025=130.0413. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "151-C05",
+      "claim": "Deficits offset sector recession.",
+      "kind": "explanation",
+      "source_blocks": [
+        19,
+        23,
+        25,
+        27
+      ],
+      "family": "fiscal-dominance-growth",
+      "asset_or_variable": "fiscal-dominance-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "GDP remained positive, while housing and manufacturing weakness was compatible with uneven expansion. Causal fiscal dominance needs more than sector coincidence.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/A191RL1Q225SBEA",
+          "title": "A191RL1Q225SBEA downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2024 Q4 real growth 2.4%, below the cited 3% GDPNow estimate but positive. Latest vintage, cutoff November 7 2026."
+        },
+        {
+          "url": "https://www.gao.gov/products/gao-26-107908",
+          "title": "Fiscal 2025 federal debt audit",
+          "publisher": "GAO",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "Debt ceiling reinstated January 2 2025; extraordinary measures January 21-July 7; July 4 law raised limit $5tn to $41.1tn. FY 2025 deficit $1.8tn."
+        }
+      ],
+      "next_check": "Compare fiscal contributions with private demand and income distribution."
+    },
+    {
+      "id": "151-C06",
+      "claim": "Banks stop tightening standards.",
+      "kind": "empirical",
+      "source_blocks": [
+        28
+      ],
+      "family": "bank-credit-standards",
+      "asset_or_variable": "bank-credit-standards",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Accurate for large and middle-market C&I loans in the October survey; small firms still faced tightening. Generalizing one lending category to banks overall loses an important distinction.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/data/documents/sloos-202410.pdf",
+          "title": "October 2024 SLOOS",
+          "publisher": "Federal Reserve",
+          "date": "2024-11-12",
+          "verified": true,
+          "finding": "Large and middle-market C&I standards were basically unchanged; standards for small-firm C&I loans tightened, and demand weakened across firm sizes. Unchanged net standards do not mean easy credit."
+        }
+      ],
+      "next_check": "Retain category and bank-size distinctions."
+    },
+    {
+      "id": "151-C07",
+      "claim": "Weak currency drives foreign stores of value.",
+      "kind": "explanation",
+      "source_blocks": [
+        34
+      ],
+      "family": "em-monetary-substitution",
+      "asset_or_variable": "em-monetary-substitution",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Inflation creates incentives to seek stores of value, but population-wide holdings of dollars, gold, Bitcoin and property need independent survey or flow evidence.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.imf.org/en/news/articles/2025/03/11/pr-2558-egypt-imf-completes-4th-rev-eff-arrangement-under-rsf-concl-2025-art-iv-consult",
+          "title": "Egypt 2025 review",
+          "publisher": "IMF",
+          "date": "2025-03-11",
+          "verified": true,
+          "finding": "Persistent economic and social pressures; Red Sea disruptions reduced 2024 Suez foreign-currency receipts by $6bn. Inflation remained high despite declining from its peaks. Energy-price and subsidy reform carries social costs."
+        }
+      ],
+      "next_check": "Use household portfolio and FX/gold market data; do not infer Bitcoin adoption from currency weakness alone."
+    },
+    {
+      "id": "151-C08",
+      "claim": "Inflation increases contract friction.",
+      "kind": "explanation",
+      "source_blocks": [
+        35
+      ],
+      "family": "inflation-contract-costs",
+      "asset_or_variable": "inflation-contract-costs",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Frequent repricing and bargaining are plausible costs, but no administrative-cost measure is given.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Measure repricing frequency and real contract adjustments by sector."
+    },
+    {
+      "id": "151-C09",
+      "claim": "Wages lagging money lose relative share.",
+      "kind": "explanation",
+      "source_blocks": [
+        35
+      ],
+      "family": "money-supply-relative-income",
+      "asset_or_variable": "money-supply-relative-income",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Relative-to-money-supply dilution is mathematically distinct from loss of consumer purchasing power, which depends on prices.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Wage W and money stock M measured consistently",
+          "W grows slower than M",
+          "No claim that M equals consumer price index"
+        ],
+        "derivation": "W/M falls when(1+g W)/(1+g M)<1. Real wage W/CPI is a separate ratio."
+      }
+    },
+    {
+      "id": "151-C10",
+      "claim": "Devaluation worsens import affordability.",
+      "kind": "explanation",
+      "source_blocks": [
+        36
+      ],
+      "family": "em-import-affordability",
+      "asset_or_variable": "em-import-affordability",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Currency depreciation can raise local import costs, but actual affordability also depends on tariffs, FX availability and income. Anecdotal car prices do not quantify a representative household index.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.imf.org/en/news/articles/2025/03/11/pr-2558-egypt-imf-completes-4th-rev-eff-arrangement-under-rsf-concl-2025-art-iv-consult",
+          "title": "Egypt 2025 review",
+          "publisher": "IMF",
+          "date": "2025-03-11",
+          "verified": true,
+          "finding": "Persistent economic and social pressures; Red Sea disruptions reduced 2024 Suez foreign-currency receipts by $6bn. Inflation remained high despite declining from its peaks. Energy-price and subsidy reform carries social costs."
+        }
+      ],
+      "next_check": "Compare quality-adjusted import prices and median incomes."
+    },
+    {
+      "id": "151-C11",
+      "claim": "Egypt energy use per person falls.",
+      "kind": "empirical",
+      "source_blocks": [
+        37
+      ],
+      "family": "energy-prosperity-proxy",
+      "asset_or_variable": "energy-prosperity-proxy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The chart-dependent decade trend and one-eighth-of-U.S. comparison need the exact energy series, conversion and dates. Production declines are not identical to consumption declines.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Replicate per-capita primary-energy consumption with population and consistent accounting."
+    },
+    {
+      "id": "151-C12",
+      "claim": "Low energy growth signals weakness.",
+      "kind": "explanation",
+      "source_blocks": [
+        39
+      ],
+      "family": "energy-prosperity-proxy",
+      "asset_or_variable": "energy-prosperity-proxy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Energy access is important but efficiency, climate and industrial composition can alter consumption independently of welfare. This is a diagnostic heuristic, not a universal test.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Pair energy use with outages, access, real income and efficiency."
+    },
+    {
+      "id": "151-C13",
+      "claim": "Bitcoin rises over 12 months.",
+      "kind": "forecast",
+      "source_blocks": [
+        47
+      ],
+      "family": "bitcoin-medium-term-bull",
+      "asset_or_variable": "bitcoin-medium-term-bull",
+      "horizon": "12 months",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The twelve-month daily close was lower. Later recognition of near-term caution does not change the explicit positive view over a year.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "12 months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD daily closes",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2024-12-08 close $101,236.02; 2025-12-08 close $90,640.20. Calendar daily-close convention; no execution assumption or fees. Crypto spot excludes yield."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "151-C14",
+      "claim": "Sentiment warrants correction caution.",
+      "kind": "forecast",
+      "source_blocks": [
+        47,
+        50
+      ],
+      "family": "bitcoin-cycle-caution",
+      "asset_or_variable": "bitcoin-cycle-caution",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Substantial declines followed during the twelve-month interval, despite a later new high. This supports drawdown caution but cannot turn the separate bullish endpoint call into a win.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD daily closes",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2024-12-08 close $101,236.02; 2025-12-08 close $90,640.20. Calendar daily-close convention; no execution assumption or fees. Crypto spot excludes yield."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "151-C15",
+      "claim": "High prices unlock old-holder sales.",
+      "kind": "explanation",
+      "source_blocks": [
+        48,
+        50
+      ],
+      "family": "bitcoin-holder-distribution",
+      "asset_or_variable": "bitcoin-holder-distribution",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Old coins moving may reflect custody migration, self-transfer or estate activity, not sales. New owners may buy off-chain without an age reset.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Combine entity-adjusted coin ages with exchange flows and holder attribution."
+    },
+    {
+      "id": "151-C16",
+      "claim": "Old-coin movement exceeds 10 points.",
+      "kind": "forecast",
+      "source_blocks": [
+        53
+      ],
+      "family": "bitcoin-hodl-wave-cycle",
+      "asset_or_variable": "bitcoin-hodl-wave-cycle",
+      "horizon": "This bull cycle",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The numerical threshold is testable, but needs the exact one-year-unmoved series and a consistent denominator. It is not equivalent to 10% of supply being sold.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "This bull cycle",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Check whether the share unmoved for one year falls below 60.7% from its 70.7% peak, with the cycle boundary explicit."
+    },
+    {
+      "id": "151-C17",
+      "claim": "PEP stagnation offset by payouts.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        85
+      ],
+      "family": "pep-income-resilience",
+      "asset_or_variable": "pep-income-resilience",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Dividends and repurchases continued, but core EPS was flat and organic volume declined. Payouts cushion cash income without guaranteeing total return.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/pepsico-2025-annual-report.pdf",
+          "title": "PepsiCo 2025 annual report",
+          "publisher": "PepsiCo",
+          "date": "2026-02-03",
+          "verified": true,
+          "finding": "2025 revenue $93.925bn versus $91.854bn; core EPS $8.14 versus $8.16; GAAP EPS $6.00 versus $6.95. Organic volume -2%, pricing +4%; repurchases $1bn and dividends $7.638bn. North America foods core operating profit -6%."
+        }
+      ],
+      "next_check": "Compare total returns and payout coverage, not just gross cash distributions."
+    },
+    {
+      "id": "151-C18",
+      "claim": "PEP adapts to consumer preferences.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        87,
+        116,
+        118
+      ],
+      "family": "pep-product-adaptation",
+      "asset_or_variable": "pep-product-adaptation",
+      "horizon": "5-10 years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The surrounding framing asks about demand five and ten years ahead, so the earliest full checkpoint is 2029. Declining volumes are adverse interim evidence; acquisitions alone do not prove profitable adaptation.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "5-10 years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/pepsico-2025-annual-report.pdf",
+          "title": "PepsiCo 2025 annual report",
+          "publisher": "PepsiCo",
+          "date": "2026-02-03",
+          "verified": true,
+          "finding": "2025 revenue $93.925bn versus $91.854bn; core EPS $8.14 versus $8.16; GAAP EPS $6.00 versus $6.95. Organic volume -2%, pricing +4%; repurchases $1bn and dividends $7.638bn. North America foods core operating profit -6%."
+        }
+      ],
+      "next_check": "Track product mix, volumes, acquisition returns and profitability through 2029 and 2034."
+    },
+    {
+      "id": "151-C19",
+      "claim": "Scale stabilizes PEP margins.",
+      "kind": "explanation",
+      "source_blocks": [
+        88
+      ],
+      "family": "pep-margin-resilience",
+      "asset_or_variable": "pep-margin-resilience",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "2025 core operating profit rose only 1.5% on about 2% revenue growth, while GAAP profits fell and North America foods weakened. Broad stability has limits across segments and exceptional charges.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/pepsico-2025-annual-report.pdf",
+          "title": "PepsiCo 2025 annual report",
+          "publisher": "PepsiCo",
+          "date": "2026-02-03",
+          "verified": true,
+          "finding": "2025 revenue $93.925bn versus $91.854bn; core EPS $8.14 versus $8.16; GAAP EPS $6.00 versus $6.95. Organic volume -2%, pricing +4%; repurchases $1bn and dividends $7.638bn. North America foods core operating profit -6%."
+        }
+      ],
+      "next_check": "Compare normalized and GAAP margins by segment over stress periods."
+    },
+    {
+      "id": "151-C20",
+      "claim": "Growing dividends preferred to bonds.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        92
+      ],
+      "family": "income-equity-over-bonds",
+      "asset_or_variable": "income-equity-over-bonds",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The proposed 7% growth is a portfolio criterion, not a guaranteed PEP forecast. Equity default, drawdown and valuation risks differ from a Treasury held to maturity.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Define the basket, horizon and risk budget, including dividend cuts."
+    },
+    {
+      "id": "151-C21",
+      "claim": "Buybacks increase ownership.",
+      "kind": "explanation",
+      "source_blocks": [
+        93
+      ],
+      "family": "net-buyback-accretion",
+      "asset_or_variable": "net-buyback-accretion",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Repurchases occurred, but gross buybacks do not automatically reduce net shares when compensation or acquisitions issue equity. The relevant test is diluted shares outstanding.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/pepsico-2025-annual-report.pdf",
+          "title": "PepsiCo 2025 annual report",
+          "publisher": "PepsiCo",
+          "date": "2026-02-03",
+          "verified": true,
+          "finding": "2025 revenue $93.925bn versus $91.854bn; core EPS $8.14 versus $8.16; GAAP EPS $6.00 versus $6.95. Organic volume -2%, pricing +4%; repurchases $1bn and dividends $7.638bn. North America foods core operating profit -6%."
+        }
+      ],
+      "next_check": "Reconcile net diluted share count and repurchase prices."
+    },
+    {
+      "id": "151-C22",
+      "claim": "PEP debt remains manageable.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        95
+      ],
+      "family": "pep-balance-sheet",
+      "asset_or_variable": "pep-balance-sheet",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Manageability needs maturity, covenant and cash-flow stress assumptions. Stable historical profits do not guarantee future coverage.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/pepsico-2025-annual-report.pdf",
+          "title": "PepsiCo 2025 annual report",
+          "publisher": "PepsiCo",
+          "date": "2026-02-03",
+          "verified": true,
+          "finding": "2025 revenue $93.925bn versus $91.854bn; core EPS $8.14 versus $8.16; GAAP EPS $6.00 versus $6.95. Organic volume -2%, pricing +4%; repurchases $1bn and dividends $7.638bn. North America foods core operating profit -6%."
+        }
+      ],
+      "next_check": "Stress debt service with volume declines and refinancing rates."
+    },
+    {
+      "id": "151-C23",
+      "claim": "Cheap debt improves owner returns.",
+      "kind": "explanation",
+      "source_blocks": [
+        96,
+        97,
+        99,
+        103
+      ],
+      "family": "productive-fiat-short",
+      "asset_or_variable": "productive-fiat-short",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Money-supply growth is not the investment return or corporate inflation rate. Financing helps only if incremental after-tax returns exceed funding and distress costs.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Compare actual financed-asset returns with the cost of debt and liquidity risk."
+    },
+    {
+      "id": "151-C24",
+      "claim": "Fixed EGP installments preserve assets.",
+      "kind": "explanation",
+      "source_blocks": [
+        100,
+        102
+      ],
+      "family": "fixed-debt-currency-hedge",
+      "asset_or_variable": "fixed-debt-currency-hedge",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A private purchase lacks contract dates, down payment, currency and cash-flow timing, so its implied rate and personal performance cannot be audited. The mechanism is conditional on retained-asset returns and funding capacity.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Use full cash flows to calculate the effective APR and compare retained-portfolio outcomes."
+    },
+    {
+      "id": "151-C25",
+      "claim": "PEP valuation reasonable.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        113
+      ],
+      "family": "pep-value",
+      "asset_or_variable": "pep-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The 20-times-earnings and 7% growth framework was challenged by flat 2025 core EPS. A missing horizon prevents scoring the valuation opinion solely from the stock price.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.pepsico.com/docs/pepsico-5v9wci20/media/Files/investors/pepsico-2025-annual-report.pdf",
+          "title": "PepsiCo 2025 annual report",
+          "publisher": "PepsiCo",
+          "date": "2026-02-03",
+          "verified": true,
+          "finding": "2025 revenue $93.925bn versus $91.854bn; core EPS $8.14 versus $8.16; GAAP EPS $6.00 versus $6.95. Organic volume -2%, pricing +4%; repurchases $1bn and dividends $7.638bn. North America foods core operating profit -6%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/PEP/history/",
+          "title": "PEP adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-12-08\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-12-09\",\"exit\":\"2026-11-06\",\"days\":697,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"PEP\":{\"entry_adjusted_close\":148.81224060058594,\"exit_adjusted_close\":141.33999633789062,\"cumulative_return_pct\":-5.0212564722756365,\"annualized_return_pct\":-2.6635421477093524,\"source\":\"https://finance.yahoo.com/quote/PEP/history/\"},\"SPY\":{\"entry_adjusted_close\":591.0404052734375,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":24.40604254241654,\"annualized_return_pct\":12.12434692460529,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-29.427299014692174}"
+        }
+      ],
+      "next_check": "Stress growth and the terminal multiple; separate earnings from multiple changes."
+    },
+    {
+      "id": "151-C26",
+      "claim": "Gold complements bitcoin cycles.",
+      "kind": "explanation",
+      "source_blocks": [
+        124
+      ],
+      "family": "gold-bitcoin-diversification",
+      "asset_or_variable": "gold-bitcoin-diversification",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Recent alternating rallies do not establish stable future correlation. Diversification benefits depend on weights and behavior under stress.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Measure combined drawdown and correlation over fixed windows."
+    },
+    {
+      "id": "151-C27",
+      "claim": "Gold preferred to bonds/cash.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        125
+      ],
+      "family": "gold-over-long-bonds",
+      "asset_or_variable": "gold-over-long-bonds",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Long term is unspecified, and the author explicitly declines a three-to-six-month forecast. Do not invent one.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Compare specified duration and inflation-adjusted returns over clearly labeled sensitivity windows."
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Liquidity/SLOOS",
+      "source_blocks": [
+        11,
+        28
+      ],
+      "use": "Funding",
+      "image_inspected": false
+    },
+    {
+      "name": "Energy",
+      "source_blocks": [
+        37
+      ],
+      "use": "Welfare",
+      "image_inspected": false
+    },
+    {
+      "name": "HODL wave",
+      "source_blocks": [
+        53
+      ],
+      "use": "Supply",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        113
+      ],
+      "use": "Value",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Check real purchasing power separately from monetary share."
+  ],
+  "assessment": "The dollar-top suggestion and explicit twelve-month Bitcoin direction were wrong. QT timing was right. PepsiCo cash returns continued, but volumes and earnings challenged the growth assumption. The Egypt framework usefully distinguishes monetary erosion, while energy use and money supply are incomplete proxies for household welfare.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

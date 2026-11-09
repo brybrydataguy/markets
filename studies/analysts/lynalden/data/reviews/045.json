@@ -1,0 +1,934 @@
+{
+  "article_id": "045",
+  "title": "US Bancorp (USB) Deep Dive Analysis",
+  "date": "2021-01-17",
+  "source_url": "https://www.lynalden.com/premium-2021-1-17/",
+  "read_complete": true,
+  "summary": "Tactical caution, inflation and US Bancorp.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "Hospitalizations have peaked",
+      "kind": "forecast",
+      "source_blocks": [
+        7
+      ],
+      "family": "covid-winter-peak",
+      "asset_or_variable": "US COVID hospitalizations",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The January 6 peak preceded publication and the winter wave subsequently receded. This supports the US hospital assessment, not a claim that future waves were impossible.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://covidtracking.com/data/national/hospitalization/",
+          "title": "National hospitalizations",
+          "publisher": "COVID Tracking Project",
+          "date": null,
+          "verified": true,
+          "finding": "Archived US COVID hospitalization series reached 132474 on January 6, 2021, after further increases beyond November 2020. Reporting definitions vary by state."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C01"
+    },
+    {
+      "claim": "Most countries show case peaks",
+      "kind": "empirical",
+      "source_blocks": [
+        9
+      ],
+      "family": "covid-global-january-peak",
+      "asset_or_variable": "Global cases",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Most countries is a broad denominator-sensitive claim. US hospitalization evidence cannot establish peaks across Europe, Japan and emerging markets.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconstruct country case trends using publication-era reporting dates and an explicit country denominator.",
+      "id": "045-C02"
+    },
+    {
+      "claim": "Reopening combines lost and deferred demand",
+      "kind": "explanation",
+      "source_blocks": [
+        11,
+        12,
+        13
+      ],
+      "family": "reopening-demand",
+      "asset_or_variable": "Services consumption",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The distinction is economically sensible, but without a quantity or timeframe almost any rebound can fit. Dining frequency, travel and cancelled events require different counterfactual baselines.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "045-C03"
+    },
+    {
+      "claim": "Inflation increases by spring",
+      "kind": "forecast",
+      "source_blocks": [
+        20,
+        23
+      ],
+      "family": "inflation-2021-rise",
+      "asset_or_variable": "US CPI",
+      "horizon": "next two quarters",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Both headline and core inflation were substantially higher by May 2021, supporting the directional warning. This does not prove the proprietary model or money-supply-only mechanism.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: next two quarters",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_06102021.htm",
+          "title": "May 2021 CPI",
+          "publisher": "BLS",
+          "date": "2021-06-10",
+          "verified": true,
+          "finding": "May headline CPI rose 5.0% year over year; core CPI rose 3.8%. Both exceeded the quoted 2.5-3% range."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C04"
+    },
+    {
+      "claim": "Quoted inflation range undershoots",
+      "kind": "forecast",
+      "source_blocks": [
+        22
+      ],
+      "family": "gundlach-inflation-may-2021",
+      "asset_or_variable": "US CPI",
+      "horizon": "May 2021",
+      "conditions": null,
+      "modality": "cited model",
+      "verdict": "wrong",
+      "reason": "The explicitly attributed Double Line range was 2.5-3% around May. Headline reached 5.0% and core 3.8%, so the quantitative range missed despite the correct direction. It should be tagged as a cited external model, not an original precise Alden forecast.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: May 2021",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_06102021.htm",
+          "title": "May 2021 CPI",
+          "publisher": "BLS",
+          "date": "2021-06-10",
+          "verified": true,
+          "finding": "May headline CPI rose 5.0% year over year; core CPI rose 3.8%. Both exceeded the quoted 2.5-3% range."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C05"
+    },
+    {
+      "claim": "Jobs lag broader recovery",
+      "kind": "empirical",
+      "source_blocks": [
+        25
+      ],
+      "family": "uneven-pandemic-recovery",
+      "asset_or_variable": "US activity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "National output rebounded before payrolls fully recovered in July 2022. That supports the labor lag, but the full relative ordering of retail, capital and construction needs the heatmap inputs rather than its uninspected colors.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/index.php/news/2021/gross-domestic-product-fourth-quarter-and-year-2020-second-estimate",
+          "title": "2020 Q4 GDP second estimate",
+          "publisher": "BEA",
+          "date": "2021-02-25",
+          "verified": true,
+          "finding": "Contemporary estimate: Q3 2020 real GDP +33.4% annualized, Q4 +4.1%. There was no renewed quarterly contraction in the second half of 2020."
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/empsit_08052022.htm",
+          "title": "July 2022 Employment Situation release",
+          "publisher": "Bureau of Labor Statistics",
+          "date": "2022-08-05",
+          "verified": true,
+          "finding": "The release reported payroll employment and unemployment rate had returned to February 2020 levels in July 2022. This is a publication-vintage recovery date, not a claim about subsequently revised payroll history."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C06"
+    },
+    {
+      "claim": "Dollar steadies or rises in Q1",
+      "kind": "forecast",
+      "source_blocks": [
+        50,
+        61,
+        180,
+        181
+      ],
+      "family": "dollar-q1-2021-bounce",
+      "asset_or_variable": "US dollar",
+      "horizon": "Q1 2021",
+      "conditions": null,
+      "modality": "neutral to bullish",
+      "verdict": "right",
+      "reason": "The broad dollar index rose 2.13% from January 19 to March 31. This verifies the disclosed quarter direction with a broader currency basket than DXY. It does not establish the issuance mechanism.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: Q1 2021",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+          "title": "Nominal broad US dollar index",
+          "publisher": "Federal Reserve via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "January 19, 2021 111.4527; March 31 113.8234, up 2.13%. Broad trade-weighted index is not DXY."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C07"
+    },
+    {
+      "claim": "Risk assets face near-term downside",
+      "kind": "forecast",
+      "source_blocks": [
+        59,
+        61,
+        181
+      ],
+      "family": "risk-off-q1-2021",
+      "asset_or_variable": "Equities",
+      "horizon": "next couple months; Q1 2021",
+      "conditions": null,
+      "modality": "neutral to bearish",
+      "verdict": "mixed",
+      "reason": "There were fluctuations, but the S&P 500 gained 4.58% through quarter-end and rose further by June. The broad risk-off emphasis did not translate into a negative quarter; an undefined turbulence warning is weaker than a market-decline forecast.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: next couple months; Q1 2021",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/SP500",
+          "title": "S&P 500 closing index",
+          "publisher": "S&P Dow Jones Indices via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "January 19, 2021 3798.91; March 31 3972.89, up 4.58%, excluding dividends. June 30 4297.50 and December 31 4766.18."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C08"
+    },
+    {
+      "claim": "Treasury issuance drains liquidity",
+      "kind": "explanation",
+      "source_blocks": [
+        51,
+        52,
+        53
+      ],
+      "family": "treasury-issuance-liquidity",
+      "asset_or_variable": "Dollar liquidity",
+      "horizon": null,
+      "conditions": "Depends on buyer composition",
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Nonbank purchases can shift deposits into the TGA temporarily, but government spending reverses that drain and bank purchases differ. The actual TGA decline during early 2021 limits a simple gross-issuance tightening inference.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/WTREGEN",
+          "title": "Treasury general account weekly average",
+          "publisher": "Federal Reserve via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "TGA declined from $1,669,327 million on January 6, 2021 to $1,429,549 million on March 3. Weekly average series; not a transaction-by-transaction causal attribution."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C09"
+    },
+    {
+      "claim": "Fed must increase Treasury buying",
+      "kind": "forecast",
+      "source_blocks": [
+        61,
+        75
+      ],
+      "family": "qe-acceleration-2021",
+      "asset_or_variable": "Fed purchases",
+      "horizon": "2021 scenario; exact date unspecified",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The proposed near-term policy accommodation did not occur: the Fed kept its established pace, then tapered and ended purchases. An unlimited at-some-point reading would be unfalsifiable; the 2021 causal scenario failed.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2021 scenario; exact date unspecified",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-federal-reserves-responses-to-the-post-covid-period-of-high-inflation-20240214.html",
+          "title": "Post-COVID inflation policy response",
+          "publisher": "Federal Reserve",
+          "date": "2024-02-14",
+          "verified": true,
+          "finding": "Fed began tapering purchases in November 2021, ended purchases in March 2022 and then raised policy rates; subsequent balance-sheet runoff replaced expansion. This differs from formal yield caps."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C10"
+    },
+    {
+      "claim": "Long-run dollar weakness remains",
+      "kind": "forecast",
+      "source_blocks": [
+        61
+      ],
+      "family": "dollar-structural-bear",
+      "asset_or_variable": "US dollar",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No endpoint or magnitude is supplied. The quarterly bullish call is separately testable; an open-ended structural bearish view cannot be rescued or rejected by an arbitrary terminal date.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "045-C11"
+    },
+    {
+      "claim": "Gold inversely tracks real yields",
+      "kind": "explanation",
+      "source_blocks": [
+        66,
+        67
+      ],
+      "family": "gold-real-yields",
+      "asset_or_variable": "Gold",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A useful conditional relationship is not a stable pricing identity. To establish biggest correlation requires a stated sample, frequency and competing variables; central-bank demand and currency effects can alter it.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "045-C12"
+    },
+    {
+      "claim": "Real yields break previous lows",
+      "kind": "forecast",
+      "source_blocks": [
+        70
+      ],
+      "family": "real-yields-new-lows",
+      "asset_or_variable": "Ten-year TIPS yield",
+      "horizon": "years ahead",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The ten-year real yield reached -1.19% in August 2021, below the explicit -1.08% threshold. No yield-curve-control policy was required, so the outcome does not validate that particular mechanism.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: years ahead",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DFII10",
+          "title": "Ten-year real Treasury yield",
+          "publisher": "Federal Reserve via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Ten-year TIPS yield reached -1.19% on August 3, 2021, below the cited -1.08% threshold. January 19 -1.00%; March 31 -0.63%."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C13"
+    },
+    {
+      "claim": "M2 growth supports gold gains",
+      "kind": "forecast",
+      "source_blocks": [
+        71,
+        75
+      ],
+      "family": "gold-m2-long-run",
+      "asset_or_variable": "Gold",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A multi-year view has no endpoint or promised magnitude. Normalizing both series to 1973 does not establish cointegration or fair value, and per-capita money ignores changing gold supply and demand.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "045-C14"
+    },
+    {
+      "claim": "Bitcoin resumes gains over quarters",
+      "kind": "forecast",
+      "source_blocks": [
+        83,
+        84,
+        87,
+        90,
+        98
+      ],
+      "family": "bitcoin-post-halving-2020",
+      "asset_or_variable": "BTC",
+      "horizon": "quarters ahead",
+      "conditions": null,
+      "modality": "base case",
+      "verdict": "mixed",
+      "reason": "Q1 and the year-end level exceeded the publication baseline, but Q2 ended below it after a severe correction. The broad bullish direction worked, while the sequence and mid-cycle indicators did not prevent large timing risk.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: quarters ahead",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Bitcoin daily prices",
+          "publisher": "Coinbase via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "January 19, 2021 $35,673.03; March 31 $58,837.71; June 30 $34,995.83; September 30 $43,834.03; December 31 $46,244.63. Quarter endpoints vary materially."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C15"
+    },
+    {
+      "claim": "Low GBTC premium signals entry",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        93
+      ],
+      "family": "gbtc-premium-entry",
+      "asset_or_variable": "GBTC",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "A lower positive premium reduced overpayment, but it was not a floor: GBTC moved to a substantial discount during 2021. Historical low premiums alone did not establish a safe entry for the wrapper.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1588489/000119312522053501/d289251d10k.htm",
+          "title": "2021 Form 10-K",
+          "publisher": "Grayscale / SEC",
+          "date": "2022-02-25",
+          "verified": true,
+          "finding": "At December 31, 2021 GBTC traded at a 20% discount to digital asset holdings per share, or 22% on the old index basis. Lack of redemptions permitted large premiums and discounts; sponsor fees reduced Bitcoin per share."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C16"
+    },
+    {
+      "claim": "Grayscale locks available Bitcoin",
+      "kind": "explanation",
+      "source_blocks": [
+        95,
+        96
+      ],
+      "family": "grayscale-locked-supply",
+      "asset_or_variable": "BTC",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The closed trust structure held coins without ongoing redemption, supporting restricted underlying supply. Capital inflows also included arbitrage motives, so they do not directly reveal unhedged institutional conviction.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1588489/000119312522053501/d289251d10k.htm",
+          "title": "2021 Form 10-K",
+          "publisher": "Grayscale / SEC",
+          "date": "2022-02-25",
+          "verified": true,
+          "finding": "At December 31, 2021 GBTC traded at a 20% discount to digital asset holdings per share, or 22% on the old index basis. Lack of redemptions permitted large premiums and discounts; sponsor fees reduced Bitcoin per share."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C17"
+    },
+    {
+      "claim": "Breakout reduces Bitcoin risk",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        100
+      ],
+      "family": "bitcoin-breakout-risk",
+      "asset_or_variable": "BTC",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A $42,000 breakout defines an entry signal but not the risk measure, stop or holding period. Higher price confirmation can coexist with larger eventual drawdown; reduced chart resistance is not proven lower investment risk.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "045-C18"
+    },
+    {
+      "claim": "Tesla short exits above 885",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        122
+      ],
+      "family": "tesla-inclusion-short",
+      "asset_or_variable": "TSLA",
+      "horizon": "tactical stop at $885",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The January 25 high exceeded $885 on the contemporary share basis, invalidating the tactical short. Exact fills and any earlier voluntary cover are unverified, so no realized loss is asserted.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: tactical stop at $885",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TSLA/history/",
+          "title": "Tesla historical OHLC",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "January 25, 2021 high was $300.1333 on the post-2022 split basis, equivalent to $900.40 then, first high above the $885 stop after January 17. Historical prices adjusted for the later 3:1 split."
+        },
+        {
+          "url": "https://ir.tesla.com/press-release/tesla-announces-three-one-stock-split?source=syndication",
+          "title": "Three-for-one split",
+          "publisher": "Tesla",
+          "date": "2022-08-05",
+          "verified": true,
+          "finding": "Tesla declared 3:1 split, trading adjusted August 25, 2022. Therefore a 2020$500 threshold corresponds to $166.6667 in vendor back-adjusted historical OHLC."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C19"
+    },
+    {
+      "claim": "Curve steepens into 2021",
+      "kind": "forecast",
+      "source_blocks": [
+        125,
+        131,
+        133,
+        136
+      ],
+      "family": "yield-curve-steepening-2021",
+      "asset_or_variable": "Treasury curve",
+      "horizon": "well into 2021",
+      "conditions": "Fiscal stimulus and no Fed cap",
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The ten-year/three-month spread rose from 1.01 points January 19 to 1.71 by March 31 and remained above the initial level at year-end. The stated fiscal condition occurred.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: well into 2021",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/T10Y3M",
+          "title": "Ten-year minus three-month Treasury spread",
+          "publisher": "Federal Reserve via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Spread rose from 1.01 percentage points January 19, 2021 to 1.71 March 31; June 30 1.40 and December 31 1.46."
+        },
+        {
+          "url": "https://home.treasury.gov/policy-issues/coronavirus/about-the-american-rescue-plan",
+          "title": "About the American Rescue Plan",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "ARP passed Congress March 10, 2021 and was signed March 11. Treasury managed over $1 trillion in its programs and tax credits, confirming further large fiscal support after 2020."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C20"
+    },
+    {
+      "claim": "Fed eventually caps curve",
+      "kind": "forecast",
+      "source_blocks": [
+        138,
+        139
+      ],
+      "family": "yield-curve-control-long-run",
+      "asset_or_variable": "Fed policy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Eventually supplies no deadline. Actual 2022-23 tightening contradicts an imminent cap, but cannot settle an unlimited future scenario. A positive capped curve is also a policy choice, not an accounting necessity.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "045-C21"
+    },
+    {
+      "claim": "Steeper curve improves bank profits",
+      "kind": "explanation",
+      "source_blocks": [
+        132,
+        171,
+        173
+      ],
+      "family": "bank-yield-curve-profit",
+      "asset_or_variable": "Banks",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "A favorable asset-liability repricing gap can improve income. SVB demonstrates the missing balance-sheet channel: higher rates can also destroy bond value and trigger deposit flight. Slope alone is insufficient.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2023-April-SVB-Key-Takeaways.htm",
+          "title": "Review of Silicon Valley Bank supervision: key takeaways",
+          "publisher": "Federal Reserve",
+          "date": "2023-04-28",
+          "verified": true,
+          "finding": "SVB failed to manage interest-rate and liquidity risk, focused on short-run profits and protection against falling rates, and removed hedges. The failure demonstrates that rate risk can rapidly become a solvency/liquidity problem."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C22"
+    },
+    {
+      "claim": "Cash assets establish bank capital",
+      "kind": "explanation",
+      "source_blocks": [
+        149
+      ],
+      "family": "bank-liquidity-capital-confusion",
+      "asset_or_variable": "US bank resilience",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The Fed stress tests supported aggregate resilience, but cash and Treasuries are assets rather than equity capital. Liquid assets and loss-absorbing capital must be evaluated separately; low credit risk does not remove duration risk.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2020-december-dodd-frank-act-stress-test-executive-summary.htm",
+          "title": "December 2020 bank stress tests",
+          "publisher": "Federal Reserve",
+          "date": "2020-12-18",
+          "verified": true,
+          "finding": "Aggregate CET1 was 12.2% in Q2, falling to modeled minima 9.6% and 9.7% under two adverse scenarios. Increased loss reserves reduced subsequent required provisions. This measures capital separately from holdings of liquid assets."
+        },
+        {
+          "url": "https://www.bankofengland.co.uk/explainers/how-is-money-created",
+          "title": "How money is created",
+          "publisher": "Bank of England",
+          "date": "2019-10-01",
+          "verified": true,
+          "finding": "Reserves are electronic central-bank settlement money. Capital is a separate resource that absorbs loan-default losses; both liquidity and capital constraints apply to banks."
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2023-April-SVB-Key-Takeaways.htm",
+          "title": "Review of Silicon Valley Bank supervision: key takeaways",
+          "publisher": "Federal Reserve",
+          "date": "2023-04-28",
+          "verified": true,
+          "finding": "SVB failed to manage interest-rate and liquidity risk, focused on short-run profits and protection against falling rates, and removed hedges. The failure demonstrates that rate risk can rapidly become a solvency/liquidity problem."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C23"
+    },
+    {
+      "claim": "USB deposits support spread income",
+      "kind": "explanation",
+      "source_blocks": [
+        150
+      ],
+      "family": "bank-deposit-monetization",
+      "asset_or_variable": "USB",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Additional deposits provide funding, but profitable deployment depends on loan demand, asset yields, deposit cost and capital. Growth in deposit balances alone does not guarantee higher net interest income.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "045-C24"
+    },
+    {
+      "claim": "USB offers attractive risk-adjusted value",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        143,
+        145,
+        157,
+        162,
+        164
+      ],
+      "family": "usb-quality-value",
+      "asset_or_variable": "USB",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "At an evaluator-defined five-year window, the USD adjusted-close proxy gained 40.21% versus 95.68% for SPY. Positive return supports some value realization, but neither market superiority nor an undefined risk-adjusted ranking follows.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/USB/history/",
+          "title": "USB and SPY adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "January 19, 2021 to January 16, 2026: USB adjusted-close proxy +40.21%, 7.01% annualized; SPY +95.68%. USD vendor split/dividend adjustment, no fees/taxes or actual portfolio trades; evaluator-defined five years."
+        }
+      ],
+      "next_check": "Specify risk metric and assess drawdowns, capital changes and acquisition effects.",
+      "id": "045-C25"
+    },
+    {
+      "claim": "Loan reserves can return to earnings",
+      "kind": "forecast",
+      "source_blocks": [
+        168,
+        169
+      ],
+      "family": "bank-provision-release",
+      "asset_or_variable": "USB earnings",
+      "horizon": "2021",
+      "conditions": "Losses below reserved expectations",
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The expected release back into earnings occurred at U.S. Bancorp in 2021. This is an accounting benefit from revised expected losses, not newly received cash. Continued fiscal support and reopening helped credit outcomes, so the result should not be read as proving reserves would have been sufficient without intervention.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "Original horizon retained: 2021",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/36104/000119312522011895/d262424dex991.htm",
+          "title": "U.S. Bancorp fourth-quarter 2021 results",
+          "publisher": "U.S. Bancorp / SEC",
+          "date": "2022-01-19",
+          "verified": true,
+          "finding": "Full-year 2021 provision was a $1.173 billion benefit, versus $3.806 billion expense in 2020. Allowances fell from $8.010 billion to $6.155 billion; the issuer cites improved credit and economic reopening."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C26"
+    },
+    {
+      "claim": "Rate risk erodes banks gradually",
+      "kind": "explanation",
+      "source_blocks": [
+        171
+      ],
+      "family": "bank-duration-risk",
+      "asset_or_variable": "Banks",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The categorical contrast misses how interest-rate risk becomes sudden liquidity and capital stress. The Fed review of SVB explicitly identifies rising-rate exposure and weak liquidity management in its rapid failure. This is a critique of the general mechanism, not a prediction that USB would fail.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2023-April-SVB-Key-Takeaways.htm",
+          "title": "Review of Silicon Valley Bank supervision: key takeaways",
+          "publisher": "Federal Reserve",
+          "date": "2023-04-28",
+          "verified": true,
+          "finding": "SVB failed to manage interest-rate and liquidity risk, focused on short-run profits and protection against falling rates, and removed hedges. The failure demonstrates that rate risk can rapidly become a solvency/liquidity problem."
+        }
+      ],
+      "next_check": null,
+      "id": "045-C27"
+    },
+    {
+      "claim": "Gold can hedge bank exposure",
+      "kind": "explanation",
+      "source_blocks": [
+        173,
+        174
+      ],
+      "family": "gold-bank-barbell",
+      "asset_or_variable": "Gold and bank shares",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Nominal curve slope and real yield are different variables. Both assets can fall together when real yields rise and bank funding worsens. No weights, window or covariance target define hedge effectiveness.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "045-C28"
+    },
+    {
+      "claim": "Bitcoin hedges banking disruption",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        176,
+        177
+      ],
+      "family": "banks-bitcoin-barbell",
+      "asset_or_variable": "BTC and banks",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Fintech adoption need not accrue value to Bitcoin holders. A useful hedge requires exposure mapping and a defined loss scenario; holding two themes does not establish negative covariance.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "045-C29"
+    },
+    {
+      "claim": "Speculation signals local excess",
+      "kind": "forecast",
+      "source_blocks": [
+        182,
+        184,
+        186,
+        187
+      ],
+      "family": "speculative-equity-excess",
+      "asset_or_variable": "Equities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The warning narrows to some segments and lacks a deadline or decline threshold. Option activity and unprofitable-stock gains can identify exuberance without providing a falsifiable broad-market timing signal.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "045-C30"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Business heatmap",
+      "source_blocks": [
+        26,
+        31
+      ],
+      "use": "Cycle breadth",
+      "image_inspected": false
+    },
+    {
+      "name": "Issuance and yields",
+      "source_blocks": [
+        47,
+        67
+      ],
+      "use": "Liquidity",
+      "image_inspected": false
+    },
+    {
+      "name": "HODL and MVRV",
+      "source_blocks": [
+        84,
+        90
+      ],
+      "use": "Bitcoin cycle",
+      "image_inspected": false
+    },
+    {
+      "name": "Bank valuation",
+      "source_blocks": [
+        143,
+        162
+      ],
+      "use": "Quality and price",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate nominal slope, real yield and duration."
+  ],
+  "assessment": "The strongest calls had clear variables: rising inflation, a Q1 dollar rebound and lower real-yield lows. General defensive timing was less successful. Bank analysis needs a sharper distinction between liquidity, capital and duration risk.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "Public market series are available, but not every investment claim has a defined horizon or reconciled corporate-action-adjusted return. Unverified outcomes remain unscored; macro data use latest available vintages."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "1fb5d2cc894fd2018410826933619662b512f5c60bcc3d75e3ae74f18622b029"
+}

@@ -1,0 +1,861 @@
+{
+  "article_id": "008",
+  "title": "Amerisource Bergen Corporation Deep-Dive Analysis",
+  "date": "2020-02-02",
+  "source_url": "https://www.lynalden.com/premium-2020-2-2/",
+  "read_complete": true,
+  "summary": "Defensive positioning and drug-distribution value.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "Slow growth and lagging retail signals warrant caution",
+      "kind": "empirical",
+      "source_blocks": [
+        5,
+        23,
+        34,
+        38
+      ],
+      "family": "2019-slowdown-breadth",
+      "asset_or_variable": "US economy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Contemporaneous BEA data showed slower annual growth and weaker consumption momentum, but claims did not establish a durable pre-pandemic uptrend. Survey-leading claims need separate vintage testing.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/news/2020/gross-domestic-product-fourth-quarter-and-year-2019-advance-estimate",
+          "title": "Fourth quarter and year 2019 GDP, advance estimate",
+          "publisher": "BEA",
+          "date": "2020-01-30",
+          "verified": true,
+          "finding": "Q4 real GDP grew 2.1% annualized, unchanged from Q3; imports decreased but exports increased. Consumption and business investment slowed; 2019 growth was 2.3% versus 2.9% in 2018."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/ICSA",
+          "title": "Initial unemployment claims",
+          "publisher": "US Department of Labor via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Latest-vintage weekly claims fell from 247,000 on December 7, 2019 to 202,000 on February 8, 2020 before the pandemic surge. Revised observations do not reproduce exactly the publication-era chart."
+        }
+      ],
+      "next_check": null,
+      "id": "008-C01"
+    },
+    {
+      "claim": "Recession can reduce inflation pressure",
+      "kind": "explanation",
+      "source_blocks": [
+        23
+      ],
+      "family": "recession-disinflation",
+      "asset_or_variable": "US inflation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The demand mechanism is conditional and can be offset by supply constraints or policy. The article supplies no quantitative inflation forecast here.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "008-C02"
+    },
+    {
+      "claim": "Both imports and exports declined in Q4",
+      "kind": "empirical",
+      "source_blocks": [
+        26
+      ],
+      "family": "q42019-trade-components",
+      "asset_or_variable": "US GDP",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The January 30 advance release reported declining imports but increasing exports. This contemporaneous factual error is distinct from the correct observation that consumption and investment slowed.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/news/2020/gross-domestic-product-fourth-quarter-and-year-2019-advance-estimate",
+          "title": "Fourth quarter and year 2019 GDP, advance estimate",
+          "publisher": "BEA",
+          "date": "2020-01-30",
+          "verified": true,
+          "finding": "Q4 real GDP grew 2.1% annualized, unchanged from Q3; imports decreased but exports increased. Consumption and business investment slowed; 2019 growth was 2.3% versus 2.9% in 2018."
+        }
+      ],
+      "next_check": null,
+      "id": "008-C03"
+    },
+    {
+      "claim": "Falling imports mechanically support measured GDP",
+      "kind": "explanation",
+      "source_blocks": [
+        26
+      ],
+      "family": "gdp-import-accounting",
+      "asset_or_variable": "US GDP accounting",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Imports are subtracted to remove foreign production already included in spending. A fall can add to measured growth without stronger domestic demand; BEA explicitly reports imports as a subtraction.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "National-accounting identity, not evidence imports are economically harmful.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/news/2020/gross-domestic-product-fourth-quarter-and-year-2019-advance-estimate",
+          "title": "Fourth quarter and year 2019 GDP, advance estimate",
+          "publisher": "BEA",
+          "date": "2020-01-30",
+          "verified": true,
+          "finding": "Q4 real GDP grew 2.1% annualized, unchanged from Q3; imports decreased but exports increased. Consumption and business investment slowed; 2019 growth was 2.3% versus 2.9% in 2018."
+        }
+      ],
+      "next_check": null,
+      "id": "008-C04"
+    },
+    {
+      "claim": "Curve inversion increases pressure for Fed cuts",
+      "kind": "explanation",
+      "source_blocks": [
+        28,
+        29
+      ],
+      "family": "curve-fed-easing",
+      "asset_or_variable": "US monetary policy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The Fed did ease dramatically in March, but the pandemic and market dysfunction supplied a new trigger. Market-implied cut probabilities reported in the source are not the author's independent point forecast.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323a.htm",
+          "title": "Federal Reserve announces extensive new measures",
+          "publisher": "Federal Reserve",
+          "date": "2020-03-23",
+          "verified": true,
+          "finding": "The Fed announced Treasury and agency MBS purchases in amounts needed to support market functioning amid the coronavirus emergency."
+        }
+      ],
+      "next_check": null,
+      "id": "008-C05"
+    },
+    {
+      "claim": "Elevated equity risk remains relevant",
+      "kind": "forecast",
+      "source_blocks": [
+        43,
+        45
+      ],
+      "family": "2020-equity-correction",
+      "asset_or_variable": "US equities",
+      "horizon": "near term",
+      "conditions": null,
+      "modality": "elevated risk",
+      "verdict": "right",
+      "reason": "The market made a new high on February 19 before its severe decline. The risk warning was useful, but the January peak was not the final peak and immediate timing should not be overstated.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: near term",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/data/SP500",
+          "title": "S&P 500 daily closing index",
+          "publisher": "S&P Dow Jones Indices via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Closing prices: January 24, 2020 3295.47; January 27 3243.63; February 19 3386.15; February 25 3128.21; February 28 2954.22; March 2 3090.23; March 23 2237.40. Price index excludes dividends."
+        }
+      ],
+      "next_check": null,
+      "id": "008-C06"
+    },
+    {
+      "claim": "Presymptomatic transmission makes containment harder",
+      "kind": "explanation",
+      "source_blocks": [
+        53
+      ],
+      "family": "covid-presymptomatic-spread",
+      "asset_or_variable": "COVID-19",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "CDC's later cluster study supports the particular transmission mechanism and associated containment difficulty. It does not itself validate the article's comparative severity versus influenza.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.cdc.gov/mmwr/volumes/69/wr/mm6914e1.htm",
+          "title": "Presymptomatic transmission in Singapore",
+          "publisher": "CDC MMWR",
+          "date": "2020-04-01",
+          "verified": true,
+          "finding": "Investigation identified seven clusters consistent with presymptomatic transmission; in four clusters exposure occurred one to three days before source-patient symptoms. This created containment difficulties."
+        }
+      ],
+      "next_check": null,
+      "id": "008-C07"
+    },
+    {
+      "claim": "COVID severity could exceed seasonal influenza",
+      "kind": "forecast",
+      "source_blocks": [
+        53
+      ],
+      "family": "covid-severity",
+      "asset_or_variable": "COVID-19",
+      "horizon": null,
+      "conditions": null,
+      "modality": "risk",
+      "verdict": "evidence_needed",
+      "reason": "Severity comparisons require age-adjusted infection fatality or hospitalization measures and comparable denominators. The transmission study does not establish those rates.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use primary cohort or population estimates with comparable age and ascertainment corrections.",
+      "id": "008-C08"
+    },
+    {
+      "claim": "Shale bankruptcies likely increase this year",
+      "kind": "forecast",
+      "source_blocks": [
+        56
+      ],
+      "family": "shale-financing-stress",
+      "asset_or_variable": "US shale credit",
+      "horizon": "2020",
+      "conditions": null,
+      "modality": "likely",
+      "verdict": "right",
+      "reason": "The IMF reported energy bankruptcies at a decade high and major shale refinancing stress in 2020. The direction and year fit, while the oil-demand shock amplified the preexisting fragility.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: 2020",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/system/files/206/1USAEA2020001.pdf",
+          "title": "United States 2020 Article IV staff report",
+          "publisher": "IMF",
+          "date": "2020-07-17",
+          "verified": true,
+          "finding": "The report described energy bankruptcies at a decade high, weak shale economics and refinancing stress following the oil-price shock. This verifies distress, not a counterfactual without the pandemic."
+        }
+      ],
+      "next_check": null,
+      "id": "008-C09"
+    },
+    {
+      "claim": "Copper could offer a later entry",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        59
+      ],
+      "family": "copper-entry",
+      "asset_or_variable": "Copper",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No threshold or deadline is given. This is watch-list positioning, not a directional forecast that can be scored from any later price.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "008-C10"
+    },
+    {
+      "claim": "China shutdown hurts first-quarter global activity",
+      "kind": "forecast",
+      "source_blocks": [
+        63
+      ],
+      "family": "covid-global-economic-shock",
+      "asset_or_variable": "Global growth",
+      "horizon": "Q1 2020",
+      "conditions": "Even if subsequently contained",
+      "modality": "expected",
+      "verdict": "mixed",
+      "reason": "US Q1 contracted and travel exports weakened. The full pandemic spread means the counterfactual effect of a contained China-only event is not observed; no separate global Q1 estimate has been established here.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: Q1 2020",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/news/2020/gross-domestic-product-1st-quarter-2020-advance-estimate",
+          "title": "First-quarter 2020 GDP advance estimate",
+          "publisher": "BEA",
+          "date": "2020-04-29",
+          "verified": true,
+          "finding": "Initial Q1 real GDP estimate was -4.8% annualized. BEA linked the decline partly to pandemic responses, with lower services and travel exports, while warning the complete COVID effect could not be isolated."
+        }
+      ],
+      "next_check": "Verify Chinese Q1 output and IMF/OECD global quarterly indicators; isolate direct China exposure where feasible.",
+      "id": "008-C11"
+    },
+    {
+      "claim": "Worldwide spread creates much worse downside",
+      "kind": "forecast",
+      "source_blocks": [
+        64
+      ],
+      "family": "covid-severe-tail",
+      "asset_or_variable": "Global economy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "tail risk",
+      "verdict": "right",
+      "reason": "The adverse branch occurred and economic activity suffered. This validates identification of the risk, not a numerical probability that was never supplied.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/news/2020/gross-domestic-product-1st-quarter-2020-advance-estimate",
+          "title": "First-quarter 2020 GDP advance estimate",
+          "publisher": "BEA",
+          "date": "2020-04-29",
+          "verified": true,
+          "finding": "Initial Q1 real GDP estimate was -4.8% annualized. BEA linked the decline partly to pandemic responses, with lower services and travel exports, while warning the complete COVID effect could not be isolated."
+        },
+        {
+          "url": "https://www.cdc.gov/mmwr/volumes/69/wr/mm6914e1.htm",
+          "title": "Presymptomatic transmission in Singapore",
+          "publisher": "CDC MMWR",
+          "date": "2020-04-01",
+          "verified": true,
+          "finding": "Investigation identified seven clusters consistent with presymptomatic transmission; in four clusters exposure occurred one to three days before source-patient symptoms. This created containment difficulties."
+        }
+      ],
+      "next_check": null,
+      "id": "008-C12"
+    },
+    {
+      "claim": "Carnival remains suitable for gradual buying",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        71,
+        72
+      ],
+      "family": "carnival-quality-value",
+      "asset_or_variable": "CCL",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Despite recognizing greater risk, the retained thesis met suspension, large losses, dilution and dividend restrictions in 2020. This is strong adverse operating evidence; no final long-run shareholder return is inferred.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1125259/000081509721000027/ccl-20201130.htm",
+          "title": "Fiscal 2020 Form 10-K",
+          "publisher": "Carnival / SEC",
+          "date": "2021-01-26",
+          "verified": true,
+          "finding": "FY 2020 net loss was $10.236 billion, versus $2.990 billion profit in 2019. Weighted average shares rose from 690 million to 775 million. Dividend stopped after first quarter; financing restricted future payments."
+        }
+      ],
+      "next_check": null,
+      "id": "008-C13"
+    },
+    {
+      "claim": "Low-cost producers have better survival prospects",
+      "kind": "explanation",
+      "source_blocks": [
+        77
+      ],
+      "family": "commodity-low-cost-survival",
+      "asset_or_variable": "Commodity producers",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The relative ranking needs defined peers and a stress test including leverage and access to finance. Low unit costs do not by themselves prevent bankruptcy.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "008-C14"
+    },
+    {
+      "claim": "Metals and Treasuries provide portfolio defense",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        78
+      ],
+      "family": "defensive-metals-bonds",
+      "asset_or_variable": "Gold silver Treasuries",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Over the disclosed January 2020 observation window, gold, silver and Treasury proxies gained while SPY was approximately flat. This supports the limited defensive observation as of publication. It is not a forecast that these instruments would all appreciate during every later liquidation, nor a reconstruction of actual portfolio weights.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD dated adjusted-close comparison",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "2019-12-31 to 2020-01-31: +4.50%. USD vendor-adjusted close with dividend/split adjustments, no fees or taxes; a public instrument proxy, not the actual portfolio."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SLV/history/",
+          "title": "SLV dated adjusted-close comparison",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "2019-12-31 to 2020-01-31: +0.84%. USD vendor-adjusted close with dividend/split adjustments, no fees or taxes; a public instrument proxy, not the actual portfolio."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SHY/history/",
+          "title": "SHY dated adjusted-close comparison",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "2019-12-31 to 2020-01-31: +0.58%. USD vendor-adjusted close with dividend/split adjustments, no fees or taxes; a public instrument proxy, not the actual portfolio."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/IEF/history/",
+          "title": "IEF dated adjusted-close comparison",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "2019-12-31 to 2020-01-31: +3.47%. USD vendor-adjusted close with dividend/split adjustments, no fees or taxes; a public instrument proxy, not the actual portfolio."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/TLT/history/",
+          "title": "TLT dated adjusted-close comparison",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "2019-12-31 to 2020-01-31: +7.69%. USD vendor-adjusted close with dividend/split adjustments, no fees or taxes; a public instrument proxy, not the actual portfolio."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "SPY dated adjusted-close comparison",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "2019-12-31 to 2020-01-31: -0.04%. USD vendor-adjusted close with dividend/split adjustments, no fees or taxes; a public instrument proxy, not the actual portfolio."
+        }
+      ],
+      "next_check": null,
+      "id": "008-C15",
+      "test_specification": {
+        "window_type": "retrospective calendar-month sensitivity",
+        "start": "2019-12-31",
+        "end": "2020-01-31"
+      }
+    },
+    {
+      "claim": "Silver combines industrial and monetary optionality",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        80,
+        84
+      ],
+      "family": "silver-monetary-industrial",
+      "asset_or_variable": "Silver",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Two demand channels can increase upside or create conflicting cyclicality. No target or endpoint makes the undated bullish view independently falsifiable.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "008-C16"
+    },
+    {
+      "claim": "High CAPE favors metals over stocks over a decade",
+      "kind": "forecast",
+      "source_blocks": [
+        82,
+        84
+      ],
+      "family": "metals-vs-high-cape-equities",
+      "asset_or_variable": "Precious metals versus equities",
+      "horizon": "next ten years (to 2030)",
+      "conditions": "High starting equity CAPE",
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The ten-year comparison ends in 2030. A valid test needs the specified metals basket, starting valuations, storage costs and dividend-reinvested stock benchmark, not cherry-picked interim peaks.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: next ten years (to 2030)",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Predefine metal weights and stock total-return benchmark, then evaluate at endpoint.",
+      "id": "008-C17"
+    },
+    {
+      "claim": "Mining shares are riskier than physical metals",
+      "kind": "explanation",
+      "source_blocks": [
+        88,
+        89
+      ],
+      "family": "miners-vs-bullion-risk",
+      "asset_or_variable": "Precious-metal exposure",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Physical metal has no corporate insolvency risk, but custody and price risks remain. Equity operating leverage often raises volatility; quantify that with a matched-period test instead of treating it as a forecast hit.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "008-C18"
+    },
+    {
+      "claim": "Amerisource Bergen offers defensive earnings growth",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        99,
+        103,
+        112
+      ],
+      "family": "amerisource-defensive-growth",
+      "asset_or_variable": "ABC / COR",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "2020 sales and adjusted EPS grew, supporting demand resilience. GAAP earnings were deeply negative because of opioid liabilities. Both measures matter, and neither establishes shareholder outperformance.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1140859/000114085920000046/exhibit991-q42020.htm",
+          "title": "Fiscal 2020 results",
+          "publisher": "Amerisource Bergen / SEC",
+          "date": "2020-11-05",
+          "verified": true,
+          "finding": "FY 2020 revenue grew 5.7% and adjusted EPS 11.4%; GAAP EPS was negative $16.65, including a $6.6 billion opioid litigation accrual."
+        }
+      ],
+      "next_check": null,
+      "id": "008-C19"
+    },
+    {
+      "claim": "Low valuation offers an earnings catch-up opportunity",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        103,
+        112,
+        121,
+        122
+      ],
+      "family": "amerisource-value",
+      "asset_or_variable": "ABC / COR",
+      "horizon": null,
+      "conditions": "Assumed earnings growth and P/E 15",
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The successor ticker COR for AmerisourceBergen returned 112.94% over three years and 248.48% over five, exceeding SPY at both checkpoints. This supports the selected equity opportunity, while no original model endpoint was established. It does not prove that a low multiple always forces price convergence or that legal liabilities were immaterial.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/COR/history/",
+          "title": "COR historical price sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "3-year comparison 2020-02-03 to 2023-02-02: COR +112.94% cumulative, 28.67% annualized; SPY +34.89% cumulative. 5-year comparison 2020-02-03 to 2025-01-31: COR +248.48% cumulative, 28.40% annualized; SPY +100.27% cumulative. First common close strictly after publication, last common close on/before anniversary. USD vendor-adjusted-close proxies include vendor dividend/split adjustments; no fees, taxes or actual subscriber trades. These are evaluator-defined sensitivities unless the claim explicitly names the horizon."
+        }
+      ],
+      "next_check": null,
+      "id": "008-C20",
+      "test_specification": {
+        "window_type": "evaluator-defined sensitivity unless explicitly matched to source horizon",
+        "windows_years": [
+          3,
+          5
+        ],
+        "returns": {
+          "COR": {
+            "3": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-02-02",
+              "requested_endpoint": "2023-02-02",
+              "entry": "2020-02-03",
+              "exit": "2023-02-02",
+              "days": 1095,
+              "endpoint_gap_days": 0,
+              "endpoint_covered": true,
+              "instruments": {
+                "COR": {
+                  "entry_adjusted_close": 71.9596176147461,
+                  "exit_adjusted_close": 153.2292022705078,
+                  "cumulative_return_pct": 112.93776613830673,
+                  "annualized_return_pct": 28.674505556043293,
+                  "source": "https://finance.yahoo.com/quote/COR/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 294.7098083496094,
+                  "exit_adjusted_close": 397.5311584472656,
+                  "cumulative_return_pct": 34.88901529048567,
+                  "annualized_return_pct": 10.498199904678485,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 78.04875084782105
+            },
+            "5": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-02-02",
+              "requested_endpoint": "2025-02-02",
+              "entry": "2020-02-03",
+              "exit": "2025-01-31",
+              "days": 1824,
+              "endpoint_gap_days": 2,
+              "endpoint_covered": true,
+              "instruments": {
+                "COR": {
+                  "entry_adjusted_close": 71.9596176147461,
+                  "exit_adjusted_close": 250.76730346679688,
+                  "cumulative_return_pct": 248.48337411872126,
+                  "annualized_return_pct": 28.401522883110243,
+                  "source": "https://finance.yahoo.com/quote/COR/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 294.7098083496094,
+                  "exit_adjusted_close": 590.2247314453125,
+                  "cumulative_return_pct": 100.27318898906094,
+                  "annualized_return_pct": 14.920888798854604,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 148.21018512966032
+            }
+          }
+        }
+      }
+    },
+    {
+      "claim": "Distributor margins limit policy savings available",
+      "kind": "explanation",
+      "source_blocks": [
+        132,
+        140
+      ],
+      "family": "drug-distributor-policy-resilience",
+      "asset_or_variable": "Drug distributors",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A small percentage margin does not mean all distribution costs are unavoidable or exempt from reform. Absolute profits, rebates, market power and contracting matter; no policy change is specified.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "008-C21"
+    },
+    {
+      "claim": "Concentrated distribution provides a durable moat",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        140
+      ],
+      "family": "drug-distributor-scale",
+      "asset_or_variable": "ABC / COR",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Operating revenue and adjusted earnings held up in 2020, consistent with a durable network. Concentration alone does not prove competitive protection, and legal costs overwhelmed GAAP profit.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1140859/000114085920000046/exhibit991-q42020.htm",
+          "title": "Fiscal 2020 results",
+          "publisher": "Amerisource Bergen / SEC",
+          "date": "2020-11-05",
+          "verified": true,
+          "finding": "FY 2020 revenue grew 5.7% and adjusted EPS 11.4%; GAAP EPS was negative $16.65, including a $6.6 billion opioid litigation accrual."
+        }
+      ],
+      "next_check": null,
+      "id": "008-C22"
+    },
+    {
+      "claim": "Opioid liabilities can reach tens of billions",
+      "kind": "forecast",
+      "source_blocks": [
+        146
+      ],
+      "family": "opioid-distributor-liability",
+      "asset_or_variable": "Drug-distributor litigation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "likely",
+      "verdict": "mixed",
+      "reason": "ABC alone accrued $6.6 billion in 2020, supporting material multi-company exposure. The total industry settlement amount and long-payment schedule still need the final agreement, so magnitude and duration are not fully graded.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1140859/000114085920000046/exhibit991-q42020.htm",
+          "title": "Fiscal 2020 results",
+          "publisher": "Amerisource Bergen / SEC",
+          "date": "2020-11-05",
+          "verified": true,
+          "finding": "FY 2020 revenue grew 5.7% and adjusted EPS 11.4%; GAAP EPS was negative $16.65, including a $6.6 billion opioid litigation accrual."
+        }
+      ],
+      "next_check": "Verify executed distributor settlement, participating firms, aggregate amount and payment schedule.",
+      "id": "008-C23"
+    },
+    {
+      "claim": "Settlement uncertainty can depress valuation",
+      "kind": "explanation",
+      "source_blocks": [
+        147
+      ],
+      "family": "litigation-valuation-discount",
+      "asset_or_variable": "ABC / COR",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "evidence_needed",
+      "reason": "The accrual proves material exposure, not how much of the multiple discount was caused by it. Need announcement returns and changes in expected liabilities.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1140859/000114085920000046/exhibit991-q42020.htm",
+          "title": "Fiscal 2020 results",
+          "publisher": "Amerisource Bergen / SEC",
+          "date": "2020-11-05",
+          "verified": true,
+          "finding": "FY 2020 revenue grew 5.7% and adjusted EPS 11.4%; GAAP EPS was negative $16.65, including a $6.6 billion opioid litigation accrual."
+        }
+      ],
+      "next_check": "Compare opioid announcement windows with peer-adjusted returns and valuation revisions.",
+      "id": "008-C24"
+    },
+    {
+      "claim": "Different risks improve portfolio diversification",
+      "kind": "explanation",
+      "source_blocks": [
+        148,
+        152
+      ],
+      "family": "risk-source-diversification",
+      "asset_or_variable": "Portfolio",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Distinct narratives do not ensure low correlation. A portfolio-level return covariance and tail-dependence test is needed, especially when liquidity shocks connect otherwise different businesses.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "008-C25"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Macro panel and yield curve",
+      "source_blocks": [
+        5,
+        28
+      ],
+      "use": "Cycle and rates",
+      "image_inspected": false
+    },
+    {
+      "name": "CAPE and silver ratios",
+      "source_blocks": [
+        80,
+        82
+      ],
+      "use": "Relative value",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs and cash-flow model",
+      "source_blocks": [
+        103,
+        121
+      ],
+      "use": "Business valuation",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate operating durability from legal liabilities."
+  ],
+  "assessment": "The report recognized pandemic risk and chose a business with resilient underlying demand. Its legal-risk discussion was essential because GAAP results diverged sharply from adjusted earnings. The trade-components statement is a concrete factual miss; Carnival remained a major vulnerable recommendation despite the increasingly clear shock.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "No complete adjusted total-return series or original-vintage macro database was available for this review. Unverified outcomes are explicitly unscored."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "cf8006df12b40c8c546528f5986681d6df66549787e1cb0b1127f888ecc529ae"
+}

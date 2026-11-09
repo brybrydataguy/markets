@@ -1,0 +1,1581 @@
+{
+  "article_id": "125",
+  "title": "Value Stocks Deep Dive Update",
+  "date": "2023-12-10",
+  "source_url": "https://www.lynalden.com/premium-2023-12-10/",
+  "read_complete": true,
+  "summary": "Value selection amid divergent regional cycles.",
+  "coverage_note": "Read all blocks 0-145 and 25 image labels. Coverage includes liquidity, yen carry risk, regional demand/production, PMI timing, Bitcoin horizon, Swan conflicts and forecasts, JNJ replacements, factor rotation and all seven named value theses. Published source may contain later edits; same-day Cigna announcement timing is unresolved.",
+  "claims": [
+    {
+      "id": "125-C01",
+      "claim": "RRP liquidity offset",
+      "kind": "explanation",
+      "source_blocks": [
+        8,
+        10
+      ],
+      "family": "rrp-qt-offset",
+      "asset_or_variable": "rrp-qt-offset",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The Wednesday proxy increased from $6.173 tn November 22 to $6.208 tn December 6. That supports a modest improvement, but issuer maturity, investor substitution and government spending jointly determine reserve effects.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "WALCL downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "December 6 2023 WALCL $7,737,385 m minus WTREGEN $682,509 m minus RRPONTSYD $846,498 m = $6,208,378 m. November 22 proxy $6,173,193 m. Latest-vintage aligned Wednesday observations. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C02",
+      "claim": "Global base effects",
+      "kind": "empirical",
+      "source_blocks": [
+        12,
+        14,
+        15,
+        17
+      ],
+      "family": "global-m2-base-effects",
+      "asset_or_variable": "global-m2-base-effects",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "This repeats the November forecast and should not be counted as a new independent success. Proprietary series and the eight-country basket must match before the reported retracement is verified.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Recover November and December global aggregate vintages and Crossborder methodology; compare absolute levels and year-over-year changes with claim 123 liquidity momentum."
+    },
+    {
+      "id": "125-C03",
+      "claim": "Carry incentives",
+      "kind": "explanation",
+      "source_blocks": [
+        20,
+        22,
+        23
+      ],
+      "family": "yen-carry-trade",
+      "asset_or_variable": "yen-carry-trade",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Rate differentials motivate leveraged FX exposure, but returns depend on nominal rates, funding costs and currency moves, not merely higher real yield. Japan external wealth also reflects accumulated income and valuation, not only trade surpluses.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/bulletin-90-market-turbulence-and-carry-trade-unwind-august-2024",
+          "title": "August carry-trade unwind",
+          "publisher": "BIS",
+          "date": "2024-08-27",
+          "verified": true,
+          "finding": "Leveraged equity/currency unwinds amplified negative U.S.news; markets stabilized quickly without outright dysfunction. Carry sizing uncertain; roughly¥40 tn/$250 bn ballpark biased downward by gaps."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C04",
+      "claim": "Universal carry gains",
+      "kind": "empirical",
+      "source_blocks": [
+        24
+      ],
+      "family": "yen-carry-returns",
+      "asset_or_variable": "yen-carry-returns",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Unhedged dollar bills benefited from yen weakness, but saying anyone made money overstates strategies: equity, bond duration, entry dates and leverage produce different results.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/bulletin-90-market-turbulence-and-carry-trade-unwind-august-2024",
+          "title": "August carry-trade unwind",
+          "publisher": "BIS",
+          "date": "2024-08-27",
+          "verified": true,
+          "finding": "Leveraged equity/currency unwinds amplified negative U.S.news; markets stabilized quickly without outright dysfunction. Carry sizing uncertain; roughly¥40 tn/$250 bn ballpark biased downward by gaps."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C05",
+      "claim": "Carry reversal",
+      "kind": "forecast",
+      "source_blocks": [
+        25
+      ],
+      "family": "yen-carry-unwind",
+      "asset_or_variable": "yen-carry-unwind",
+      "horizon": "2024",
+      "conditions": "Relative policy tightening in Japan",
+      "modality": "risk",
+      "verdict": "right",
+      "reason": "The August 2024 unwind documented by BIS supports the specifically conditional risk: currency moves and leveraged position reduction amplified market stress. It was a risk scenario, not a forecast of a year-long yen appreciation.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "2024",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/bulletin-90-market-turbulence-and-carry-trade-unwind-august-2024",
+          "title": "August carry-trade unwind",
+          "publisher": "BIS",
+          "date": "2024-08-27",
+          "verified": true,
+          "finding": "Leveraged equity/currency unwinds amplified negative U.S.news; markets stabilized quickly without outright dysfunction. Carry sizing uncertain; roughly¥40 tn/$250 bn ballpark biased downward by gaps."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C06",
+      "claim": "Regional divergence",
+      "kind": "empirical",
+      "source_blocks": [
+        28,
+        29,
+        30,
+        31,
+        38
+      ],
+      "family": "global-production-consumption",
+      "asset_or_variable": "global-production-consumption",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "US consumption versus production, Europe weakness and China export production require consistent real measures. A PMI diffusion score is not directly comparable with industrial-output growth or household consumption.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare Q3/Q4 2023 real consumption and industrial production across US, euro area and China; annotate Chinese fiscal perimeter and property measures."
+    },
+    {
+      "id": "125-C07",
+      "claim": "Fiscal demand causality",
+      "kind": "explanation",
+      "source_blocks": [
+        31,
+        38
+      ],
+      "family": "fiscal-demand-divergence",
+      "asset_or_variable": "fiscal-demand-divergence",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The proposed fiscal explanation is plausible but observationally confounded by household savings, property adjustment, credit channels and export composition. Mirror-image language is qualitative.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "125-C08",
+      "claim": "German industry erosion",
+      "kind": "explanation",
+      "source_blocks": [
+        33
+      ],
+      "family": "europe-energy-industrial-risk",
+      "asset_or_variable": "europe-energy-industrial-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The large 2022-2023 fall in energy-intensive production supports real industrial damage. Output alone does not prove all lost production permanently relocated or isolate energy-policy choices from demand and external shocks.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.destatis.de/EN/Press/2025/02/PE25_049_421.html",
+          "title": "December 2024 production",
+          "publisher": "Destatis",
+          "date": "2025-02-07",
+          "verified": true,
+          "finding": "Official search-indexed release reports energy-intensive output fell 11.2% in 2023 after 5.7% in 2022, then rose 0.6% in 2024. Full page fetch returned 403; quoted numerical finding is available in search snippet."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C09",
+      "claim": "Europe worst passed",
+      "kind": "forecast",
+      "source_blocks": [
+        36
+      ],
+      "family": "europe-cycle-bottom",
+      "asset_or_variable": "europe-cycle-bottom",
+      "horizon": null,
+      "conditions": null,
+      "modality": "quite possible",
+      "verdict": "mixed",
+      "reason": "Energy-intensive German production stabilized slightly in 2024, but broad Germany weakness persisted. This low-conviction statement refers to Europe, so Germany alone cannot establish a complete regional trough.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.destatis.de/EN/Press/2025/02/PE25_049_421.html",
+          "title": "December 2024 production",
+          "publisher": "Destatis",
+          "date": "2025-02-07",
+          "verified": true,
+          "finding": "Official search-indexed release reports energy-intensive output fell 11.2% in 2023 after 5.7% in 2022, then rose 0.6% in 2024. Full page fetch returned 403; quoted numerical finding is available in search snippet."
+        }
+      ],
+      "next_check": "Test euro-area aggregate real consumption, industrial production and PMI from December 2023 through 2024, preserving sector differences."
+    },
+    {
+      "id": "125-C10",
+      "claim": "Demand drag persists",
+      "kind": "forecast",
+      "source_blocks": [
+        40
+      ],
+      "family": "commodity-demand-cycle",
+      "asset_or_variable": "commodity-demand-cycle",
+      "horizon": "First half 2024",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Global manufacturing expanded from February 2024, earlier than an unbroken weak first-half interpretation. A diffusion upturn does not establish strong physical oil or copper demand, so the commodity-demand component remains less resolved.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "First half 2024",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/top-five-takeaways-from-junes-global-survey-data-as-manufacturing-price-inflation-accelerates-jul24",
+          "title": "June global manufacturing survey",
+          "publisher": "S&P Global",
+          "date": "2024-07-01",
+          "verified": true,
+          "finding": "Global manufacturing PMI was 50.9 in June 2024, above neutral for a fifth consecutive month. Production and orders recovery preceded the latest 2025 timing in the forecast."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C11",
+      "claim": "PMI upturn",
+      "kind": "forecast",
+      "source_blocks": [
+        40
+      ],
+      "family": "global-pmi-upturn",
+      "asset_or_variable": "global-pmi-upturn",
+      "horizon": "By 2025, potentially sooner",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Global manufacturing PMI was above 50 for five months through June 2024. The forecast allowed an upturn before 2025, and that occurred.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "By 2025, potentially sooner",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/top-five-takeaways-from-junes-global-survey-data-as-manufacturing-price-inflation-accelerates-jul24",
+          "title": "June global manufacturing survey",
+          "publisher": "S&P Global",
+          "date": "2024-07-01",
+          "verified": true,
+          "finding": "Global manufacturing PMI was 50.9 in June 2024, above neutral for a fifth consecutive month. Production and orders recovery preceded the latest 2025 timing in the forecast."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C12",
+      "claim": "Bitcoin consolidation risk",
+      "kind": "forecast",
+      "source_blocks": [
+        43
+      ],
+      "family": "bitcoin-volatility",
+      "asset_or_variable": "bitcoin-volatility",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Several opposite near-term paths are explicitly entertained and a six-month opinion disclaimed. This should not be transformed into a missed correction target.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "125-C13",
+      "claim": "Bitcoin two-year",
+      "kind": "forecast",
+      "source_blocks": [
+        44
+      ],
+      "family": "bitcoin-bullish",
+      "asset_or_variable": "bitcoin-bullish",
+      "horizon": "Next two years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "BTC gained 123.11% from December 11, 2023 to December 10, 2025, versus SPY 52.67%. This supports the explicit two-year positive outlook; it does not establish a fundamental fair value.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Next two years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-12-10\",\"requested_endpoint\":\"2025-12-10\",\"entry\":\"2023-12-11\",\"exit\":\"2025-12-10\",\"days\":730,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"BTC-USD\":{\"entry_adjusted_close\":41243.83203125,\"exit_adjusted_close\":92020.9453125,\"cumulative_return_pct\":123.11444107030778,\"annualized_return_pct\":49.41121562752004,\"source\":\"https://finance.yahoo.com/quote/BTC-USD/history/\"},\"SPY\":{\"entry_adjusted_close\":445.5440673828125,\"exit_adjusted_close\":680.2312622070312,\"cumulative_return_pct\":52.67429464447901,\"annualized_return_pct\":23.579346602111386,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":70.44014642582877}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C14",
+      "claim": "Holding discipline",
+      "kind": "explanation",
+      "source_blocks": [
+        46,
+        47
+      ],
+      "family": "bitcoin-behavioral-timing",
+      "asset_or_variable": "bitcoin-behavioral-timing",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Examples of traders missing entries do not establish general superiority of holders without a survivorship-controlled strategy comparison. Sizing and rebalancing remain unspecified.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "125-C15",
+      "claim": "Swan collateral safety",
+      "kind": "empirical",
+      "source_blocks": [
+        50
+      ],
+      "family": "swan-lending-custody",
+      "asset_or_variable": "swan-lending-custody",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Non-rehypothecation is a contractual assertion, not proof of custody control, bankruptcy remoteness or safe loan underwriting. The author discloses board membership and equity ownership.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Review contemporaneous loan contracts, custodian attestations, collateral control agreements and independent audits; distinguish Swan representations from verified client asset treatment."
+    },
+    {
+      "id": "125-C16",
+      "claim": "Swan growth targets",
+      "kind": "forecast",
+      "source_blocks": [
+        49,
+        51,
+        53
+      ],
+      "family": "swan-business-growth",
+      "asset_or_variable": "swan-business-growth",
+      "horizon": "Q1 and full-year 2024",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The revenue and capital targets are attributed to the company, whose director is the author. Private unaudited annualized revenue is not full-year realized revenue; no independent financial statements are available in this review.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "Q1 and full-year 2024",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Obtain independent audited Q1 2024 revenue-run-rate reconciliation and evidence of completed 2024 fundraising; later layoffs alone cannot prove these targets failed."
+    },
+    {
+      "id": "125-C17",
+      "claim": "JNJ thesis change",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        63
+      ],
+      "family": "jnj-post-spinoff",
+      "asset_or_variable": "jnj-post-spinoff",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A change in portfolio fit after a spin-off is not a bearish stock forecast. The six replacement comparisons below are evaluator sensitivities, not a reconstruction of actual pie allocations.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "125-C18",
+      "claim": "TRV replacement",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        62,
+        63
+      ],
+      "family": "jnj-rotation-trv",
+      "asset_or_variable": "jnj-rotation-trv",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The disclosed adjusted-return comparison against JNJ tests opportunity cost since the first close after publication. The author gives no holding period, full weights or risk definition, so it cannot by itself establish portfolio superiority.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TRV/history/",
+          "title": "TRV adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-12-10\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-12-11\",\"exit\":\"2026-11-06\",\"days\":1061,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"TRV\":{\"entry_adjusted_close\":174.25233459472656,\"exit_adjusted_close\":395.20001220703125,\"cumulative_return_pct\":126.79754226890645,\"annualized_return_pct\":32.56496188717413,\"source\":\"https://finance.yahoo.com/quote/TRV/history/\"},\"JNJ\":{\"entry_adjusted_close\":143.52883911132812,\"exit_adjusted_close\":276.2200012207031,\"cumulative_return_pct\":92.44912933940275,\"annualized_return_pct\":25.27833332205156,\"source\":\"https://finance.yahoo.com/quote/JNJ/history/\"}},\"excess_percentage_points\":34.34841292950371}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C19",
+      "claim": "ATO replacement",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        62,
+        63
+      ],
+      "family": "jnj-rotation-ato",
+      "asset_or_variable": "jnj-rotation-ato",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The disclosed adjusted-return comparison against JNJ tests opportunity cost since the first close after publication. The author gives no holding period, full weights or risk definition, so it cannot by itself establish portfolio superiority.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ATO/history/",
+          "title": "ATO adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-12-10\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-12-11\",\"exit\":\"2026-11-06\",\"days\":1061,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"ATO\":{\"entry_adjusted_close\":106.120361328125,\"exit_adjusted_close\":173.22000122070312,\"cumulative_return_pct\":63.22975068385368,\"annualized_return_pct\":18.373997875711257,\"source\":\"https://finance.yahoo.com/quote/ATO/history/\"},\"JNJ\":{\"entry_adjusted_close\":143.52883911132812,\"exit_adjusted_close\":276.2200012207031,\"cumulative_return_pct\":92.44912933940275,\"annualized_return_pct\":25.27833332205156,\"source\":\"https://finance.yahoo.com/quote/JNJ/history/\"}},\"excess_percentage_points\":-29.219378655549065}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C20",
+      "claim": "MO replacement",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        62,
+        63
+      ],
+      "family": "jnj-rotation-mo",
+      "asset_or_variable": "jnj-rotation-mo",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The disclosed adjusted-return comparison against JNJ tests opportunity cost since the first close after publication. The author gives no holding period, full weights or risk definition, so it cannot by itself establish portfolio superiority.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/MO/history/",
+          "title": "MO adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-12-10\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-12-11\",\"exit\":\"2026-11-06\",\"days\":1061,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"MO\":{\"entry_adjusted_close\":33.14016342163086,\"exit_adjusted_close\":76.12000274658203,\"cumulative_return_pct\":129.69109046969237,\"annualized_return_pct\":33.1447752117177,\"source\":\"https://finance.yahoo.com/quote/MO/history/\"},\"JNJ\":{\"entry_adjusted_close\":143.52883911132812,\"exit_adjusted_close\":276.2200012207031,\"cumulative_return_pct\":92.44912933940275,\"annualized_return_pct\":25.27833332205156,\"source\":\"https://finance.yahoo.com/quote/JNJ/history/\"}},\"excess_percentage_points\":37.241961130289624}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C21",
+      "claim": "ICE replacement",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        66,
+        63
+      ],
+      "family": "jnj-rotation-ice",
+      "asset_or_variable": "jnj-rotation-ice",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The disclosed adjusted-return comparison against JNJ tests opportunity cost since the first close after publication. The author gives no holding period, full weights or risk definition, so it cannot by itself establish portfolio superiority.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ICE/history/",
+          "title": "ICE adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-12-10\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-12-11\",\"exit\":\"2026-11-06\",\"days\":1061,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"ICE\":{\"entry_adjusted_close\":111.8805923461914,\"exit_adjusted_close\":172.27000427246094,\"cumulative_return_pct\":53.97666445973663,\"annualized_return_pct\":16.0196322101263,\"source\":\"https://finance.yahoo.com/quote/ICE/history/\"},\"JNJ\":{\"entry_adjusted_close\":143.52883911132812,\"exit_adjusted_close\":276.2200012207031,\"cumulative_return_pct\":92.44912933940275,\"annualized_return_pct\":25.27833332205156,\"source\":\"https://finance.yahoo.com/quote/JNJ/history/\"}},\"excess_percentage_points\":-38.47246487966611}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C22",
+      "claim": "BTI replacement",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        66,
+        63
+      ],
+      "family": "jnj-rotation-bti",
+      "asset_or_variable": "jnj-rotation-bti",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The disclosed adjusted-return comparison against JNJ tests opportunity cost since the first close after publication. The author gives no holding period, full weights or risk definition, so it cannot by itself establish portfolio superiority.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTI/history/",
+          "title": "BTI adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-12-10\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-12-11\",\"exit\":\"2026-11-06\",\"days\":1061,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"BTI\":{\"entry_adjusted_close\":23.26219367980957,\"exit_adjusted_close\":60.88999938964844,\"cumulative_return_pct\":161.75519053690078,\"annualized_return_pct\":39.27101901676928,\"source\":\"https://finance.yahoo.com/quote/BTI/history/\"},\"JNJ\":{\"entry_adjusted_close\":143.52883911132812,\"exit_adjusted_close\":276.2200012207031,\"cumulative_return_pct\":92.44912933940275,\"annualized_return_pct\":25.27833332205156,\"source\":\"https://finance.yahoo.com/quote/JNJ/history/\"}},\"excess_percentage_points\":69.30606119749804}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C23",
+      "claim": "PRU replacement",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        66,
+        63
+      ],
+      "family": "jnj-rotation-pru",
+      "asset_or_variable": "jnj-rotation-pru",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The disclosed adjusted-return comparison against JNJ tests opportunity cost since the first close after publication. The author gives no holding period, full weights or risk definition, so it cannot by itself establish portfolio superiority.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/PRU/history/",
+          "title": "PRU adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-12-10\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-12-11\",\"exit\":\"2026-11-06\",\"days\":1061,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"PRU\":{\"entry_adjusted_close\":88.76771545410156,\"exit_adjusted_close\":119.23999786376953,\"cumulative_return_pct\":34.328113834836756,\"annualized_return_pct\":10.693355254829996,\"source\":\"https://finance.yahoo.com/quote/PRU/history/\"},\"JNJ\":{\"entry_adjusted_close\":143.52883911132812,\"exit_adjusted_close\":276.2200012207031,\"cumulative_return_pct\":92.44912933940275,\"annualized_return_pct\":25.27833332205156,\"source\":\"https://finance.yahoo.com/quote/JNJ/history/\"}},\"excess_percentage_points\":-58.12101550456599}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C24",
+      "claim": "Value 2024",
+      "kind": "forecast",
+      "source_blocks": [
+        77
+      ],
+      "family": "value-growth-rotation",
+      "asset_or_variable": "value-growth-rotation",
+      "horizon": "2024",
+      "conditions": null,
+      "modality": "could",
+      "verdict": "wrong",
+      "reason": "Calendar 2024 IWD returned 14.17%, versus IWF 33.12%, so the proposed value-over-growth reversal did not occur in these broad Russell proxies. The wording was low-conviction possibility rather than certainty; one outcome does not calibrate the implied probability.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "2024",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/IWD/history/",
+          "title": "2024 value versus growth",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-12-28\",\"requested_endpoint\":\"2024-12-31\",\"entry\":\"2023-12-29\",\"exit\":\"2024-12-31\",\"days\":368,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"IWD\":{\"entry_adjusted_close\":157.59095764160156,\"exit_adjusted_close\":179.918701171875,\"cumulative_return_pct\":14.168162859351296,\"annualized_return_pct\":14.05517331113022,\"source\":\"https://finance.yahoo.com/quote/IWD/history/\"},\"IWF\":{\"entry_adjusted_close\":74.91659545898438,\"exit_adjusted_close\":99.7305908203125,\"cumulative_return_pct\":33.122160996909415,\"annualized_return_pct\":32.83785605615983,\"source\":\"https://finance.yahoo.com/quote/IWF/history/\"}},\"excess_percentage_points\":-18.953998137558116}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C25",
+      "claim": "GARP discipline",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        77
+      ],
+      "family": "valuation-business-durability",
+      "asset_or_variable": "valuation-business-durability",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Business durability is not defined by a multiple alone. A low price can compensate decline, but future-proof and acceptable melting are qualitative selection criteria.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "125-C26",
+      "claim": "Bitcoin growth exposure",
+      "kind": "explanation",
+      "source_blocks": [
+        78
+      ],
+      "family": "portfolio-factor-exposure",
+      "asset_or_variable": "portfolio-factor-exposure",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Bitcoin can share risk appetite with growth stocks, but a risk-weighted factor exposure requires holdings, covariance and a model window. A label is not a quantified portfolio hedge.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "125-C27",
+      "claim": "Affluent spending channel",
+      "kind": "explanation",
+      "source_blocks": [
+        81,
+        82,
+        83
+      ],
+      "family": "interest-income-consumption",
+      "asset_or_variable": "interest-income-consumption",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "AXP spending and profits grew, supporting customer resilience. This does not isolate interest income from wage gains, travel recovery, market wealth or revolving-credit growth.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000037/q425exhibit991.htm",
+          "title": "American Express 2025 results",
+          "publisher": "American Express / SEC",
+          "date": "2026-01-30",
+          "verified": true,
+          "finding": "2025 revenue $72.229 bn, up 10%; EPS $15.38, up 10% reported or 15% excluding prior-year transaction gain; card spending +7% FX-adjusted, net write-off rate 2.0%, unchanged."
+        },
+        {
+          "url": "https://www.prnewswire.com/news-releases/2023-year-in-review-tsa-highlights-a-year-of-innovation-and-improvements-to-security-effectiveness-efficiency-and-the-passenger-experience-302033943.html",
+          "title": "2023 TSA year in review",
+          "publisher": "TSA via PR Newswire",
+          "date": "2024-01-12",
+          "verified": true,
+          "finding": "TSA reported 2.9 m passengers screened on the Sunday after Thanksgiving 2023 and seven of its ten busiest historical days occurred in 2023. Passenger screening is not unique persons or flight profitability."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C28",
+      "claim": "Amex improvement",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        84
+      ],
+      "family": "american-express-bullish",
+      "asset_or_variable": "american-express-bullish",
+      "horizon": "Next few years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "AXP gained 97.18% versus SPY 65.03% by the cutoff, and 2025 revenue and EPS grew 10%. This is strong directional support, but next few years has no exact endpoint and the asserted macro causal channel is not independently identified.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "Next few years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/AXP/history/",
+          "title": "AXP adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-12-10\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-12-11\",\"exit\":\"2026-11-06\",\"days\":1061,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"AXP\":{\"entry_adjusted_close\":162.79112243652344,\"exit_adjusted_close\":320.989990234375,\"cumulative_return_pct\":97.17905093967116,\"annualized_return_pct\":26.329864165821213,\"source\":\"https://finance.yahoo.com/quote/AXP/history/\"},\"SPY\":{\"entry_adjusted_close\":445.5440673828125,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":65.03193103805395,\"annualized_return_pct\":18.82229364745147,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":32.1471199016172}"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/4962/000000496226000037/q425exhibit991.htm",
+          "title": "American Express 2025 results",
+          "publisher": "American Express / SEC",
+          "date": "2026-01-30",
+          "verified": true,
+          "finding": "2025 revenue $72.229 bn, up 10%; EPS $15.38, up 10% reported or 15% excluding prior-year transaction gain; card spending +7% FX-adjusted, net write-off rate 2.0%, unchanged."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C29",
+      "claim": "PEG comparability",
+      "kind": "explanation",
+      "source_blocks": [
+        87,
+        88,
+        89
+      ],
+      "family": "dividend-adjusted-peg",
+      "asset_or_variable": "dividend-adjusted-peg",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Including dividends addresses a real omission in simple PEG. Growth plus yield still does not put firms on an identical valuation footing: reinvestment needs, duration, risk and accounting quality differ.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Yield y and growth g are annual percentage units",
+          "P/E measured consistently"
+        ],
+        "derivation": "Dividend-adjusted PEG = (P/E)/(g+y), but this algebra alone does not establish equal risk or intrinsic value for equal ratios."
+      }
+    },
+    {
+      "id": "125-C30",
+      "claim": "Flat dividend compounding",
+      "kind": "explanation",
+      "source_blocks": [
+        89
+      ],
+      "family": "dividend-reinvestment",
+      "asset_or_variable": "dividend-reinvestment",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "At an unchanged price with all fixed earnings paid and dividends reinvested without costs, a 10% yield comillion pounds share count at 10%. That equivalence fails if price, payout or tax assumptions change.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Fixed price P and annual dividend 0.1P",
+          "Immediate costless reinvestment",
+          "No taxes or default"
+        ],
+        "derivation": "Shares after n years = initial shares * (1.1)^n; dividend income scales with share count."
+      }
+    },
+    {
+      "id": "125-C31",
+      "claim": "Healthcare regulation",
+      "kind": "forecast",
+      "source_blocks": [
+        90,
+        94
+      ],
+      "family": "healthcare-regulatory-risk",
+      "asset_or_variable": "healthcare-regulatory-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "major overhaul unlikely",
+      "verdict": "mixed",
+      "reason": "A broad congressional overhaul was not specified with a deadline, but the 2026 Express Scripts settlement imposed major operating changes without one. Legislative polarization does not eliminate agency enforcement or contract-model risk.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/02/ftc-secures-landmark-settlement-express-scripts-lower-drug-costs-american-patients",
+          "title": "Express Scripts settlement",
+          "publisher": "FTC",
+          "date": "2026-02-04",
+          "verified": true,
+          "finding": "Settlement required fundamental PBM business-practice changes and transparency. FTC projected patient savings up to $7 bn over ten years; projected savings are not verified realized savings. This demonstrates material regulatory action without a broad congressional overhaul."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C32",
+      "claim": "Cigna preference",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        92
+      ],
+      "family": "cigna-over-humana",
+      "asset_or_variable": "cigna-over-humana",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "CI returned 2.56% versus HUM -5.60% through the cutoff, supporting the direct relative preference. Both lagged SPY, and the author gave no fixed exit date; relative success should not be conflated with the broader Cigna buying-opportunity thesis.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/CI/history/",
+          "title": "CI adjusted-return comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-12-10\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-12-11\",\"exit\":\"2026-11-06\",\"days\":1061,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"CI\":{\"entry_adjusted_close\":286.2517395019531,\"exit_adjusted_close\":293.5899963378906,\"cumulative_return_pct\":2.5635675956782844,\"annualized_return_pct\":0.8751954048269006,\"source\":\"https://finance.yahoo.com/quote/CI/history/\"},\"HUM\":{\"entry_adjusted_close\":459.4679260253906,\"exit_adjusted_close\":433.739990234375,\"cumulative_return_pct\":-5.599506371113671,\"annualized_return_pct\":-1.9641602763163846,\"source\":\"https://finance.yahoo.com/quote/HUM/history/\"}},\"excess_percentage_points\":8.163073966791956}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C33",
+      "claim": "Cigna selloff opportunity",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        92
+      ],
+      "family": "cigna-bullish",
+      "asset_or_variable": "cigna-bullish",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "CI returned 2.56% versus SPY 65.03% through the cutoff, weak opportunity-cost evidence despite a positive absolute return. No exact exit date or promised benchmark was specified.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/CI/history/",
+          "title": "CI adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-12-10\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-12-11\",\"exit\":\"2026-11-06\",\"days\":1061,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"CI\":{\"entry_adjusted_close\":286.2517395019531,\"exit_adjusted_close\":293.5899963378906,\"cumulative_return_pct\":2.5635675956782844,\"annualized_return_pct\":0.8751954048269006,\"source\":\"https://finance.yahoo.com/quote/CI/history/\"},\"SPY\":{\"entry_adjusted_close\":445.5440673828125,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":65.03193103805395,\"annualized_return_pct\":18.82229364745147,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-62.46836344237567}"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1739940/000095015923000317/ex99-1.htm",
+          "title": "Cigna buyback authorization",
+          "publisher": "Cigna / SEC",
+          "date": "2023-12-10",
+          "verified": true,
+          "finding": "On article publication date Cigna added $10 bn buyback authorization, targeted at least $5 bn repurchases by first-half 2024, and emphasized bolt-on acquisitions. Same-day timing matters for article vintage; no execution timestamps supplied."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C34",
+      "claim": "Merger synergies",
+      "kind": "explanation",
+      "source_blocks": [
+        92
+      ],
+      "family": "healthcare-merger-economics",
+      "asset_or_variable": "healthcare-merger-economics",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Possible cost synergies are offset by approval, integration and bargaining risks. A merger-agnostic valuation needs separate pro-forma cases; the uncompleted combined company has no realized return.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "125-C35",
+      "claim": "Chevron value",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        96,
+        97
+      ],
+      "family": "chevron-bullish",
+      "asset_or_variable": "chevron-bullish",
+      "horizon": "Multi-year",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "CVX returned 65.24% versus SPY 65.03% through the cutoff, roughly matching rather than decisively outperforming the market. The multi-year view lacks a fixed deadline and risk-adjusted hurdle.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "Multi-year",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/CVX/history/",
+          "title": "CVX adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-12-10\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-12-11\",\"exit\":\"2026-11-06\",\"days\":1061,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"CVX\":{\"entry_adjusted_close\":128.66419982910156,\"exit_adjusted_close\":212.61000061035156,\"cumulative_return_pct\":65.24410122843119,\"annualized_return_pct\":18.874859798864296,\"source\":\"https://finance.yahoo.com/quote/CVX/history/\"},\"SPY\":{\"entry_adjusted_close\":445.5440673828125,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":65.03193103805395,\"annualized_return_pct\":18.82229364745147,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":0.21217019037723617}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C36",
+      "claim": "Shale absorbed",
+      "kind": "explanation",
+      "source_blocks": [
+        97,
+        98
+      ],
+      "family": "oil-supply-constraint",
+      "asset_or_variable": "oil-supply-constraint",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "EIA documented continued productivity gains and new output records after this report. Recognizing existing shale supply does not mean future efficiency or resource additions are fully discounted.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/todayinEnergy/detail.php?id=61523",
+          "title": "More productive wells raise output",
+          "publisher": "EIA",
+          "date": "2024-03-05",
+          "verified": true,
+          "finding": "December 2023 crude output averaged 13.3 mb/d, 0.3 mb/d above November 2019 peak. Higher new-well productivity and sustained legacy production supported output despite falling rigs."
+        },
+        {
+          "url": "https://www.eia.gov/tODAyinenergy/detail.php?id=67404",
+          "title": "U.S. crude production in2025",
+          "publisher": "EIA",
+          "date": "2026-03-31",
+          "verified": true,
+          "finding": "Production rose 3% to 13.6 mb/d despite 5% fewer rigs; WTI annual price fell from $77 to $65. Gulf output rose 111 kb/d. Efficiency gains supported supply."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C37",
+      "claim": "Inventories finite",
+      "kind": "explanation",
+      "source_blocks": [
+        100
+      ],
+      "family": "oil-inventory-cycle",
+      "asset_or_variable": "oil-inventory-cycle",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "A finite stock cannot sustain a constant net draw forever without replenishment. This arithmetic places no near-term lower bound on oil prices, because production and demand can adjust.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Initial usable stock S",
+          "Constant positive net draw d",
+          "No replenishment"
+        ],
+        "derivation": "Remaining stock after t periods is S-d*t; at t=S/d the initial stock is exhausted."
+      }
+    },
+    {
+      "id": "125-C38",
+      "claim": "Demand lifts oil",
+      "kind": "forecast",
+      "source_blocks": [
+        100
+      ],
+      "family": "oil-demand-reacceleration",
+      "asset_or_variable": "oil-demand-reacceleration",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "An unspecified global re-acceleration and no minimum price response make the conditional forecast too flexible. Supply additions can offset demand growth.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "125-C39",
+      "claim": "Tobacco diversification",
+      "kind": "explanation",
+      "source_blocks": [
+        102
+      ],
+      "family": "tobacco-defensive-correlation",
+      "asset_or_variable": "tobacco-defensive-correlation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "BTI had low daily correlations with SPY, BTC and XLE in the observed window, around 0.06-0.07, supporting diversification against those proxies. The actual portfolio is unavailable and correlation is neither permanently zero nor proof of low operating cyclicality.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTI/history/",
+          "title": "Tobacco diversification sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "December 11, 2023-November 6, 2026 matched common-date daily log adjusted-close correlations: BTI/SPY 0.07341, BTI/BTC-USD 0.05973, BTI/XLE 0.06019, n=729 each. BTC observations are sampled on equity trading dates; no staking yield. These are evaluator-window associations, not actual portfolio covariance."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C40",
+      "claim": "Tobacco value",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        103,
+        104
+      ],
+      "family": "british-american-tobacco-bullish",
+      "asset_or_variable": "british-american-tobacco-bullish",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "BTI returned 161.76% versus SPY 65.03%, strong realized support for the cheap-income thesis. With no fixed horizon this is an evaluator-window success, not proof that the starting earnings yield guaranteed the result.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTI/history/",
+          "title": "BTI adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-12-10\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-12-11\",\"exit\":\"2026-11-06\",\"days\":1061,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"BTI\":{\"entry_adjusted_close\":23.26219367980957,\"exit_adjusted_close\":60.88999938964844,\"cumulative_return_pct\":161.75519053690078,\"annualized_return_pct\":39.27101901676928,\"source\":\"https://finance.yahoo.com/quote/BTI/history/\"},\"SPY\":{\"entry_adjusted_close\":445.5440673828125,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":65.03193103805395,\"annualized_return_pct\":18.82229364745147,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":96.72325949884683}"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1303523/000130352326000012/prelim_fy2025us.htm",
+          "title": "BAT 2025 preliminary results",
+          "publisher": "BAT / SEC",
+          "date": "2026-02-12",
+          "verified": true,
+          "finding": "Adjusted diluted EPS 352.1 p versus 362.5 p, down 2.9%; at constant FX 365.0 p, up 0.7%. Dividend 245.04 p, up 2.0%. Reported EPS distorted by impairments and other adjusting items; USD ADR income also depends on FX."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C41",
+      "claim": "Noncash impairment",
+      "kind": "explanation",
+      "source_blocks": [
+        106
+      ],
+      "family": "tobacco-impairment",
+      "asset_or_variable": "tobacco-impairment",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The charge was noncash and largely intangible, but it reflected revised future economic lives and cash-flow assumptions. Dismissing it as just accounting would lose real information about expected franchise erosion.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1303523/000130352324000024/bti-20231231.htm",
+          "title": "BAT 2023 annual report",
+          "publisher": "BAT / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "2023 US impairment totaled about GBP 27.3 bn, including GBP 4.3 bn goodwill and GBP 23 bn mainly combustibles brands. Brand useful lives became 20-30 years rather than indefinite, reflecting revised economic expectations; non-cash does not mean economically meaningless."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C42",
+      "claim": "Flat EPS ten-percent",
+      "kind": "explanation",
+      "source_blocks": [
+        109
+      ],
+      "family": "tobacco-return-scenario",
+      "asset_or_variable": "tobacco-return-scenario",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The claim depends on the unseen Stock Delver payout, debt and terminal-valuation assumptions. A flat EPS perpetuity does not alone guarantee 10% annual shareholder returns.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Inspect model inputs: distributable cash, reinvestment, net debt, terminal multiple, ADR exchange rate and taxes; recalculate the flat-EPS scenario independently."
+    },
+    {
+      "id": "125-C43",
+      "claim": "Tobacco nominal income",
+      "kind": "forecast",
+      "source_blocks": [
+        112
+      ],
+      "family": "tobacco-earnings-dividends",
+      "asset_or_variable": "tobacco-earnings-dividends",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "BAT 2025 adjusted EPS fell 2.9% in sterling while constant-currency EPS rose 0.7% and the dividend rose 2%. Dividend resilience fits the view better than an unconditional nominal-earnings floor; USD ADR income adds FX risk.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1303523/000130352326000012/prelim_fy2025us.htm",
+          "title": "BAT 2025 preliminary results",
+          "publisher": "BAT / SEC",
+          "date": "2026-02-12",
+          "verified": true,
+          "finding": "Adjusted diluted EPS 352.1 p versus 362.5 p, down 2.9%; at constant FX 365.0 p, up 0.7%. Dividend 245.04 p, up 2.0%. Reported EPS distorted by impairments and other adjusting items; USD ADR income also depends on FX."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C44",
+      "claim": "EPD growth",
+      "kind": "forecast",
+      "source_blocks": [
+        115
+      ],
+      "family": "epd-income-growth",
+      "asset_or_variable": "epd-income-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The 2024 distribution rose 5%, meeting the upper end of the expected distribution range. Annual earnings growth must be tested separately; a distribution increase alone cannot establish the full earnings-and-payout proposition.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.enterpriseproducts.com/news-releases/news-release-details/enterprise-reports-results-fourth-quarter-2024",
+          "title": "Enterprise 2024 results",
+          "publisher": "Enterprise Products Partners",
+          "date": "2025-02-04",
+          "verified": true,
+          "finding": "Declared 2024 distributions rose 5% to $2.10 per unit, the 26 th consecutive annual increase."
+        }
+      ],
+      "next_check": "Compare diluted EPS and distributable cash flow per unit over consistent fiscal years, noting unusual gains and dilution."
+    },
+    {
+      "id": "125-C45",
+      "claim": "EPD valuation",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        115
+      ],
+      "family": "epd-bullish",
+      "asset_or_variable": "epd-bullish",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "EPD returned 72.98% versus SPY 65.03% through the cutoff, supportive of the income thesis. An undefined risk-adjusted comparison and no deadline prevent a clean binary investment verdict.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EPD/history/",
+          "title": "EPD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-12-10\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-12-11\",\"exit\":\"2026-11-06\",\"days\":1061,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"EPD\":{\"entry_adjusted_close\":21.40763282775879,\"exit_adjusted_close\":37.029998779296875,\"cumulative_return_pct\":72.97568151150706,\"annualized_return_pct\":20.760950264612376,\"source\":\"https://finance.yahoo.com/quote/EPD/history/\"},\"SPY\":{\"entry_adjusted_close\":445.5440673828125,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":65.03193103805395,\"annualized_return_pct\":18.82229364745147,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":7.9437504734531075}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C46",
+      "claim": "Partnership discount",
+      "kind": "explanation",
+      "source_blocks": [
+        117
+      ],
+      "family": "mlp-tax-clientele",
+      "asset_or_variable": "mlp-tax-clientele",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Tax and filing complexity can narrow investor eligibility, but attributing a valuation gap requires comparable assets, leverage, governance and tax incidence. It is not a universal free advantage for all domestic accounts.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "125-C47",
+      "claim": "Airport regulatory moat",
+      "kind": "explanation",
+      "source_blocks": [
+        118,
+        119,
+        121
+      ],
+      "family": "mexico-airport-regulation",
+      "asset_or_variable": "mexico-airport-regulation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A concession can limit competition while exposing owners to tariff resets. The monopoly label does not remove demand, concession expiry, political or capital-spending risk.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "125-C48",
+      "claim": "Nearshoring tailwind",
+      "kind": "forecast",
+      "source_blocks": [
+        119
+      ],
+      "family": "mexico-nearshoring",
+      "asset_or_variable": "mexico-nearshoring",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A general national benefit does not specify traffic, margin or investment outcomes for OMAB. Geographic distance from wars is not insulation from global trade or currency shocks.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "125-C49",
+      "claim": "OMAB five-year",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        123
+      ],
+      "family": "omab-bullish",
+      "asset_or_variable": "omab-bullish",
+      "horizon": "Next five years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The five-year horizon ends December 2028. Interim OMAB return of 77.85% versus SPY 65.03% is supportive, but cannot close the original horizon.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "Next five years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/OMAB/history/",
+          "title": "OMAB adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-12-10\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-12-11\",\"exit\":\"2026-11-06\",\"days\":1061,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"OMAB\":{\"entry_adjusted_close\":61.664161682128906,\"exit_adjusted_close\":109.66999816894531,\"cumulative_return_pct\":77.8504648036578,\"annualized_return_pct\":21.921869143052653,\"source\":\"https://finance.yahoo.com/quote/OMAB/history/\"},\"SPY\":{\"entry_adjusted_close\":445.5440673828125,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":65.03193103805395,\"annualized_return_pct\":18.82229364745147,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":12.818533765603846}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C50",
+      "claim": "Brazil five-year",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        125
+      ],
+      "family": "brazil-equities-bullish",
+      "asset_or_variable": "brazil-equities-bullish",
+      "horizon": "5+ years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The minimum five-year horizon ends December 2028. Interim ITUB return 63.27% is close to SPY 65.03%; it does not settle the longer country thesis.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "5+ years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ITUB/history/",
+          "title": "ITUB adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-12-10\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-12-11\",\"exit\":\"2026-11-06\",\"days\":1061,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"ITUB\":{\"entry_adjusted_close\":4.526366233825684,\"exit_adjusted_close\":7.389999866485596,\"cumulative_return_pct\":63.26561936725057,\"annualized_return_pct\":18.3829518529685,\"source\":\"https://finance.yahoo.com/quote/ITUB/history/\"},\"SPY\":{\"entry_adjusted_close\":445.5440673828125,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":65.03193103805395,\"annualized_return_pct\":18.82229364745147,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-1.7663116708033826}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "125-C51",
+      "claim": "EM flow feedback",
+      "kind": "explanation",
+      "source_blocks": [
+        126
+      ],
+      "family": "em-currency-valuation-feedback",
+      "asset_or_variable": "em-currency-valuation-feedback",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Positive feedback can occur, but a small spark does not reliably identify the turning point. Currency hedges, corporate foreign revenues and capital controls complicate the proposed chain.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "125-C52",
+      "claim": "Brazil external buffer",
+      "kind": "explanation",
+      "source_blocks": [
+        129,
+        131
+      ],
+      "family": "brazil-external-resilience",
+      "asset_or_variable": "brazil-external-resilience",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Reserve coverage and trade surplus are useful, but central-bank assets do not automatically offset every private borrower dollar liability or maturity mismatch.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Rebuild contemporaneous public/private FX debt maturity and reserve liquidity measures; verify 2023 trade surplus and stress refinancing under an extended strong dollar."
+    },
+    {
+      "id": "125-C53",
+      "claim": "Gold undecided",
+      "kind": "forecast",
+      "source_blocks": [
+        134,
+        135
+      ],
+      "family": "gold-technical-watch",
+      "asset_or_variable": "gold-technical-watch",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The report explicitly offers both breakout continuation and renewed consolidation without choosing direction. Subsequent gains should not create an extra forecast win here.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "125-C54",
+      "claim": "Gold policy-cycle pattern",
+      "kind": "explanation",
+      "source_blocks": [
+        135
+      ],
+      "family": "gold-policy-cycle",
+      "asset_or_variable": "gold-policy-cycle",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A general historical tendency requires consistent cycle sampling, not merely the successful current episode.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Define rate-peak dates and forward gold windows before testing all available cycles, including non-US-dollar outcomes."
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Liquidity",
+      "source_blocks": [
+        8,
+        10,
+        12,
+        17
+      ],
+      "use": "Funding and FX.",
+      "image_inspected": false
+    },
+    {
+      "name": "Business cycle",
+      "source_blocks": [
+        31,
+        33,
+        36,
+        38
+      ],
+      "use": "Regional divergence.",
+      "image_inspected": false
+    },
+    {
+      "name": "Valuation",
+      "source_blocks": [
+        84,
+        87,
+        97,
+        107,
+        109,
+        115,
+        123,
+        128
+      ],
+      "use": "Earnings and payout.",
+      "image_inspected": false
+    },
+    {
+      "name": "External balance",
+      "source_blocks": [
+        129,
+        131
+      ],
+      "use": "Reserves and trade.",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Combine valuation with business durability and payout.",
+    "Regulatory moats carry political reset risk."
+  ],
+  "assessment": "Bitcoin appreciation and the global PMI upturn support explicit forecasts; the 2024 value rotation did not materialize. AXP and BTI were strong selections in the observed window, while Cigna lagged heavily. Dividend-adjusted PEG is a useful screening adjustment, but does not make unlike business risks equivalent. The tobacco impairment contained economic information despite being noncash. Swan claims require independent private-company verification, especially given the disclosed director and equity relationship. OMAB and Brazil five-year views remain open.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

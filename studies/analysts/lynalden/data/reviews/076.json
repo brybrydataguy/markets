@@ -1,0 +1,1176 @@
+{
+  "article_id": "076",
+  "title": "Brazilian Equities Deep Dive Analysis",
+  "date": "2022-01-23",
+  "source_url": "https://www.lynalden.com/premium-2022-1-23/",
+  "read_complete": true,
+  "summary": "Brazilian value offsets US growth caution.",
+  "coverage_note": "All article text blocks were read. Ledger covers material macro, investment, and causal propositions; incidental descriptive statistics, boilerplate, and unreasoned position lists are excluded. Image labels were read, not image pixels.",
+  "claims": [
+    {
+      "claim": "Omicron severity falls",
+      "source_blocks": [
+        6,
+        10
+      ],
+      "kind": "explanation",
+      "family": "omicron-lower-severity",
+      "verdict": "right",
+      "reason": "CDC evidence supports lower relative severity. It does not establish the unmeasured ratio of reported cases to actual infections.",
+      "evidence": [
+        {
+          "url": "https://www.cdc.gov/mmwr/volumes/71/wr/mm7106a4.htm",
+          "title": "Delta and Omicron genomic surveillance",
+          "publisher": "CDC",
+          "date": "2022-02-11",
+          "verified": true,
+          "finding": "Omicron spread rapidly; relative severity was lower.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "omicron-lower-severity",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "076-C01"
+    },
+    {
+      "claim": "Endemic adaptation improves growth",
+      "source_blocks": [
+        10
+      ],
+      "kind": "forecast",
+      "family": "covid-endemic-normalization",
+      "verdict": "conditional_pending",
+      "reason": "The proposition explicitly depends on later variants remaining comparably mild. Clinical severity and policy responses both need verification before attributing economic improvement to this route.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": "Future variants remain similar or milder",
+      "next_check": "Compare 2022-24 severity, restrictions and activity with an identified counterfactual.",
+      "asset_or_variable": "covid-endemic-normalization",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C02"
+    },
+    {
+      "claim": "US equities remain vulnerable",
+      "source_blocks": [
+        11,
+        16,
+        22,
+        175
+      ],
+      "kind": "forecast",
+      "family": "2022-tightening-equity-headwind",
+      "verdict": "right",
+      "reason": "2022 broad equity total return was deeply negative, supporting the repeated warning. This is one continuing family, not a separate independent win at each update.",
+      "evidence": [
+        {
+          "url": "https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2022/",
+          "title": "SPIVA U.S. Year-End 2022",
+          "publisher": "S&P Dow Jones Indices",
+          "date": "2023-03-07",
+          "verified": true,
+          "finding": "2022 stocks and investment-grade bonds both fell materially.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-tightening-equity-headwind",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C03"
+    },
+    {
+      "claim": "Apple struggles during 2022",
+      "source_blocks": [
+        22,
+        177
+      ],
+      "kind": "investment_thesis",
+      "family": "2022-expensive-megacap-risk",
+      "verdict": "right",
+      "reason": "From the first close after publication, January 24, to December 30, AAPL adjusted close fell 19.14%, versus SPY falling 11.64%. This supports the full-2022 caution, without proving the valuation or liquidity mechanism.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/AAPL/history/",
+          "title": "AAPL historical daily market data",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "January 24 to December 30, 2022 adjusted-close return -19.14%; SPY -11.64%. USD vendor dividend/split-adjusted proxy, no fees or taxes.",
+          "verification_method": "computed from coordinator-downloaded research/evidence/market CSV; adjusted-close total-return proxy or split-adjusted close as explicitly stated; no fees or taxes"
+        }
+      ],
+      "horizon": "Full 2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "AAPL",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported on the specified observation or horizon.",
+      "timing_assessment": "Assessed against the stated horizon: Full 2022",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "076-C04",
+      "test_specification": {
+        "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+        "published": "2022-01-23",
+        "requested_endpoint": "2022-12-31",
+        "entry": "2022-01-24",
+        "exit": "2022-12-30",
+        "days": 340,
+        "endpoint_gap_days": 1,
+        "endpoint_covered": true,
+        "instruments": {
+          "AAPL": {
+            "entry_adjusted_close": 157.86953735351562,
+            "exit_adjusted_close": 127.65150451660156,
+            "cumulative_return_pct": -19.141142327697548,
+            "annualized_return_pct": -20.40697347822086,
+            "source": "https://finance.yahoo.com/quote/AAPL/history/"
+          },
+          "SPY": {
+            "entry_adjusted_close": 412.8287048339844,
+            "exit_adjusted_close": 364.7676086425781,
+            "cumulative_return_pct": -11.641897869174,
+            "annualized_return_pct": -12.450356475796475,
+            "source": "https://finance.yahoo.com/quote/SPY/history/"
+          }
+        },
+        "excess_percentage_points": -7.499244458523547
+      }
+    },
+    {
+      "claim": "Headline inflation peaks Q1",
+      "source_blocks": [
+        24,
+        176
+      ],
+      "kind": "forecast",
+      "family": "q1-2022-final-cpi-peak",
+      "verdict": "wrong",
+      "reason": "Unlike earlier reports, this wording drops the local qualifier. June 9.1% exceeded March 8.5%; the final peak missed the Q1 horizon by one quarter. Reporting lag cannot move the observation month.",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_04122022.htm",
+          "title": "Consumer Price Index, March 2022",
+          "publisher": "BLS",
+          "date": "2022-04-12",
+          "verified": true,
+          "finding": "March CPI inflation reached 8.5%; shelter contributed.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07132022.htm",
+          "title": "CPI, June 2022",
+          "publisher": "BLS",
+          "date": "2022-07-13",
+          "verified": true,
+          "finding": "Annual headline CPI reached 9.1% in June 2022, exceeding March 8.5%.",
+          "verification_method": "retrieved official statistical release extract"
+        }
+      ],
+      "horizon": "Late Q1 2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "q1-2022-final-cpi-peak",
+      "modality": "asserted",
+      "confidence": "high",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Late Q1 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C05"
+    },
+    {
+      "claim": "Shelter inflation remains sticky",
+      "source_blocks": [
+        25,
+        32
+      ],
+      "kind": "forecast",
+      "family": "shelter-cpi-lag",
+      "verdict": "right",
+      "reason": "March 2022 BLS documented continued shelter inflation even as used vehicles declined. Wage growth also accelerated in 2022.",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_04122022.htm",
+          "title": "Consumer Price Index, March 2022",
+          "publisher": "BLS",
+          "date": "2022-04-12",
+          "verified": true,
+          "finding": "March CPI inflation reached 8.5%; shelter contributed.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.bls.gov/opub/ted/2023/compensation-costs-up-5-1-percent-from-december-2021-to-december-2022.htm",
+          "title": "Compensation costs in 2022",
+          "publisher": "BLS",
+          "date": "2023-02-02",
+          "verified": true,
+          "finding": "Nominal wages and salaries rose 5.1% in 2022.",
+          "verification_method": "opened official statistical article"
+        }
+      ],
+      "horizon": "2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "shelter-cpi-lag",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C06"
+    },
+    {
+      "claim": "PMIs trend lower",
+      "source_blocks": [
+        34,
+        37
+      ],
+      "kind": "forecast",
+      "family": "2022-pmi-downturn",
+      "verdict": "right",
+      "reason": "ISM manufacturing PMI fell through most of 2022 and entered contraction in November; December was 48.4. This directly supports the predicted survey downtrend while distinguishing the author's separate absence-of-recession view.",
+      "evidence": [
+        {
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2022/2022-12/rob-roundup-november-2022-manufacturing-pmi/",
+          "title": "November manufacturing PMI",
+          "publisher": "ISM",
+          "date": "2022-12-01",
+          "verified": true,
+          "finding": "Manufacturing PMI fell to 49 in November 2022, first contraction in 29 months.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2024/2024-01/rob-roundup-december-2023-manufacturing-pmi/",
+          "title": "December 2023 manufacturing PMI",
+          "publisher": "ISM",
+          "date": "2024-01-03",
+          "verified": true,
+          "finding": "PMI 47.4, the fourteenth consecutive month below 50; 2023 peak 49 in September, trough 46 in June.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Much of 2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-pmi-downturn",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the stated test.",
+      "timing_assessment": "Assessed against the stated horizon: Much of 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C07"
+    },
+    {
+      "claim": "Fed tightens less than priced",
+      "source_blocks": [
+        33,
+        38
+      ],
+      "kind": "forecast",
+      "family": "fed-under-tightening-2022",
+      "verdict": "wrong",
+      "reason": "The article benchmarked roughly seven anticipated hikes over two years. Actual target rates rose from near zero to 5.25-5.50% by July 2023, far exceeding seven 25bp equivalents. The slowdown did not bind the Fed as expected.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Policy target rose to 5.25-5.50%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Next two years",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "fed-under-tightening-2022",
+      "modality": "asserted",
+      "confidence": "high",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Next two years",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C08"
+    },
+    {
+      "claim": "Russia faces sanctions risk",
+      "source_blocks": [
+        45,
+        47
+      ],
+      "kind": "forecast",
+      "family": "russia-sanctions-investability",
+      "verdict": "right",
+      "reason": "SWIFT exclusions and Sberbank blocking sanctions materialized. She identified investor access as a distinct risk and had reduced exposure. This deserves credit independent of the remaining position's outcome.",
+      "evidence": [
+        {
+          "url": "https://enlargement.ec.europa.eu/news/ukraine-eu-agrees-exclude-key-russian-banks-swift-2022-03-02_en",
+          "title": "EU excludes key Russian banks from SWIFT",
+          "publisher": "European Commission",
+          "date": "2022-03-02",
+          "verified": true,
+          "finding": "Seven Russian banks were selected for SWIFT exclusion; sanctions were not limited to US investors.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://2021-2025.state.gov/targeting-additional-russian-financial-institutions-officials-and-other-individuals/",
+          "title": "Targeting additional Russian financial institutions",
+          "publisher": "US Department of State",
+          "date": "2022-04-06",
+          "verified": true,
+          "finding": "Sberbank became subject to full blocking sanctions.",
+          "verification_method": "retrieved official statement search extract"
+        }
+      ],
+      "horizon": null,
+      "conditions": "Invasion escalates",
+      "next_check": null,
+      "asset_or_variable": "russia-sanctions-investability",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C09"
+    },
+    {
+      "claim": "Russian finances contain sanctions",
+      "source_blocks": [
+        45,
+        47
+      ],
+      "kind": "explanation",
+      "family": "russia-sanctions-resilience",
+      "verdict": "mixed",
+      "reason": "The investor/company distinction is useful, but sovereign financial buffers did not prevent international payment restrictions. The evidence verifies severe financial-channel disruption, not collapse of every operating company.",
+      "evidence": [
+        {
+          "url": "https://enlargement.ec.europa.eu/news/ukraine-eu-agrees-exclude-key-russian-banks-swift-2022-03-02_en",
+          "title": "EU excludes key Russian banks from SWIFT",
+          "publisher": "European Commission",
+          "date": "2022-03-02",
+          "verified": true,
+          "finding": "Seven Russian banks were selected for SWIFT exclusion; sanctions were not limited to US investors.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Audit company cash flows, reserve accessibility and shareholder distributions separately.",
+      "asset_or_variable": "russia-sanctions-resilience",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "076-C10"
+    },
+    {
+      "claim": "Non-US Russian equities attractive",
+      "source_blocks": [
+        48
+      ],
+      "kind": "investment_thesis",
+      "family": "russia-nonus-opportunity",
+      "verdict": "mixed",
+      "reason": "The non-US framing was too broad: EU-led SWIFT restrictions and international custody exposure were not confined to US investors. Individual foreign access differed, so the evidence undermines the access premise without proving every non-US position was a bad investment.",
+      "evidence": [
+        {
+          "url": "https://enlargement.ec.europa.eu/news/ukraine-eu-agrees-exclude-key-russian-banks-swift-2022-03-02_en",
+          "title": "EU excludes key Russian banks from SWIFT",
+          "publisher": "European Commission",
+          "date": "2022-03-02",
+          "verified": true,
+          "finding": "Seven Russian banks were selected for SWIFT exclusion; sanctions were not limited to US investors.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://2021-2025.state.gov/targeting-additional-russian-financial-institutions-officials-and-other-individuals/",
+          "title": "Targeting additional Russian financial institutions",
+          "publisher": "US Department of State",
+          "date": "2022-04-06",
+          "verified": true,
+          "finding": "Sberbank became subject to full blocking sanctions.",
+          "verification_method": "retrieved official statement search extract"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Evaluate the investor jurisdiction, instrument and custody chain rather than assuming all non-US owners retained access.",
+      "asset_or_variable": "russia-nonus-opportunity",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Access premise overbroad; total investment outcome varies by jurisdiction.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "076-C11"
+    },
+    {
+      "claim": "Conflict threatens energy supply",
+      "source_blocks": [
+        49
+      ],
+      "kind": "forecast",
+      "family": "russia-energy-supply-risk",
+      "verdict": "evidence_needed",
+      "reason": "The 2022 energy-price shock needs direct production, trade and sanctions evidence to separate realized supply loss from risk premia. SWIFT exclusion alone is insufficient.",
+      "evidence": [
+        {
+          "url": "https://enlargement.ec.europa.eu/news/ukraine-eu-agrees-exclude-key-russian-banks-swift-2022-03-02_en",
+          "title": "EU excludes key Russian banks from SWIFT",
+          "publisher": "European Commission",
+          "date": "2022-03-02",
+          "verified": true,
+          "finding": "Seven Russian banks were selected for SWIFT exclusion; sanctions were not limited to US investors.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Use EIA/IEA 2022 oil and gas balances and dated price paths.",
+      "asset_or_variable": "russia-energy-supply-risk",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C12"
+    },
+    {
+      "claim": "Rate spread measures real yield",
+      "source_blocks": [
+        51
+      ],
+      "kind": "explanation",
+      "family": "real-yield-definition",
+      "verdict": "wrong",
+      "reason": "The parenthetical defines real rates as nominal yields minus TIPS yields. That difference is breakeven inflation; TIPS yields themselves are the market real-yield proxy. This appears to be a terminology/formula error and should not invalidate unrelated gold analysis.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/T10YIE",
+          "title": "Ten-Year Breakeven Inflation Rate",
+          "publisher": "Federal Reserve Bank of St. Louis",
+          "date": null,
+          "verified": true,
+          "finding": "Nominal Treasury minus inflation-indexed Treasury yield is breakeven inflation, not the real Treasury yield.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "real-yield-definition",
+      "modality": "asserted",
+      "confidence": "high",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "076-C13"
+    },
+    {
+      "claim": "Gold establishes $1700 support",
+      "source_blocks": [
+        54
+      ],
+      "kind": "explanation",
+      "family": "gold-2021-bottom",
+      "verdict": "not_testable",
+      "reason": "A technical support zone describes observed repeated buying; it does not assert that $1700 can never break. Gold subsequently traded below the zone in 2022, which limits its trading usefulness but is not enough to score this sentence as an unconditional floor forecast.",
+      "evidence": [
+        {
+          "url": "https://pubs.usgs.gov/myb/vol1/2022/myb1-2022-gold.pdf",
+          "title": "2022 Minerals Yearbook: Gold",
+          "publisher": "USGS",
+          "date": null,
+          "verified": true,
+          "finding": "Gold reached a new 2022 low in November.",
+          "verification_method": "indexed primary-source extract; direct PDF fetch denied; exact release day unverified"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify whether support means a probabilistic bounce zone or a hard stop, and the observation window.",
+      "asset_or_variable": "gold-2021-bottom",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "No sufficiently definite directional forecast to score.",
+      "timing_assessment": "Assessed against the stated horizon: Current cycle",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C14"
+    },
+    {
+      "claim": "Gold beats equities",
+      "source_blocks": [
+        56,
+        60
+      ],
+      "kind": "forecast",
+      "family": "gold-outperforms-us-equities-2022",
+      "verdict": "right",
+      "reason": "Gold gained 0.4% across 2022 while S&P500 total return lost about 18%. This supports the annual relative direction, even though gold itself suffered an intrayear drawdown. These calendar figures are not a precise January 23 trade return.",
+      "evidence": [
+        {
+          "url": "https://www.gold.org/goldhub/research/gold-market-commentary-december-2022",
+          "title": "Gold Market Commentary, December 2022",
+          "publisher": "World Gold Council",
+          "date": "2023-01-09",
+          "verified": true,
+          "finding": "LBMA PM USD gold ended 2022 at 1814/oz, annual gain 0.4%; sharp rate/dollar increases offset varied demand.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.spglobal.com/spdji/en/spiva/article/spiva-us-year-end-2022/",
+          "title": "SPIVA U.S. Year-End 2022",
+          "publisher": "S&P Dow Jones Indices",
+          "date": "2023-03-07",
+          "verified": true,
+          "finding": "2022 stocks and investment-grade bonds both fell materially.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "gold-outperforms-us-equities-2022",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C15"
+    },
+    {
+      "claim": "Gold miners outperform",
+      "source_blocks": [
+        58,
+        61
+      ],
+      "kind": "forecast",
+      "family": "gold-miners-outperform-2022",
+      "verdict": "right",
+      "reason": "From January 24, 2022 toyear-end GDX returned-7.33% versus SPY-11.64%. This supports relative outperformance during the stated 2022 setup while making clear miners still lost money. No claim of absolute safety follows. A broad miner ETF is the disclosed evaluator proxy.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GDX/history/",
+          "title": "GDX dated relative outcome",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2022-01-23\", \"requested_endpoint\": \"2022-12-30\", \"entry\": \"2022-01-24\", \"exit\": \"2022-12-30\", \"days\": 340, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"GDX\": {\"entry_adjusted_close\": 29.85703468322754, \"exit_adjusted_close\": 27.668851852416992, \"cumulative_return_pct\": -7.328868569924585, \"annualized_return_pct\": -7.851216590493704, \"source\": \"https://finance.yahoo.com/quote/GDX/history/\"}, \"SPY\": {\"entry_adjusted_close\": 412.8287048339844, \"exit_adjusted_close\": 364.7676086425781, \"cumulative_return_pct\": -11.641897869174, \"annualized_return_pct\": -12.450356475796475, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 4.313029299249416}",
+          "verification_method": "computed first post-publication adjusted USD close; dividend/split proxy; no fees/taxes"
+        }
+      ],
+      "horizon": "2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "gold-miners-outperform-2022",
+      "modality": "directional opportunity, moderate conviction",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the stated test.",
+      "timing_assessment": "Assessed against the stated horizon: 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C16"
+    },
+    {
+      "claim": "Dollar rotation overwhelms tightening",
+      "source_blocks": [
+        63,
+        70
+      ],
+      "kind": "forecast",
+      "family": "2022-dollar-bearish-rotation",
+      "verdict": "not_testable",
+      "reason": "The source says equity-flow weakness can outweigh tightening and explicitly says to monitor it. That is a possible mechanism, not an asserted base-case dollar decline. The broad dollar nevertheless rose during 2022, an important counterexample to treating the mechanism as a standalone trading signal.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+          "title": "Nominal Broad US Dollar Index",
+          "publisher": "Federal Reserve via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Broad dollar index:115.2034 January 24, 2022;128.4539 September 26;121.4256 December 30.",
+          "verification_method": "computed from downloaded CSV; broad index, not DXY"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "A forecast requires an explicit preferred direction, deadline, and measurable capital-flow channel.",
+      "asset_or_variable": "2022-dollar-bearish-rotation",
+      "modality": "possible",
+      "confidence": "medium",
+      "direction_assessment": "No sufficiently definite directional forecast to score.",
+      "timing_assessment": "Assessed against the stated horizon: 2022 context",
+      "mechanism_assessment": "Equity weakness did not imply net dollar outflows; relative rates and safe-haven demand mattered.",
+      "id": "076-C17"
+    },
+    {
+      "claim": "Crowding distorts thematic funds",
+      "source_blocks": [
+        77,
+        79
+      ],
+      "kind": "explanation",
+      "family": "thematic-fund-incentives",
+      "verdict": "not_testable",
+      "reason": "Fund mandate incentives and forced subscriptions/redemptions are plausible mechanisms, but no measurable prevalence or causal effect is specified.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Test holdings, flows and market-impact data for a named fund.",
+      "asset_or_variable": "thematic-fund-incentives",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "076-C18"
+    },
+    {
+      "claim": "Oil remains structurally bullish",
+      "source_blocks": [
+        80,
+        154
+      ],
+      "kind": "investment_thesis",
+      "family": "oil-supply-supercycle",
+      "verdict": "too_early",
+      "reason": "The minimum five-year horizon ends in January 2027, beyond cutoff. Record US production in 2023 is important contrary evidence to rigid supply pessimism; it does not alone determine the multiyear price call.",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=61545",
+          "title": "United States produces more crude oil than any country, ever",
+          "publisher": "EIA",
+          "date": "2024-03-11",
+          "verified": true,
+          "finding": "2023 production set a record, driven by Permian growth.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Five or more years",
+      "conditions": null,
+      "next_check": "Evaluate specified oil-price benchmark at January 2027 and later.",
+      "asset_or_variable": "oil-supply-supercycle",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Five or more years",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "076-C19"
+    },
+    {
+      "claim": "Value beats growth",
+      "source_blocks": [
+        90
+      ],
+      "kind": "investment_thesis",
+      "family": "value-over-growth-decade",
+      "verdict": "too_early",
+      "reason": "The explicitly five-plus-year horizon has not completed. A 2022 style rotation cannot be substituted for the full horizon.",
+      "evidence": [],
+      "horizon": "Five or more years",
+      "conditions": null,
+      "next_check": "Use matched global or US total-return style indices with scope fixed in advance.",
+      "asset_or_variable": "value-over-growth-decade",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Five or more years",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "076-C20"
+    },
+    {
+      "claim": "Growth rebounds offer entries",
+      "source_blocks": [
+        83,
+        90,
+        178
+      ],
+      "kind": "investment_thesis",
+      "family": "growth-capitulation-opportunity",
+      "verdict": "conditional_pending",
+      "reason": "This is a watchlist contingent on capitulation and quality, not a timestamped purchase recommendation. No operational definition of capitulation is given.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": "Further capitulation and network quality",
+      "next_check": "Record specific entry trigger and company selection before evaluating.",
+      "asset_or_variable": "growth-capitulation-opportunity",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "076-C21"
+    },
+    {
+      "claim": "Bitcoin supply offsets weak demand",
+      "source_blocks": [
+        97,
+        103
+      ],
+      "kind": "explanation",
+      "family": "bitcoin-illiquid-supply",
+      "verdict": "mixed",
+      "reason": "Supply rigidity may explain relative resilience, but 2022 prices still collapsed. The report acknowledges holder capitulation and lower lows; its attribution of 2021 resilience remains unproven.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin daily price",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "BTC: $57,471.87 November 28, 2021; $15,755.75 November 21, 2022; first subsequent daily close above $70,000 March 11, 2024.",
+          "verification_method": "computed from coordinator-downloaded CSV, provenance research/evidence/series-manifest.json"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Verify holder cohorts and independent demand proxies without circular price-based definitions.",
+      "asset_or_variable": "bitcoin-illiquid-supply",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "076-C22"
+    },
+    {
+      "claim": "Bitcoin faces difficult 2022",
+      "source_blocks": [
+        101,
+        106,
+        179
+      ],
+      "kind": "forecast",
+      "family": "bitcoin-2022-consolidation",
+      "verdict": "mixed",
+      "reason": "The prediction correctly rejected another bullish year and anticipated large swings. Calling the year consolidation understated a fall to $15,755.75; caution was directionally sound, severity less so.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin daily price",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "BTC: $57,471.87 November 28, 2021; $15,755.75 November 21, 2022; first subsequent daily close above $70,000 March 11, 2024.",
+          "verification_method": "computed from coordinator-downloaded CSV, provenance research/evidence/series-manifest.json"
+        }
+      ],
+      "horizon": "2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bitcoin-2022-consolidation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C23"
+    },
+    {
+      "claim": "Taproot expands Lightning functions",
+      "source_blocks": [
+        108
+      ],
+      "kind": "forecast",
+      "family": "taproot-functionality",
+      "verdict": "right",
+      "reason": "Taproot Assets on Lightning launched on mainnet in July 2024. It is a concrete technical delivery; adoption and investment performance remain separate.",
+      "evidence": [
+        {
+          "url": "https://lightning.engineering/posts/2024-07-23-taproot-assets-LN/",
+          "title": "Taproot Assets on Lightning",
+          "publisher": "Lightning Labs",
+          "date": "2024-07-23",
+          "verified": true,
+          "finding": "Multi-asset Lightning protocol released on mainnet, confirming a concrete extension enabled by Taproot.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "taproot-functionality",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C24"
+    },
+    {
+      "claim": "Venture funding sustains development",
+      "source_blocks": [
+        109
+      ],
+      "kind": "forecast",
+      "family": "bitcoin-developer-runway",
+      "verdict": "evidence_needed",
+      "reason": "Funding raised is not the same as runway after cash burn. Need named companies, funding dates and continuity of engineering activity.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Audit venture funding and development continuity through 2022-24.",
+      "asset_or_variable": "bitcoin-developer-runway",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C25"
+    },
+    {
+      "claim": "Brazil has bottomed",
+      "source_blocks": [
+        130
+      ],
+      "kind": "forecast",
+      "family": "brazil-2021-bottom",
+      "verdict": "not_testable",
+      "reason": "The original reports initial signs of a local bottom, not a promise that the price can never fall below January levels. It is a technical observation with tentative modality; subsequent 2022 gains support the trade setup but do not establish a permanent floor.",
+      "evidence": [
+        {
+          "url": "https://www.ishares.com/uk/professionals/en/products/239612/ishares-msci-brazil-etf",
+          "title": "EWZ calendar-year total returns",
+          "publisher": "iShares",
+          "date": null,
+          "verified": true,
+          "finding": "USD total returns:2022+13.2%,2023+31.8%,2024-29.9%,2025+48.2%. These are calendar years, not publication-date trades.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Define the observed base and invalidation level before treating it as a forecast.",
+      "asset_or_variable": "brazil-2021-bottom",
+      "modality": "tentative observation",
+      "confidence": "medium",
+      "direction_assessment": "See qualified outcome in rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C26"
+    },
+    {
+      "claim": "Brazil offers deep value",
+      "source_blocks": [
+        132,
+        147,
+        171
+      ],
+      "kind": "investment_thesis",
+      "family": "brazil-deep-value",
+      "verdict": "not_testable",
+      "reason": "Low multiples across Vale, Petrobras and Itau are valuation observations without a required return or fixed deadline. EWZ gained 13.2% in 2022 and 31.8% in 2023, then lost 29.9% in 2024: supportive episodes are not a precise trade backtest.",
+      "evidence": [
+        {
+          "url": "https://www.ishares.com/uk/professionals/en/products/239612/ishares-msci-brazil-etf",
+          "title": "EWZ calendar-year total returns",
+          "publisher": "iShares",
+          "date": null,
+          "verified": true,
+          "finding": "USD total returns:2022+13.2%,2023+31.8%,2024-29.9%,2025+48.2%. These are calendar years, not publication-date trades.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Several years",
+      "conditions": null,
+      "next_check": "Define entry date, total-return benchmark and sell condition; normalize commodity earnings.",
+      "asset_or_variable": "brazil-deep-value",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Several years",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "076-C27"
+    },
+    {
+      "claim": "Weak dollar benefits Brazil",
+      "source_blocks": [
+        143,
+        154
+      ],
+      "kind": "explanation",
+      "family": "brazil-dollar-commodity-exposure",
+      "verdict": "mixed",
+      "reason": "Dollar debt and commodity exposure create a plausible channel, but Brazil rose in 2022 despite broad USD strength. That contradicts any deterministic reading and shows sector cash flows can outweigh currency stress.",
+      "evidence": [
+        {
+          "url": "https://www.ishares.com/uk/professionals/en/products/239612/ishares-msci-brazil-etf",
+          "title": "EWZ calendar-year total returns",
+          "publisher": "iShares",
+          "date": null,
+          "verified": true,
+          "finding": "USD total returns:2022+13.2%,2023+31.8%,2024-29.9%,2025+48.2%. These are calendar years, not publication-date trades.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+          "title": "Nominal Broad US Dollar Index",
+          "publisher": "Federal Reserve via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Broad dollar index:115.2034 January 24, 2022;128.4539 September 26;121.4256 December 30.",
+          "verification_method": "computed from downloaded CSV; broad index, not DXY"
+        }
+      ],
+      "horizon": null,
+      "conditions": "Dollar weakness and commodity strength",
+      "next_check": null,
+      "asset_or_variable": "brazil-dollar-commodity-exposure",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "076-C28"
+    },
+    {
+      "claim": "Brazil inflation relief helps stocks",
+      "source_blocks": [
+        157,
+        162
+      ],
+      "kind": "forecast",
+      "family": "brazil-tightening-frontloaded",
+      "verdict": "mixed",
+      "reason": "Brazilian inflation and rates did eventually crest, but the anticipated relief was premature: IPCA kept accelerating into April 2022, and Selic hikes continued to 13.75% in August. The later reversal supports the mechanism only with a meaningful timing lag.",
+      "evidence": [
+        {
+          "url": "https://agenciadenoticias.ibge.gov.br/en/agencia-press-room/2185-news-agency/releases-en/36059-ipca-was-0-62-in-december-closes-2022-at-5-79",
+          "title": "December 2022 IPCA",
+          "publisher": "IBGE",
+          "date": "2023-01-10",
+          "verified": true,
+          "finding": "Inflation ended 2022 at 5.79%, far below the midyear double-digit rate.",
+          "verification_method": "indexed official release extract; direct page denied"
+        },
+        {
+          "url": "https://www.bcb.gov.br/en/monetarypolicy/copomstatements/2444",
+          "title": "August 2022 Copom decision",
+          "publisher": "Central Bank of Brazil",
+          "date": null,
+          "verified": true,
+          "finding": "August 2022 decision raised Selic to 13.75%; rate then remained unchanged through year-end.",
+          "verification_method": "indexed official decision and rate-table extracts; direct page JavaScript-only"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Retrieve Banco Central 2022 Selic decisions and IBGE inflation.",
+      "asset_or_variable": "brazil-tightening-frontloaded",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "See qualified outcome in rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C29"
+    },
+    {
+      "claim": "Elections do not dominate returns",
+      "source_blocks": [
+        163,
+        172
+      ],
+      "kind": "explanation",
+      "family": "country-politics-versus-commodity-cycle",
+      "verdict": "not_testable",
+      "reason": "Two presidencies cannot identify the independent effect of ideology. The multi-factor caution is useful, but no quantified causal proposition is offered.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Control commodity cycles, currency, starting valuation and global risk across a larger sample.",
+      "asset_or_variable": "country-politics-versus-commodity-cycle",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "076-C30"
+    },
+    {
+      "claim": "Brazil near-term pullback likely",
+      "source_blocks": [
+        173
+      ],
+      "kind": "forecast",
+      "family": "brazil-january-2022-pullback",
+      "verdict": "evidence_needed",
+      "reason": "This short-term directional call has no explicit duration or drawdown threshold. Daily EWZ data could show whether an immediate consolidation followed, but annual returns cannot.",
+      "evidence": [
+        {
+          "url": "https://www.ishares.com/uk/professionals/en/products/239612/ishares-msci-brazil-etf",
+          "title": "EWZ calendar-year total returns",
+          "publisher": "iShares",
+          "date": null,
+          "verified": true,
+          "finding": "USD total returns:2022+13.2%,2023+31.8%,2024-29.9%,2025+48.2%. These are calendar years, not publication-date trades.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Weeks or months",
+      "conditions": null,
+      "next_check": "Examine January 24-April 2022 price path with a declared consolidation criterion.",
+      "asset_or_variable": "brazil-january-2022-pullback",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Weeks or months",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "076-C31"
+    },
+    {
+      "claim": "China setup remains bullish",
+      "source_blocks": [
+        180
+      ],
+      "kind": "investment_thesis",
+      "family": "china-2022-equity-rebound",
+      "verdict": "wrong",
+      "reason": "MCHI USD total return was-22.5% in 2022, contradicting the near-year rebound stance. This does not settle an indefinite valuation argument.",
+      "evidence": [
+        {
+          "url": "https://www.ishares.com/uk/professionals/en/products/239619/mchi",
+          "title": "iShares MSCI China ETF performance",
+          "publisher": "iShares",
+          "date": null,
+          "verified": true,
+          "finding": "Calendar 2022 total return was negative.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2022 context",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "china-2022-equity-rebound",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2022 context",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "076-C32"
+    },
+    {
+      "claim": "Tesla struggles during 2022",
+      "source_blocks": [
+        22,
+        177
+      ],
+      "kind": "investment_thesis",
+      "family": "2022-expensive-megacap-risk",
+      "verdict": "right",
+      "reason": "From January 24 to December 30, TSLA fell 60.26%, versus SPY falling 11.64%. The named-stock directional caution was correct; neither price data nor the benchmark isolates the causal importance of valuation.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TSLA/history/",
+          "title": "TSLA historical daily market data",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "January 24 to December 30, 2022 adjusted-close return -60.26%; SPY -11.64%. USD vendor dividend/split-adjusted proxy, no fees or taxes.",
+          "verification_method": "computed from coordinator-downloaded research/evidence/market CSV; adjusted-close total-return proxy or split-adjusted close as explicitly stated; no fees or taxes"
+        }
+      ],
+      "horizon": "Full 2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "TSLA",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported on the specified observation or horizon.",
+      "timing_assessment": "Assessed against the stated horizon: Full 2022",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "076-C33",
+      "test_specification": {
+        "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+        "published": "2022-01-23",
+        "requested_endpoint": "2022-12-31",
+        "entry": "2022-01-24",
+        "exit": "2022-12-30",
+        "days": 340,
+        "endpoint_gap_days": 1,
+        "endpoint_covered": true,
+        "instruments": {
+          "TSLA": {
+            "entry_adjusted_close": 310.0,
+            "exit_adjusted_close": 123.18000030517578,
+            "cumulative_return_pct": -60.26451603058845,
+            "annualized_return_pct": -62.89677869766095,
+            "source": "https://finance.yahoo.com/quote/TSLA/history/"
+          },
+          "SPY": {
+            "entry_adjusted_close": 412.8287048339844,
+            "exit_adjusted_close": 364.7676086425781,
+            "cumulative_return_pct": -11.641897869174,
+            "annualized_return_pct": -12.450356475796475,
+            "source": "https://finance.yahoo.com/quote/SPY/history/"
+          }
+        },
+        "excess_percentage_points": -48.62261816141445
+      }
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "PMI trend",
+      "source_blocks": [
+        34,
+        38
+      ],
+      "use": "Policy limits",
+      "image_inspected": false
+    },
+    {
+      "name": "Gold-relative charts",
+      "source_blocks": [
+        51,
+        60
+      ],
+      "use": "Rotation",
+      "image_inspected": false
+    },
+    {
+      "name": "HODL cohorts",
+      "source_blocks": [
+        97,
+        103
+      ],
+      "use": "Supply behavior",
+      "image_inspected": false
+    },
+    {
+      "name": "CAPE and rates",
+      "source_blocks": [
+        144,
+        162
+      ],
+      "use": "Country valuation",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Normalize commodity earnings.",
+    "Separate company solvency from investor access."
+  ],
+  "assessment": "The US-equity and Bitcoin cautions were useful, but Fed-under-tightening and dollar-bearishness were clear misses. This report also changes the inflation call from an explicitly local peak to a headline peak, making June a timing failure. Brazil's supportive annual outcomes do not validate every proposed currency mechanism, and Russian investor risk proved broader than the US-only framing.",
+  "verification_limitations": [
+    "Captured website text is not an authenticated publication-date version.",
+    "Chart-only numerical claims have not been visually verified.",
+    "Selected stock/ETF adjusted-close comparisons are disclosed where used; no reconstructed portfolio backtest has been performed.",
+    "Unresolved verdicts are not forecast failures or successes; no aggregate hit rate is inferred."
+  ]
+}

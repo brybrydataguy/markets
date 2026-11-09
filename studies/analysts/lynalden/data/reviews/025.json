@@ -1,0 +1,978 @@
+{
+  "article_id": "025",
+  "title": "Sberbank (SBRCY) Deep Dive Analysis",
+  "date": "2020-07-05",
+  "source_url": "https://www.lynalden.com/premium-2020-7-5/",
+  "read_complete": true,
+  "summary": "Dollar funding relief and Russian bank value.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "Health capacity constrains reopening",
+      "kind": "explanation",
+      "source_blocks": [
+        6,
+        7,
+        10,
+        11,
+        12,
+        17,
+        18,
+        19,
+        20
+      ],
+      "family": "covid-health-service-constraint",
+      "asset_or_variable": "US services",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Texas explicitly cited increasing hospitalizations and positivity when reversing bar and restaurant opening. This verifies the economic restriction channel, while the article correctly leaves subsequent death rates uncertain rather than predicting them.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://gov.texas.gov/news/post/governor-abbott-takes-executive-action-to-contain-spread-of-covid-19",
+          "title": "Executive action to contain COVID-19",
+          "publisher": "Texas Governor",
+          "date": "2020-06-26",
+          "verified": true,
+          "finding": "Texas cited rising positivity and hospitalizations, closed most bars and reduced restaurant capacity to 50% from June 29."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C01"
+    },
+    {
+      "claim": "Claims imply large worker churn",
+      "kind": "explanation",
+      "source_blocks": [
+        23,
+        26,
+        27,
+        30,
+        34,
+        35
+      ],
+      "family": "ui-claims-persons-confusion",
+      "asset_or_variable": "US employment",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Simultaneous hiring and layoffs are plausible, but claims count benefit weeks and may include backlogs. Comparing those directly to establishment payroll jobs also mixes persons, jobs and coverage; the text acknowledges a mismatch but not its full measurement cause.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://files.gao.gov/reports/GAO-21-265/index.html",
+          "title": "COVID-19 oversight report",
+          "publisher": "GAO",
+          "date": "2021-01-28",
+          "verified": true,
+          "finding": "GAO found continued-claim totals counted weeks, not unique beneficiaries. DOL clarified this in December 2020; backlogs could produce several weeks per person in one report."
+        },
+        {
+          "url": "https://www.bls.gov/covid19/employment-situation-covid19-faq-may-2020.htm",
+          "title": "Pandemic impact on May employment statistics",
+          "publisher": "Bureau of Labor Statistics",
+          "date": "2020-06-05",
+          "verified": true,
+          "finding": "The misclassification discussed concerned household-survey labor-force status. Establishment payrolls count workers paid for any part of the reference pay period, even when absent; unpaid absentees are excluded."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C02"
+    },
+    {
+      "claim": "Recovery rebounds then slows",
+      "kind": "forecast",
+      "source_blocks": [
+        36
+      ],
+      "family": "covid-square-root-recovery",
+      "asset_or_variable": "US employment",
+      "horizon": "multi-year recovery",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Full payroll recovery took until July 2022 in the contemporary release. The rapid initial rebound did not invalidate the multi-year completion forecast. This does not prove a conventional credit-cycle mechanism drove all delays.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: multi-year recovery",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/empsit_08052022.htm",
+          "title": "July 2022 Employment Situation release",
+          "publisher": "Bureau of Labor Statistics",
+          "date": "2022-08-05",
+          "verified": true,
+          "finding": "The release reported payroll employment and unemployment rate had returned to February 2020 levels in July 2022. This is a publication-vintage recovery date, not a claim about subsequently revised payroll history."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C03"
+    },
+    {
+      "claim": "Dollar debts create funding squeezes",
+      "kind": "explanation",
+      "source_blocks": [
+        38,
+        39,
+        40
+      ],
+      "family": "dollar-em-debt",
+      "asset_or_variable": "Offshore dollars",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The Federal Reserve documented severe offshore dollar-funding pressure in March 2020 and the relieving role of central-bank facilities. Trade receipts are one funding source, not the only way borrowers can service dollar liabilities.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/may-2021-funding-risk.htm",
+          "title": "Financial Stability Report: funding risk",
+          "publisher": "Federal Reserve",
+          "date": "2021-05-06",
+          "verified": true,
+          "finding": "March 2020 global dollar funding pressures increased as wholesale funding contracted and hedging/credit-line demand rose. Swap-funded auctions helped foreign banks meet commitments and build liquid assets without selling dollar assets."
+        },
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/2020-06-mpr-part2.htm",
+          "title": "June 2020 Monetary Policy Report, part 2",
+          "publisher": "Federal Reserve",
+          "date": "2020-06-12",
+          "verified": true,
+          "finding": "Investors sold longer Treasuries and MBS for liquid assets; Treasury bid-ask spreads widened and dealer balance-sheet constraints impaired intermediation. Purchases and lending aimed to restore market function."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C04"
+    },
+    {
+      "claim": "Swap lines protect Treasury functioning",
+      "kind": "explanation",
+      "source_blocks": [
+        40,
+        41,
+        42,
+        45,
+        48,
+        49,
+        53,
+        54
+      ],
+      "family": "dollar-swap-backstop",
+      "asset_or_variable": "Offshore funding",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Providing dollars through foreign central banks can reduce forced liquidation and funding premia. The specific $300 bn foreign-sale attribution and every line utilization figure need separate data; effectiveness does not mean swaps alone caused the recovery.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/may-2021-funding-risk.htm",
+          "title": "Financial Stability Report: funding risk",
+          "publisher": "Federal Reserve",
+          "date": "2021-05-06",
+          "verified": true,
+          "finding": "March 2020 global dollar funding pressures increased as wholesale funding contracted and hedging/credit-line demand rose. Swap-funded auctions helped foreign banks meet commitments and build liquid assets without selling dollar assets."
+        },
+        {
+          "url": "https://www.federalreserve.gov/monetarypolicy/2020-06-mpr-part2.htm",
+          "title": "June 2020 Monetary Policy Report, part 2",
+          "publisher": "Federal Reserve",
+          "date": "2020-06-12",
+          "verified": true,
+          "finding": "Investors sold longer Treasuries and MBS for liquid assets; Treasury bid-ask spreads widened and dealer balance-sheet constraints impaired intermediation. Purchases and lending aimed to restore market function."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C05"
+    },
+    {
+      "claim": "Swap lines avoid geopolitical bargaining",
+      "kind": "forecast",
+      "source_blocks": [
+        52,
+        53
+      ],
+      "family": "swap-lines-not-weaponized",
+      "asset_or_variable": "Fed facilities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The article offers an interpretation of 2020 behavior and an undated general expectation. Eligibility is already selective. A future claim needs a concrete withdrawal condition or observed political bargaining, not simply continued low utilization.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "025-C06"
+    },
+    {
+      "claim": "Funding stress could recur",
+      "kind": "forecast",
+      "source_blocks": [
+        55
+      ],
+      "family": "dollar-funding-relapse",
+      "asset_or_variable": "USD",
+      "horizon": "late 2020 or 2021",
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "not_testable",
+      "reason": "A possible double-dip without probability or stress threshold is a risk statement. Do not award a forecast hit for any later volatility.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: late 2020 or 2021",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "025-C07"
+    },
+    {
+      "claim": "Developed foreign stocks are cheaper",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        71,
+        72
+      ],
+      "family": "eafe-relative-value",
+      "asset_or_variable": "EFA SPY",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Sector adjustment is asserted but the decomposition is not supplied. Book ratios depend on accounting and intangibles; depressed 2020 earnings make simple multiples unstable.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconstruct contemporaneous sector-neutral valuation and profitability spreads with fixed index membership.",
+      "id": "025-C08"
+    },
+    {
+      "claim": "Foreign equities match or outperform",
+      "kind": "forecast",
+      "source_blocks": [
+        73
+      ],
+      "family": "2020s-international-equities",
+      "asset_or_variable": "EFA versus SPY",
+      "horizon": "2020s",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The explicit decade is incomplete. Five-year interim adjusted proxies returned EFA 65.19% versus SPY 111.83%, adverse relative evidence that must remain visible rather than substituting the interim window for 2030.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2020s",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EFA/history/",
+          "title": "EFA historical adjusted-close proxy",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "July 6, 2020 to July 3, 2025 adjusted-close proxy: EFA +65.1853%, SPY +111.8282%; annualized 10.5788% and 16.2286%. USD, distributions/splits vendor-adjusted; no investor fees/taxes."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C09"
+    },
+    {
+      "claim": "US fiscal deficits weaken competitiveness",
+      "kind": "explanation",
+      "source_blocks": [
+        74
+      ],
+      "family": "us-external-fiscal-dollar",
+      "asset_or_variable": "USD foreign equities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Deficits, bilateral trade balances and reserve demand do not uniquely identify fair exchange value. Capital productivity, risk premia and saving/investment balances also determine exchange rates; no quantified causal test is given.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "025-C10"
+    },
+    {
+      "claim": "Corporate-tax tailwind may reverse",
+      "kind": "forecast",
+      "source_blocks": [
+        74
+      ],
+      "family": "us-corporate-tax-2020s",
+      "asset_or_variable": "US profits",
+      "horizon": "2020s",
+      "conditions": null,
+      "modality": "likely no further reduction",
+      "verdict": "too_early",
+      "reason": "The decade has not ended. Statutory and effective tax rates differ, and the forecast allows a rise after the election rather than asserting a particular bill. Assess federal/state/global minimum provisions on comparable profit bases.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2020s",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "025-C11"
+    },
+    {
+      "claim": "Foreign markets offer medium-term opportunity",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        75,
+        76
+      ],
+      "family": "eafe-medium-term-value",
+      "asset_or_variable": "EFA VEA",
+      "horizon": "3-5 years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "EFA earned a positive 65.19% five-year adjusted-close proxy, but lagged SPY materially. That supports an absolute opportunity while challenging relative attractiveness; the text does not set an explicit return hurdle or claim every foreign country wins.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 3-5 years",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EFA/history/",
+          "title": "EFA historical adjusted-close proxy",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "July 6, 2020 to July 3, 2025 adjusted-close proxy: EFA +65.1853%, SPY +111.8282%; annualized 10.5788% and 16.2286%. USD, distributions/splits vendor-adjusted; no investor fees/taxes."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C12"
+    },
+    {
+      "claim": "Sberbank possesses a domestic moat",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        80,
+        83,
+        85,
+        86,
+        90,
+        91,
+        92,
+        174
+      ],
+      "family": "sberbank-domestic-moat",
+      "asset_or_variable": "Sberbank",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The issuer remained profitable across subsequent shocks, consistent with franchise strength. Acquiring digital businesses does not automatically prevent competition or earn attractive returns; domestic scale cannot protect foreign ownership rights.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.banktrack.org/download/annual_report_2024_142/sberbank_ar_esg_2024_eng.pdf",
+          "title": "2024 annual report, historical profits",
+          "publisher": "Sberbank (report mirrored by Bank Track)",
+          "date": "2025-06-30",
+          "verified": true,
+          "finding": "Issuer history shows net profits of RUB 760 bn, 1246 bn, 288 bn, 1509 bn and 1580 bn in 2020-24. Positive domestic profits did not ensure ADR access or distributions."
+        },
+        {
+          "url": "https://api.markitdigital.com/jpmadr-public/v1/cms/document?cmsId=520e5773254e470ba09e55b38bd59b9d&sequenceNo=1",
+          "title": "Sberbank final termination announcement",
+          "publisher": "JP Morgan Depositary",
+          "date": "2026-06-08",
+          "verified": true,
+          "finding": "Remaining ADRs became rights to $4.476211 net liquidation proceeds. Underlying sale required a 70% discount to March 13, 2026 MOEX close; mandatory cancellation, reconciliation and holder eligibility matter."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C13"
+    },
+    {
+      "claim": "Historical outperformance supports selection",
+      "kind": "empirical",
+      "source_blocks": [
+        94
+      ],
+      "family": "sberbank-historical-return",
+      "asset_or_variable": "Sberbank versus Russia index",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Chart labels do not identify currency, dividends, exact dates or index survivorship. Need the original plotted series before accepting the nine-year relative return claim.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconstruct ADR and Russian equity benchmark total returns over the exact chart interval.",
+      "id": "025-C14"
+    },
+    {
+      "claim": "State dividend demand aligns holders",
+      "kind": "explanation",
+      "source_blocks": [
+        96,
+        99
+      ],
+      "family": "state-ownership-dividend-alignment",
+      "asset_or_variable": "Sberbank",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The state and minorities can share nominal payout incentives, but the 2022 omission and restricted foreign access show these interests are not fully aligned. State policy can subordinate shareholder distributions.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.banktrack.org/download/annual_report_2024_142/sberbank_ar_esg_2024_eng.pdf",
+          "title": "2024 annual report, dividend history",
+          "publisher": "Sberbank (report mirrored by Bank Track)",
+          "date": "2025-06-30",
+          "verified": true,
+          "finding": "Dividend paid in 2019 was RUB 16; 2020 and 2021 RUB 18.7; none in 2022; 2023 RUB 25; 2024 RUB 33.3. These are payment years and domestic per-share amounts, not assured ADR receipts."
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0705",
+          "title": "U.S. Treasury escalates sanctions on Russia",
+          "publisher": "US Treasury",
+          "date": "2022-04-06",
+          "verified": true,
+          "finding": "Treasury imposed full blocking sanctions on Sberbank. The accompanying executive order prohibited new investment in Russia by US persons."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C15"
+    },
+    {
+      "claim": "Russia reserves provide crisis flexibility",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        106,
+        107,
+        110,
+        111,
+        112,
+        113,
+        114,
+        119,
+        160
+      ],
+      "family": "russia-reserve-strength",
+      "asset_or_variable": "Russia",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Low debt and reserves can buffer an oil shock, but reserve quantity must be separated from accessibility. Subsequent immobilization undermined the assumption that foreign reserve assets always provide usable support; gold holdings are not redeemable currency backing.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0612",
+          "title": "Restrictions on Russian central bank",
+          "publisher": "US Treasury",
+          "date": "2022-02-28",
+          "verified": true,
+          "finding": "US persons were prohibited from transactions with the Russian central bank, immobilizing its assets held in the US or by US persons; international partners also restricted reserve use."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C16"
+    },
+    {
+      "claim": "Floating ruble cushions oil shocks",
+      "kind": "explanation",
+      "source_blocks": [
+        119
+      ],
+      "family": "ruble-oil-release-valve",
+      "asset_or_variable": "Russian economy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Depreciation can lift exporters' ruble receipts and lower dollar labor costs, while raising imported costs and household inflation. It helps adjustment but is a loss for unhedged dollar-based shareholders; the five-year dollar value fell about 10.57%.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://cbr.ru/currency_base/daily/?UniDbQuery.Posted=True&UniDbQuery.To=04.07.2020",
+          "title": "Official exchange rates July 4, 2020",
+          "publisher": "Bank of Russia",
+          "date": "2020-07-03",
+          "verified": true,
+          "finding": "Official rate effective July 4, 2020 was RUB 70.4999 per US dollar."
+        },
+        {
+          "url": "https://www.cbr.ru/currency_base/daily/?UniDbQuery.Posted=True&UniDbQuery.To=05.07.2025",
+          "title": "Official exchange rates July 5, 2025",
+          "publisher": "Bank of Russia",
+          "date": "2025-07-04",
+          "verified": true,
+          "finding": "Official rate effective July 5, 2025 was RUB 78.8354 per US dollar. Relative to July 2020 the ruble lost 10.57% in dollar value; official quotes are not unrestricted executable rates."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C17"
+    },
+    {
+      "claim": "Sberbank survives pandemic profitably",
+      "kind": "forecast",
+      "source_blocks": [
+        100,
+        115,
+        121,
+        122,
+        123,
+        131,
+        161
+      ],
+      "family": "sberbank-profit-resilience",
+      "asset_or_variable": "Sberbank",
+      "horizon": "2020-2022",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Issuer historical figures show positive profits in 2020, 2021 and 2022, with a much larger setback in 2022. This supports the operating resilience proposition, independently of the disastrous access terms for remaining ADR holders.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: 2020-2022",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.banktrack.org/download/annual_report_2024_142/sberbank_ar_esg_2024_eng.pdf",
+          "title": "2024 annual report, historical profits",
+          "publisher": "Sberbank (report mirrored by Bank Track)",
+          "date": "2025-06-30",
+          "verified": true,
+          "finding": "Issuer history shows net profits of RUB 760 bn, 1246 bn, 288 bn, 1509 bn and 1580 bn in 2020-24. Positive domestic profits did not ensure ADR access or distributions."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C18"
+    },
+    {
+      "claim": "Next dividend probably declines",
+      "kind": "forecast",
+      "source_blocks": [
+        129
+      ],
+      "family": "sberbank-near-dividend",
+      "asset_or_variable": "Sberbank payout",
+      "horizon": "next dividend",
+      "conditions": null,
+      "modality": "likely",
+      "verdict": "wrong",
+      "reason": "The next payment in 2020 was RUB 18.7 per ordinary share, up from RUB 16 paid in 2019; the 2021 payment remained RUB 18.7. The later 2022 omission does not rescue the immediate timing call. USD ADR cash and FX can differ from domestic declared payout.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: next dividend",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.banktrack.org/download/annual_report_2024_142/sberbank_ar_esg_2024_eng.pdf",
+          "title": "2024 annual report, dividend history",
+          "publisher": "Sberbank (report mirrored by Bank Track)",
+          "date": "2025-06-30",
+          "verified": true,
+          "finding": "Dividend paid in 2019 was RUB 16; 2020 and 2021 RUB 18.7; none in 2022; 2023 RUB 25; 2024 RUB 33.3. These are payment years and domestic per-share amounts, not assured ADR receipts."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C19"
+    },
+    {
+      "claim": "Dividends subsequently regain growth",
+      "kind": "forecast",
+      "source_blocks": [
+        129,
+        145
+      ],
+      "family": "sberbank-dividend-growth",
+      "asset_or_variable": "Sberbank",
+      "horizon": "years ahead",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Domestic payments eventually exceeded prior levels, but a complete interruption occurred in 2022 and foreign access was impaired. A domestic dividend recovery is not proof that the recommended ADR investor received it.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: years ahead",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.banktrack.org/download/annual_report_2024_142/sberbank_ar_esg_2024_eng.pdf",
+          "title": "2024 annual report, dividend history",
+          "publisher": "Sberbank (report mirrored by Bank Track)",
+          "date": "2025-06-30",
+          "verified": true,
+          "finding": "Dividend paid in 2019 was RUB 16; 2020 and 2021 RUB 18.7; none in 2022; 2023 RUB 25; 2024 RUB 33.3. These are payment years and domestic per-share amounts, not assured ADR receipts."
+        },
+        {
+          "url": "https://api.markitdigital.com/jpmadr-public/v1/cms/document?cmsId=520e5773254e470ba09e55b38bd59b9d&sequenceNo=1",
+          "title": "Sberbank final termination announcement",
+          "publisher": "JP Morgan Depositary",
+          "date": "2026-06-08",
+          "verified": true,
+          "finding": "Remaining ADRs became rights to $4.476211 net liquidation proceeds. Underlying sale required a 70% discount to March 13, 2026 MOEX close; mandatory cancellation, reconciliation and holder eligibility matter."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C20"
+    },
+    {
+      "claim": "Positive real yields aid banks",
+      "kind": "explanation",
+      "source_blocks": [
+        135
+      ],
+      "family": "positive-real-rates-bank-profit",
+      "asset_or_variable": "Russian banks",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Bank margins depend on asset/deposit repricing and credit losses, not solely the central-bank real rate. Higher rates can improve spreads while harming borrowers; an unconditional profitability inference is too broad.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "025-C21"
+    },
+    {
+      "claim": "Cheap-country baskets outperform historically",
+      "kind": "empirical",
+      "source_blocks": [
+        139,
+        140,
+        141
+      ],
+      "family": "country-cape-value-premium",
+      "asset_or_variable": "Global equities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The research citation needs the original country universe, rebalancing, investability constraints and dividend/currency treatment. Removing sanctioned or inaccessible markets after the fact would bias the backtest.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Audit cited study and retain inaccessible holdings in an investable replication.",
+      "id": "025-C22"
+    },
+    {
+      "claim": "Small positions contain tail losses",
+      "kind": "explanation",
+      "source_blocks": [
+        141
+      ],
+      "family": "position-size-tail-risk",
+      "asset_or_variable": "Portfolio",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "For an unlevered standalone sleeve, its loss cannot exceed its invested capital. This is a bounded portfolio identity, not evidence that a basket of cheap countries must have positive expected returns.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Portfolio loss contribution is position weight times asset loss, absent leverage or correlated additional exposures.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "id": "025-C23",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Unlevered position paid in full",
+          "No additional capital commitment, recourse liability or short exposure",
+          "Asset value cannot fall below zero"
+        ],
+        "derivation": "At weight w, value can decline from w times initial portfolio capital to zero. Direct loss is at most w times initial capital. Correlated losses elsewhere remain separate."
+      }
+    },
+    {
+      "claim": "Earnings recover by 2023",
+      "kind": "forecast",
+      "source_blocks": [
+        144
+      ],
+      "family": "sberbank-earnings-recovery",
+      "asset_or_variable": "Sberbank EPS",
+      "horizon": "by 2023",
+      "conditions": null,
+      "modality": "analyst scenario adopted",
+      "verdict": "right",
+      "reason": "The issuer's local profits and per-share figures recovered strongly by 2021 and again in 2023 after a 2022 setback. The by-2023 direction succeeded in ruble accounting terms; this does not resolve dollar ADR returns.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: by 2023",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.banktrack.org/download/annual_report_2024_142/sberbank_ar_esg_2024_eng.pdf",
+          "title": "2024 annual report, historical profits",
+          "publisher": "Sberbank (report mirrored by Bank Track)",
+          "date": "2025-06-30",
+          "verified": true,
+          "finding": "Issuer history shows net profits of RUB 760 bn, 1246 bn, 288 bn, 1509 bn and 1580 bn in 2020-24. Positive domestic profits did not ensure ADR access or distributions."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C24"
+    },
+    {
+      "claim": "Discounted model offers safety margin",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        145,
+        146,
+        147,
+        148,
+        153
+      ],
+      "family": "sberbank-margin-of-safety",
+      "asset_or_variable": "SBRCY",
+      "horizon": "2019-2029 model",
+      "conditions": "Growth and normal exit multiples",
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The 2029 arithmetic endpoint remains future, but the ADR was liquidated earlier on compulsory discounted terms. Remaining holders became entitled to $4.476211, far below the cited near-$12 purchase level before prior dividends. The 12% hurdle did not model loss of access; no exact investor total return is inferred.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2019-2029 model",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://api.markitdigital.com/jpmadr-public/v1/cms/document?cmsId=520e5773254e470ba09e55b38bd59b9d&sequenceNo=1",
+          "title": "Sberbank final termination announcement",
+          "publisher": "JP Morgan Depositary",
+          "date": "2026-06-08",
+          "verified": true,
+          "finding": "Remaining ADRs became rights to $4.476211 net liquidation proceeds. Underlying sale required a 70% discount to March 13, 2026 MOEX close; mandatory cancellation, reconciliation and holder eligibility matter."
+        }
+      ],
+      "next_check": "Reconstruct entry, actual pre-2022 ADR payouts, custody, conversion and liquidation entitlement; do not extend a terminated ADR to 2029.",
+      "id": "025-C25"
+    },
+    {
+      "claim": "Ruble remains flat or strengthens",
+      "kind": "forecast",
+      "source_blocks": [
+        148
+      ],
+      "family": "ruble-five-year-outlook",
+      "asset_or_variable": "RUB/USD",
+      "horizon": "next five years",
+      "conditions": null,
+      "modality": "base case",
+      "verdict": "wrong",
+      "reason": "Official rates moved from RUB 70.4999 per dollar near publication to 78.8354 at the five-year endpoint, a 10.57% decline in ruble dollar value. The hypothesized currency tailwind did not arrive. Capital controls limit executable-rate comparisons.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: next five years",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://cbr.ru/currency_base/daily/?UniDbQuery.Posted=True&UniDbQuery.To=04.07.2020",
+          "title": "Official exchange rates July 4, 2020",
+          "publisher": "Bank of Russia",
+          "date": "2020-07-03",
+          "verified": true,
+          "finding": "Official rate effective July 4, 2020 was RUB 70.4999 per US dollar."
+        },
+        {
+          "url": "https://www.cbr.ru/currency_base/daily/?UniDbQuery.Posted=True&UniDbQuery.To=05.07.2025",
+          "title": "Official exchange rates July 5, 2025",
+          "publisher": "Bank of Russia",
+          "date": "2025-07-04",
+          "verified": true,
+          "finding": "Official rate effective July 5, 2025 was RUB 78.8354 per US dollar. Relative to July 2020 the ruble lost 10.57% in dollar value; official quotes are not unrestricted executable rates."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C26"
+    },
+    {
+      "claim": "Oil weakness threatens bank earnings",
+      "kind": "forecast",
+      "source_blocks": [
+        151,
+        152
+      ],
+      "family": "sberbank-oil-macro-risk",
+      "asset_or_variable": "Sberbank",
+      "horizon": null,
+      "conditions": "Prolonged low oil prices",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "The prolonged-low-oil trigger is not established here. The severe 2022 earnings shock coincided with war and sanctions, so it cannot be counted as a clean confirmation of the specified oil mechanism.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "025-C27"
+    },
+    {
+      "claim": "Sanctions can force unfavorable exits",
+      "kind": "forecast",
+      "source_blocks": [
+        155,
+        156,
+        157,
+        158
+      ],
+      "family": "russian-equity-sanctions-risk",
+      "asset_or_variable": "SBRCY",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "right",
+      "reason": "The depositary confirms mandatory discounted divestment, after US blocking sanctions and program termination. The author explicitly recognized this risk; the criticism concerns confidence in valuation compensation, not failure to mention sanctions. The Canadian-law interpretation is not treated as verified legal advice.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy0705",
+          "title": "U.S. Treasury escalates sanctions on Russia",
+          "publisher": "US Treasury",
+          "date": "2022-04-06",
+          "verified": true,
+          "finding": "Treasury imposed full blocking sanctions on Sberbank. The accompanying executive order prohibited new investment in Russia by US persons."
+        },
+        {
+          "url": "https://api.markitdigital.com/jpmadr-public/v1/cms/document?cmsId=520e5773254e470ba09e55b38bd59b9d&sequenceNo=1",
+          "title": "Sberbank final termination announcement",
+          "publisher": "JP Morgan Depositary",
+          "date": "2026-06-08",
+          "verified": true,
+          "finding": "Remaining ADRs became rights to $4.476211 net liquidation proceeds. Underlying sale required a 70% discount to March 13, 2026 MOEX close; mandatory cancellation, reconciliation and holder eligibility matter."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C28"
+    },
+    {
+      "claim": "Summer stimulus supports risk assets",
+      "kind": "forecast",
+      "source_blocks": [
+        163
+      ],
+      "family": "summer2020-fiscal-catalyst",
+      "asset_or_variable": "US fiscal assets and USD",
+      "horizon": "mid/late summer 2020",
+      "conditions": null,
+      "modality": "likely",
+      "verdict": "mixed",
+      "reason": "The broad follow-on relief act was signed in December, later than the summer/pre-election expectation. Interim executive unemployment assistance existed, so a total absence of summer support would overstate the miss. Equities rose and the dollar fell in the summer, but the proposed legislative catalyst cannot be credited for that timing.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: mid/late summer 2020",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/policy-issues/coronavirus/about-the-cares-act",
+          "title": "CARES and Consolidated Appropriations Acts",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "The subsequent broad relief act passed Congress December 21 and was signed December 27, 2020, after the election rather than during summer."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/SP500",
+          "title": "S&P 500 daily index",
+          "publisher": "S&P Dow Jones Indices via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "June 22 to August 21, 2020: 3117.86 to 3397.16, +8.96%. This operationalizes next couple months using next-trading-close and a two-month endpoint; excludes dividends."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/DTWEXBGS",
+          "title": "Broad nominal dollar index",
+          "publisher": "Federal Reserve via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "June 22 to August 21, 2020: 119.7532 to 117.0572, -2.25%. Broad trade-weighted index is a proxy, not the DXY chart used by the author."
+        }
+      ],
+      "next_check": null,
+      "id": "025-C29"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Claims swaps TED",
+      "source_blocks": [
+        23,
+        45,
+        48
+      ],
+      "use": "Funding",
+      "image_inspected": false
+    },
+    {
+      "name": "CAPE reserves valuation",
+      "source_blocks": [
+        107,
+        136,
+        142
+      ],
+      "use": "Risk",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Cheapness cannot guarantee accessible ownership."
+  ],
+  "assessment": "Sberbank's domestic profitability thesis had support; the investor-access risk overwhelmed a simple low-multiple valuation. The ruble five-year base case missed, while the explicit sanctions warning was borne out. Remaining ADR holders received a nonzero liquidation entitlement in 2026, so calling the position universally worthless would also be wrong. International-equity decade forecasts remain open, with unfavorable five-year relative evidence.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "Public market series are available, but not every investment claim has a defined horizon or reconciled corporate-action-adjusted return. Unverified outcomes remain unscored; macro data use latest available vintages."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "438cc8dd95309365ca99dbff415e8e320bb341ddf15ec06e37cc9b064c7d0d12"
+}

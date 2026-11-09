@@ -1,0 +1,1008 @@
+{
+  "article_id": "178",
+  "title": "Implications of the Fed’s Structural Shift",
+  "date": "2025-12-21",
+  "source_url": "https://www.lynalden.com/premium-2025-12-21/",
+  "read_complete": true,
+  "evaluation_as_of": "2026-11-07",
+  "summary": "Reserve normalization, emerging-market opportunities and metal caution.",
+  "assessment": "Funding conditions improved as expected, and the yuan direction was right. Bitcoin and India floor calls failed. The Terra recap correctly highlights a prescient risk warning but omits an earlier relative-bullish stance. The December metal caution was timely, while the bank Treasury-holdings explanation conflates agencies with sovereign debt.",
+  "claims": [
+    {
+      "claim": "Funding pressure should ease.",
+      "source_blocks": [
+        8,
+        10
+      ],
+      "verdict": "right",
+      "reason": "The SOFR-IORB spread averaged +7.64 basis points before the December shift, +0.77 in Q1 2026 and -2.17 in April-October. Treasury-collateral overnight repo usage also declined on average; that series excludes agency collateral and is not total facility usage. Calendar spikes persisted, so “settle down” fits better than a claim of permanently zero facility use.",
+      "kind": "forecast",
+      "family": "2026-funding-normalization",
+      "asset_or_variable": "2026-funding-normalization",
+      "horizon": "Coming weeks and months",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/SOFR",
+          "title": "SOFR observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Daily common-date spread to IORB: November 1-December 9 +7.64bp; Q1 +0.77bp; April-October -2.17bp."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/IORB",
+          "title": "IORB observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Matched policy remuneration rate."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/RPONTSYD",
+          "title": "RPONTSYD observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Treasury-collateral overnight repo usage averaged $1.89bn in November 1-December 21 and $0.68bn in Q1. This is not total repo usage across eligible collateral."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Coming weeks and months",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C01"
+    },
+    {
+      "claim": "Fed balance-sheet expansion has begun.",
+      "source_blocks": [
+        14,
+        16,
+        18,
+        20,
+        26,
+        27,
+        28,
+        30,
+        32,
+        33,
+        37,
+        38
+      ],
+      "verdict": "right",
+      "reason": "Purchases began December 12. The report explicitly acknowledges that its latest 2026 timing expectation was late, while the older 2024 scenario anticipated 2025. The policy sequence is verified; these revisions belong to one episode, not multiple independent wins.",
+      "kind": "empirical",
+      "family": "qt-end-reserve-management-2025",
+      "asset_or_variable": "qt-end-reserve-management-2025",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchase announcement",
+          "publisher": "New York Fed",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "Purchases began December 12, 2025 to maintain ample reserves; initial monthly amount about $40 billion. Technical reserve supply does not itself establish a change in the interest-rate stance."
+        },
+        {
+          "url": "https://www.newyorkfed.org/newsevents/speeches/2026/per260326",
+          "title": "Early experience with reserve management purchases",
+          "publisher": "New York Fed",
+          "date": "2026-03-26",
+          "verified": true,
+          "finding": "The Desk purchased about $40 billion monthly ahead of expected April tax flows. The objective was maintaining ample reserves."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C02"
+    },
+    {
+      "claim": "The balance sheet reaches roughly $7 trillion.",
+      "source_blocks": [
+        39,
+        40,
+        41,
+        42
+      ],
+      "verdict": "too_early",
+      "reason": "The December 2026 endpoint remains in the future. Fed assets rose from $6.557 trillion on December 17, 2025 to $6.748 trillion on November 4, 2026. The arithmetic is a scenario, not a guaranteed minimum: purchases respond to reserve demand and other liabilities, not a binding 20%-of-GDP rule.",
+      "kind": "forecast",
+      "family": "fed-balance-sheet-7tn-2026",
+      "asset_or_variable": "fed-balance-sheet-7tn-2026",
+      "horizon": "End of 2026",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "WALCL observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "December 17, 2025 $6.557tn; November 4, 2026 $6.748tn."
+        }
+      ],
+      "next_check": "Compare final December balance sheet with the approximate $7tn forecast and the purchase/reinvestment assumptions.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "End of 2026",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C03"
+    },
+    {
+      "claim": "Deficits and purchases reinforce nominal growth.",
+      "source_blocks": [
+        21,
+        22,
+        23,
+        24,
+        40,
+        119,
+        122
+      ],
+      "verdict": "evidence_needed",
+      "reason": "Reserve creation can support settlement and funding, but reserve-management purchases do not mechanically expand bank lending or nominal GDP. A self-reinforcing fiscal causal loop needs evidence on fiscal impulse, credit demand, rates and counterfactual policy. Calling the baseline a minimum overstates what official projections commit to.",
+      "kind": "explanation",
+      "family": "fiscal-monetary-feedback",
+      "asset_or_variable": "fiscal-monetary-feedback",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Separate reserve demand accommodation from identified fiscal and monetary stimulus effects.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C04"
+    },
+    {
+      "claim": "Bitcoin’s November low should hold.",
+      "source_blocks": [
+        45,
+        47,
+        49
+      ],
+      "verdict": "wrong",
+      "reason": "Even using the lower November 21 intraday low of $80,659.81 as a conservative test, Bitcoin breached it on January 31, 2026 at $75,815.88. The source’s November 22 dating may reflect chart conventions. This was a qualified leaning, not certainty, but its directional floor call failed.",
+      "kind": "forecast",
+      "family": "bitcoin-november2025-floor",
+      "asset_or_variable": "bitcoin-november2025-floor",
+      "horizon": "Next few months",
+      "conditions": null,
+      "modality": "leans most likely",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "November 21, 2025 low $80,659.81; January 31, 2026 low $75,815.88."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Next few months",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C05"
+    },
+    {
+      "claim": "Easier policy eventually benefits Bitcoin.",
+      "source_blocks": [
+        50,
+        102
+      ],
+      "verdict": "not_testable",
+      "reason": "No deadline or return threshold defines “eventually.” BTC lost 14.40% through the cutoff despite reserve purchases, and the Fed later raised its policy rate. The long-run liquidity thesis must not absorb every near-term miss without an invalidation condition.",
+      "kind": "forecast",
+      "family": "bitcoin-liquidity-longrun",
+      "asset_or_variable": "bitcoin-liquidity-longrun",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "December 22, 2025-November 6, 2026 -14.40%."
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+          "title": "October 2026 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2026-10-28",
+          "verified": true,
+          "finding": "Target range held at 3.75-4.00%; inflation remained elevated and two voters preferred a further increase."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C06"
+    },
+    {
+      "claim": "Kwon received a fifteen-year sentence.",
+      "source_blocks": [
+        52,
+        90,
+        93
+      ],
+      "verdict": "right",
+      "reason": "DOJ confirms the December 11, 2025 sentence after a guilty plea. It supports the factual recap of a major fraud, not the inference that a specified percentage of the entire crypto industry is fraudulent or useless.",
+      "kind": "empirical",
+      "family": "do-kwon-sentence",
+      "asset_or_variable": "do-kwon-sentence",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.justice.gov/usao-sdny/united-states-v-kwon-23-cr-151-pae-terraform-labs-fraud",
+          "title": "United States v. Kwon",
+          "publisher": "U.S. Department of Justice",
+          "date": "2025-12-11",
+          "verified": true,
+          "finding": "Fifteen-year sentence imposed December 11, 2025."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C07"
+    },
+    {
+      "claim": "Terra’s reflexive support could collapse.",
+      "source_blocks": [
+        58,
+        59,
+        60,
+        65,
+        77,
+        79,
+        80,
+        81,
+        84
+      ],
+      "verdict": "right",
+      "reason": "The May 2022 collapse validates the conditional run mechanism identified before the event. LUNA market value was endogenous support rather than segregated, redeemable collateral. Counting token capitalization as “backing” can overstate resources available during a run.",
+      "kind": "forecast",
+      "family": "terra-2022-run-risk",
+      "asset_or_variable": "terra-2022-run-risk",
+      "horizon": null,
+      "conditions": "Subsidized demand weakens and redemption pressure overwhelms endogenous support",
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2022-november-financial-stability-report-funding-risks.htm",
+          "title": "2022 financial stability report",
+          "publisher": "Federal Reserve",
+          "date": "2022-11-04",
+          "verified": true,
+          "finding": "Reduced lending yields and liquidity shortages preceded the Terra run."
+        },
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2024-73",
+          "title": "Terraform fraud verdict and settlement",
+          "publisher": "SEC",
+          "date": "2024-06-13",
+          "verified": true,
+          "finding": "UST and related tokens collapsed toward zero in May 2022."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C08"
+    },
+    {
+      "claim": "Terra reserves transmit stress to Bitcoin.",
+      "source_blocks": [
+        67,
+        68,
+        70,
+        71,
+        72,
+        85
+      ],
+      "verdict": "mixed",
+      "reason": "Reserve liquidation creates a plausible contagion channel and major BTC transfers occurred during the crisis. Typical UST holders did not have a guaranteed direct BTC redemption right, however, and transferred coins alone do not measure executed market impact. LFG choosing BTC did not prove it was objectively the best reserve asset.",
+      "kind": "explanation",
+      "family": "terra-bitcoin-contagion",
+      "asset_or_variable": "terra-bitcoin-contagion",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2022-november-financial-stability-report-funding-risks.htm",
+          "title": "2022 financial stability report",
+          "publisher": "Federal Reserve",
+          "date": "2022-11-04",
+          "verified": true,
+          "finding": "Reduced lending yields and liquidity shortages preceded the Terra run."
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/261/FSOC-Digital-Assets-Report-2022.pdf",
+          "title": "Digital-asset financial stability risks",
+          "publisher": "FSOC",
+          "date": null,
+          "verified": true,
+          "finding": "Describes Terra reserve arrangements and absence of typical holders’ direct BTC redemption rights."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C09"
+    },
+    {
+      "claim": "The Terra recap establishes consistent caution.",
+      "source_blocks": [
+        54,
+        73,
+        74,
+        86,
+        87,
+        89
+      ],
+      "verdict": "mixed",
+      "reason": "The pre-collapse warnings were real and deserve credit. The recap omits another material part of the April 3 report: block 142 expressed intermediate-term relative bullishness on Terra, Solana and Avalanche versus Ethereum. The risk warning and failed relative thesis must both remain in the record. The May crash also did not mark Bitcoin’s final 2022 low.",
+      "kind": "explanation",
+      "family": "terra-retrospective-completeness",
+      "asset_or_variable": "terra-retrospective-completeness",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.lynalden.com/premium-2022-4-3/",
+          "title": "April 3, 2022 member report, block 142",
+          "publisher": "Lyn Alden",
+          "date": null,
+          "verified": true,
+          "finding": "Contains relative bullish stance alongside the Terra risk discussion."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Bitcoin subsequently made lower lows in June and November 2022."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C10"
+    },
+    {
+      "claim": "Most crypto has no durable use.",
+      "source_blocks": [
+        94,
+        95,
+        96,
+        98,
+        99,
+        101,
+        102
+      ],
+      "verdict": "not_testable",
+      "reason": "Circular leverage is a real risk mechanism, but “99%” has no specified universe or measurement rule. “Destined toward zero” also lacks a deadline. A successful Terra diagnosis cannot establish this claim for every unrelated protocol; stablecoins and tokenized assets are explicitly treated as exceptions.",
+      "kind": "investment_thesis",
+      "family": "crypto-product-market-fit",
+      "asset_or_variable": "crypto-product-market-fit",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C11"
+    },
+    {
+      "claim": "Broad money matters more than reserves.",
+      "source_blocks": [
+        118,
+        119,
+        120
+      ],
+      "verdict": "mixed",
+      "reason": "The distinction between reserve balances and deposit money is useful. But comparing Fed purchase size with total equity market capitalization does not establish a small price effect: marginal discount rates and expected policy can move valuations without a matching cash inflow. Neither money aggregate alone determines returns.",
+      "kind": "explanation",
+      "family": "base-versus-broad-money-asset-prices",
+      "asset_or_variable": "base-versus-broad-money-asset-prices",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C12"
+    },
+    {
+      "claim": "Fiat systems replace defaults with dilution.",
+      "source_blocks": [
+        121
+      ],
+      "verdict": "mixed",
+      "reason": "A flexible monetary base can reduce some liquidity-driven defaults, but private and sovereign defaults still occur under fiat systems. Price levels depend on money demand, output and policy. The contrast describes a tendency, not an accounting identity or a guarantee that nominal IOUs always grow.",
+      "kind": "explanation",
+      "family": "fiat-default-versus-dilution",
+      "asset_or_variable": "fiat-default-versus-dilution",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C13"
+    },
+    {
+      "claim": "Banks hold over $4 trillion of Treasuries.",
+      "source_blocks": [
+        125,
+        130
+      ],
+      "verdict": "wrong",
+      "reason": "The contemporaneous H.8 category was Treasury AND agency securities, about $4.65 trillion. Roughly $2.70 trillion of it was mortgage-backed securities; even all non-MBS holdings were only about $1.95 trillion. Treating the whole category as Treasury debt overstates direct sovereign interest income.",
+      "kind": "explanation",
+      "family": "bank-treasury-agency-conflation",
+      "asset_or_variable": "bank-treasury-agency-conflation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/releases/h8/20251219/",
+          "title": "December 19, 2025 H.8",
+          "publisher": "Federal Reserve",
+          "date": "2025-12-19",
+          "verified": true,
+          "finding": "December 10 holdings: Treasury/agency $4,649.2bn, MBS $2,703.4bn, non-MBS $1,945.8bn."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C14"
+    },
+    {
+      "claim": "More reserves increase banks’ interest income.",
+      "source_blocks": [
+        125,
+        126,
+        127
+      ],
+      "verdict": "mixed",
+      "reason": "At a fixed positive IORB, more reserves raise gross interest income, but reserve supply also depends on currency, TGA and other liabilities. Net profit depends on deposit funding costs and forgone alternative assets. Asset and deposit growth is not automatically shareholder-value creation.",
+      "kind": "explanation",
+      "family": "bank-reserve-income",
+      "asset_or_variable": "bank-reserve-income",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C15"
+    },
+    {
+      "claim": "Regional banks remain attractively priced.",
+      "source_blocks": [
+        124,
+        130,
+        132
+      ],
+      "verdict": "mixed",
+      "reason": "USB gained 12.51%, PNC 9.35% and TFC 0.68% through the cutoff versus SPY 8.21%. The named examples are mixed. High liquid-asset ratios reduce some risks but do not eliminate duration losses, deposit runs or correlated credit exposure.",
+      "kind": "investment_thesis",
+      "family": "regional-bank-value",
+      "asset_or_variable": "regional-bank-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/USB/history/",
+          "title": "USB market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "December 22, 2025-November 6, 2026 +12.51%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/PNC/history/",
+          "title": "PNC market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched +9.35%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/TFC/history/",
+          "title": "TFC market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched +0.68%; SPY +8.21%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C16"
+    },
+    {
+      "claim": "AI will improve bank efficiency.",
+      "source_blocks": [
+        132
+      ],
+      "verdict": "too_early",
+      "reason": "The adoption horizon remains unfinished and no bank-specific cost target is given. Track net savings after technology, oversight and transition costs, with service quality and credit outcomes included.",
+      "kind": "forecast",
+      "family": "bank-ai-efficiency",
+      "asset_or_variable": "bank-ai-efficiency",
+      "horizon": "Coming years",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Coming years",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C17"
+    },
+    {
+      "claim": "Dollar weakness eases emerging-market debt burdens.",
+      "source_blocks": [
+        141,
+        142,
+        143
+      ],
+      "verdict": "right",
+      "reason": "For an unhedged borrower earning local currency and owing fixed dollars, dollar depreciation lowers the local-currency debt burden. Export revenues, hedges and local borrowing can offset or reverse exposure. A weaker exchange rate is not itself proof of abundant funding everywhere.",
+      "kind": "explanation",
+      "family": "dollar-debt-currency-mismatch",
+      "asset_or_variable": "dollar-debt-currency-mismatch",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Fixed dollar obligation",
+          "Local-currency income",
+          "No offsetting dollar assets or hedge"
+        ],
+        "derivation": "Local-currency obligation equals dollars owed times local currency per dollar; a lower conversion rate reduces the burden."
+      },
+      "id": "178-C18"
+    },
+    {
+      "claim": "US deficits and purchases weaken the dollar.",
+      "source_blocks": [
+        144
+      ],
+      "verdict": "mixed",
+      "reason": "The broad directional mechanism is not deterministic: exchange rates reflect relative growth, rates, risk and capital flows. Fed purchases can coexist with dollar strength. The prediction of slower AI-related foreign inflows needs transaction-level portfolio evidence rather than market-cap changes.",
+      "kind": "forecast",
+      "family": "us-deficits-dollar-direction",
+      "asset_or_variable": "us-deficits-dollar-direction",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C19"
+    },
+    {
+      "claim": "Latin America still offers value.",
+      "source_blocks": [
+        145
+      ],
+      "verdict": "right",
+      "reason": "ITUB gained 9.45% and CPA 19.77% through the cutoff versus SPY 8.21%, favorable interim evidence for the named selections. These do not establish returns for an unspecified Latin American portfolio or eliminate political and currency risk.",
+      "kind": "investment_thesis",
+      "family": "latin-america-value",
+      "asset_or_variable": "latin-america-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ITUB/history/",
+          "title": "ITUB market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "December 22, 2025-November 6, 2026 +9.45%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/CPA/history/",
+          "title": "CPA market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched +19.77%; SPY +8.21%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C20"
+    },
+    {
+      "claim": "India’s equity lows are in.",
+      "source_blocks": [
+        148,
+        150
+      ],
+      "verdict": "wrong",
+      "reason": "The INDA proxy breached its 2025 intraday low of $47.60 on March 19, 2026 and reached $45.21 on March 30. The separate multi-year growth thesis remains open, but the specific floor call failed.",
+      "kind": "forecast",
+      "family": "india-december2025-floor",
+      "asset_or_variable": "india-december2025-floor",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/INDA/history/",
+          "title": "INDA market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "2025 low $47.60; March 19, 2026 low $46.98; March 30 low $45.21."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C21"
+    },
+    {
+      "claim": "India has attractive multi-year prospects.",
+      "source_blocks": [
+        148,
+        150
+      ],
+      "verdict": "too_early",
+      "reason": "The years-ahead horizon remains open. INDA lost 6.09% and INFY 33.35% through the cutoff versus SPY +8.21%. Demographic and economic growth do not automatically translate into shareholder returns; the article correctly recognizes starting valuation as a separate constraint.",
+      "kind": "investment_thesis",
+      "family": "india-late2025-multiyear",
+      "asset_or_variable": "india-late2025-multiyear",
+      "horizon": "Years ahead",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/INDA/history/",
+          "title": "INDA market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "December 22, 2025-November 6, 2026 -6.09%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/INFY/history/",
+          "title": "INFY market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched -33.35%; SPY +8.21%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Years ahead",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C22"
+    },
+    {
+      "claim": "USD/CNY has probably peaked.",
+      "source_blocks": [
+        153
+      ],
+      "verdict": "right",
+      "reason": "The exchange rate moved from 7.0409 yuan per dollar on December 19, 2025 to 6.6538 on October 30, 2026, supporting the anticipated yuan strengthening through the cutoff. This does not guarantee a permanent peak or prove that the Fed cycle is its only driver.",
+      "kind": "forecast",
+      "family": "yuan-2025-strengthening",
+      "asset_or_variable": "yuan-2025-strengthening",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DEXCHUS",
+          "title": "DEXCHUS observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "December 19, 2025 7.0409; October 30, 2026 6.6538 yuan per dollar."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C23"
+    },
+    {
+      "claim": "JD and Pinduoduo offer value.",
+      "source_blocks": [
+        155,
+        158
+      ],
+      "verdict": "mixed",
+      "reason": "JD gained 3.64% while PDD lost 25.81% through the cutoff, both behind SPY 8.21%. The undated forward-value thesis is not settled by one window, but interim outcomes do not support a broad successful selection claim. Position sizing addresses exposure, not valuation accuracy.",
+      "kind": "investment_thesis",
+      "family": "china-ecommerce-value",
+      "asset_or_variable": "china-ecommerce-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/JD/history/",
+          "title": "JD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "December 22, 2025-November 6, 2026 +3.64%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/PDD/history/",
+          "title": "PDD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched -25.81%; SPY +8.21%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C24"
+    },
+    {
+      "claim": "Oil benefits from easier liquidity and restrained supply.",
+      "source_blocks": [
+        160,
+        162,
+        164,
+        165,
+        166,
+        167
+      ],
+      "verdict": "mixed",
+      "reason": "XOM gained 43.21% through the cutoff, a favorable energy-equity outcome. The report correctly says a high gold/oil ratio alone is insufficient. Subsequent geopolitical supply disruption complicates attribution to the original easing-and-demand thesis, and the Fed did not keep cutting throughout 2026.",
+      "kind": "investment_thesis",
+      "family": "energy-versus-gold-value",
+      "asset_or_variable": "energy-versus-gold-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/XOM/history/",
+          "title": "XOM market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "December 22, 2025-November 6, 2026 +43.21%; SPY +8.21%."
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+          "title": "October 2026 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2026-10-28",
+          "verified": true,
+          "finding": "Target range held at 3.75-4.00%; inflation remained elevated and two voters preferred a further increase."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C25"
+    },
+    {
+      "claim": "Metals now warrant caution and rebalancing.",
+      "source_blocks": [
+        169,
+        170,
+        171,
+        183,
+        185,
+        187,
+        189,
+        190,
+        193,
+        194,
+        195,
+        196
+      ],
+      "verdict": "right",
+      "reason": "The tactical caution was supported: GLD, SLV and PPLT lost 8.75%, 24.97% and 27.73% through the cutoff. The report remained a holder, so this is not a verified profitable exit. Silver’s $40/$100 possibilities are scenarios without probabilities or deadlines, not two separate targets.",
+      "kind": "investment_thesis",
+      "family": "metals-december2025-caution",
+      "asset_or_variable": "metals-december2025-caution",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "December 22, 2025-November 6, 2026 -8.75%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SLV/history/",
+          "title": "SLV market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched -24.97%."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/PPLT/history/",
+          "title": "PPLT market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Matched -27.73%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C26"
+    },
+    {
+      "claim": "Metals are fairly valued rather than expensive.",
+      "source_blocks": [
+        193,
+        194,
+        195
+      ],
+      "verdict": "not_testable",
+      "reason": "The report supplies no cash-flow, opportunity-cost or scarcity model that defines fair value. The later decline does not alone prove overvaluation, but neither does the earlier rally establish a move to a justified equilibrium.",
+      "kind": "investment_thesis",
+      "family": "precious-metals-fair-value",
+      "asset_or_variable": "precious-metals-fair-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "178-C27"
+    }
+  ],
+  "coverage_note": "Full numbered text and image inventory read. All material theses across macro, digital assets, investment analysis and concluding sections considered. Position listings and incidental descriptive statistics are excluded unless they support a thesis.",
+  "tools_charts": [
+    {
+      "name": "SOFR-IORB and repo usage",
+      "source_blocks": [
+        10
+      ],
+      "use": "Measure average normalization and calendar spikes separately",
+      "image_inspected": false
+    },
+    {
+      "name": "Fed assets/GDP projection",
+      "source_blocks": [
+        39,
+        41
+      ],
+      "use": "Scenario assumptions are not policy commitments",
+      "image_inspected": false
+    },
+    {
+      "name": "Terra endogenous support ratios",
+      "source_blocks": [
+        60,
+        77,
+        79
+      ],
+      "use": "Market capitalization is not liquid collateral",
+      "image_inspected": false
+    },
+    {
+      "name": "Bank Treasury/agency holdings",
+      "source_blocks": [
+        125,
+        130
+      ],
+      "use": "Keep Treasury debt distinct from agency MBS",
+      "image_inspected": false
+    },
+    {
+      "name": "Commodity relative-price ratios",
+      "source_blocks": [
+        160,
+        162,
+        165
+      ],
+      "use": "Useful comparison, insufficient valuation rule",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Preserve the complete original thesis when evaluating retrospective success stories.",
+    "Separate a failed near-term floor from a still-open multi-year investment case."
+  ],
+  "verification_limitations": [
+    "Current page snapshot is not an authenticated publication-date version.",
+    "A missing horizon is not replaced with an invented author deadline.",
+    "Market sensitivities use vendor adjusted closes and do not reconstruct portfolio execution."
+  ]
+}

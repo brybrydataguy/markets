@@ -1,0 +1,1192 @@
+{
+  "article_id": "124",
+  "title": "Energy Sector Checkup",
+  "date": "2023-11-26",
+  "source_url": "https://www.lynalden.com/premium-2023-11-26/",
+  "read_complete": true,
+  "summary": "Liquidity improves; energy serves as portfolio insurance.",
+  "coverage_note": "Read all blocks 0-117 and 23 image labels. Reviewed monetary-measure definitions, business-cycle indicators, Bitcoin accumulation and market history, Binance implications, Argentina contingencies, energy supply constraints, correlations, EPD income and gold horizons. Chart series were not visually inspected.",
+  "claims": [
+    {
+      "id": "124-C01",
+      "claim": "Liquidity improvement",
+      "kind": "empirical",
+      "source_blocks": [
+        8,
+        11
+      ],
+      "family": "domestic-liquidity",
+      "asset_or_variable": "domestic-liquidity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The consistent Wednesday proxy increased $200.398 bn from October 25 to November 22. RRP then reached $865.907 bn on November 24, supporting the reported approximate level.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "WALCL downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Constructed liquidity WALCL-WTREGEN-1000*RRPONTSYD, all Wednesday observations in $m: October 25 2023 5,972,795; November 22 6,173,193; February 21 2024 6,221,336. WTREGEN and RRPONTSYD are separately sourced at their FRED series pages. The first month rose $200.398 bn and next three months $48.143 bn; this is a proxy, not all-system liquidity. Latest vintage, cutoff November 7 2026."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/RRPONTSYD",
+          "title": "RRPONTSYD downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "November 24 2023 reverse repo $865.907 bn. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C02",
+      "claim": "Issuance composition",
+      "kind": "empirical",
+      "source_blocks": [
+        10
+      ],
+      "family": "treasury-maturity-management",
+      "asset_or_variable": "treasury-maturity-management",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Treasury slowed the pace of long-tenor increases, but bills were to decline modestly in December. The article describes a relative share surprise; actual issuance sizes should not be conflated with market expectations.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy1864",
+          "title": "November 2023 refunding",
+          "publisher": "U.S. Treasury",
+          "date": "2023-11-01",
+          "verified": true,
+          "finding": "Treasury increased coupon auctions, with a more moderate increase in longer tenors. Bills would remain at current auction sizes until late November, then decline modestly. This confirms a relative maturity adjustment, not abandonment of long-bond issuance."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C03",
+      "claim": "RRP cushion",
+      "kind": "explanation",
+      "source_blocks": [
+        11,
+        13
+      ],
+      "family": "rrp-qt-offset",
+      "asset_or_variable": "rrp-qt-offset",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The constructed proxy supports an offset during this interval. Purchaser identity, TGA spending and reserve distribution matter, so RRP drainage is not automatically an equal injection into every funding market.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "WALCL downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Constructed liquidity WALCL-WTREGEN-1000*RRPONTSYD, all Wednesday observations in $m: October 25 2023 5,972,795; November 22 6,173,193; February 21 2024 6,221,336. WTREGEN and RRPONTSYD are separately sourced at their FRED series pages. The first month rose $200.398 bn and next three months $48.143 bn; this is a proxy, not all-system liquidity. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C04",
+      "claim": "Post-RRP fragility",
+      "kind": "forecast",
+      "source_blocks": [
+        13
+      ],
+      "family": "qt-end-liquidity",
+      "asset_or_variable": "qt-end-liquidity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "QT eventually ended and reserve-management buying followed in late 2025. That supports a finite reserve-buffer interpretation, but the article supplies no stress threshold and a technical policy adjustment is not proof of a crisis.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2025-10-29",
+          "verified": true,
+          "finding": "FOMC announced aggregate securities runoff would conclude December 1 2025."
+        },
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_251210a",
+          "title": "Reserve management purchases",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "The Desk announced $40 billion of initial bill purchases starting December 12, to maintain ample reserves. This is not itself evidence of deficit monetization as the causal motive."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C05",
+      "claim": "Global dollar measure",
+      "kind": "explanation",
+      "source_blocks": [
+        14,
+        16
+      ],
+      "family": "global-m2-dollar",
+      "asset_or_variable": "global-m2-dollar",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "An eight-country dollar aggregate combines local money growth with FX translation. The composition and weights must be known; movements are not a pure quantity-of-credit measure.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "124-C06",
+      "claim": "Gilt intervention",
+      "kind": "empirical",
+      "source_blocks": [
+        18
+      ],
+      "family": "uk-bond-liquidity",
+      "asset_or_variable": "uk-bond-liquidity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The Bank announced temporary long-gilt purchases September 28, 2022 explicitly for market dysfunction. This confirms the intervention, not a claim that every bond market faced the same mechanism.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bankofengland.co.uk/news/2022/september/bank-of-england-announces-gilt-market-operation",
+          "title": "Temporary gilt operation",
+          "publisher": "Bank of England",
+          "date": "2022-09-28",
+          "verified": true,
+          "finding": "Bank announced temporary purchases of long-dated government bonds to address market dysfunction and financial-stability risk."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C07",
+      "claim": "Treasury caused rebound",
+      "kind": "explanation",
+      "source_blocks": [
+        18,
+        25
+      ],
+      "family": "liquidity-asset-causality",
+      "asset_or_variable": "liquidity-asset-causality",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "TGA drainage and rising asset prices can coincide without proving Treasury actions caused the rebound. Inflation news, earnings and expected rates are competing explanations.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "124-C08",
+      "claim": "Alternative money",
+      "kind": "explanation",
+      "source_blocks": [
+        19,
+        21
+      ],
+      "family": "money-aggregate-definition",
+      "asset_or_variable": "money-aggregate-definition",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Adding deposits and fund shares can double-count fund-held deposits and other intermediated claims. A claim that overlap is small requires consolidated holdings data, not a few fund examples.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use contemporaneous ICI and Financial Accounts sector holdings to subtract fund-held deposits and other overlaps; disclose which institutions and money-market shares are included."
+    },
+    {
+      "id": "124-C09",
+      "claim": "Near-money function",
+      "kind": "explanation",
+      "source_blocks": [
+        22
+      ],
+      "family": "near-money-liquidity",
+      "asset_or_variable": "near-money-liquidity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Short maturity and low volatility support a savings role, but instruments differ in settlement, credit and redemption rights. A money-like label does not imply equal spendability in stress.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "124-C10",
+      "claim": "Wealth record",
+      "kind": "empirical",
+      "source_blocks": [
+        23
+      ],
+      "family": "household-balance-sheet",
+      "asset_or_variable": "household-balance-sheet",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The September release reported Q2 household/nonprofit net worth of $154.282 tn, above the prior peak. Wealth is broader than money and unevenly distributed.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/releases/z1/20230908/z1.pdf",
+          "title": "Q2 2023 Financial Accounts",
+          "publisher": "Federal Reserve",
+          "date": "2023-09-08",
+          "verified": true,
+          "finding": "Household and nonprofit net worth reached $154.282 tn in Q2 2023, above prior Q1 2022 peak $152.487 tn. Equity and real-estate valuation gains contributed; this is not liquid purchasing power or median household wealth."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C11",
+      "claim": "Months liquidity advance",
+      "kind": "forecast",
+      "source_blocks": [
+        25
+      ],
+      "family": "liquidity-near-term",
+      "asset_or_variable": "liquidity-near-term",
+      "horizon": "Next few months",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The proxy rose another $48.143 bn between November 22 and February 21; SPY gained 11.79% and BTC 46.35% over an approximately three-month postpublication window. This supports the stated near-term continuation, while causality remains unproven.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Next few months",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "WALCL downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Constructed liquidity WALCL-WTREGEN-1000*RRPONTSYD, all Wednesday observations in $m: October 25 2023 5,972,795; November 22 6,173,193; February 21 2024 6,221,336. WTREGEN and RRPONTSYD are separately sourced at their FRED series pages. The first month rose $200.398 bn and next three months $48.143 bn; this is a proxy, not all-system liquidity. Latest vintage, cutoff November 7 2026."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "SPY adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-11-26\",\"requested_endpoint\":\"2024-02-26\",\"entry\":\"2023-11-27\",\"exit\":\"2024-02-26\",\"days\":91,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"SPY\":{\"entry_adjusted_close\":438.30145263671875,\"exit_adjusted_close\":489.95623779296875,\"cumulative_return_pct\":11.78521879074481,\"annualized_return_pct\":56.387538964056525,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":0.0}"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-11-26\",\"requested_endpoint\":\"2024-02-26\",\"entry\":\"2023-11-27\",\"exit\":\"2024-02-26\",\"days\":91,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"BTC-USD\":{\"entry_adjusted_close\":37254.16796875,\"exit_adjusted_close\":54522.40234375,\"cumulative_return_pct\":46.35248971198378,\"annualized_return_pct\":361.1820966244636,\"source\":\"https://finance.yahoo.com/quote/BTC-USD/history/\"},\"SPY\":{\"entry_adjusted_close\":438.30145263671875,\"exit_adjusted_close\":489.95623779296875,\"cumulative_return_pct\":11.78521879074481,\"annualized_return_pct\":56.387538964056525,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":34.56727092123897}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C12",
+      "claim": "Real slowdown",
+      "kind": "explanation",
+      "source_blocks": [
+        28
+      ],
+      "family": "real-nominal-growth",
+      "asset_or_variable": "real-nominal-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Growth below an appropriate price deflator implies falling real volume. Applying general CPI indiscriminately to construction, capital orders, exports and imports can misclassify real growth because sector prices differ.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Nominal quantity index growth g",
+          "Matching sector price growth p"
+        ],
+        "derivation": "Real growth = (1+g)/(1+p)-1, negative if g<p. CPI is not necessarily the matching p."
+      }
+    },
+    {
+      "id": "124-C13",
+      "claim": "Fiscal construction support",
+      "kind": "explanation",
+      "source_blocks": [
+        28,
+        48
+      ],
+      "family": "fiscal-industrial-policy",
+      "asset_or_variable": "fiscal-industrial-policy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Federal incentives can support construction, but allocating the increase specifically to the Inflation Reduction Act requires distinguishing CHIPS, infrastructure legislation and private demand.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "124-C14",
+      "claim": "LEI stabilization",
+      "kind": "forecast",
+      "source_blocks": [
+        44,
+        46,
+        48
+      ],
+      "family": "leading-indicators",
+      "asset_or_variable": "leading-indicators",
+      "horizon": null,
+      "conditions": null,
+      "modality": "potential",
+      "verdict": "evidence_needed",
+      "reason": "Potential stabilization is a low-conviction turning-point statement. It needs the publication-era LEI level and subsequent revisions; a later recession outcome alone does not test the slope claim.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare October 2023 LEI six-month and year-over-year changes with the next six releases using archived Conference Board vintages."
+    },
+    {
+      "id": "124-C15",
+      "claim": "Travel resilience",
+      "kind": "empirical",
+      "source_blocks": [
+        49
+      ],
+      "family": "services-resilience",
+      "asset_or_variable": "services-resilience",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "TSA records show exceptional 2023 traffic, including a November 26 record. Screening volumes support demand resilience, though the record occurred on publication day and may not have been known when drafted.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.prnewswire.com/news-releases/2023-year-in-review-tsa-highlights-a-year-of-innovation-and-improvements-to-security-effectiveness-efficiency-and-the-passenger-experience-302033943.html",
+          "title": "2023 TSA year in review",
+          "publisher": "TSA via PR Newswire",
+          "date": "2024-01-12",
+          "verified": true,
+          "finding": "TSA reported 2.9 m passengers screened on the Sunday after Thanksgiving 2023 and seven of its ten busiest historical days occurred in 2023. Passenger screening is not unique persons or flight profitability."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C16",
+      "claim": "Two economies",
+      "kind": "explanation",
+      "source_blocks": [
+        49
+      ],
+      "family": "fiscal-private-divergence",
+      "asset_or_variable": "fiscal-private-divergence",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Sector exposure to spending and rates is useful, but a binary fiscal-recipient versus tightening-recipient classification ignores firms and households exposed to both.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "124-C17",
+      "claim": "Institutional accumulation",
+      "kind": "explanation",
+      "source_blocks": [
+        52
+      ],
+      "family": "bitcoin-market-microstructure",
+      "asset_or_variable": "bitcoin-market-microstructure",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The inferred automated buyer behavior is not observable from the price chart alone. A price rally does not identify beneficial owners or execution algorithms.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use exchange order flow, validated entity tags and contemporaneous fund disclosures to test accumulation around November 2023."
+    },
+    {
+      "id": "124-C18",
+      "claim": "Plus Token cycle",
+      "kind": "explanation",
+      "source_blocks": [
+        54
+      ],
+      "family": "crypto-ponzi-price-effects",
+      "asset_or_variable": "crypto-ponzi-price-effects",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Ponzi-related flows can influence markets, but attribution of the 2018-2019 price cycle requires tagged-wallet sales and controlled timing analysis.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare independently attributed Plus Token inflows and exchange transfers with BTC liquidity and returns; separate custody transfers from completed sales."
+    },
+    {
+      "id": "124-C19",
+      "claim": "Trading underperforms",
+      "kind": "explanation",
+      "source_blocks": [
+        55,
+        56
+      ],
+      "family": "bitcoin-behavioral-timing",
+      "asset_or_variable": "bitcoin-behavioral-timing",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The warning about waiting for perfect entries is plausible but needs a specified cohort and strategies. Survivorship and hindsight can make both successful holders and failed traders appear more common.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "124-C20",
+      "claim": "Bitcoin constructive",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        56
+      ],
+      "family": "bitcoin-bullish",
+      "asset_or_variable": "bitcoin-bullish",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The disclosed postpublication return supports positive direction, but the undated structural view has no terminal test. Position size and DCA schedule are not known, so this is not portfolio performance.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-11-26\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-11-27\",\"exit\":\"2026-11-06\",\"days\":1075,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"BTC-USD\":{\"entry_adjusted_close\":37254.16796875,\"exit_adjusted_close\":75746.9296875,\"cumulative_return_pct\":103.32471188469161,\"annualized_return_pct\":27.266172839647517,\"source\":\"https://finance.yahoo.com/quote/BTC-USD/history/\"},\"SPY\":{\"entry_adjusted_close\":438.30145263671875,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":67.75896443053328,\"annualized_return_pct\":19.21774363760833,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":35.56574745415833}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C21",
+      "claim": "Binance resolution",
+      "kind": "empirical",
+      "source_blocks": [
+        62
+      ],
+      "family": "binance-enforcement",
+      "asset_or_variable": "binance-enforcement",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "DOJ confirms the guilty pleas, CEO resignation, penalties above $4 bn and compliance monitor. The account of the resolution is supported.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.justice.gov/usao-wdwa/pr/binance-and-ceo-plead-guilty-federal-charges-4b-resolution",
+          "title": "Binance guilty pleas",
+          "publisher": "DOJ",
+          "date": "2023-11-21",
+          "verified": true,
+          "finding": "Binance pleaded guilty to Bank Secrecy Act, registration and sanctions offenses; resolution exceeded $4 bn, CEO resigned, and independent compliance monitoring was required. This was not a public solvency audit or safety certification."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C22",
+      "claim": "Binance scrutiny",
+      "kind": "explanation",
+      "source_blocks": [
+        62
+      ],
+      "family": "exchange-solvency-inference",
+      "asset_or_variable": "exchange-solvency-inference",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "A monitor supports closer compliance scrutiny. The plea agreement is not a public audit establishing sufficient reserves or immunity to operational losses; the article should not be read as such a certificate.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.justice.gov/usao-wdwa/pr/binance-and-ceo-plead-guilty-federal-charges-4b-resolution",
+          "title": "Binance guilty pleas",
+          "publisher": "DOJ",
+          "date": "2023-11-21",
+          "verified": true,
+          "finding": "Binance pleaded guilty to Bank Secrecy Act, registration and sanctions offenses; resolution exceeded $4 bn, CEO resigned, and independent compliance monitoring was required. This was not a public solvency audit or safety certification."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C23",
+      "claim": "BNB support",
+      "kind": "empirical",
+      "source_blocks": [
+        63
+      ],
+      "family": "bnb-price-support",
+      "asset_or_variable": "bnb-price-support",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "This is a contemporaneous observation around $200, not an explicit future floor forecast.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Check BNB daily and intraday prices around November 21-26, 2023; do not extend the support claim indefinitely."
+    },
+    {
+      "id": "124-C24",
+      "claim": "Argentina crypto impact",
+      "kind": "forecast",
+      "source_blocks": [
+        67
+      ],
+      "family": "argentina-monetary-policy",
+      "asset_or_variable": "argentina-monetary-policy",
+      "horizon": null,
+      "conditions": "Monetary liberalization",
+      "modality": "could",
+      "verdict": "not_testable",
+      "reason": "The author explicitly recognizes coalition constraints and uncertain reform. Potential crypto effects have neither a measurable adoption threshold nor a timeline; no firm dollarization prediction is made.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "124-C25",
+      "claim": "Energy allocation",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        84,
+        100
+      ],
+      "family": "energy-equities-bullish",
+      "asset_or_variable": "energy-equities-bullish",
+      "horizon": "3-5 years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The minimum three-year endpoint is November 26, 2026, after this audit. Interim XLE return of 60.08% versus SPY 67.76% is disclosed, but the complete 3-5 year view is not yet resolved.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "3-5 years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/XLE/history/",
+          "title": "XLE adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-11-26\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-11-27\",\"exit\":\"2026-11-06\",\"days\":1075,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"XLE\":{\"entry_adjusted_close\":38.492950439453125,\"exit_adjusted_close\":61.619998931884766,\"cumulative_return_pct\":60.081257031229555,\"annualized_return_pct\":17.335180070810985,\"source\":\"https://finance.yahoo.com/quote/XLE/history/\"},\"SPY\":{\"entry_adjusted_close\":438.30145263671875,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":67.75896443053328,\"annualized_return_pct\":19.21774363760833,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-7.677707399303728}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C26",
+      "claim": "Energy hedge",
+      "kind": "explanation",
+      "source_blocks": [
+        85,
+        86,
+        87
+      ],
+      "family": "energy-stock-bond-correlation",
+      "asset_or_variable": "energy-stock-bond-correlation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Energy served as a useful inflation-shock diversifier in 2022, but it was not negatively correlated with SPY on daily returns: correlation 0.44, versus SPY/TLT 0.08. Both remained positive in the subsequent windows. A useful regime hedge differs from a reliable inverse day-to-day relationship.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/XLE/history/",
+          "title": "Energy and Treasury hedge correlations",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Pearson correlations of matched daily log adjusted-close returns: calendar 2022 SPY/XLE 0.44060, SPY/TLT 0.08357, n=251. December 30, 2022-November 24, 2023: 0.38933 and 0.13080, n=226. November 27, 2023-November 6, 2026: 0.30546 and 0.11695, n=739. Pairwise common trading days, USD vendor-adjusted prices; frequency-dependent association, not causal hedge attribution."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C27",
+      "claim": "Recession co-decline",
+      "kind": "forecast",
+      "source_blocks": [
+        89
+      ],
+      "family": "energy-demand-cycle",
+      "asset_or_variable": "energy-demand-cycle",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The condition is plausible but neither recession severity nor drawdown magnitude is specified. A risk scenario is not a dated prediction of a recession.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "124-C28",
+      "claim": "Shale dominance",
+      "kind": "empirical",
+      "source_blocks": [
+        90
+      ],
+      "family": "global-oil-supply-growth",
+      "asset_or_variable": "global-oil-supply-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The wording refers to all energy although the discussion is oil. Oil growth, total liquids and total primary energy have different denominators; shale cannot be assumed to explain all energy growth.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Calculate 2013-2023 world crude and liquids changes versus US tight-oil changes, separately from gas, coal, nuclear and renewable energy growth."
+    },
+    {
+      "id": "124-C29",
+      "claim": "Rig-count limits",
+      "kind": "explanation",
+      "source_blocks": [
+        91,
+        93
+      ],
+      "family": "shale-production-constraints",
+      "asset_or_variable": "shale-production-constraints",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Rigs are informative, and DUCs can buffer drilling declines. EIA found record 2023 and 2024 output despite fewer rigs, with productivity a major driver; reduced drilling did not rapidly force a production top.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/todayinEnergy/detail.php?id=61523",
+          "title": "More productive wells raise output",
+          "publisher": "EIA",
+          "date": "2024-03-05",
+          "verified": true,
+          "finding": "December 2023 crude output averaged 13.3 mb/d, 0.3 mb/d above November 2019 peak. Higher new-well productivity and sustained legacy production supported output despite falling rigs."
+        },
+        {
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=64124",
+          "title": "Efficiency permits fewer rigs",
+          "publisher": "EIA",
+          "date": "2024-12-23",
+          "verified": true,
+          "finding": "Lower-48 onshore production estimated 11.3 mb/d November 2024, up 3% year over year, despite 18% fewer primary-region rigs than January 2023. Technology and operational gains reduced reliance on rig counts."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C30",
+      "claim": "DUC drawdown",
+      "kind": "empirical",
+      "source_blocks": [
+        93
+      ],
+      "family": "shale-duc-inventory",
+      "asset_or_variable": "shale-duc-inventory",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A historical inventory low and its production contribution need the then-current DPR vintage. Revisions and changes in minimum economic inventory make raw comparisons imperfect.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Retrieve November 2023 EIA DPR DUC counts by basin and completions; test the since-2014 low using a consistent vintage."
+    },
+    {
+      "id": "124-C31",
+      "claim": "SPR depleted",
+      "kind": "empirical",
+      "source_blocks": [
+        95
+      ],
+      "family": "strategic-petroleum-reserve",
+      "asset_or_variable": "strategic-petroleum-reserve",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "SPR stocks remained only 351.3m barrels by November 17, versus 593.7m before 2022. A modest refill had begun, so not yet refilled is accurate when read as not replenished, rather than no purchases at all.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?f=W&n=PET&s=WCSSTUS1",
+          "title": "Weekly strategic reserve stocks",
+          "publisher": "EIA",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "SPR stocks December 31, 2021: 593.682m barrels; November 17, 2023: 351.274m; November 24: 351.587m. July 7, 2023 low was 346.758m. Repurchases had begun but replenishment was very incomplete."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C32",
+      "claim": "War premium reduced",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        97
+      ],
+      "family": "oil-geopolitical-premium",
+      "asset_or_variable": "oil-geopolitical-premium",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A lower price does not reveal how much geopolitical probability is embedded. Removed premium can improve entry valuation without eliminating production or demand risk.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "124-C33",
+      "claim": "Oil baseline",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        98
+      ],
+      "family": "oil-price-regime",
+      "asset_or_variable": "oil-price-regime",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Subsequent prices moved below $70 and later above $90, so $70-90 was not a durable band. The text calls it a baseline with possible breakout rather than an inviolable range; supply shocks and productivity complicate the demand/liquidity explanation.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/tODAyinenergy/detail.php?id=67404",
+          "title": "U.S. crude production in2025",
+          "publisher": "EIA",
+          "date": "2026-03-31",
+          "verified": true,
+          "finding": "Production rose 3% to 13.6 mb/d despite 5% fewer rigs; WTI annual price fell from $77 to $65. Gulf output rose 111 kb/d. Efficiency gains supported supply."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C34",
+      "claim": "Upswing breakout",
+      "kind": "forecast",
+      "source_blocks": [
+        98
+      ],
+      "family": "oil-demand-breakout",
+      "asset_or_variable": "oil-demand-breakout",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A big global activity/liquidity upswing is undefined. A later oil spike caused by disruption cannot verify this particular conditional demand mechanism.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "124-C35",
+      "claim": "Positive carry",
+      "kind": "explanation",
+      "source_blocks": [
+        100
+      ],
+      "family": "energy-equity-income",
+      "asset_or_variable": "energy-equity-income",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Dividends provide cash flow but are residual corporate distributions; leverage, depletion, capex and price risk prevent equating equity yields with bond carry.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "124-C36",
+      "claim": "EPD income growth",
+      "kind": "forecast",
+      "source_blocks": [
+        102
+      ],
+      "family": "epd-income-growth",
+      "asset_or_variable": "epd-income-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The declared 2024 distribution rose 5%, extending the annual increase record. This supports slightly rising income, while future payments remain contingent on operations.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://ir.enterpriseproducts.com/news-releases/news-release-details/enterprise-reports-results-fourth-quarter-2024",
+          "title": "Enterprise 2024 results",
+          "publisher": "Enterprise Products Partners",
+          "date": "2025-02-04",
+          "verified": true,
+          "finding": "Declared 2024 distributions rose 5% to $2.10 per unit, the 26 th consecutive annual increase."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C37",
+      "claim": "EPD return arithmetic",
+      "kind": "explanation",
+      "source_blocks": [
+        102
+      ],
+      "family": "income-growth-valuation",
+      "asset_or_variable": "income-growth-valuation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "A 7.5% starting yield plus roughly 2.5% growth approximates a 10% one-year return at a constant valuation multiple. The identity depends on payout growth, reinvestment convention and unchanged multiple; it does not make EPD as safe as Treasuries.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Initial price P",
+          "Cash payout 0.075P",
+          "Price grows 2.5% with constant payout multiple",
+          "No fees, taxes or reinvestment effects"
+        ],
+        "derivation": "One-year simple return = (0.025 P + 0.075 P)/P = 10%. This is a scenario, not a realized yield guarantee."
+      }
+    },
+    {
+      "id": "124-C38",
+      "claim": "EPD risk premium",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        102
+      ],
+      "family": "epd-versus-treasuries",
+      "asset_or_variable": "epd-versus-treasuries",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "EPD returned 70.05% through the cutoff, supporting the income-plus-growth case. No duration-matched Treasury total-return or risk criterion was specified, so the subjective superiority judgment is not a binary win.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EPD/history/",
+          "title": "EPD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-11-26\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-11-27\",\"exit\":\"2026-11-06\",\"days\":1075,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"EPD\":{\"entry_adjusted_close\":21.77574348449707,\"exit_adjusted_close\":37.029998779296875,\"cumulative_return_pct\":70.0515934423082,\"annualized_return_pct\":19.768832623315056,\"source\":\"https://finance.yahoo.com/quote/EPD/history/\"},\"SPY\":{\"entry_adjusted_close\":438.30145263671875,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":67.75896443053328,\"annualized_return_pct\":19.21774363760833,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":2.2926290117749204}"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C39",
+      "claim": "Gold breakout",
+      "kind": "forecast",
+      "source_blocks": [
+        107
+      ],
+      "family": "gold-technical-breakout",
+      "asset_or_variable": "gold-technical-breakout",
+      "horizon": null,
+      "conditions": "Firm range breakout",
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The record breakout was followed by substantial appreciation: LBMA PM reached $2,777.80 in 2024. This supports the conditional direction, but a technical pattern does not establish causal explanatory power.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.lbma.org.uk/articles/lbma-precious-metals-market-report-q1-2024",
+          "title": "Q1 2024 precious metals",
+          "publisher": "LBMA",
+          "date": "2024-04-01",
+          "verified": true,
+          "finding": "Gold established record $2078.40 December 28 2023 PM and remained above $2100 from March 5; March 28 PM $2214.35. New records arrived within one year of October 2023 forecast."
+        },
+        {
+          "url": "https://www.gold.org/goldhub/gold-focus/2025/01/golds-2024-performance-best-14-years",
+          "title": "Gold performance in 2024",
+          "publisher": "World Gold Council",
+          "date": "2025-01-03",
+          "verified": true,
+          "finding": "Dollar gold gained 25.5% during 2024 and reached 40 new LBMA PM records; the October 30 high was $2,777.80."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "124-C40",
+      "claim": "Fed peak gold",
+      "kind": "explanation",
+      "source_blocks": [
+        107
+      ],
+      "family": "gold-policy-cycle",
+      "asset_or_variable": "gold-policy-cycle",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The historical frequency claim needs every policy-cycle peak, not a single successful example.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Predefine peak-rate dates and forward gold windows; report all cycle outcomes including exceptions and currency conventions."
+    },
+    {
+      "id": "124-C41",
+      "claim": "Gold 2024-2026",
+      "kind": "forecast",
+      "source_blocks": [
+        108
+      ],
+      "family": "gold-bullish",
+      "asset_or_variable": "gold-bullish",
+      "horizon": "2024-2026",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "Gold appreciated substantially by the cutoff, with GLD up 99.45% from publication. The explicit 2024-2026 interval is not complete until year-end; record strong interim support without closing the full-window score.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "2024-2026",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2023-11-26\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2023-11-27\",\"exit\":\"2026-11-06\",\"days\":1075,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"GLD\":{\"entry_adjusted_close\":186.77000427246094,\"exit_adjusted_close\":372.5199890136719,\"cumulative_return_pct\":99.45386330357312,\"annualized_return_pct\":26.437733785589646,\"source\":\"https://finance.yahoo.com/quote/GLD/history/\"},\"SPY\":{\"entry_adjusted_close\":438.30145263671875,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":67.75896443053328,\"annualized_return_pct\":19.21774363760833,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":31.694898873039833}"
+        }
+      ],
+      "next_check": null
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Liquidity",
+      "source_blocks": [
+        8,
+        11,
+        14,
+        19,
+        23
+      ],
+      "use": "Funding and wealth.",
+      "image_inspected": false
+    },
+    {
+      "name": "Cycle heatmap",
+      "source_blocks": [
+        27,
+        44,
+        46
+      ],
+      "use": "Broad indicators.",
+      "image_inspected": false
+    },
+    {
+      "name": "Energy",
+      "source_blocks": [
+        88,
+        91,
+        93,
+        95,
+        98,
+        100,
+        102
+      ],
+      "use": "Supply and valuation.",
+      "image_inspected": false
+    },
+    {
+      "name": "Crypto and gold",
+      "source_blocks": [
+        54,
+        57,
+        59,
+        63,
+        105
+      ],
+      "use": "Price context.",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Distinguish supply-shock hedges from recession hedges.",
+    "Consolidate money-like claims before interpreting liquidity."
+  ],
+  "assessment": "Near-term liquidity and asset appreciation worked, and the gold breakout and EPD distribution calls were supported. The energy case needs a distinction between portfolio insurance and a forecast that drilling constraints will cap production: EIA evidence shows substantial productivity gains. Money aggregates require consolidation rather than treating near-money instruments as interchangeable. Binance enforcement verifies compliance oversight, not solvency. The 3-5 year energy horizon and the full 2024-2026 gold interval remain open.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

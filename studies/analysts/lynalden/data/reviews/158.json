@@ -1,0 +1,1142 @@
+{
+  "article_id": "158",
+  "title": "Equity Rotations, Cash-Secured Puts, and Gold Dislocations",
+  "date": "2025-03-16",
+  "source_url": "https://www.lynalden.com/premium-2025-3-16/",
+  "read_complete": true,
+  "summary": "Gold accounting, international rotation and option payoffs.",
+  "coverage_note": "All sections read, including the detailed MSTR put example and both retrospective and prospective gold comparisons. The put is modeled conditionally; no executed premium or brokerage outcome is inferred. Repeated international rotation thesis remains linked to original 2024 framing.",
+  "claims": [
+    {
+      "id": "158-C01",
+      "claim": "Gold imports distort trade totals.",
+      "kind": "empirical",
+      "source_blocks": [
+        9,
+        13
+      ],
+      "family": "gold-import-accounting",
+      "asset_or_variable": "gold-import-accounting",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Atlanta Fed documents extraordinary bullion/finished-metal imports and the distinction between Census and balance-of-payments classifications. The reported broad distortion is supported.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.atlantafed.org/research-and-data/publications/policy-hub-macroblog/2025/04/23/the-switch-changing-conditions-behind-new-gdpnow-model",
+          "title": "GDPNow gold adjustment",
+          "publisher": "Atlanta Fed",
+          "date": "2025-04-23",
+          "verified": true,
+          "finding": "Unadjusted GDPNow omitted investment-gold treatment before March 6; alternate adjusted model introduced then and became standard April 30. Jan-Feb BOP gold imports averaged $29.1 bn; a straight annualized adjustment could shift forecast 3.6 percentage points, while actual model effect was smaller."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C02",
+      "claim": "Investment gold does not depress GDP.",
+      "kind": "explanation",
+      "source_blocks": [
+        10
+      ],
+      "family": "gold-gdp-accounting",
+      "asset_or_variable": "gold-gdp-accounting",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "BEA removes investment gold from GDP trade measures. This correct distinction matters when later articles discuss headline GDP.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/help/faq/1478",
+          "title": "Gold treatment in national accounts",
+          "publisher": "BEA",
+          "date": "2025-03-20",
+          "verified": true,
+          "finding": "National accounts exclude investment gold from GDP trade measures; ITA gold flows are removed and replaced with domestic-production minus industrial-use adjustment. Balance-of-payments trade and GDP trade are different concepts."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C03",
+      "claim": "Gold skews unadjusted GDPNow.",
+      "kind": "explanation",
+      "source_blocks": [
+        11
+      ],
+      "family": "gdpnow-gold-distortion",
+      "asset_or_variable": "gdpnow-gold-distortion",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Atlanta Fed confirms its original model did not make the gold adjustment and introduced an alternate model March 6. By publication the adjusted alternative was already available, a useful omission to note.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.atlantafed.org/research-and-data/publications/policy-hub-macroblog/2025/04/23/the-switch-changing-conditions-behind-new-gdpnow-model",
+          "title": "GDPNow gold adjustment",
+          "publisher": "Atlanta Fed",
+          "date": "2025-04-23",
+          "verified": true,
+          "finding": "Unadjusted GDPNow omitted investment-gold treatment before March 6; alternate adjusted model introduced then and became standard April 30. Jan-Feb BOP gold imports averaged $29.1 bn; a straight annualized adjustment could shift forecast 3.6 percentage points, while actual model effect was smaller."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C04",
+      "claim": "Front-loading shifts future orders.",
+      "kind": "explanation",
+      "source_blocks": [
+        16
+      ],
+      "family": "tariff-import-frontloading",
+      "asset_or_variable": "tariff-import-frontloading",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Inventory accumulation can pull orders forward, but imports are economic transactions; the GDP effect depends on inventory offsets and domestic value added. Lower later orders are not guaranteed if demand changes.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.atlantafed.org/research-and-data/publications/policy-hub-macroblog/2025/04/23/the-switch-changing-conditions-behind-new-gdpnow-model",
+          "title": "GDPNow gold adjustment",
+          "publisher": "Atlanta Fed",
+          "date": "2025-04-23",
+          "verified": true,
+          "finding": "Unadjusted GDPNow omitted investment-gold treatment before March 6; alternate adjusted model introduced then and became standard April 30. Jan-Feb BOP gold imports averaged $29.1 bn; a straight annualized adjustment could shift forecast 3.6 percentage points, while actual model effect was smaller."
+        }
+      ],
+      "next_check": "Match sector imports with inventories and final sales, avoiding double counting."
+    },
+    {
+      "id": "158-C05",
+      "claim": "Economic data remain noisy.",
+      "kind": "forecast",
+      "source_blocks": [
+        17
+      ],
+      "family": "macro-data-volatility",
+      "asset_or_variable": "macro-data-volatility",
+      "horizon": "Q1 2025 releases",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "GDPNow methodology changed and initial GDP readings later revised materially. This supports interpretive caution, not a claim that official statistics are inherently low quality.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Q1 2025 releases",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.atlantafed.org/research-and-data/publications/policy-hub-macroblog/2025/04/23/the-switch-changing-conditions-behind-new-gdpnow-model",
+          "title": "GDPNow gold adjustment",
+          "publisher": "Atlanta Fed",
+          "date": "2025-04-23",
+          "verified": true,
+          "finding": "Unadjusted GDPNow omitted investment-gold treatment before March 6; alternate adjusted model introduced then and became standard April 30. Jan-Feb BOP gold imports averaged $29.1 bn; a straight annualized adjustment could shift forecast 3.6 percentage points, while actual model effect was smaller."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/A191RL1Q225SBEA",
+          "title": "A191RL1Q225SBEA downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Latest-vintage 2025 Q1 growth 0.1% annualized; later Q2 4.0%. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C06",
+      "claim": "Debt impasse releases TGA cash.",
+      "kind": "forecast",
+      "source_blocks": [
+        21,
+        23
+      ],
+      "family": "debt-ceiling-liquidity",
+      "asset_or_variable": "debt-ceiling-liquidity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The constraint persisted into July and cash declined. The accounting channel does not guarantee asset prices rise at the same time.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.gao.gov/products/gao-26-107908",
+          "title": "Fiscal 2025 federal debt audit",
+          "publisher": "GAO",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "Debt ceiling reinstated January 2 2025; extraordinary measures January 21-July 7; July 4 law raised limit $5 tn to $41.1 tn. FY 2025 deficit $1.8 tn."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/WTREGEN",
+          "title": "WTREGEN downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "February 12 2025 $828.102 bn; April 9 $306.049 bn. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C07",
+      "claim": "Debt dispute ends sooner.",
+      "kind": "forecast",
+      "source_blocks": [
+        24
+      ],
+      "family": "debt-ceiling-duration",
+      "asset_or_variable": "debt-ceiling-duration",
+      "horizon": "2025 impasse",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "2025 extraordinary measures lasted January-July, longer than the January-June 2023 episode. The author retains the earlier base case here.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "2025 impasse",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.gao.gov/products/gao-26-107908",
+          "title": "Fiscal 2025 federal debt audit",
+          "publisher": "GAO",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "Debt ceiling reinstated January 2 2025; extraordinary measures January 21-July 7; July 4 law raised limit $5 tn to $41.1 tn. FY 2025 deficit $1.8 tn."
+        },
+        {
+          "url": "https://www.gao.gov/products/gao-26-107908",
+          "title": "Fiscal 2025 federal debt audit",
+          "publisher": "GAO",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "Debt ceiling reinstated January 2 2025; extraordinary measures January 21-July 7; July 4 law raised limit $5 tn to $41.1 tn. FY 2025 deficit $1.8 tn."
+        },
+        {
+          "url": "https://www.gao.gov/products/gao-24-106340",
+          "title": "Fiscal 2023 debt audit",
+          "publisher": "GAO",
+          "date": "2023-11-09",
+          "verified": true,
+          "finding": "Extraordinary actions began January 19; debt limit suspended June 3, 2023. This approximately 4.5-month episode was shorter than January-July 2025."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C08",
+      "claim": "TGA avoids complete depletion.",
+      "kind": "forecast",
+      "source_blocks": [
+        25
+      ],
+      "family": "tga-nondepletion",
+      "asset_or_variable": "tga-nondepletion",
+      "horizon": "2025 impasse",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The cash account remained far above zero before the July ceiling resolution. Weekly data do not give the daily minimum, but the observed hundreds-of-billions buffer supports the qualitative prediction.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "2025 impasse",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.gao.gov/products/gao-26-107908",
+          "title": "Fiscal 2025 federal debt audit",
+          "publisher": "GAO",
+          "date": "2026-01-20",
+          "verified": true,
+          "finding": "Debt ceiling reinstated January 2 2025; extraordinary measures January 21-July 7; July 4 law raised limit $5 tn to $41.1 tn. FY 2025 deficit $1.8 tn."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/WTREGEN",
+          "title": "WTREGEN downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Lowest weekly observation January 1-July 7 2025 was $306.049 bn on April 9. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C09",
+      "claim": "Weaker dollar relieves debt burdens.",
+      "kind": "explanation",
+      "source_blocks": [
+        29
+      ],
+      "family": "dollar-debt-service",
+      "asset_or_variable": "dollar-debt-service",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Valid for a fixed unhedged dollar liability relative to unchanged local revenue; it does not eliminate tariff or domestic policy risks.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Fixed dollar obligation D",
+          "No hedge",
+          "Local revenue unchanged"
+        ],
+        "derivation": "Local cost e D falls when local-currency-per-dollar exchange rate e falls."
+      }
+    },
+    {
+      "id": "158-C10",
+      "claim": "Joint weakness suggests capital outflow.",
+      "kind": "explanation",
+      "source_blocks": [
+        30
+      ],
+      "family": "us-capital-outflow",
+      "asset_or_variable": "us-capital-outflow",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Potential is appropriately qualified. Dollar and equities can fall together without net outflow, because prices also reflect changing expected returns and hedging.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Use transaction-based balance-of-payments and fund-flow data."
+    },
+    {
+      "id": "158-C11",
+      "claim": "Bitcoin consolidates rather than peaks.",
+      "kind": "forecast",
+      "source_blocks": [
+        35
+      ],
+      "family": "bitcoin-midcycle-consolidation",
+      "asset_or_variable": "bitcoin-midcycle-consolidation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "base case",
+      "verdict": "mixed",
+      "reason": "A new high followed in 2025, supporting the consolidation interpretation for the spring decline. Subsequent large losses mean no permanent cycle or floor was established.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD daily closes",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2025-03-16 close $82,579.69; 2025-10-06 close $124,752.53. Calendar daily-close convention; no execution assumption or fees. Crypto spot excludes yield."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD daily closes",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2025-03-16 close $82,579.69; 2026-11-06 close $75,746.93. Calendar daily-close convention; no execution assumption or fees. Crypto spot excludes yield."
+        }
+      ],
+      "next_check": "Predefine what qualifies as a multi-year top before scoring that component."
+    },
+    {
+      "id": "158-C12",
+      "claim": "Equity shock pulls bitcoin down.",
+      "kind": "forecast",
+      "source_blocks": [
+        36
+      ],
+      "family": "bitcoin-risk-asset-correlation",
+      "asset_or_variable": "bitcoin-risk-asset-correlation",
+      "horizon": null,
+      "conditions": "Negative equity shock",
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The spring equity drawdown coincided with lower bitcoin prices before a recovery. This verifies the contingent directional association, not exclusive causation.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD daily closes",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2025-03-16 close $82,579.69; 2025-04-07 close $79,235.34. Calendar daily-close convention; no execution assumption or fees. Crypto spot excludes yield."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "SPY calendar-year comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Prior-year last close to year-end adjusted close: 2024 return 24.886%, 2025 return 17.719%; within-year peak-to-trough drawdown 8.406% versus 18.755%; annualized daily standard deviation 12.569% versus 19.487%.252 day scaling; vendor adjusted USD proxy, no execution claim."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C13",
+      "claim": "Ether eventually has relief rally.",
+      "kind": "forecast",
+      "source_blocks": [
+        40
+      ],
+      "family": "ether-relief-rally",
+      "asset_or_variable": "ether-relief-rally",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "At some low point has no trigger, magnitude or deadline; almost any nonmonotonic path could satisfy it.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Define threshold and observation window prospectively."
+    },
+    {
+      "id": "158-C14",
+      "claim": "Bitcoin remains preferable to ether.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        40,
+        42
+      ],
+      "family": "bitcoin-over-ethereum",
+      "asset_or_variable": "bitcoin-over-ethereum",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The original July 2024 thesis is repeated without a new horizon. Relative-return sensitivities should not be counted as a second forecast win.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2025-03-16\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2025-03-17\",\"exit\":\"2026-11-07\",\"days\":600,\"endpoint_gap_days\":0,\"endpoint_covered\":true,\"instruments\":{\"BTC-USD\":{\"entry_adjusted_close\":84075.6875,\"exit_adjusted_close\":75508.5,\"cumulative_return_pct\":-10.189851257535064,\"annualized_return_pct\":-6.332949085253725,\"source\":\"https://finance.yahoo.com/quote/BTC-USD/history/\"},\"ETH-USD\":{\"entry_adjusted_close\":1927.0029296875,\"exit_adjusted_close\":2222.199951171875,\"cumulative_return_pct\":15.318971078691956,\"annualized_return_pct\":9.064167053422945,\"source\":\"https://finance.yahoo.com/quote/ETH-USD/history/\"}},\"excess_percentage_points\":-25.50882233622702}"
+        }
+      ],
+      "next_check": "Retain original entry clock and compare adoption/value capture separately."
+    },
+    {
+      "id": "158-C15",
+      "claim": "Reserve and stockpile differ.",
+      "kind": "empirical",
+      "source_blocks": [
+        46,
+        47
+      ],
+      "family": "us-crypto-reserve-design",
+      "asset_or_variable": "us-crypto-reserve-design",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The executive order distinguishes retained forfeited bitcoin from a separate non-bitcoin stockpile and authorizes budget-neutral acquisition strategies, subject to legal exceptions.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/",
+          "title": "Strategic Bitcoin Reserve order",
+          "publisher": "White House",
+          "date": "2025-03-06",
+          "verified": true,
+          "finding": "Order retained eligible forfeited BTC in a reserve, prohibited sales of deposited reserve BTC, and directed budget-neutral acquisition strategies; legal/victim exceptions apply."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C16",
+      "claim": "Altcoin sales could fund bitcoin.",
+      "kind": "explanation",
+      "source_blocks": [
+        47
+      ],
+      "family": "us-reserve-budget-neutral-strategy",
+      "asset_or_variable": "us-reserve-budget-neutral-strategy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "not_testable",
+      "reason": "This is an interpretation of a possible budget-neutral route, not evidence that legal proceeds were available or purchases occurred.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/",
+          "title": "Strategic Bitcoin Reserve order",
+          "publisher": "White House",
+          "date": "2025-03-06",
+          "verified": true,
+          "finding": "Order retained eligible forfeited BTC in a reserve, prohibited sales of deposited reserve BTC, and directed budget-neutral acquisition strategies; legal/victim exceptions apply."
+        }
+      ],
+      "next_check": "Require legal authority, proceeds allocation and documented acquisition transactions."
+    },
+    {
+      "id": "158-C17",
+      "claim": "Reserve matches modest base case.",
+      "kind": "empirical",
+      "source_blocks": [
+        48
+      ],
+      "family": "bitcoin-reserve-forecast-recap",
+      "asset_or_variable": "bitcoin-reserve-forecast-recap",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The implemented reserve was primarily capitalized with existing forfeited holdings. This retrospective comparison should link to the earlier forecast and not create an independent hit.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/",
+          "title": "Strategic Bitcoin Reserve order",
+          "publisher": "White House",
+          "date": "2025-03-06",
+          "verified": true,
+          "finding": "Order retained eligible forfeited BTC in a reserve, prohibited sales of deposited reserve BTC, and directed budget-neutral acquisition strategies; legal/victim exceptions apply."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C18",
+      "claim": "Many altcoins resemble securities.",
+      "kind": "explanation",
+      "source_blocks": [
+        49
+      ],
+      "family": "crypto-securities-classification",
+      "asset_or_variable": "crypto-securities-classification",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Howey depends on transaction facts and investment-contract elements; a generalized token category is not a definitive legal classification.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Evaluate each offering and current controlling decisions individually."
+    },
+    {
+      "id": "158-C19",
+      "claim": "Dominant protocols resist displacement.",
+      "kind": "explanation",
+      "source_blocks": [
+        55,
+        56
+      ],
+      "family": "protocol-network-effects",
+      "asset_or_variable": "protocol-network-effects",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Surviving Ethernet/IP examples illustrate network effects but create survivorship bias; earlier protocols were displaced. Indefinite lifespan is not a testable guarantee.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Compare surviving and displaced standards and costs of interoperability changes."
+    },
+    {
+      "id": "158-C20",
+      "claim": "Bitcoin conservatism protects network value.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        57,
+        58
+      ],
+      "family": "bitcoin-protocol-durability",
+      "asset_or_variable": "bitcoin-protocol-durability",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Compatibility and network effects can slow disruption, while conservatism can also delay adaptation. No failure threshold or horizon is provided.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Track adoption, developer governance, security budgets and competing monetary networks."
+    },
+    {
+      "id": "158-C21",
+      "claim": "International rotation gains momentum.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        75,
+        81,
+        104,
+        106
+      ],
+      "family": "international-equity-rotation",
+      "asset_or_variable": "international-equity-rotation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Significant magnitude and duration are undefined. Evidence can show interim relative performance but should not invent a multi-year deadline or erase earlier premature calls.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EFA/history/",
+          "title": "EFA adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2025-03-16\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2025-03-17\",\"exit\":\"2026-11-06\",\"days\":599,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"EFA\":{\"entry_adjusted_close\":80.45486450195312,\"exit_adjusted_close\":101.88999938964844,\"cumulative_return_pct\":26.642434886177636,\"annualized_return_pct\":15.491326227287793,\"source\":\"https://finance.yahoo.com/quote/EFA/history/\"},\"SPY\":{\"entry_adjusted_close\":556.22265625,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":32.19346061604151,\"annualized_return_pct\":18.552237019026773,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":-5.551025729863877}"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/IEMG/history/",
+          "title": "IEMG adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2025-03-16\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2025-03-17\",\"exit\":\"2026-11-06\",\"days\":599,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"IEMG\":{\"entry_adjusted_close\":53.8871955871582,\"exit_adjusted_close\":72.19999694824219,\"cumulative_return_pct\":33.983585825067664,\"annualized_return_pct\":19.528585232575658,\"source\":\"https://finance.yahoo.com/quote/IEMG/history/\"},\"SPY\":{\"entry_adjusted_close\":556.22265625,\"exit_adjusted_close\":735.2899780273438,\"cumulative_return_pct\":32.19346061604151,\"annualized_return_pct\":18.552237019026773,\"source\":\"https://finance.yahoo.com/quote/SPY/history/\"}},\"excess_percentage_points\":1.7901252090261508}"
+        }
+      ],
+      "next_check": "Use original September/October 2024 entries and report full path and country dispersion."
+    },
+    {
+      "id": "158-C22",
+      "claim": "Earlier international timing lagged.",
+      "kind": "empirical",
+      "source_blocks": [
+        76
+      ],
+      "family": "international-rotation-self-correction",
+      "asset_or_variable": "international-rotation-self-correction",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The admission is useful, but actual portfolio drag requires dated weights and transactions, not only index histories.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconcile original calls and portfolio exposure before attributing performance."
+    },
+    {
+      "id": "158-C23",
+      "claim": "Tariff uncertainty impairs valuation.",
+      "kind": "explanation",
+      "source_blocks": [
+        91
+      ],
+      "family": "policy-uncertainty-investment",
+      "asset_or_variable": "policy-uncertainty-investment",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Fed research supports investment restraint under uncertainty. The effect on equity multiples depends on expected cash flows and risk premiums.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/costs-of-rising-uncertainty-20250424.html",
+          "title": "Costs of rising uncertainty",
+          "publisher": "Federal Reserve",
+          "date": "2025-04-24",
+          "verified": true,
+          "finding": "Economic and trade policy uncertainty surged to historically high levels; reviewed research links uncertainty shocks to lower investment and activity, with identification and model uncertainty."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C24",
+      "claim": "Europe turns toward fiscal expansion.",
+      "kind": "forecast",
+      "source_blocks": [
+        92,
+        95
+      ],
+      "family": "europe-defense-fiscal-expansion",
+      "asset_or_variable": "europe-defense-fiscal-expansion",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Announcements are not actual outlays. Need enacted national budgets and implementation to assess the proposed equity catalyst.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare defense authorizations, procurement and cyclically adjusted fiscal impulse."
+    },
+    {
+      "id": "158-C25",
+      "claim": "DOGE avoids major budget cuts.",
+      "kind": "forecast",
+      "source_blocks": [
+        96
+      ],
+      "family": "doge-spending-skepticism",
+      "asset_or_variable": "doge-spending-skepticism",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "FY 2025 spending rose 4% and major benefit/interest categories increased. Headcount reductions did not create the enormous aggregate spending cuts implied by some political rhetoric.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.cbo.gov/publication/61307",
+          "title": "Fiscal 2025 budget summary",
+          "publisher": "CBO",
+          "date": "2025-11-10",
+          "verified": true,
+          "finding": "FY 2025 deficit $1.8 tn, down $41 bn or 2%; outlays +4%, revenues +6%; deficit/GDP 5.9% versus 6.3%. Timing-adjusted deficit down 6%. Benefit and interest spending grew."
+        },
+        {
+          "url": "https://www.gao.gov/products/gao-26-108583",
+          "title": "Workforce changes update",
+          "publisher": "GAO",
+          "date": "2026-06-17",
+          "verified": true,
+          "finding": "Across 22 major agencies, workforce declined nearly 256,000 or over 11% from December 2024 to January 2026, far below 75%; 378,000 separations offset by 127,000 hires during 2025."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C26",
+      "claim": "US fiscal impulse softens.",
+      "kind": "forecast",
+      "source_blocks": [
+        96
+      ],
+      "family": "us-fiscal-2025-moderation",
+      "asset_or_variable": "us-fiscal-2025-moderation",
+      "horizon": "2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Deficit/GDP fell and timing-adjusted deficit narrowed, supporting moderation. Nominal spending still grew; this was not aggregate austerity or a small fiscal footprint.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.cbo.gov/publication/61307",
+          "title": "Fiscal 2025 budget summary",
+          "publisher": "CBO",
+          "date": "2025-11-10",
+          "verified": true,
+          "finding": "FY 2025 deficit $1.8 tn, down $41 bn or 2%; outlays +4%, revenues +6%; deficit/GDP 5.9% versus 6.3%. Timing-adjusted deficit down 6%. Benefit and interest spending grew."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C27",
+      "claim": "Wealth and flows reinforce rotations.",
+      "kind": "explanation",
+      "source_blocks": [
+        102,
+        103
+      ],
+      "family": "capital-flow-wealth-feedback",
+      "asset_or_variable": "capital-flow-wealth-feedback",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Several reinforcing channels are plausible, but exchange rates, valuation and savings behavior can offset them. No feedback coefficient or stable law is specified.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Identify wealth-effect consumption responses and transaction flows separately."
+    },
+    {
+      "id": "158-C28",
+      "claim": "MSTR put offers capped premium.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        115,
+        117,
+        119
+      ],
+      "family": "mstr-cash-put-example",
+      "asset_or_variable": "mstr-cash-put-example",
+      "horizon": "June 2025",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Assuming the standard June 20 monthly expiry and an executed $30 premium, the $250 put would finish out of the money at a $369.70 stock close. Actual execution, exact expiry and early assignment are unknown, so this is conditional scenario verification, not an audited 12% return.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "June 2025",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/MSTR/history/",
+          "title": "MSTR daily closes",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2025-03-17 close $294.27; 2025-06-20 close $369.70. Calendar daily-close convention; no execution assumption or fees. Crypto spot excludes yield."
+        },
+        {
+          "url": "https://www.optionseducation.org/strategies/all-strategies/cash-secured-put",
+          "title": "Cash-secured put mechanics",
+          "publisher": "Options Industry Council",
+          "date": null,
+          "verified": true,
+          "finding": "Effective acquisition cost is strike less premium. Maximum option gain is premium; loss can be substantial if stock collapses. The position can miss upside and has covered-call-equivalent exposure under standard assumptions."
+        }
+      ],
+      "next_check": "Verify contract identifier, fill, collateral yield, fees and any early close/assignment."
+    },
+    {
+      "id": "158-C29",
+      "claim": "Cash collateral bounds leverage risk.",
+      "kind": "explanation",
+      "source_blocks": [
+        118,
+        120
+      ],
+      "family": "cash-secured-put-mechanics",
+      "asset_or_variable": "cash-secured-put-mechanics",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Cash securing the strike avoids borrowing for assignment; it does not remove the underlying stock downside. Effective cost at a $30 premium is $220 per share.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.optionseducation.org/strategies/all-strategies/cash-secured-put",
+          "title": "Cash-secured put mechanics",
+          "publisher": "Options Industry Council",
+          "date": null,
+          "verified": true,
+          "finding": "Effective acquisition cost is strike less premium. Maximum option gain is premium; loss can be substantial if stock collapses. The position can miss upside and has covered-call-equivalent exposure under standard assumptions."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C30",
+      "claim": "Most options expire worthless.",
+      "kind": "empirical",
+      "source_blocks": [
+        121
+      ],
+      "family": "options-expiration-base-rate",
+      "asset_or_variable": "options-expiration-base-rate",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "OCC/OIC explains most contracts close before expiry; only about one-fifth expire worthless. Expiration statistics cannot establish a profitable repeated-selling strategy.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.optionseducation.org/news/september-2026-webinar-key-takeaways",
+          "title": "Option trade life cycle",
+          "publisher": "Options Industry Council",
+          "date": null,
+          "verified": true,
+          "finding": "September 2026 educational summary: approximately 72% close before expiration, about 20% expire worthless, 6-8% exercise. A high selected-strike win rate is not equivalent to most contracts expiring worthless."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C31",
+      "claim": "High hit rates hide tail losses.",
+      "kind": "explanation",
+      "source_blocks": [
+        121
+      ],
+      "family": "short-option-tail-risk",
+      "asset_or_variable": "short-option-tail-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The payoff caps premium income while downside can approach strike less premium. Hit rate alone is not expected return.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.optionseducation.org/strategies/all-strategies/cash-secured-put",
+          "title": "Cash-secured put mechanics",
+          "publisher": "Options Industry Council",
+          "date": null,
+          "verified": true,
+          "finding": "Effective acquisition cost is strike less premium. Maximum option gain is premium; loss can be substantial if stock collapses. The position can miss upside and has covered-call-equivalent exposure under standard assumptions."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C32",
+      "claim": "Put trades sacrifice large upside.",
+      "kind": "explanation",
+      "source_blocks": [
+        123
+      ],
+      "family": "put-versus-stock-payoff",
+      "asset_or_variable": "put-versus-stock-payoff",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "For the specified one-share comparison, put profit caps at $30 while stock profit grows with price. Equal-capital comparisons and collateral interest would require additional assumptions.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.optionseducation.org/strategies/all-strategies/cash-secured-put",
+          "title": "Cash-secured put mechanics",
+          "publisher": "Options Industry Council",
+          "date": null,
+          "verified": true,
+          "finding": "Effective acquisition cost is strike less premium. Maximum option gain is premium; loss can be substantial if stock collapses. The position can miss upside and has covered-call-equivalent exposure under standard assumptions."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C33",
+      "claim": "Round gold prices resist advances.",
+      "kind": "explanation",
+      "source_blocks": [
+        125
+      ],
+      "family": "gold-round-number-resistance",
+      "asset_or_variable": "gold-round-number-resistance",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A round-number tendency needs a complete event sample, not selected prior milestones. The article explicitly leaves the immediate outcome open.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare all threshold crossings with matched non-round price levels."
+    },
+    {
+      "id": "158-C34",
+      "claim": "Gold may consolidate.",
+      "kind": "forecast",
+      "source_blocks": [
+        126
+      ],
+      "family": "gold-consolidation-risk",
+      "asset_or_variable": "gold-consolidation-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No magnitude or duration is required. A risk caveat cannot be counted as a win whenever prices pause.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Define a prospective drawdown/time threshold."
+    },
+    {
+      "id": "158-C35",
+      "claim": "Gold beat eight-year equity returns.",
+      "kind": "empirical",
+      "source_blocks": [
+        128,
+        130
+      ],
+      "family": "gold-sp500-dividend-comparison",
+      "asset_or_variable": "gold-sp500-dividend-comparison",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The claim acknowledges omitted dividends but understates their importance. For March 16, 2017-March 14, 2025, SPY adjusted return was 169.43% versus GLD 135.79%; price-only SPY was 136.00%. A March 14 start sensitivity still favors SPY total return, 171.23% versus 141.18%. ETF expenses slightly disadvantage GLD versus bullion, but not enough to explain this gap.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "Eight-year dividend-inclusive comparison",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Separate downloaded SPY and GLD CSV/raw files and hashes in research/evidence/recent 158/manifest.json. March 16 2017 SPY adjusted 204.861206 to March 14 2025 551.966309; GLD 116.730003 to 275.239990. USD adjusted-close proxy, 32 SPY dividend events, no splits; no fees/taxes or actual execution. March 14 2017 alternate endpoints also tested."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "158-C36",
+      "claim": "Gold outperforms over five years.",
+      "kind": "forecast",
+      "source_blocks": [
+        130,
+        134
+      ],
+      "family": "gold-over-sp500-five-year",
+      "asset_or_variable": "gold-over-sp500-five-year",
+      "horizon": "March 2025-2030+",
+      "conditions": null,
+      "modality": "favored scenario",
+      "verdict": "too_early",
+      "reason": "The March 2030 minimum horizon has not elapsed. The earlier eight-year comparison error does not determine this forward forecast.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "March 2025-2030+",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Compare bullion or a declared gold proxy with dividend-inclusive S&P returns at original horizon."
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "GDPNow gold adjustment",
+      "source_blocks": [
+        11
+      ],
+      "use": "Accounting",
+      "image_inspected": false
+    },
+    {
+      "name": "TGA",
+      "source_blocks": [
+        21
+      ],
+      "use": "Reserves",
+      "image_inspected": false
+    },
+    {
+      "name": "MVRV/ETHBTC",
+      "source_blocks": [
+        33,
+        38
+      ],
+      "use": "Crypto",
+      "image_inspected": false
+    },
+    {
+      "name": "International/US",
+      "source_blocks": [
+        98
+      ],
+      "use": "Rotation",
+      "image_inspected": false
+    },
+    {
+      "name": "Gold/SPX",
+      "source_blocks": [
+        128,
+        131
+      ],
+      "use": "Relative value",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Check accounting definitions before interpreting ratios."
+  ],
+  "assessment": "The gold/GDPNow accounting distinction is strong and explicitly correct. The options example explains downside honestly, but its expiration base-rate claim is false. The eight-year gold comparison also changes winner when dividends are included. The five-year forward gold forecast remains open, and the MSTR put can only be scored as a conditional payoff without an execution record.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

@@ -1,0 +1,345 @@
+{
+  "article_id": "028",
+  "title": "U.S. Business Cycle Update",
+  "date": "2020-08-02",
+  "source_url": "https://www.lynalden.com/premium-2020-8-2/",
+  "read_complete": true,
+  "summary": "Uneven recovery and an approaching fiscal gap.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "Deaths should flatten after cases",
+      "kind": "forecast",
+      "source_blocks": [
+        11,
+        15,
+        16,
+        17
+      ],
+      "family": "covid-death-lag",
+      "asset_or_variable": "Texas deaths",
+      "horizon": "coming weeks",
+      "conditions": null,
+      "modality": "probably",
+      "verdict": "right",
+      "reason": "The Texas seven-day fatalities measure fell from 233.29 at August 2 to 179.43 at August 16 and 108.14 at August 30. This supports the coming-weeks direction for the highlighted state. Later-vintage finalized data differ from daily publication reports and do not verify every national comparison.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: coming weeks",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.dshs.texas.gov/sites/default/files/chs/data/COVID/CaseCountData.xlsx",
+          "title": "Historical Texas dashboard data",
+          "publisher": "Texas DSHS",
+          "date": "2023-05-10",
+          "verified": true,
+          "finding": "Archived Trends sheet Total Fatalities Current Day: seven-day averages ending July 5, July 19, August 2, August 16, August 30, 2020 were 118.00,242.14,233.29,179.43,108.14. Later-vintage data, not contemporary reporting snapshots."
+        }
+      ],
+      "next_check": null,
+      "id": "028-C01"
+    },
+    {
+      "claim": "PPP expiry slows jobs recovery",
+      "kind": "explanation",
+      "source_blocks": [
+        22,
+        23,
+        24
+      ],
+      "family": "ppp-expiry-layoffs",
+      "asset_or_variable": "US jobs",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "July hiring slowed relative to June, but still added 1.8 m payroll jobs and unemployment declined. PPP forgiveness periods had been extended, so the general end-June maturity claim and causal attribution are too strong.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/empsit_08072020.htm",
+          "title": "July 2020 employment situation",
+          "publisher": "BLS",
+          "date": "2020-08-07",
+          "verified": true,
+          "finding": "Payrolls rose 1.8 m in July after 4.8 m in June and 2.7 m in May; unemployment fell to 10.2%. Permanent job losers were approximately unchanged at 2.9 m in July; temporary layoffs fell 1.3 m."
+        },
+        {
+          "url": "https://legacy.sba.gov/article/2020/jun/08/joint-statement-sba-administrator-jovita-carranza-us-treasury-secretary-steven-t-mnuchin-regarding-0",
+          "title": "PPP Flexibility Act implementation",
+          "publisher": "SBA / Treasury",
+          "date": "2020-06-08",
+          "verified": true,
+          "finding": "Forgiveness covered period extended to 24 weeks; prior borrowers could elect eight weeks. Loan maturity was distinct, generally two or five years, not end-June 2020."
+        }
+      ],
+      "next_check": null,
+      "id": "028-C02"
+    },
+    {
+      "claim": "Temporary losses increasingly become permanent",
+      "kind": "explanation",
+      "source_blocks": [
+        25,
+        27
+      ],
+      "family": "covid-permanent-job-loss",
+      "asset_or_variable": "US labor",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The July release reported permanent job losers unchanged at 2.9 m that month while temporary layoffs declined. Longer-run scarring is plausible, but a broad monthly conversion claim needs matched worker flows; Yelp listings do not identify the whole employer universe.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/empsit_08072020.htm",
+          "title": "July 2020 employment situation",
+          "publisher": "BLS",
+          "date": "2020-08-07",
+          "verified": true,
+          "finding": "Payrolls rose 1.8 m in July after 4.8 m in June and 2.7 m in May; unemployment fell to 10.2%. Permanent job losers were approximately unchanged at 2.9 m in July; temporary layoffs fell 1.3 m."
+        }
+      ],
+      "next_check": "Compare subsequent permanent-loser series and longitudinal transitions, separating levels from flows.",
+      "id": "028-C03"
+    },
+    {
+      "claim": "Claims imply thirty million beneficiaries",
+      "kind": "empirical",
+      "source_blocks": [
+        26,
+        48
+      ],
+      "family": "ui-claims-persons-confusion",
+      "asset_or_variable": "US benefits",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "Claim weeks were not a reliable distinct-person count, as GAO documented. The extra-benefit expiry was real, but multiplying a claim total into the number of affected people needs deduplication and eligibility checks.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://files.gao.gov/reports/GAO-21-265/index.html",
+          "title": "COVID-19 oversight report",
+          "publisher": "GAO",
+          "date": "2021-01-28",
+          "verified": true,
+          "finding": "GAO found continued-claim totals counted weeks, not unique beneficiaries. DOL clarified this in December 2020; backlogs could produce several weeks per person in one report."
+        }
+      ],
+      "next_check": null,
+      "id": "028-C04"
+    },
+    {
+      "claim": "Low rates stimulate housing refinancing",
+      "kind": "explanation",
+      "source_blocks": [
+        29,
+        32,
+        33
+      ],
+      "family": "housing-low-rates-reopening",
+      "asset_or_variable": "US housing",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The mechanism is plausible, but national average selling price is sensitive to sales mix. Need refinancing applications and regional/suburban-versus-urban price data to establish the specific demand redistribution.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Verify Freddie Mac rates, MBA refinancing activity and geography-adjusted housing prices.",
+      "id": "028-C05"
+    },
+    {
+      "claim": "Staying home boosts remodeling",
+      "kind": "explanation",
+      "source_blocks": [
+        32
+      ],
+      "family": "stay-home-remodel-demand",
+      "asset_or_variable": "US home improvement",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Home Depot comparable sales grew strongly, supporting the demand shift. The source does not isolate working from home from fiscal support, low financing rates or deferred maintenance, so the single-cause interpretation remains partial.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://corporate.homedepot.com/news/earnings/home-depot-announces-fourth-quarter-and-fiscal-2020-results-increases-quarterly",
+          "title": "Fiscal 2020 results",
+          "publisher": "Home Depot",
+          "date": "2021-02-23",
+          "verified": true,
+          "finding": "Fiscal 2020 comparable sales rose 19.7%, with US comparable sales up 20.6%, supporting strong home-improvement demand."
+        }
+      ],
+      "next_check": null,
+      "id": "028-C06"
+    },
+    {
+      "claim": "New-home sales rebound rapidly",
+      "kind": "empirical",
+      "source_blocks": [
+        34,
+        37
+      ],
+      "family": "housing-v-recovery",
+      "asset_or_variable": "US new homes",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The contemporary June release showed 776,000 annualized sales, above May and year-earlier point estimates, supporting the sector-specific rebound. Confidence intervals were wide; this does not imply the entire economy recovered equally.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.census.gov/construction/nrs/pdf/newressales_202006.pdf",
+          "title": "June 2020 new residential sales",
+          "publisher": "Census / HUD",
+          "date": "2020-07-24",
+          "verified": true,
+          "finding": "June new-home sales were 776,000 annualized versus revised May 682,000, a 13.8% point estimate increase with a wide confidence interval; June 2019 estimate was 726,000."
+        }
+      ],
+      "next_check": null,
+      "id": "028-C07"
+    },
+    {
+      "claim": "Homeownership jumps in one quarter",
+      "kind": "empirical",
+      "source_blocks": [
+        38
+      ],
+      "family": "housing-survey-pandemic-bias",
+      "asset_or_variable": "Homeownership",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The published estimate rose 2.6 percentage points, not 2.6 percent relative. Later Census research found pandemic nonresponse likely inflated the rate, so the quoted observation is real but interpreting it as entirely actual ownership change is not justified.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.census.gov/library/working-papers/2022/demo/SEHSD-WP2022-11.html",
+          "title": "Pandemic effects on housing vacancy survey",
+          "publisher": "Census Bureau",
+          "date": "2022-05-17",
+          "verified": true,
+          "finding": "Nonresponse changes likely elevated Q2/Q3 2020 homeownership estimates; effects dissipated by Q4. The reported jump cannot be interpreted wholly as actual households purchasing homes."
+        }
+      ],
+      "next_check": null,
+      "id": "028-C08"
+    },
+    {
+      "claim": "Another large compromise package arrives",
+      "kind": "forecast",
+      "source_blocks": [
+        49,
+        52
+      ],
+      "family": "2020-fiscal-next-package",
+      "asset_or_variable": "US stimulus",
+      "horizon": "next fiscal round",
+      "conditions": null,
+      "modality": "suspected middle ground",
+      "verdict": "mixed",
+      "reason": "A major compromise eventually became law in December, but much later than this month's focus, and its COVID relief component was below the suggested over-$1 tn floor. Whole appropriations totals should not be substituted for incremental relief. The exact size requires a consistent program-scoring basis.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: next fiscal round",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/policy-issues/coronavirus/about-the-cares-act",
+          "title": "CARES and Consolidated Appropriations Acts",
+          "publisher": "US Treasury",
+          "date": null,
+          "verified": true,
+          "finding": "The subsequent broad relief act passed Congress December 21 and was signed December 27, 2020, after the election rather than during summer."
+        }
+      ],
+      "next_check": null,
+      "id": "028-C09"
+    },
+    {
+      "claim": "Direct stimulus checks return",
+      "kind": "forecast",
+      "source_blocks": [
+        53
+      ],
+      "family": "second-stimulus-checks",
+      "asset_or_variable": "US transfers",
+      "horizon": "next fiscal round",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Treasury and IRS began the second round in late December at up to $600 per eligible person. The direction succeeded, but not an implied immediate summer payment.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: next fiscal round",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/sm1224",
+          "title": "Second economic impact payments",
+          "publisher": "US Treasury / IRS",
+          "date": "2020-12-29",
+          "verified": true,
+          "finding": "Second-round payments began in late December, up to $600 per eligible individual and qualifying child; the next round of direct checks occurred, with substantial timing delay."
+        }
+      ],
+      "next_check": null,
+      "id": "028-C10"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Cases claims housing",
+      "source_blocks": [
+        12,
+        19,
+        29,
+        34,
+        38
+      ],
+      "use": "Cycle",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Survey disruptions can imitate economic turning points."
+  ],
+  "assessment": "The near-term Texas mortality direction and housing rebound were supported. July jobs improved more than the leveling-off language suggests, and PPP timing remains overstated. The homeownership jump needs a material survey-bias caveat. New checks arrived, but the broad fiscal compromise was delayed until December.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "Public market series are available, but not every investment claim has a defined horizon or reconciled corporate-action-adjusted return. Unverified outcomes remain unscored; macro data use latest available vintages."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "ce94483b4dcfe7fee371cecc38cc6ec71700a15e1ff3f9d405a5f350c474b6d3"
+}

@@ -1,0 +1,1453 @@
+{
+  "article_id": "084",
+  "title": "Alphabet Deep Dive Analysis",
+  "date": "2022-05-15",
+  "source_url": "https://www.lynalden.com/premium-2022-5-15/",
+  "read_complete": true,
+  "summary": "Policy timing, crypto failure and Alphabet.",
+  "coverage_note": "All article text blocks were read. Ledger covers material macro, investment, and causal propositions; incidental descriptive statistics, boilerplate, and unreasoned position lists are excluded. Image labels were read, not image pixels.",
+  "claims": [
+    {
+      "claim": "Soft landing unlikely",
+      "source_blocks": [
+        9,
+        13,
+        14,
+        15
+      ],
+      "kind": "forecast",
+      "family": "fed-tightening-recession",
+      "verdict": "wrong",
+      "reason": "The preferred near-cycle recession outcome did not occur in the 2022-24 tightening/disinflation episode: NBER dates no recession, real GDP continued growing, and annual CPI fell to 3% by June 2024. An eventual unrelated recession would not rescue this episode-specific call.",
+      "evidence": [
+        {
+          "url": "https://www.nber.org/research/business-cycle-dating",
+          "title": "Business Cycle Dating",
+          "publisher": "NBER",
+          "date": null,
+          "verified": true,
+          "finding": "Official chronology identifies April 2020 as the pandemic recession trough; no 2022 recession is dated.",
+          "verification_method": "retrieved official chronology search extract; direct page denied"
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/GDPC1",
+          "title": "Real GDP",
+          "publisher": "BEA via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Real GDP rose from 22001.640bn inQ 42021 to 22272.546bn inQ 42022, about 1.23%, versus about 4.24% fromQ 12021 toQ 42021 alone.",
+          "verification_method": "computed from downloaded latest-vintage CSV; not a real-time vintage"
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07112024.htm",
+          "title": "CPI, June 2024",
+          "publisher": "BLS",
+          "date": "2024-07-11",
+          "verified": true,
+          "finding": "June 2024 annual CPI inflation was 3.0%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Current tightening cycle",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "fed-tightening-recession",
+      "modality": "probably",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Current tightening cycle",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "084-C01"
+    },
+    {
+      "claim": "Supply constrains disinflation",
+      "source_blocks": [
+        14,
+        20,
+        21,
+        214
+      ],
+      "kind": "explanation",
+      "family": "supply-constrained-inflation",
+      "verdict": "mixed",
+      "reason": "Supply relief and energy output helped disinflation, but the proposed necessity of much higher deferred oil prices was too rigid. US production reached a record in 2023. Demand normalization and monetary restraint also mattered; the source does not identify their separate contributions.",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=61545",
+          "title": "United States produces more crude oil than any country, ever",
+          "publisher": "EIA",
+          "date": "2024-03-11",
+          "verified": true,
+          "finding": "2023 production set a record, driven by Permian growth.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07112024.htm",
+          "title": "CPI, June 2024",
+          "publisher": "BLS",
+          "date": "2024-07-11",
+          "verified": true,
+          "finding": "June 2024 annual CPI inflation was 3.0%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "supply-constrained-inflation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C02"
+    },
+    {
+      "claim": "Growth slows, prices persist",
+      "source_blocks": [
+        21,
+        30,
+        42
+      ],
+      "kind": "forecast",
+      "family": "2022-stagflation-liquidity-risk",
+      "verdict": "right",
+      "reason": "2022 real growth slowed while headline CPI rose further to 9.1% in June. This validates the specified directional combination, not every recession inference drawn from it.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/GDPC1",
+          "title": "Real GDP",
+          "publisher": "BEA via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Real GDP rose from 22001.640bn inQ 42021 to 22272.546bn inQ 42022, about 1.23%, versus about 4.24% fromQ 12021 toQ 42021 alone.",
+          "verification_method": "computed from downloaded latest-vintage CSV; not a real-time vintage"
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07132022.htm",
+          "title": "CPI, June 2022",
+          "publisher": "BLS",
+          "date": "2022-07-13",
+          "verified": true,
+          "finding": "Annual headline CPI reached 9.1% in June 2022, exceeding March 8.5%.",
+          "verification_method": "retrieved official statistical release extract"
+        }
+      ],
+      "horizon": "2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-stagflation-liquidity-risk",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "084-C03"
+    },
+    {
+      "claim": "Q1 local inflation peak",
+      "source_blocks": [
+        22,
+        25
+      ],
+      "kind": "empirical",
+      "family": "2022-q1-local-cpi-peak",
+      "verdict": "right",
+      "reason": "March 8.5% exceeded April 8.3%, making the retrospective local-peak observation correct. June 9.1% prevents relabeling this as the final cycle peak.",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_04122022.htm",
+          "title": "Consumer Price Index, March 2022",
+          "publisher": "BLS",
+          "date": "2022-04-12",
+          "verified": true,
+          "finding": "March CPI inflation reached 8.5%; shelter contributed.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_05112022.htm",
+          "title": "CPI, April 2022",
+          "publisher": "BLS",
+          "date": "2022-05-11",
+          "verified": true,
+          "finding": "Annual CPI eased to 8.3%, following March 8.5%.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07132022.htm",
+          "title": "CPI, June 2022",
+          "publisher": "BLS",
+          "date": "2022-07-13",
+          "verified": true,
+          "finding": "Annual headline CPI reached 9.1% in June 2022, exceeding March 8.5%.",
+          "verification_method": "retrieved official statistical release extract"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-q1-local-cpi-peak",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C04"
+    },
+    {
+      "claim": "May gasoline inflation rises",
+      "source_blocks": [
+        26
+      ],
+      "kind": "forecast",
+      "family": "2022-may-gasoline-cpi",
+      "verdict": "right",
+      "reason": "BLS reported a 4.1% May gasoline increase. The specific next-release direction is independently resolved.",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_06102022.htm",
+          "title": "May 2022 CPI",
+          "publisher": "BLS",
+          "date": "2022-06-10",
+          "verified": true,
+          "finding": "Gasoline index rose 4.1% in May; annual all-items CPI reached 8.6%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "May 2022 CPI",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-may-gasoline-cpi",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: May 2022 CPI",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "084-C05"
+    },
+    {
+      "claim": "Inflationary decade persists",
+      "source_blocks": [
+        27
+      ],
+      "kind": "forecast",
+      "family": "2020s-inflationary-regime",
+      "verdict": "too_early",
+      "reason": "The decade endpoint has not arrived. The 2022 inflation spike and later disinflation both belong in the record; neither alone settles a regime-level decade claim.",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07132022.htm",
+          "title": "CPI, June 2022",
+          "publisher": "BLS",
+          "date": "2022-07-13",
+          "verified": true,
+          "finding": "Annual headline CPI reached 9.1% in June 2022, exceeding March 8.5%.",
+          "verification_method": "retrieved official statistical release extract"
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07112024.htm",
+          "title": "CPI, June 2024",
+          "publisher": "BLS",
+          "date": "2024-07-11",
+          "verified": true,
+          "finding": "June 2024 annual CPI inflation was 3.0%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2020s",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2020s-inflationary-regime",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: 2020s",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "084-C06"
+    },
+    {
+      "claim": "Employment lags activity",
+      "source_blocks": [
+        40,
+        42
+      ],
+      "kind": "explanation",
+      "family": "employment-lagging-cycle",
+      "verdict": "not_testable",
+      "reason": "Employment can lag turning points, but the source supplies no threshold or lead interval. Strong jobs cannot simply be dismissed whenever they contradict a preferred recession narrative.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Predefine activity turning points and test payroll lags across cycles.",
+      "asset_or_variable": "employment-lagging-cycle",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C07"
+    },
+    {
+      "claim": "Tightening stops in 2022",
+      "source_blocks": [
+        43
+      ],
+      "kind": "forecast",
+      "family": "2022-fed-pause",
+      "verdict": "wrong",
+      "reason": "The Fed raised rates again in December and continued quantitative tightening. It raised the target further to 5.25-5.50% in July 2023. Both the proposed deadline and the broad end-of-tightening direction failed.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20221214a.htm",
+          "title": "December 2022 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2022-12-14",
+          "verified": true,
+          "finding": "Target increased to 4.25-4.50%; balance-sheet reduction continued.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Policy target rose to 5.25-5.50%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Before end-2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-fed-pause",
+      "modality": "base case",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Before end-2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "084-C08"
+    },
+    {
+      "claim": "Long Treasuries rebound",
+      "source_blocks": [
+        47
+      ],
+      "kind": "investment_thesis",
+      "family": "2022-duration-reversal-setup",
+      "verdict": "wrong",
+      "reason": "TLT lost 13.27% over the six-month evaluator endpoint and 8.46% over twelve months, versus SHY -1.64% and +0.75%. Both author-specified ends were negative. ETF duration is an implementation proxy, not proof of an actual trade.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TLT/history/",
+          "title": "TLT historical daily market data",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "May 16, 2022 to November 15, 2022 adjusted return -13.27%; to May 15, 2023 -8.46%; SHY -1.64%/+0.75%. USD, no fees or taxes.",
+          "verification_method": "computed from coordinator-downloaded research/evidence/market CSV; adjusted-close total-return proxy or split-adjusted close as explicitly stated; no fees or taxes"
+        }
+      ],
+      "horizon": "6-12 months",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-duration-reversal-setup",
+      "modality": "tactically bullish",
+      "confidence": "low",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 6-12 months",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "test_specification": [
+        {
+          "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+          "published": "2022-05-15",
+          "requested_endpoint": "2022-11-15",
+          "entry": "2022-05-16",
+          "exit": "2022-11-15",
+          "days": 183,
+          "endpoint_gap_days": 0,
+          "endpoint_covered": true,
+          "instruments": {
+            "TLT": {
+              "entry_adjusted_close": 97.78988647460938,
+              "exit_adjusted_close": 84.80925750732422,
+              "cumulative_return_pct": -13.273999423913342,
+              "annualized_return_pct": -24.74209497511557,
+              "source": "https://finance.yahoo.com/quote/TLT/history/"
+            },
+            "SHY": {
+              "entry_adjusted_close": 71.94367980957031,
+              "exit_adjusted_close": 70.76545715332031,
+              "cumulative_return_pct": -1.637701406667924,
+              "annualized_return_pct": -3.242034320361842,
+              "source": "https://finance.yahoo.com/quote/SHY/history/"
+            }
+          },
+          "excess_percentage_points": -11.636298017245418
+        },
+        {
+          "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+          "published": "2022-05-15",
+          "requested_endpoint": "2023-05-15",
+          "entry": "2022-05-16",
+          "exit": "2023-05-15",
+          "days": 364,
+          "endpoint_gap_days": 0,
+          "endpoint_covered": true,
+          "instruments": {
+            "TLT": {
+              "entry_adjusted_close": 97.78988647460938,
+              "exit_adjusted_close": 89.51563262939453,
+              "cumulative_return_pct": -8.461257235801378,
+              "annualized_return_pct": -8.489044043174655,
+              "source": "https://finance.yahoo.com/quote/TLT/history/"
+            },
+            "SHY": {
+              "entry_adjusted_close": 71.94367980957031,
+              "exit_adjusted_close": 72.4854507446289,
+              "cumulative_return_pct": 0.7530486854336882,
+              "annualized_return_pct": 0.7556444503492354,
+              "source": "https://finance.yahoo.com/quote/SHY/history/"
+            }
+          },
+          "excess_percentage_points": -9.214305921235066
+        }
+      ],
+      "id": "084-C09"
+    },
+    {
+      "claim": "Hike expectations may peak",
+      "source_blocks": [
+        50
+      ],
+      "kind": "forecast",
+      "family": "2022-policy-rate-expectations-peak",
+      "verdict": "not_testable",
+      "reason": "The author frames a possibility rather than a firm peak forecast. Two-year yields subsequently rose substantially, contrary context that should remain visible, but possible does not create an unconditional scored prediction.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Policy target rose to 5.25-5.50%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a preferred peak date or probability and a market-implied rate series.",
+      "asset_or_variable": "2022-policy-rate-expectations-peak",
+      "modality": "possible",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "084-C10"
+    },
+    {
+      "claim": "Equity bounce precedes weakness",
+      "source_blocks": [
+        55,
+        57
+      ],
+      "kind": "forecast",
+      "family": "2022-bear-market-rally",
+      "verdict": "conditional_pending",
+      "reason": "A rebound is conditional on a bond-yield reversal and has no defined confirmation threshold. The later summer rally cannot be selected after the fact as proof of the exact conditional process.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": "Bond yields reverse",
+      "next_check": "Specify yield trigger, equity index and the bounce/deterioration windows.",
+      "asset_or_variable": "2022-bear-market-rally",
+      "modality": "possible",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "084-C11"
+    },
+    {
+      "claim": "Nvidia premium compressed",
+      "source_blocks": [
+        58
+      ],
+      "kind": "investment_thesis",
+      "family": "nvidia-valuation-reset",
+      "verdict": "not_testable",
+      "reason": "This is a valuation judgment, not a dated return target. Multiples depend on normalized earnings, growth and discount rates; a subsequent stock move alone cannot establish the appraisal.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "State fair value, earnings assumptions, horizon and benchmark before scoring.",
+      "asset_or_variable": "nvidia-valuation-reset",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C12"
+    },
+    {
+      "claim": "Adobe premium compressed",
+      "source_blocks": [
+        61
+      ],
+      "kind": "investment_thesis",
+      "family": "adobe-valuation-reset",
+      "verdict": "not_testable",
+      "reason": "This is a valuation judgment, not a dated return target. Multiples depend on normalized earnings, growth and discount rates; a subsequent stock move alone cannot establish the appraisal.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "State fair value, earnings assumptions, horizon and benchmark before scoring.",
+      "asset_or_variable": "adobe-valuation-reset",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C13"
+    },
+    {
+      "claim": "Costco remains expensive",
+      "source_blocks": [
+        64
+      ],
+      "kind": "investment_thesis",
+      "family": "costco-valuation",
+      "verdict": "not_testable",
+      "reason": "This is a valuation judgment, not a dated return target. Multiples depend on normalized earnings, growth and discount rates; a subsequent stock move alone cannot establish the appraisal.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "State fair value, earnings assumptions, horizon and benchmark before scoring.",
+      "asset_or_variable": "costco-valuation",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C14"
+    },
+    {
+      "claim": "Broad equities remain expensive",
+      "source_blocks": [
+        67
+      ],
+      "kind": "investment_thesis",
+      "family": "us-equity-valuation",
+      "verdict": "not_testable",
+      "reason": "This is a valuation judgment, not a dated return target. Multiples depend on normalized earnings, growth and discount rates; a subsequent stock move alone cannot establish the appraisal.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "State fair value, earnings assumptions, horizon and benchmark before scoring.",
+      "asset_or_variable": "us-equity-valuation",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C15"
+    },
+    {
+      "claim": "Cigna remains reasonable",
+      "source_blocks": [
+        69
+      ],
+      "kind": "investment_thesis",
+      "family": "cigna-valuation",
+      "verdict": "not_testable",
+      "reason": "This is a valuation judgment, not a dated return target. Multiples depend on normalized earnings, growth and discount rates; a subsequent stock move alone cannot establish the appraisal.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "State fair value, earnings assumptions, horizon and benchmark before scoring.",
+      "asset_or_variable": "cigna-valuation",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C16"
+    },
+    {
+      "claim": "Bank of America attractive",
+      "source_blocks": [
+        72
+      ],
+      "kind": "investment_thesis",
+      "family": "bank-of-america-valuation",
+      "verdict": "not_testable",
+      "reason": "This is a valuation judgment, not a dated return target. Multiples depend on normalized earnings, growth and discount rates; a subsequent stock move alone cannot establish the appraisal.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "State fair value, earnings assumptions, horizon and benchmark before scoring.",
+      "asset_or_variable": "bank-of-america-valuation",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C17"
+    },
+    {
+      "claim": "Deferred oil is underpriced",
+      "source_blocks": [
+        75
+      ],
+      "kind": "investment_thesis",
+      "family": "2025-deferred-oil-bullish",
+      "verdict": "wrong",
+      "reason": "The explicitly named December 2025 WTI contract expired at $59.14, below the article's approximately $71 reference. That is an $11.86 per-barrel decline in the quoted contract, not a computed leveraged account return. Margin, collateral interest and execution were not reconstructed.",
+      "evidence": [
+        {
+          "url": "https://www.spragueenergy.com/sideways-trading-on-the-last-day-of-the-december-contract/",
+          "title": "December WTI final trading day",
+          "publisher": "Sprague Energy",
+          "date": "2025-11-21",
+          "verified": true,
+          "finding": "December 2025 WTI went off the board at $59.14 on November 20, 2025. This is the named contract, not a spot-price substitute.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "December 2025 contract",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2025-deferred-oil-bullish",
+      "modality": "bullish",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: December 2025 contract",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C18"
+    },
+    {
+      "claim": "Backwardation discourages investment",
+      "source_blocks": [
+        76,
+        77
+      ],
+      "kind": "explanation",
+      "family": "oil-forward-curve-capex",
+      "verdict": "mixed",
+      "reason": "Low deferred prices can weaken hedged project economics, but Dallas Fed executives emphasized capital discipline, and US production nevertheless reached a record in 2023. Futures prices are one input, not a sufficient industry supply model.",
+      "evidence": [
+        {
+          "url": "https://www.dallasfed.org/research/surveys/des/2022/2201",
+          "title": "First-quarter 2022 Energy Survey",
+          "publisher": "Federal Reserve Bank of Dallas",
+          "date": "2022-03-23",
+          "verified": true,
+          "finding": "59% cited investor capital discipline as the main restraint on public producers; 11% cited ESG. This is executive opinion, not an identified causal experiment.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=61545",
+          "title": "United States produces more crude oil than any country, ever",
+          "publisher": "EIA",
+          "date": "2024-03-11",
+          "verified": true,
+          "finding": "2023 production set a record, driven by Permian growth.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "oil-forward-curve-capex",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C19"
+    },
+    {
+      "claim": "Value leads this decade",
+      "source_blocks": [
+        80
+      ],
+      "kind": "investment_thesis",
+      "family": "2020s-value-over-growth",
+      "verdict": "too_early",
+      "reason": "The decade has not ended. A tactical counter-rally in growth is explicitly allowed, so selected short windows cannot resolve the structural relative-return call.",
+      "evidence": [],
+      "horizon": "2020s",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2020s-value-over-growth",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: 2020s",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C20"
+    },
+    {
+      "claim": "Terra feedback loop failed",
+      "source_blocks": [
+        83,
+        89,
+        90,
+        104,
+        123
+      ],
+      "kind": "empirical",
+      "family": "terra-endogenous-collateral-run",
+      "verdict": "right",
+      "reason": "The independently documented run and collapse match the earlier warned endogenous-collateral mechanism. In this report the failure is already observed, so it is not another new forecast success.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2022-november-financial-stability-report-funding-risks.htm",
+          "title": "Financial Stability Report: Funding Risks",
+          "publisher": "Federal Reserve",
+          "date": "2022-11-04",
+          "verified": true,
+          "finding": "Reduced Terra USD lending rates and temporary liquidity shortages preceded a run and collapse in May 2022.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.elliptic.co/insights/what-happened-to-the-3-5-billion-terra-reserve-elliptic-follows-the-bitcoins/",
+          "title": "Tracing the Terra Bitcoin reserve",
+          "publisher": "Elliptic",
+          "date": "2022-05-13",
+          "verified": true,
+          "finding": "On-chain tracing located approximately 80,000 reserve BTC moving to Gemini and Binance amid the peg crisis. Exchange transfers alone do not prove execution price or causal price impact.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "terra-endogenous-collateral-run",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "revision_links": [
+        "081",
+        "083"
+      ],
+      "id": "084-C21"
+    },
+    {
+      "claim": "Capitalized attacker triggered Terra",
+      "source_blocks": [
+        87,
+        89
+      ],
+      "kind": "explanation",
+      "family": "terra-attack-attribution",
+      "verdict": "evidence_needed",
+      "reason": "The qualifier seemingly preserves uncertainty, but identifying a coordinated well-capitalized attacker requires wallet attribution and transaction sequencing. Evidence of a run does not establish malicious intent or a single attacker.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2022-november-financial-stability-report-funding-risks.htm",
+          "title": "Financial Stability Report: Funding Risks",
+          "publisher": "Federal Reserve",
+          "date": "2022-11-04",
+          "verified": true,
+          "finding": "Reduced Terra USD lending rates and temporary liquidity shortages preceded a run and collapse in May 2022.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Audit attributed wallets and timing against organic redemptions and liquidity changes.",
+      "asset_or_variable": "terra-attack-attribution",
+      "modality": "tentative",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C22"
+    },
+    {
+      "claim": "Terra reserve spills into Bitcoin",
+      "source_blocks": [
+        110,
+        115,
+        121
+      ],
+      "kind": "explanation",
+      "family": "terra-bitcoin-contagion",
+      "verdict": "mixed",
+      "reason": "Large reserve BTC transfers to exchanges support the contagion channel. They do not prove a particular sale price or isolate price impact; typical holders lacked guaranteed direct BTC redemption. The repeated quoted scenario was more concrete than the implemented mechanism.",
+      "evidence": [
+        {
+          "url": "https://www.elliptic.co/insights/what-happened-to-the-3-5-billion-terra-reserve-elliptic-follows-the-bitcoins/",
+          "title": "Tracing the Terra Bitcoin reserve",
+          "publisher": "Elliptic",
+          "date": "2022-05-13",
+          "verified": true,
+          "finding": "On-chain tracing located approximately 80,000 reserve BTC moving to Gemini and Binance amid the peg crisis. Exchange transfers alone do not prove execution price or causal price impact.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "terra-bitcoin-contagion",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C23"
+    },
+    {
+      "claim": "Tether differs from Terra",
+      "source_blocks": [
+        130,
+        134
+      ],
+      "kind": "explanation",
+      "family": "reserve-backed-stablecoin-run-risk",
+      "verdict": "mixed",
+      "reason": "Tether recovered its peg while Terra collapsed, supporting the structural distinction. Recovery does not independently prove every reserve was high quality or fully liquid; opacity and uneven redemption access remain relevant.",
+      "evidence": [
+        {
+          "url": "https://www.rba.gov.au/publications/bulletin/2022/dec/stablecoins-market-developments-risks-and-regulation.html",
+          "title": "Stablecoins: market developments, risks and regulation",
+          "publisher": "Reserve Bank of Australia",
+          "date": null,
+          "verified": true,
+          "finding": "December 2022 analysis distinguishes Terra collapse from Tether depegging and recovery; backing quality, redemption access and confidence matter.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "reserve-backed-stablecoin-run-risk",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C24"
+    },
+    {
+      "claim": "Altcoin peak may be permanent",
+      "source_blocks": [
+        136,
+        137
+      ],
+      "kind": "forecast",
+      "family": "altcoin-long-term-fragility",
+      "verdict": "not_testable",
+      "reason": "May, forever and several open-ended exceptions make this possibility unfalsifiable at a finite evaluation date. Token-market-cap composition and new issuance would also need a frozen universe.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a fixed asset universe, real-price deflator, probability and finite horizon.",
+      "asset_or_variable": "altcoin-long-term-fragility",
+      "modality": "possible",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "084-C25"
+    },
+    {
+      "claim": "Token regulation tightens",
+      "source_blocks": [
+        137
+      ],
+      "kind": "forecast",
+      "family": "crypto-securities-regulation",
+      "verdict": "right",
+      "reason": "The 2023 Coinbase securities action confirms a material tightening episode after publication. This does not mean all tokens had identical legal status or that enforcement never changed afterward.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2023-102",
+          "title": "SEC charges Coinbase",
+          "publisher": "SEC",
+          "date": "2023-06-06",
+          "verified": true,
+          "finding": "A major securities enforcement action occurred in 2023.",
+          "verification_method": "retrieved official press-release search extract"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "crypto-securities-regulation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "084-C26"
+    },
+    {
+      "claim": "Bitcoin enters value range",
+      "source_blocks": [
+        139,
+        153,
+        154
+      ],
+      "kind": "investment_thesis",
+      "family": "bitcoin-deep-value",
+      "verdict": "not_testable",
+      "reason": "The valuation band is not stated as a hard price floor; November prices fell lower. Bitcoin has no conventional cash-flow anchor, so network-value criteria and downside assumptions must be explicit.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin daily price",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "BTC: $57,471.87 November 28, 2021; $15,755.75 November 21, 2022; first subsequent daily close above $70,000 March 11, 2024.",
+          "verification_method": "computed from coordinator-downloaded CSV, provenance research/evidence/series-manifest.json"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Define the valuation model and distinguish fair value from a minimum market price.",
+      "asset_or_variable": "bitcoin-deep-value",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C27"
+    },
+    {
+      "claim": "NFT speculation fades",
+      "source_blocks": [
+        153
+      ],
+      "kind": "forecast",
+      "family": "nft-speculative-fragility",
+      "verdict": "mixed",
+      "reason": "2023 industry data show substantially lower dollar volume and cheaper NFTs, supporting reduced froth. That calendar-year comparison is not an exact May-to-May test, and changing collections prevent a fixed-price index inference.",
+      "evidence": [
+        {
+          "url": "https://dappradar.com/blog/dapp-industry-report-2023-defi-nft-web3-games",
+          "title": "2023 Dapp Industry Report",
+          "publisher": "DappRadar",
+          "date": "2024-01-11",
+          "verified": true,
+          "finding": "The report describes cheaper NFTs and a 49% drop in dollar volume to $12.6b in 2023, despite more units traded. Current page updated April 2026; composition changes prevent inference of a fixed-collection return.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "About one year",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "nft-speculative-fragility",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: About one year",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "084-C28"
+    },
+    {
+      "claim": "Bitcoin gains over years",
+      "source_blocks": [
+        155
+      ],
+      "kind": "investment_thesis",
+      "family": "bitcoin-long-term-bullish",
+      "verdict": "right",
+      "reason": "At the first end of the stated range, Coinbase BTC rose from $29,854.67 on May 16, 2022 to $103,500.03 on May 15, 2025, about 246.68%. The five-year endpoint is still ahead. A November 2022 price below $16,000 shows the substantial interim risk; no claim of superior risk-adjusted return follows.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin daily price",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "May 16, 2022 $29,854.67; May 15, 2025 $103,500.03; November 21, 2022 $15,755.75.",
+          "verification_method": "computed from coordinator CSV; USD spot price, no yield, fees or tax"
+        }
+      ],
+      "horizon": "3-5 years",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bitcoin-long-term-bullish",
+      "modality": "bullish",
+      "confidence": "low",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 3-5 years",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C29"
+    },
+    {
+      "claim": "Lightspark expands Lightning access",
+      "source_blocks": [
+        156,
+        160,
+        163
+      ],
+      "kind": "forecast",
+      "family": "lightning-commercial-payments",
+      "verdict": "right",
+      "reason": "The company launched a concrete API/SDK platform in April 2023. This confirms delivery of infrastructure, not adoption at Visa scale or equivalent consumer protections.",
+      "evidence": [
+        {
+          "url": "https://www.lightspark.com/news/lightspark/launching-the-lightspark-platform",
+          "title": "Launching the Lightspark Platform",
+          "publisher": "Lightspark",
+          "date": "2023-04-11",
+          "verified": true,
+          "finding": "Released API and SDK platform for Lightning payments, confirming implementation rather than merely a funding announcement.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "lightning-commercial-payments",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "084-C30"
+    },
+    {
+      "claim": "Lightning adds stablecoin capability",
+      "source_blocks": [
+        162
+      ],
+      "kind": "forecast",
+      "family": "bitcoin-taproot-assets",
+      "verdict": "right",
+      "reason": "Taproot Assets on Lightning reached mainnet in July 2024. Capability is established; merchant penetration, liquidity and trust assumptions require separate assessment.",
+      "evidence": [
+        {
+          "url": "https://lightning.engineering/posts/2024-07-23-taproot-assets-LN/",
+          "title": "Taproot Assets on Lightning",
+          "publisher": "Lightning Labs",
+          "date": "2024-07-23",
+          "verified": true,
+          "finding": "Multi-asset Lightning protocol released on mainnet, confirming a concrete extension enabled by Taproot.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bitcoin-taproot-assets",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "084-C31"
+    },
+    {
+      "claim": "GBTC provides discounted exposure",
+      "source_blocks": [
+        166
+      ],
+      "kind": "investment_thesis",
+      "family": "gbtc-discount-bitcoin-exposure",
+      "verdict": "not_testable",
+      "reason": "Discounted trust shares offer imperfect Bitcoin exposure with fees and discount risk. No explicit closure date or relative-return target is supplied here; later ETF conversion should not be treated as a predicted catalyst.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Separate BTC price, discount, fees and subsequent corporate actions for an explicit holding period.",
+      "asset_or_variable": "gbtc-discount-bitcoin-exposure",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C32"
+    },
+    {
+      "claim": "Core Scientific is resilient",
+      "source_blocks": [
+        167
+      ],
+      "kind": "investment_thesis",
+      "family": "core-scientific-miner-resilience",
+      "verdict": "wrong",
+      "reason": "Chapter 11 in December 2022 contradicts the near-term financial-resilience thesis. Reorganization later preserved operations and changed investor claims, so this is not a claim of complete common-stock wipeout or a calculated stock return.",
+      "evidence": [
+        {
+          "url": "https://investors.corescientific.com/sec-filings/all-sec-filings/content/0001628280-24-010682/core-20231231.htm",
+          "title": "2023 Form 10-K",
+          "publisher": "Core Scientific",
+          "date": "2024-03-13",
+          "verified": true,
+          "finding": "Filed Chapter 11 December 21, 2022; emerged January 2024. Reorganization changes security rights, so current CORZ prices cannot measure the original common-stock investment.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Challenging mining environment",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "core-scientific-miner-resilience",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Challenging mining environment",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C33"
+    },
+    {
+      "claim": "Alphabet diversifies earnings",
+      "source_blocks": [
+        190,
+        191
+      ],
+      "kind": "investment_thesis",
+      "family": "alphabet-business-resilience",
+      "verdict": "mixed",
+      "reason": "Cloud growth and subsequent revenue expansion support diversification. Advertising remained central, so low physical supply-chain exposure does not eliminate cyclical advertising, customer or geographic risk.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
+          "title": "2024 Form 10-K",
+          "publisher": "Alphabet / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Revenue rose from $282.836b in 2022 to $307.394b in 2023 and $350.018b in 2024; 2024 repurchases $62b; Cloud revenue increased 31%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "alphabet-business-resilience",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C34"
+    },
+    {
+      "claim": "Alphabet grows after normalization",
+      "source_blocks": [
+        193,
+        209,
+        210
+      ],
+      "kind": "investment_thesis",
+      "family": "alphabet-post-pandemic-growth",
+      "verdict": "right",
+      "reason": "Revenue rose in both 2023 and 2024, contradicting the article's explicitly conditional stagnation scenario. Operating growth is evaluated separately from the stock appraisal.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
+          "title": "2024 Form 10-K",
+          "publisher": "Alphabet / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Revenue rose from $282.836b in 2022 to $307.394b in 2023 and $350.018b in 2024; 2024 repurchases $62b; Cloud revenue increased 31%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "2023-24",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "alphabet-post-pandemic-growth",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 2023-24",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C35"
+    },
+    {
+      "claim": "Alphabet valuation is attractive",
+      "source_blocks": [
+        196,
+        199,
+        201
+      ],
+      "kind": "investment_thesis",
+      "family": "alphabet-stock-valuation",
+      "verdict": "not_testable",
+      "reason": "Relative multiples and cash strengthen the investment case but do not define fair value. The dated price thesis below is testable; this appraisal alone is not.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify normalized earnings, growth and required return.",
+      "asset_or_variable": "alphabet-stock-valuation",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C36"
+    },
+    {
+      "claim": "Repurchases return excess cash",
+      "source_blocks": [
+        203
+      ],
+      "kind": "investment_thesis",
+      "family": "alphabet-capital-return",
+      "verdict": "right",
+      "reason": "Alphabet repurchased $62b in 2024, confirming sustained capital return. Whether repurchases created value depends on price relative to intrinsic value and employee issuance.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
+          "title": "2024 Form 10-K",
+          "publisher": "Alphabet / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Revenue rose from $282.836b in 2022 to $307.394b in 2023 and $350.018b in 2024; 2024 repurchases $62b; Cloud revenue increased 31%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "alphabet-capital-return",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C37"
+    },
+    {
+      "claim": "Privacy and platforms threaten moat",
+      "source_blocks": [
+        206,
+        207,
+        208
+      ],
+      "kind": "explanation",
+      "family": "alphabet-platform-regulatory-risk",
+      "verdict": "not_testable",
+      "reason": "These are ongoing risk channels rather than dated predictions. Relative YouTube/TikTok impact requires comparable audience, advertising yield and revenue attribution; the article does not quantify the claimed insulation.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Track comparable platform share and regulatory remedies against an explicit baseline.",
+      "asset_or_variable": "alphabet-platform-regulatory-risk",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C38"
+    },
+    {
+      "claim": "Alphabet beats dollars and Treasuries",
+      "source_blocks": [
+        209
+      ],
+      "kind": "investment_thesis",
+      "family": "alphabet-three-five-year-appreciation",
+      "verdict": "right",
+      "reason": "GOOGL adjusted return was +43.95% from May 16, 2022 to May 15, 2025, versus TLT -17.43%. This supports the three-year end of the range; the five-year endpoint remains open. Cash here means nominal dollars, not an invented T-bill total return.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GOOGL/history/",
+          "title": "GOOGL historical daily market data",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "May 16, 2022 to May 15, 2025 adjusted return +43.95%; TLT -17.43%. USD split/dividend-adjusted proxy, no fees or tax.",
+          "verification_method": "computed from coordinator-downloaded research/evidence/market CSV; adjusted-close total-return proxy or split-adjusted close as explicitly stated; no fees or taxes"
+        }
+      ],
+      "horizon": "3-5 years",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "alphabet-three-five-year-appreciation",
+      "modality": "bullish",
+      "confidence": "low",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 3-5 years",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "test_specification": {
+        "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+        "published": "2022-05-15",
+        "requested_endpoint": "2025-05-15",
+        "entry": "2022-05-16",
+        "exit": "2025-05-15",
+        "days": 1095,
+        "endpoint_gap_days": 0,
+        "endpoint_covered": true,
+        "instruments": {
+          "GOOGL": {
+            "entry_adjusted_close": 113.36624145507812,
+            "exit_adjusted_close": 163.19100952148438,
+            "cumulative_return_pct": 43.95026899268733,
+            "annualized_return_pct": 12.92071390142131,
+            "source": "https://finance.yahoo.com/quote/GOOGL/history/"
+          },
+          "TLT": {
+            "entry_adjusted_close": 97.78988647460938,
+            "exit_adjusted_close": 80.74488830566406,
+            "cumulative_return_pct": -17.430225950176304,
+            "annualized_return_pct": -6.188796379239381,
+            "source": "https://finance.yahoo.com/quote/TLT/history/"
+          }
+        },
+        "excess_percentage_points": 61.380494942863635
+      },
+      "id": "084-C39"
+    },
+    {
+      "claim": "Alphabet may match Apple",
+      "source_blocks": [
+        209
+      ],
+      "kind": "forecast",
+      "family": "alphabet-apple-market-cap",
+      "verdict": "not_testable",
+      "reason": "Could match is a possibility with no date or probability, not a preferred numerical target. Share repurchases also make share price and company market capitalization different tests.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify market-cap endpoint and probability.",
+      "asset_or_variable": "alphabet-apple-market-cap",
+      "modality": "possible",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "084-C40"
+    },
+    {
+      "claim": "Stagnation creates a value trap",
+      "source_blocks": [
+        210
+      ],
+      "kind": "forecast",
+      "family": "alphabet-growth-disappointment-risk",
+      "verdict": "conditional_pending",
+      "reason": "The named trigger did not occur in 2023-24: revenues grew in both years. The conditional downside is not a failed base-case forecast or a successful prediction.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
+          "title": "2024 Form 10-K",
+          "publisher": "Alphabet / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Revenue rose from $282.836b in 2022 to $307.394b in 2023 and $350.018b in 2024; 2024 repurchases $62b; Cloud revenue increased 31%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": "Growth fails to recover in 2023-24",
+      "next_check": "No outcome score unless the stated trigger occurs.",
+      "asset_or_variable": "alphabet-growth-disappointment-risk",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "084-C41"
+    },
+    {
+      "claim": "Debt constrains rate policy",
+      "source_blocks": [
+        215
+      ],
+      "kind": "explanation",
+      "family": "fiscal-dominance-rate-constraint",
+      "verdict": "mixed",
+      "reason": "Higher rates increase refinancing burdens over time, but the Fed still reached 5.25-5.50% and sustained restriction. A high-debt economy is not proof of an immediate numerical ceiling or an inevitable Treasury funding failure.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Policy target rose to 5.25-5.50%.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2024-ar-monetary-policy.htm",
+          "title": "2024 Annual Report: Monetary Policy",
+          "publisher": "Federal Reserve",
+          "date": null,
+          "verified": true,
+          "finding": "Policy rates exceeded PCE inflation during sustained restriction.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "fiscal-dominance-rate-constraint",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C42"
+    },
+    {
+      "claim": "Defensive rebalancing remains useful",
+      "source_blocks": [
+        212,
+        216
+      ],
+      "kind": "investment_thesis",
+      "family": "defensive-rebalancing-with-reversal-risk",
+      "verdict": "not_testable",
+      "reason": "No weights or fixed rebalance rules are given. A mix can reduce concentration, but its success depends on the investor's objective, cash cost and chosen thresholds.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Define portfolio weights, benchmark and risk objective.",
+      "asset_or_variable": "defensive-rebalancing-with-reversal-risk",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "084-C43"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Cycle dashboard",
+      "source_blocks": [
+        30,
+        40,
+        43
+      ],
+      "use": "Turning points",
+      "image_inspected": false
+    },
+    {
+      "name": "Yield and valuation charts",
+      "source_blocks": [
+        47,
+        64,
+        196
+      ],
+      "use": "Pricing",
+      "image_inspected": false
+    },
+    {
+      "name": "Oil futures curve",
+      "source_blocks": [
+        75
+      ],
+      "use": "Supply incentives",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate asset value from financing survival."
+  ],
+  "assessment": "This report contains several unusually testable calls. The Fed-pause deadline and six-to-twelve-month Treasury thesis failed; the named deferred oil contract also settled below its quoted entry reference. Alphabet and Bitcoin appreciated over the first three years of their three-to-five-year theses, with substantial interim volatility. Core Scientific's bankruptcy is a material company-selection miss. The Terra discussion largely repeats an already successful prior warning and should not inflate forecast counts. Conditional risks and valuation opinions are retained without forcing binary grades.",
+  "verification_limitations": [
+    "Captured website text is not an authenticated publication-date version.",
+    "Chart-only numerical claims have not been visually verified.",
+    "Selected stock/ETF adjusted-close comparisons are disclosed where used; no reconstructed portfolio backtest has been performed.",
+    "Unresolved verdicts are not forecast failures or successes; no aggregate hit rate is inferred."
+  ]
+}

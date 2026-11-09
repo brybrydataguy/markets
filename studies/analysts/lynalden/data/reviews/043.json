@@ -1,0 +1,144 @@
+{
+  "article_id": "043",
+  "title": "Portfolio Update: TSLA and GBTC",
+  "date": "2020-12-22",
+  "source_url": "https://www.lynalden.com/premium-2020-12-22/",
+  "read_complete": true,
+  "summary": "Tesla short and GBTC reduction.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "Tesla short with defined exit",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        5,
+        7
+      ],
+      "family": "tesla-inclusion-short",
+      "asset_or_variable": "TSLA",
+      "horizon": "tactical; exit above $695",
+      "conditions": "Short entered around $660",
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The proposed $695 invalidation level was exceeded on December 30, 2020. The split-normalized high of $232.20 equals $696.60 on the contemporary share basis. The bearish setup therefore hit its own exit condition. Exact fill, interim covering, borrow cost and actual portfolio result are not known.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Invalidation within nine days of the reported entry.",
+      "mechanism_assessment": "Index inclusion did not prevent another price surge.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TSLA/history/",
+          "title": "December 2020 short invalidation levels",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "After 2022 three-for-one split normalization, December 30, 2020 high 232.20 equals 696.60 in 2020 units, first above 695 after December 21. December 31 high 239.5733 equals 718.72, first above 700. December 22 low 204.7433 equals 614.23. Daily OHLC does not establish actual fills or intraday order."
+        },
+        {
+          "url": "https://ir.tesla.com/press-release/tesla-announces-three-one-stock-split?source=syndication",
+          "title": "Three-for-one split",
+          "publisher": "Tesla",
+          "date": "2022-08-05",
+          "verified": true,
+          "finding": "Tesla declared 3:1 split, trading adjusted August 25, 2022. Therefore a 2020$500 threshold corresponds to $166.6667 in vendor back-adjusted historical OHLC."
+        }
+      ],
+      "next_check": null,
+      "id": "043-C01"
+    },
+    {
+      "claim": "Tesla can hedge equity exposure",
+      "kind": "explanation",
+      "source_blocks": [
+        7
+      ],
+      "family": "single-stock-short-hedge",
+      "asset_or_variable": "TSLA portfolio hedge",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A negative position reduces net market exposure, but one volatile stock can rise while the rest falls. No portfolio weights or covariance target define the effectiveness of this hedge.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "043-C02"
+    },
+    {
+      "claim": "GBTC premium adds separate risk",
+      "kind": "explanation",
+      "source_blocks": [
+        9,
+        11
+      ],
+      "family": "gbtc-premium-risk",
+      "asset_or_variable": "GBTC",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The wrapper risk was real and subsequently material: by year-end 2021 shares traded below underlying holdings value. A bullish Bitcoin view did not eliminate the separate risk of paying above asset value. This validates the warning, not an optimal sale date.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1588489/000119312522053501/d289251d10k.htm",
+          "title": "2021 Form 10-K",
+          "publisher": "Grayscale / SEC",
+          "date": "2022-02-25",
+          "verified": true,
+          "finding": "At December 31, 2021 GBTC traded at a 20% discount to digital asset holdings per share, or 22% on the old index basis. Lack of redemptions permitted large premiums and discounts; sponsor fees reduced Bitcoin per share."
+        }
+      ],
+      "next_check": null,
+      "id": "043-C03"
+    },
+    {
+      "claim": "Trim concentration while retaining Bitcoin",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        11,
+        13
+      ],
+      "family": "gbtc-concentration-trim",
+      "asset_or_variable": "GBTC and BTC",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Reducing a position mechanically reduces its exposure, but the preferred risk level and return tradeoff are personal. No complete contemporaneous account ledger or objective function supports scoring the trim as a performance win.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "043-C04"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "GBTC premium",
+      "source_blocks": [
+        12
+      ],
+      "use": "Wrapper valuation",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate asset conviction from vehicle risk."
+  ],
+  "assessment": "A short setup failed its explicit price condition. The GBTC warning was analytically sound, while optimal sizing remains a preference rather than a forecast.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "Public market series are available, but not every investment claim has a defined horizon or reconciled corporate-action-adjusted return. Unverified outcomes remain unscored; macro data use latest available vintages."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "356dc567df880442e1280f0eb6e0af38664285ded9fe49a44fbd209d4daf3a6e"
+}

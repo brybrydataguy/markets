@@ -1,0 +1,808 @@
+{
+  "article_id": "190",
+  "title": "Job Numbers and Last Week’s Tech/Crypto Rout",
+  "date": "2026-06-07",
+  "source_url": "https://www.lynalden.com/premium-2026-6-7/",
+  "read_complete": true,
+  "evaluation_as_of": "2026-11-07",
+  "summary": "Policy restraint, a failed Bitcoin floor and financing risk.",
+  "assessment": "The near-term no-cut call is supported, and the report candidly retracts the Bitcoin bottom view. AWK’s actual entry subsequently performs well. The Strategy reserve critique identifies a real liquidity issue, while attributing the selloff to sentiment remains unproven. Gold-versus-dollar reserve comparisons need tighter denominators.",
+  "claims": [
+    {
+      "claim": "Inventories and import reductions cushion oil disruption.",
+      "source_blocks": [
+        9,
+        10,
+        12,
+        13,
+        14
+      ],
+      "verdict": "right",
+      "reason": "EIA subsequently confirmed Chinese crude imports below 8mb/d in May and June; IEA reported large combined China/Japan import reductions. This supports the buffering mechanism, while the exact division between inventory draw and final-demand destruction remains uncertain as the source acknowledges.",
+      "kind": "explanation",
+      "family": "energy-inventory-buffer",
+      "asset_or_variable": "energy-inventory-buffer",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=67905",
+          "title": "China’s crude imports declined",
+          "publisher": "EIA",
+          "date": null,
+          "verified": true,
+          "finding": "Imports fell below 8mb/d in May and June 2026, the first such readings since 2016."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C01"
+    },
+    {
+      "claim": "A single jobs beat is economically modest.",
+      "source_blocks": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "verdict": "right",
+      "reason": "The initial 172,000 payroll number and sector pattern match BLS. Dividing a monthly surprise by the employment stock illustrates scale, but does not measure its information content for future inflation or policy.",
+      "kind": "explanation",
+      "family": "jobs-surprise-scale",
+      "asset_or_variable": "jobs-surprise-scale",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/empsit_06052026.htm",
+          "title": "May employment release",
+          "publisher": "BLS",
+          "date": "2026-06-05",
+          "verified": true,
+          "finding": "Initially reported 172,000 payroll gains; unemployment 4.3%; gains in leisure/hospitality, local government and healthcare."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C02"
+    },
+    {
+      "claim": "Jobs news triggered the market selloff.",
+      "source_blocks": [
+        21,
+        22
+      ],
+      "verdict": "evidence_needed",
+      "reason": "A coincident announcement and repricing are suggestive, but daily returns cannot isolate the catalyst. Intraday rates and equity data, plus other simultaneous news, are needed for causal attribution.",
+      "kind": "explanation",
+      "family": "macro-news-market-causality",
+      "asset_or_variable": "macro-news-market-causality",
+      "horizon": null,
+      "conditions": null,
+      "modality": "probably",
+      "evidence": [],
+      "next_check": "Use event-time asset and rate-futures movements around the 8:30release.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C03"
+    },
+    {
+      "claim": "Near-term rate cuts are unlikely.",
+      "source_blocks": [
+        23,
+        24,
+        26,
+        29,
+        31
+      ],
+      "verdict": "right",
+      "reason": "The June 17 meeting held rates and October remained above the June range. The near-term no-cut view is supported. The author did not confidently predict a hike, so September’s increase is not credited as her hike forecast.",
+      "kind": "forecast",
+      "family": "2026-fed-no-cut",
+      "asset_or_variable": "2026-fed-no-cut",
+      "horizon": "Near term / upcoming June meeting",
+      "conditions": null,
+      "modality": "mostly off the table",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+          "title": "June FOMC decision",
+          "publisher": "Federal Reserve",
+          "date": "2026-06-17",
+          "verified": true,
+          "finding": "Unanimously held the federal-funds range at 3.50-3.75%, citing elevated inflation and solid activity."
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+          "title": "October 2026 FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2026-10-28",
+          "verified": true,
+          "finding": "Target range held at 3.75-4.00%; inflation remained elevated and two voters preferred a further increase."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Near term / upcoming June meeting",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C04"
+    },
+    {
+      "claim": "Inflation remains contained without money acceleration.",
+      "source_blocks": [
+        28
+      ],
+      "verdict": "mixed",
+      "reason": "CPI year-over-year peaked locally around 4.17% in May, then eased to 3.30% in July before 3.72% in September. This is consistent with no 2022-scale blowout, but “out of control” is undefined and money growth alone does not identify the inflation path.",
+      "kind": "forecast",
+      "family": "2026-inflation-containment",
+      "asset_or_variable": "2026-inflation-containment",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+          "title": "CPIAUCSL observations through the audit cutoff",
+          "publisher": "FRED / originating statistical agency",
+          "date": null,
+          "verified": true,
+          "finding": "Computed Yo Y:May 4.17%, July 3.30%, September 3.72%, using current-vintage monthly levels."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C05"
+    },
+    {
+      "claim": "AWK adds useful portfolio diversification.",
+      "source_blocks": [
+        35,
+        36
+      ],
+      "verdict": "mixed",
+      "reason": "An actual 3% position is announced here, unlike the prior watch-list review. June 8-November 6 adjusted AWK gained 23.51% while SPY was flat. Return success does not prove uncorrelated behavior; a portfolio covariance and weight analysis would be needed.",
+      "kind": "investment_thesis",
+      "family": "american-water-allocation",
+      "asset_or_variable": "american-water-allocation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/AWK/history/",
+          "title": "AWK market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "June 8-November 6 adjusted return+23.51%, SPY-0.03%; execution prices and portfolio rebalancing not reconstructed."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C06"
+    },
+    {
+      "claim": "Chip valuations required a cooling period.",
+      "source_blocks": [
+        49,
+        51,
+        52,
+        53,
+        63,
+        65
+      ],
+      "verdict": "mixed",
+      "reason": "Micron subsequently remained volatile and ended 27.29% lower from June 8 through November 6, supporting the decision to wait. Calling a correction healthy is a valuation judgment; the earlier breakout is the same April forecast episode and earns no second win.",
+      "kind": "investment_thesis",
+      "family": "semiconductor-2026-correction",
+      "asset_or_variable": "semiconductor-2026-correction",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/MU/history/",
+          "title": "MU market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "June 8-November 6 adjusted return-27.29%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C07"
+    },
+    {
+      "claim": "Micron probably avoids a full April round trip.",
+      "source_blocks": [
+        65
+      ],
+      "verdict": "mixed",
+      "reason": "The lowest subsequent intraday price through November 6 was $650, above the roughly $420 April consolidation. This is favorable interim evidence, but the forecast lacks a terminal date; later downside remains possible.",
+      "kind": "forecast",
+      "family": "micron-no-roundtrip",
+      "asset_or_variable": "micron-no-roundtrip",
+      "horizon": null,
+      "conditions": null,
+      "modality": "doubts full reversal",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/MU/history/",
+          "title": "MU market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "Post June 7 through November 6 minimum intraday low $650 on November 5."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C08"
+    },
+    {
+      "claim": "Memory demand sustains a multiyear cycle.",
+      "source_blocks": [
+        55,
+        59,
+        60,
+        61
+      ],
+      "verdict": "too_early",
+      "reason": "The quoted three-to-five-year industry thesis extends into 2029-2031. Strong 2026 revenue supports demand now, but supply response and cycle margins remain unobserved across the full horizon.",
+      "kind": "investment_thesis",
+      "family": "ai-memory-cycle",
+      "asset_or_variable": "ai-memory-cycle",
+      "horizon": "Three to five years from April 2026",
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/",
+          "title": "Micron fiscal 2026 results",
+          "publisher": "Micron",
+          "date": "2026-09-30",
+          "verified": true,
+          "finding": "Fiscal Q4 revenue $54.23 billion versus $11.32 billion a year earlier. Strong memory demand is observed; management guidance for 2027 is not an outcome."
+        }
+      ],
+      "next_check": "Track capacity, memory prices, utilization and margins over the full supply cycle.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "Three to five years from April 2026",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C09"
+    },
+    {
+      "claim": "Professional software survives AI disruption.",
+      "source_blocks": [
+        66,
+        69,
+        70
+      ],
+      "verdict": "right",
+      "reason": "Later Adobe and Salesforce results show continued revenue growth, supporting near-term business survival and adaptation. This bounded result does not establish unchanged pricing power or a permanent moat.",
+      "kind": "investment_thesis",
+      "family": "saas-business-resilience",
+      "asset_or_variable": "saas-business-resilience",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm",
+          "title": "Adobe fiscal Q3 2026 results",
+          "publisher": "Adobe",
+          "date": "2026-09-10",
+          "verified": true,
+          "finding": "Revenue $6.76bn, +13% year over year; operating cash flow $2.52bn; approximately 9.5m shares repurchased."
+        },
+        {
+          "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx",
+          "title": "Salesforce second-quarter fiscal 2027 results",
+          "publisher": "Salesforce",
+          "date": "2026-08-26",
+          "verified": true,
+          "finding": "Revenue $11.345bn, up 10.8%; GAAP net income benefited substantially from investment gains."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C10"
+    },
+    {
+      "claim": "Software valuations are excessively pessimistic.",
+      "source_blocks": [
+        69,
+        70
+      ],
+      "verdict": "mixed",
+      "reason": "June 8-November 6 adjusted CRM rose 17.54% while ADBE fell 2.32%, against a flat SPY. Business resilience and stock returns differ; the broader value-versus-growth classification has no stated horizon.",
+      "kind": "investment_thesis",
+      "family": "saas-contrarian-value",
+      "asset_or_variable": "saas-contrarian-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://investor.salesforce.com/news/news-details/2026/Salesforce-Delivers-Record-Second-Quarter-Fiscal-2027-Results/default.aspx",
+          "title": "Salesforce second-quarter fiscal 2027 results",
+          "publisher": "Salesforce",
+          "date": "2026-08-26",
+          "verified": true,
+          "finding": "Revenue $11.345bn, up 10.8%; GAAP net income benefited substantially from investment gains."
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm",
+          "title": "Adobe fiscal Q3 2026 results",
+          "publisher": "Adobe",
+          "date": "2026-09-10",
+          "verified": true,
+          "finding": "Revenue $6.76bn, +13% year over year; operating cash flow $2.52bn; approximately 9.5m shares repurchased."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/CRM/history/",
+          "title": "CRM market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "June 8-November 6 CRM+17.54%, ADBE-2.32%, SPY-0.03%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C11"
+    },
+    {
+      "claim": "The prior Bitcoin bottom call failed.",
+      "source_blocks": [
+        72
+      ],
+      "verdict": "right",
+      "reason": "The report explicitly invalidates its prior base case. Daily OHLC shows June 5 at $59,108.92 below the February 6 low $60,074.20. This is a correct update, while article 188’s original bottom forecast remains wrong.",
+      "kind": "empirical",
+      "family": "bitcoin-2026-bottom-revision",
+      "asset_or_variable": "bitcoin-2026-bottom-revision",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC-USD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "February 6 low 60,074.20; June 5 low 59,108.92; July 1 subsequently 57,747.77."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C12"
+    },
+    {
+      "claim": "Broad crypto underperforms Bitcoin structurally.",
+      "source_blocks": [
+        74,
+        76,
+        78,
+        84
+      ],
+      "verdict": "not_testable",
+      "reason": "The article gives no portfolio of tokens, benchmark window or endpoint. Relative-price charts can verify a selected historical period but cannot establish permanent underperformance or validate every structural criticism.",
+      "kind": "investment_thesis",
+      "family": "altcoin-structural-bearishness",
+      "asset_or_variable": "altcoin-structural-bearishness",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C13"
+    },
+    {
+      "claim": "Zcash had a longstanding counterfeiting flaw.",
+      "source_blocks": [
+        80
+      ],
+      "verdict": "right",
+      "reason": "The research team’s disclosure confirms the four-year exposure and coordinated emergency fix. The existence of the vulnerability is established; actual historical exploitation remains unknown.",
+      "kind": "empirical",
+      "family": "zcash-counterfeiting-vulnerability",
+      "asset_or_variable": "zcash-counterfeiting-vulnerability",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://forum.zcashcommunity.com/t/the-orchard-counterfeiting-vulnerability-and-next-steps/56015",
+          "title": "Orchard vulnerability disclosure",
+          "publisher": "Shielded Labs researchers",
+          "date": "2026-06-04",
+          "verified": true,
+          "finding": "Security researchers describe a May 2022-June 2026 counterfeiting vulnerability, emergency remediation and inability to cryptographically establish prior exploitation."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C14"
+    },
+    {
+      "claim": "Privacy complicates supply-integrity verification.",
+      "source_blocks": [
+        81,
+        82
+      ],
+      "verdict": "mixed",
+      "reason": "The Orchard incident directly supports this specific auditability problem. It does not prove all privacy systems must have equivalent weaknesses: supply proofs depend on cryptographic assumptions and implementation. A small anonymity set also differs from supply auditing.",
+      "kind": "explanation",
+      "family": "privacy-supply-auditability",
+      "asset_or_variable": "privacy-supply-auditability",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://forum.zcashcommunity.com/t/the-orchard-counterfeiting-vulnerability-and-next-steps/56015",
+          "title": "Orchard vulnerability disclosure",
+          "publisher": "Shielded Labs researchers",
+          "date": "2026-06-04",
+          "verified": true,
+          "finding": "Security researchers describe a May 2022-June 2026 counterfeiting vulnerability, emergency remediation and inability to cryptographically establish prior exploitation."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C15"
+    },
+    {
+      "claim": "Emergency coordination challenges decentralization.",
+      "source_blocks": [
+        80,
+        82
+      ],
+      "verdict": "mixed",
+      "reason": "A few developers coordinating a patch demonstrates influence and concentration of expertise, but voluntary node adoption differs from unilateral power to rewrite balances. Evaluate governance authority and users’ ability to reject upgrades separately.",
+      "kind": "explanation",
+      "family": "crypto-emergency-governance",
+      "asset_or_variable": "crypto-emergency-governance",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://forum.zcashcommunity.com/t/the-orchard-counterfeiting-vulnerability-and-next-steps/56015",
+          "title": "Orchard vulnerability disclosure",
+          "publisher": "Shielded Labs researchers",
+          "date": "2026-06-04",
+          "verified": true,
+          "finding": "Security researchers describe a May 2022-June 2026 counterfeiting vulnerability, emergency remediation and inability to cryptographically establish prior exploitation."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C16"
+    },
+    {
+      "claim": "Strategy’s Bitcoin sale was economically tiny.",
+      "source_blocks": [
+        86,
+        87,
+        95,
+        98
+      ],
+      "verdict": "right",
+      "reason": "The filing confirms 32 coins sold against 843,706 remaining, about 0.0038% of holdings. That validates scale; whether the market reaction was irrational or caused by this headline is not resolved by that ratio.",
+      "kind": "empirical",
+      "family": "strategy-small-bitcoin-sale",
+      "asset_or_variable": "strategy-small-bitcoin-sale",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://assets.contentstack.io/v3/assets/bltf8d808d9b8cebd37/blt01aedf36c9f1b5b3/6a1cdb95487e7818fe49dd85/form-8-k_06-01-2026.pdf",
+          "title": "Strategy June 1 Form 8-K",
+          "publisher": "Strategy",
+          "date": "2026-06-01",
+          "verified": true,
+          "finding": "Sold 32 BTC for $2.5m; retained 843,706 BTC; USD reserve $900m; sale proceeds expected to fund preferred distributions. STRC annual dividend rate maintained at 11.5%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C17"
+    },
+    {
+      "claim": "The sale mainly shocked weak sentiment.",
+      "source_blocks": [
+        95,
+        96,
+        98
+      ],
+      "verdict": "evidence_needed",
+      "reason": "Market timing and the tiny sale are not sufficient to identify causality. Investors could have reacted to changing financing policy, cash runway, rates or wider risk reduction rather than supply volume alone.",
+      "kind": "explanation",
+      "family": "strategy-sale-sentiment",
+      "asset_or_variable": "strategy-sale-sentiment",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": "Separate announcement effects from broader crypto moves and financing-risk news.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C18"
+    },
+    {
+      "claim": "Strategy’s reserve coverage deteriorated.",
+      "source_blocks": [
+        101,
+        102,
+        103,
+        106,
+        107,
+        109,
+        111,
+        112,
+        118
+      ],
+      "verdict": "mixed",
+      "reason": "The filing verifies $900m of management-designated reserve and preferred distributions. The exact six-month runway needs the then-outstanding preferred stack, variable rates and interest costs. Prior management guidance is not a legally ring-fenced liquidity covenant.",
+      "kind": "explanation",
+      "family": "strategy-cash-reserve-runway",
+      "asset_or_variable": "strategy-cash-reserve-runway",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://assets.contentstack.io/v3/assets/bltf8d808d9b8cebd37/blt01aedf36c9f1b5b3/6a1cdb95487e7818fe49dd85/form-8-k_06-01-2026.pdf",
+          "title": "Strategy June 1 Form 8-K",
+          "publisher": "Strategy",
+          "date": "2026-06-01",
+          "verified": true,
+          "finding": "Sold 32 BTC for $2.5m; retained 843,706 BTC; USD reserve $900m; sale proceeds expected to fund preferred distributions. STRC annual dividend rate maintained at 11.5%."
+        }
+      ],
+      "next_check": "Reconcile all dividend/interest obligations and February/May guidance using contemporaneous filings.",
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C19"
+    },
+    {
+      "claim": "Larger cash reserves improve financing resilience.",
+      "source_blocks": [
+        100,
+        101,
+        113,
+        117,
+        118
+      ],
+      "verdict": "right",
+      "reason": "Holding more cash against fixed cash obligations lengthens runway and reduces forced-sale exposure, all else equal. The claimed counterfactual impact on STRC’s trading price cannot be identified from the reserve arithmetic alone.",
+      "kind": "explanation",
+      "family": "bitcoin-treasury-liquidity-risk",
+      "asset_or_variable": "bitcoin-treasury-liquidity-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Same cash obligations and other assets",
+          "Cash available when obligations fall due"
+        ],
+        "derivation": "Coverage months equal available cash divided by monthly obligations; additional cash increases coverage and reduces immediate refinancing needs."
+      },
+      "id": "190-C20"
+    },
+    {
+      "claim": "Metals no longer offer the earlier asymmetry.",
+      "source_blocks": [
+        122,
+        123,
+        124,
+        126
+      ],
+      "verdict": "not_testable",
+      "reason": "No probability distribution, fundamental-value model or future return threshold is supplied. June 8-November 6 GLD and SLV fell 6.23% and 23.89%, but that interim weakness alone cannot prove the valuation or prospective payoff distribution.",
+      "kind": "investment_thesis",
+      "family": "metals-asymmetry-normalization",
+      "asset_or_variable": "metals-asymmetry-normalization",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD market history",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "June 8-November 6 GLD-6.23%, SLV-23.89%."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C21"
+    },
+    {
+      "claim": "Gold has surpassed dollar reserve holdings.",
+      "source_blocks": [
+        125
+      ],
+      "verdict": "mixed",
+      "reason": "Gold’s market value exceeded foreign official Treasuries in late 2025, but Treasuries are not all dollar reserves, and including U.S. gold makes the comparison asymmetric. Valuation gains dominate the headline; by June ex-U.S. gold was again below Treasuries. The dollar/treasury shorthand is materially misleading.",
+      "kind": "empirical",
+      "family": "gold-reserve-denominator",
+      "asset_or_variable": "gold-reserve-denominator",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/why-gold-didnt-actually-overtake-treasury-securities-as-the-worlds-favorite-reserve-asset-20260903.html",
+          "title": "Gold versus Treasury reserve measurement",
+          "publisher": "Federal Reserve staff",
+          "date": "2026-09-03",
+          "verified": true,
+          "finding": "End 2025 world gold $5.1tn and ex-U.S. gold $4tn exceeded foreign official Treasuries $3.9tn, largely through valuation. By June 2026 ex-U.S. gold was below Treasuries again."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C22"
+    },
+    {
+      "claim": "Central banks increasingly prefer gold.",
+      "source_blocks": [
+        125,
+        126
+      ],
+      "verdict": "mixed",
+      "reason": "Survey intentions support continued buying, but valuation-driven reserve shares do not directly reveal portfolio-flow preferences. The horizon is unspecified, and expected future purchases are not realized allocations.",
+      "kind": "forecast",
+      "family": "central-bank-gold-preference",
+      "asset_or_variable": "central-bank-gold-preference",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/why-gold-didnt-actually-overtake-treasury-securities-as-the-worlds-favorite-reserve-asset-20260903.html",
+          "title": "Gold versus Treasury reserve measurement",
+          "publisher": "Federal Reserve staff",
+          "date": "2026-09-03",
+          "verified": true,
+          "finding": "End 2025 world gold $5.1tn and ex-U.S. gold $4tn exceeded foreign official Treasuries $3.9tn, largely through valuation. By June 2026 ex-U.S. gold was below Treasuries again."
+        },
+        {
+          "url": "https://www.gold.org/news-and-events/press-releases/central-banks-set-step-gold-buying-over-next-year",
+          "title": "2026 central-bank survey",
+          "publisher": "World Gold Council",
+          "date": "2026-06-16",
+          "verified": true,
+          "finding": "89% expect global official gold holdings to increase over the next 12months; this is survey intention, not completed purchases."
+        }
+      ],
+      "next_check": null,
+      "confidence": "medium",
+      "direction_assessment": "See assessment; evidence is limited to the stated proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Price direction alone does not identify causation.",
+      "id": "190-C23"
+    }
+  ],
+  "coverage_note": "Full numbered text and image inventory read. All material theses across macro, digital assets, investment analysis and concluding sections considered. Position listings and incidental descriptive statistics are excluded unless they support a thesis.",
+  "tools_charts": [
+    {
+      "name": "Payroll/CPI",
+      "source_blocks": [
+        16,
+        26
+      ],
+      "use": "Policy",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        69
+      ],
+      "use": "Software",
+      "image_inspected": false
+    },
+    {
+      "name": "MVRV",
+      "source_blocks": [
+        72
+      ],
+      "use": "Bitcoin valuation",
+      "image_inspected": true
+    },
+    {
+      "name": "Reserve coverage",
+      "source_blocks": [
+        112
+      ],
+      "use": "Financing risk",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Liquidity runway matters even when asset backing is large."
+  ],
+  "verification_limitations": [
+    "Current page snapshot is not an authenticated publication-date version.",
+    "A missing horizon is not replaced with an invented author deadline.",
+    "Market sensitivities use vendor adjusted closes and do not reconstruct portfolio execution."
+  ]
+}

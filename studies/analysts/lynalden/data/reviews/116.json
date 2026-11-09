@@ -1,0 +1,1156 @@
+{
+  "article_id": "116",
+  "title": "Deep Dive: The Bank of Japan’s Global Impact",
+  "date": "2023-08-06",
+  "source_url": "https://www.lynalden.com/premium-2023-8-6/",
+  "read_complete": true,
+  "summary": "Japan normalization meets fiscal pressure.",
+  "coverage_note": "All article text blocks were read. Ledger covers material macro, investment, and causal propositions; incidental descriptive statistics, boilerplate, and unreasoned position lists are excluded. Image labels were read, not image pixels.",
+  "claims": [
+    {
+      "claim": "Liquidity remains rangebound",
+      "source_blocks": [
+        9,
+        11
+      ],
+      "kind": "empirical",
+      "family": "net-liquidity-2023",
+      "verdict": "mixed",
+      "reason": "A short-window observation, not a promise that stocks remain flat. Dollar translation can lift a global aggregate without domestic easing everywhere; the exact global basket and rebalance convention are not supplied. RRP drawdown did offset substantial Treasury cash rebuilding.",
+      "evidence": [
+        {
+          "url": "https://www.kansascityfed.org/research/economic-bulletin/rapid-declines-in-the-feds-overnight-reverse-repurchase-on-rrp-facility-may-start-to-slow/",
+          "title": "ON RRP declines and bills",
+          "publisher": "Federal Reserve Bank of Kansas City",
+          "date": "2023-11-10",
+          "verified": true,
+          "finding": "Bill issuance after the debt-limit agreement drew money-fund cash from ON RRP into the TGA; higher relative bill yields attracted allocations.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "net-liquidity-2023",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C01"
+    },
+    {
+      "claim": "Dollar strains reserve holders",
+      "source_blocks": [
+        12
+      ],
+      "kind": "explanation",
+      "family": "dollar-debt-reserve-cycle",
+      "verdict": "mixed",
+      "reason": "Foreign-currency debt creates a real balance-sheet channel, but reserves are also affected by valuation, trade surpluses and intervention. Fed custody is a subset, not all foreign Treasury holdings, and inverse correlation does not identify compulsory sales.",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/202201-commentary-ibs-gli",
+          "title": "Global liquidity at September 2021",
+          "publisher": "BIS",
+          "date": null,
+          "verified": true,
+          "finding": "Dollar credit outside the US stood at $13.4tn, including $4.2tn to emerging/developing borrowers. Currency denomination differs from lender nationality.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/introducing-new-valuation-change-data-for-us-cross-border-portfolio-holdings-20240418.html",
+          "title": "New valuation-change data",
+          "publisher": "Federal Reserve",
+          "date": "2024-04-18",
+          "verified": true,
+          "finding": "Changes in market-value cross-border holdings include valuation effects, transactions and other changes; holdings declines cannot automatically be labeled net sales.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "dollar-debt-reserve-cycle",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C02"
+    },
+    {
+      "claim": "Large Treasury funding projection",
+      "source_blocks": [
+        14,
+        15,
+        16
+      ],
+      "kind": "empirical",
+      "family": "treasury-issuance-2023",
+      "verdict": "right",
+      "reason": "The two official quarter forecasts sum to $1.859tn. This validates reporting the announced projection, not an independently predicted realized borrowing total.",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy1662",
+          "title": "July borrowing projections",
+          "publisher": "US Treasury",
+          "date": "2023-07-31",
+          "verified": true,
+          "finding": "July-September privately-held net borrowing projected $1.007tn and October-December $852bn. Footnote 1 explicitly includes financing required due to SOMA redemptions. Small cross-quarter settlement adjustments are separately identified.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "treasury-issuance-2023",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C03"
+    },
+    {
+      "claim": "QT adds beyond projection",
+      "source_blocks": [
+        17
+      ],
+      "kind": "explanation",
+      "family": "treasury-qt-double-count",
+      "verdict": "wrong",
+      "reason": "The quoted privately-held net borrowing already includes financing for SOMA redemptions. Adding runoff again to obtain roughly $2tn double-counts the same financing requirement. The Treasury footnotes describe small timing adjustments, not exclusion of QT from its total.",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy1662",
+          "title": "July borrowing projections",
+          "publisher": "US Treasury",
+          "date": "2023-07-31",
+          "verified": true,
+          "finding": "July-September privately-held net borrowing projected $1.007tn and October-December $852bn. Footnote 1 explicitly includes financing required due to SOMA redemptions. Small cross-quarter settlement adjustments are separately identified.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "treasury-qt-double-count",
+      "modality": "asserted",
+      "confidence": "high",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C04"
+    },
+    {
+      "claim": "Coupon issuance strains liquidity",
+      "source_blocks": [
+        18
+      ],
+      "kind": "forecast",
+      "family": "coupon-supply-liquidity",
+      "verdict": "mixed",
+      "reason": "Coupon auction increases were announced and long yields climbed into October. Bill purchases funded from RRP are less reserve-draining, but not every bill purchase comes from RRP and coupon issuance is not an automatic dollar-for-dollar equity sale. Growth and policy expectations also moved yields.",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy1671",
+          "title": "Quarterly refunding",
+          "publisher": "US Treasury",
+          "date": "2023-08-02",
+          "verified": true,
+          "finding": "Announced increases in coupon auction sizes across maturities; additional duration must be absorbed beyond the earlier bill-heavy cash rebuild.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.kansascityfed.org/research/economic-bulletin/rapid-declines-in-the-feds-overnight-reverse-repurchase-on-rrp-facility-may-start-to-slow/",
+          "title": "ON RRP declines and bills",
+          "publisher": "Federal Reserve Bank of Kansas City",
+          "date": "2023-11-10",
+          "verified": true,
+          "finding": "Bill issuance after the debt-limit agreement drew money-fund cash from ON RRP into the TGA; higher relative bill yields attracted allocations.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/powell20231019a.htm",
+          "title": "Economic outlook",
+          "publisher": "Federal Reserve",
+          "date": "2023-10-19",
+          "verified": true,
+          "finding": "Powell reported upside growth surprises and longer-yield tightening; footnote 6 cites GDPNow at 5.4% Q3 annualized growth, above the article's 3.9% starting observation.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "coupon-supply-liquidity",
+      "modality": "possible",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "116-C05"
+    },
+    {
+      "claim": "Deficits delay recession",
+      "source_blocks": [
+        19,
+        44,
+        45,
+        46
+      ],
+      "kind": "explanation",
+      "family": "fiscal-monetary-divergence",
+      "verdict": "mixed",
+      "reason": "Government spending helped Q3 growth and no 2023 recession occurred. This recognizes a force countering earlier recession calls, but fiscal causation is not isolated from private spending, inventories and supply recovery. The government pays providers and institutional bondholders as well as seniors.",
+      "evidence": [
+        {
+          "url": "https://bea.gov/news/2023/gross-domestic-product-third-quarter-2023-advance-estimate",
+          "title": "Q3 2023 advance GDP",
+          "publisher": "BEA",
+          "date": "2023-10-26",
+          "verified": true,
+          "finding": "Real GDP grew 4.9% annualized; consumer spending, inventories, exports and government spending contributed. This is the contemporary advance vintage.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.nber.org/research/business-cycle-dating",
+          "title": "Business Cycle Dating",
+          "publisher": "NBER",
+          "date": null,
+          "verified": true,
+          "finding": "Official chronology identifies April 2020 as the pandemic recession trough; no 2022 recession is dated.",
+          "verification_method": "retrieved official chronology search extract; direct page denied"
+        },
+        {
+          "url": "https://www.cbo.gov/system/files/2025-03/61181-Federal-Budget.pdf",
+          "title": "FY2024 budget infographic",
+          "publisher": "CBO",
+          "date": "2025-03-20",
+          "verified": true,
+          "finding": "Net interest USD 881b exceeded discretionary defense USD 850b; debt held by public 98% of GDP and deficit USD 1.8tn.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "fiscal-monetary-divergence",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C06"
+    },
+    {
+      "claim": "Heatmap signals weak activity",
+      "source_blocks": [
+        21,
+        22,
+        38,
+        40
+      ],
+      "kind": "explanation",
+      "family": "business-cycle-heatmap",
+      "verdict": "mixed",
+      "reason": "Manufacturing and temporary employment were weak while aggregate growth accelerated. Applying headline consumer inflation to construction, capital equipment or trade values is not a valid universal real-output deflator. A sectoral contraction does not establish an economy-wide recession.",
+      "evidence": [
+        {
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2024/2024-01/rob-roundup-december-2023-manufacturing-pmi/",
+          "title": "December 2023 manufacturing PMI",
+          "publisher": "ISM",
+          "date": "2024-01-03",
+          "verified": true,
+          "finding": "PMI 47.4, the fourteenth consecutive month below 50; 2023 peak 49 in September, trough 46 in June.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://bea.gov/news/2023/gross-domestic-product-third-quarter-2023-advance-estimate",
+          "title": "Q3 2023 advance GDP",
+          "publisher": "BEA",
+          "date": "2023-10-26",
+          "verified": true,
+          "finding": "Real GDP grew 4.9% annualized; consumer spending, inventories, exports and government spending contributed. This is the contemporary advance vintage.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://apps.bea.gov/scb/issues/2024/10-october/1024-nea-annual-update.htm",
+          "title": "2024 national accounts update",
+          "publisher": "BEA",
+          "date": null,
+          "verified": true,
+          "finding": "2023 nominal GDI revised up $624.9bn and GDP $359.8bn; statistical discrepancy revised down $265.1bn. Latest estimates do not reproduce publication-era vintages.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "business-cycle-heatmap",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C07"
+    },
+    {
+      "claim": "GDPNow should fall",
+      "source_blocks": [
+        42
+      ],
+      "kind": "forecast",
+      "family": "q3-2023-gdpnow-down",
+      "verdict": "wrong",
+      "reason": "The stated 3.9% nowcast did not progressively converge to weaker quarterly growth: by October 19 Powell cited 5.4%, and BEA initially reported 4.9%. Transient individual downticks do not rescue the intended downward reassessment.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/powell20231019a.htm",
+          "title": "Economic outlook",
+          "publisher": "Federal Reserve",
+          "date": "2023-10-19",
+          "verified": true,
+          "finding": "Powell reported upside growth surprises and longer-yield tightening; footnote 6 cites GDPNow at 5.4% Q3 annualized growth, above the article's 3.9% starting observation.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://bea.gov/news/2023/gross-domestic-product-third-quarter-2023-advance-estimate",
+          "title": "Q3 2023 advance GDP",
+          "publisher": "BEA",
+          "date": "2023-10-26",
+          "verified": true,
+          "finding": "Real GDP grew 4.9% annualized; consumer spending, inventories, exports and government spending contributed. This is the contemporary advance vintage.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Remaining Q3 2023 data releases",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "q3-2023-gdpnow-down",
+      "modality": "expected",
+      "confidence": "high",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Remaining Q3 2023 data releases",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "116-C08"
+    },
+    {
+      "claim": "Refinancing increases divergence",
+      "source_blocks": [
+        47
+      ],
+      "kind": "explanation",
+      "family": "debt-maturity-distribution",
+      "verdict": "mixed",
+      "reason": "Fixed-rate debt delays transmission while refinancing raises debtor costs and Treasury interest. The direction is sound; an ever-strengthening net stimulus is not implied because saving propensities, taxes, foreign holders and credit losses matter.",
+      "evidence": [
+        {
+          "url": "https://www.cbo.gov/system/files/2025-03/61181-Federal-Budget.pdf",
+          "title": "FY2024 budget infographic",
+          "publisher": "CBO",
+          "date": "2025-03-20",
+          "verified": true,
+          "finding": "Net interest USD 881b exceeded discretionary defense USD 850b; debt held by public 98% of GDP and deficit USD 1.8tn.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.fhfa.gov/research/papers/wp2403",
+          "title": "Mortgage lock-in research",
+          "publisher": "FHFA",
+          "date": null,
+          "verified": true,
+          "finding": "Empirical research estimates mortgage-rate lock-in materially reduced home sales during 2022-2024; model estimates are not direct counts.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/data/sloos/sloos-202301-chart-data.htm",
+          "title": "Senior loan officer chart data",
+          "publisher": "Federal Reserve",
+          "date": "2023-02-06",
+          "verified": true,
+          "finding": "Quarterly data confirm substantial tightening of commercial and consumer lending standards around late 2022 and early 2023.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "debt-maturity-distribution",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C09"
+    },
+    {
+      "claim": "Own senior spending beneficiaries",
+      "source_blocks": [
+        48
+      ],
+      "kind": "investment_thesis",
+      "family": "senior-consumption-equities",
+      "verdict": "not_testable",
+      "reason": "Sector selection is coherent with recipients of transfers, but no portfolio weights, endpoint or relative-return hurdle is defined. Healthcare operating and reimbursement risk can overwhelm the demand tailwind.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a fixed healthcare/travel/restaurant basket and benchmark before assessing returns.",
+      "asset_or_variable": "senior-consumption-equities",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C10"
+    },
+    {
+      "claim": "Energy keeps inflation elevated",
+      "source_blocks": [
+        50,
+        52
+      ],
+      "kind": "forecast",
+      "family": "energy-inflation-second-wave",
+      "verdict": "mixed",
+      "reason": "Oil rebounded in summer 2023, but did not sustain a new 2022-style inflation wave: June 2024 headline CPI was 3.0%. Energy contributes directly to headline inflation; tight-supply attribution was weakened by record US production.",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/todayinenergy/detail.php?id=61545",
+          "title": "United States produces more crude oil than any country, ever",
+          "publisher": "EIA",
+          "date": "2024-03-11",
+          "verified": true,
+          "finding": "2023 production set a record, driven by Permian growth.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07112024.htm",
+          "title": "CPI, June 2024",
+          "publisher": "BLS",
+          "date": "2024-07-11",
+          "verified": true,
+          "finding": "June 2024 annual CPI inflation was 3.0%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": "Energy stabilizes and rises",
+      "next_check": null,
+      "asset_or_variable": "energy-inflation-second-wave",
+      "modality": "conditional expectation",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "116-C11"
+    },
+    {
+      "claim": "Holder scarcity supports Bitcoin",
+      "source_blocks": [
+        54,
+        55,
+        57
+      ],
+      "kind": "explanation",
+      "family": "bitcoin-holder-supply",
+      "verdict": "mixed",
+      "reason": "Age-of-coins data measure inactivity, not executable supply or owners' willingness to sell. Leverage, lost keys and off-chain transfers complicate inference. A later higher price confirms neither a guaranteed floor nor the exact claimed liquidity mechanism.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin daily price",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "BTC: $57,471.87 November 28, 2021; $15,755.75 November 21, 2022; first subsequent daily close above $70,000 March 11, 2024.",
+          "verification_method": "computed from coordinator-downloaded CSV, provenance research/evidence/series-manifest.json"
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Bitcoin multi-year outcome",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "August 7, 2023 $29,179.01; August 6, 2026 $64,291.84. New record above $73,000 in March 2024.",
+          "verification_method": "computed downloaded daily series"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bitcoin-holder-supply",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C12"
+    },
+    {
+      "claim": "Bitcoin reaches new highs",
+      "source_blocks": [
+        59
+      ],
+      "kind": "forecast",
+      "family": "bitcoin-long-run-bull",
+      "verdict": "right",
+      "reason": "Bitcoin exceeded its previous record in March 2024 and remained above the publication price three years later. The 2022 cycle low also held during that window. This is the repeated long-run episode, not a new independent forecast each issue.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Bitcoin multi-year outcome",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "August 7, 2023 $29,179.01; August 6, 2026 $64,291.84. New record above $73,000 in March 2024.",
+          "verification_method": "computed downloaded daily series"
+        },
+        {
+          "url": "https://www.coinbase.com/bytes/archive/bitcoins-latest-all-time-high",
+          "title": "Bitcoin latest all-time high",
+          "publisher": "Coinbase",
+          "date": "2024-03-13",
+          "verified": true,
+          "finding": "Bitcoin exceeded $73,000 in March 2024.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Next few years",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bitcoin-long-run-bull",
+      "modality": "expected",
+      "confidence": "medium",
+      "direction_assessment": "Higher price and new record achieved.",
+      "timing_assessment": "Assessed against the stated horizon: Next few years",
+      "mechanism_assessment": "Liquidity is one plausible influence; ETF demand and idiosyncratic adoption also matter.",
+      "id": "116-C13"
+    },
+    {
+      "claim": "DCA manages volatility",
+      "source_blocks": [
+        59
+      ],
+      "kind": "investment_thesis",
+      "family": "bitcoin-dca",
+      "verdict": "not_testable",
+      "reason": "A position-sizing preference with no utility function, contribution schedule or comparator. It can reduce entry-date concentration while underperforming a lump sum in a rising market.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Compare specified equal cash contributions against lump sum and cash with drawdowns and investor constraints.",
+      "asset_or_variable": "bitcoin-dca",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C14"
+    },
+    {
+      "claim": "YCC requires constant expansion",
+      "source_blocks": [
+        78,
+        80
+      ],
+      "kind": "explanation",
+      "family": "japan-ycc-balance-sheet",
+      "verdict": "mixed",
+      "reason": "An unlimited bid credibly caps yields when defended, but actual purchases depend on market pressure. Continuous expansion is not a logical requirement at every date. BoJ ended YCC in March 2024 while continuing bond purchases, separating the price commitment from purchase quantity.",
+      "evidence": [
+        {
+          "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/minu_2023/g230728.htm",
+          "title": "July 2023 policy meeting minutes",
+          "publisher": "Bank of Japan",
+          "date": "2023-09-27",
+          "verified": true,
+          "finding": "Ten-year target remained around zero; +/-0.5% bounds became references rather than rigid limits; daily fixed-rate unlimited purchases offered at 1%. Purchase quantities depend on market demand.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k240319b.pdf",
+          "title": "Monetary policy framework changes",
+          "publisher": "Bank of Japan",
+          "date": "2024-03-19",
+          "verified": true,
+          "finding": "Ended negative rates and yield-curve control while retaining JGB purchases.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "japan-ycc-balance-sheet",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C15"
+    },
+    {
+      "claim": "BoJ widens yield flexibility",
+      "source_blocks": [
+        81,
+        82,
+        83
+      ],
+      "kind": "empirical",
+      "family": "japan-ycc-2023",
+      "verdict": "mixed",
+      "reason": "Correctly identifies the July move to a 1% fixed-rate purchase backstop and discretionary intervention below it. The formal ten-year target remained around zero; 0.5% was a reference band edge, not the target.",
+      "evidence": [
+        {
+          "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/minu_2023/g230728.htm",
+          "title": "July 2023 policy meeting minutes",
+          "publisher": "Bank of Japan",
+          "date": "2023-09-27",
+          "verified": true,
+          "finding": "Ten-year target remained around zero; +/-0.5% bounds became references rather than rigid limits; daily fixed-rate unlimited purchases offered at 1%. Purchase quantities depend on market demand.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "japan-ycc-2023",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C16"
+    },
+    {
+      "claim": "Hedging alters capital flows",
+      "source_blocks": [
+        85,
+        86
+      ],
+      "kind": "explanation",
+      "family": "japan-hedged-yield-repatriation",
+      "verdict": "mixed",
+      "reason": "Short-rate differentials can erase the headline US yield advantage, and better domestic yields alter allocation incentives. Exact investor hedge tenor and cross-currency basis are absent, so the quoted net carry is not independently reproduced. The size and direction of aggregate flows cannot be inferred from incentive alone.",
+      "evidence": [
+        {
+          "url": "https://www.bis.org/publications/202201-commentary-ibs-gli",
+          "title": "Global liquidity at September 2021",
+          "publisher": "BIS",
+          "date": null,
+          "verified": true,
+          "finding": "Dollar credit outside the US stood at $13.4tn, including $4.2tn to emerging/developing borrowers. Currency denomination differs from lender nationality.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/minu_2023/g230728.htm",
+          "title": "July 2023 policy meeting minutes",
+          "publisher": "Bank of Japan",
+          "date": "2023-09-27",
+          "verified": true,
+          "finding": "Ten-year target remained around zero; +/-0.5% bounds became references rather than rigid limits; daily fixed-rate unlimited purchases offered at 1%. Purchase quantities depend on market demand.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Reconstruct dated JGB/UST yields, hedge tenor and basis, then compare Japanese balance-of-payments portfolio flows.",
+      "asset_or_variable": "japan-hedged-yield-repatriation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C17"
+    },
+    {
+      "claim": "Japan shifts foreign bond yields",
+      "source_blocks": [
+        86,
+        87
+      ],
+      "kind": "explanation",
+      "family": "japan-global-duration-spillover",
+      "verdict": "mixed",
+      "reason": "US yields rose after the BoJ change, but Treasury refunding, growth surprises and US policy expectations overlapped. This is a credible spillover channel, not a clean event-study identification of Japan as the cause.",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy1671",
+          "title": "Quarterly refunding",
+          "publisher": "US Treasury",
+          "date": "2023-08-02",
+          "verified": true,
+          "finding": "Announced increases in coupon auction sizes across maturities; additional duration must be absorbed beyond the earlier bill-heavy cash rebuild.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/powell20231019a.htm",
+          "title": "Economic outlook",
+          "publisher": "Federal Reserve",
+          "date": "2023-10-19",
+          "verified": true,
+          "finding": "Powell reported upside growth surprises and longer-yield tightening; footnote 6 cites GDPNow at 5.4% Q3 annualized growth, above the article's 3.9% starting observation.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "japan-global-duration-spillover",
+      "modality": "conditional tendency",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C18"
+    },
+    {
+      "claim": "Bonds face opposing scenarios",
+      "source_blocks": [
+        89
+      ],
+      "kind": "explanation",
+      "family": "recession-versus-fiscal-duration",
+      "verdict": "not_testable",
+      "reason": "Two scenarios, without assigned probabilities or a selected yield endpoint, do not constitute a directional forecast. Recession can reduce expected short rates while fiscal and inflation risk can raise term premium.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/tips-from-tips-update-and-discussions-20190521.html",
+          "title": "Tips from TIPS",
+          "publisher": "Federal Reserve",
+          "date": "2019-05-21",
+          "verified": true,
+          "finding": "Nominal yields decompose into expected real short rates, expected inflation, inflation risk premium and real term premium; breakevens also contain liquidity effects.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify recession definition, inflation condition, probabilities and yield horizon.",
+      "asset_or_variable": "recession-versus-fiscal-duration",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C19"
+    },
+    {
+      "claim": "Prefer bills over duration",
+      "source_blocks": [
+        90
+      ],
+      "kind": "investment_thesis",
+      "family": "short-duration-defense",
+      "verdict": "not_testable",
+      "reason": "Undated risk preference. A disclosed one-year sensitivity gives TLT +5.08% and SGOV +5.45%, supporting the cautious implementation over that interval but not proving superior long-run risk-adjusted performance.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/TLT/history/",
+          "title": "TLT outcome sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-08-06\", \"requested_endpoint\": \"2024-08-06\", \"entry\": \"2023-08-07\", \"exit\": \"2024-08-06\", \"days\": 365, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"TLT\": {\"entry_adjusted_close\": 83.5893325805664, \"exit_adjusted_close\": 87.83453369140625, \"cumulative_return_pct\": 5.07863979742651, \"annualized_return_pct\": 5.082205250603811, \"source\": \"https://finance.yahoo.com/quote/TLT/history/\"}, \"SGOV\": {\"entry_adjusted_close\": 87.17644500732422, \"exit_adjusted_close\": 91.9319076538086, \"cumulative_return_pct\": 5.454985743092466, \"annualized_return_pct\": 5.458822207506953, \"source\": \"https://finance.yahoo.com/quote/SGOV/history/\"}}, \"excess_percentage_points\": -0.3763459456659568}",
+          "verification_method": "computed adjusted-close USD dividend/split proxy; no fees/taxes; evaluator window unless specified"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Fix risk metric and holding period; distinguish cash defense from a short-bond speculation.",
+      "asset_or_variable": "short-duration-defense",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C20"
+    },
+    {
+      "claim": "Trading houses already outperformed",
+      "source_blocks": [
+        92,
+        93,
+        95
+      ],
+      "kind": "empirical",
+      "family": "japan-trading-houses-retrospective",
+      "verdict": "mixed",
+      "reason": "January 2021 entry sensitivities are attached for Itochu, Mitsui and Hitachi, but the author gives several actual entry dates and an unnamed third trading house. The observed strong performance is supported; the exact full-basket comparison with both SPY and Japan is not reconstructed.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ITOCY/history/",
+          "title": "ITOCY retrospective sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2020-12-31\", \"requested_endpoint\": \"2023-08-04\", \"entry\": \"2021-01-04\", \"exit\": \"2023-08-04\", \"days\": 942, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"ITOCY\": {\"entry_adjusted_close\": 5.578516483306885, \"exit_adjusted_close\": 7.604767799377441, \"cumulative_return_pct\": 36.32240439073537, \"annualized_return_pct\": 12.765680831565396, \"source\": \"https://finance.yahoo.com/quote/ITOCY/history/\"}, \"SPY\": {\"entry_adjusted_close\": 341.5887145996094, \"exit_adjusted_close\": 429.389892578125, \"cumulative_return_pct\": 25.703770126431458, \"annualized_return_pct\": 9.27509613206643, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 10.618634264303914}",
+          "verification_method": "January 4, 2021 assumed entry, not actual account execution; adjusted USD return proxy"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/MITSY/history/",
+          "title": "MITSY retrospective sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2020-12-31\", \"requested_endpoint\": \"2023-08-04\", \"entry\": \"2021-01-04\", \"exit\": \"2023-08-04\", \"days\": 942, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"MITSY\": {\"entry_adjusted_close\": 175.54208374023438, \"exit_adjusted_close\": 374.844482421875, \"cumulative_return_pct\": 113.53539529390946, \"annualized_return_pct\": 34.19868830467303, \"source\": \"https://finance.yahoo.com/quote/MITSY/history/\"}, \"SPY\": {\"entry_adjusted_close\": 341.5887145996094, \"exit_adjusted_close\": 429.389892578125, \"cumulative_return_pct\": 25.703770126431458, \"annualized_return_pct\": 9.27509613206643, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 87.831625167478}",
+          "verification_method": "January 4, 2021 assumed entry, not actual account execution; adjusted USD return proxy"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/HTHIY/history/",
+          "title": "HTHIY retrospective sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2020-12-31\", \"requested_endpoint\": \"2023-08-04\", \"entry\": \"2021-01-04\", \"exit\": \"2023-08-04\", \"days\": 942, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"HTHIY\": {\"entry_adjusted_close\": 15.490143775939941, \"exit_adjusted_close\": 25.510963439941406, \"cumulative_return_pct\": 64.69158588163847, \"annualized_return_pct\": 21.34221677321304, \"source\": \"https://finance.yahoo.com/quote/HTHIY/history/\"}, \"SPY\": {\"entry_adjusted_close\": 341.5887145996094, \"exit_adjusted_close\": 429.389892578125, \"cumulative_return_pct\": 25.703770126431458, \"annualized_return_pct\": 9.27509613206643, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 38.987815755207016}",
+          "verification_method": "January 4, 2021 assumed entry, not actual account execution; adjusted USD return proxy"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Join original 2020-2021 entries and the complete three-house basket to EWJ and SPY adjusted returns.",
+      "asset_or_variable": "japan-trading-houses-retrospective",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C21"
+    },
+    {
+      "claim": "Trading houses become holds",
+      "source_blocks": [
+        96
+      ],
+      "kind": "investment_thesis",
+      "family": "japan-trading-houses-valuation",
+      "verdict": "not_testable",
+      "reason": "Explicitly lowers conviction after appreciation, while retaining holdings. Holding rather than buying is not a forecast that prices will fall; subsequent rises cannot by themselves refute that risk/reward judgment.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify a reproducible endpoint and collect the target-specific evidence described in the rationale.",
+      "asset_or_variable": "japan-trading-houses-valuation",
+      "modality": "valuation preference",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C22"
+    },
+    {
+      "claim": "Commodity decade helps Japan",
+      "source_blocks": [
+        96,
+        104
+      ],
+      "kind": "forecast",
+      "family": "commodity-decade-japan",
+      "verdict": "too_early",
+      "reason": "The proposed decade extends through 2029. International operations diversify domestic demographic exposure, but commodity prices, currency and company execution still determine realized results.",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/news/growth-in-global-energy-demand-surged-in-2024-to-almost-twice-its-recent-average",
+          "title": "Global energy demand in 2024",
+          "publisher": "IEA",
+          "date": "2025-03-24",
+          "verified": true,
+          "finding": "2024 global energy demand grew 2.2%, over 80% of growth from developing/emerging economies; oil demand grew only 0.8%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Remainder of the 2020s",
+      "conditions": "Sustained commodity and infrastructure cycle",
+      "next_check": null,
+      "asset_or_variable": "commodity-decade-japan",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Remainder of the 2020s",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "116-C23"
+    },
+    {
+      "claim": "Japanese banks benefit",
+      "source_blocks": [
+        98,
+        99,
+        100
+      ],
+      "kind": "investment_thesis",
+      "family": "japan-bank-normalization",
+      "verdict": "right",
+      "reason": "MUFG subsequently reported higher yen margins and record profit, providing direct business-level support. Disclosed three-year price sensitivities also strongly support direction: MUFG +195.41%, SMFG +194.41%, SPY +77.00%. The business mechanism, not an invented precise stock target, earns the verdict.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/67088/000119312525120215/d949535d6k.htm",
+          "title": "FY March 2025 results",
+          "publisher": "MUFG / SEC",
+          "date": "2025-05-15",
+          "verified": true,
+          "finding": "Profit rose 25% to JPY 1.863tn. Management attributes higher net interest income partly to improved margins and yen-rate hikes, alongside acquisitions, fees and other factors.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/MUFG/history/",
+          "title": "MUFG outcome sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-08-06\", \"requested_endpoint\": \"2026-08-06\", \"entry\": \"2023-08-07\", \"exit\": \"2026-08-06\", \"days\": 1095, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"MUFG\": {\"entry_adjusted_close\": 7.623431205749512, \"exit_adjusted_close\": 22.520000457763672, \"cumulative_return_pct\": 195.40504596905555, \"annualized_return_pct\": 43.52031244582042, \"source\": \"https://finance.yahoo.com/quote/MUFG/history/\"}, \"SPY\": {\"entry_adjusted_close\": 433.1378173828125, \"exit_adjusted_close\": 766.65625, \"cumulative_return_pct\": 77.00053406383121, \"annualized_return_pct\": 20.980341880559152, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 118.40451190522434}",
+          "verification_method": "computed adjusted-close USD dividend/split proxy; no fees/taxes; evaluator window unless specified"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SMFG/history/",
+          "title": "SMFG outcome sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-08-06\", \"requested_endpoint\": \"2026-08-06\", \"entry\": \"2023-08-07\", \"exit\": \"2026-08-06\", \"days\": 1095, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"SMFG\": {\"entry_adjusted_close\": 8.73945140838623, \"exit_adjusted_close\": 25.729999542236328, \"cumulative_return_pct\": 194.41206707261114, \"annualized_return_pct\": 43.35921128459492, \"source\": \"https://finance.yahoo.com/quote/SMFG/history/\"}, \"SPY\": {\"entry_adjusted_close\": 433.1378173828125, \"exit_adjusted_close\": 766.65625, \"cumulative_return_pct\": 77.00053406383121, \"annualized_return_pct\": 20.980341880559152, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 117.41153300877993}",
+          "verification_method": "computed adjusted-close USD dividend/split proxy; no fees/taxes; evaluator window unless specified"
+        }
+      ],
+      "horizon": "Years ahead",
+      "conditions": "Gradual normalization rather than abrupt US-style hikes",
+      "next_check": null,
+      "asset_or_variable": "japan-bank-normalization",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Years ahead",
+      "mechanism_assessment": "Issuer explicitly attributes part of net-interest growth to yen-rate increases; not all profit growth came from rates.",
+      "id": "116-C24"
+    },
+    {
+      "claim": "Japanese value diversifies risk",
+      "source_blocks": [
+        102
+      ],
+      "kind": "investment_thesis",
+      "family": "japan-value-equities",
+      "verdict": "mixed",
+      "reason": "Broad holdings reduce single-bank concentration. EWJV gained 92.24% in the disclosed three-year sensitivity against SPY 77.00%, but safer requires a defined risk statistic and currency assumptions. Diversification does not remove country, valuation or yen exposure.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EWJV/history/",
+          "title": "EWJV outcome sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-08-06\", \"requested_endpoint\": \"2026-08-06\", \"entry\": \"2023-08-07\", \"exit\": \"2026-08-06\", \"days\": 1095, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"EWJV\": {\"entry_adjusted_close\": 24.749914169311523, \"exit_adjusted_close\": 47.58000183105469, \"cumulative_return_pct\": 92.24309832173545, \"annualized_return_pct\": 24.360289733864306, \"source\": \"https://finance.yahoo.com/quote/EWJV/history/\"}, \"SPY\": {\"entry_adjusted_close\": 433.1378173828125, \"exit_adjusted_close\": 766.65625, \"cumulative_return_pct\": 77.00053406383121, \"annualized_return_pct\": 20.980341880559152, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 15.242564257904235}",
+          "verification_method": "computed adjusted-close USD dividend/split proxy; no fees/taxes; evaluator window unless specified"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "japan-value-equities",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C25"
+    },
+    {
+      "claim": "Apple growth disappoints valuation",
+      "source_blocks": [
+        106,
+        107,
+        108,
+        111,
+        112
+      ],
+      "kind": "investment_thesis",
+      "family": "apple-valuation-risk",
+      "verdict": "mixed",
+      "reason": "Apple's filing verifies product revenue declines and services growth, so the operating concern was real. The price warning has no loss threshold or fixed horizon; stagnation alone does not prove a 30x multiple is unsustainable when future products and margins can change.",
+      "evidence": [
+        {
+          "url": "https://www.apple.com/newsroom/pdfs/fy2023-q3/FY23_Q3_Consolidated_Financial_Statements.pdf",
+          "title": "Q3 FY2023 statements",
+          "publisher": "Apple",
+          "date": "2023-08-03",
+          "verified": true,
+          "finding": "Nine-month revenue and net income were below prior-year levels; diluted EPS was roughly flat, confirming slow fundamental growth amid the stock rally.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "apple-valuation-risk",
+      "modality": "risk assessment",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C26"
+    },
+    {
+      "claim": "Apple falls after earnings",
+      "source_blocks": [
+        114
+      ],
+      "kind": "empirical",
+      "family": "apple-earnings-aug2023",
+      "verdict": "right",
+      "reason": "Close-to-close price fell 4.80% on August 4. The date follows earnings, but the exact fraction attributable to results versus market movements is not identified.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/AAPL/history/",
+          "title": "August 4 Apple fall",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Unadjusted close August 3, 2023 $191.17; August 4 $181.99, a 4.80% fall.",
+          "verification_method": "computed downloaded daily prices"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "apple-earnings-aug2023",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C27"
+    },
+    {
+      "claim": "Megacap valuation risk",
+      "source_blocks": [
+        116
+      ],
+      "kind": "investment_thesis",
+      "family": "megacap-valuation-risk",
+      "verdict": "not_testable",
+      "reason": "No quantified margin of safety or return threshold is provided. Nvidia's subsequent revenue acceleration demonstrates that sluggish contemporaneous growth was not a fixed constraint for all megacaps.",
+      "evidence": [
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2025/NVIDIA-Announces-Financial-Results-for-Fourth-Quarter-and-Fiscal-2025/default.aspx",
+          "title": "FY2025 results",
+          "publisher": "Nvidia",
+          "date": "2025-02-26",
+          "verified": true,
+          "finding": "Revenue $130.5bn, +114%; GAAP diluted EPS +147%; Q4 data-centre revenue $35.6bn, +93%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Use company-specific earnings forecasts, discount rates and forward-return hurdles.",
+      "asset_or_variable": "megacap-valuation-risk",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "116-C28"
+    },
+    {
+      "claim": "Adverse scenarios gain influence",
+      "source_blocks": [
+        117,
+        118,
+        119,
+        120,
+        121
+      ],
+      "kind": "forecast",
+      "family": "growth-stocks-2023-2024-scenarios",
+      "verdict": "mixed",
+      "reason": "The author expects adverse forces to assert themselves somewhat more, rather than predicting an unconditional full-year decline. The 2023 autumn yield spike supports that narrow concern, but no recession followed and QQQ gained 9.58% through 2023 year-end and 37.61% through 2024 year-end from the first post-publication close. The preferred macro weighting was too defensive for the full interval.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/powell20231019a.htm",
+          "title": "Economic outlook",
+          "publisher": "Federal Reserve",
+          "date": "2023-10-19",
+          "verified": true,
+          "finding": "Powell reported upside growth surprises and longer-yield tightening; footnote 6 cites GDPNow at 5.4% Q3 annualized growth, above the article's 3.9% starting observation.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.nber.org/research/business-cycle-dating",
+          "title": "Business Cycle Dating",
+          "publisher": "NBER",
+          "date": null,
+          "verified": true,
+          "finding": "Official chronology identifies April 2020 as the pandemic recession trough; no 2022 recession is dated.",
+          "verification_method": "retrieved official chronology search extract; direct page denied"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/QQQ/history/",
+          "title": "QQQ outcome sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-08-06\", \"requested_endpoint\": \"2024-12-31\", \"entry\": \"2023-08-07\", \"exit\": \"2024-12-31\", \"days\": 512, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"QQQ\": {\"entry_adjusted_close\": 368.367431640625, \"exit_adjusted_close\": 506.9239196777344, \"cumulative_return_pct\": 37.61366400390236, \"annualized_return_pct\": 25.57934997928797, \"source\": \"https://finance.yahoo.com/quote/QQQ/history/\"}, \"SPY\": {\"entry_adjusted_close\": 433.1378173828125, \"exit_adjusted_close\": 574.7879638671875, \"cumulative_return_pct\": 32.70325074367331, \"annualized_return_pct\": 22.36609870864026, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 4.910413260229049}",
+          "verification_method": "computed adjusted-close USD dividend/split proxy; no fees/taxes; evaluator window unless specified"
+        }
+      ],
+      "horizon": "Rest of 2023 into 2024",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "growth-stocks-2023-2024-scenarios",
+      "modality": "preferred scenario",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Rest of 2023 into 2024",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "116-C29"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Liquidity and cycle panels",
+      "source_blocks": [
+        9,
+        12,
+        21,
+        38,
+        40,
+        42
+      ],
+      "use": "Context",
+      "image_inspected": false
+    },
+    {
+      "name": "Energy and holder charts",
+      "source_blocks": [
+        50,
+        57
+      ],
+      "use": "Supply",
+      "image_inspected": false
+    },
+    {
+      "name": "Yields and valuation",
+      "source_blocks": [
+        78,
+        87,
+        93,
+        102,
+        108,
+        114
+      ],
+      "use": "Allocation",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Hedge costs matter.",
+    "Separate fiscal recipients from borrowers."
+  ],
+  "assessment": "Strong Japan bank diagnosis and a successful repeated Bitcoin view coexist with a wrong GDPNow expectation and an identifiable Treasury-financing double count. The autumn-risk scenario was partially realized without the broader recession or prolonged megacap weakness; avoid converting valuation caution into a precise failed price target.",
+  "verification_limitations": [
+    "Captured website text is not an authenticated publication-date version.",
+    "Chart-only numerical claims have not been visually verified.",
+    "Selected stock/ETF adjusted-close comparisons are disclosed where used; no reconstructed portfolio backtest has been performed.",
+    "Unresolved verdicts are not forecast failures or successes; no aggregate hit rate is inferred."
+  ]
+}

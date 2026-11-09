@@ -1,0 +1,828 @@
+{
+  "article_id": "147",
+  "title": "Market Update: Stocks vs Bonds Checkup",
+  "date": "2024-10-13",
+  "source_url": "https://www.lynalden.com/premium-2024-10-13/",
+  "read_complete": true,
+  "summary": "Treasury demand, bitcoin financing, and valuation dispersion.",
+  "coverage_note": "All macro, digital-asset, stock/bond and gold/dollar sections read. Historical 2019 bond performance assertions are repeats; not new forecasts. No portfolio trades reconstructed.",
+  "claims": [
+    {
+      "id": "147-C01",
+      "claim": "Liquidity stays rangebound.",
+      "kind": "forecast",
+      "source_blocks": [
+        8
+      ],
+      "family": "net-liquidity-range",
+      "asset_or_variable": "net-liquidity-range",
+      "horizon": "Rest of 2024",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No tolerance defines the range. A bounded 2024 horizon helps, but the classification still requires a predeclared band.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "Rest of 2024",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Report daily proxy path with sensitivity bands clearly evaluator-defined."
+    },
+    {
+      "id": "147-C02",
+      "claim": "Easing favors scarce assets.",
+      "kind": "explanation",
+      "source_blocks": [
+        16
+      ],
+      "family": "scarcity-rate-cycle",
+      "asset_or_variable": "scarcity-rate-cycle",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Lower cash yields reduce one opportunity cost, but scarcity alone does not guarantee price appreciation when demand or risk premiums change.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Identify supply-elasticity, cash-flow and discount-rate channels separately."
+    },
+    {
+      "id": "147-C03",
+      "claim": "Energy explains headline disinflation.",
+      "kind": "explanation",
+      "source_blocks": [
+        20,
+        22
+      ],
+      "family": "energy-disinflation",
+      "asset_or_variable": "energy-disinflation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Energy directly enters headline CPI and is excluded from core, so the directional channel is sound. Services, shelter and weights also matter; total gap cannot be assigned to energy alone.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_01152025.htm",
+          "title": "December 2024 CPI",
+          "publisher": "Bureau of Labor Statistics",
+          "date": "2025-01-15",
+          "verified": true,
+          "finding": "December headline CPI was 2.9% year over year, below March 2024 but above 2%; CPI is not the Fed target PCE index."
+        }
+      ],
+      "next_check": "Use September 2024 BLS component contributions, not only annual index levels."
+    },
+    {
+      "id": "147-C04",
+      "claim": "Fiscal support offsets private weakness.",
+      "kind": "explanation",
+      "source_blocks": [
+        24,
+        26,
+        37
+      ],
+      "family": "fiscal-dominance-growth",
+      "asset_or_variable": "fiscal-dominance-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Growth remained positive despite manufacturing weakness. Receipt of fiscal spending is an accounting fact; dominance and multipliers require identification beyond simultaneous trends.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/A191RL1Q225SBEA",
+          "title": "A191RL1Q225SBEA downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2024 Q3 real growth 3.2%, Q4 2.4%; 2025 Q1 .1%, Q2 4.0%. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": "Attribute growth by government demand, transfers and private incomes."
+    },
+    {
+      "id": "147-C05",
+      "claim": "Fiscal resilience raises yields.",
+      "kind": "explanation",
+      "source_blocks": [
+        27
+      ],
+      "family": "fiscal-term-premium",
+      "asset_or_variable": "fiscal-term-premium",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Expected policy, real growth, inflation compensation, term premium and positioning all affect long yields. A yield rise alone cannot select this cause.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Decompose nominal-yield change with breakevens and term-premium estimates."
+    },
+    {
+      "id": "147-C06",
+      "claim": "Curve steepens unevenly.",
+      "kind": "forecast",
+      "source_blocks": [
+        29
+      ],
+      "family": "yield-curve-resteepening",
+      "asset_or_variable": "yield-curve-resteepening",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Ten-minus-two-year spread rose from 13 bp October 11 2024 to 55 bp October 14 2025 and remained 35 bp November 6 2026. At the one-year sensitivity checkpoint, two-year yield fell 47 bp while ten-year fell 5 bp, consistent with the stated combination. No exact deadline was given.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/T10Y2Y",
+          "title": "T10Y2Y downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "October 11 2024=.13%; October 14 2025=.55%; November 6 2026=.35%. Latest vintage, cutoff November 7 2026."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/DGS2",
+          "title": "DGS2 downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "October 11 2024=3.95%; October 14 2025=3.48%. Latest vintage, cutoff November 7 2026."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/DGS10",
+          "title": "DGS10 downloaded observations",
+          "publisher": "FRED / originating agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "October 11 2024=4.08%; October 14 2025=4.03%. Latest vintage, cutoff November 7 2026."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "147-C07",
+      "claim": "Banks keep buying Treasuries.",
+      "kind": "forecast",
+      "source_blocks": [
+        31
+      ],
+      "family": "bank-treasury-demand",
+      "asset_or_variable": "bank-treasury-demand",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Needs actual bank holdings and separation of Treasury from agency/MBS assets. Bond-price changes must be distinguished from net purchases.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use H.8 Treasury/agency categories and call-report Treasury-only holdings through 2025-26."
+    },
+    {
+      "id": "147-C08",
+      "claim": "Bank purchases resemble QE.",
+      "kind": "explanation",
+      "source_blocks": [
+        33,
+        34
+      ],
+      "family": "bank-treasury-money-creation",
+      "asset_or_variable": "bank-treasury-money-creation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "A bank buying from a nonbank can create a deposit, whereas central-bank QE creates reserves too. Bank capital, funding and regulatory constraints differ; replacing loans with bonds need not expand broad money.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Trace seller identity, funding and balance-sheet expansion; do not equate all bank purchases with QE."
+    },
+    {
+      "id": "147-C09",
+      "claim": "Bitcoin breaks range upward.",
+      "kind": "forecast",
+      "source_blocks": [
+        40
+      ],
+      "family": "bitcoin-range-upside",
+      "asset_or_variable": "bitcoin-range-upside",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "November 2024 exceeded the prior record before breaking the roughly $50,000 August low. This is the same recurring event forecast, not a new independent success each report.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin USD observations",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Public CSV downloaded November 7: 2024-10-13 $66065.65; 2024-11-07 $76566.73. Endpoint direction only; no strategy return, transaction-cost or timing-optimality claim."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/BTC-USD/history/",
+          "title": "BTC breakout ordering",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Previous intraday record $73,750.0703. After this report, November 6, 2024 high $76,460.1563 was the first new record, with no prior breach of $50,000. Minimum subsequent intraday low through November 6, 2026 was $57,747.7656 on July 1, 2026. Public daily OHLC convention; no intraday trade-execution inference."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "147-C10",
+      "claim": "On-chain valuation is safe.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        42
+      ],
+      "family": "bitcoin-mvrv-cycle",
+      "asset_or_variable": "bitcoin-mvrv-cycle",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Reasonably safe has no probability, loss tolerance or threshold. MVRV describes cost-basis relationships but does not insure against macro shocks.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Define MVRV threshold and forward drawdown distribution."
+    },
+    {
+      "id": "147-C11",
+      "claim": "Bitcoin preferable to premium MSTR.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        46,
+        47,
+        50
+      ],
+      "family": "bitcoin-over-mstr-premium",
+      "asset_or_variable": "bitcoin-over-mstr-premium",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Explicitly no convergence deadline and preference is risk/reward, not unconditional relative return. A sensitivity return comparison cannot resolve unspecified risk utility.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/MSTR/history/",
+          "title": "MSTR adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-10-13\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-10-14\",\"exit\":\"2026-11-06\",\"days\":753,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"MSTR\":{\"entry_adjusted_close\":201.6699981689453,\"exit_adjusted_close\":128.92999267578125,\"cumulative_return_pct\":-36.068828359996054,\"annualized_return_pct\":-19.506830026261657,\"source\":\"https://finance.yahoo.com/quote/MSTR/history/\"},\"BTC-USD\":{\"entry_adjusted_close\":66046.125,\"exit_adjusted_close\":75746.9296875,\"cumulative_return_pct\":14.687924064432245,\"annualized_return_pct\":6.873402797814121,\"source\":\"https://finance.yahoo.com/quote/BTC-USD/history/\"}},\"excess_percentage_points\":-50.7567524244283}"
+        }
+      ],
+      "next_check": "Compare leverage, premium compression and drawdowns alongside returns."
+    },
+    {
+      "id": "147-C12",
+      "claim": "Premium shorting can fail.",
+      "kind": "explanation",
+      "source_blocks": [
+        49,
+        50,
+        61
+      ],
+      "family": "mstr-short-convergence-risk",
+      "asset_or_variable": "mstr-short-convergence-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "An overpriced asset can appreciate before converging; no finite bound on losses follows from NAV premium alone. This does not establish a particular fund failure.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "One share shorted at P0",
+          "No binding future price cap",
+          "Ignore borrow fees, which only worsen losses"
+        ],
+        "derivation": "Short profit=P 0-Pt. NAV premium alone imposes no bound on Pt, so losses need not wait for or end with convergence."
+      }
+    },
+    {
+      "id": "147-C13",
+      "claim": "Premium issuance accretes bitcoin/share.",
+      "kind": "explanation",
+      "source_blocks": [
+        51
+      ],
+      "family": "mstr-premium-flywheel",
+      "asset_or_variable": "mstr-premium-flywheel",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Reported 2024 BTC/share accretion supports the actual financing channel. Convertible debt does not automatically accrete on every future fully diluted basis; fees, conversion and senior claims matter.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.strategy.com/press/strategy-announces-fourth-quarter-2024-financial-results-and-launches-new-website-strategy-com_02-05-2025",
+          "title": "Strategy 2024 financial results",
+          "publisher": "Strategy",
+          "date": "2025-02-05",
+          "verified": true,
+          "finding": "Reported 2024 BTC Yield of 74.3%, a bitcoin-per-diluted-share measure, confirming financing-related accretion but not shareholder total return."
+        }
+      ],
+      "next_check": "Reconcile proceeds, shares, debt and dilution for each issuance."
+    },
+    {
+      "id": "147-C14",
+      "claim": "GBTC arbitrage amplified failures.",
+      "kind": "explanation",
+      "source_blocks": [
+        52
+      ],
+      "family": "gbtc-leverage-contagion",
+      "asset_or_variable": "gbtc-leverage-contagion",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Discount losses and lending contagion are plausible, but the causal weight in Three Arrows and lender failures requires creditor records and positions, not a historical price chart.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use liquidation filings to separate GBTC, Terra and other leveraged losses."
+    },
+    {
+      "id": "147-C15",
+      "claim": "MSTR avoids GBTC structure.",
+      "kind": "explanation",
+      "source_blocks": [
+        53
+      ],
+      "family": "mstr-gbtc-structure",
+      "asset_or_variable": "mstr-gbtc-structure",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Corporate equity is permanent, but legacy closed-end GBTC shares also lacked ordinary redemption before conversion. The important differences include operating company debt access and liability terms, not simply permanence.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.strategy.com/press/strategy-announces-fourth-quarter-2024-financial-results-and-launches-new-website-strategy-com_02-05-2025",
+          "title": "Strategy 2024 financial results",
+          "publisher": "Strategy",
+          "date": "2025-02-05",
+          "verified": true,
+          "finding": "Reported 2024 BTC Yield of 74.3%, a bitcoin-per-diluted-share measure, confirming financing-related accretion but not shareholder total return."
+        }
+      ],
+      "next_check": "Compare legal issuance/redemption terms and creditor seniority."
+    },
+    {
+      "id": "147-C16",
+      "claim": "MSTR buys far more bitcoin.",
+      "kind": "forecast",
+      "source_blocks": [
+        54,
+        59
+      ],
+      "family": "mstr-bitcoin-accumulation",
+      "asset_or_variable": "mstr-bitcoin-accumulation",
+      "horizon": "Years ahead",
+      "conditions": "Premium and financing demand persist",
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Holdings increased to 471,107 by February 2025, already well above the contemplated tens or hundreds of thousands added to roughly 250,000. Capital demand materialized; future perpetual accumulation is not implied.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Years ahead",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.strategy.com/press/strategy-announces-fourth-quarter-2024-financial-results-and-launches-new-website-strategy-com_02-05-2025",
+          "title": "Strategy 2024 results",
+          "publisher": "Strategy",
+          "date": "2025-02-05",
+          "verified": true,
+          "finding": "Held 471,107 BTC by February 2 2025, versus approximately 250,000 in October 2024; raised $20 bn during 2024 and reported 74.3% BTC/share yield."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "147-C17",
+      "claim": "Mandates sustain liquidity premium.",
+      "kind": "explanation",
+      "source_blocks": [
+        55,
+        56,
+        57
+      ],
+      "family": "mstr-investor-mandates",
+      "asset_or_variable": "mstr-investor-mandates",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Equity/bond-only mandates are a plausible demand source. Their magnitude and causal contribution to premium require holder and trading evidence; turnover alone does not prove durable demand.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Map investor mandates, holdings, option activity and premium changes."
+    },
+    {
+      "id": "147-C18",
+      "claim": "Issuance supports bitcoin demand.",
+      "kind": "explanation",
+      "source_blocks": [
+        58,
+        61
+      ],
+      "family": "mstr-bitcoin-demand",
+      "asset_or_variable": "mstr-bitcoin-demand",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Newly financed purchases are demonstrated. Price impact depends on seller response and other flows, so the buying amount does not identify a net market multiplier.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.strategy.com/press/strategy-announces-fourth-quarter-2024-financial-results-and-launches-new-website-strategy-com_02-05-2025",
+          "title": "Strategy 2024 results",
+          "publisher": "Strategy",
+          "date": "2025-02-05",
+          "verified": true,
+          "finding": "Held 471,107 BTC by February 2 2025, versus approximately 250,000 in October 2024; raised $20 bn during 2024 and reported 74.3% BTC/share yield."
+        }
+      ],
+      "next_check": "Compare purchase timing with broader flows and liquidity."
+    },
+    {
+      "id": "147-C19",
+      "claim": "Bitcoin attractive for years.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        61
+      ],
+      "family": "bitcoin-long-term-bull",
+      "asset_or_variable": "bitcoin-long-term-bull",
+      "horizon": "Few years",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Next few years does not fix an endpoint or acceptable drawdown. Keep this separate from the resolved near-term breakout.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "Few years",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Display transparent multi-horizon price sensitivity without assigning an author deadline."
+    },
+    {
+      "id": "147-C20",
+      "claim": "Alphabet preferred to retailers.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        83,
+        86,
+        89
+      ],
+      "family": "alphabet-relative-value",
+      "asset_or_variable": "alphabet-relative-value",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A valuation preference without a horizon cannot be scored from a selected endpoint. Consensus growth and regulatory risk differ between these businesses.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GOOGL/history/",
+          "title": "GOOGL adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-10-13\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-10-14\",\"exit\":\"2026-11-06\",\"days\":753,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"GOOGL\":{\"entry_adjusted_close\":163.80972290039062,\"exit_adjusted_close\":284.7799987792969,\"cumulative_return_pct\":73.84804377727068,\"annualized_return_pct\":30.76656318485749,\"source\":\"https://finance.yahoo.com/quote/GOOGL/history/\"},\"COST\":{\"entry_adjusted_close\":878.7835693359375,\"exit_adjusted_close\":1053.56005859375,\"cumulative_return_pct\":19.888456652629994,\"annualized_return_pct\":9.197257713764962,\"source\":\"https://finance.yahoo.com/quote/COST/history/\"}},\"excess_percentage_points\":53.95958712464068}"
+        }
+      ],
+      "next_check": "Compare earnings realization and multiple changes over disclosed windows."
+    },
+    {
+      "id": "147-C21",
+      "claim": "Low PEG improves selection.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        87
+      ],
+      "family": "quality-peg-threshold",
+      "asset_or_variable": "quality-peg-threshold",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Screening thresholds are rules of thumb, not calibrated return models. Consensus growth optimism and dividends funded by debt can distort adjusted PEG.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Backtest point-in-time estimates with delisted firms and risk controls."
+    },
+    {
+      "id": "147-C22",
+      "claim": "Diversification limits stock mistakes.",
+      "kind": "explanation",
+      "source_blocks": [
+        90
+      ],
+      "family": "position-size-risk",
+      "asset_or_variable": "position-size-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "A position loss contributes its portfolio weight times its return, holding others fixed. This does not protect against correlated market losses.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Unlevered portfolio",
+          "Other holdings unchanged",
+          "Position has initial weight w and return r"
+        ],
+        "derivation": "Its contribution to portfolio return is w*r; reducing w reduces absolute loss contribution for r<0."
+      }
+    },
+    {
+      "id": "147-C23",
+      "claim": "Income equities preferred to bonds.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        92,
+        95,
+        105
+      ],
+      "family": "income-equity-over-bonds",
+      "asset_or_variable": "income-equity-over-bonds",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No portfolio, benchmark duration, horizon or risk budget. A high Treasury supply alone does not establish low expected return; market yields can adjust.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Compare defined baskets including defaults, dividends and drawdown."
+    },
+    {
+      "id": "147-C24",
+      "claim": "Cheap debt enhances PEP returns.",
+      "kind": "explanation",
+      "source_blocks": [
+        99,
+        101
+      ],
+      "family": "productive-fiat-short",
+      "asset_or_variable": "productive-fiat-short",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Enterprise ROIC above debt cost is insufficient to establish marginal financed investment return. Buybacks may destroy value at excessive prices.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use incremental cash returns on financed spending and after-tax debt costs."
+    },
+    {
+      "id": "147-C25",
+      "claim": "PEP dividends may grow 7%.",
+      "kind": "forecast",
+      "source_blocks": [
+        98,
+        102
+      ],
+      "family": "pep-dividend-growth",
+      "asset_or_variable": "pep-dividend-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "mixed",
+      "reason": "Dividends continued rising, but subsequent annual increases were about 5% in 2025 and 4% in 2026, below the illustrative 7% pace. The source uses might, not a guaranteed exact target.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.pepsico.com/investors/dividend-information",
+          "title": "Dividend history",
+          "publisher": "Pepsi Co",
+          "date": null,
+          "verified": true,
+          "finding": "Quarterly dividend rose from $1.355 in 2024 to $1.4225 in 2025, approximately 5%, then $1.48 in 2026, approximately 4%."
+        }
+      ],
+      "next_check": "Track longer-run dividend growth without converting a historical average into a promise."
+    },
+    {
+      "id": "147-C26",
+      "claim": "EPD payouts grow.",
+      "kind": "forecast",
+      "source_blocks": [
+        102,
+        104
+      ],
+      "family": "midstream-distribution-growth",
+      "asset_or_variable": "midstream-distribution-growth",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "2024 distribution rose 5%, above the illustrative around 3% growth. Continuity is supported; it is not a forecast of unit-price return.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://ir.enterpriseproducts.com/news-releases/news-release-details/enterprise-reports-results-fourth-quarter-2024",
+          "title": "Enterprise 2024 results",
+          "publisher": "Enterprise Products Partners",
+          "date": "2025-02-04",
+          "verified": true,
+          "finding": "Declared 2024 distributions rose 5% to $2.10 per unit, the 26 th consecutive annual increase."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "147-C27",
+      "claim": "Long bonds retain duration risk.",
+      "kind": "explanation",
+      "source_blocks": [
+        106
+      ],
+      "family": "long-bond-duration-risk",
+      "asset_or_variable": "long-bond-duration-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Fixed cash flows lose present value when required yields rise. Their recession hedge depends on disinflation and rate declines, not on all recessions.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Positive fixed cash flows CFt",
+          "Positive discount factor1+y",
+          "No default or embedded options"
+        ],
+        "derivation": "P=sum(CFt/(1+y)^t); d P/dy=-sum(t*CFt/(1+y)^(t+1))<0."
+      }
+    },
+    {
+      "id": "147-C28",
+      "claim": "Gold/dollar consolidate before continuation.",
+      "kind": "forecast",
+      "source_blocks": [
+        108,
+        110
+      ],
+      "family": "gold-dollar-consolidation",
+      "asset_or_variable": "gold-dollar-consolidation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No duration or magnitude defines consolidation. Dollar later strengthening and gold continuing upward are distinct paths; the paired statement should not be credited wholesale.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": "Evaluate gold and dollar independently with explicit windows."
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Liquidity",
+      "source_blocks": [
+        8,
+        14
+      ],
+      "use": "Funding",
+      "image_inspected": false
+    },
+    {
+      "name": "Curve/H.8",
+      "source_blocks": [
+        29,
+        31
+      ],
+      "use": "Intermediation",
+      "image_inspected": false
+    },
+    {
+      "name": "MVRV/NAV",
+      "source_blocks": [
+        42,
+        46
+      ],
+      "use": "Crypto",
+      "image_inspected": false
+    },
+    {
+      "name": "FAST Graphs",
+      "source_blocks": [
+        83,
+        84,
+        98,
+        102
+      ],
+      "use": "Value",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate funding access from intrinsic asset value."
+  ],
+  "assessment": "Strongest concrete results were bitcoin breakout and rapid corporate accumulation. The bank-financing discussion has useful balance-sheet intuition but bank purchases are not identical to central-bank QE. Relative valuation and stocks-versus-bonds preferences lack fixed horizons; dividend growth should be distinguished from investor returns.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

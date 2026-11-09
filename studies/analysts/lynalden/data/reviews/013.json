@@ -1,0 +1,862 @@
+{
+  "article_id": "013",
+  "title": "A Historic Day for Updates",
+  "date": "2020-03-09",
+  "source_url": "https://www.lynalden.com/premium-2020-3-9/",
+  "read_complete": true,
+  "summary": "Oil-price collapse prompts risk cuts and staged equity buying.",
+  "coverage_note": "All numbered text blocks and image labels read. Material theses, forecasts and explanations are included; routine holdings lists, incidental statistics, company descriptions and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "claim": "The crash ranks among postwar extremes",
+      "kind": "empirical",
+      "source_blocks": [
+        4,
+        5
+      ],
+      "family": "2020-selloff-speed",
+      "asset_or_variable": "US equities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The exact fourth-largest Dow and top-ten S&P ranking needs complete postwar daily data. Recent prices confirm severity, but not the historical ranks.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compute daily percentage changes over the entire defined postwar interval and verify circuit-breaker timestamp.",
+      "id": "013-C01"
+    },
+    {
+      "claim": "Volatile rebounds and declines should continue",
+      "kind": "forecast",
+      "source_blocks": [
+        10
+      ],
+      "family": "2020-crisis-volatility",
+      "asset_or_variable": "S&P 500",
+      "horizon": "near term",
+      "conditions": null,
+      "modality": "normal expectation",
+      "verdict": "right",
+      "reason": "Subsequent large up days, including March 13, occurred within a decline to March 23. The forecast is broad but the near-term alternating behavior was directly observed.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "Original horizon retained: near term",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/data/SP500",
+          "title": "S&P 500 daily closing index",
+          "publisher": "S&P Dow Jones Indices via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Closing prices: January 24, 2020 3295.47; January 27 3243.63; February 19 3386.15; February 25 3128.21; February 28 2954.22; March 2 3090.23; March 23 2237.40. Price index excludes dividends."
+        }
+      ],
+      "next_check": null,
+      "id": "013-C02"
+    },
+    {
+      "claim": "Treasuries and metals provide defense so far",
+      "kind": "empirical",
+      "source_blocks": [
+        7
+      ],
+      "family": "defensive-metals-bonds",
+      "asset_or_variable": "Treasuries and metals",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Through March 9, gold and Treasury proxies had positive year-to-date returns, but silver had lost 4.80%. Silver still lost far less than SPY at -14.80%. The broad defense description is partly supported, but treating all metals as equally protective would miss that distinction; exact portfolio weights are unavailable.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD dated adjusted-close comparison",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "2019-12-31 to 2020-03-09: +10.43%. USD vendor-adjusted close with dividend/split adjustments, no fees or taxes; a public instrument proxy, not the actual portfolio."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SLV/history/",
+          "title": "SLV dated adjusted-close comparison",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "2019-12-31 to 2020-03-09: -4.80%. USD vendor-adjusted close with dividend/split adjustments, no fees or taxes; a public instrument proxy, not the actual portfolio."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SHY/history/",
+          "title": "SHY dated adjusted-close comparison",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "2019-12-31 to 2020-03-09: +2.72%. USD vendor-adjusted close with dividend/split adjustments, no fees or taxes; a public instrument proxy, not the actual portfolio."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/IEF/history/",
+          "title": "IEF dated adjusted-close comparison",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "2019-12-31 to 2020-03-09: +10.50%. USD vendor-adjusted close with dividend/split adjustments, no fees or taxes; a public instrument proxy, not the actual portfolio."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/TLT/history/",
+          "title": "TLT dated adjusted-close comparison",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "2019-12-31 to 2020-03-09: +26.83%. USD vendor-adjusted close with dividend/split adjustments, no fees or taxes; a public instrument proxy, not the actual portfolio."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "SPY dated adjusted-close comparison",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "2019-12-31 to 2020-03-09: -14.80%. USD vendor-adjusted close with dividend/split adjustments, no fees or taxes; a public instrument proxy, not the actual portfolio."
+        }
+      ],
+      "next_check": null,
+      "id": "013-C03",
+      "test_specification": {
+        "window_type": "retrospective year-to-date sensitivity",
+        "start": "2019-12-31",
+        "end": "2020-03-09"
+      }
+    },
+    {
+      "claim": "Demand loss plus supply expansion crushes oil",
+      "kind": "explanation",
+      "source_blocks": [
+        12,
+        14,
+        16
+      ],
+      "family": "2020-oil-demand-supply-shock",
+      "asset_or_variable": "Oil",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "EIA documents consumption collapse, inventory pressure and the extreme front-month event. The exact contribution of announced March supply increases relative to demand collapse needs independent production data.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/TodayinEnergy/detail.php?id=43495",
+          "title": "Low liquidity and limited storage pushed WTI futures below zero",
+          "publisher": "Energy Information Administration",
+          "date": "2020-04-27",
+          "verified": true,
+          "finding": "May WTI futures traded below zero on April 20 amid the demand collapse, expiring contract and limited storage. Positive deferred and other benchmark prices mean this was not all oil trading below zero."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+          "title": "Brent spot crude price",
+          "publisher": "EIA via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Daily USD/barrel observations: 69.08 on January 3, 2020; 9.12 on April 21, 2020; 78.61 on December 30, 2021; 82.82 on December 30, 2022. These are spot prices, not futures-investment returns."
+        }
+      ],
+      "next_check": null,
+      "id": "013-C04"
+    },
+    {
+      "claim": "Saudi-Russian strategy is a coordinated shale attack",
+      "kind": "explanation",
+      "source_blocks": [
+        15,
+        16
+      ],
+      "family": "saudi-russia-oil-war-intent",
+      "asset_or_variable": "OPEC+ strategy",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Common harm to shale does not establish coordination between Saudi Arabia and Russia. The article itself acknowledges failure to reach a deal; intentional coordination requires direct evidence, especially given rival market-share incentives.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Check contemporaneous official statements and production decisions; distinguish shared incentives from an agreed strategy.",
+      "id": "013-C05"
+    },
+    {
+      "claim": "Sunk-cost producers survive better than high-decline shale",
+      "kind": "explanation",
+      "source_blocks": [
+        17,
+        18
+      ],
+      "family": "oil-cost-structure-survival",
+      "asset_or_variable": "Oil producers",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "CNQ retained positive operating cash flow while shale financing stress intensified. However, shale ongoing cash operating cost differs from the drilling needed to replace rapid declines; the marginal-cost description risks conflating them.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.cnrl.com/content/uploads/2022/09/2020-annual-report-teams.pdf",
+          "title": "2020 annual report",
+          "publisher": "Canadian Natural Resources",
+          "date": null,
+          "verified": true,
+          "finding": "CNQ reported 2020 operating cash flow C$4.714 billion and net loss C$435 million; annual dividends C$1.70 per share. It maintained the March 2020 dividend increase and positive cash generation through the oil shock."
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/206/1USAEA2020001.pdf",
+          "title": "United States 2020 Article IV staff report",
+          "publisher": "IMF",
+          "date": "2020-07-17",
+          "verified": true,
+          "finding": "The report described energy bankruptcies at a decade high, weak shale economics and refinancing stress following the oil-price shock. This verifies distress, not a counterfactual without the pandemic."
+        }
+      ],
+      "next_check": null,
+      "id": "013-C06"
+    },
+    {
+      "claim": "Weak shale producers bear the largest damage",
+      "kind": "forecast",
+      "source_blocks": [
+        18,
+        22
+      ],
+      "family": "shale-financing-stress",
+      "asset_or_variable": "US shale",
+      "horizon": null,
+      "conditions": "Low prices persist",
+      "modality": "most likely",
+      "verdict": "right",
+      "reason": "The IMF documented acute shale distress and rising energy bankruptcies in 2020. Relative damage to every global producer is not established, but the identified vulnerable group clearly suffered.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://home.treasury.gov/system/files/206/1USAEA2020001.pdf",
+          "title": "United States 2020 Article IV staff report",
+          "publisher": "IMF",
+          "date": "2020-07-17",
+          "verified": true,
+          "finding": "The report described energy bankruptcies at a decade high, weak shale economics and refinancing stress following the oil-price shock. This verifies distress, not a counterfactual without the pandemic."
+        }
+      ],
+      "next_check": null,
+      "id": "013-C07"
+    },
+    {
+      "claim": "Fiscal breakevens differ from extraction costs",
+      "kind": "explanation",
+      "source_blocks": [
+        21
+      ],
+      "family": "oil-fiscal-vs-production-cost",
+      "asset_or_variable": "Oil-exporting sovereigns",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The distinction is valid: government budgets include obligations beyond operating oil fields. Actual relative resilience needs fiscal reserves, exchange rates and spending adjustment, not only field cost.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "013-C08"
+    },
+    {
+      "claim": "Russia can tolerate low oil for years",
+      "kind": "forecast",
+      "source_blocks": [
+        22
+      ],
+      "family": "russia-oil-fiscal-buffer",
+      "asset_or_variable": "Russia",
+      "horizon": "years",
+      "conditions": "Very low oil prices persist",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "The extremely low March-April price regime did not persist for years, so the durability counterfactual was not observed. Later high prices and sanctions are different tests.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: years",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+          "title": "Brent spot crude price",
+          "publisher": "EIA via FRED",
+          "date": null,
+          "verified": true,
+          "finding": "Daily USD/barrel observations: 69.08 on January 3, 2020; 9.12 on April 21, 2020; 78.61 on December 30, 2021; 82.82 on December 30, 2022. These are spot prices, not futures-investment returns."
+        }
+      ],
+      "next_check": "Stress fiscal and external balances under a sustained original-price scenario rather than count a brief episode as a win.",
+      "id": "013-C09"
+    },
+    {
+      "claim": "Low-cost balance sheets offer recovery exposure",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        23
+      ],
+      "family": "commodity-low-cost-survival",
+      "asset_or_variable": "Oil equities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "CNQ provides a concrete survival example, while Lukoil later shows that cost advantage does not hedge investor-access risk. A basket return is not established by these cases.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.cnrl.com/content/uploads/2022/09/2020-annual-report-teams.pdf",
+          "title": "2020 annual report",
+          "publisher": "Canadian Natural Resources",
+          "date": null,
+          "verified": true,
+          "finding": "CNQ reported 2020 operating cash flow C$4.714 billion and net loss C$435 million; annual dividends C$1.70 per share. It maintained the March 2020 dividend increase and positive cash generation through the oil shock."
+        },
+        {
+          "url": "https://www.lukoil.com/PressCenter/Pressreleases/Pressrelease/on-depositary-receipt-facilities-of-pjsc-lukoil",
+          "title": "On depositary receipt facilities of PJSC LUKOIL",
+          "publisher": "Lukoil",
+          "date": "2022-05-05",
+          "verified": true,
+          "finding": "Russian law prohibited offshore depositary-receipt circulation. Lukoil announced ADR program termination effective December 30, 2022 and London listing cancellation June 6, with conversion arrangements for eligible holders."
+        }
+      ],
+      "next_check": null,
+      "id": "013-C10"
+    },
+    {
+      "claim": "Price declines do not guarantee recovery",
+      "kind": "explanation",
+      "source_blocks": [
+        26,
+        27
+      ],
+      "family": "value-trap-survival",
+      "asset_or_variable": "Equities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Carnival's loss, dilution and dividend restrictions, and shale bankruptcies, demonstrate that permanent investor impairment can accompany industry survival. This is a risk principle, not an independent price forecast.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1125259/000081509721000027/ccl-20201130.htm",
+          "title": "Fiscal 2020 Form 10-K",
+          "publisher": "Carnival / SEC",
+          "date": "2021-01-26",
+          "verified": true,
+          "finding": "FY 2020 net loss was $10.236 billion, versus $2.990 billion profit in 2019. Weighted average shares rose from 690 million to 775 million. Dividend stopped after first quarter; financing restricted future payments."
+        },
+        {
+          "url": "https://home.treasury.gov/system/files/206/1USAEA2020001.pdf",
+          "title": "United States 2020 Article IV staff report",
+          "publisher": "IMF",
+          "date": "2020-07-17",
+          "verified": true,
+          "finding": "The report described energy bankruptcies at a decade high, weak shale economics and refinancing stress following the oil-price shock. This verifies distress, not a counterfactual without the pandemic."
+        }
+      ],
+      "next_check": null,
+      "id": "013-C11"
+    },
+    {
+      "claim": "Oneok production exposure now threatens the thesis",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        30,
+        31
+      ],
+      "family": "oneok-shale-exposure",
+      "asset_or_variable": "OKE",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Asset impairment and narrower dividend coverage substantiate the production-risk concern. However, adjusted operating earnings grew in 2020, so the shock did not destroy the entire franchise. The revised risk judgment must be separated from whether selling and buying an airport improved subsequent investment returns.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.oneok.com/news-and-events/press-releases/2021/02-22-2021-211628375",
+          "title": "ONEOK full-year 2020 results",
+          "publisher": "ONEOK",
+          "date": "2021-02-22",
+          "verified": true,
+          "finding": "2020 included $644.9 million noncash impairments. Adjusted EBITDA nevertheless rose 6% to $2.724 billion; dividend coverage declined to 1.17 from 1.38."
+        }
+      ],
+      "next_check": null,
+      "id": "013-C12"
+    },
+    {
+      "claim": "Carnival disruption warrants exiting the position",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        30,
+        31
+      ],
+      "family": "carnival-thesis-revision",
+      "asset_or_variable": "CCL",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The later cessation, large losses and financing restrictions substantiate the new operating-risk assessment. This is a documented revision of 004/008, not evidence the initial bullish thesis was correct.",
+      "direction_assessment": "Resolved as stated.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Government/travel restrictions changed the operating premise.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1125259/000081509721000027/ccl-20201130.htm",
+          "title": "Fiscal 2020 Form 10-K",
+          "publisher": "Carnival / SEC",
+          "date": "2021-01-26",
+          "verified": true,
+          "finding": "FY 2020 net loss was $10.236 billion, versus $2.990 billion profit in 2019. Weighted average shares rose from 690 million to 775 million. Dividend stopped after first quarter; financing restricted future payments."
+        }
+      ],
+      "next_check": null,
+      "id": "013-C13"
+    },
+    {
+      "claim": "OMAB is a more resilient replacement",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        30,
+        31
+      ],
+      "family": "omab-airport-resilience",
+      "asset_or_variable": "OMAB",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "OMAB gained 113.10% over three years and 116.74% over five. OKE, the replaced holding, gained 120.37% and 233.32% over the same windows. OMAB recovered, but the replacement did not outperform the sold exposure in these sensitivities. That is opportunity-cost evidence, not a complete risk or actual trade-ledger comparison.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/OMAB/history/",
+          "title": "OMAB historical price sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "3-year comparison 2020-03-10 to 2023-03-09: OMAB +113.10% cumulative, 28.74% annualized; SPY +42.41% cumulative. 5-year comparison 2020-03-10 to 2025-03-07: OMAB +116.74% cumulative, 16.76% annualized; SPY +115.38% cumulative. First common close strictly after publication, last common close on/before anniversary. USD vendor-adjusted-close proxies include vendor dividend/split adjustments; no fees, taxes or actual subscriber trades. These are evaluator-defined sensitivities unless the claim explicitly names the horizon."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/OKE/history/",
+          "title": "OKE historical price sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "3-year comparison 2020-03-10 to 2023-03-09: OKE +120.37% cumulative, 30.19% annualized; SPY +42.41% cumulative. 5-year comparison 2020-03-10 to 2025-03-07: OKE +233.32% cumulative, 27.28% annualized; SPY +115.38% cumulative. First common close strictly after publication, last common close on/before anniversary. USD vendor-adjusted-close proxies include vendor dividend/split adjustments; no fees, taxes or actual subscriber trades. These are evaluator-defined sensitivities unless the claim explicitly names the horizon."
+        }
+      ],
+      "next_check": null,
+      "id": "013-C14",
+      "test_specification": {
+        "window_type": "evaluator-defined sensitivity unless explicitly matched to source horizon",
+        "windows_years": [
+          3,
+          5
+        ],
+        "returns": {
+          "OMAB": {
+            "3": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-03-09",
+              "requested_endpoint": "2023-03-09",
+              "entry": "2020-03-10",
+              "exit": "2023-03-09",
+              "days": 1094,
+              "endpoint_gap_days": 0,
+              "endpoint_covered": true,
+              "instruments": {
+                "OMAB": {
+                  "entry_adjusted_close": 32.162532806396484,
+                  "exit_adjusted_close": 68.5369644165039,
+                  "cumulative_return_pct": 113.09566889232454,
+                  "annualized_return_pct": 28.736018722306444,
+                  "source": "https://finance.yahoo.com/quote/OMAB/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 262.2492370605469,
+                  "exit_adjusted_close": 373.4759826660156,
+                  "cumulative_return_pct": 42.41260979523431,
+                  "annualized_return_pct": 12.529059432671819,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 70.68305909709022
+            },
+            "5": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-03-09",
+              "requested_endpoint": "2025-03-09",
+              "entry": "2020-03-10",
+              "exit": "2025-03-07",
+              "days": 1823,
+              "endpoint_gap_days": 2,
+              "endpoint_covered": true,
+              "instruments": {
+                "OMAB": {
+                  "entry_adjusted_close": 32.162532806396484,
+                  "exit_adjusted_close": 69.70915985107422,
+                  "cumulative_return_pct": 116.74026815826663,
+                  "annualized_return_pct": 16.763660701903692,
+                  "source": "https://finance.yahoo.com/quote/OMAB/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 262.2492370605469,
+                  "exit_adjusted_close": 564.8236694335938,
+                  "cumulative_return_pct": 115.37666830397298,
+                  "annualized_return_pct": 16.616105746820065,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 1.3635998542936534
+            }
+          },
+          "OKE": {
+            "3": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-03-09",
+              "requested_endpoint": "2023-03-09",
+              "entry": "2020-03-10",
+              "exit": "2023-03-09",
+              "days": 1094,
+              "endpoint_gap_days": 0,
+              "endpoint_covered": true,
+              "instruments": {
+                "OKE": {
+                  "entry_adjusted_close": 24.58167266845703,
+                  "exit_adjusted_close": 54.169803619384766,
+                  "cumulative_return_pct": 120.36662984653175,
+                  "annualized_return_pct": 30.186188608882247,
+                  "source": "https://finance.yahoo.com/quote/OKE/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 262.2492370605469,
+                  "exit_adjusted_close": 373.4759826660156,
+                  "cumulative_return_pct": 42.41260979523431,
+                  "annualized_return_pct": 12.529059432671819,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 77.95402005129745
+            },
+            "5": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-03-09",
+              "requested_endpoint": "2025-03-09",
+              "entry": "2020-03-10",
+              "exit": "2025-03-07",
+              "days": 1823,
+              "endpoint_gap_days": 2,
+              "endpoint_covered": true,
+              "instruments": {
+                "OKE": {
+                  "entry_adjusted_close": 24.58167266845703,
+                  "exit_adjusted_close": 81.93535614013672,
+                  "cumulative_return_pct": 233.31888047339996,
+                  "annualized_return_pct": 27.27948555286652,
+                  "source": "https://finance.yahoo.com/quote/OKE/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 262.2492370605469,
+                  "exit_adjusted_close": 564.8236694335938,
+                  "cumulative_return_pct": 115.37666830397298,
+                  "annualized_return_pct": 16.616105746820065,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 117.94221216942698
+            }
+          }
+        }
+      }
+    },
+    {
+      "claim": "American Express is a more resilient replacement",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        30,
+        31
+      ],
+      "family": "amex-crisis-resilience",
+      "asset_or_variable": "AXP",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "AXP returned 73.80% and 182.99% over three and five years, while CCL returned -58.41% and -14.07%. The replacement strongly improved these realized price sensitivities. The original claim concerns resilience as well as returns; exact executed results and the full balance-sheet comparison remain distinct.",
+      "direction_assessment": "See independently checked outcomes and qualifications in reason.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/AXP/history/",
+          "title": "AXP historical price sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "3-year comparison 2020-03-10 to 2023-03-09: AXP +73.80% cumulative, 20.27% annualized; SPY +42.41% cumulative. 5-year comparison 2020-03-10 to 2025-03-07: AXP +182.99% cumulative, 23.17% annualized; SPY +115.38% cumulative. First common close strictly after publication, last common close on/before anniversary. USD vendor-adjusted-close proxies include vendor dividend/split adjustments; no fees, taxes or actual subscriber trades. These are evaluator-defined sensitivities unless the claim explicitly names the horizon."
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/CCL/history/",
+          "title": "CCL historical price sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": null,
+          "verified": true,
+          "finding": "3-year comparison 2020-03-10 to 2023-03-09: CCL -58.41% cumulative, -25.39% annualized; SPY +42.41% cumulative. 5-year comparison 2020-03-10 to 2025-03-07: CCL -14.07% cumulative, -2.99% annualized; SPY +115.38% cumulative. First common close strictly after publication, last common close on/before anniversary. USD vendor-adjusted-close proxies include vendor dividend/split adjustments; no fees, taxes or actual subscriber trades. These are evaluator-defined sensitivities unless the claim explicitly names the horizon."
+        }
+      ],
+      "next_check": null,
+      "id": "013-C15",
+      "test_specification": {
+        "window_type": "evaluator-defined sensitivity unless explicitly matched to source horizon",
+        "windows_years": [
+          3,
+          5
+        ],
+        "returns": {
+          "AXP": {
+            "3": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-03-09",
+              "requested_endpoint": "2023-03-09",
+              "entry": "2020-03-10",
+              "exit": "2023-03-09",
+              "days": 1094,
+              "endpoint_gap_days": 0,
+              "endpoint_covered": true,
+              "instruments": {
+                "AXP": {
+                  "entry_adjusted_close": 94.67308807373047,
+                  "exit_adjusted_close": 164.54034423828125,
+                  "cumulative_return_pct": 73.79843373244448,
+                  "annualized_return_pct": 20.26611479786846,
+                  "source": "https://finance.yahoo.com/quote/AXP/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 262.2492370605469,
+                  "exit_adjusted_close": 373.4759826660156,
+                  "cumulative_return_pct": 42.41260979523431,
+                  "annualized_return_pct": 12.529059432671819,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 31.38582393721017
+            },
+            "5": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-03-09",
+              "requested_endpoint": "2025-03-09",
+              "entry": "2020-03-10",
+              "exit": "2025-03-07",
+              "days": 1823,
+              "endpoint_gap_days": 2,
+              "endpoint_covered": true,
+              "instruments": {
+                "AXP": {
+                  "entry_adjusted_close": 94.67308807373047,
+                  "exit_adjusted_close": 267.91693115234375,
+                  "cumulative_return_pct": 182.9916469437362,
+                  "annualized_return_pct": 23.173081201539357,
+                  "source": "https://finance.yahoo.com/quote/AXP/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 262.2492370605469,
+                  "exit_adjusted_close": 564.8236694335938,
+                  "cumulative_return_pct": 115.37666830397298,
+                  "annualized_return_pct": 16.616105746820065,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": 67.61497863976324
+            }
+          },
+          "CCL": {
+            "3": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-03-09",
+              "requested_endpoint": "2023-03-09",
+              "entry": "2020-03-10",
+              "exit": "2023-03-09",
+              "days": 1094,
+              "endpoint_gap_days": 0,
+              "endpoint_covered": true,
+              "instruments": {
+                "CCL": {
+                  "entry_adjusted_close": 23.520273208618164,
+                  "exit_adjusted_close": 9.782161712646484,
+                  "cumulative_return_pct": -58.40965950573158,
+                  "annualized_return_pct": -25.39046481015489,
+                  "source": "https://finance.yahoo.com/quote/CCL/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 262.2492370605469,
+                  "exit_adjusted_close": 373.4759826660156,
+                  "cumulative_return_pct": 42.41260979523431,
+                  "annualized_return_pct": 12.529059432671819,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": -100.8222693009659
+            },
+            "5": {
+              "method": "First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+              "published": "2020-03-09",
+              "requested_endpoint": "2025-03-09",
+              "entry": "2020-03-10",
+              "exit": "2025-03-07",
+              "days": 1823,
+              "endpoint_gap_days": 2,
+              "endpoint_covered": true,
+              "instruments": {
+                "CCL": {
+                  "entry_adjusted_close": 23.520273208618164,
+                  "exit_adjusted_close": 20.210594177246094,
+                  "cumulative_return_pct": -14.071601133269818,
+                  "annualized_return_pct": -2.9928244251668956,
+                  "source": "https://finance.yahoo.com/quote/CCL/history/"
+                },
+                "SPY": {
+                  "entry_adjusted_close": 262.2492370605469,
+                  "exit_adjusted_close": 564.8236694335938,
+                  "cumulative_return_pct": 115.37666830397298,
+                  "annualized_return_pct": 16.616105746820065,
+                  "source": "https://finance.yahoo.com/quote/SPY/history/"
+                }
+              },
+              "excess_percentage_points": -129.4482694372428
+            }
+          }
+        }
+      }
+    },
+    {
+      "claim": "Gold-miner profits should be flat or higher",
+      "kind": "forecast",
+      "source_blocks": [
+        32
+      ],
+      "family": "gold-energy-miner-margin",
+      "asset_or_variable": "Gold miners",
+      "horizon": "2020",
+      "conditions": null,
+      "modality": "likely",
+      "verdict": "mixed",
+      "reason": "Barrick's adjusted EPS and cash flow rose substantially, while reported EPS fell. That supports underlying profit direction for a major producer, not the entire GDX basket; shutdowns and accounting differences remain.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "Original horizon retained: 2020",
+      "mechanism_assessment": "Outcome evidence does not independently identify causation.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.barrick.com/English/news/news-details/2021/a-year-of-delivery-and-development-as-barrick-meets-targets-advances-growth-projects/default.aspx",
+          "title": "2020 results: delivery and development",
+          "publisher": "Barrick",
+          "date": "2021-02-18",
+          "verified": true,
+          "finding": "2020 adjusted EPS rose 125% to $1.15 and operating cash flow to $5.417 billion; reported EPS fell from $2.26 to $1.31. Higher gold and copper prices contributed to cash generation; costs per ounce did not universally fall."
+        }
+      ],
+      "next_check": "Aggregate consistent GAAP and adjusted earnings for the publication-date GDX holdings, avoiding survivor bias.",
+      "id": "013-C16"
+    },
+    {
+      "claim": "Staged equity purchases are reasonable before a bottom",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        34,
+        48
+      ],
+      "family": "crisis-rebalance-opportunity",
+      "asset_or_variable": "Portfolio allocation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The source explicitly disclaims calling the bottom. Evaluating the policy requires the actual allocation path and alternative reserve-deployment rule; a later lower price does not alone refute a tranche strategy.",
+      "direction_assessment": "See reason; no return inferred.",
+      "timing_assessment": "No fixed endpoint supplied.",
+      "mechanism_assessment": "Business performance and shareholder return are distinct.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "id": "013-C17"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Index drawdowns",
+      "source_blocks": [
+        5,
+        8
+      ],
+      "use": "Risk context",
+      "image_inspected": false
+    },
+    {
+      "name": "Oil price and gold-energy comparison",
+      "source_blocks": [
+        12,
+        32
+      ],
+      "use": "Margin stress",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Revise a thesis when its operating premise changes."
+  ],
+  "assessment": "The most significant action is the explicit Carnival exit, which should link back to the initial recommendation and interim reaffirmation. The shale-fragility analysis was useful, while the assertion of Saudi-Russian coordination requires more evidence. Mining cash-flow and accounting earnings must be distinguished.",
+  "verification_limitations": [
+    "Retrieved 2026-11-07; publication-date wording is not authenticated.",
+    "No complete adjusted total-return series or original-vintage macro database was available for this review. Unverified outcomes are explicitly unscored."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "da6445269b19fb42d178d8ef6007116d302902450b261b00e5e2b6e1648823d3"
+}

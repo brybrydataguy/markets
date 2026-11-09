@@ -1,0 +1,1581 @@
+{
+  "article_id": "094",
+  "title": "Gold Market Deep Dive Analysis",
+  "date": "2022-10-02",
+  "source_url": "https://www.lynalden.com/premium-2022-10-2/",
+  "read_complete": true,
+  "summary": "Gold, market plumbing and payment infrastructure.",
+  "coverage_note": "All article text blocks were read. Ledger covers material macro, investment, and causal propositions; incidental descriptive statistics, boilerplate, and unreasoned position lists are excluded. Image labels were read, not image pixels.",
+  "claims": [
+    {
+      "claim": "YCC creates yen pressure",
+      "source_blocks": [
+        9,
+        10,
+        18,
+        19
+      ],
+      "kind": "explanation",
+      "family": "japan-ycc-currency-tradeoff",
+      "verdict": "mixed",
+      "reason": "Interest-rate divergence can pressure the yen, but exchange rates reflect expected policy paths and risk demand. The BoJ retained purchases after ending YCC in March 2024, illustrating that the policy choice is not permanently binary. Intervention history should specify yen-buying: Japan also sold yen in 2011.",
+      "evidence": [
+        {
+          "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k240319b.pdf",
+          "title": "Monetary policy framework changes",
+          "publisher": "Bank of Japan",
+          "date": "2024-03-19",
+          "verified": true,
+          "finding": "Ended negative rates and yield-curve control while retaining JGB purchases.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": "Fed remains aggressive while Japan caps yields",
+      "next_check": null,
+      "asset_or_variable": "japan-ycc-currency-tradeoff",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C01"
+    },
+    {
+      "claim": "Treasury sale pressure",
+      "source_blocks": [
+        16,
+        19,
+        20,
+        21
+      ],
+      "kind": "forecast",
+      "family": "foreign-selling-treasury-liquidity",
+      "verdict": "conditional_pending",
+      "reason": "The trigger is unusually large coordinated selling, not any decline in reserve valuation. No size or market-failure threshold is supplied. Money-fund and private buyers later absorbed substantial issuance, countering a simple fixed-buyer-capacity model.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/insights-from-mmf-portfolio-allocations-amid-balance-sheet-normalization-20250303.html",
+          "title": "MMF portfolio allocations",
+          "publisher": "Federal Reserve",
+          "date": "2025-03-03",
+          "verified": true,
+          "finding": "April 2023-November 2024 money-fund bill holdings rose roughly $1.7tn and private Treasury repo $0.9tn as ON RRP use fell about $2tn.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": "Japan and China sell seriously",
+      "next_check": "Define net-sale quantity and distinguish transactions from bond/FX valuation changes; compare depth and dealer capacity.",
+      "asset_or_variable": "foreign-selling-treasury-liquidity",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "094-C02"
+    },
+    {
+      "claim": "Dollar funding squeeze",
+      "source_blocks": [
+        16,
+        20,
+        24,
+        25
+      ],
+      "kind": "explanation",
+      "family": "global-dollar-funding-squeeze",
+      "verdict": "mixed",
+      "reason": "Dollar liabilities and reduced intermediation capacity create a plausible vulnerability. NIIP includes equity as well as debt, and offshore dollar creation and price-sensitive buyers prevent a mechanical shortage inference.",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/news/2022/us-international-investment-position-first-quarter-2022-and-annual-update",
+          "title": "Q1 2022 international investment position",
+          "publisher": "BEA",
+          "date": "2022-06-29",
+          "verified": true,
+          "finding": "Defines NIIP as external assets less liabilities and separates transactions, prices, exchange rates and other valuation changes; equity is included in both assets and liabilities.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/insights-from-mmf-portfolio-allocations-amid-balance-sheet-normalization-20250303.html",
+          "title": "MMF portfolio allocations",
+          "publisher": "Federal Reserve",
+          "date": "2025-03-03",
+          "verified": true,
+          "finding": "April 2023-November 2024 money-fund bill holdings rose roughly $1.7tn and private Treasury repo $0.9tn as ON RRP use fell about $2tn.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "global-dollar-funding-squeeze",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C03"
+    },
+    {
+      "claim": "Three-percent curve inversion",
+      "source_blocks": [
+        24,
+        26,
+        27,
+        28
+      ],
+      "kind": "forecast",
+      "family": "2022-curve-inversion",
+      "verdict": "right",
+      "reason": "This is a quotation of an earlier forecast, not a fresh October hit. The ten-year/three-month curve inverted in October 2022, and rates ultimately exceeded 5%.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Policy target rose to 5.25-5.50%.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/T10Y3M",
+          "title": "T 10Y3M",
+          "publisher": "FRED original series provider",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "First negative daily observation in this cycle was October 18, 2022 at -0.03 percentage points.",
+          "verification_method": "computed from coordinator-downloaded CSV"
+        }
+      ],
+      "horizon": "Quoted 2022 tightening cycle",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-curve-inversion",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Quoted 2022 tightening cycle",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "094-C04"
+    },
+    {
+      "claim": "Tightening causes recession",
+      "source_blocks": [
+        24,
+        29,
+        30
+      ],
+      "kind": "forecast",
+      "family": "2022-tightening-recession",
+      "verdict": "wrong",
+      "reason": "The quoted tightening/recession chain did not produce a dated US recession in 2022-2023; growth remained positive after the first-half contraction. Financial stress did occur, so it should be scored separately rather than rescue the recession component.",
+      "evidence": [
+        {
+          "url": "https://www.nber.org/research/business-cycle-dating",
+          "title": "Business Cycle Dating",
+          "publisher": "NBER",
+          "date": null,
+          "verified": true,
+          "finding": "Official chronology identifies April 2020 as the pandemic recession trough; no 2022 recession is dated.",
+          "verification_method": "retrieved official chronology search extract; direct page denied"
+        },
+        {
+          "url": "https://www.bea.gov/news/2023/gross-domestic-product-fourth-quarter-and-year-2022-second-estimate",
+          "title": "Q4 2022 GDP second estimate",
+          "publisher": "BEA",
+          "date": "2023-02-23",
+          "verified": true,
+          "finding": "This release estimated Q3 2022 real growth 3.2% and Q4 2.7%, both annualized; later vintages differ.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Quoted 2022 tightening cycle",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-tightening-recession",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Quoted 2022 tightening cycle",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "094-C05"
+    },
+    {
+      "claim": "Strong dollar depresses exports",
+      "source_blocks": [
+        24,
+        25,
+        26
+      ],
+      "kind": "explanation",
+      "family": "strong-dollar-export-constraint",
+      "verdict": "mixed",
+      "reason": "A stronger currency can weaken price competitiveness and multinational translation, but this is not a sufficient aggregate export forecast. Microsoft documents actual FX translation drag; it does not establish an economy-wide export-volume decline.",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/investor/reports/ar23/index.html",
+          "title": "2023 Annual Report",
+          "publisher": "Microsoft",
+          "date": null,
+          "verified": true,
+          "finding": "Fiscal 2023 reported revenue and operating income were reduced by foreign-exchange translation effects; this verifies a major multinational example, not an S&P-wide causal estimate.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Test real export volumes and foreign demand jointly rather than nominal FX-adjusted revenue.",
+      "asset_or_variable": "strong-dollar-export-constraint",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C06"
+    },
+    {
+      "claim": "Unavoidable central-bank purchases",
+      "source_blocks": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "kind": "forecast",
+      "family": "high-debt-prevents-qe-exit",
+      "verdict": "wrong",
+      "reason": "As a categorical claim about the ECB, this was already contradicted: net APP purchases ended July 2022. Reinvestments were different from net QE, and APP holdings fell during 2023. BoJ continuation and temporary UK purchases cannot establish universal inability to exit.",
+      "evidence": [
+        {
+          "url": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/annual/html/ecb.ar2023~d033c21ac2.en.html",
+          "title": "2023 annual report",
+          "publisher": "ECB",
+          "date": null,
+          "verified": true,
+          "finding": "Net PEPP purchases ended April 2022 and APP July 2022; APP runoff began March 2023 and full reinvestment cessation July 2023. APP holdings fell from EUR 3.254tn to EUR 3.026tn in 2023.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2024/k240319b.pdf",
+          "title": "Monetary policy framework changes",
+          "publisher": "Bank of Japan",
+          "date": "2024-03-19",
+          "verified": true,
+          "finding": "Ended negative rates and yield-curve control while retaining JGB purchases.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "high-debt-prevents-qe-exit",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Contradicted within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "094-C07"
+    },
+    {
+      "claim": "LDI forced selling",
+      "source_blocks": [
+        39,
+        40,
+        41,
+        47
+      ],
+      "kind": "explanation",
+      "family": "uk-ldi-margin-spiral",
+      "verdict": "right",
+      "reason": "The BoE documents falling fund NAV, rising leverage, urgent collateral calls and insufficient speed of capital transfers. The feedback loop and the emergency response are directly supported. This explains LDI vehicles, not all pension solvency.",
+      "evidence": [
+        {
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/letter/2022/october/letter-from-jon-cunliffe-ldi-5-october-2022.pdf",
+          "title": "LDI intervention explanation",
+          "publisher": "Bank of England",
+          "date": "2022-10-05",
+          "verified": true,
+          "finding": "Rising yields increased leverage and margin calls; capital could not arrive quickly enough, risking forced sales and negative LDI-fund NAV. Temporary purchases gave funds time to adjust.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "uk-ldi-margin-spiral",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C08"
+    },
+    {
+      "claim": "Pension/fiscal insolvency",
+      "source_blocks": [
+        49,
+        50,
+        54,
+        55,
+        56,
+        57
+      ],
+      "kind": "explanation",
+      "family": "pension-stress-fiscal-dominance",
+      "verdict": "mixed",
+      "reason": "Collateral timing and leverage were real. Generalizing the episode to an irreversible inability to fund government debt is too strong: the BoE sold every emergency gilt by January 2023. The distinction between pension liabilities and leveraged LDI fund NAV matters.",
+      "evidence": [
+        {
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/letter/2022/october/letter-from-jon-cunliffe-ldi-5-october-2022.pdf",
+          "title": "LDI intervention explanation",
+          "publisher": "Bank of England",
+          "date": "2022-10-05",
+          "verified": true,
+          "finding": "Rising yields increased leverage and margin calls; capital could not arrive quickly enough, risking forced sales and negative LDI-fund NAV. Temporary purchases gave funds time to adjust.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.bankofengland.co.uk/news/2023/january/boe-completes-unwind-of-recent-financial-stability-gilt-purchases",
+          "title": "Emergency gilt portfolio sold",
+          "publisher": "Bank of England",
+          "date": "2023-01-12",
+          "verified": true,
+          "finding": "All GBP 19.3bn of temporary September-October 2022 purchases had been sold; unwind began November 29.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "pension-stress-fiscal-dominance",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C09"
+    },
+    {
+      "claim": "Unavoidable financial repression",
+      "source_blocks": [
+        54,
+        55,
+        56,
+        57,
+        61
+      ],
+      "kind": "explanation",
+      "family": "fiscal-dominance-policy-trap",
+      "verdict": "mixed",
+      "reason": "High debt raises sensitivity to rates, but a permanent loss of central-bank independence does not follow from one intervention. ECB runoff and restrictive Fed rates above inflation are material counterexamples to the universal formulation.",
+      "evidence": [
+        {
+          "url": "https://www.ecb.europa.eu/press/annual-reports-financial-statements/annual/html/ecb.ar2023~d033c21ac2.en.html",
+          "title": "2023 annual report",
+          "publisher": "ECB",
+          "date": null,
+          "verified": true,
+          "finding": "Net PEPP purchases ended April 2022 and APP July 2022; APP runoff began March 2023 and full reinvestment cessation July 2023. APP holdings fell from EUR 3.254tn to EUR 3.026tn in 2023.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2024-ar-monetary-policy.htm",
+          "title": "2024 Annual Report: Monetary Policy",
+          "publisher": "Federal Reserve",
+          "date": null,
+          "verified": true,
+          "finding": "Policy rates exceeded PCE inflation during sustained restriction.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.bankofengland.co.uk/news/2023/january/boe-completes-unwind-of-recent-financial-stability-gilt-purchases",
+          "title": "Emergency gilt portfolio sold",
+          "publisher": "Bank of England",
+          "date": "2023-01-12",
+          "verified": true,
+          "finding": "All GBP 19.3bn of temporary September-October 2022 purchases had been sold; unwind began November 29.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "fiscal-dominance-policy-trap",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C10"
+    },
+    {
+      "claim": "Treasury-adjacent stress",
+      "source_blocks": [
+        62,
+        74,
+        76,
+        78
+      ],
+      "kind": "forecast",
+      "family": "market-stress-before-inflation-target",
+      "verdict": "right",
+      "reason": "Bank failures exposed duration losses and prompted par-value collateral funding in March 2023, before inflation reached 2%. This supports the broad adjacent-market warning. It was not a Treasury default and did not terminate rate increases.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312a.htm",
+          "title": "Bank Term Funding Program",
+          "publisher": "Federal Reserve",
+          "date": "2023-03-12",
+          "verified": true,
+          "finding": "Introduced one-year bank loans against eligible government/agency securities valued at par, during SVB and Signature failures.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Policy target rose to 5.25-5.50%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Coming months",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "market-stress-before-inflation-target",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Coming months",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "094-C11"
+    },
+    {
+      "claim": "Stress precedes normalization",
+      "source_blocks": [
+        75,
+        76,
+        78
+      ],
+      "kind": "forecast",
+      "family": "market-stress-forces-fed-pivot",
+      "verdict": "mixed",
+      "reason": "BTFP supplied liquidity within about five months, but rates rose further through July 2023 and QT continued. Emergency lending and the monetary stance can move in different directions. The warning identified a vulnerability but overstated the constraint on continued tightening.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312a.htm",
+          "title": "Bank Term Funding Program",
+          "publisher": "Federal Reserve",
+          "date": "2023-03-12",
+          "verified": true,
+          "finding": "Introduced one-year bank loans against eligible government/agency securities valued at par, during SVB and Signature failures.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Policy target rose to 5.25-5.50%.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2024-ar-monetary-policy.htm",
+          "title": "2024 Annual Report: Monetary Policy",
+          "publisher": "Federal Reserve",
+          "date": null,
+          "verified": true,
+          "finding": "Policy rates exceeded PCE inflation during sustained restriction.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Coming months",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "market-stress-forces-fed-pivot",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Coming months",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "094-C12"
+    },
+    {
+      "claim": "Bear-market rally is likely",
+      "source_blocks": [
+        75
+      ],
+      "kind": "forecast",
+      "family": "2022-bear-market-rally",
+      "verdict": "not_testable",
+      "reason": "SPY gained 4.79% from October 3 through year-end, a favorable quarterly sensitivity. No rally size, duration or endpoint was specified; this cannot become a precise forecast hit through an evaluator-selected window.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "SPY historical daily market data",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Oct 3-Dec 30, 2022 USD adjusted-close return +4.794%; chosen quarterly sensitivity, not a specified forecast deadline.",
+          "verification_method": "computed from coordinator-downloaded research/evidence/market CSV; adjusted-close total-return proxy or split-adjusted close as explicitly stated; no fees or taxes"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Retain as qualitative direction; an authored dated rally threshold would permit formal scoring.",
+      "asset_or_variable": "2022-bear-market-rally",
+      "modality": "more likely than not",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "094-C13"
+    },
+    {
+      "claim": "Renewed easing renews inflation",
+      "source_blocks": [
+        78
+      ],
+      "kind": "forecast",
+      "family": "stop-go-inflation-cycle",
+      "verdict": "conditional_pending",
+      "reason": "A new broad easing cycle and subsequent inflation wave are different from collateralized crisis lending. The trigger and lag are unspecified, so BTFP alone does not satisfy the test.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312a.htm",
+          "title": "Bank Term Funding Program",
+          "publisher": "Federal Reserve",
+          "date": "2023-03-12",
+          "verified": true,
+          "finding": "Introduced one-year bank loans against eligible government/agency securities valued at par, during SVB and Signature failures.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": "Policy loosens again enough to stimulate demand",
+      "next_check": "Define monetary/fiscal easing, inflation metric and lag; evaluate the next qualifying cycle.",
+      "asset_or_variable": "stop-go-inflation-cycle",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "094-C14"
+    },
+    {
+      "claim": "Fourth-quarter activity slows",
+      "source_blocks": [
+        81,
+        87,
+        91
+      ],
+      "kind": "forecast",
+      "family": "2022-fourth-quarter-slowdown",
+      "verdict": "mixed",
+      "reason": "The contemporaneous BEA vintage showed growth easing from 3.2% in Q3 to 2.7% in Q4, with manufacturing contracting. This supported deceleration, not a broad economic contraction.",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/news/2023/gross-domestic-product-fourth-quarter-and-year-2022-second-estimate",
+          "title": "Q4 2022 GDP second estimate",
+          "publisher": "BEA",
+          "date": "2023-02-23",
+          "verified": true,
+          "finding": "This release estimated Q3 2022 real growth 3.2% and Q4 2.7%, both annualized; later vintages differ.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2022/2022-12/rob-roundup-november-2022-manufacturing-pmi/",
+          "title": "November manufacturing PMI",
+          "publisher": "ISM",
+          "date": "2022-12-01",
+          "verified": true,
+          "finding": "Manufacturing PMI fell to 49 in November 2022, first contraction in 29 months.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Q4 2022",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-fourth-quarter-slowdown",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Q4 2022",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "094-C15"
+    },
+    {
+      "claim": "Lightning reaches transformative scale",
+      "source_blocks": [
+        94,
+        95,
+        96,
+        100
+      ],
+      "kind": "investment_thesis",
+      "family": "lightning-payment-adoption",
+      "verdict": "not_testable",
+      "reason": "Technical deployment and funding are observable; transformative adoption needs a share, volume or cost benchmark. A funding round does not demonstrate recurring demand or economic profitability.",
+      "evidence": [
+        {
+          "url": "https://strike.me/int/en/blog/strike-launches-send-globally-lightning-fast-money-transfers/",
+          "title": "Send Globally launch",
+          "publisher": "Strike",
+          "date": "2022-12-06",
+          "verified": true,
+          "finding": "Strike and Bitnob launched Lightning-based transfers to Nigeria, Ghana and Kenya, converting into local currencies and bank/mobile-money accounts.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://lightning.engineering/posts/2024-07-23-taproot-assets-LN/",
+          "title": "Taproot Assets on Lightning",
+          "publisher": "Lightning Labs",
+          "date": "2024-07-23",
+          "verified": true,
+          "finding": "Multi-asset Lightning protocol released on mainnet, confirming a concrete extension enabled by Taproot.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Track independently measured active users, payment volume, realized fees and retention.",
+      "asset_or_variable": "lightning-payment-adoption",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C16"
+    },
+    {
+      "claim": "Interoperability connects payment providers",
+      "source_blocks": [
+        101,
+        102,
+        103,
+        104,
+        105,
+        106
+      ],
+      "kind": "explanation",
+      "family": "lightning-interoperable-payments",
+      "verdict": "right",
+      "reason": "Strike and Bitnob subsequently launched a concrete cross-border route with local bank/mobile-money delivery. This supports the interoperability mechanism, while custody, liquidity and regulatory gateways remain necessary. The December launch is later evidence, not proof every route was live in October.",
+      "evidence": [
+        {
+          "url": "https://strike.me/int/en/blog/strike-launches-send-globally-lightning-fast-money-transfers/",
+          "title": "Send Globally launch",
+          "publisher": "Strike",
+          "date": "2022-12-06",
+          "verified": true,
+          "finding": "Strike and Bitnob launched Lightning-based transfers to Nigeria, Ghana and Kenya, converting into local currencies and bank/mobile-money accounts.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "lightning-interoperable-payments",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C17"
+    },
+    {
+      "claim": "USSD broadens Bitcoin access",
+      "source_blocks": [
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116
+      ],
+      "kind": "explanation",
+      "family": "feature-phone-bitcoin-access",
+      "verdict": "mixed",
+      "reason": "The dated Machankura manual verifies feature-phone dialing access. An end user can operate without mobile internet while the provider still needs network access and holds operational/custodial dependencies. This is accessibility progress, not internet-independent Bitcoin consensus.",
+      "evidence": [
+        {
+          "url": "https://8333.mobi/static/Machankura_User_Manual.pdf",
+          "title": "Machankura manual",
+          "publisher": "Machankura",
+          "date": "2022-08-21",
+          "verified": true,
+          "finding": "Version 0.0.2 lists USSD dialing codes for nine African countries; this verifies feature-phone interface documentation, not transaction volume.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "feature-phone-bitcoin-access",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C18"
+    },
+    {
+      "claim": "Taro advances multi-asset settlement",
+      "source_blocks": [
+        118,
+        119,
+        120
+      ],
+      "kind": "empirical",
+      "family": "taproot-assets-development",
+      "verdict": "right",
+      "reason": "The September 28 alpha supported testnet issuance and transfers; Lightning integration came later. The mainnet Lightning release in July 2024 validates progress without proving issuer adoption or stablecoin neutrality.",
+      "evidence": [
+        {
+          "url": "https://lightning.engineering/posts/2022-9-28-taro-launch/",
+          "title": "Taro alpha release",
+          "publisher": "Lightning Labs",
+          "date": "2022-09-28",
+          "verified": true,
+          "finding": "Initial daemon enabled Bitcoin asset issuance and transfer on testnet; Lightning integration was future work.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://lightning.engineering/posts/2024-07-23-taproot-assets-LN/",
+          "title": "Taproot Assets on Lightning",
+          "publisher": "Lightning Labs",
+          "date": "2024-07-23",
+          "verified": true,
+          "finding": "Multi-asset Lightning protocol released on mainnet, confirming a concrete extension enabled by Taproot.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "taproot-assets-development",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C19"
+    },
+    {
+      "claim": "Swan multisig access",
+      "source_blocks": [
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "kind": "investment_thesis",
+      "family": "swan-specter-self-custody",
+      "verdict": "mixed",
+      "reason": "Dated March 2022 purchasing/withdrawal integration and September acquisition establish concrete multisignature tooling and expanded capability. They do not establish better security outcomes or broad customer migration. Advisory and board involvement remain disclosed conflicts relevant to interpretation.",
+      "evidence": [
+        {
+          "url": "https://www.swanbitcoin.com/industry/swan-specter-integration-announcement/",
+          "title": "Specter integration",
+          "publisher": "Swan",
+          "date": "2022-03-16",
+          "verified": true,
+          "finding": "Native purchasing integration connects Specter wallets and Swan withdrawals; self-custody/multisignature support exists, without proving flawless security or broad adoption.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.swanbitcoin.com/industry/swan-acquires-specter-solutions/",
+          "title": "Specter acquisition",
+          "publisher": "Swan",
+          "date": "2022-09-28",
+          "verified": true,
+          "finding": "Acquired Specter Solutions and launched Specter Labs; announced continued open-source operation and further custody integrations.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Review Specter/Swan release history, custody architecture, recovery testing and actual product availability.",
+      "asset_or_variable": "swan-specter-self-custody",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "See qualified outcome in rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C20"
+    },
+    {
+      "claim": "Crypto selling pressure is exhausted",
+      "source_blocks": [
+        135
+      ],
+      "kind": "explanation",
+      "family": "crypto-2022-deleveraging-exhaustion",
+      "verdict": "mixed",
+      "reason": "Earlier liquidations removed leverage, but November prices show a substantial further liquidation phase: Bitcoin fell to 15,755.75 on November 21. This contradicts treating the summer failures as a complete washout, while the author stops short of a hard price floor.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin daily price",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "BTC: $57,471.87 November 28, 2021; $15,755.75 November 21, 2022; first subsequent daily close above $70,000 March 11, 2024.",
+          "verification_method": "computed from coordinator-downloaded CSV, provenance research/evidence/series-manifest.json"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "crypto-2022-deleveraging-exhaustion",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C21"
+    },
+    {
+      "claim": "UK Bitcoin demand",
+      "source_blocks": [
+        136
+      ],
+      "kind": "empirical",
+      "family": "bitcoin-uk-safe-haven-flows",
+      "verdict": "evidence_needed",
+      "reason": "A reported one-week trading-flow comparison is not independently authenticated here. It would also not establish a sustained safe-haven role, since local-currency prices can rise merely because sterling falls.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Retrieve the original venue-level GBP volume/flow dataset, date range and net-flow versus gross-volume definitions.",
+      "asset_or_variable": "bitcoin-uk-safe-haven-flows",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C22"
+    },
+    {
+      "claim": "Patient Bitcoin accumulation",
+      "source_blocks": [
+        137
+      ],
+      "kind": "investment_thesis",
+      "family": "bitcoin-three-to-five-year-bull",
+      "verdict": "right",
+      "reason": "Coinbase daily Bitcoin rose from 19,640.84 on October 3, 2022 to 122,318.40 on October 2, 2025, meeting the first explicit three-year horizon. Subsequent upside does not erase the immediate drawdown or establish Lightning as the price driver.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "CBBTCUSD",
+          "publisher": "FRED original series provider",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "October 3, 2022 $19,640.84; October 2, 2025 $122,318.40. Nominal spot-price comparison, no fees/tax or yield.",
+          "verification_method": "computed from coordinator-downloaded CSV"
+        }
+      ],
+      "horizon": "3-5 years",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "BTC",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 3-5 years",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C23"
+    },
+    {
+      "claim": "Longer gold stagnation",
+      "source_blocks": [
+        154,
+        155,
+        156,
+        157
+      ],
+      "kind": "empirical",
+      "family": "gold-2020-thesis-revision",
+      "verdict": "mixed",
+      "reason": "The report explicitly acknowledges that 25 months exceeded the expected 6-18-month consolidation. That is a timing miss even if the earlier top warning was useful. Later gold appreciation cannot retroactively fix the forecast horizon.",
+      "evidence": [
+        {
+          "url": "https://pubs.usgs.gov/myb/vol1/2022/myb1-2022-gold.pdf",
+          "title": "2022 Minerals Yearbook: Gold",
+          "publisher": "USGS",
+          "date": null,
+          "verified": true,
+          "finding": "Gold reached a new 2022 low in November.",
+          "verification_method": "indexed primary-source extract; direct PDF fetch denied; exact release day unverified"
+        }
+      ],
+      "horizon": "Original 6-18 months",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "gold-2020-thesis-revision",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Original 6-18 months",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C24"
+    },
+    {
+      "claim": "Gold relative defense",
+      "source_blocks": [
+        159,
+        169
+      ],
+      "kind": "empirical",
+      "family": "gold-relative-defense-2022",
+      "verdict": "right",
+      "reason": "January 3-September 30 adjusted returns were GLD -8.12%, SPY -24.37% and TLT -28.03%. Gold still lost nominal value. SHY lost 4.42%, supporting the short-duration comparison but not substituting for a literal cash balance.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD historical daily market data",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "USD adjusted closes: Jan 3-Sep 30, 2022 GLD -8.115%, SPY -24.365%, TLT -28.028%, SHY -4.423%; Oct 3, 2022-Jan 31, 2023 GLD +13.242%; through Oct 2, 2025 +123.941%, SPY +90.208%. Evaluator windows, not actual executions.",
+          "verification_method": "computed from coordinator-downloaded research/evidence/market CSV; adjusted-close total-return proxy or split-adjusted close as explicitly stated; no fees or taxes"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "gold-relative-defense-2022",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C25"
+    },
+    {
+      "claim": "Physical gold deliveries",
+      "source_blocks": [
+        161,
+        162,
+        163,
+        164
+      ],
+      "kind": "empirical",
+      "family": "comex-physical-delivery-demand",
+      "verdict": "evidence_needed",
+      "reason": "The delivery-volume assertion relies on charts and commentary without the underlying contract series in this review. High deliveries do not automatically imply a shortage; compare the same elapsed months and avoid annualizing selectively.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Obtain CME monthly delivery notices and warehouse stocks for 2019-2022, distinguishing gold contract sizes and repeat warrants.",
+      "asset_or_variable": "comex-physical-delivery-demand",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C26"
+    },
+    {
+      "claim": "Paper-gold run risk",
+      "source_blocks": [
+        165,
+        166,
+        167
+      ],
+      "kind": "explanation",
+      "family": "gold-paper-counterparty-risk",
+      "verdict": "mixed",
+      "reason": "Unallocated credit and allocated metal differ materially, but futures open interest is not a set of simultaneous immediate withdrawal claims. Price settlement, offsetting positions and delivery rules must be modeled before inferring a run from a paper-to-metal ratio.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Match the claimed instrument to legal redemption terms and test a delivery-constrained stress scenario.",
+      "asset_or_variable": "gold-paper-counterparty-risk",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C27"
+    },
+    {
+      "claim": "Domestic bullion protection",
+      "source_blocks": [
+        168
+      ],
+      "kind": "explanation",
+      "family": "gold-sovereign-reserve-asset",
+      "verdict": "right",
+      "reason": "Physical bullion held outright has no issuer repayment promise. That accounting property supports the comparison with foreign debt claims, without making transport, custody or market access immune to sanctions.",
+      "evidence": [
+        {
+          "url": "https://www.bea.gov/news/2022/us-international-investment-position-first-quarter-2022-and-annual-update",
+          "title": "Q1 2022 international investment position",
+          "publisher": "BEA",
+          "date": "2022-06-29",
+          "verified": true,
+          "finding": "Defines NIIP as external assets less liabilities and separates transactions, prices, exchange rates and other valuation changes; equity is included in both assets and liabilities.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "gold-sovereign-reserve-asset",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C28"
+    },
+    {
+      "claim": "Fed pause unlocks gold",
+      "source_blocks": [
+        171,
+        172,
+        189
+      ],
+      "kind": "forecast",
+      "family": "gold-fed-liquidity-catalyst",
+      "verdict": "mixed",
+      "reason": "Gold rose 13.24% by January 31, 2023, while the Fed was still raising rates; the pace had slowed. BTFP followed in March and the first rate pause in June. The broad easing-of-pressure intuition worked, but waiting for a completed tightening cycle was not required.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD historical daily market data",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "USD adjusted closes: Jan 3-Sep 30, 2022 GLD -8.115%, SPY -24.365%, TLT -28.028%, SHY -4.423%; Oct 3, 2022-Jan 31, 2023 GLD +13.242%; through Oct 2, 2025 +123.941%, SPY +90.208%. Evaluator windows, not actual executions.",
+          "verification_method": "computed from coordinator-downloaded research/evidence/market CSV; adjusted-close total-return proxy or split-adjusted close as explicitly stated; no fees or taxes"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230312a.htm",
+          "title": "Bank Term Funding Program",
+          "publisher": "Federal Reserve",
+          "date": "2023-03-12",
+          "verified": true,
+          "finding": "Introduced one-year bank loans against eligible government/agency securities valued at par, during SVB and Signature failures.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Policy target rose to 5.25-5.50%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Coming months",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "gold-fed-liquidity-catalyst",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Coming months",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "094-C29"
+    },
+    {
+      "claim": "Recession gold preference",
+      "source_blocks": [
+        173,
+        175
+      ],
+      "kind": "forecast",
+      "family": "recession-gold-equity-relative",
+      "verdict": "conditional_pending",
+      "reason": "No 2022-2023 US recession was dated, so the specified recession/easing scenario did not occur. Gold strength later cannot by itself confirm that conditional recession trade.",
+      "evidence": [
+        {
+          "url": "https://www.nber.org/research/business-cycle-dating",
+          "title": "Business Cycle Dating",
+          "publisher": "NBER",
+          "date": null,
+          "verified": true,
+          "finding": "Official chronology identifies April 2020 as the pandemic recession trough; no 2022 recession is dated.",
+          "verification_method": "retrieved official chronology search extract; direct page denied"
+        }
+      ],
+      "horizon": null,
+      "conditions": "US recession and Fed easing",
+      "next_check": "Evaluate a dated recession episode using gold versus equity total returns over an authored or predeclared window.",
+      "asset_or_variable": "recession-gold-equity-relative",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "094-C30"
+    },
+    {
+      "claim": "Royalty cost insulation",
+      "source_blocks": [
+        176
+      ],
+      "kind": "explanation",
+      "family": "royalty-versus-miner-cost-risk",
+      "verdict": "mixed",
+      "reason": "Sandstorm contracts fix or index the purchase price rather than paying every mine operating expense, supporting the direct-cost argument. Mine failures, suspended streams, financing and valuation still affect returns; better risk-adjusted performance is not automatic.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1434614/000162828025006098/sand-20241231_d2.htm",
+          "title": "2024 annual report",
+          "publisher": "Sandstorm / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Operating cash flow fell from USD 152.8m in 2023 to 135.4m in 2024; Greenstone stream acquired with Nomad began deliveries in 2024; Hod Maden production was projected for 2028; streaming contract payment terms limit direct operating-cost exposure.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "royalty-versus-miner-cost-risk",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C31"
+    },
+    {
+      "claim": "Sandstorm offers attractive value",
+      "source_blocks": [
+        179,
+        180,
+        181
+      ],
+      "kind": "investment_thesis",
+      "family": "sandstorm-value",
+      "verdict": "not_testable",
+      "reason": "No terminal price, valuation convergence date or benchmark is supplied. Higher gold prices or company-level growth alone cannot score an undated valuation opinion.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Record purchase assumptions and compare per-share owner earnings and realized risk against gold and royalty peers.",
+      "asset_or_variable": "SAND",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C32"
+    },
+    {
+      "claim": "Acquisition/dilution tradeoff",
+      "source_blocks": [
+        182,
+        183
+      ],
+      "kind": "investment_thesis",
+      "family": "sandstorm-acquisition-accretion",
+      "verdict": "mixed",
+      "reason": "Greenstone began deliveries in 2024, demonstrating acquired production. Cash flow nevertheless fell from 152.8m to 135.4m between 2023 and 2024, while major future assets remained delayed. Aggregate growth or gold appreciation is not proof of per-share, acquisition-specific accretion.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1434614/000162828025006098/sand-20241231_d2.htm",
+          "title": "2024 annual report",
+          "publisher": "Sandstorm / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Operating cash flow fell from USD 152.8m in 2023 to 135.4m in 2024; Greenstone stream acquired with Nomad began deliveries in 2024; Hod Maden production was projected for 2028; streaming contract payment terms limit direct operating-cost exposure.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Build acquisition-adjusted per-share NAV/cash-flow bridges, including debt, dilution and revised project schedules.",
+      "asset_or_variable": "sandstorm-acquisition-accretion",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C33"
+    },
+    {
+      "claim": "Gold miners may be bottoming",
+      "source_blocks": [
+        185,
+        187
+      ],
+      "kind": "forecast",
+      "family": "gold-miner-bottom-watch",
+      "verdict": "not_testable",
+      "reason": "The author explicitly requires confirmation. A possible setup without a failure threshold is a watch condition, not an unconditional floor forecast.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Preserve the stated confirmation requirement; do not score later gains as proof of a forecasted floor.",
+      "asset_or_variable": "gold-miner-bottom-watch",
+      "modality": "possible",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "094-C34"
+    },
+    {
+      "claim": "Miner rally amplification",
+      "source_blocks": [
+        190
+      ],
+      "kind": "forecast",
+      "family": "gold-miner-operating-leverage",
+      "verdict": "mixed",
+      "reason": "In a disclosed three-year sensitivity, GDX returned 222.00% versus GLD 123.94%. That supports positive operating/equity leverage in this interval, but the author supplied no fixed endpoint and miners retain cost, jurisdiction and dilution risk.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GDX/history/",
+          "title": "GDX historical daily market data",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Oct 3, 2022-Oct 2, 2025 USD adjusted-close return +221.997% versus GLD +123.941%; evaluator-selected three years, not an authored endpoint.",
+          "verification_method": "computed from coordinator-downloaded research/evidence/market CSV; adjusted-close total-return proxy or split-adjusted close as explicitly stated; no fees or taxes"
+        }
+      ],
+      "horizon": null,
+      "conditions": "A new gold bull market",
+      "next_check": "Compare multiple rising-gold episodes and costs; retain this as conditional mechanism evidence, not a precise timed win.",
+      "asset_or_variable": "gold-miner-operating-leverage",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "094-C35"
+    },
+    {
+      "claim": "Gold deserves broad preference",
+      "source_blocks": [
+        191
+      ],
+      "kind": "investment_thesis",
+      "family": "gold-broad-allocation-preference",
+      "verdict": "not_testable",
+      "reason": "GLD beat SPY in the evaluator-selected three years, but no defined competing asset universe or holding period was stated. This favorable sensitivity is useful without manufacturing an authored return target.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD historical daily market data",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "USD adjusted closes: Jan 3-Sep 30, 2022 GLD -8.115%, SPY -24.365%, TLT -28.028%, SHY -4.423%; Oct 3, 2022-Jan 31, 2023 GLD +13.242%; through Oct 2, 2025 +123.941%, SPY +90.208%. Evaluator windows, not actual executions.",
+          "verification_method": "computed from coordinator-downloaded research/evidence/market CSV; adjusted-close total-return proxy or split-adjusted close as explicitly stated; no fees or taxes"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify allocation universe, rebalance rule, currency and duration for a testable portfolio claim.",
+      "asset_or_variable": "gold-broad-allocation-preference",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C36"
+    },
+    {
+      "claim": "Defensive relative resilience",
+      "source_blocks": [
+        195,
+        196
+      ],
+      "kind": "empirical",
+      "family": "2022-defensive-barbell-results",
+      "verdict": "right",
+      "reason": "AMLP gained 15.02% while XLV, SHY and GLD lost less than SPY and TLT through September 30. This supports relative resilience of these named categories; it is not a reconstructed portfolio return or evidence every Latin American security worked.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/AMLP/history/",
+          "title": "AMLP historical daily market data",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Jan 3-Sep 30, 2022 USD adjusted returns: AMLP +15.024%, XLV -12.158%, SHY -4.423%, GLD -8.115%, versus SPY -24.365% and TLT -28.028%.",
+          "verification_method": "computed from coordinator-downloaded research/evidence/market CSV; adjusted-close total-return proxy or split-adjusted close as explicitly stated; no fees or taxes"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2022-defensive-barbell-results",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C37"
+    },
+    {
+      "claim": "Liquidity/stock concentration",
+      "source_blocks": [
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        208
+      ],
+      "kind": "explanation",
+      "family": "liquidity-equity-transmission",
+      "verdict": "mixed",
+      "reason": "Fiscal and monetary changes can affect discount rates and profits, but a ratio chart or selected QE episodes is not causal identification. Stocks later rose during QT; fiscal deficits, earnings and expectations must be included rather than labeling balance-sheet expansion necessary.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2024-ar-monetary-policy.htm",
+          "title": "2024 Annual Report: Monetary Policy",
+          "publisher": "Federal Reserve",
+          "date": null,
+          "verified": true,
+          "finding": "Policy rates exceeded PCE inflation during sustained restriction.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy1829",
+          "title": "FY2023 budget results",
+          "publisher": "US Treasury",
+          "date": "2023-10-20",
+          "verified": true,
+          "finding": "Receipts were $4,439.3b, down from $4,896.1b in FY2022; deficit $1.7tn.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "liquidity-equity-transmission",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C38"
+    },
+    {
+      "claim": "Tax-cut buybacks",
+      "source_blocks": [
+        205,
+        206,
+        207
+      ],
+      "kind": "explanation",
+      "family": "tcja-buybacks-versus-investment",
+      "verdict": "mixed",
+      "reason": "Fed research supports a repatriation/buyback association. Later primary research estimates tangible corporate investment increased about 11%, so the stronger no-real-economy-benefit interpretation is not supported. Repatriation alone and the full tax reform are distinct treatments.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/econres/notes/feds-notes/us-corporations-repatriation-of-offshore-profits-20190806.html",
+          "title": "Repatriation evidence",
+          "publisher": "Federal Reserve",
+          "date": "2019-08-06",
+          "verified": true,
+          "finding": "Repatriated profits were associated with increased repurchases; investment effects were less clear and could take longer.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://pubs.aeaweb.org/doi/10.1257/jep.38.3.61",
+          "title": "Lessons from the biggest business tax cut",
+          "publisher": "Chodorow-Reich et al. / Journal of Economic Perspectives",
+          "date": null,
+          "verified": true,
+          "finding": "2024 research review estimates aggregate tangible corporate investment increased about 11%; long-run GDP gain less than 1%.",
+          "verification_method": "indexed primary research abstract; full text fetch denied"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "tcja-buybacks-versus-investment",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C39"
+    },
+    {
+      "claim": "QT risk pressure",
+      "source_blocks": [
+        211,
+        214,
+        215
+      ],
+      "kind": "explanation",
+      "family": "qt-equity-headwind",
+      "verdict": "mixed",
+      "reason": "QT can be a headwind, but it is not a sufficient equity direction model. The Fed continued balance-sheet reduction through substantial 2023-2024 equity gains, with fiscal and earnings offsets. The report candidly admits a worse-than-expected 2022 path.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2024-ar-monetary-policy.htm",
+          "title": "2024 Annual Report: Monetary Policy",
+          "publisher": "Federal Reserve",
+          "date": null,
+          "verified": true,
+          "finding": "Policy rates exceeded PCE inflation during sustained restriction.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://home.treasury.gov/news/press-releases/jy1829",
+          "title": "FY2023 budget results",
+          "publisher": "US Treasury",
+          "date": "2023-10-20",
+          "verified": true,
+          "finding": "Receipts were $4,439.3b, down from $4,896.1b in FY2022; deficit $1.7tn.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "qt-equity-headwind",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C40"
+    },
+    {
+      "claim": "Rally prolongs tightening",
+      "source_blocks": [
+        215
+      ],
+      "kind": "forecast",
+      "family": "financial-conditions-fed-feedback",
+      "verdict": "not_testable",
+      "reason": "This is a contingent policy reaction function without thresholds for easing financial conditions or how much additional tightening follows. It can explain either outcome after the fact unless specified in advance.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": "Risk assets rally sufficiently",
+      "next_check": "Specify the financial-conditions index, change threshold and expected policy response.",
+      "asset_or_variable": "financial-conditions-fed-feedback",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "094-C41"
+    },
+    {
+      "claim": "1940s analogy",
+      "source_blocks": [
+        219,
+        220,
+        221,
+        222,
+        223
+      ],
+      "kind": "explanation",
+      "family": "1940s-fiscal-dominance-analogy",
+      "verdict": "not_testable",
+      "reason": "Historical resemblance generates hypotheses but is not itself a forecast. Differences in maturity, regulation, household assets, global production and currency arrangements require explicit transmission tests.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Translate the analogy into dated measurable debt, inflation and policy predictions.",
+      "asset_or_variable": "1940s-fiscal-dominance-analogy",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C42"
+    },
+    {
+      "claim": "Real-asset/country selection",
+      "source_blocks": [
+        224,
+        225
+      ],
+      "kind": "investment_thesis",
+      "family": "real-assets-emerging-market-barbell",
+      "verdict": "not_testable",
+      "reason": "The list is a conditional accumulation/watchlist, including builders and gas producers, rather than a dated executable recommendation for every security. No common valuation hurdle or sell rule permits a unified win/loss judgment.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Score separately when a named security receives an explicit thesis, horizon or target.",
+      "asset_or_variable": "real-assets-emerging-market-barbell",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "094-C43"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Yield curves",
+      "source_blocks": [
+        27,
+        28
+      ],
+      "use": "Context",
+      "image_inspected": false
+    },
+    {
+      "name": "PMI/GDPNow",
+      "source_blocks": [
+        81,
+        87
+      ],
+      "use": "Context",
+      "image_inspected": false
+    },
+    {
+      "name": "Gold ratios",
+      "source_blocks": [
+        159,
+        169,
+        187
+      ],
+      "use": "Context",
+      "image_inspected": false
+    },
+    {
+      "name": "COMEX deliveries",
+      "source_blocks": [
+        161,
+        162
+      ],
+      "use": "Context",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Separate crisis lending from monetary stance."
+  ],
+  "assessment": "The strongest elements are the LDI mechanics, early identification of adjacent-market stress, and concrete Lightning development. A broad claim that indebted central banks could not stop purchases is contradicted by ECB runoff and the BoE emergency-portfolio unwind. Bitcoin met its three-year direction; gold/miner sensitivities were strong but most gold preferences lacked fixed horizons. The article acknowledges an earlier gold timing miss. Physical-delivery and UK crypto-flow assertions still require the original datasets; investment and board roles in Bitcoin businesses are disclosed and should remain visible.",
+  "verification_limitations": [
+    "Captured website text is not an authenticated publication-date version.",
+    "Chart-only numerical claims have not been visually verified.",
+    "Selected stock/ETF adjusted-close comparisons are disclosed where used; no reconstructed portfolio backtest has been performed.",
+    "Unresolved verdicts are not forecast failures or successes; no aggregate hit rate is inferred."
+  ]
+}

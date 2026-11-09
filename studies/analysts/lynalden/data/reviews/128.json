@@ -1,0 +1,1182 @@
+{
+  "article_id": "128",
+  "title": "Enterprise Products Partners Deep Dive Analysis",
+  "date": "2024-01-20",
+  "source_url": "https://www.lynalden.com/premium-2024-1-21/",
+  "read_complete": true,
+  "summary": "Enterprise income and Bitcoin wrappers.",
+  "coverage_note": "All numbered source blocks and chart labels read. All material macro, digital-asset and investment theses are reviewed. Routine holdings lists, incidental statistics and boilerplate are excluded. Chart pixels were not inspected.",
+  "claims": [
+    {
+      "id": "128-C01",
+      "claim": "RRP offsets QT",
+      "kind": "explanation",
+      "source_blocks": [
+        9
+      ],
+      "family": "liquidity-risk-assets",
+      "asset_or_variable": "Domestic liquidity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "RRP runoff offset part of Fed asset reduction, but Treasury balances also matter. The proxy is a balance-sheet rearrangement, not a direct measure of credit available to every investor.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "WALCL: downloaded observations",
+          "publisher": "Federal Reserve Bank of St. Louis / originating statistical agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Fed assets fell from $7.674 trillion January 17 to $7.406 trillion April 17, 2024. Latest vintage downloaded November 7, 2026; observation dates are not historical release dates."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/RRPONTSYD",
+          "title": "RRPONTSYD: downloaded observations",
+          "publisher": "Federal Reserve Bank of St. Louis / originating statistical agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "RRP fell from $625.182 billion January 19 to $397.234 billion April 19, 2024. Latest vintage downloaded November 7, 2026; observation dates are not historical release dates."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C02",
+      "claim": "April RRP exhaustion conditional",
+      "kind": "forecast",
+      "source_blocks": [
+        11
+      ],
+      "family": "rrp-runoff-exhaustion",
+      "asset_or_variable": "Reverse repos",
+      "horizon": "Mid-April 2024",
+      "conditions": "Roughly $200 billion monthly drain continues",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "The projection explicitly assumes the preceding drain rate continues. It did not: $397.234 billion remained April 19. The conditional antecedent failed, so the article should not be scored as an unconditional April-zero miss.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "Author horizon: Mid-April 2024.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/RRPONTSYD",
+          "title": "RRPONTSYD: downloaded observations",
+          "publisher": "Federal Reserve Bank of St. Louis / originating statistical agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "RRP balance remained $397.234 billion April 19, 2024. Latest vintage downloaded November 7, 2026; observation dates are not historical release dates."
+        }
+      ],
+      "next_check": "No further wait needed; retain as a failed-to-trigger conditional scenario."
+    },
+    {
+      "id": "128-C03",
+      "claim": "QT slowing anticipated",
+      "kind": "forecast",
+      "source_blocks": [
+        11
+      ],
+      "family": "qt-taper-before-rrp-exhaustion",
+      "asset_or_variable": "Federal Reserve",
+      "horizon": null,
+      "conditions": null,
+      "modality": "possible",
+      "verdict": "right",
+      "reason": "The anticipated policy adjustment occurred before the facility was exhausted. This repeats an already-publicly-discussed direction and should not count as another independent forecast win.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.newyorkfed.org/markets/opolicy/operating_policy_240501",
+          "title": "Treasury runoff implementation",
+          "publisher": "Federal Reserve Bank of New York",
+          "date": "2024-05-01",
+          "verified": true,
+          "finding": "The Treasury runoff cap fell from $60 billion to $25 billion per month starting June 1, 2024. Agency debt and MBS cap remained $35 billion."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C04",
+      "claim": "Large-bank cash advantage",
+      "kind": "empirical",
+      "source_blocks": [
+        13,
+        15
+      ],
+      "family": "bank-cash-distribution",
+      "asset_or_variable": "Bank cash",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The exact large/small bank six-month cash-ratio comparison needs the same H.8 classifications and denominator. Later capital data do not verify this earlier cash distribution.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "This is a factual observation, not independent evidence for a causal theory.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reconstruct dated H.8 large and small domestically chartered bank cash-to-assets ratios."
+    },
+    {
+      "id": "128-C05",
+      "claim": "Dollar translation lowers aggregate",
+      "kind": "explanation",
+      "source_blocks": [
+        17,
+        19
+      ],
+      "family": "usd-global-liquidity-translation",
+      "asset_or_variable": "Global money",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Holding local-currency money constant, dollar appreciation reduces its dollar-converted amount. This is a translation identity; it does not demonstrate contraction in local purchasing power or all cross-border credit.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "The bounded deduction is valid only under the explicit assumptions in the proof.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Local money M is fixed; dollars per local currency unit e fall."
+        ],
+        "derivation": "Dollar-valued money is M times e, so it falls with e."
+      }
+    },
+    {
+      "id": "128-C06",
+      "claim": "Liquidity broadly flat",
+      "kind": "forecast",
+      "source_blocks": [
+        21
+      ],
+      "family": "liquidity-flat-2024",
+      "asset_or_variable": "Domestic and global liquidity",
+      "horizon": "Next one or two quarters",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "A disclosed domestic approximation, Fed assets minus weekly-average TGA minus daily RRP, was $6299.7 billion January 19, $6211.7 billion April 19 and $6076.9 billion July 19. That is roughly flat to modestly down, not a large expansion. The eight-bloc global part remains unverified; mixed frequencies are a limitation.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "Author horizon: Next one or two quarters.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "WALCL: downloaded observations",
+          "publisher": "Federal Reserve Bank of St. Louis / originating statistical agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Components are downloaded Fed assets, WTREGEN Treasury General Account and daily RRPONTSYD, with million/billion unit conversion. Latest vintage downloaded November 7, 2026; observation dates are not historical release dates."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/WTREGEN",
+          "title": "WTREGEN: downloaded observations",
+          "publisher": "Federal Reserve Bank of St. Louis / originating statistical agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "WTREGEN is a weekly-average liability measure, not an exact daily TGA close. Latest vintage downloaded November 7, 2026; observation dates are not historical release dates."
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/RRPONTSYD",
+          "title": "RRPONTSYD: downloaded observations",
+          "publisher": "Federal Reserve Bank of St. Louis / originating statistical agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Daily RRP balances are combined with the most recent weekly observations. Latest vintage downloaded November 7, 2026; observation dates are not historical release dates."
+        }
+      ],
+      "next_check": "Reconstruct the exact global aggregate and publication chart convention."
+    },
+    {
+      "id": "128-C07",
+      "claim": "Recession signals diverge",
+      "kind": "empirical",
+      "source_blocks": [
+        23,
+        24,
+        26
+      ],
+      "family": "cycle-indicator-false-signals",
+      "asset_or_variable": "US recession indicators",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Subsequent GDP confirms that conventional recession concerns did not imply immediate broad contraction. The claims of longest stretches since 1960 require older vintages and a precise manufacturing-index definition; downloaded data starting in 2019 cannot verify those superlatives.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "This is a factual observation, not independent evidence for a causal theory.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/A191RL1Q225SBEA",
+          "title": "A191RL1Q225SBEA: downloaded observations",
+          "publisher": "Federal Reserve Bank of St. Louis / originating statistical agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "All four 2024 quarterly growth rates were positive. Latest vintage downloaded November 7, 2026; observation dates are not historical release dates."
+        }
+      ],
+      "next_check": "Check historical survey and yield-curve runs against a consistent recession chronology."
+    },
+    {
+      "id": "128-C08",
+      "claim": "Deficit unprecedented at recession entry",
+      "kind": "empirical",
+      "source_blocks": [
+        28
+      ],
+      "family": "deficit-recession-entry-history",
+      "asset_or_variable": "US fiscal deficit",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The historical superlative depends on annual versus quarterly deficit/GDP and the exact recession-entry date. No recession had yet begun, so this is also a hypothetical comparison rather than an observed new record.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "This is a factual observation, not independent evidence for a causal theory.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compute the same deficit/GDP measure at all post-1960 recession starts."
+    },
+    {
+      "id": "128-C09",
+      "claim": "Fed losses reduce remittances",
+      "kind": "explanation",
+      "source_blocks": [
+        30
+      ],
+      "family": "fed-losses-remittances",
+      "asset_or_variable": "Fiscal receipts",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Audited 2023 Reserve Bank losses support the mechanism. Forgone remittances worsen Treasury financing relative to receiving profits; the loss is not a cash capital call on Treasury. The historical first-since-1960 superlative is not separately counted.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20240326a.htm",
+          "title": "2023 audited financial statements",
+          "publisher": "Federal Reserve",
+          "date": "2024-03-26",
+          "verified": true,
+          "finding": "Reserve Bank expenses exceeded earnings by $114.3 billion in 2023. Losses are deferred against future net earnings rather than causing immediate Treasury recapitalization; remittances are forgone."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C10",
+      "claim": "Fiscal wins policy conflict",
+      "kind": "explanation",
+      "source_blocks": [
+        32,
+        33
+      ],
+      "family": "fiscal-dominance-policy",
+      "asset_or_variable": "Macro regime",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Almost always lacks a defined set of historical conflicts and an outcome criterion. Positive nominal activity with deficits does not establish the direction under different taxation, savings or inflation expectations.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "128-C11",
+      "claim": "Recession less disinflationary",
+      "kind": "forecast",
+      "source_blocks": [
+        34
+      ],
+      "family": "fiscal-recession-buffer",
+      "asset_or_variable": "US recession",
+      "horizon": null,
+      "conditions": "A recession occurs under this fiscal regime",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "The hypothesis concerns the nature of a future recession. A non-recession period cannot establish its unemployment or inflation severity.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Identify an actual contraction and compare employment and inflation against a prespecified benchmark."
+    },
+    {
+      "id": "128-C12",
+      "claim": "Nominal assets resist collapse",
+      "kind": "explanation",
+      "source_blocks": [
+        35,
+        36,
+        37,
+        38
+      ],
+      "family": "fiscal-nominal-asset-support",
+      "asset_or_variable": "Assets and currency",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Rising US M2 and asset prices are consistent with the story, but do not prove a fiscal currency bubble or make a 2008-style event impossible. No quantified nominal or real valuation threshold defines the proposed slow-motion process.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/M2SL",
+          "title": "M2SL: downloaded observations",
+          "publisher": "Federal Reserve Bank of St. Louis / originating statistical agency",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "US M2 increased from $20.809 trillion January 2024 to $22.329 trillion December 2025. Latest vintage downloaded November 7, 2026; observation dates are not historical release dates."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C13",
+      "claim": "Dollar debt sustains demand",
+      "kind": "explanation",
+      "source_blocks": [
+        39
+      ],
+      "family": "dollar-debt-network-demand",
+      "asset_or_variable": "Dollar funding",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Debt service creates contractual dollar needs, but debt amortization can also extinguish deposits and reduce gross balance sheets. The net effect on inflation depends on funding, refinancing and money demand, not debt denomination alone.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "128-C14",
+      "claim": "Fixed costs aid inflation hedges",
+      "kind": "explanation",
+      "source_blocks": [
+        40
+      ],
+      "family": "fixed-debt-operating-leverage",
+      "asset_or_variable": "Equities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "When revenues reprice upward while costs truly remain fixed, operating cash flow rises. The caveat is substantive: labor, maintenance, tax and refinancing often reprice, so a company must be tested rather than assigned a blanket inflation hedge.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "The bounded deduction is valid only under the explicit assumptions in the proof.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Revenue rises; relevant nominal operating and debt-service costs remain fixed."
+        ],
+        "derivation": "Revenue minus fixed costs increases; relaxing fixed-cost assumptions can reverse the result."
+      }
+    },
+    {
+      "id": "128-C15",
+      "claim": "Fiserv fits inflation thesis",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        41
+      ],
+      "family": "fisv-valuation",
+      "asset_or_variable": "FISV",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Later adverse outcomes are counterevidence to treating fixed-rate debt as sufficient protection. Business execution and pricing power matter independently of financing. Evaluator-defined sensitivity: 2024-01-22 to 2026-01-20: FISV adjusted-close proxy -54.11%, SPY +43.62%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/FISV/history/",
+          "title": "FISV historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2024-01-22 to 2026-01-20: FISV adjusted-close proxy -54.11%, SPY +43.62%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C16",
+      "claim": "Diversifiers protect debasement",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        43
+      ],
+      "family": "hard-money-diversification",
+      "asset_or_variable": "Gold Bitcoin commodities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No portfolio weights, inflation benchmark or endpoint define protection. The assets can move together during liquidation and differ greatly in volatility and income.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "128-C17",
+      "claim": "Foreign weakness dampens commodities",
+      "kind": "explanation",
+      "source_blocks": [
+        45,
+        46,
+        47
+      ],
+      "family": "china-europe-commodity-demand",
+      "asset_or_variable": "Global commodities",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Weaker demand can offset US fiscal stimulus, but copper/gold also responds to mine supply, official gold purchases and real rates. No quantified cross-country contribution is identified.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "128-C18",
+      "claim": "Eleven spot ETFs launched",
+      "kind": "empirical",
+      "source_blocks": [
+        59
+      ],
+      "family": "bitcoin-etf-launch-count",
+      "asset_or_variable": "Bitcoin ETFs",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "Eleven listings were approved, but Hashdex remained a futures fund until March 27. The January 11 claim conflates approval with launch of the spot strategy.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "This is a factual observation, not independent evidence for a causal theory.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.hashdex-etfs.com/defi",
+          "title": "DEFI fund history",
+          "publisher": "Hashdex",
+          "date": null,
+          "verified": true,
+          "finding": "DEFI continued its futures strategy through March 26, 2024 and switched to spot holdings on March 27. SEC approval of eleven listings did not mean eleven spot funds began trading on January 11."
+        },
+        {
+          "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
+          "title": "Spot Bitcoin ETP approval statement",
+          "publisher": "SEC",
+          "date": "2024-01-10",
+          "verified": true,
+          "finding": "SEC approved spot Bitcoin ETP listings January 10, 2024 following the Grayscale judicial decision. Approval was not an endorsement of Bitcoin or a guarantee of investment returns."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C19",
+      "claim": "ETFs broaden access",
+      "kind": "explanation",
+      "source_blocks": [
+        60,
+        61,
+        63
+      ],
+      "family": "bitcoin-etf-access",
+      "asset_or_variable": "Bitcoin access",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Approved listed vehicles reduced friction for some institutional accounts. Approval did not force all platforms to offer them or eliminate custody, premium/discount and fee risks. The source itself acknowledges excluded clients.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
+          "title": "Spot Bitcoin ETP approval statement",
+          "publisher": "SEC",
+          "date": "2024-01-10",
+          "verified": true,
+          "finding": "SEC approved spot Bitcoin ETP listings January 10, 2024 following the Grayscale judicial decision. Approval was not an endorsement of Bitcoin or a guarantee of investment returns."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C20",
+      "claim": "Flows exceed new issuance",
+      "kind": "explanation",
+      "source_blocks": [
+        62
+      ],
+      "family": "bitcoin-halving-flow-balance",
+      "asset_or_variable": "Bitcoin supply",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "At the stated prices the arithmetic is correct: 900 coins at $40,000 are $36 million; 450 are $18 million. $50 million of net purchases exceeds that new issuance. Existing-holder sales still determine the much larger available supply, so this is not a sufficient price model.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "The bounded deduction is valid only under the explicit assumptions in the proof.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Approximately 144 blocks daily; subsidy falls from 6.25 to 3.125 BTC; price is $40,000."
+        ],
+        "derivation": "144 times 6.25 = 900; 144 times 3.125 = 450. Dollar issuance is $36 million or $18 million; both are below $50 million."
+      }
+    },
+    {
+      "id": "128-C21",
+      "claim": "Prices pull ETF flows",
+      "kind": "explanation",
+      "source_blocks": [
+        64
+      ],
+      "family": "bitcoin-etf-reflexivity",
+      "asset_or_variable": "Bitcoin flows",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The direction of causation requires intraday flow timing and controls for shared news. A simultaneous rise in price and subscriptions is compatible with both channels and cannot establish which dominates.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Use creation/redemption timing, investor reallocations and exogenous access changes to test lead-lag effects."
+    },
+    {
+      "id": "128-C22",
+      "claim": "Custodian split reduces concentration",
+      "kind": "explanation",
+      "source_blocks": [
+        68
+      ],
+      "family": "bitcoin-custody-diversification",
+      "asset_or_variable": "ETF custody",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Different custody entities can reduce exposure to one operational failure. They do not diversify Bitcoin market risk, correlated cyber dependencies or legal access restrictions; actual segregation and insurance terms need review.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023",
+          "title": "Spot Bitcoin ETP approval statement",
+          "publisher": "SEC",
+          "date": "2024-01-10",
+          "verified": true,
+          "finding": "SEC approved spot Bitcoin ETP listings January 10, 2024 following the Grayscale judicial decision. Approval was not an endorsement of Bitcoin or a guarantee of investment returns."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C23",
+      "claim": "ETF liquidity comillion pounds",
+      "kind": "explanation",
+      "source_blocks": [
+        69,
+        70,
+        73,
+        74,
+        76,
+        78
+      ],
+      "family": "etf-liquidity-network-effects",
+      "asset_or_variable": "ETF competition",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Trading liquidity can reinforce adoption, but it is not a guarantee of permanent leadership. AUM, share turnover, spreads and options depth measure different things; none should substitute for the others.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "128-C24",
+      "claim": "EEM fee attribution overstated",
+      "kind": "explanation",
+      "source_blocks": [
+        71
+      ],
+      "family": "etf-fees-index-composition",
+      "asset_or_variable": "EEM versus IEMG",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The funds track different market-cap coverage, so their performance difference cannot be attributed mainly to fees without a common-index decomposition. Lower fees are certain mechanically; the asserted historical causal share is not.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Separate fee drag from small-cap exposure, index membership, tracking and securities lending over the same period."
+    },
+    {
+      "id": "128-C25",
+      "claim": "GBTC expensive assets rotate",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        79,
+        82,
+        107
+      ],
+      "family": "gbtc-fee-rotation",
+      "asset_or_variable": "GBTC and alternatives",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "A fee advantage supports switching only after accounting for tax, spread and access. AUM decline alone would confound outflows with price and the July 2024 mini-trust distribution. The direction is plausible, but no portfolio-return claim is reconstructed.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.irs.gov/pub/irs-drop/n-14-21.pdf",
+          "title": "Notice 2014-21",
+          "publisher": "IRS",
+          "date": "2014-03-25",
+          "verified": true,
+          "finding": "Convertible virtual currency is property; payments for goods or services can have tax consequences. Price stability may reduce gains but does not automatically exempt dispositions.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C26",
+      "claim": "Preferred ETFs retain liquidity",
+      "kind": "forecast",
+      "source_blocks": [
+        80,
+        81
+      ],
+      "family": "bitcoin-etf-liquidity-winners",
+      "asset_or_variable": "FBTC IBIT ARKB",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "The relative selection is testable with subsequent spreads, trading depth and closures, but these series were not downloaded. Bitcoin appreciation is not evidence of superior wrapper liquidity.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare dollar spreads, market depth and options liquidity across funds on consistent dates."
+    },
+    {
+      "id": "128-C27",
+      "claim": "Recurring versus upfront fees",
+      "kind": "explanation",
+      "source_blocks": [
+        85
+      ],
+      "family": "bitcoin-fee-breakeven",
+      "asset_or_variable": "ETF versus direct custody",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "With constant prices and stated fees, four years of 0.25% annual drag roughly equals a 0.99% purchase charge. Exact compounding shifts the crossing slightly. The comparison excludes custody equipment, withdrawals, trading spreads, fee waivers and sale costs.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "The bounded deduction is valid only under the explicit assumptions in the proof.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Constant gross price; annual fee 0.25%; upfront fee 0.99%; no other costs."
+        ],
+        "derivation": "1 - (1 - 0.0025)^4 = 0.9963%, slightly above 0.99%; the approximate four-year break-even is valid."
+      }
+    },
+    {
+      "id": "128-C28",
+      "claim": "Wrapper exit can trigger tax",
+      "kind": "explanation",
+      "source_blocks": [
+        82,
+        84,
+        86,
+        87
+      ],
+      "family": "bitcoin-wrapper-tax",
+      "asset_or_variable": "Taxable ETF holdings",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Selling appreciated shares can realize gains in a taxable account; subsequent purchase of Bitcoin does not erase the sale. Retirement-account treatment differs, as the source notes. This is a structure tradeoff rather than a universal recommendation.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://www.irs.gov/taxtopics/tc409",
+          "title": "Capital gains and losses",
+          "publisher": "IRS",
+          "date": null,
+          "verified": true,
+          "finding": "Selling investment stocks or bonds realizes the difference between proceeds and adjusted basis; repurchasing a different asset does not itself cancel that gain."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C29",
+      "claim": "EPD attractive income",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        109,
+        113,
+        125,
+        127
+      ],
+      "family": "epd-valuation",
+      "asset_or_variable": "EPD",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The chosen two-year outcome is strong but slightly below SPY. This tests a defined sensitivity rather than promising that the units always outperform growth assets. Evaluator-defined sensitivity: 2024-01-22 to 2026-01-20: EPD adjusted-close proxy +39.57%, SPY +43.62%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EPD/history/",
+          "title": "EPD historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2024-01-22 to 2026-01-20: EPD adjusted-close proxy +39.57%, SPY +43.62%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C30",
+      "claim": "EPD payout growth supports case",
+      "kind": "empirical",
+      "source_blocks": [
+        113
+      ],
+      "family": "epd-distribution-growth",
+      "asset_or_variable": "EPD distributions",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Issuer records confirm continued distribution growth: 2024 was the 26th consecutive year and 2025 the 27th. This supports the income premise without proving price appreciation or every credit-rating comparison.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "This is a factual observation, not independent evidence for a causal theory.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.enterpriseproducts.com/news-releases/news-release-details/enterprise-reports-results-fourth-quarter-2024",
+          "title": "Enterprise 2024 results",
+          "publisher": "Enterprise Products Partners",
+          "date": "2025-02-04",
+          "verified": true,
+          "finding": "Declared 2024 distributions rose 5% to $2.10 per unit, the 26 th consecutive annual increase."
+        },
+        {
+          "url": "https://ir.enterpriseproducts.com/news-releases/news-release-details/enterprise-reports-fourth-quarter-2025-earnings",
+          "title": "2025 results",
+          "publisher": "Enterprise Products Partners",
+          "date": "2026-02-03",
+          "verified": true,
+          "finding": "2025 operational DCF 7.9 bn covered distributions 1.7 times; distribution 2.175 grew 3.6%,27 th annual increase. Growth capital 4.4 bn; buybacks 300 m; total pipeline volumes 13.7 m BPD-equivalent versus 13.0 in 2024."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C31",
+      "claim": "EPD return scenario conditional",
+      "kind": "explanation",
+      "source_blocks": [
+        113
+      ],
+      "family": "epd-yield-growth-scenario",
+      "asset_or_variable": "EPD returns",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The 10.7% arithmetic is approximate and explicitly assumes 3% per-share growth and constant valuation. Growth did occur, but total returns also reflect reinvestment prices, tax and changing multiples; the scenario is not an unconditional annual promise.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.enterpriseproducts.com/news-releases/news-release-details/enterprise-reports-results-fourth-quarter-2024",
+          "title": "Enterprise 2024 results",
+          "publisher": "Enterprise Products Partners",
+          "date": "2025-02-04",
+          "verified": true,
+          "finding": "Declared 2024 distributions rose 5% to $2.10 per unit, the 26 th consecutive annual increase."
+        },
+        {
+          "url": "https://ir.enterpriseproducts.com/news-releases/news-release-details/enterprise-reports-fourth-quarter-2025-earnings",
+          "title": "2025 results",
+          "publisher": "Enterprise Products Partners",
+          "date": "2026-02-03",
+          "verified": true,
+          "finding": "2025 operational DCF 7.9 bn covered distributions 1.7 times; distribution 2.175 grew 3.6%,27 th annual increase. Growth capital 4.4 bn; buybacks 300 m; total pipeline volumes 13.7 m BPD-equivalent versus 13.0 in 2024."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C32",
+      "claim": "Self-financing improves resilience",
+      "kind": "explanation",
+      "source_blocks": [
+        116,
+        117,
+        118,
+        119,
+        121
+      ],
+      "family": "epd-self-funding",
+      "asset_or_variable": "EPD funding",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Later 1.7x distribution coverage and retained cash support internal funding. They do not prove every new project is self-financed or that issuance is impossible; growth capex and maturities can still require borrowing.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.enterpriseproducts.com/news-releases/news-release-details/enterprise-reports-fourth-quarter-2025-earnings",
+          "title": "2025 results",
+          "publisher": "Enterprise Products Partners",
+          "date": "2026-02-03",
+          "verified": true,
+          "finding": "2025 operational DCF 7.9 bn covered distributions 1.7 times; distribution 2.175 grew 3.6%,27 th annual increase. Growth capital 4.4 bn; buybacks 300 m; total pipeline volumes 13.7 m BPD-equivalent versus 13.0 in 2024."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C33",
+      "claim": "Debt maturity mislabeled duration",
+      "kind": "empirical",
+      "source_blocks": [
+        123
+      ],
+      "family": "epd-duration-maturity",
+      "asset_or_variable": "EPD debt",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The issuer describes roughly nineteen years of average debt life. Calling that duration confuses a maturity measure with cash-flow-weighted price sensitivity. Fixed coupons and delayed refinancing do reduce near-term funding exposure, but do not make the two measures equal.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "This is a factual observation, not independent evidence for a causal theory.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.enterpriseproducts.com/node/43341/pdf",
+          "title": "Third-quarter 2023 results",
+          "publisher": "Enterprise Products Partners",
+          "date": "2023-10-31",
+          "verified": true,
+          "finding": "Management described average debt life of approximately 19 years and only $3.625 billion of term debt maturing during 2024-2026. Weighted remaining maturity is not bond price duration."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C34",
+      "claim": "Project spread favors leverage",
+      "kind": "explanation",
+      "source_blocks": [
+        123
+      ],
+      "family": "epd-project-financing-spread",
+      "asset_or_variable": "EPD capital allocation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A stated 12% project ROI and sub-5% debt cost are not directly comparable without tax, leverage, construction timing and risk definitions. A positive headline spread does not prove each debt issue creates equity value.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "128-C35",
+      "claim": "Yield spread is risk premium",
+      "kind": "explanation",
+      "source_blocks": [
+        125,
+        127
+      ],
+      "family": "distribution-yield-vs-risk-premium",
+      "asset_or_variable": "EPD valuation",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The distribution-minus-Treasury spread is a useful observable, but is not the full expected equity risk premium. Capital gains, payout changes, taxes and tail loss belong in total expected return; the article recognizes some of those risks.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.enterpriseproducts.com/news-releases/news-release-details/enterprise-reports-fourth-quarter-2025-earnings",
+          "title": "2025 results",
+          "publisher": "Enterprise Products Partners",
+          "date": "2026-02-03",
+          "verified": true,
+          "finding": "2025 operational DCF 7.9 bn covered distributions 1.7 times; distribution 2.175 grew 3.6%,27 th annual increase. Growth capital 4.4 bn; buybacks 300 m; total pipeline volumes 13.7 m BPD-equivalent versus 13.0 in 2024."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C36",
+      "claim": "EPD doubles Treasury returns",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        127
+      ],
+      "family": "epd-vs-treasury-return",
+      "asset_or_variable": "EPD versus Treasuries",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The undated comparison cannot be fully settled. A disclosed two-year sensitivity against a 7-10-year Treasury ETF gives: 2024-01-22 to 2026-01-20: EPD adjusted-close proxy +39.57%, IEF +7.97%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade. IEF is an investable duration proxy, not a particular Treasury held to maturity; the result does not establish equal risk.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/EPD/history/",
+          "title": "EPD historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2024-01-22 to 2026-01-20: EPD adjusted-close proxy +39.57%, IEF +7.97%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C37",
+      "claim": "EPD risks constrain valuation",
+      "kind": "explanation",
+      "source_blocks": [
+        136,
+        137,
+        138,
+        139,
+        140
+      ],
+      "family": "epd-export-tax-operating-risk",
+      "asset_or_variable": "EPD",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Export policy, physical damage, production volumes and partnership taxes are genuine risk channels. Their probability and impact are not quantified. A low multiple does not uniquely imply zero growth, and the tax structure is only one possible source of the valuation discount.",
+      "direction_assessment": "The assessment distinguishes the observed result from the proposed explanation.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "128-C38",
+      "claim": "Gold eventual breakout",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        142,
+        144
+      ],
+      "family": "gld-valuation",
+      "asset_or_variable": "GLD",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "The subsequent gold advance supports the direction in a chosen two-year window. With no breakout deadline or required magnitude, it is supporting evidence rather than a precisely timed forecast victory. Evaluator-defined sensitivity: 2024-01-22 to 2026-01-20: GLD adjusted-close proxy +133.54%, SPY +43.62%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.",
+      "direction_assessment": "Direction and evidence are specified in the assessment; valuation is not itself a return forecast.",
+      "timing_assessment": "No fixed author endpoint; any numerical sensitivity is evaluator-defined.",
+      "mechanism_assessment": "Observed co-movement or returns alone do not establish the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/GLD/history/",
+          "title": "GLD historical adjusted prices",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "2024-01-22 to 2026-01-20: GLD adjusted-close proxy +133.54%, SPY +43.62%. First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "128-C39",
+      "claim": "Network fundamentals outrank wrappers",
+      "kind": "explanation",
+      "source_blocks": [
+        51
+      ],
+      "family": "bitcoin-network-fundamentals",
+      "asset_or_variable": "Bitcoin adoption and price",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "Separating the underlying network from an investment wrapper is conceptually useful. The relative importance claim needs specified measures, weights and forecast tests; the linked article is outside this report and no unstated five-variable model is reconstructed.",
+      "direction_assessment": "A prioritization principle, not a numerical outcome.",
+      "timing_assessment": "No defined endpoint.",
+      "mechanism_assessment": "Relative causal weights are not identified.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Define observable network fundamentals and test their predictive contribution against wrapper access and flows."
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Liquidity proxy",
+      "source_blocks": [
+        9,
+        11,
+        17
+      ],
+      "use": "Funding",
+      "image_inspected": false
+    },
+    {
+      "name": "PMI and curve",
+      "source_blocks": [
+        24,
+        26
+      ],
+      "use": "Cycle",
+      "image_inspected": false
+    },
+    {
+      "name": "Copper/gold",
+      "source_blocks": [
+        47
+      ],
+      "use": "Cross-check",
+      "image_inspected": false
+    },
+    {
+      "name": "EPD cash flow",
+      "source_blocks": [
+        119,
+        121,
+        125
+      ],
+      "use": "Coverage",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Compare structure, cash flow and custody before choosing wrappers."
+  ],
+  "assessment": "The income case received support from EPD distribution growth and a strong two-year return, while its Treasury comparison remains dependent on the chosen instrument and horizon. The article is useful on wrapper fees and tax frictions. Its spot-ETF launch count and debt-duration terminology are incorrect. The conditional April RRP depletion scenario did not trigger, and the predicted QT taper occurred with balances still positive. January 20 is the text publication date despite the January 21 URL.",
+  "verification_limitations": [
+    "Retrieved November 7, 2026; the current webpage is not authenticated as the original publication-date wording.",
+    "Chart labels were read but pixels and proprietary indicator vintages were not inspected.",
+    "Adjusted-close evidence is a vendor proxy for reinvested distributions and splits, in USD without fees or taxes. It does not reconstruct actual portfolio trades. Chosen sensitivity windows are not author deadlines. Macro series use latest vintages."
+  ],
+  "evaluation_as_of": "2026-11-07",
+  "source_sha256": "ea28d0faf1c98d7474ef7a028454b7333e846d633112ca4495b7ebaec17ffcfc"
+}

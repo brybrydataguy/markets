@@ -1,0 +1,588 @@
+{
+  "article_id": "132",
+  "title": "Oil Drilling Services and Micro Strategy Deep Dive Analysis",
+  "date": "2024-03-17",
+  "source_url": "https://www.lynalden.com/premium-2024-3-17/",
+  "read_complete": true,
+  "summary": "Oil-service value and bitcoin-proxy premiums.",
+  "coverage_note": "Full text and image inventory read; covered liquidity, wages, bitcoin, Micro Strategy, Valaris, Halliburton and China.",
+  "claims": [
+    {
+      "id": "132-C01",
+      "claim": "Loose conditions coexist with expensive risk.",
+      "kind": "explanation",
+      "source_blocks": [
+        8,
+        12,
+        20
+      ],
+      "family": "financial-conditions-liquidity",
+      "asset_or_variable": "financial-conditions-liquidity",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A conditions index partly includes equity prices, creating circularity when used to explain those same prices. Independent bank and funding components need isolation.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Decompose NFCI and bank reserves before testing predictive power."
+    },
+    {
+      "id": "132-C02",
+      "claim": "Weaker dollar relieves external debt.",
+      "kind": "explanation",
+      "source_blocks": [
+        15,
+        18
+      ],
+      "family": "dollar-em-transmission",
+      "asset_or_variable": "dollar-em-transmission",
+      "horizon": null,
+      "conditions": "Unhedged dollar liabilities",
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "For unchanged local revenues, a fall in the local-currency cost of dollar debt reduces servicing burden mechanically. Actual investment performance also depends on hedges and earnings.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Narrow deductive identity only; no empirical forecasting credit.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null,
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Dollar debt payment D is fixed",
+          "Exchange rate e is local currency per dollar",
+          "No hedge, unchanged local revenue"
+        ],
+        "derivation": "Local debt service equals e*D. A lower e reduces this cost by D times the exchange-rate change."
+      }
+    },
+    {
+      "id": "132-C03",
+      "claim": "Energy inflation favors selective assets.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        20
+      ],
+      "family": "energy-inflation-hedge",
+      "asset_or_variable": "energy-inflation-hedge",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "No test window or portfolio weights specify what counts as successful selection.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "132-C04",
+      "claim": "Money growth leads wage disinflation.",
+      "kind": "explanation",
+      "source_blocks": [
+        24
+      ],
+      "family": "money-wage-lag",
+      "asset_or_variable": "money-wage-lag",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "A lagged chart fit does not identify causation: labor supply, composition and productivity also affect wages.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Test pre-specified lag against out-of-sample wage data."
+    },
+    {
+      "id": "132-C05",
+      "claim": "Bitcoin gains continue over two years.",
+      "kind": "forecast",
+      "source_blocks": [
+        31
+      ],
+      "family": "bitcoin-2023-2025-bull",
+      "asset_or_variable": "bitcoin-2023-2025-bull",
+      "horizon": "Next couple of years, approximately March 2026",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "The two-year endpoint exceeded publication. The much larger intervening rally and later drawdown show why direction should be separated from entry/exit quality.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "Next couple of years, approximately March 2026",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Coinbase Bitcoin USD observations",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Public CSV downloaded November 7: 2024-03-17 $68360.10; 2026-03-17 $73845.35. Endpoint direction only; no strategy return, transaction-cost or timing-optimality claim."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "132-C06",
+      "claim": "Realized-cap cohorts indicate early cycle.",
+      "kind": "explanation",
+      "source_blocks": [
+        33,
+        35
+      ],
+      "family": "bitcoin-onchain-cycle",
+      "asset_or_variable": "bitcoin-onchain-cycle",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Price appreciation alone does not validate this stage classifier; realized cap can change when ownership does not.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Reproduce cohort definitions and test false positives."
+    },
+    {
+      "id": "132-C07",
+      "claim": "Gradual accumulation limits timing dependence.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        37
+      ],
+      "family": "bitcoin-dca",
+      "asset_or_variable": "bitcoin-dca",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "A risk-management preference requires contribution schedule, holding horizon and benchmark before performance scoring.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "132-C08",
+      "claim": "Premium issuance increases bitcoin per share.",
+      "kind": "explanation",
+      "source_blocks": [
+        45,
+        46
+      ],
+      "family": "mstr-accretive-financing",
+      "asset_or_variable": "mstr-accretive-financing",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Company-reported 2024 bitcoin-per-share accretion confirms the financing channel. It does not prove the premium was justified or that shareholders earned the reported BTC Yield.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://www.strategy.com/press/strategy-announces-fourth-quarter-2024-financial-results-and-launches-new-website-strategy-com_02-05-2025",
+          "title": "Strategy 2024 financial results",
+          "publisher": "Strategy",
+          "date": "2025-02-05",
+          "verified": true,
+          "finding": "Reported 2024 BTC Yield of 74.3%, a bitcoin-per-diluted-share measure, confirming financing-related accretion but not shareholder total return."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "132-C09",
+      "claim": "Two-times NAV favors direct bitcoin.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        47,
+        49,
+        51
+      ],
+      "family": "mstr-premium-risk",
+      "asset_or_variable": "mstr-premium-risk",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "This is relative valuation and position sizing, not an outright bearish price forecast. A valid comparison needs debt, dilution, tax and software-business value at both dates.",
+      "direction_assessment": "No objective resolution rule stated.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [],
+      "next_check": null
+    },
+    {
+      "id": "132-C10",
+      "claim": "Short squeezing can inflate premiums.",
+      "kind": "explanation",
+      "source_blocks": [
+        48,
+        50
+      ],
+      "family": "mstr-short-squeeze",
+      "asset_or_variable": "mstr-short-squeeze",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Concurrent price gains and short interest cannot establish forced covering as the dominant cause.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Inspect securities lending, borrow costs and dated short-covering flows."
+    },
+    {
+      "id": "132-C11",
+      "claim": "Rotate proxy gains into oil services.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        55,
+        61,
+        64,
+        66
+      ],
+      "family": "mstr-to-oil-services",
+      "asset_or_variable": "mstr-to-oil-services",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "not_testable",
+      "reason": "The rotation has no exit rule. To the evaluator cutoff, HAL returned -10.43%, VAL +12.23%, and MSTR -14.20% on vendor adjusted closes from March 18 2024. Both selections outperformed MSTR on this window, but HAL lost money and this does not establish a five-year thesis or actual executed rotation.",
+      "direction_assessment": "No exact resolution rule; disclosed sensitivity only.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/HAL/history/",
+          "title": "HAL adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-03-17\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-03-18\",\"exit\":\"2026-11-06\",\"days\":963,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"HAL\":{\"entry_adjusted_close\":35.54579162597656,\"exit_adjusted_close\":31.84000015258789,\"cumulative_return_pct\":-10.425401443811177,\"annualized_return_pct\":-4.08986311123093,\"source\":\"https://finance.yahoo.com/quote/HAL/history/\"},\"MSTR\":{\"entry_adjusted_close\":150.2760009765625,\"exit_adjusted_close\":128.92999267578125,\"cumulative_return_pct\":-14.204535762240866,\"annualized_return_pct\":-5.6451739357676,\"source\":\"https://finance.yahoo.com/quote/MSTR/history/\"}},\"excess_percentage_points\":3.779134318429689}"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/VAL/history/",
+          "title": "VAL adjusted-close sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\":\"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\",\"published\":\"2024-03-17\",\"requested_endpoint\":\"2026-11-07\",\"entry\":\"2024-03-18\",\"exit\":\"2026-11-06\",\"days\":963,\"endpoint_gap_days\":1,\"endpoint_covered\":true,\"instruments\":{\"VAL\":{\"entry_adjusted_close\":71.08000183105469,\"exit_adjusted_close\":79.7699966430664,\"cumulative_return_pct\":12.225653613046305,\"annualized_return_pct\":4.471810941836352,\"source\":\"https://finance.yahoo.com/quote/VAL/history/\"},\"MSTR\":{\"entry_adjusted_close\":150.2760009765625,\"exit_adjusted_close\":128.92999267578125,\"cumulative_return_pct\":-14.204535762240866,\"annualized_return_pct\":-5.6451739357676,\"source\":\"https://finance.yahoo.com/quote/MSTR/history/\"}},\"excess_percentage_points\":26.43018937528717}"
+        }
+      ],
+      "next_check": "Keep the separately stated five-year proposition open; no retrospective exit optimization."
+    },
+    {
+      "id": "132-C12",
+      "claim": "Underinvestment sustains producer economics.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        71,
+        73,
+        75
+      ],
+      "family": "energy-underinvestment",
+      "asset_or_variable": "energy-underinvestment",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Supply discipline can support margins but demand, non-OPEC growth and cost inflation can offset it. The broad claim has no specified terminal oil price.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare capex, spare capacity, production and producer cash returns."
+    },
+    {
+      "id": "132-C13",
+      "claim": "Services hedge renewed drilling spending.",
+      "kind": "explanation",
+      "source_blocks": [
+        75
+      ],
+      "family": "oil-services-capex-hedge",
+      "asset_or_variable": "oil-services-capex-hedge",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "mixed",
+      "reason": "Service providers can benefit from producer spending, but this is not a complete hedge: weak demand can hurt both producers and services. Halliburton revenue later weakened.",
+      "direction_assessment": "Separable components differ.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://ir.halliburton.com/node/36011",
+          "title": "Halliburton 2025 results",
+          "publisher": "Halliburton",
+          "date": "2026-01-21",
+          "verified": true,
+          "finding": "2025 revenue declined to $22.2 billion and operating income to $2.3 billion; adjusted operating income was $3.1 billion versus $3.9 billion."
+        }
+      ],
+      "next_check": "Estimate producer/service covariance conditional on capex and oil demand."
+    },
+    {
+      "id": "132-C14",
+      "claim": "Fleet scarcity supports Valaris dayrates.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        81,
+        87,
+        88
+      ],
+      "family": "valaris-fleet-scarcity",
+      "asset_or_variable": "valaris-fleet-scarcity",
+      "horizon": "Multiyear",
+      "conditions": "Sustained offshore activity",
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Replacement cost is not a floor for equity value; demand and idle reactivation matter. A backlog/dayrate and cost reconciliation is necessary.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "Multiyear",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Compare contracted dayrates, utilization, reactivation costs and net debt."
+    },
+    {
+      "id": "132-C15",
+      "claim": "Service technology rewards industry leaders.",
+      "kind": "explanation",
+      "source_blocks": [
+        97
+      ],
+      "family": "oil-service-scale",
+      "asset_or_variable": "oil-service-scale",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "evidence_needed",
+      "reason": "Consolidation and technology investment may protect share, but need customer-level or segment margin evidence rather than company size alone.",
+      "direction_assessment": "Not resolved by collected evidence.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Evaluate the explanation separately from subsequent price direction.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Track market share and returns on incremental R&D/capital."
+    },
+    {
+      "id": "132-C16",
+      "claim": "Halliburton stays profitable.",
+      "kind": "forecast",
+      "source_blocks": [
+        104
+      ],
+      "family": "halliburton-profitability",
+      "asset_or_variable": "halliburton-profitability",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "right",
+      "reason": "Both subsequent full years retained positive operating earnings, resolving the limited profitability direction without implying growth.",
+      "direction_assessment": "Supported for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://ir.halliburton.com/news-releases/news-release-details/halliburton-announces-fourth-quarter-2024-results",
+          "title": "Halliburton 2024 results",
+          "publisher": "Halliburton",
+          "date": "2025-01-22",
+          "verified": true,
+          "finding": "2024 revenue was $22.9 billion; operating income fell to $3.8 billion from $4.1 billion, while free cash flow remained positive."
+        },
+        {
+          "url": "https://ir.halliburton.com/node/36011",
+          "title": "Halliburton 2025 results",
+          "publisher": "Halliburton",
+          "date": "2026-01-21",
+          "verified": true,
+          "finding": "2025 revenue declined to $22.2 billion and operating income to $2.3 billion; adjusted operating income was $3.1 billion versus $3.9 billion."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "132-C17",
+      "claim": "Halliburton profit recovery continues.",
+      "kind": "forecast",
+      "source_blocks": [
+        106
+      ],
+      "family": "halliburton-earnings-recovery",
+      "asset_or_variable": "halliburton-earnings-recovery",
+      "horizon": null,
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "wrong",
+      "reason": "The immediate continuation premise failed: reported and adjusted operating profit declined through 2025. This does not pre-judge the separately stated five-year equity case.",
+      "direction_assessment": "Contradicted for the defined proposition.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://ir.halliburton.com/news-releases/news-release-details/halliburton-announces-fourth-quarter-2024-results",
+          "title": "Halliburton 2024 results",
+          "publisher": "Halliburton",
+          "date": "2025-01-22",
+          "verified": true,
+          "finding": "2024 revenue was $22.9 billion; operating income fell to $3.8 billion from $4.1 billion, while free cash flow remained positive."
+        },
+        {
+          "url": "https://ir.halliburton.com/node/36011",
+          "title": "Halliburton 2025 results",
+          "publisher": "Halliburton",
+          "date": "2026-01-21",
+          "verified": true,
+          "finding": "2025 revenue declined to $22.2 billion and operating income to $2.3 billion; adjusted operating income was $3.1 billion versus $3.9 billion."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "132-C18",
+      "claim": "Services offer attractive five-year returns.",
+      "kind": "investment_thesis",
+      "source_blocks": [
+        114
+      ],
+      "family": "oil-service-five-year-value",
+      "asset_or_variable": "oil-service-five-year-value",
+      "horizon": "Five years, to March 2029",
+      "conditions": null,
+      "modality": "asserted",
+      "verdict": "too_early",
+      "reason": "The explicit horizon ends March 2029. Interim earnings weakness is adverse evidence, but not a completed five-year return test.",
+      "direction_assessment": "Full stated horizon remains open.",
+      "timing_assessment": "Five years, to March 2029",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "url": "https://ir.halliburton.com/node/36011",
+          "title": "Halliburton 2025 results",
+          "publisher": "Halliburton",
+          "date": "2026-01-21",
+          "verified": true,
+          "finding": "2025 revenue declined to $22.2 billion and operating income to $2.3 billion; adjusted operating income was $3.1 billion versus $3.9 billion."
+        }
+      ],
+      "next_check": "Measure HAL and VAL total returns and risk versus stated alternatives through March 2029."
+    },
+    {
+      "id": "132-C19",
+      "claim": "Chinese equities may have bottomed.",
+      "kind": "forecast",
+      "source_blocks": [
+        118
+      ],
+      "family": "china-equity-bottom",
+      "asset_or_variable": "china-equity-bottom",
+      "horizon": null,
+      "conditions": null,
+      "modality": "likely",
+      "verdict": "right",
+      "reason": "MCHI did not subsequently undercut its January 2024 price low through the evaluation cutoff. This verifies the identified broad-China price-bottom proposition for observed history, not permanence, every Chinese listing or a total-return target.",
+      "direction_assessment": "Defined direction supported.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/MCHI/history/",
+          "title": "MCHI daily OHLC history",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Unadjusted traded-price low 2024-01-22: $35.58; lowest low after article through cutoff 2024-04-16: $38.83. Cash distributions are not reinvested in a traded-price bottom test."
+        }
+      ],
+      "next_check": null
+    },
+    {
+      "id": "132-C20",
+      "claim": "China stabilization revives global inflation.",
+      "kind": "forecast",
+      "source_blocks": [
+        119,
+        120
+      ],
+      "family": "china-reflation",
+      "asset_or_variable": "china-reflation",
+      "horizon": null,
+      "conditions": "Chinese asset stabilization",
+      "modality": "asserted",
+      "verdict": "conditional_pending",
+      "reason": "The trigger is conditional and transmission depends on whether support reaches consumption or additional export capacity.",
+      "direction_assessment": "Trigger and outcome have not both been established.",
+      "timing_assessment": "No fixed deadline stated.",
+      "mechanism_assessment": "Outcome evidence does not independently identify the proposed causal mechanism.",
+      "confidence": "medium",
+      "evidence": [],
+      "next_check": "Define stabilization and measure commodity/import-demand response."
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "NFCI",
+      "source_blocks": [
+        12
+      ],
+      "use": "Conditions check",
+      "image_inspected": false
+    },
+    {
+      "name": "NAV premium",
+      "source_blocks": [
+        45
+      ],
+      "use": "Proxy valuation",
+      "image_inspected": false
+    },
+    {
+      "name": "Rig replacement cost",
+      "source_blocks": [
+        87
+      ],
+      "use": "Supply constraint",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Distinguish business recovery from share valuation."
+  ],
+  "assessment": "The bitcoin direction and continued Halliburton profitability have evidence, while the profit-recovery premise failed through 2025. The five-year service-stock thesis remains open. Premium discipline is sensible but cannot be counted as a winning switch without matched returns.",
+  "verification_limitations": [
+    "Current snapshot is not an authenticated publication-date vintage.",
+    "Image labels were inventoried; chart images were not inspected.",
+    "No portfolio or equity total returns are inferred from business results."
+  ],
+  "evaluation_as_of": "2026-11-07"
+}

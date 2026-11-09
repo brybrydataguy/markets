@@ -1,0 +1,1574 @@
+{
+  "article_id": "112",
+  "title": "A Potential Trend Change for Liquidity",
+  "date": "2023-06-11",
+  "source_url": "https://www.lynalden.com/premium-2023-6-11/",
+  "read_complete": true,
+  "summary": "Liquidity caution alongside selective equities.",
+  "coverage_note": "All article text blocks were read. Ledger covers material macro, investment, and causal propositions; incidental descriptive statistics, boilerplate, and unreasoned position lists are excluded. Image labels were read, not image pixels.",
+  "claims": [
+    {
+      "claim": "Emergency loans need QE",
+      "source_blocks": [
+        14,
+        19
+      ],
+      "kind": "forecast",
+      "family": "2023-bank-support-forces-qt-end",
+      "verdict": "mixed",
+      "reason": "The base case failed as new BTFP lending ended March 2024 while QT continued into 2025. The report explicitly identified the alternative that did occur: bill issuance financed from falling RRP. Credit that falsifier without counting the failed base case as a win.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240124a.htm",
+          "title": "BTFP lending cessation",
+          "publisher": "Federal Reserve",
+          "date": "2024-01-24",
+          "verified": true,
+          "finding": "New BTFP loans stopped March 11, 2024; discount window remained available; rate floor adjusted to reserve-interest rate.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260116a.htm",
+          "title": "Monetary policy implementation",
+          "publisher": "Federal Reserve",
+          "date": "2026-01-16",
+          "verified": true,
+          "finding": "Balance-sheet runoff begun in 2022 ended December 2025; reserve-management purchases followed. This was more than two years after March 2023 stress.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.kansascityfed.org/research/economic-bulletin/rapid-declines-in-the-feds-overnight-reverse-repurchase-on-rrp-facility-may-start-to-slow/",
+          "title": "ON RRP declines and bills",
+          "publisher": "Federal Reserve Bank of Kansas City",
+          "date": "2023-11-10",
+          "verified": true,
+          "finding": "Bill issuance after the debt-limit agreement drew money-fund cash from ON RRP into the TGA; higher relative bill yields attracted allocations.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2023-bank-support-forces-qt-end",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "112-C01"
+    },
+    {
+      "claim": "TGA refill drains liquidity",
+      "source_blocks": [
+        26,
+        35
+      ],
+      "kind": "forecast",
+      "family": "2023-post-debt-ceiling-liquidity-drain",
+      "verdict": "mixed",
+      "reason": "The chosen net-liquidity proxy fell $304.897bn by late September, supporting direction. But RRP supplied $718.751bn, materially cushioning the refill; stocks were higher at the September put expiry. Mechanism and market result are not interchangeable.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/WALCL",
+          "title": "Net liquidity arithmetic",
+          "publisher": "Federal Reserve via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "June 7-September 27, 2023: Fed assets $8.389325tn to $8.002064tn; TGA $44.756bn to $681.143bn; ON RRP $2.161556tn to $1.442805tn. Assets minus TGA minus RRP fell $304.897bn.",
+          "verification_method": "computed downloaded series; RRP bn converted to m; evaluator proxy not all financial liquidity"
+        },
+        {
+          "url": "https://www.kansascityfed.org/research/economic-bulletin/rapid-declines-in-the-feds-overnight-reverse-repurchase-on-rrp-facility-may-start-to-slow/",
+          "title": "ON RRP declines and bills",
+          "publisher": "Federal Reserve Bank of Kansas City",
+          "date": "2023-11-10",
+          "verified": true,
+          "finding": "Bill issuance after the debt-limit agreement drew money-fund cash from ON RRP into the TGA; higher relative bill yields attracted allocations.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "SPY option expiry underlying",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "September 15, 2023 SPY close $443.37 exceeds $425 put strike; held-to-expiry intrinsic value zero. Premium and actual exit are unknown.",
+          "verification_method": "computed unadjusted underlying close; no option return reconstructed"
+        }
+      ],
+      "horizon": "Next few months",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2023-post-debt-ceiling-liquidity-drain",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Next few months",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "112-C02"
+    },
+    {
+      "claim": "Liquidity drives stock history",
+      "source_blocks": [
+        28,
+        32
+      ],
+      "kind": "explanation",
+      "family": "net-liquidity-risk-assets",
+      "verdict": "mixed",
+      "reason": "Balance-sheet flows offer a funding channel, but selected episodes do not isolate causation. Earnings, discount rates, pandemic reopening and positioning also changed; this is an explanatory overlay rather than a deterministic price model.",
+      "evidence": [
+        {
+          "url": "https://www.kansascityfed.org/research/economic-bulletin/rapid-declines-in-the-feds-overnight-reverse-repurchase-on-rrp-facility-may-start-to-slow/",
+          "title": "ON RRP declines and bills",
+          "publisher": "Federal Reserve Bank of Kansas City",
+          "date": "2023-11-10",
+          "verified": true,
+          "finding": "Bill issuance after the debt-limit agreement drew money-fund cash from ON RRP into the TGA; higher relative bill yields attracted allocations.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/GDPC1",
+          "title": "Real GDP",
+          "publisher": "BEA via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Real GDP rose from 22001.640bn inQ 42021 to 22272.546bn inQ 42022, about 1.23%, versus about 4.24% fromQ 12021 toQ 42021 alone.",
+          "verification_method": "computed from downloaded latest-vintage CSV; not a real-time vintage"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "net-liquidity-risk-assets",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C03"
+    },
+    {
+      "claim": "Higher rates enlarge fiscal stimulus",
+      "source_blocks": [
+        38,
+        48
+      ],
+      "kind": "explanation",
+      "family": "interest-expense-fiscal-feedback",
+      "verdict": "mixed",
+      "reason": "Federal net interest rose sharply, validating the transfer channel. The net inflation effect also includes taxes, recipients saving interest, foreign payments and private credit restraint. Subsequent disinflation means higher interest expense did not mechanically dominate.",
+      "evidence": [
+        {
+          "url": "https://www.cbo.gov/system/files/2025-03/61181-Federal-Budget.pdf",
+          "title": "FY2024 budget infographic",
+          "publisher": "CBO",
+          "date": "2025-03-20",
+          "verified": true,
+          "finding": "Net interest USD 881b exceeded discretionary defense USD 850b; debt held by public 98% of GDP and deficit USD 1.8tn.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2024-ar-monetary-policy.htm",
+          "title": "2024 Annual Report: Monetary Policy",
+          "publisher": "Federal Reserve",
+          "date": null,
+          "verified": true,
+          "finding": "Policy rates exceeded PCE inflation during sustained restriction.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "interest-expense-fiscal-feedback",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C04"
+    },
+    {
+      "claim": "Private credit remains pressured",
+      "source_blocks": [
+        40,
+        42
+      ],
+      "kind": "explanation",
+      "family": "2023-credit-tightening",
+      "verdict": "right",
+      "reason": "Fed surveys and CRE analysis corroborate tighter standards and refinancing pressure. Neither channel establishes a recession across the entire economy.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/data/sloos/sloos-202301-chart-data.htm",
+          "title": "Senior loan officer chart data",
+          "publisher": "Federal Reserve",
+          "date": "2023-02-06",
+          "verified": true,
+          "finding": "Quarterly data confirm substantial tightening of commercial and consumer lending standards around late 2022 and early 2023.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/April-2024-financial-stability-report-asset-valuations.htm",
+          "title": "Commercial property valuations",
+          "publisher": "Federal Reserve",
+          "date": "2024-04-19",
+          "verified": true,
+          "finding": "Office market conditions deteriorated, with falling prices, high vacancies and weakening rents; refinancing pressures persisted.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2023-credit-tightening",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C05"
+    },
+    {
+      "claim": "Disinflation dominates near term",
+      "source_blocks": [
+        49
+      ],
+      "kind": "forecast",
+      "family": "2023-near-term-disinflation",
+      "verdict": "right",
+      "reason": "Inflation declined across the subsequent period despite fiscal pressure, consistent with the selected near-term direction. The passage combines disinflation with recession pressure; falling inflation alone is not evidence a recession happened.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2024-ar-monetary-policy.htm",
+          "title": "2024 Annual Report: Monetary Policy",
+          "publisher": "Federal Reserve",
+          "date": null,
+          "verified": true,
+          "finding": "Policy rates exceeded PCE inflation during sustained restriction.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.bls.gov/news.release/archives/cpi_07112024.htm",
+          "title": "CPI, June 2024",
+          "publisher": "BLS",
+          "date": "2024-07-11",
+          "verified": true,
+          "finding": "June 2024 annual CPI inflation was 3.0%.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Next couple quarters",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2023-near-term-disinflation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: Next couple quarters",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "112-C06"
+    },
+    {
+      "claim": "Second-half recession risk",
+      "source_blocks": [
+        44,
+        49
+      ],
+      "kind": "forecast",
+      "family": "2023-second-half-recession-risk",
+      "verdict": "not_testable",
+      "reason": "The text labels a risk period and says recessionary forces may dominate, without asserting an outright recession as inevitable. Growth instead remained positive. Preserve this softened modality separately from earlier definite recession calls.",
+      "evidence": [
+        {
+          "url": "https://www.nber.org/research/business-cycle-dating",
+          "title": "Business Cycle Dating",
+          "publisher": "NBER",
+          "date": null,
+          "verified": true,
+          "finding": "Official chronology identifies April 2020 as the pandemic recession trough; no 2022 recession is dated.",
+          "verification_method": "retrieved official chronology search extract; direct page denied"
+        },
+        {
+          "url": "https://fred.stlouisfed.org/series/GDPC1",
+          "title": "Real GDP",
+          "publisher": "BEA via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "Real GDP rose from 22001.640bn inQ 42021 to 22272.546bn inQ 42022, about 1.23%, versus about 4.24% fromQ 12021 toQ 42021 alone.",
+          "verification_method": "computed from downloaded latest-vintage CSV; not a real-time vintage"
+        }
+      ],
+      "horizon": "Next couple quarters",
+      "conditions": null,
+      "next_check": "No probability threshold was supplied; record realized no-recession outcome without binary scoring.",
+      "asset_or_variable": "2023-second-half-recession-risk",
+      "modality": "risk",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Next couple quarters",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "112-C07"
+    },
+    {
+      "claim": "Re-liquification revives inflation",
+      "source_blocks": [
+        49,
+        155
+      ],
+      "kind": "forecast",
+      "family": "next-liquidity-cycle-inflation",
+      "verdict": "conditional_pending",
+      "reason": "A new combined liquidity and PMI acceleration episode is not precisely defined. Different policy facilities, interest-rate cuts and balance-sheet changes must not be pooled after the fact to choose a convenient trigger.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2024-ar-monetary-policy.htm",
+          "title": "2024 Annual Report: Monetary Policy",
+          "publisher": "Federal Reserve",
+          "date": null,
+          "verified": true,
+          "finding": "Policy rates exceeded PCE inflation during sustained restriction.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": "Renewed liquidity support plus economic reacceleration",
+      "next_check": "Freeze trigger definition, inflation metric and lead time.",
+      "asset_or_variable": "next-liquidity-cycle-inflation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "112-C08"
+    },
+    {
+      "claim": "Bitcoin multi-year upside",
+      "source_blocks": [
+        54
+      ],
+      "kind": "forecast",
+      "family": "bitcoin-multi-year-bullish",
+      "verdict": "right",
+      "reason": "The three-year checkpoint rose from $25,906.91 to $63,482.72. The report expressly declines a six-month call, so intervening range trading or drawdowns do not refute the stated horizon.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/series/CBBTCUSD",
+          "title": "Bitcoin three-year outcome",
+          "publisher": "Coinbase via FRED",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "June 12, 2023 $25,906.91 to June 11, 2026 $63,482.72.",
+          "verification_method": "computed downloaded daily closes"
+        }
+      ],
+      "horizon": "3+ years; three-year checkpoint",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bitcoin-multi-year-bullish",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "Assessed against the stated horizon: 3+ years; three-year checkpoint",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "112-C09"
+    },
+    {
+      "claim": "DCA superior to trading",
+      "source_blocks": [
+        53
+      ],
+      "kind": "investment_thesis",
+      "family": "bitcoin-dca-investor-outcomes",
+      "verdict": "not_testable",
+      "reason": "No comparator strategy, purchase dates or risk objective is supplied. This is an implementation preference, not a demonstrated universal optimum.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Define investor cash flows, benchmark trading rule, fees and risk objective.",
+      "asset_or_variable": "bitcoin-dca-investor-outcomes",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C10"
+    },
+    {
+      "claim": "Exchange cases differ materially",
+      "source_blocks": [
+        57,
+        61
+      ],
+      "kind": "empirical",
+      "family": "2023-sec-crypto-enforcement",
+      "verdict": "right",
+      "reason": "The public complaints support the distinction between Coinbase registration/staking allegations and additional Binance custody/control allegations. These were allegations; later SEC dismissals do not establish that the original conduct was legally adjudicated.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2023-102",
+          "title": "SEC charges Coinbase",
+          "publisher": "SEC",
+          "date": "2023-06-06",
+          "verified": true,
+          "finding": "A major securities enforcement action occurred in 2023.",
+          "verification_method": "retrieved official press-release search extract"
+        },
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2023-101-sec-files-13-charges-against-binance-entities-founder-changpeng-zhao",
+          "title": "Binance charges and subsequent dismissal",
+          "publisher": "SEC",
+          "date": "2023-06-05",
+          "verified": true,
+          "finding": "Complaint alleged commingling, unregistered activities and control failures; updated notice records dismissal with prejudice May 29, 2025. Allegations are not adjudicated facts.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2025-47",
+          "title": "Coinbase action dismissed",
+          "publisher": "SEC",
+          "date": "2025-02-27",
+          "verified": true,
+          "finding": "SEC dismissed its civil enforcement case in a policy shift; stated dismissal was not an assessment of the merits.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "2023-sec-crypto-enforcement",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C11"
+    },
+    {
+      "claim": "Listings face regulatory retreat",
+      "source_blocks": [
+        62,
+        63
+      ],
+      "kind": "forecast",
+      "family": "crypto-listing-regulatory-retreat",
+      "verdict": "mixed",
+      "reason": "Enforcement created immediate listing pressure, but both major SEC cases were dismissed in 2025 amid a policy change. The caveat about failed cases matters; an existential permanent exclusion of the industry did not follow.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2023-101-sec-files-13-charges-against-binance-entities-founder-changpeng-zhao",
+          "title": "Binance charges and subsequent dismissal",
+          "publisher": "SEC",
+          "date": "2023-06-05",
+          "verified": true,
+          "finding": "Complaint alleged commingling, unregistered activities and control failures; updated notice records dismissal with prejudice May 29, 2025. Allegations are not adjudicated facts.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2025-47",
+          "title": "Coinbase action dismissed",
+          "publisher": "SEC",
+          "date": "2025-02-27",
+          "verified": true,
+          "finding": "SEC dismissed its civil enforcement case in a policy shift; stated dismissal was not an assessment of the merits.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "crypto-listing-regulatory-retreat",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "112-C12"
+    },
+    {
+      "claim": "Howey classifies all securities",
+      "source_blocks": [
+        65,
+        73
+      ],
+      "kind": "explanation",
+      "family": "crypto-howey-security-analysis",
+      "verdict": "mixed",
+      "reason": "The four-part investment-contract summary is useful, but Howey is not the sole definition of every security. Stocks and bonds have distinct statutory categories, and token transactions require fact-specific analysis rather than an ICO label alone.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/about/divisions-offices/division-corporation-finance/framework-investment-contract-analysis-digital-assets",
+          "title": "2019 digital-asset framework",
+          "publisher": "SEC",
+          "date": "2019-04-03",
+          "verified": true,
+          "finding": "Howey assesses investment contracts, one statutory security category; specific facts and transaction circumstances matter. This staff framework was withdrawn and superseded March 2026.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "crypto-howey-security-analysis",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C13"
+    },
+    {
+      "claim": "Bitcoin differs from ICOs",
+      "source_blocks": [
+        74,
+        75
+      ],
+      "kind": "explanation",
+      "family": "bitcoin-security-versus-token-issuance",
+      "verdict": "mixed",
+      "reason": "Absence of a capital-raising issuer and reliance on a managerial enterprise are important distinctions. However, proof of work is not a statutory exemption, and absence of a legal entity is not alone enough to defeat an investment contract.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/about/divisions-offices/division-corporation-finance/framework-investment-contract-analysis-digital-assets",
+          "title": "2019 digital-asset framework",
+          "publisher": "SEC",
+          "date": "2019-04-03",
+          "verified": true,
+          "finding": "Howey assesses investment contracts, one statutory security category; specific facts and transaction circumstances matter. This staff framework was withdrawn and superseded March 2026.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.cftc.gov/media/8351/%20enfbinancecomplaint032723/download",
+          "title": "Binance enforcement complaint",
+          "publisher": "CFTC",
+          "date": "2023-03-27",
+          "verified": true,
+          "finding": "Complaint paragraph 2 identifies BTC, ETH and LTC as commodities; later paragraphs repeat this position.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "bitcoin-security-versus-token-issuance",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C14"
+    },
+    {
+      "claim": "Token exits misalign incentives",
+      "source_blocks": [
+        77,
+        79
+      ],
+      "kind": "explanation",
+      "family": "token-vc-retail-exit-incentives",
+      "verdict": "mixed",
+      "reason": "Rapid tradability can separate promoter exit from long-run project success. The mechanism is plausible and fraud cases supply examples, but no representative return/disclosure cohort establishes the claimed general frequency; private venture investing also has adverse incentives.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2024-73",
+          "title": "Terraform and Kwon fraud verdict and settlement",
+          "publisher": "SEC",
+          "date": "2024-06-13",
+          "verified": true,
+          "finding": "After UST depegged in May 2022, related tokens approached zero; roughly 40b in market value vanished. Jury found fraud.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.sec.gov/about/divisions-offices/division-corporation-finance/framework-investment-contract-analysis-digital-assets",
+          "title": "2019 digital-asset framework",
+          "publisher": "SEC",
+          "date": "2019-04-03",
+          "verified": true,
+          "finding": "Howey assesses investment contracts, one statutory security category; specific facts and transaction circumstances matter. This staff framework was withdrawn and superseded March 2026.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "token-vc-retail-exit-incentives",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C15"
+    },
+    {
+      "claim": "Ethereum legal status unresolved",
+      "source_blocks": [
+        81,
+        83
+      ],
+      "kind": "empirical",
+      "family": "ethereum-security-classification",
+      "verdict": "right",
+      "reason": "The cited 2023 cases did not directly classify ETH as a security, and CFTC treatment differed from the staking-service allegations. Later ETF approval and narrowed staking guidance reinforce the need to separate ETH, particular offers and managed services.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/newsroom/press-releases/2023-102",
+          "title": "SEC charges Coinbase",
+          "publisher": "SEC",
+          "date": "2023-06-06",
+          "verified": true,
+          "finding": "A major securities enforcement action occurred in 2023.",
+          "verification_method": "retrieved official press-release search extract"
+        },
+        {
+          "url": "https://www.cftc.gov/media/8351/%20enfbinancecomplaint032723/download",
+          "title": "Binance enforcement complaint",
+          "publisher": "CFTC",
+          "date": "2023-03-27",
+          "verified": true,
+          "finding": "Complaint paragraph 2 identifies BTC, ETH and LTC as commodities; later paragraphs repeat this position.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.ishares.com/us/literature/press-release/blackrocks-etha-debuts-on-nasdaq.pdf",
+          "title": "ETHA Nasdaq debut",
+          "publisher": "BlackRock",
+          "date": "2024-07-23",
+          "verified": true,
+          "finding": "Launched an Ethereum ETF, establishing institutional product interest after the Merge; does not establish an ESG marketing rationale.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.sec.gov/newsroom/speeches-statements/statement-certain-protocol-staking-activities-052925",
+          "title": "Certain protocol staking activities",
+          "publisher": "SEC Division of Corporation Finance",
+          "date": "2025-05-29",
+          "verified": true,
+          "finding": "Staff found specified solo, delegated and custodial protocol-staking activities outside securities transactions, subject to stated facts; this was staff interpretation, not blanket immunity.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "ethereum-security-classification",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C16"
+    },
+    {
+      "claim": "Ethereum activity mostly securities",
+      "source_blocks": [
+        84,
+        89
+      ],
+      "kind": "explanation",
+      "family": "ethereum-usecase-security-characterization",
+      "verdict": "mixed",
+      "reason": "Some ICO offerings did meet investment-contract tests, but gas categories cannot by themselves determine legal status. Stablecoin transfers, NFTs and DeFi operations have differing facts; creator royalties are not automatically an investor profit-sharing right.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/about/divisions-offices/division-corporation-finance/framework-investment-contract-analysis-digital-assets",
+          "title": "2019 digital-asset framework",
+          "publisher": "SEC",
+          "date": "2019-04-03",
+          "verified": true,
+          "finding": "Howey assesses investment contracts, one statutory security category; specific facts and transaction circumstances matter. This staff framework was withdrawn and superseded March 2026.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.sec.gov/newsroom/speeches-statements/statement-certain-protocol-staking-activities-052925",
+          "title": "Certain protocol staking activities",
+          "publisher": "SEC Division of Corporation Finance",
+          "date": "2025-05-29",
+          "verified": true,
+          "finding": "Staff found specified solo, delegated and custodial protocol-staking activities outside securities transactions, subject to stated facts; this was staff interpretation, not blanket immunity.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "ethereum-usecase-security-characterization",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C17"
+    },
+    {
+      "claim": "Fees shift stablecoin activity",
+      "source_blocks": [
+        87
+      ],
+      "kind": "explanation",
+      "family": "stablecoin-ethereum-tron-migration",
+      "verdict": "evidence_needed",
+      "reason": "The proposed migration channel is plausible, but the article supplies no frozen chain-level transfer series distinguishing genuine payments from exchange transfers. A later token-supply comparison alone would not establish fee causation.",
+      "evidence": [],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Compare 2021-2023 adjusted stablecoin transfer activity, holders and fees across Ethereum, Tron and L2s.",
+      "asset_or_variable": "stablecoin-ethereum-tron-migration",
+      "modality": "asserted",
+      "confidence": "low",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C18"
+    },
+    {
+      "claim": "Tokenization has durable uses",
+      "source_blocks": [
+        90
+      ],
+      "kind": "investment_thesis",
+      "family": "real-world-asset-tokenization",
+      "verdict": "mixed",
+      "reason": "MAS Guardian developed live uses in funds, bonds and FX, supporting the existence of applications beyond speculative native tokens. Commercial scale and the share attributable to Ethereum remain separate questions.",
+      "evidence": [
+        {
+          "url": "https://www.mas.gov.sg/schemes-and-initiatives/project-guardian",
+          "title": "Project Guardian",
+          "publisher": "Monetary Authority of Singapore",
+          "date": "2025-11-12",
+          "verified": true,
+          "finding": "Industry trials and live tokenisation implementations span funds, bonds, FX and bank liabilities; regulatory standards and interoperability remain priorities.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "real-world-asset-tokenization",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C19"
+    },
+    {
+      "claim": "Ethereum risks circular exhaustion",
+      "source_blocks": [
+        91,
+        97
+      ],
+      "kind": "investment_thesis",
+      "family": "ethereum-circular-speculation-risk",
+      "verdict": "not_testable",
+      "reason": "The critique identifies reflexivity but supplies no exhaustion date or test. Genuine stablecoin and tokenized-asset activity complicates a categorical circularity story; a risk cannot be scored as a forecast of network failure.",
+      "evidence": [
+        {
+          "url": "https://www.mas.gov.sg/schemes-and-initiatives/project-guardian",
+          "title": "Project Guardian",
+          "publisher": "Monetary Authority of Singapore",
+          "date": "2025-11-12",
+          "verified": true,
+          "finding": "Industry trials and live tokenisation implementations span funds, bonds, FX and bank liabilities; regulatory standards and interoperability remain priorities.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.bis.org/publications/defi-risks-and-decentralisation-illusion",
+          "title": "DeFi centralization analysis",
+          "publisher": "BIS",
+          "date": null,
+          "verified": true,
+          "finding": "Governance, stablecoins, concentrated consensus participation and liquidity leverage create centralization and fragility; analysis is not a pure PoS-versus-PoW causal experiment.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Track non-speculative users and fees with a stable classification over multiple cycles.",
+      "asset_or_variable": "ethereum-circular-speculation-risk",
+      "modality": "risk",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C20"
+    },
+    {
+      "claim": "Visa offers resilient value",
+      "source_blocks": [
+        104
+      ],
+      "kind": "investment_thesis",
+      "family": "visa-network-value",
+      "verdict": "not_testable",
+      "reason": "Three-year adjusted Visa +44.32% versus SPY +76.73% supports positive absolute compounding but not relative outperformance. The article states no holding deadline. Network effects do not eliminate regulatory, valuation or consumer-spending risk.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/V/history/",
+          "title": "V three-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-06-11\", \"requested_endpoint\": \"2026-06-11\", \"entry\": \"2023-06-12\", \"exit\": \"2026-06-11\", \"days\": 1095, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"V\": {\"entry_adjusted_close\": 220.65545654296875, \"exit_adjusted_close\": 318.4583740234375, \"cumulative_return_pct\": 44.32381551435749, \"annualized_return_pct\": 13.018371667002814, \"source\": \"https://finance.yahoo.com/quote/V/history/\"}, \"SPY\": {\"entry_adjusted_close\": 415.34423828125, \"exit_adjusted_close\": 734.04150390625, \"cumulative_return_pct\": 76.73087435709039, \"annualized_return_pct\": 20.91883085075823, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -32.407058842732894}",
+          "verification_method": "computed adjusted-close USD dividends/splits; no fees/taxes; evaluator window"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Define valuation objective and holding horizon; assess payment-volume resilience in an actual downturn.",
+      "asset_or_variable": "visa-network-value",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C21"
+    },
+    {
+      "claim": "September put cushions downside",
+      "source_blocks": [
+        110,
+        111
+      ],
+      "kind": "investment_thesis",
+      "family": "2023-september-spy-put-hedge",
+      "verdict": "mixed",
+      "reason": "SPY closed $443.37 on September 15, above the $425 strike, so a put held to expiry had zero intrinsic value. Its cost was expected insurance in an up market, not necessarily a failed forecast; purchase premium and any early sale are unavailable.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/SPY/history/",
+          "title": "SPY option expiry underlying",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "September 15, 2023 SPY close $443.37 exceeds $425 put strike; held-to-expiry intrinsic value zero. Premium and actual exit are unknown.",
+          "verification_method": "computed unadjusted underlying close; no option return reconstructed"
+        }
+      ],
+      "horizon": "September 15, 2023",
+      "conditions": "Held to expiry for terminal-payoff test",
+      "next_check": "Obtain actual premium/exit to calculate realized hedge cost.",
+      "asset_or_variable": "2023-september-spy-put-hedge",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: September 15, 2023",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C22"
+    },
+    {
+      "claim": "BLDR nearly doubled",
+      "source_blocks": [
+        117,
+        121
+      ],
+      "kind": "empirical",
+      "family": "builders-firstsource-2022-entry",
+      "verdict": "right",
+      "reason": "The disclosed post-entry proxy gained 97.99% by June 9 versus SPY 12.25%, confirming the retrospective success. Partial profit-taking expressly retains bullish exposure and should not be mislabeled a bearish forecast.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/BLDR/history/",
+          "title": "Builders FirstSource retrospective",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "October 31, 2022-June 9, 2023 adjusted BLDR +97.99%, SPY +12.25%.",
+          "verification_method": "computed downloaded adjusted close; USD/no fees/taxes"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "builders-firstsource-2022-entry",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C23"
+    },
+    {
+      "claim": "Midstream delivers long income",
+      "source_blocks": [
+        127
+      ],
+      "kind": "investment_thesis",
+      "family": "midstream-long-horizon-income",
+      "verdict": "too_early",
+      "reason": "Five-to-ten years extends into 2028-2033. EPD and ET increased distributions, supporting early cash-flow resilience, but the full horizon and reinvestment path remain open.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1061219/000114036124004973/exhibit99_1.htm",
+          "title": "Fourth-quarter and full-year 2023 results",
+          "publisher": "Enterprise Products Partners / SEC",
+          "date": "2024-02-01",
+          "verified": true,
+          "finding": "2023 distributions increased 5.3%; coverage 1.7x; retained DCF $3.2b; EPS $2.52 versus $2.50 in 2022 despite lower commodity prices; terminal volumes increased 20%.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1276187/000127618725000008/et12312024ex991er.htm",
+          "title": "2024 results",
+          "publisher": "Energy Transfer / SEC",
+          "date": "2025-02-11",
+          "verified": true,
+          "finding": "2024 adjusted EBITDA $15.5 billion and DCF $8.4 billion; interest expense $3.125 billion versus $2.578 billion in 2023.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "5-10 years, 2028-2033",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "midstream-long-horizon-income",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: 5-10 years, 2028-2033",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C24"
+    },
+    {
+      "claim": "Healthcare faces policy risk",
+      "source_blocks": [
+        130,
+        133
+      ],
+      "kind": "explanation",
+      "family": "healthcare-pbm-regulation",
+      "verdict": "right",
+      "reason": "Subsequent FTC action against Express Scripts confirms the materiality of PBM policy exposure. It does not prove that all 2023 price moves were caused by Congress.",
+      "evidence": [
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/02/ftc-secures-landmark-settlement-express-scripts-lower-drug-costs-american-patients",
+          "title": "ExpressScripts settlement",
+          "publisher": "FTC",
+          "date": "2026-02-04",
+          "verified": true,
+          "finding": "Settlement package requires changes to rebate, pricing, transparency and formulary practices; financial impact cannot be inferred from the announcement alone.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "healthcare-pbm-regulation",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C25"
+    },
+    {
+      "claim": "Cigna offers multi-year value",
+      "source_blocks": [
+        133
+      ],
+      "kind": "investment_thesis",
+      "family": "cigna-value",
+      "verdict": "mixed",
+      "reason": "Three-year CI +16.92% was positive but far below SPY +76.73%. This supports only modest absolute direction; PBM scrutiny complicates durable undervaluation. A contemporaneous chart showing bottoming is not a guarantee of a permanent floor.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/CI/history/",
+          "title": "CI three-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-06-11\", \"requested_endpoint\": \"2026-06-11\", \"entry\": \"2023-06-12\", \"exit\": \"2026-06-11\", \"days\": 1095, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"CI\": {\"entry_adjusted_close\": 250.7884979248047, \"exit_adjusted_close\": 293.21197509765625, \"cumulative_return_pct\": 16.91603782625295, \"annualized_return_pct\": 5.351371248171799, \"source\": \"https://finance.yahoo.com/quote/CI/history/\"}, \"SPY\": {\"entry_adjusted_close\": 415.34423828125, \"exit_adjusted_close\": 734.04150390625, \"cumulative_return_pct\": 76.73087435709039, \"annualized_return_pct\": 20.91883085075823, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -59.81483653083744}",
+          "verification_method": "computed adjusted-close USD dividends/splits; no fees/taxes; evaluator window"
+        },
+        {
+          "url": "https://www.ftc.gov/news-events/news/press-releases/2026/02/ftc-secures-landmark-settlement-express-scripts-lower-drug-costs-american-patients",
+          "title": "ExpressScripts settlement",
+          "publisher": "FTC",
+          "date": "2026-02-04",
+          "verified": true,
+          "finding": "Settlement package requires changes to rebate, pricing, transparency and formulary practices; financial impact cannot be inferred from the announcement alone.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Multi-year; three-year sensitivity",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "cigna-value",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Multi-year; three-year sensitivity",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C26"
+    },
+    {
+      "claim": "Adobe beat Nvidia recently",
+      "source_blocks": [
+        135
+      ],
+      "kind": "empirical",
+      "family": "adobe-relative-entry-retrospective",
+      "verdict": "right",
+      "reason": "First postpublication close May 30 through June 9 gives ADBE +8.82% versus NVDA -3.33%, a 12.15-point lead. The quoted roughly 10% depends on exact start conventions and was a brief retrospective observation.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ADBE/history/",
+          "title": "Adobe relative paths",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "May 30-June 9, 2023 adjusted ADBE +8.82%, NVDA -3.33%; June 12-September 11 ADBE +18.93%, SPY +3.76%.",
+          "verification_method": "computed adjusted close; first postpublication common close"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "adobe-relative-entry-retrospective",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C27"
+    },
+    {
+      "claim": "Adobe may need pause",
+      "source_blocks": [
+        137
+      ],
+      "kind": "forecast",
+      "family": "adobe-near-term-overbought",
+      "verdict": "not_testable",
+      "reason": "Possible breather is not a firm downside forecast. Adobe instead gained 18.93% over a disclosed three-month window versus SPY 3.76%; this counterevidence prevents turning a vague caution into a successful timing call.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ADBE/history/",
+          "title": "Adobe relative paths",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "May 30-June 9, 2023 adjusted ADBE +8.82%, NVDA -3.33%; June 12-September 11 ADBE +18.93%, SPY +3.76%.",
+          "verification_method": "computed adjusted close; first postpublication common close"
+        }
+      ],
+      "horizon": "A few months",
+      "conditions": null,
+      "next_check": "No quantitative pause or drawdown criterion was specified.",
+      "asset_or_variable": "adobe-near-term-overbought",
+      "modality": "possible",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: A few months",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "112-C28"
+    },
+    {
+      "claim": "Adobe long growth runway",
+      "source_blocks": [
+        137
+      ],
+      "kind": "investment_thesis",
+      "family": "adobe-ai-growth-runway",
+      "verdict": "too_early",
+      "reason": "The five-to-ten-year business-growth horizon extends into 2028-2033. FY2025 revenue grew 11%, supporting progress, but that does not resolve long-run competition or investment returns.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/796343/000079634325000135/adbeex991q425.htm",
+          "title": "FY2025 results",
+          "publisher": "Adobe / SEC",
+          "date": "2025-12-10",
+          "verified": true,
+          "finding": "FY2025 revenue $23.77bn, +11%; Digital Media revenue +11%, ending ARR +11.5%; creative and marketing subscription revenue +11%. AI influence is not a separately identified causal estimate.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "5-10 years, 2028-2033",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "adobe-ai-growth-runway",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: 5-10 years, 2028-2033",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C29"
+    },
+    {
+      "claim": "Foreign banks broaden exposure",
+      "source_blocks": [
+        140,
+        148
+      ],
+      "kind": "explanation",
+      "family": "foreign-banks-domestic-economy-proxy",
+      "verdict": "mixed",
+      "reason": "Loan books can represent domestic activity better than concentrated stock indices, but banking adds leverage, regulation and funding risks. Importer/exporter pairing diversifies commodity sensitivity without guaranteeing low covariance or sanctions immunity.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1144967/000119312524186700/d872712dex99.htm",
+          "title": "Integrated Annual Report 2023-24",
+          "publisher": "HDFC Bank / SEC",
+          "date": null,
+          "verified": true,
+          "finding": "Book value per share increased from INR 432.95 FY2022 to INR 579.51 FY2024; July 2023 merger complicates comparison.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.itau.com.br/download-file/v2/d/42787847-4cf6-4461-94a5-40ed237dca33/be62f09b-303c-4432-9e89-4bb079381f20%3Forigin=1",
+          "title": "2024 earnings",
+          "publisher": "Itau Unibanco",
+          "date": "2025-02-05",
+          "verified": true,
+          "finding": "Recurring managerial earnings rose 18.2% to BRL 41.4bn in 2024; net earnings distributions rose 33.8% to BRL 28.7bn, including announced additional distribution/buybacks.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.dbs.com/newsroom/DBS_full_year_net_profit_up_11pct_to_new_high_of_SGD_11_4_billion_return_on_equity_of_18_0pct_sustained_at_previous_years_record",
+          "title": "2024 results",
+          "publisher": "DBS",
+          "date": "2025-02-10",
+          "verified": true,
+          "finding": "Net profit rose 11% to SGD 11.4b; ROE 18%; net interest margin, fee income and trading contributed.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "foreign-banks-domestic-economy-proxy",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C30"
+    },
+    {
+      "claim": "US stress eases foreign conditions",
+      "source_blocks": [
+        141
+      ],
+      "kind": "explanation",
+      "family": "us-banking-stress-fed-constraint",
+      "verdict": "mixed",
+      "reason": "Bank stress can constrain tightening at the margin, but the Fed still raised rates in July and continued QT. Foreign-bank USD returns also reflect domestic margins, credit and currencies, not just a Fed pivot.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Policy target rose to 5.25-5.50%.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20260116a.htm",
+          "title": "Monetary policy implementation",
+          "publisher": "Federal Reserve",
+          "date": "2026-01-16",
+          "verified": true,
+          "finding": "Balance-sheet runoff begun in 2022 ended December 2025; reserve-management purchases followed. This was more than two years after March 2023 stress.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "us-banking-stress-fed-constraint",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C31"
+    },
+    {
+      "claim": "India bank structural compounder",
+      "source_blocks": [
+        142
+      ],
+      "kind": "investment_thesis",
+      "family": "hdfc-india-long-term",
+      "verdict": "not_testable",
+      "reason": "No exact horizon is given. Three-year HDB adjusted return -22.93% versus SPY +76.73% is substantial adverse interim evidence despite the favorable demographic narrative. The USD ADR and merger effects must remain distinct from Indian nominal business growth.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/HDB/history/",
+          "title": "HDB three-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-06-11\", \"requested_endpoint\": \"2026-06-11\", \"entry\": \"2023-06-12\", \"exit\": \"2026-06-11\", \"days\": 1095, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"HDB\": {\"entry_adjusted_close\": 30.8928279876709, \"exit_adjusted_close\": 23.809999465942383, \"cumulative_return_pct\": -22.92709662111614, \"annualized_return_pct\": -8.319968970840819, \"source\": \"https://finance.yahoo.com/quote/HDB/history/\"}, \"SPY\": {\"entry_adjusted_close\": 415.34423828125, \"exit_adjusted_close\": 734.04150390625, \"cumulative_return_pct\": 76.73087435709039, \"annualized_return_pct\": 20.91883085075823, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": -99.65797097820652}",
+          "verification_method": "computed adjusted-close USD dividends/splits; no fees/taxes; evaluator window"
+        },
+        {
+          "url": "https://www.hdfc.bank.in/press-release/2023/q2/hdfc-ltd-to-merge-into-hdfc-bank-effective-july-1-2023",
+          "title": "HDFC merger effective July 1",
+          "publisher": "HDFC Bank",
+          "date": null,
+          "verified": true,
+          "finding": "Merger became effective July 1, 2023, earlier than the article's by-2024 expectation.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify holding horizon and separate per-share earnings, valuation, FX and merger dilution.",
+      "asset_or_variable": "hdfc-india-long-term",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C32"
+    },
+    {
+      "claim": "Brazil bank offers value",
+      "source_blocks": [
+        144,
+        148
+      ],
+      "kind": "investment_thesis",
+      "family": "itau-brazil-value",
+      "verdict": "not_testable",
+      "reason": "Three-year ITUB +103.53% beat SPY +76.73%, supporting the opportunity. The report provides no specific endpoint, and favorable returns do not isolate an anti-dollar cause from earnings/distributions.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/ITUB/history/",
+          "title": "ITUB three-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-06-11\", \"requested_endpoint\": \"2026-06-11\", \"entry\": \"2023-06-12\", \"exit\": \"2026-06-11\", \"days\": 1095, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"ITUB\": {\"entry_adjusted_close\": 3.8431198596954346, \"exit_adjusted_close\": 7.822062969207764, \"cumulative_return_pct\": 103.534192395125, \"annualized_return_pct\": 26.750473749038427, \"source\": \"https://finance.yahoo.com/quote/ITUB/history/\"}, \"SPY\": {\"entry_adjusted_close\": 415.34423828125, \"exit_adjusted_close\": 734.04150390625, \"cumulative_return_pct\": 76.73087435709039, \"annualized_return_pct\": 20.91883085075823, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 26.803318038034618}",
+          "verification_method": "computed adjusted-close USD dividends/splits; no fees/taxes; evaluator window"
+        },
+        {
+          "url": "https://www.itau.com.br/download-file/v2/d/42787847-4cf6-4461-94a5-40ed237dca33/be62f09b-303c-4432-9e89-4bb079381f20%3Forigin=1",
+          "title": "2024 earnings",
+          "publisher": "Itau Unibanco",
+          "date": "2025-02-05",
+          "verified": true,
+          "finding": "Recurring managerial earnings rose 18.2% to BRL 41.4bn in 2024; net earnings distributions rose 33.8% to BRL 28.7bn, including announced additional distribution/buybacks.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Define duration and decompose USD return into local business, dividend and FX components.",
+      "asset_or_variable": "itau-brazil-value",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C33"
+    },
+    {
+      "claim": "Singapore banks remain strong",
+      "source_blocks": [
+        149,
+        150
+      ],
+      "kind": "investment_thesis",
+      "family": "dbs-asian-banking",
+      "verdict": "not_testable",
+      "reason": "DBSDY three-year +167.38% versus SPY +76.73% strongly supports the favorable sensitivity. Broader Southeast Asia is heterogeneous; Singapore regulation does not eliminate the economic exposure to China.",
+      "evidence": [
+        {
+          "url": "https://finance.yahoo.com/quote/DBSDY/history/",
+          "title": "DBSDY three-year sensitivity",
+          "publisher": "Yahoo Finance",
+          "date": "2026-11-07",
+          "verified": true,
+          "finding": "{\"method\": \"First common trading close strictly after publication to last common close on/before the disclosed endpoint. Adjusted close as vendor dividend/split-adjusted proxy; USD listings; no taxes, fees or portfolio exits. Not a reconstructed subscriber trade.\", \"published\": \"2023-06-11\", \"requested_endpoint\": \"2026-06-11\", \"entry\": \"2023-06-12\", \"exit\": \"2026-06-11\", \"days\": 1095, \"endpoint_gap_days\": 0, \"endpoint_covered\": true, \"instruments\": {\"DBSDY\": {\"entry_adjusted_close\": 72.33038330078125, \"exit_adjusted_close\": 193.39895629882812, \"cumulative_return_pct\": 167.38273388458484, \"annualized_return_pct\": 38.827436882275165, \"source\": \"https://finance.yahoo.com/quote/DBSDY/history/\"}, \"SPY\": {\"entry_adjusted_close\": 415.34423828125, \"exit_adjusted_close\": 734.04150390625, \"cumulative_return_pct\": 76.73087435709039, \"annualized_return_pct\": 20.91883085075823, \"source\": \"https://finance.yahoo.com/quote/SPY/history/\"}}, \"excess_percentage_points\": 90.65185952749445}",
+          "verification_method": "computed adjusted-close USD dividends/splits; no fees/taxes; evaluator window"
+        },
+        {
+          "url": "https://www.dbs.com/newsroom/DBS_full_year_net_profit_up_11pct_to_new_high_of_SGD_11_4_billion_return_on_equity_of_18_0pct_sustained_at_previous_years_record",
+          "title": "2024 results",
+          "publisher": "DBS",
+          "date": "2025-02-10",
+          "verified": true,
+          "finding": "Net profit rose 11% to SGD 11.4b; ROE 18%; net interest margin, fee income and trading contributed.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": "Specify bank universe, horizon and credit/currency exposure.",
+      "asset_or_variable": "dbs-asian-banking",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C34"
+    },
+    {
+      "claim": "Cash protects defensive pillar",
+      "source_blocks": [
+        153,
+        155
+      ],
+      "kind": "explanation",
+      "family": "three-pillar-cash-equity-scarcity",
+      "verdict": "right",
+      "reason": "Short Treasury bills preserve low duration while earning policy-linked yields; they can provide drawdown liquidity without matching equity upside. This is a portfolio-role claim, not proof the unspecified overall portfolio was optimal.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+          "title": "FOMC statement",
+          "publisher": "Federal Reserve",
+          "date": "2023-07-26",
+          "verified": true,
+          "finding": "Policy target rose to 5.25-5.50%.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2024-ar-monetary-policy.htm",
+          "title": "2024 Annual Report: Monetary Policy",
+          "publisher": "Federal Reserve",
+          "date": null,
+          "verified": true,
+          "finding": "Policy rates exceeded PCE inflation during sustained restriction.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "three-pillar-cash-equity-scarcity",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C35"
+    },
+    {
+      "claim": "China enters larger aviation",
+      "source_blocks": [
+        159,
+        160
+      ],
+      "kind": "empirical",
+      "family": "china-c919-industrial-upgrading",
+      "verdict": "right",
+      "reason": "COMAC confirms the first C 919 commercial flight May 28. The material narrow-body milestone is valid, although China already had regional commercial-aircraft production before this event.",
+      "evidence": [
+        {
+          "url": "https://english.comac.cc/news/latest/202305/28/t20230528_7363001.shtml",
+          "title": "C 919 enters commercial service",
+          "publisher": "COMAC",
+          "date": "2023-05-28",
+          "verified": true,
+          "finding": "C 919 began Shanghai-Beijing commercial passenger service May 28, 2023; this verifies domestic operation, not foreign certification or exports.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "china-c919-industrial-upgrading",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Supported within the defined test.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C36"
+    },
+    {
+      "claim": "China exports aircraft widely",
+      "source_blocks": [
+        160
+      ],
+      "kind": "forecast",
+      "family": "china-commercial-aircraft-exports",
+      "verdict": "too_early",
+      "reason": "The decade extends to 2033. Domestic operation establishes a starting point, not export certification, airline acceptance or displacement of Airbus/Boeing. The author says could and limits likely early markets to developing countries.",
+      "evidence": [
+        {
+          "url": "https://english.comac.cc/news/latest/202305/28/t20230528_7363001.shtml",
+          "title": "C 919 enters commercial service",
+          "publisher": "COMAC",
+          "date": "2023-05-28",
+          "verified": true,
+          "finding": "C 919 began Shanghai-Beijing commercial passenger service May 28, 2023; this verifies domestic operation, not foreign certification or exports.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": "Next decade, through 2033",
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "china-commercial-aircraft-exports",
+      "modality": "possible",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "Assessed against the stated horizon: Next decade, through 2033",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "112-C37"
+    },
+    {
+      "claim": "UAE leaves maritime coalition",
+      "source_blocks": [
+        163
+      ],
+      "kind": "empirical",
+      "family": "uae-maritime-coalition-withdrawal",
+      "verdict": "mixed",
+      "reason": "Withdrawal was confirmed, but the May 31 statement says it occurred two months earlier, not a couple weeks before publication. UAE rejected press characterizations of conversations; attributing the decision simply to disappointment overstates its official explanation.",
+      "evidence": [
+        {
+          "url": "https://www.mofa.gov.ae/en/mediahub/news/2023/5/31/31-05-2023-uae-maritime-security",
+          "title": "UAE maritime-security statement",
+          "publisher": "UAE Ministry of Foreign Affairs",
+          "date": "2023-05-31",
+          "verified": true,
+          "finding": "UAE said it withdrew participation in Combined Maritime Forces two months earlier, while rejecting mischaracterizations of US-UAE conversations.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "uae-maritime-coalition-withdrawal",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C38"
+    },
+    {
+      "claim": "Asian naval accord protects trade",
+      "source_blocks": [
+        164,
+        169
+      ],
+      "kind": "forecast",
+      "family": "asian-naval-cooperation-scenario",
+      "verdict": "conditional_pending",
+      "reason": "The author expressly doubts the reported coalition and requires other governments to confirm. A diplomatic announcement is not operational joint command, logistics or effective sea-lane protection; industrial shipbuilding capacity alone does not supply those institutions.",
+      "evidence": [
+        {
+          "url": "https://www.mofa.gov.ae/en/mediahub/news/2023/5/31/31-05-2023-uae-maritime-security",
+          "title": "UAE maritime-security statement",
+          "publisher": "UAE Ministry of Foreign Affairs",
+          "date": "2023-05-31",
+          "verified": true,
+          "finding": "UAE said it withdrew participation in Combined Maritime Forces two months earlier, while rejecting mischaracterizations of US-UAE conversations.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.fmprc.gov.cn/eng/gjhdq_665435/2675_665437/2878_663746/2879_663748/202303/t20230311_11039241.html",
+          "title": "Saudi-Iran-China joint statement",
+          "publisher": "China Ministry of Foreign Affairs",
+          "date": "2023-03-10",
+          "verified": true,
+          "finding": "Agreement to restore Saudi-Iran diplomatic relations after Beijing talks; statement also credits earlier Iraqi and Omani dialogue.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": "Verified multilateral agreement and operational cooperation",
+      "next_check": "Identify signed agreement, participating commands, exercises and actual protection performance.",
+      "asset_or_variable": "asian-naval-cooperation-scenario",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "A matching outcome alone does not establish causation.",
+      "id": "112-C39"
+    },
+    {
+      "claim": "China gains diplomatic momentum",
+      "source_blocks": [
+        165,
+        171
+      ],
+      "kind": "explanation",
+      "family": "china-middle-east-diplomatic-bridge",
+      "verdict": "mixed",
+      "reason": "The Saudi-Iran restoration agreement substantiates a diplomatic achievement, while the joint statement credits prior Iraq/Oman talks too. It does not create a unified strategic bloc; domestic property and demographic weaknesses continue to coexist with industrial scale.",
+      "evidence": [
+        {
+          "url": "https://www.fmprc.gov.cn/eng/gjhdq_665435/2675_665437/2878_663746/2879_663748/202303/t20230311_11039241.html",
+          "title": "Saudi-Iran-China joint statement",
+          "publisher": "China Ministry of Foreign Affairs",
+          "date": "2023-03-10",
+          "verified": true,
+          "finding": "Agreement to restore Saudi-Iran diplomatic relations after Beijing talks; statement also credits earlier Iraqi and Omani dialogue.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.stats.gov.cn/english/PressRelease/202502/t20250228_1958822.html",
+          "title": "2024 economic and demographic statistics",
+          "publisher": "China NBS",
+          "date": "2025-02-28",
+          "verified": true,
+          "finding": "Population fell 1.39 million; consumer inflation only 0.2% and producer prices fell 2.2%. Aging did not mechanically create inflation.",
+          "verification_method": "opened primary source"
+        },
+        {
+          "url": "https://www.imf.org/en/News/Articles/2024/05/07/sp-geopolitics-impact-global-trade-and-dollar-gita-gopinath",
+          "title": "Geopolitics, trade and the dollar",
+          "publisher": "IMF",
+          "date": "2024-05-08",
+          "verified": true,
+          "finding": "Trade and FDI between geopolitical blocs weakened relative to within-bloc flows; renminbi and gold use rose selectively, while USD retained dominance.",
+          "verification_method": "opened primary source"
+        }
+      ],
+      "horizon": null,
+      "conditions": null,
+      "next_check": null,
+      "asset_or_variable": "china-middle-east-diplomatic-bridge",
+      "modality": "asserted",
+      "confidence": "medium",
+      "direction_assessment": "Not independently resolved; see rationale.",
+      "timing_assessment": "No numerical deadline was stated.",
+      "mechanism_assessment": "See rationale; this is not a forecast hit.",
+      "id": "112-C40"
+    }
+  ],
+  "tools_charts": [
+    {
+      "name": "Net liquidity",
+      "source_blocks": [
+        9,
+        35
+      ],
+      "use": "Funding offsets",
+      "image_inspected": false
+    },
+    {
+      "name": "PMI",
+      "source_blocks": [
+        40,
+        49
+      ],
+      "use": "Fiscal-credit balance",
+      "image_inspected": false
+    },
+    {
+      "name": "Valuation charts",
+      "source_blocks": [
+        104,
+        150
+      ],
+      "use": "Selection and sizing",
+      "image_inspected": false
+    }
+  ],
+  "framework_lessons": [
+    "Use cash, businesses and scarcity for different risks."
+  ],
+  "assessment": "The three-year Bitcoin direction succeeded, and the BLDR and short-window Adobe observations are reproducible. The September hedge expired out of the money if held, while its actual cost is unavailable. Liquidity direction and stock direction diverged. Legal analysis needs transaction-level nuance and later policy reversals; long business theses retain their actual horizons.",
+  "verification_limitations": [
+    "Captured website text is not an authenticated publication-date version.",
+    "Chart-only numerical claims have not been visually verified.",
+    "Selected stock/ETF adjusted-close comparisons are disclosed where used; no reconstructed portfolio backtest has been performed.",
+    "Unresolved verdicts are not forecast failures or successes; no aggregate hit rate is inferred."
+  ]
+}
