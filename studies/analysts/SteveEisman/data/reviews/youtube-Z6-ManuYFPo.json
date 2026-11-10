@@ -1,0 +1,931 @@
+{
+  "source_id": "youtube-Z6-ManuYFPo",
+  "title": "AI Has a Power Problem: Why the U.S. Power Grid Can't Keep Up | The Real Eisman Playbook Ep 69",
+  "date": "2026-07-20",
+  "source_url": "https://www.youtube.com/watch?v=Z6-ManuYFPo",
+  "read_complete": true,
+  "transcript_sha256": "fbcfc90859ae6b94891719b8722a6fb53f6d78a72170e35cc6f5e0da19d23e00",
+  "evaluation_as_of": "2026-11-10",
+  "summary": "Kallo describes power, grid equipment and skilled labor as bottlenecks to AI construction and favors GE Vernova's long order cycle. He discusses Tesla autonomy and storage, predicts a potential SpaceX-Tesla combination, and explains tariff-driven solar uncertainty. Eisman owns GE Vernova, questions Tesla's valuation and autonomy promises, and adopts the power-and-labor constraint thesis without endorsing all guest forecasts.",
+  "assessment": "Full transcript reviewed. Empirical claims without inspected primary outcome evidence remain unresolved; guest claims are separate from Eisman attribution. Primary outcome verification is incomplete for claims marked unresolved; these are not adverse accuracy grades.",
+  "speaker_map_notes": "Ben Kallo is the interviewed Baird analyst. Eisman asks questions, discloses GE Vernova ownership and closes with an explicit distinction between Kallo's bullish Tesla thesis and his own skepticism.",
+  "framework_points": [
+    "Distinguish announced projects from funded, interconnected construction and avoid double counting.",
+    "Identify speed-to-power and firm capacity rather than nominal generating capacity alone.",
+    "Value long-cycle equipment with backlog, service revenue and delivery timing.",
+    "Separate an EV business valuation from autonomy and robotics optionality."
+  ],
+  "tools_and_charts": [
+    "Power demand estimates in GW and energy output in TWh",
+    "Generation capacity factors",
+    "GE Vernova segments, orders and delivery slots",
+    "Tesla energy operating-income contribution",
+    "First Solar tariff/ASP/EPS sensitivity",
+    "EV residual values"
+  ],
+  "transcript_cautions": [
+    "Severe unit issues: captions give US capacity as 150 GW, reverse MW/GW conversion, and call the 30 GW annual estimate 30 MW in Eisman's closing summary. Audio confirmation is required before assigning these numerical errors to either speaker.",
+    "SMR first-unit timing is described as 2035, while OPG's published plan is 2030; distinguish analyst delay forecast from official schedule.",
+    "The closing summary says the guest likes no solar names, but Kallo explicitly says he recommends Nextpower."
+  ],
+  "claims": [
+    {
+      "id": "Z6-ManuYFPo-c001",
+      "claim": "Data-center construction and available electricity are binding constraints on the AI investment thesis.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 32,
+      "end_seconds": 59,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "energy"
+      ],
+      "entities": [],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "ai-power-bottleneck",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c002",
+      "claim": "Grid stress comes not only from data centers but also from reshoring, aging coal-plant retirements and broader electrification.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 143,
+      "end_seconds": 215,
+      "horizon": "not stated",
+      "topics": [
+        "energy",
+        "infrastructure"
+      ],
+      "entities": [],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "grid-multiple-demand-drivers",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c003",
+      "claim": "Forecasts range from 100 to 350 GW of new capacity needed by 2035, with roughly 30 GW annually over the next five years.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 224,
+      "end_seconds": 332,
+      "horizon": "Next five years and through 2035",
+      "topics": [
+        "energy",
+        "infrastructure"
+      ],
+      "entities": [],
+      "test": "Compare the stated proposition with US electricity generation and capacity. Preserve the metric, reporting period and conditions; agreement on direction alone does not prove a causal explanation.",
+      "qualifications": "Captioned existing-capacity baseline and units are unreliable.",
+      "verdict": "too_early",
+      "reason": "The forecast years are open and the capacity definition must be resolved.",
+      "evidence": [
+        {
+          "url": "https://www.eia.gov/energyexplained/electricity/electricity-in-the-us-generation-capacity-and-sales.php",
+          "title": "US electricity generation and capacity",
+          "publisher": "Energy Information Administration",
+          "date": "2026",
+          "finding": "End-2025 utility-scale generating capacity was 1,280,799 MW, approximately 1,281 GW. One GW equals 1,000 MW.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "grid-capacity-growth",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "Z6-ManuYFPo-c004",
+      "claim": "Reliable data-center operation requires firm power beyond the nominal capacity of intermittent resources, and peaks add further system needs.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 263,
+      "end_seconds": 396,
+      "horizon": "not stated",
+      "topics": [
+        "energy"
+      ],
+      "entities": [],
+      "test": "Hourly load, accredited capacity and resource adequacy modeling; quoted capacity-factor numbers require verification.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "firm-power-requirement",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c005",
+      "claim": "Data-center projects are proceeding, but labor, energy, interconnection and duplicate development applications make announcements overstate likely completions.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 480,
+      "end_seconds": 569,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "infrastructure"
+      ],
+      "entities": [],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "Google/Crusoe Wyoming example and only-one-gigawatt-site assertion are not independently verified.",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "data-center-project-pipeline",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c006",
+      "claim": "The shift to 800-volt data-center architecture increases specialized electrical-equipment needs and can delay projects while customers wait for new chips.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 571,
+      "end_seconds": 638,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "energy"
+      ],
+      "entities": [
+        "Nvidia",
+        "Bloom Energy"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "800v-transition",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c007",
+      "claim": "Speed-to-power demand supports repurposed aircraft turbines and Bloom fuel cells as alternatives to waiting for conventional turbine supply.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 721,
+      "end_seconds": 778,
+      "horizon": "not stated",
+      "topics": [
+        "energy",
+        "industrials"
+      ],
+      "entities": [
+        "GE Vernova",
+        "GE Aerospace",
+        "FTAI Aviation",
+        "Bloom Energy"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "speed-to-power-alternatives",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c008",
+      "claim": "GE Vernova's gas-turbine bookings extend to 2030-31 with pricing power, creating a long revenue and service tail.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 780,
+      "end_seconds": 808,
+      "horizon": "not stated",
+      "topics": [
+        "energy",
+        "industrials"
+      ],
+      "entities": [
+        "GE Vernova"
+      ],
+      "test": "Compare the stated proposition with GE Vernova Q2 2026 results. Preserve the metric, reporting period and conditions; agreement on direction alone does not prove a causal explanation.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Large growing backlog and output expansion are verified, but every claimed delivery slot and future margin is not.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gev2q2026form8-k.pdf",
+          "title": "GE Vernova Q2 2026 results",
+          "publisher": "GE Vernova / SEC",
+          "date": "2026-07-22",
+          "finding": "Orders $24.2bn, up 88% organically; backlog $176bn. Gas backlog plus reservations 116 GW; output targets 20 GW annualized in 2026, 24 GW in 2028 and 30 GW in 2030.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "gev-long-cycle-backlog",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c009",
+      "claim": "Local pollutant permits remain a potential construction bottleneck even where federal carbon policy is less restrictive.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 810,
+      "end_seconds": 837,
+      "horizon": "not stated",
+      "topics": [
+        "energy",
+        "regulation"
+      ],
+      "entities": [],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "power-air-permits",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c010",
+      "claim": "Bundling turbines with transformers and other electrification equipment increases GE Vernova's content per data-center power project.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 839,
+      "end_seconds": 881,
+      "horizon": "not stated",
+      "topics": [
+        "energy",
+        "industrials"
+      ],
+      "entities": [
+        "GE Vernova",
+        "Chevron"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "gev-bundled-equipment",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c011",
+      "claim": "GE Vernova wind is mainly turnaround optionality as problematic legacy offshore projects run off.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 879,
+      "end_seconds": 898,
+      "horizon": "not stated",
+      "topics": [
+        "energy"
+      ],
+      "entities": [
+        "GE Vernova"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "gev-wind-optionality",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c012",
+      "claim": "SMRs can supply data centers or small cities, but new supply chains, repeat-build economics and financing constrain rapid deployment.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 900,
+      "end_seconds": 1017,
+      "horizon": "not stated",
+      "topics": [
+        "energy",
+        "nuclear"
+      ],
+      "entities": [
+        "GE Vernova",
+        "Hitachi",
+        "OPG",
+        "TVA"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "smr-deployment-economics",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c013",
+      "claim": "GE Vernova's first SMR may arrive around 2035, with financially meaningful deployment only later in the 2030s.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 1020,
+      "end_seconds": 1052,
+      "horizon": "2035 and later",
+      "topics": [
+        "energy",
+        "nuclear"
+      ],
+      "entities": [],
+      "test": "Compare the stated proposition with Darlington small modular reactor project. Preserve the metric, reporting period and conditions; agreement on direction alone does not prove a causal explanation.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "Actual completion is future. OPG currently targets 2030, so 2035 must be treated as a delay view rather than the official schedule.",
+      "evidence": [
+        {
+          "url": "https://www.opg.com/projects-services/projects/nuclear/smr/darlington-smr/",
+          "title": "Darlington small modular reactor project",
+          "publisher": "Ontario Power Generation",
+          "date": "2026",
+          "finding": "The first BWRX-300 is under construction and targets grid connection by end-2030; four units would total 1,200 MW.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "gev-smr-timeline",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "Z6-ManuYFPo-c014",
+      "claim": "GE Vernova earnings may not peak until the middle of the next decade because services extend the cycle.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 1054,
+      "end_seconds": 1077,
+      "horizon": "Mid-2030s",
+      "topics": [
+        "energy",
+        "earnings"
+      ],
+      "entities": [],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "The earnings-cycle horizon is far beyond the cutoff.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "gev-earnings-runway",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "Z6-ManuYFPo-c015",
+      "claim": "US EV sales are growing slowly while Tesla auto sales may be flat or down; Chinese competition is expanding in Europe and elsewhere.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 1323,
+      "end_seconds": 1443,
+      "horizon": "2026 and subsequent market-share expansion",
+      "topics": [
+        "autos",
+        "competition"
+      ],
+      "entities": [
+        "Tesla",
+        "BYD",
+        "Nio"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "ev-demand-chinese-competition",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "Z6-ManuYFPo-c016",
+      "claim": "Tesla is overvalued if judged only on its vehicle business, and falling earnings have not reliably translated into profitable shorts.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 1109,
+      "end_seconds": 1144,
+      "horizon": "not stated",
+      "topics": [
+        "autos",
+        "valuation"
+      ],
+      "entities": [
+        "Tesla"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "Kallo explicitly agrees at 1481-1494; Eisman's short example is hypothetical.",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "tesla-auto-valuation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c017",
+      "claim": "Tesla's robotaxi deployment should accelerate first in Texas and then elsewhere, with several competitors rather than a winner-take-all market.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 1500,
+      "end_seconds": 1598,
+      "horizon": "Forward deployment, no precise completion date",
+      "topics": [
+        "autos",
+        "autonomy"
+      ],
+      "entities": [
+        "Tesla",
+        "Waymo",
+        "Zoox"
+      ],
+      "test": "Verified driverless fleet size, paid rides, operational domains and permits by city.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "tesla-robotaxi-expansion",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "Z6-ManuYFPo-c018",
+      "claim": "Tesla's camera-only approach, owned manufacturing and large vehicle-data fleet may allow faster autonomy scaling than mapped alternatives.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 1598,
+      "end_seconds": 1662,
+      "horizon": "not stated",
+      "topics": [
+        "autos",
+        "autonomy"
+      ],
+      "entities": [
+        "Tesla",
+        "Waymo"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "tesla-vision-scale",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c019",
+      "claim": "Tesla's Megapack storage business contributes meaningful operating profit and cash flow, helping fund autonomy and robotics development.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1660,
+      "end_seconds": 1747,
+      "horizon": "not stated",
+      "topics": [
+        "energy",
+        "autos"
+      ],
+      "entities": [
+        "Tesla"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "tesla-storage-cashflow",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c020",
+      "claim": "SpaceX could acquire Tesla within eighteen months, potentially in 2026, to increase Musk's control, simplify joint projects and improve access to capital.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 1801,
+      "end_seconds": 1961,
+      "horizon": "Within 18 months, possibly 2026",
+      "topics": [
+        "autos",
+        "space"
+      ],
+      "entities": [
+        "SpaceX",
+        "Tesla",
+        "Elon Musk"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "The stated 18-month window is open; motivations are analyst inference, not a disclosed transaction.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "spacex-tesla-merger",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "Z6-ManuYFPo-c021",
+      "claim": "A SpaceX-Tesla combination would create a very complex conglomerate with numerous unrelated businesses.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "exploratory",
+      "kind": "investment thesis",
+      "start_seconds": 1744,
+      "end_seconds": 1799,
+      "horizon": "not stated",
+      "topics": [
+        "autos",
+        "space"
+      ],
+      "entities": [
+        "SpaceX",
+        "Tesla"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "spacex-tesla-complexity",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c022",
+      "claim": "Space-based data centers illustrate the premium placed on plentiful energy, although cooling and equipment remain constraints.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "exploratory",
+      "kind": "investment thesis",
+      "start_seconds": 1961,
+      "end_seconds": 2006,
+      "horizon": "not stated",
+      "topics": [
+        "space",
+        "energy"
+      ],
+      "entities": [],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "space-data-center-energy",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c023",
+      "claim": "MP Materials' domestic rare-earth and magnet capacity is strategically valuable because motors and cooling equipment require magnets and China dominates supply.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2052,
+      "end_seconds": 2092,
+      "horizon": "not stated",
+      "topics": [
+        "materials",
+        "supply-chain"
+      ],
+      "entities": [
+        "MP Materials",
+        "GM",
+        "Apple",
+        "China"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "mp-magnet-demand",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c024",
+      "claim": "Residential solar has difficult customer-acquisition economics, while utility-scale solar benefits from scale.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2098,
+      "end_seconds": 2127,
+      "horizon": "not stated",
+      "topics": [
+        "energy",
+        "solar"
+      ],
+      "entities": [],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "solar-scale-economics",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c025",
+      "claim": "First Solar faces execution and tariff uncertainty that limits bookings and makes a recommendation premature despite strong power demand.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2399,
+      "end_seconds": 2492,
+      "horizon": "not stated",
+      "topics": [
+        "energy",
+        "solar"
+      ],
+      "entities": [
+        "First Solar"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "first-solar-tariff-uncertainty",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c026",
+      "claim": "Favorable tariff decisions could add roughly $100 to First Solar's $250 share price; each cent of ASP is roughly $2 EPS and earnings might reach $17-18.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "conditional",
+      "kind": "forecast",
+      "start_seconds": 2492,
+      "end_seconds": 2530,
+      "horizon": "If favorable tariff terms emerge; next-year earnings",
+      "topics": [
+        "solar",
+        "valuation"
+      ],
+      "entities": [
+        "First Solar"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "Conditional tariff and earnings scenarios remain open and require exact policy triggers.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "first-solar-tariff-upside",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "Z6-ManuYFPo-c027",
+      "claim": "Rivian has a stronger brand and scaling opportunity than Lucid, with R2 addressing demand for an alternative to Tesla's Model Y; Lucid may become more a technology supplier.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2531,
+      "end_seconds": 2616,
+      "horizon": "not stated",
+      "topics": [
+        "autos",
+        "competition"
+      ],
+      "entities": [
+        "Rivian",
+        "Lucid",
+        "Tesla"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "rivian-versus-lucid",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c028",
+      "claim": "Power-equipment demand has a decade-long runway despite overcapacity concerns, while skilled labor will become an increasing bottleneck.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 2617,
+      "end_seconds": 2695,
+      "horizon": "Next decade",
+      "topics": [
+        "energy",
+        "labor"
+      ],
+      "entities": [],
+      "test": "Compare the stated proposition with GE Vernova Q2 2026 results. Preserve the metric, reporting period and conditions; agreement on direction alone does not prove a causal explanation.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "Long-cycle demand and labor-supply outcome remains open.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gev2q2026form8-k.pdf",
+          "title": "GE Vernova Q2 2026 results",
+          "publisher": "GE Vernova / SEC",
+          "date": "2026-07-22",
+          "finding": "Orders $24.2bn, up 88% organically; backlog $176bn. Gas backlog plus reservations 116 GW; output targets 20 GW annualized in 2026, 24 GW in 2028 and 30 GW in 2030.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "power-supercycle-labor",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "Z6-ManuYFPo-c029",
+      "claim": "Rapid EV product innovation weakens residual values; battery degradation varies by environment and is often less important than assumed.",
+      "speaker": "Ben Kallo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2701,
+      "end_seconds": 2789,
+      "horizon": "not stated",
+      "topics": [
+        "autos"
+      ],
+      "entities": [],
+      "test": "Model-level used-price cohorts, new-price changes, battery health and warranty evidence.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "ev-residual-values",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c030",
+      "claim": "GE Vernova offers long-cycle visibility through turbines, electrification and eventually nuclear; labor availability is a key constraint on realizing the buildout.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "endorsed",
+      "kind": "investment thesis",
+      "start_seconds": 2799,
+      "end_seconds": 2933,
+      "horizon": "not stated",
+      "topics": [
+        "energy",
+        "labor"
+      ],
+      "entities": [
+        "GE Vernova"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "gev-ai-power",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "Z6-ManuYFPo-c031",
+      "claim": "Eisman remains skeptical of Tesla autonomy promises despite Kallo's positive outlook.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "rejected",
+      "kind": "investment thesis",
+      "start_seconds": 2878,
+      "end_seconds": 2895,
+      "horizon": "not stated",
+      "topics": [
+        "autos",
+        "autonomy"
+      ],
+      "entities": [
+        "Tesla"
+      ],
+      "test": "Compare actual deployments with dated company promises; skepticism is not a specific failure deadline.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "tesla-autonomy-skepticism",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    }
+  ]
+}

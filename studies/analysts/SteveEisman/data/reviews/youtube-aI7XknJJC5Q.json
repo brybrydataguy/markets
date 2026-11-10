@@ -1,0 +1,1488 @@
+{
+  "source_id": "youtube-aI7XknJJC5Q",
+  "title": "Gary Marcus on the Massive Problems Facing AI & LLM Scaling | The Real Eisman Playbook Episode 42",
+  "date": "2026-01-19",
+  "source_url": "https://www.youtube.com/watch?v=aI7XknJJC5Q",
+  "read_complete": true,
+  "transcript_sha256": "3e27f4b31b19e10af8c958704f3793172c2a7478c59cd001455eddf7076bd226",
+  "evaluation_as_of": "2026-11-10",
+  "summary": "Gary Marcus argues that LLM scaling faces diminishing returns, unreliable generalization and weak investment economics. Eisman probes the link to GPU demand, explicitly making his spending slowdown and contagion scenarios conditional. The review separates useful reliability and financing questions from categorical claims about cognition and automation. Primary studies narrow the 2.5% automation statistic, contradict the assertion that models never express uncertainty, and demonstrate limited learned world representations. Later executed financing weakens an immediate OpenAI collapse interpretation without settling eventual profitability.",
+  "assessment": "Strongest host contribution is conditional translation of a technical thesis into demand and financing exposures, with explicit admission that GPU end-use shares are unknown. The weakest shared step is treating failure to reach AGI as sufficient to prove poor returns on all current chips. Marcus supplies useful reliability cautions but overgeneralizes narrow automation data and makes categorical technical assertions that inspected research qualifies or contradicts. Undated failure predictions are not assigned invented deadlines.",
+  "speaker_map_notes": "Gary Marcus is the technical guest; Steve Eisman asks business and finance questions. Explicit host endorsements and conditionals are recorded separately. Agreement or silence is not treated as ownership of every guest claim.",
+  "framework_points": [
+    "Translate technical limitations into demand and funding scenarios, but preserve the antecedent before grading the forecast.",
+    "Differentiate model capability, economically useful assistance, full job automation and AGI.",
+    "Question investment returns and cash runway, while distinguishing cash burn from reported losses.",
+    "Expert opinion, researcher departures and anecdotes are suggestive signals, not controlled capability or causal tests."
+  ],
+  "tools_and_charts": [
+    "GPT-3/GPT-4/GPT-5 qualitative comparison",
+    "AAAI researcher survey",
+    "Remote Labor Index 2.5% completion result",
+    "Hyperscaler capex estimate and unknown LLM GPU share",
+    "OpenAI funding versus monthly-loss runway arithmetic",
+    "Google TPU and internal cash-flow comparison"
+  ],
+  "transcript_cautions": [
+    "Opening montage repeats later discussion and is not used as independent evidence.",
+    "Captions garble names such as Ilya Sutskever and WeWork; normalized only where context is unambiguous.",
+    "The 85% survey figure is preserved as stated and evaluated against the actual question and 76% result.",
+    "Tesla collision training-data cause is explicitly speculative despite confident subsequent phrasing.",
+    "Eisman explicitly endorses the statistical-thinking characterization and Nvidia ecosystem quality; most technical and failure predictions belong to Marcus."
+  ],
+  "claims": [
+    {
+      "claim": "GPU parallel computation enabled the large-scale neural-network advances associated with the 2012 deep-learning breakthrough.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 219,
+      "end_seconds": 356,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "semiconductors"
+      ],
+      "entities": [],
+      "test": "Inspect original ImageNet architecture and hardware experiments to identify contribution versus data and algorithm changes.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "gpu_deep_learning",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "aI7XknJJC5Q-c001"
+    },
+    {
+      "claim": "Neural networks are strong at statistical pattern recognition but weak at abstraction and deliberative reasoning; treating them as a complete intelligence architecture is a mistake.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 354,
+      "end_seconds": 450,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated neural abstraction proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "System 1 and System 2 are analogies, not an operational benchmark.",
+      "verdict": "mixed",
+      "reason": "Narrow sequence-model causal experiments show learned internal structure, while test-time-compute research demonstrates task-dependent reasoning gains and limitations. Neither establishes general intelligence; categorical absence of abstraction overstates the evidence.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2210.13382v5",
+          "title": "Emergent World Representations: Exploring a Sequence Model Trained on a Synthetic Task",
+          "publisher": "Li et al., ICLR research paper",
+          "date": "2024-06-26",
+          "finding": "An Othello sequence model learned a board-state representation; causal interventions changed legal-move predictions, including on unnatural boards. This narrow experiment does not establish general world understanding.",
+          "verified": true
+        },
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/1b623663fd9b874366f3ce019fdfdd44-Paper-Conference.pdf",
+          "title": "Scaling LLM Test-Time Compute Optimally Can be More Effective than Scaling Parameters for Reasoning",
+          "publisher": "Snell et al., ICLR",
+          "date": "2025",
+          "finding": "PaLM-2 MATH experiments find prompt-dependent benefits from verifier search and revisions. Adaptive allocation improves compute efficiency; hard tasks can still favor larger pretrained models.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "neural_abstraction",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c002"
+    },
+    {
+      "claim": "Scaling the current LLM recipe with more data and GPUs will not by itself produce artificial general intelligence; industry extrapolation mistakes past gains for an unlimited trajectory.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 450,
+      "end_seconds": 612,
+      "horizon": "No date; scaling the existing recipe without foundational changes",
+      "topics": [
+        "ai",
+        "capital-spending"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated scaling to agi proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "AGI and the boundary of the existing recipe are not operationally specified. No finite benchmark observation resolves the eventual architecture claim.",
+      "evidence": [],
+      "next_check": "Track specified generalization tests and architecture changes; require an explicit AGI criterion before resolving the long-run forecast.",
+      "confidence": "medium",
+      "family": "scaling_to_agi",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "aI7XknJJC5Q-c003"
+    },
+    {
+      "claim": "LLMs are next-token prediction systems trained on enormous text corpora, which explains their broad fluency and statistical associations.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 630,
+      "end_seconds": 762,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated next token training proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The inspected theoretical paper describes corpus distribution learning and next-word prediction. This supports the training description, not the stronger claim that only memorization is possible.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2509.04664v1",
+          "title": "Why Language Models Hallucinate",
+          "publisher": "Kalai, Nachum, Vempala and Zhang",
+          "date": "2025-09-04",
+          "finding": "Formal analysis links generative errors to classification uncertainty and training objectives. It separates base models from post-training, allows abstention, and does not reduce all errors to token fragmentation.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "next_token_training",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "aI7XknJJC5Q-c004"
+    },
+    {
+      "claim": "Fragmenting text and losing its connections creates hallucinations because LLMs reconstruct plausible combinations without reliable grounding.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 660,
+      "end_seconds": 696,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated hallucination mechanism proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Statistical training can create confident errors, but the inspected theory identifies classification uncertainty and scoring incentives even without a next-token architecture. Fragmentation is not established as the complete mechanism.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2509.04664v1",
+          "title": "Why Language Models Hallucinate",
+          "publisher": "Kalai, Nachum, Vempala and Zhang",
+          "date": "2025-09-04",
+          "finding": "Formal analysis links generative errors to classification uncertainty and training objectives. It separates base models from post-training, allows abstention, and does not reduce all errors to token fragmentation.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "hallucination_mechanism",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c005"
+    },
+    {
+      "claim": "LLMs produce confident factual fabrications, so fluent output needs verification rather than being treated as a reliable encyclopedia.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 774,
+      "end_seconds": 1045,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated hallucination reliability proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Inspected paper reports reproducible false factual outputs and analyzes why training can reward guessing. The claim is a reliability caution, not that every answer is false.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2509.04664v1",
+          "title": "Why Language Models Hallucinate",
+          "publisher": "Kalai, Nachum, Vempala and Zhang",
+          "date": "2025-09-04",
+          "finding": "Formal analysis links generative errors to classification uncertainty and training objectives. It separates base models from post-training, allows abstention, and does not reduce all errors to token fragmentation.",
+          "verified": true
+        },
+        {
+          "url": "https://openai.com/index/why-language-models-hallucinate/",
+          "title": "Why language models hallucinate: SimpleQA evaluation table",
+          "publisher": "OpenAI",
+          "date": "2025-09-05",
+          "finding": "Reported SimpleQA abstentions were 52% for GPT-5-thinking-mini versus 1% for o4-mini; errors were 26% versus 75%. Provider-run test, not an independent universal reliability estimate.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "hallucination_reliability",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c006"
+    },
+    {
+      "claim": "Polished AI output causes a looks-good-to-me effect: readers and editors miss errors, producing low-quality work that appears credible.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 959,
+      "end_seconds": 1006,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "productivity"
+      ],
+      "entities": [],
+      "test": "Measure blinded reviewer detection and downstream correction costs against human-written controls, not just count visible anecdotes.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "workslop",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c007"
+    },
+    {
+      "claim": "LLMs do not think and instead combine material according to statistical associations; Eisman explicitly adopts this characterization during the exchange.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "endorsed",
+      "kind": "explanation",
+      "start_seconds": 1002,
+      "end_seconds": 1027,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated llm thinking proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "This is an explicit host endorsement; other Marcus statements remain guest views.",
+      "verdict": "not_testable",
+      "reason": "Thinking is undefined here. Statistical generation is a training description and cannot by itself decide whether a system meets a chosen cognitive criterion.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "llm_thinking",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c008"
+    },
+    {
+      "claim": "LLMs cannot tell correct from incorrect statements and never communicate uncertainty, instead presenting all output with encyclopedia-like confidence.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1019,
+      "end_seconds": 1050,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated llm uncertainty proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "The categorical never assertion is contradicted by recorded abstentions in the inspected SimpleQA table. This does not imply calibrated uncertainty on all tasks or eliminate hallucinations.",
+      "evidence": [
+        {
+          "url": "https://openai.com/index/why-language-models-hallucinate/",
+          "title": "Why language models hallucinate: SimpleQA evaluation table",
+          "publisher": "OpenAI",
+          "date": "2025-09-05",
+          "finding": "Reported SimpleQA abstentions were 52% for GPT-5-thinking-mini versus 1% for o4-mini; errors were 26% versus 75%. Provider-run test, not an independent universal reliability estimate.",
+          "verified": true
+        },
+        {
+          "url": "https://arxiv.org/html/2509.04664v1",
+          "title": "Why Language Models Hallucinate",
+          "publisher": "Kalai, Nachum, Vempala and Zhang",
+          "date": "2025-09-04",
+          "finding": "Formal analysis links generative errors to classification uncertainty and training objectives. It separates base models from post-training, allows abstention, and does not reduce all errors to token fragmentation.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "high",
+      "family": "llm_uncertainty",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c009"
+    },
+    {
+      "claim": "AI-generated false information is degrading major social institutions and democratic decision-making by contaminating the information environment.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1050,
+      "end_seconds": 1101,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "politics"
+      ],
+      "entities": [],
+      "test": "Identify measured exposure and institutional outcomes with controls for non-AI misinformation; establish causal contribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "institutional_information",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c010"
+    },
+    {
+      "claim": "A reported ChatGPT response denied the Maduro capture while it was being televised, illustrating a serious gap between chatbot answers and current events.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1099,
+      "end_seconds": 1140,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Inspect the original dated conversation, model version and browsing settings; distinguish a single failure from all model behavior.",
+      "qualifications": "Eisman cites Marcus reporting; no original interaction is available in this audit.",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "current_events_failure",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "aI7XknJJC5Q-c011"
+    },
+    {
+      "claim": "Training cutoffs and inadequately integrated search explain current-event failures; systems vary in their ability to update the pretrained model with new information.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1133,
+      "end_seconds": 1172,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Compare dated base-model knowledge and actual retrieval traces for the disputed answer.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "retrieval_integration",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c012"
+    },
+    {
+      "claim": "Statistical memorization creates systematic vulnerability to novel situations far from training examples, making reliable real-world deployment difficult.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1165,
+      "end_seconds": 1242,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Use controlled distribution-shift evaluations and incident investigation, separating perception, control, training data and system integration.",
+      "qualifications": "The Tesla jet anecdote is illustrative; Marcus explicitly says he does not know its underlying details.",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "out_of_distribution",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c013"
+    },
+    {
+      "claim": "The Tesla Summon jet collision occurred because the system had not learned jets as obstacles and lacked a general concept of avoiding physical objects.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1180,
+      "end_seconds": 1242,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "autonomy"
+      ],
+      "entities": [
+        "Tesla"
+      ],
+      "test": "Establish whether the stated tesla failure cause proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No engineering incident record or training-data audit was inspected. A collision video would not establish this proposed cause.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "tesla_failure_cause",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "aI7XknJJC5Q-c014"
+    },
+    {
+      "claim": "Whether a new model is better depends on the task; demonstrations and broad claims of superiority do not substitute for specified measurements.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1339,
+      "end_seconds": 1500,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated task specific evaluation proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Assume performance is a vector across tasks and better means a defined ordering. Without task weights or dominance on every task, a scalar universal ranking is not implied. Different benchmark weighting can reverse rankings.",
+      "evidence": [],
+      "next_check": "For each claimed improvement, specify task distribution, cost, reliability and baseline.",
+      "confidence": "medium",
+      "family": "task_specific_evaluation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "evidence_basis": "deductive",
+      "proof_assumptions": "Assume performance is a vector across tasks and better means a defined ordering. Without task weights or dominance on every task, a scalar universal ranking is not implied. Different benchmark weighting can reverse rankings.",
+      "id": "aI7XknJJC5Q-c015",
+      "proof": {
+        "assumptions": [],
+        "derivation": "Assume performance is a vector across tasks and better means a defined ordering. Without task weights or dominance on every task, a scalar universal ranking is not implied. Different benchmark weighting can reverse rankings."
+      }
+    },
+    {
+      "claim": "GPT-5 improves on GPT-4, but the improvement is subtler than the GPT-3-to-GPT-4 jump, indicating diminishing returns from scaling.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1500,
+      "end_seconds": 1595,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Compare matched model versions on unchanged benchmarks against training compute, costs and inference budgets; subjective surprise is not a scaling law.",
+      "qualifications": "Marcus acknowledges improvement and limited firsthand testing of Gemini; no specific benchmark series is supplied.",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "diminishing_returns",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c016"
+    },
+    {
+      "claim": "Hyperscalers spent roughly $500 billion during 2025, and a substantial but unknown fraction of Nvidia GPUs went to LLM development.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1595,
+      "end_seconds": 1667,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "capital-spending"
+      ],
+      "entities": [
+        "Nvidia",
+        "Microsoft",
+        "Meta"
+      ],
+      "test": "Sum clearly defined hyperscaler cash capex and leases, then obtain customer end-use data; do not treat all capex as Nvidia chips.",
+      "qualifications": "Eisman explicitly says he cannot establish whether the LLM share is 30%, 40%, 60% or 70%; these are not point estimates.",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "hyperscaler_llm_exposure",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "aI7XknJJC5Q-c017"
+    },
+    {
+      "claim": "If hyperscalers adopted Marcus’s conclusion that current scaling has reached its practical limit, they would pause and sharply slow GPU purchases while researching alternatives.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "forecast",
+      "start_seconds": 1660,
+      "end_seconds": 1726,
+      "horizon": "Conditional on major buyers adopting the scaling-limit view; no date",
+      "topics": [
+        "ai",
+        "semiconductors"
+      ],
+      "entities": [
+        "Nvidia",
+        "Microsoft",
+        "Meta"
+      ],
+      "test": "Establish whether the stated conditional gpu slowdown proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "The stated belief change has not been established. Continuing Nvidia revenue growth does not test a conditional whose antecedent is unverified, and inference demand could offset reduced training purchases.",
+      "evidence": [
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
+          "title": "Second quarter fiscal 2027 financial results",
+          "publisher": "Nvidia",
+          "date": "2026-08-26",
+          "finding": "Quarter ended July 26 revenue $96.221 billion, up 106% year over year and 18% sequentially; data center $89.0 billion, up 117% year over year. Q1 revenue $81.615 billion. These are reported operating results, not proof of customer investment returns.",
+          "verified": true
+        }
+      ],
+      "next_check": "Observe buyer research strategy, training orders and inference capacity separately if the condition occurs.",
+      "confidence": "medium",
+      "family": "conditional_gpu_slowdown",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "aI7XknJJC5Q-c018"
+    },
+    {
+      "claim": "Expert opinion has shifted against scaling to AGI; he cites an AAAI survey as showing 85% of respondents thought LLMs would not reach it.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1723,
+      "end_seconds": 1805,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated expert scaling survey proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "The primary report shows a skeptical majority, but 76%, not 85%, answered about scaling current approaches. The 475-person nonrandom sample is not a census of AI researchers or proof of impossibility.",
+      "evidence": [
+        {
+          "url": "https://aaai.org/wp-content/uploads/2025/03/AAAI-2025-PresPanel-Report-Digital-3.7.25.pdf",
+          "title": "AAAI Presidential Panel on the Future of AI Research",
+          "publisher": "AAAI",
+          "date": "2025-03-07",
+          "finding": "Among 475 nonrandom respondents, 76% considered scaling current AI approaches unlikely or very unlikely to yield AGI. This is expert opinion, not a technical impossibility result.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "high",
+      "family": "expert_scaling_survey",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "aI7XknJJC5Q-c019"
+    },
+    {
+      "claim": "Ilya Sutskever’s call for a return to foundational research confirms that leading researchers increasingly recognize the limits of scaling.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1805,
+      "end_seconds": 1871,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Inspect the complete original interview and distinguish one researcher’s strategy from field-wide consensus.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "researcher_sentiment",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "aI7XknJJC5Q-c020"
+    },
+    {
+      "claim": "GPT-5 fell far short of expectations of PhD-level general intelligence, and continued hallucinations undermine the promised qualitative breakthrough.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1859,
+      "end_seconds": 2028,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Match the original promised tasks and reliability thresholds to controlled evaluations; generalized disappointment is not a uniform performance measure.",
+      "qualifications": "He grants that the model is better in some respects.",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "gpt5_promise_gap",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c021"
+    },
+    {
+      "claim": "Recent practical improvements increasingly come from attaching classical symbolic tools such as Python rather than simply making the LLM bigger.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2039,
+      "end_seconds": 2106,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Attribute capability gains through architecture and tool ablations across representative model releases, holding training and inference budgets constant.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "hybrid_tool_progress",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c022"
+    },
+    {
+      "claim": "Symbolic tools execute on CPUs rather than needing the GPU-heavy LLM approach, potentially weakening the link between AI progress and Nvidia demand.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2039,
+      "end_seconds": 2110,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "semiconductors"
+      ],
+      "entities": [
+        "Nvidia"
+      ],
+      "test": "Measure total accelerator and CPU work across model orchestration, tool execution and added usage; CPU execution of a calculator alone does not establish lower aggregate GPU demand.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "cpu_tool_substitution",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c023"
+    },
+    {
+      "claim": "Senior researchers leaving OpenAI is evidence that AGI is not imminent there; people would not leave just before the promised breakthrough.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2110,
+      "end_seconds": 2146,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "test": "Obtain departure motives and compare predictive accuracy of departures with project milestones; mobility is not a unique diagnostic of technical failure.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "researcher_departure_signal",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c024"
+    },
+    {
+      "claim": "Model makers use similar recipes and lack durable technical moats; rivals have converged while token prices have fallen dramatically, threatening returns on enormous investment.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2144,
+      "end_seconds": 2241,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "valuation"
+      ],
+      "entities": [
+        "OpenAI",
+        "Google",
+        "Anthropic"
+      ],
+      "test": "Compare matched-quality pricing, switching costs, cost per output, gross margins and retained customer demand across named models.",
+      "qualifications": "The claimed hundredfold price decline needs constant-quality and time-period matching; it is not a verified profit decline.",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "model_commoditization",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c025"
+    },
+    {
+      "claim": "If scale alone determines success, Google should win because it has the financial resources to fund the necessary investment.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "investment thesis",
+      "start_seconds": 2158,
+      "end_seconds": 2196,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "competition"
+      ],
+      "entities": [
+        "Google"
+      ],
+      "test": "Test the scale-only assumption and compare effective compute, execution, distribution, costs and monetization; financial resources alone do not deductively guarantee the winner.",
+      "qualifications": "Repeated at 2940 seconds; preserves the explicit if-scale-only condition.",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "google_scale_advantage",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c026"
+    },
+    {
+      "claim": "Reasoning models use extra inference-time computation, exploring or revising possible answers, so their resource cost can exceed a simple direct response.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2239,
+      "end_seconds": 2365,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "costs"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated inference compute cost proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The inspected research explicitly varies generation budgets, revisions and verifier search. More identical-unit computation costs more under fixed hardware and utilization; adaptive strategies can improve efficiency at a target accuracy.",
+      "evidence": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/1b623663fd9b874366f3ce019fdfdd44-Paper-Conference.pdf",
+          "title": "Scaling LLM Test-Time Compute Optimally Can be More Effective than Scaling Parameters for Reasoning",
+          "publisher": "Snell et al., ICLR",
+          "date": "2025",
+          "finding": "PaLM-2 MATH experiments find prompt-dependent benefits from verifier search and revisions. Adaptive allocation improves compute efficiency; hard tasks can still favor larger pretrained models.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "inference_compute_cost",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c027"
+    },
+    {
+      "claim": "Reasoning systems perform best where answers can be checked, such as mathematics and coding; open-world reliability is much harder to validate.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2365,
+      "end_seconds": 2411,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated verifiable reasoning proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "The inspected study supports gains and difficulty dependence in verifiable mathematics. It does not establish a comprehensive ranking against all open-world tasks, so the broader comparison remains unverified.",
+      "evidence": [
+        {
+          "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/1b623663fd9b874366f3ce019fdfdd44-Paper-Conference.pdf",
+          "title": "Scaling LLM Test-Time Compute Optimally Can be More Effective than Scaling Parameters for Reasoning",
+          "publisher": "Snell et al., ICLR",
+          "date": "2025",
+          "finding": "PaLM-2 MATH experiments find prompt-dependent benefits from verifier search and revisions. Adaptive allocation improves compute efficiency; hard tasks can still favor larger pretrained models.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "verifiable_reasoning",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c028"
+    },
+    {
+      "claim": "Reasoning models still struggle with genuinely novel circumstances; benchmark success within familiar distributions does not establish robust deployment outside them.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2408,
+      "end_seconds": 2570,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Use preregistered novel-task and distribution-shift suites with contamination checks and independently verified outcomes.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "reasoning_generalization",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c029"
+    },
+    {
+      "claim": "AI research should diversify beyond scaling, pursuing sample-efficient reasoning and structured models rather than allocating nearly everything to the same architecture.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 2579,
+      "end_seconds": 2642,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "research"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated research diversity proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "This is a research-allocation recommendation without a quantified objective function or counterfactual budget comparison.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "research_diversity",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c030"
+    },
+    {
+      "claim": "Large venture funds benefit from management fees on large capital pools, giving managers incentives to sell expensive AI investment narratives even if eventual LP returns disappoint.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2639,
+      "end_seconds": 2720,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "private-capital"
+      ],
+      "entities": [],
+      "test": "Inspect actual fee contracts and investment decisions; distinguish the incentive mechanism from an allegation of knowing promotion of bad assets.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "vc_incentives",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c031"
+    },
+    {
+      "claim": "Limited partners financing the current AI spending boom will ultimately lose substantial money because the technology will not justify the capital invested.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 2700,
+      "end_seconds": 2756,
+      "horizon": "Eventually; no fixed date and timing explicitly uncertain",
+      "topics": [
+        "ai",
+        "private-capital"
+      ],
+      "entities": [],
+      "test": "Track specified fund vintages, cash flows and realized net returns; mark-to-market headlines alone are insufficient.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "ai_lp_losses",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "aI7XknJJC5Q-c032"
+    },
+    {
+      "claim": "Even if the AI investment thesis is wrong, short sellers can run out of capital before prices adjust; timing the unwind is uncertain.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 2720,
+      "end_seconds": 2756,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "risk-management"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated short timing risk proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Assume a financed short position with finite collateral and margin requirements. An interim price rise can trigger forced covering before a later decline, so eventual correctness does not ensure a profitable realizable path.",
+      "evidence": [],
+      "next_check": "Assess position sizing, financing, borrow terms and available liquidity rather than infer a crash date.",
+      "confidence": "medium",
+      "family": "short_timing_risk",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "evidence_basis": "deductive",
+      "proof_assumptions": "Assume a financed short position with finite collateral and margin requirements. An interim price rise can trigger forced covering before a later decline, so eventual correctness does not ensure a profitable realizable path.",
+      "id": "aI7XknJJC5Q-c033",
+      "proof": {
+        "assumptions": [],
+        "derivation": "Assume a financed short position with finite collateral and margin requirements. An interim price rise can trigger forced covering before a later decline, so eventual correctness does not ensure a profitable realizable path."
+      }
+    },
+    {
+      "claim": "Investors have begun questioning circular financing and weak AI returns, making a speculative reversal more plausible.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2745,
+      "end_seconds": 2780,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "valuation"
+      ],
+      "entities": [],
+      "test": "Measure financing exposures and investor surveys/flows over the claimed period; isolated anecdotes cannot establish a market-wide change.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "ai_sentiment_turn",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c034"
+    },
+    {
+      "claim": "Nvidia has an impressive product and software ecosystem; the investment issue is future unit demand rather than an assertion that its technology is poor.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "endorsed",
+      "kind": "investment thesis",
+      "start_seconds": 2759,
+      "end_seconds": 2796,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "semiconductors"
+      ],
+      "entities": [
+        "Nvidia"
+      ],
+      "test": "Establish whether the stated nvidia product quality proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "Product quality is an unquantified judgment here. The useful analytical distinction is retained without assigning a stock-return grade.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "nvidia_product_quality",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c035"
+    },
+    {
+      "claim": "Current Nvidia demand is fundamentally speculation on AGI and effectively limitless future demand, so failure to achieve AGI will undermine the chip investment.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2780,
+      "end_seconds": 2847,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "semiconductors"
+      ],
+      "entities": [
+        "Nvidia"
+      ],
+      "test": "Disaggregate realized profitable uses, training and inference demand, customer cash flows and required utilization; lack of AGI alone does not prove every chip investment unprofitable.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "agi_required_chip_roi",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c036"
+    },
+    {
+      "claim": "A recent study shows AI can do only 2.5% of people’s jobs, demonstrating how far actual automation falls short of investment expectations.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2818,
+      "end_seconds": 2847,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "labor"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated automation scope proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "The cited result matches the Remote Labor Index’s best-agent completion rate on 240 freelance projects. It is not 2.5% of all jobs and does not measure human-assisted value or justify a universal chip-ROI conclusion.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2510.26787v1",
+          "title": "Remote Labor Index: Measuring AI Automation of Remote Work",
+          "publisher": "Mazeika et al., research paper",
+          "date": "2025-10-30",
+          "finding": "Best tested agent completed 2.5% of 240 sampled freelance projects to human-quality standards. The benchmark spans 23 domains and does not measure all jobs or human assistance value.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "high",
+      "family": "automation_scope",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c037"
+    },
+    {
+      "claim": "OpenAI is particularly vulnerable because huge infrastructure commitments and continuing losses face commoditized competition from Google, undermining its valuation.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2840,
+      "end_seconds": 2895,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "valuation"
+      ],
+      "entities": [
+        "OpenAI",
+        "Google"
+      ],
+      "test": "Inspect binding commitment schedules, audited revenue and cash burn, customer retention, liquidity and competitive margins; distinguish contractual obligations from announced multiyear plans.",
+      "qualifications": "Risk is not equivalent to an immediate inability to raise funding.",
+      "verdict": "unresolved",
+      "reason": "Subsequent funding continued. This does not establish eventual returns or validate every reported commitment and loss number, so the valuation thesis remains unresolved.",
+      "evidence": [
+        {
+          "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+          "title": "Accelerating the next phase of AI",
+          "publisher": "OpenAI",
+          "date": "2026-03-31",
+          "finding": "Company reports a closed round of $122 billion in committed capital and approximately $2 billion monthly revenue. Commitments are not all cash received; revenue disclosure is not audited here.",
+          "verified": true
+        },
+        {
+          "url": "https://group.softbank/en/news/press/20261001",
+          "title": "Execution of Follow-on Investment (Third Tranche) in OpenAI",
+          "publisher": "SoftBank Group",
+          "date": "2026-10-01",
+          "finding": "Investor reports executing the final $10 billion tranche, completing $30 billion follow-on investments. This confirms funding continued, not ultimate investment profitability.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "openai_funding_vulnerability",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c038"
+    },
+    {
+      "claim": "Google has caught up with or surpassed OpenAI and its Apple relationship reinforces OpenAI’s weakening competitive position.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2848,
+      "end_seconds": 2877,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "competition"
+      ],
+      "entities": [
+        "Google",
+        "OpenAI",
+        "Apple"
+      ],
+      "test": "Specify model versions, tasks, costs and distribution-contract terms; no universal superiority criterion is supplied.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "google_model_lead",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c039"
+    },
+    {
+      "claim": "If investors stop providing capital and OpenAI cannot raise funds, the consequences could cascade through the broader AI ecosystem.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "forecast",
+      "start_seconds": 2863,
+      "end_seconds": 2890,
+      "horizon": "Conditional on OpenAI losing funding access",
+      "topics": [
+        "ai",
+        "financial-stability"
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "test": "Establish whether the stated openai contagion conditional proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "The financing-stop condition has not occurred in the inspected disclosures; executed SoftBank investment and a further committed round show continued access through the cutoff.",
+      "evidence": [
+        {
+          "url": "https://group.softbank/en/news/press/20261001",
+          "title": "Execution of Follow-on Investment (Third Tranche) in OpenAI",
+          "publisher": "SoftBank Group",
+          "date": "2026-10-01",
+          "finding": "Investor reports executing the final $10 billion tranche, completing $30 billion follow-on investments. This confirms funding continued, not ultimate investment profitability.",
+          "verified": true
+        },
+        {
+          "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+          "title": "Accelerating the next phase of AI",
+          "publisher": "OpenAI",
+          "date": "2026-03-31",
+          "finding": "Company reports a closed round of $122 billion in committed capital and approximately $2 billion monthly revenue. Commitments are not all cash received; revenue disclosure is not audited here.",
+          "verified": true
+        }
+      ],
+      "next_check": "If funding stops, trace legally binding supplier, lender, equity and capacity exposures rather than assume every linkage defaults.",
+      "confidence": "medium",
+      "family": "openai_contagion_conditional",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "aI7XknJJC5Q-c040"
+    },
+    {
+      "claim": "The financing failure and ecosystem cascade will occur, and OpenAI may eventually be absorbed by Microsoft and remembered as the WeWork of AI.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 2879,
+      "end_seconds": 2940,
+      "horizon": "Eventually; timing not specified",
+      "topics": [
+        "ai",
+        "valuation"
+      ],
+      "entities": [
+        "OpenAI",
+        "Microsoft"
+      ],
+      "test": "Follow financing access, restructuring, ownership and eventual investor recoveries; do not invent a 2026 deadline.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "An undated failure thesis remains unresolved, not automatically too early. Subsequent executed funding weakens an immediate-collapse interpretation but does not settle ultimate viability or ownership.",
+      "evidence": [
+        {
+          "url": "https://group.softbank/en/news/press/20261001",
+          "title": "Execution of Follow-on Investment (Third Tranche) in OpenAI",
+          "publisher": "SoftBank Group",
+          "date": "2026-10-01",
+          "finding": "Investor reports executing the final $10 billion tranche, completing $30 billion follow-on investments. This confirms funding continued, not ultimate investment profitability.",
+          "verified": true
+        },
+        {
+          "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+          "title": "Accelerating the next phase of AI",
+          "publisher": "OpenAI",
+          "date": "2026-03-31",
+          "finding": "Company reports a closed round of $122 billion in committed capital and approximately $2 billion monthly revenue. Commitments are not all cash received; revenue disclosure is not audited here.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "openai_failure_forecast",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "aI7XknJJC5Q-c041"
+    },
+    {
+      "claim": "At roughly $3 billion monthly losses, a $40 billion funding round provides only around one year of runway.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "conditional",
+      "kind": "explanation",
+      "start_seconds": 2898,
+      "end_seconds": 2935,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "liquidity"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated openai runway arithmetic proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "The interview describes losses, not an audited cash-burn bridge. Subsequent financing means the static model is not an actual exhaustion date.",
+      "verdict": "right",
+      "reason": "Assume all $40 billion is available cash, constant cash burn of $3 billion monthly, no other liquidity, no new financing and no difference between accounting losses and cash burn. Then 40/3 is about 13.3 months. This validates arithmetic only; the actual burn and cash assumptions are unverified.",
+      "evidence": [],
+      "next_check": "Obtain audited cash balances, funding receipts, operating burn and commitment payment schedules.",
+      "confidence": "medium",
+      "family": "openai_runway_arithmetic",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "evidence_basis": "deductive",
+      "proof_assumptions": "Assume all $40 billion is available cash, constant cash burn of $3 billion monthly, no other liquidity, no new financing and no difference between accounting losses and cash burn. Then 40/3 is about 13.3 months. This validates arithmetic only; the actual burn and cash assumptions are unverified.",
+      "id": "aI7XknJJC5Q-c042",
+      "proof": {
+        "assumptions": [],
+        "derivation": "Assume all $40 billion is available cash, constant cash burn of $3 billion monthly, no other liquidity, no new financing and no difference between accounting losses and cash burn. Then 40/3 is about 13.3 months. This validates arithmetic only; the actual burn and cash assumptions are unverified."
+      }
+    },
+    {
+      "claim": "Google’s own TPUs and cash-generating business give it financing and cost advantages over OpenAI, reducing its dependence on Nvidia.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2935,
+      "end_seconds": 2965,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "competition"
+      ],
+      "entities": [
+        "Google",
+        "Nvidia",
+        "OpenAI"
+      ],
+      "test": "Inspect TPU capacity and fully loaded costs alongside Google cash flows and external GPU procurement; compare matched workloads and financing needs.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "google_tpu_financing",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c043"
+    },
+    {
+      "claim": "OpenAI’s next financing may require roughly $100 billion, leaving its survival dependent on a very small set of investors willing to supply extraordinary checks.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 2950,
+      "end_seconds": 2980,
+      "horizon": "Next large funding round; no exact date",
+      "topics": [
+        "ai",
+        "private-capital"
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "test": "Establish whether the stated openai investor concentration proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "A later $122 billion committed round supports the extraordinary scale, and SoftBank executed $30 billion. The disclosed consortium included strategic, institutional and individual channels, so it was not literally one of five people writing the entire check.",
+      "evidence": [
+        {
+          "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+          "title": "Accelerating the next phase of AI",
+          "publisher": "OpenAI",
+          "date": "2026-03-31",
+          "finding": "Company reports a closed round of $122 billion in committed capital and approximately $2 billion monthly revenue. Commitments are not all cash received; revenue disclosure is not audited here.",
+          "verified": true
+        },
+        {
+          "url": "https://group.softbank/en/news/press/20261001",
+          "title": "Execution of Follow-on Investment (Third Tranche) in OpenAI",
+          "publisher": "SoftBank Group",
+          "date": "2026-10-01",
+          "finding": "Investor reports executing the final $10 billion tranche, completing $30 billion follow-on investments. This confirms funding continued, not ultimate investment profitability.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "openai_investor_concentration",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "aI7XknJJC5Q-c044"
+    },
+    {
+      "claim": "Useful world models represent entities and causal relationships, as navigation systems represent roads; building them explicitly has traditionally required costly manual knowledge engineering.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 3000,
+      "end_seconds": 3152,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Compare specified representations, acquisition costs and causal generalization benchmarks across symbolic and learned models.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "structured_world_models",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c045"
+    },
+    {
+      "claim": "LLMs do not acquire world models at all; illegal chess moves show they only fake structure rather than abstracting the rules.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 3104,
+      "end_seconds": 3270,
+      "horizon": "not stated",
+      "topics": [
+        "ai"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated no learned world models proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "The cited chess behavior is not a controlled test identifying model version, prompting or decoding constraints.",
+      "verdict": "mixed",
+      "reason": "Causal intervention experiments in an Othello sequence model demonstrate a learned board representation, contradicting the categorical absence of any model. Narrow game representations do not prove human-like world understanding or error-free chess.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2210.13382v5",
+          "title": "Emergent World Representations: Exploring a Sequence Model Trained on a Synthetic Task",
+          "publisher": "Li et al., ICLR research paper",
+          "date": "2024-06-26",
+          "finding": "An Othello sequence model learned a board-state representation; causal interventions changed legal-move predictions, including on unnatural boards. This narrow experiment does not establish general world understanding.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "no_learned_world_models",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "aI7XknJJC5Q-c046"
+    },
+    {
+      "claim": "AI will eventually transform society, but current LLM technology will not deliver the promised transformation now; foundational research is needed instead of assuming scaling will fix it.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 3270,
+      "end_seconds": 3315,
+      "horizon": "Eventually, with different foundational advances; no date",
+      "topics": [
+        "ai",
+        "productivity"
+      ],
+      "entities": [],
+      "test": "Establish whether the stated future ai transformation proposition holds using matched primary disclosures; retain its conditions and separate causal explanations from price movements.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "The eventual transformation and required future architecture remain open. The near-term claim lacks a measurable definition of transformation, so no universal current failure grade is assigned.",
+      "evidence": [],
+      "next_check": "Specify economically material productivity thresholds and measure realized adoption and reliability by architecture.",
+      "confidence": "medium",
+      "family": "future_ai_transformation",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "aI7XknJJC5Q-c047"
+    }
+  ]
+}

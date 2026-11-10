@@ -1,0 +1,1266 @@
+{
+  "source_id": "youtube-fphcOSPgHtM",
+  "title": "Inside the AI Chip War: From Nvidia’s Dominance to Intel’s Turmoil | The Real Eisman Playbook Ep 28",
+  "date": "2025-10-06T09:01:14-07:00",
+  "url": "https://www.youtube.com/watch?v=fphcOSPgHtM",
+  "metadata": {
+    "title": "Inside the AI Chip War: From Nvidia’s Dominance to Intel’s Turmoil | The Real Eisman Playbook Ep 28",
+    "published_at": "2025-10-06T09:01:14-07:00",
+    "url": "https://www.youtube.com/watch?v=fphcOSPgHtM"
+  },
+  "read_complete": true,
+  "transcript_sha256": "09ad6d3b4bb60d20d5e6c809b15b24ac98b7fcdd92f7b36e5430870ec6ad5a58",
+  "evaluation_as_of": "2026-11-10",
+  "summary": "Stacy Rasgon separates the AI semiconductor boom from the weaker analog cycle, stresses NVIDIA's software ecosystem, and remains cautious about AMD and Intel. Eisman tests funding and return assumptions without declaring AI useless or predicting an imminent collapse. The clearest direct correction is that the announced NVIDIA investment in OpenAI was staged. The guest's claim that outsiders do not use TPUs is contradicted by Google's documented multi-year Anthropic relationship.",
+  "assessment": "Claims are assessed individually. Empirical premises are not treated as successful forecasts. Unverified magnitudes and causal stories remain unresolved; subjective investment judgments are not assigned directional wins.",
+  "speaker_map_notes": "Steve Eisman interviews Stacy Rasgon. Most sector calls belong to Rasgon; Eisman probes returns and valuation and accepts the staged-investment correction.",
+  "framework_points": [
+    "Distinguish economic usefulness from returns on invested capital.",
+    "Separate cyclic digestion from a failed structural thesis.",
+    "Treat capex cuts as potentially late signals and monitor underlying use.",
+    "Do not infer equity value from TAM times assumed share.",
+    "Distinguish liquidity support from operating competitiveness.",
+    "Demand differentiated customer preference rather than a second-source narrative."
+  ],
+  "tools_and_charts": [
+    "AI versus analog semiconductor cycle",
+    "GPU versus ASIC share and workload economics",
+    "OpenAI funding commitments versus cash",
+    "CoWoS/HBM supply-chain indicators",
+    "TI inventory days and backlog visibility",
+    "Intel foundry losses and external customer milestones"
+  ],
+  "transcript_cautions": [
+    "Opening montage duplicates later discussion.",
+    "All 2009 caption lines were read, including a reread of an initially truncated middle segment.",
+    "Guest numbers and management targets are not automatically Eisman forecasts.",
+    "Transcript occasionally garbles chip names and semiconductor terms.",
+    "The guest immediately self-corrects the lithography size direction; it is not a substantive mistaken thesis."
+  ],
+  "claims": [
+    {
+      "claim": "AI semiconductors are booming while non-AI analog and industrial demand remains weak after the pandemic inventory cycle.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 138,
+      "end_seconds": 238,
+      "horizon": "not stated",
+      "topics": [
+        "semiconductor_cycle"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "AI demand remains strong and TI later recovers. A complete contemporaneous non-AI sector comparison was not reconstructed.",
+      "evidence": [
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
+          "title": "NVIDIA Q2 FY27 results",
+          "publisher": "NVIDIA",
+          "date": "2026-08-26",
+          "finding": "Revenue $96.2 billion grew 106%, corroborating ongoing extraordinary AI hardware demand through this reporting date.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://investor.ti.com/static-files/b862a18d-c3ee-4f08-ba4d-583019cdd4f8",
+          "title": "Texas Instruments Q3 2026 Form 10-Q",
+          "publisher": "Texas Instruments",
+          "date": "2026-10-23",
+          "finding": "Q3 revenue $6.055 billion versus $4.742 billion; inventory days 194 versus 222 at year-end 2025. Later recovery does not retrospectively disprove a slow 2025 recovery.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "semiconductor_cycle",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c001"
+    },
+    {
+      "claim": "NVIDIA growing rapidly from an enormous revenue base confirms genuine AI infrastructure demand.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 238,
+      "end_seconds": 279,
+      "horizon": "not stated",
+      "topics": [
+        "semiconductor_demand"
+      ],
+      "entities": [
+        "NVIDIA",
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "An observed demand premise, not proof of the ultimate return on customers' capex.",
+      "verdict": "right",
+      "reason": "Inspected primary evidence supports this narrowly stated claim.",
+      "evidence": [
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
+          "title": "NVIDIA Q2 FY27 results",
+          "publisher": "NVIDIA",
+          "date": "2026-08-26",
+          "finding": "Revenue $96.2 billion grew 106%, corroborating ongoing extraordinary AI hardware demand through this reporting date.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "semiconductor_demand",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c002"
+    },
+    {
+      "claim": "AI investment benefits custom accelerators, networking, memory, packaging and cooling as well as NVIDIA.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 279,
+      "end_seconds": 394,
+      "horizon": "not stated",
+      "topics": [
+        "ai_value_chain"
+      ],
+      "entities": [
+        "NVIDIA",
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Technical dependencies and TPU adoption support a broad value chain; this is not verification of every company or stock return.",
+      "evidence": [
+        {
+          "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm",
+          "title": "CoWoS advanced packaging",
+          "publisher": "TSMC",
+          "date": "undated, inspected 2026-11-10",
+          "finding": "Technical description identifies interposer integration of logic chiplets and HBM; CoWoS-S production since 2012 and later R/L variants scale interconnection and package capacity.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://www.googlecloudpresscorner.com/2025-10-23-Anthropic-to-Expand-Use-of-Google-Cloud-TPUs-and-Services",
+          "title": "Anthropic expands Google Cloud TPUs",
+          "publisher": "Google Cloud",
+          "date": "2025-10-23",
+          "finding": "Expansion announcement explicitly describes Anthropic training and serving models with TPUs for several years, after the 2023 partnership, contradicting literal absence of outside TPU users.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_value_chain",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c003"
+    },
+    {
+      "claim": "A slowdown in NVIDIA growth could produce downside, but Eisman would never short it.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment preference",
+      "start_seconds": 396,
+      "end_seconds": 429,
+      "horizon": "not stated",
+      "topics": [
+        "short_selling"
+      ],
+      "entities": [
+        "NVIDIA"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "The 55%-to-10% growth example is hypothetical, not his forecast.",
+      "verdict": "not_testable",
+      "reason": "The statement does not specify an objective threshold, horizon or counterfactual that permits a determinate outcome grade.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "short_selling",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c004"
+    },
+    {
+      "claim": "AI will eventually digest investment, but probably not in 2025 or 2026 and perhaps not 2027 if customer roadmaps are right.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "qualified",
+      "kind": "forecast",
+      "start_seconds": 429,
+      "end_seconds": 489,
+      "horizon": "2025-2027",
+      "topics": [
+        "ai_cycle"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "2026 not complete; 2027 explicitly conditional. Eventual cyclicality alone has no dated test.",
+      "verdict": "too_early",
+      "reason": "The stated future horizon or conditional scenario remains unfinished at the 2026-11-10 cutoff.",
+      "evidence": [
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Second-Quarter-Fiscal-2027/",
+          "title": "NVIDIA Q2 FY27 results",
+          "publisher": "NVIDIA",
+          "date": "2026-08-26",
+          "finding": "Revenue $96.2 billion grew 106%, corroborating ongoing extraordinary AI hardware demand through this reporting date.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_cycle",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-fphcOSPgHtM-c005"
+    },
+    {
+      "claim": "A capex cut is a lagging stock-market signal; investors must distinguish a temporary digestion from failure of the AI return model.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 489,
+      "end_seconds": 525,
+      "horizon": "not stated",
+      "topics": [
+        "investment_signals"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Useful distinction, but no universal lead-lag relationship or specific trading test is established.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "investment_signals",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c006"
+    },
+    {
+      "claim": "The internet was transformative even though early infrastructure investors overbuilt; AI could likewise be economically useful without validating current spending.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 526,
+      "end_seconds": 567,
+      "horizon": "not stated",
+      "topics": [
+        "capital_cycle"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "capital_cycle",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "Technology generates positive consumer or business utility.",
+          "Capacity investment can exceed the amount that earns the required return at prevailing prices."
+        ],
+        "proof": "Utility does not impose a lower bound on producer prices or cash returns. Competition and excess capacity can transfer value to users while invested capital earns below its hurdle rate."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-fphcOSPgHtM-c007",
+      "proof": {
+        "assumptions": [
+          "Technology generates positive consumer or business utility.",
+          "Capacity investment can exceed the amount that earns the required return at prevailing prices."
+        ],
+        "derivation": "Utility does not impose a lower bound on producer prices or cash returns. Competition and excess capacity can transfer value to users while invested capital earns below its hurdle rate."
+      }
+    },
+    {
+      "claim": "Current GPUs are being used rather than lying idle like much early fiber infrastructure.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 567,
+      "end_seconds": 623,
+      "horizon": "not stated",
+      "topics": [
+        "ai_utilization"
+      ],
+      "entities": [
+        "ai utilization"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No comprehensive utilization inventory was inspected; useful contrast cannot be treated as universal proof of efficient investment.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_utilization",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c008"
+    },
+    {
+      "claim": "Large profitable incumbents financing AI make the current cycle different from the dot-com financing structure.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 623,
+      "end_seconds": 687,
+      "horizon": "not stated",
+      "topics": [
+        "ai_financing"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Incumbent operating cash generation is substantial, but later negative FCF and financing requirements limit the blanket self-funding distinction.",
+      "evidence": [
+        {
+          "url": "https://s206.q4cdn.com/479360582/files/doc_news/2026/Oct/28/attachments/2026q3-alphabet-earnings-release.pdf",
+          "title": "Alphabet Q3 2026 Earnings Release",
+          "publisher": "Alphabet",
+          "date": "2026-10-28",
+          "finding": "Quarterly operating cash flow $42.290 billion less capex $51.355 billion gives negative $9.065 billion FCF; trailing-year FCF remains positive $19.747 billion. Search query growth is described as the fastest in five years.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx",
+          "title": "Oracle Q4 and FY2026 results",
+          "publisher": "Oracle",
+          "date": "2026-06-10",
+          "finding": "RPO $638 billion, adjusted EPS $2.11 up 24%, fiscal-year OCF $32b and FCF negative $23.7b imply $55.7b capex. FY27 financing plan approximately $40b; prepaid/customer-supplied hardware reduces funding needs.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_financing",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c009"
+    },
+    {
+      "claim": "NVIDIA earnings have outgrown its share price, leaving valuation more reasonable than bubble rhetoric implies.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 623,
+      "end_seconds": 687,
+      "horizon": "not stated",
+      "topics": [
+        "semiconductor_valuation"
+      ],
+      "entities": [
+        "NVIDIA"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Comparable dated forward earnings, share prices and discount-rate assumptions were not independently reconstructed.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "semiconductor_valuation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c010"
+    },
+    {
+      "claim": "OpenAI's enormous contracted infrastructure purchases raise a funding question because its cash resources are much smaller.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "questioning",
+      "kind": "explanation",
+      "start_seconds": 736,
+      "end_seconds": 807,
+      "horizon": "not stated",
+      "topics": [
+        "ai_counterparty"
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Staged NVIDIA investment and Oracle financing requirements support the need to distinguish commitments from available cash. The full OpenAI funding bridge was not reconciled.",
+      "evidence": [
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2025/OpenAI-and-NVIDIA-Announce-Strategic-Partnership-to-Deploy-10-Gigawatts-of-NVIDIA-Systems/default.aspx",
+          "title": "OpenAI and NVIDIA strategic partnership",
+          "publisher": "NVIDIA",
+          "date": "2025-09-22",
+          "finding": "Letter of intent envisages at least 10 GW, with up to $100 billion invested progressively as capacity deploys; first gigawatt targeted for second-half 2026. This was not $100 billion cash already transferred.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx",
+          "title": "Oracle Q4 and FY2026 results",
+          "publisher": "Oracle",
+          "date": "2026-06-10",
+          "finding": "RPO $638 billion, adjusted EPS $2.11 up 24%, fiscal-year OCF $32b and FCF negative $23.7b imply $55.7b capex. FY27 financing plan approximately $40b; prepaid/customer-supplied hardware reduces funding needs.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_counterparty",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c011"
+    },
+    {
+      "claim": "NVIDIA's proposed $100 billion OpenAI investment is staged by capacity deployment, not an immediate cash payment.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 773,
+      "end_seconds": 887,
+      "horizon": "not stated",
+      "topics": [
+        "ai_financing"
+      ],
+      "entities": [
+        "OpenAI",
+        "NVIDIA"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "Eisman accepts this correction. First-GW and per-GW economics are management plans, not verified delivered capacity.",
+      "verdict": "right",
+      "reason": "Inspected primary evidence supports this narrowly stated claim.",
+      "evidence": [
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2025/OpenAI-and-NVIDIA-Announce-Strategic-Partnership-to-Deploy-10-Gigawatts-of-NVIDIA-Systems/default.aspx",
+          "title": "OpenAI and NVIDIA strategic partnership",
+          "publisher": "NVIDIA",
+          "date": "2025-09-22",
+          "finding": "Letter of intent envisages at least 10 GW, with up to $100 billion invested progressively as capacity deploys; first gigawatt targeted for second-half 2026. This was not $100 billion cash already transferred.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_financing",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c012"
+    },
+    {
+      "claim": "AI value should come from business productivity and agents, not merely $20 consumer subscriptions; widespread ROI may take several years to demonstrate.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 929,
+      "end_seconds": 1074,
+      "horizon": "around 2027-2028 for the suggested five-year checkpoint",
+      "topics": [
+        "ai_roi"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "Examples of coding, HR and call centers do not independently quantify aggregate net productivity.",
+      "verdict": "too_early",
+      "reason": "The stated future horizon or conditional scenario remains unfinished at the 2026-11-10 cutoff.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_roi",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c013"
+    },
+    {
+      "claim": "Eisman questions whether demonstrated use cases justify the scale of spending, while acknowledging that useful applications exist.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "questioning",
+      "kind": "explanation",
+      "start_seconds": 1016,
+      "end_seconds": 1074,
+      "horizon": "not stated",
+      "topics": [
+        "ai_roi"
+      ],
+      "entities": [
+        "ai roi"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "This is a qualified capital-return concern, not a prediction that AI has no useful applications.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_roi",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c014"
+    },
+    {
+      "claim": "Hyperscalers have private product roadmaps that make their spending more informed than outside observers can see.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1074,
+      "end_seconds": 1104,
+      "horizon": "not stated",
+      "topics": [
+        "capital_allocation"
+      ],
+      "entities": [
+        "capital allocation"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Management information advantages do not establish correct investment decisions; unseen roadmaps cannot be independently assessed.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "capital_allocation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c015"
+    },
+    {
+      "claim": "Custom ASICs can be attractive for stable high-volume workloads while programmable GPUs offer flexibility, creating room for both.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1104,
+      "end_seconds": 1262,
+      "horizon": "not stated",
+      "topics": [
+        "accelerator_competition"
+      ],
+      "entities": [
+        "accelerator competition"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Real TPU usage and programmable libraries support coexistence. Relative cost and performance depend on workload, utilization, development cost and software.",
+      "evidence": [
+        {
+          "url": "https://www.googlecloudpresscorner.com/2025-10-23-Anthropic-to-Expand-Use-of-Google-Cloud-TPUs-and-Services",
+          "title": "Anthropic expands Google Cloud TPUs",
+          "publisher": "Google Cloud",
+          "date": "2025-10-23",
+          "finding": "Expansion announcement explicitly describes Anthropic training and serving models with TPUs for several years, after the 2023 partnership, contradicting literal absence of outside TPU users.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://developer.nvidia.com/isaac",
+          "title": "Isaac robot development platform",
+          "publisher": "NVIDIA",
+          "date": "undated, inspected 2026-11-10",
+          "finding": "Developer platform includes CUDA-accelerated libraries, simulation, models and workflows. This establishes a software ecosystem, not an independent quantified moat or universal deployment-time advantage.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "accelerator_competition",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c016"
+    },
+    {
+      "claim": "Custom accelerators can rise from a low-teens share of AI compute spending to roughly 20%-25% as the total market grows.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 1178,
+      "end_seconds": 1262,
+      "horizon": "not stated",
+      "topics": [
+        "accelerator_share"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No fixed horizon or consistent market denominator is supplied; the share estimate was not independently checked.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "accelerator_share",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-fphcOSPgHtM-c017"
+    },
+    {
+      "claim": "External cloud customers generally demand GPUs and essentially nobody uses Google TPUs.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1259,
+      "end_seconds": 1328,
+      "horizon": "not stated",
+      "topics": [
+        "accelerator_adoption"
+      ],
+      "entities": [
+        "Google"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "Google identifies Anthropic as a TPU training and serving customer for several preceding years. This refutes the literal absence claim without proving all customers prefer TPUs.",
+      "evidence": [
+        {
+          "url": "https://www.googlecloudpresscorner.com/2025-10-23-Anthropic-to-Expand-Use-of-Google-Cloud-TPUs-and-Services",
+          "title": "Anthropic expands Google Cloud TPUs",
+          "publisher": "Google Cloud",
+          "date": "2025-10-23",
+          "finding": "Expansion announcement explicitly describes Anthropic training and serving models with TPUs for several years, after the 2023 partnership, contradicting literal absence of outside TPU users.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "accelerator_adoption",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "youtube-fphcOSPgHtM-c018"
+    },
+    {
+      "claim": "GPU versus ASIC is less important than the overall AI return opportunity because both may grow in a large market and both suffer if the market disappoints.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "qualified",
+      "kind": "explanation",
+      "start_seconds": 1328,
+      "end_seconds": 1388,
+      "horizon": "not stated",
+      "topics": [
+        "ai_cycle"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "The statement does not specify an objective threshold, horizon or counterfactual that permits a determinate outcome grade.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_cycle",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-fphcOSPgHtM-c019"
+    },
+    {
+      "claim": "Eisman remains positioned for an early AI investment cycle but would change his portfolio if that judgment changed.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment preference",
+      "start_seconds": 1328,
+      "end_seconds": 1388,
+      "horizon": "not stated",
+      "topics": [
+        "portfolio_process"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "The statement does not specify an objective threshold, horizon or counterfactual that permits a determinate outcome grade.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "portfolio_process",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c020"
+    },
+    {
+      "claim": "Broadcom's AI compensation targets imply very large future growth, but target hurdles should not be confused with realized revenue.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1392,
+      "end_seconds": 1446,
+      "horizon": "not stated",
+      "topics": [
+        "semiconductor_targets"
+      ],
+      "entities": [
+        "AI",
+        "Target"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The specific compensation filing and target definitions were not independently reconciled; quoted 2028-2030 hurdles are incentive conditions rather than a firm analyst forecast.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "semiconductor_targets",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "youtube-fphcOSPgHtM-c021"
+    },
+    {
+      "claim": "AMD's second-source opportunity is real but its GPU thesis still depends too much on hoped-for share rather than demonstrated differentiated demand.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1451,
+      "end_seconds": 1630,
+      "horizon": "not stated",
+      "topics": [
+        "amd_competition"
+      ],
+      "entities": [
+        "AMD"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Later data-center growth includes CPUs; a matched accelerator revenue and profitability series is needed to test this specific caution.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "amd_competition",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c022"
+    },
+    {
+      "claim": "Multiplying an enormous TAM by an assumed small market share does not establish an attractive investment.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1539,
+      "end_seconds": 1630,
+      "horizon": "not stated",
+      "topics": [
+        "valuation_discipline"
+      ],
+      "entities": [
+        "valuation discipline"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "valuation_discipline",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "Market share and profitability are uncertain.",
+          "Equity value depends on margins, cash conversion, reinvestment and the price paid."
+        ],
+        "proof": "TAM times share gives potential revenue only. Two businesses with identical revenue can have different costs, capital needs, dilution and cash flows, so that multiplication cannot determine shareholder return."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-fphcOSPgHtM-c023",
+      "proof": {
+        "assumptions": [
+          "Market share and profitability are uncertain.",
+          "Equity value depends on margins, cash conversion, reinvestment and the price paid."
+        ],
+        "derivation": "TAM times share gives potential revenue only. Two businesses with identical revenue can have different costs, capital needs, dilution and cash flows, so that multiplication cannot determine shareholder return."
+      }
+    },
+    {
+      "claim": "CUDA's optimized libraries and expanding application ecosystem are a significant NVIDIA advantage; AMD must catch a moving target.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1630,
+      "end_seconds": 1799,
+      "horizon": "not stated",
+      "topics": [
+        "software_moat"
+      ],
+      "entities": [
+        "NVIDIA",
+        "AMD",
+        "Target"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "The ecosystem exists, but relative implementation times and a durable quantified competitive advantage are not independently measured.",
+      "evidence": [
+        {
+          "url": "https://developer.nvidia.com/isaac",
+          "title": "Isaac robot development platform",
+          "publisher": "NVIDIA",
+          "date": "undated, inspected 2026-11-10",
+          "finding": "Developer platform includes CUDA-accelerated libraries, simulation, models and workflows. This establishes a software ecosystem, not an independent quantified moat or universal deployment-time advantage.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "software_moat",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c024"
+    },
+    {
+      "claim": "AMD needs customers that positively prefer its products, not only customers seeking bargaining leverage against NVIDIA.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1800,
+      "end_seconds": 1861,
+      "horizon": "not stated",
+      "topics": [
+        "competitive_position"
+      ],
+      "entities": [
+        "NVIDIA",
+        "AMD"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "The statement does not specify an objective threshold, horizon or counterfactual that permits a determinate outcome grade.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "competitive_position",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-fphcOSPgHtM-c025"
+    },
+    {
+      "claim": "US chip export controls risk accelerating a self-sufficient Chinese hardware and software ecosystem that could become a global competitor over a decade.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "conditional",
+      "kind": "forecast",
+      "start_seconds": 1879,
+      "end_seconds": 2132,
+      "horizon": "approximately 2035",
+      "topics": [
+        "china_semiconductors"
+      ],
+      "entities": [
+        "software"
+      ],
+      "test": "Track Chinese fabrication capacity, yields, software adoption, export sales and performance per watt under comparable workloads.",
+      "qualifications": "Huawei comparisons and China power abundance are not treated as verified universal performance facts.",
+      "verdict": "too_early",
+      "reason": "The stated future horizon or conditional scenario remains unfinished at the 2026-11-10 cutoff.",
+      "evidence": [],
+      "next_check": "Track Chinese fabrication capacity, yields, software adoption, export sales and performance per watt under comparable workloads.",
+      "confidence": "medium",
+      "family": "china_semiconductors",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-fphcOSPgHtM-c026"
+    },
+    {
+      "claim": "HBM and advanced packaging integrate logic and memory, making CoWoS capacity a useful supply-chain indicator.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2133,
+      "end_seconds": 2242,
+      "horizon": "not stated",
+      "topics": [
+        "semiconductor_supply"
+      ],
+      "entities": [
+        "semiconductor supply"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "Verified technology mechanism; no claim that this single indicator predicts all demand.",
+      "verdict": "right",
+      "reason": "Inspected primary evidence supports this narrowly stated claim.",
+      "evidence": [
+        {
+          "url": "https://3dfabric.tsmc.com/english/dedicatedFoundry/technology/cowos.htm",
+          "title": "CoWoS advanced packaging",
+          "publisher": "TSMC",
+          "date": "undated, inspected 2026-11-10",
+          "finding": "Technical description identifies interposer integration of logic chiplets and HBM; CoWoS-S production since 2012 and later R/L variants scale interconnection and package capacity.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "semiconductor_supply",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c027"
+    },
+    {
+      "claim": "Power and cooling suppliers benefit from AI, but investors must distinguish meaningful AI revenue exposure from a small activity inside a larger analog business.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2238,
+      "end_seconds": 2350,
+      "horizon": "not stated",
+      "topics": [
+        "ai_value_chain"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "The statement does not specify an objective threshold, horizon or counterfactual that permits a determinate outcome grade.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_value_chain",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-fphcOSPgHtM-c028"
+    },
+    {
+      "claim": "TI's recovery is slower and less visible than management once implied; deliberately high inventory weakens backlog as a demand signal.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2351,
+      "end_seconds": 2566,
+      "horizon": "not stated",
+      "topics": [
+        "analog_cycle"
+      ],
+      "entities": [
+        "analog cycle"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Later official inventory remains large and subsequently falls as revenue recovers. This does not resolve the specific 2025 guidance and channel-order explanation.",
+      "evidence": [
+        {
+          "url": "https://investor.ti.com/static-files/b862a18d-c3ee-4f08-ba4d-583019cdd4f8",
+          "title": "Texas Instruments Q3 2026 Form 10-Q",
+          "publisher": "Texas Instruments",
+          "date": "2026-10-23",
+          "finding": "Q3 revenue $6.055 billion versus $4.742 billion; inventory days 194 versus 222 at year-end 2025. Later recovery does not retrospectively disprove a slow 2025 recovery.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "analog_cycle",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c029"
+    },
+    {
+      "claim": "A stock can fall after beating published consensus if the buy-side expectation was higher; encouraging activist communication is not itself operating improvement.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 2490,
+      "end_seconds": 2566,
+      "horizon": "not stated",
+      "topics": [
+        "expectations"
+      ],
+      "entities": [
+        "expectations"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "expectations",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "Price embeds investors' expectations rather than mechanically following published consensus.",
+          "Actual results can beat published consensus while falling below priced expectations."
+        ],
+        "proof": "If priced expected cash flows exceed the revised outlook, value can decline even when the reported number exceeds a lower published benchmark. Communication alone does not change operating cash flows."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-fphcOSPgHtM-c030",
+      "proof": {
+        "assumptions": [
+          "Price embeds investors' expectations rather than mechanically following published consensus.",
+          "Actual results can beat published consensus while falling below priced expectations."
+        ],
+        "derivation": "If priced expected cash flows exceed the revised outlook, value can decline even when the reported number exceeds a lower published benchmark. Communication alone does not change operating cash flows."
+      }
+    },
+    {
+      "claim": "Tariffs on chips embedded in globally assembled products would be administratively difficult, with outcomes dependent on exemptions and domestic-investment arrangements.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "conditional",
+      "kind": "explanation",
+      "start_seconds": 2567,
+      "end_seconds": 2748,
+      "horizon": "not stated",
+      "topics": [
+        "semiconductor_trade"
+      ],
+      "entities": [
+        "semiconductor trade"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The proposed one-for-one domestic production framework is discussed as a rumor, not enacted policy; final rule and product-level incidence were not checked.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "semiconductor_trade",
+      "materiality": "major",
+      "synthesis_role": "conditional_scenario",
+      "id": "youtube-fphcOSPgHtM-c031"
+    },
+    {
+      "claim": "Intel lost leadership through manufacturing and product execution failures, missed mobile and AI opportunities, and ceded server share to AMD.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2748,
+      "end_seconds": 3105,
+      "horizon": "not stated",
+      "topics": [
+        "intel_turnaround"
+      ],
+      "entities": [
+        "AMD",
+        "AI",
+        "Intel"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The broad diagnosis is plausible but exact historical market shares and causal allocation among process, layoffs, product and management choices were not reconstructed.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "intel_turnaround",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c032"
+    },
+    {
+      "claim": "Intel's foundry strategy incurred enormous losses before securing substantial outside leading-edge customers; 18A internal product ramps do not prove external foundry success.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 3105,
+      "end_seconds": 3248,
+      "horizon": "not stated",
+      "topics": [
+        "intel_foundry"
+      ],
+      "entities": [
+        "Intel"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Large historical losses and still-limited external revenue support the distinction. 2026 process and revenue progress prevent treating the thesis as proof that nothing ever improves.",
+      "evidence": [
+        {
+          "url": "https://www.intc.com/filings-reports/annual-reports/content/0000050863-25-000009/0000050863-25-000009.pdf",
+          "title": "Intel 2024 Form 10-K",
+          "publisher": "Intel",
+          "date": "2025-01-31",
+          "finding": "Foundry operating loss was $13.408 billion in 2024, including substantial impairments, accelerated depreciation, ramp and startup costs. It is not all cash burn or all idle capacity.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://www.intc.com/filings-reports/all-sec-filings/content/0000050863-26-000191/intc-20260926.htm",
+          "title": "Intel Q3 2026 Form 10-Q",
+          "publisher": "Intel",
+          "date": "2026-10-30",
+          "finding": "18A-P entered risk production in June 2026. Q3 external foundry revenue $411 million versus $32 million, mainly a nonrecurring contract, and internal advanced-node volumes increased. External revenue is not necessarily recurring leading-edge wafer volume.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "intel_foundry",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c033"
+    },
+    {
+      "claim": "Government and strategic investments buy Intel time but do not themselves fix yields, competitive costs, volumes or customer demand.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 3248,
+      "end_seconds": 3382,
+      "horizon": "not stated",
+      "topics": [
+        "intel_financing"
+      ],
+      "entities": [
+        "Intel"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "intel_financing",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "Funding increases financial resources without mechanically changing manufacturing processes or customer preferences."
+        ],
+        "proof": "A cash injection extends the time and resources available to improve operations. Unless those resources produce competitive output and demand, funding alone does not imply commercial viability."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-fphcOSPgHtM-c034",
+      "proof": {
+        "assumptions": [
+          "Funding increases financial resources without mechanically changing manufacturing processes or customer preferences."
+        ],
+        "derivation": "A cash injection extends the time and resources available to improve operations. Unless those resources produce competitive output and demand, funding alone does not imply commercial viability."
+      }
+    },
+    {
+      "claim": "Lip-Bu Tan may improve Intel execution, but a credible turnaround would take several years; Rasgon cannot confidently call the outcome today.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "qualified",
+      "kind": "explanation",
+      "start_seconds": 3383,
+      "end_seconds": 3474,
+      "horizon": "approximately 2028-2029",
+      "topics": [
+        "intel_turnaround"
+      ],
+      "entities": [
+        "Intel"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "A possible recovery horizon, not an unconditional bullish turnaround forecast.",
+      "verdict": "too_early",
+      "reason": "The stated future horizon or conditional scenario remains unfinished at the 2026-11-10 cutoff.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "intel_turnaround",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-fphcOSPgHtM-c035"
+    },
+    {
+      "claim": "Rasgon revised his interpretation of prior Intel leadership from knowingly overpromising to sincerely unrealistic optimism.",
+      "speaker": "Stacy Rasgon",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 3400,
+      "end_seconds": 3474,
+      "horizon": "not stated",
+      "topics": [
+        "management_assessment"
+      ],
+      "entities": [
+        "Intel"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "The statement does not specify an objective threshold, horizon or counterfactual that permits a determinate outcome grade.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "management_assessment",
+      "materiality": "major",
+      "synthesis_role": "view_revision",
+      "id": "youtube-fphcOSPgHtM-c036"
+    }
+  ],
+  "materiality_note": "Major theses and forecasts are distinguished from supporting premises. Do not calculate an overall accuracy rate from claim counts. Exclude guest and uncertain-speaker claims from Eisman forecast scoring."
+}

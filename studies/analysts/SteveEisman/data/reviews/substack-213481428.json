@@ -1,0 +1,1738 @@
+{
+  "source_id": "substack-213481428",
+  "title": "How to Analyze Bank Stocks (Part 1): Leverage, Accounting, and Loan Losses",
+  "date": "2026-09-16",
+  "source_url": "https://realeismanplaybook.substack.com/p/how-to-analyze-bank-stocks-part-1",
+  "read_complete": true,
+  "transcript_sha256": "c61b4194e75653d559035a8427a315b612715abce25a7978a1a3d4132875a04b",
+  "evaluation_as_of": "2026-11-10",
+  "summary": "Eisman builds bank analysis from accounting, leverage, capital rules and credit provisioning, then argues current bank credit is stable while private-credit warnings may appear elsewhere first. His leverage arithmetic and core CECL timing are useful. The audit corrects the deposit-multiplier framing, exclusive reliance on risk-weighted regulation, rating-agency delegation, Tarullo title/date and CECL history. Some absolute statements confuse uncertain estimates with necessarily wrong accounting, and conditional identities with real-world causation. Current stability does not settle future private-credit risk.",
+  "assessment": "The strongest material is explicit leverage and loss arithmetic, with assumptions retained. Historical and regulatory simplifications require substantial correction. Neither accounting changes nor later stock appreciation prove management motive or a guaranteed contrarian investment outcome.",
+  "speaker_map_notes": "The sole SPEAKER_00 self-identifies as Steve Eisman and delivers the full tutorial.",
+  "framework_points": [
+    "Read accounting as a test of the business narrative.",
+    "Separate return on assets from leverage-driven return on equity.",
+    "Stress loss absorption using capital and asset exposure.",
+    "Compare risk weights with actual underwriting changes.",
+    "Separate loan growth provisions from deterioration provisions.",
+    "Watch credit recognition lags and indicators outside bank statements."
+  ],
+  "tools_and_charts": [
+    "Hypothetical $1 billion-equity banks at 1,10 and 100 times leverage",
+    "ROA and ROE identity",
+    "Risk-weighted versus unweighted capital ratios",
+    "Large-bank CET1 table from Q4 2024 to Q2 2026",
+    "JPMorgan 2020 quarterly credit provisions",
+    "Major-bank nonaccrual table across Q2 2025, Q1 2026 and Q2 2026",
+    "Chip depreciation-life comparison"
+  ],
+  "transcript_cautions": [
+    "Captions repeatedly substitute ROA for ROE: the 100% return at 100 times leverage is ROE, while assumed ROA remains 1%. The surrounding arithmetic resolves the intended identity; no separate false ROA forecast is created.",
+    "The compensation sentence says ROE versus ROE; adjacent explanation clearly contrasts ROA with ROE.",
+    "Cecil is CECL, chewing up istrueing up, and Tarula is Tarullo.",
+    "A JPMorgan stock price appears as $84 million; this is not accepted literally, and the price-date comparison remains unverified.",
+    "Chip accounting is called semiconductor profits even though depreciation concerns users of capitalized chips; no issuer is specified.",
+    "The four-bank nonaccrual chart itself is absent from the transcript."
+  ],
+  "claims": [
+    {
+      "id": "substack-213481428-c001",
+      "claim": "Accounting knowledge is essential for testing investment stories and can expose problems hidden within reported numbers.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "analytical principle",
+      "start_seconds": 5,
+      "end_seconds": 110,
+      "horizon": "not stated",
+      "topics": [
+        "investment-accounting"
+      ],
+      "entities": [],
+      "test": "Assess a specified research process and error-detection benchmark.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "Normative analytical advice, not a defined performance forecast.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "investment-accounting",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle"
+    },
+    {
+      "id": "substack-213481428-c002",
+      "claim": "An initial deposited dollar is repeatedly lent and redeposited, creating a multiplier of money that powers the economy.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 185,
+      "end_seconds": 277,
+      "horizon": "not stated",
+      "topics": [
+        "bank-money-creation"
+      ],
+      "entities": [],
+      "test": "Trace the accounting of loan origination, deposits, settlement and constraints.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Bank lending does create deposits, but the fixed initial-deposit multiplier reverses the operational sequence emphasized by the central bank explanation.",
+      "evidence": [
+        {
+          "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy",
+          "title": "Money creation in the modern economy",
+          "publisher": "Bank of England",
+          "date": "2014-03-14",
+          "finding": "Commercial-bank lending creates matching deposits; banks do not simply multiply a fixed initial quantity of deposited money.",
+          "verified": true
+        }
+      ],
+      "next_check": "Trace the accounting of loan origination, deposits, settlement and constraints.",
+      "confidence": "medium",
+      "family": "bank-money-creation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c003",
+      "claim": "Banking distress signals or coincides with major economic trouble because banks are central to credit creation.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 250,
+      "end_seconds": 295,
+      "horizon": "not stated",
+      "topics": [
+        "bank-economic-signal"
+      ],
+      "entities": [
+        "banks"
+      ],
+      "test": "Test bank-stress measures against recession and market timing across episodes.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No calibrated signal, lead time or false-positive rate is provided; universal wording exceeds the evidence.",
+      "evidence": [],
+      "next_check": "Test bank-stress measures against recession and market timing across episodes.",
+      "confidence": "medium",
+      "family": "bank-economic-signal",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c004",
+      "claim": "Citi has become a successful bank and attractive investment after years of mediocrity.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 295,
+      "end_seconds": 314,
+      "horizon": "not stated",
+      "topics": [
+        "citi-turnaround"
+      ],
+      "entities": [
+        "Citi"
+      ],
+      "test": "Compare sustained returns with cost of equity and the entry valuation.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Recent operating improvement is verified, but no price target or required-return benchmark establishes investment attractiveness.",
+      "evidence": [
+        {
+          "url": "https://www.citigroup.com/rcs/citigpa/storage/public/Earnings/Q22026/2026prqtr2rslt.pdf",
+          "title": "Citi Q2 2026 results",
+          "publisher": "Citigroup",
+          "date": "2026-07-14",
+          "finding": "Citi reports 13% RoTCE and 45% net income growth; evidence of improvement does not by itself establish an attractive stock price.",
+          "verified": true
+        }
+      ],
+      "next_check": "Compare sustained returns with cost of equity and the entry valuation.",
+      "confidence": "medium",
+      "family": "citi-turnaround",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c005",
+      "claim": "Extending chip useful lives lowers annual depreciation and raises reported earnings without changing the original cash expenditure.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 380,
+      "end_seconds": 405,
+      "horizon": "not stated",
+      "topics": [
+        "ai-depreciation"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Compare straight-line expense with equal asset cost and salvage value over different useful lives.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "For depreciable base B and life N, annual expense B/N falls as N rises, raising pre-tax income all else equal; total depreciable cost is unchanged.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "ai-depreciation",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "For depreciable base B and life N, annual expense B/N falls as N rises, raising pre-tax income all else equal; total depreciable cost is unchanged."
+      }
+    },
+    {
+      "id": "substack-213481428-c006",
+      "claim": "Chips appear to last longer and a growing secondary market can justify longer depreciation schedules.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "investment thesis",
+      "start_seconds": 405,
+      "end_seconds": 445,
+      "horizon": "not stated",
+      "topics": [
+        "ai-depreciation"
+      ],
+      "entities": [],
+      "test": "Inspect actual reuse, resale prices, performance and service-life disclosures by chip cohort.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No matched chip-cohort or audited residual-value evidence was inspected.",
+      "evidence": [],
+      "next_check": "Inspect actual reuse, resale prices, performance and service-life disclosures by chip cohort.",
+      "confidence": "medium",
+      "family": "ai-depreciation",
+      "materiality": "major",
+      "synthesis_role": "conditional_scenario"
+    },
+    {
+      "id": "substack-213481428-c007",
+      "claim": "Companies extended chip lives to smooth earnings before they knew resale usefulness, a warning of subsequent AI difficulties.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 435,
+      "end_seconds": 467,
+      "horizon": "not stated",
+      "topics": [
+        "ai-accounting-motive"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect contemporaneous management estimates, internal evidence and timing of life revisions.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Motive cannot be inferred merely from an estimate change; no internal or contemporaneous evidence proves the claim.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous management estimates, internal evidence and timing of life revisions.",
+      "confidence": "medium",
+      "family": "ai-accounting-motive",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c008",
+      "claim": "Energy constraints, local opposition and Chinese price competition are now material headwinds to AI companies.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 445,
+      "end_seconds": 467,
+      "horizon": "not stated",
+      "topics": [
+        "ai-capex-risk"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Quantify delayed capacity, power costs, customer pricing and margin impact.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No company-specific magnitude or causal earnings bridge was inspected.",
+      "evidence": [],
+      "next_check": "Quantify delayed capacity, power costs, customer pricing and margin impact.",
+      "confidence": "medium",
+      "family": "ai-capex-risk",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c009",
+      "claim": "The real reasons for accounting adjustments are almost always hidden, so ignoring them is dangerous.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 467,
+      "end_seconds": 489,
+      "horizon": "not stated",
+      "topics": [
+        "investment-accounting"
+      ],
+      "entities": [],
+      "test": "Define a sample of adjustments and compare disclosed reasons with established evidence.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The almost-always frequency assertion has no supporting sample; skepticism is a process preference.",
+      "evidence": [],
+      "next_check": "Define a sample of adjustments and compare disclosed reasons with established evidence.",
+      "confidence": "medium",
+      "family": "investment-accounting",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle"
+    },
+    {
+      "id": "substack-213481428-c010",
+      "claim": "Regulatory limits constrain bank leverage and deposit insurance emerged after Depression-era runs to restore confidence.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 505,
+      "end_seconds": 575,
+      "horizon": "not stated",
+      "topics": [
+        "bank-regulation"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect historical statutes and current capital/deposit insurance framework.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Current constraints are documented, but the historical claim that regulation began only then is too broad and not independently verified.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/tarullo20170404a.htm",
+          "title": "Departing thoughts on regulation",
+          "publisher": "Federal Reserve",
+          "date": "2017-04-04",
+          "finding": "Tarullo describes the previous and continuing US use of complementary leverage and risk-weighted requirements, with higher post-crisis standards.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect historical statutes and current capital/deposit insurance framework.",
+      "confidence": "medium",
+      "family": "bank-regulation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c011",
+      "claim": "Ultimate loan losses are unknown at origination, so reported bank profit depends on forward-looking loss estimates.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 576,
+      "end_seconds": 657,
+      "horizon": "not stated",
+      "topics": [
+        "bank-loss-accounting"
+      ],
+      "entities": [],
+      "test": "Inspect allowance accounting and subsequent realized losses.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "CECL requires estimates using available history, conditions and forecasts, with actual outcomes arriving later.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/supervisionreg/topics/faq-new-accounting-standards-on-financial-instruments-credit-losses.htm",
+          "title": "Interagency CECL FAQs",
+          "publisher": "Federal Reserve / FDIC / OCC / NCUA",
+          "date": "updated2020",
+          "finding": "CECL replaces incurred/probable loss recognition with expected contractual-life losses using historical, current and forecast information. Origination allowances and reporting-date updates apply; calendar-year SEC filers initially adopted in 2020.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "bank-loss-accounting",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c012",
+      "claim": "Because provisions are estimates, bank net income is necessarily wrong in every reporting period.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 610,
+      "end_seconds": 657,
+      "horizon": "not stated",
+      "topics": [
+        "bank-loss-accounting"
+      ],
+      "entities": [],
+      "test": "Distinguish valid GAAP estimates, expected values and later realized outcomes.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "An estimate can coincide with realization; uncertainty does not logically imply every reported amount is false. A probabilistic expectation can also be correct while an outcome differs.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "bank-loss-accounting",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "proof": {
+        "assumptions": [],
+        "derivation": "An estimate can coincide with realization; uncertainty does not logically imply every reported amount is false. A probabilistic expectation can also be correct while an outcome differs."
+      }
+    },
+    {
+      "id": "substack-213481428-c013",
+      "claim": "With $1 billion equity and $1 billion assets, simple assets/equity leverage is 1 times; deposits would be debt owed to customers.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 704,
+      "end_seconds": 839,
+      "horizon": "not stated",
+      "topics": [
+        "bank-leverage"
+      ],
+      "entities": [],
+      "test": "Apply assets=liabilities+equity and the stated leverage definition.",
+      "qualifications": "Hypotheticals hold after-funding-cost ROA fixed. They do not prove real borrowing leaves ROA unchanged.",
+      "verdict": "right",
+      "reason": "With zero liabilities, assets equal equity and A/E = 1; a repayable deposit is a liability under the assumed contract.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "bank-leverage",
+      "evidence_basis": "deductive",
+      "materiality": "supporting",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "With zero liabilities, assets equal equity and A/E = 1; a repayable deposit is a liability under the assumed contract."
+      }
+    },
+    {
+      "id": "substack-213481428-c014",
+      "claim": "ROA is net income divided by assets and includes the effect of estimated credit losses, making it a useful operating-profitability comparison.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 778,
+      "end_seconds": 918,
+      "horizon": "not stated",
+      "topics": [
+        "bank-profitability"
+      ],
+      "entities": [],
+      "test": "Compute consistent annualized net income over average assets and compare risk/mix.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The ratio is defined by NI/A and includes provision expense through net income. Average balances and consistent annualization are needed for real comparisons.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "bank-profitability",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "The ratio is defined by NI/A and includes provision expense through net income. Average balances and consistent annualization are needed for real comparisons."
+      }
+    },
+    {
+      "id": "substack-213481428-c015",
+      "claim": "A 1% ROA is respectable for a bank; JPMorgan exceeds it while Citi has remained below it for decades.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 970,
+      "end_seconds": 1030,
+      "horizon": "not stated",
+      "topics": [
+        "bank-profitability"
+      ],
+      "entities": [
+        "JPMorgan",
+        "Citi",
+        "AI"
+      ],
+      "test": "Compare long-run annualized ROA series with consistent denominators.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The broad decades claim and universal quality benchmark were not checked.",
+      "evidence": [],
+      "next_check": "Compare long-run annualized ROA series with consistent denominators.",
+      "confidence": "medium",
+      "family": "bank-profitability",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-213481428-c016",
+      "claim": "ROE equals ROA multiplied by assets/equity leverage when numerators and average-balance conventions match.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1030,
+      "end_seconds": 1108,
+      "horizon": "not stated",
+      "topics": [
+        "bank-leverage"
+      ],
+      "entities": [],
+      "test": "Multiply NI/A by A/E with compatible period and equity definitions.",
+      "qualifications": "Hypotheticals hold after-funding-cost ROA fixed. They do not prove real borrowing leaves ROA unchanged.",
+      "verdict": "right",
+      "reason": "The assets denominator cancels: (NI/A)*(A/E)=NI/E. It is an identity rather than proof that borrowing itself raises net income.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "bank-leverage",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "The assets denominator cancels: (NI/A)*(A/E)=NI/E. It is an identity rather than proof that borrowing itself raises net income."
+      }
+    },
+    {
+      "id": "substack-213481428-c017",
+      "claim": "Bank management compensation focuses on net income and ROE, creating incentives to increase leverage rather than asset productivity.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1040,
+      "end_seconds": 1108,
+      "horizon": "not stated",
+      "topics": [
+        "bank-incentives"
+      ],
+      "entities": [],
+      "test": "Inspect compensation contracts and changes in risk-adjusted incentives across banks.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No representative proxy-statement sample or causal test was inspected.",
+      "evidence": [],
+      "next_check": "Inspect compensation contracts and changes in risk-adjusted incentives across banks.",
+      "confidence": "medium",
+      "family": "bank-incentives",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c018",
+      "claim": "At fixed 1% ROA, $1 billion equity supports 1%,10% or 100% ROE at 1, 10 or 100 times leverage respectively.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "analytical principle",
+      "start_seconds": 1108,
+      "end_seconds": 1308,
+      "horizon": "not stated",
+      "topics": [
+        "bank-leverage"
+      ],
+      "entities": [],
+      "test": "Hold after-funding-cost ROA fixed and compute net income/equity.",
+      "qualifications": "Hypotheticals hold after-funding-cost ROA fixed. They do not prove real borrowing leaves ROA unchanged.",
+      "verdict": "right",
+      "reason": "Assets of $1, $10 and $100 billion produce $10 million, $100 million and $1 billion income; dividing by $1 billion equity gives 1%,10%,100%. This is explicitly a hypothetical, not a permissible bank balance sheet.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "bank-leverage",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "Assets of $1, $10 and $100 billion produce $10 million, $100 million and $1 billion income; dividing by $1 billion equity gives 1%,10%,100%. This is explicitly a hypothetical, not a permissible bank balance sheet."
+      }
+    },
+    {
+      "id": "substack-213481428-c019",
+      "claim": "At 100 times leverage, a 1% net loss on $100 billion assets wipes out the bank's initial $1 billion equity.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "analytical principle",
+      "start_seconds": 1308,
+      "end_seconds": 1399,
+      "horizon": "not stated",
+      "topics": [
+        "bank-leverage-loss"
+      ],
+      "entities": [],
+      "test": "Subtract a $1 billion loss from $1 billion equity, with no offsetting earnings or issuance.",
+      "qualifications": "Hypotheticals hold after-funding-cost ROA fixed. They do not prove real borrowing leaves ROA unchanged.",
+      "verdict": "right",
+      "reason": "A100 billion*(-1%)=-1 billion, so remaining equity is zero under the stated conditions.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "bank-leverage-loss",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "A100 billion*(-1%)=-1 billion, so remaining equity is zero under the stated conditions."
+      }
+    },
+    {
+      "id": "substack-213481428-c020",
+      "claim": "Only regulators can restrain managers' overwhelming incentive to increase leverage.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "explanation",
+      "start_seconds": 1308,
+      "end_seconds": 1399,
+      "horizon": "not stated",
+      "topics": [
+        "bank-incentives"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Examine market funding, shareholder governance and internal risk limits as additional constraints.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The exclusive only-regulators assertion is not supported; the interview's model omits other constraints.",
+      "evidence": [],
+      "next_check": "Examine market funding, shareholder governance and internal risk limits as additional constraints.",
+      "confidence": "medium",
+      "family": "bank-incentives",
+      "materiality": "major",
+      "synthesis_role": "conditional_scenario"
+    },
+    {
+      "id": "substack-213481428-c021",
+      "claim": "Severely limiting bank leverage would require very high loan rates to preserve returns and could halt lending.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1399,
+      "end_seconds": 1460,
+      "horizon": "not stated",
+      "topics": [
+        "bank-capital-policy"
+      ],
+      "entities": [],
+      "test": "Model required returns, funding costs, competition and nonbank substitution under different equity shares.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The thought experiment fixes ROA rather than endogenizing lower funding risk/cost; it does not prove economy-wide lending cessation.",
+      "evidence": [],
+      "next_check": "Model required returns, funding costs, competition and nonbank substitution under different equity shares.",
+      "confidence": "medium",
+      "family": "bank-capital-policy",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c022",
+      "claim": "For most nonbank businesses, 1% ROA implies likely failure without repeated equity injections.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1460,
+      "end_seconds": 1489,
+      "horizon": "not stated",
+      "topics": [
+        "nonbank-profitability"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Test cash generation, asset intensity and capital needs rather than ROA alone.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "A profitable steady-state business can earn positive 1% ROA, fund replacement depreciation from operating cash and require no new equity. Low accounting ROA is not a sufficient insolvency condition.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "nonbank-profitability",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "proof": {
+        "assumptions": [],
+        "derivation": "A profitable steady-state business can earn positive 1% ROA, fund replacement depreciation from operating cash and require no new equity. Low accounting ROA is not a sufficient insolvency condition."
+      }
+    },
+    {
+      "id": "substack-213481428-c023",
+      "claim": "Hyperscaler valuations face dilution from continued data-center capital requirements and competition from cheaper Chinese alternatives.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 1489,
+      "end_seconds": 1503,
+      "horizon": "not stated",
+      "topics": [
+        "ai-capex-risk"
+      ],
+      "entities": [],
+      "test": "Inspect financing sources, share counts, capex needs and unit economics.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Capex does not necessarily require equity issuance, and no quantified dilution or pricing scenario is specified.",
+      "evidence": [],
+      "next_check": "Inspect financing sources, share counts, capex needs and unit economics.",
+      "confidence": "medium",
+      "family": "ai-capex-risk",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c024",
+      "claim": "Large-bank leverage fell by more than half after the crisis; nearly every major bank had been about 40 times levered beforehand.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1530,
+      "end_seconds": 1594,
+      "horizon": "not stated",
+      "topics": [
+        "bank-capital-history"
+      ],
+      "entities": [],
+      "test": "Compare consistent assets/common-equity measures across a defined large-bank sample.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "The broad deleveraging direction is documented, but JPMorgan's 2007 simple ratio was 12.68 times, illustrating how the 40 times generalization and changing denominators can mislead.",
+      "evidence": [
+        {
+          "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/2007ARComplete.pdf",
+          "title": "JPMorgan 2007 annual report",
+          "publisher": "JPMorgan Chase",
+          "date": "2008",
+          "finding": "2007 assets $1,562,147 million and common equity $123,221 million imply 12.68 times simple leverage, far below 40 times.",
+          "verified": true
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/tarullo20170404a.htm",
+          "title": "Departing thoughts on regulation",
+          "publisher": "Federal Reserve",
+          "date": "2017-04-04",
+          "finding": "Tarullo describes the previous and continuing US use of complementary leverage and risk-weighted requirements, with higher post-crisis standards.",
+          "verified": true
+        }
+      ],
+      "next_check": "Compare consistent assets/common-equity measures across a defined large-bank sample.",
+      "confidence": "medium",
+      "family": "bank-capital-history",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-213481428-c025",
+      "claim": "Regulation is loosening, but banks will never return to pre-crisis extreme leverage.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 1565,
+      "end_seconds": 1594,
+      "horizon": "not stated",
+      "topics": [
+        "bank-capital-outlook"
+      ],
+      "entities": [
+        "banks"
+      ],
+      "test": "Track finalized requirements and consistent actual leverage over a defined horizon.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Never has no finite test horizon; current loosening does not establish an enduring leverage ceiling.",
+      "evidence": [],
+      "next_check": "Track finalized requirements and consistent actual leverage over a defined horizon.",
+      "confidence": "medium",
+      "family": "bank-capital-outlook",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "substack-213481428-c026",
+      "claim": "Risk-weighted assets distinguish portfolios with equal total assets but different regulatory risk; weighted assets can be above or below accounting assets.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "analytical principle",
+      "start_seconds": 1595,
+      "end_seconds": 1692,
+      "horizon": "not stated",
+      "topics": [
+        "bank-risk-weights"
+      ],
+      "entities": [],
+      "test": "Apply RWA=sum(exposure*weight)with specified risk weights.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Equal asset totals yield different RWA when weights differ; average weights over 100% produce RWA above assets and under 100% produce less. Actual rules include off-balance-sheet and other adjustments.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "bank-risk-weights",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "Equal asset totals yield different RWA when weights differ; average weights over 100% produce RWA above assets and under 100% produce less. Actual rules include off-balance-sheet and other adjustments."
+      }
+    },
+    {
+      "id": "substack-213481428-c027",
+      "claim": "A capital ratio is the inverse of leverage when both use exactly the same equity and asset definitions.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1693,
+      "end_seconds": 1716,
+      "horizon": "not stated",
+      "topics": [
+        "bank-risk-weights"
+      ],
+      "entities": [],
+      "test": "Invert A/E or RWA/Ewith nonzero positive values.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "1/(A/E)=E/A. Regulatory capital definitions cannot be interchanged with tangible book without reconciliation.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "bank-risk-weights",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "1/(A/E)=E/A. Regulatory capital definitions cannot be interchanged with tangible book without reconciliation."
+      }
+    },
+    {
+      "id": "substack-213481428-c028",
+      "claim": "Regulators focus only on risk-weighted capital ratios, and assigning risk weights is mostly delegated to credit-rating agencies.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1716,
+      "end_seconds": 1760,
+      "horizon": "not stated",
+      "topics": [
+        "bank-risk-weights"
+      ],
+      "entities": [],
+      "test": "Inspect US standardized, internal-model and leverage rules and their historical evolution.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "US leverage requirements coexist with RWA requirements; post-Dodd-Frank rules removed reliance on external ratings. The current categorical description is wrong even though ratings mattered historically.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/tarullo20170404a.htm",
+          "title": "Departing thoughts on regulation",
+          "publisher": "Federal Reserve",
+          "date": "2017-04-04",
+          "finding": "Tarullo describes the previous and continuing US use of complementary leverage and risk-weighted requirements, with higher post-crisis standards.",
+          "verified": true
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/annual-report/2013-Other-Federal-Reserve-Operations.htm",
+          "title": "2013 regulatory capital rule",
+          "publisher": "Federal Reserve",
+          "date": "2014",
+          "finding": "Regulation Q removed references to and reliance on external credit ratings, consistent with Dodd-Frank 939A.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "bank-risk-weights",
+      "materiality": "major",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-213481428-c029",
+      "claim": "Low risk weights can permit accounting leverage to rise without proportionately worsening a risk-weighted capital ratio.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "analytical principle",
+      "start_seconds": 1760,
+      "end_seconds": 1894,
+      "horizon": "not stated",
+      "topics": [
+        "bank-regulatory-arbitrage"
+      ],
+      "entities": [],
+      "test": "Add assets with sufficiently low weights while holding equity and other exposures fixed.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Adding zero-weight assets leaves RWA/Eunchanged while A/E rises; low positive weights produce a smaller RWA increase. Independent leverage limits can bind.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "bank-regulatory-arbitrage",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "Adding zero-weight assets leaves RWA/Eunchanged while A/E rises; low positive weights produce a smaller RWA increase. Independent leverage limits can bind."
+      }
+    },
+    {
+      "id": "substack-213481428-c030",
+      "claim": "Historical loss experience can understate future risk when underwriting weakens, letting losses emerge after apparently safe balance-sheet expansion.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "explanation",
+      "start_seconds": 1799,
+      "end_seconds": 1894,
+      "horizon": "not stated",
+      "topics": [
+        "bank-underwriting"
+      ],
+      "entities": [],
+      "test": "Compare loan-vintage underwriting and subsequent loss performance, controlling for macro conditions.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "A coherent mechanism, but no inspected vintage dataset quantifies it in this episode.",
+      "evidence": [],
+      "next_check": "Compare loan-vintage underwriting and subsequent loss performance, controlling for macro conditions.",
+      "confidence": "medium",
+      "family": "bank-underwriting",
+      "materiality": "major",
+      "synthesis_role": "conditional_scenario"
+    },
+    {
+      "id": "substack-213481428-c031",
+      "claim": "From 1997 to 2007 European bank leverage rose from 11 to 33 times and ROE tripled, showing unchanged ROA rather than better management.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1894,
+      "end_seconds": 1993,
+      "horizon": "not stated",
+      "topics": [
+        "bank-capital-history"
+      ],
+      "entities": [
+        "Europe"
+      ],
+      "test": "Inspect defined European-bank sample, accounting netting and all three ratio series.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No underlying time series or sample is supplied. The identity is valid if premises hold, but the historical premises are not verified.",
+      "evidence": [],
+      "next_check": "Inspect defined European-bank sample, accounting netting and all three ratio series.",
+      "confidence": "medium",
+      "family": "bank-capital-history",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-213481428-c032",
+      "claim": "Rising leverage and pay made bank executives overconfident and resistant to warnings before the crisis.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1935,
+      "end_seconds": 2008,
+      "horizon": "not stated",
+      "topics": [
+        "bank-incentives"
+      ],
+      "entities": [],
+      "test": "Inspect contemporaneous decisions, pay arrangements and evidence distinguishing beliefs from incentives.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The imagined CEO response is illustrative psychology, not direct evidence of a universal motive.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous decisions, pay arrangements and evidence distinguishing beliefs from incentives.",
+      "confidence": "medium",
+      "family": "bank-incentives",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c033",
+      "claim": "CET1 is roughly tangible common equity adjusted under regulation divided by risk-weighted assets.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2008,
+      "end_seconds": 2042,
+      "horizon": "not stated",
+      "topics": [
+        "bank-capital-definition"
+      ],
+      "entities": [],
+      "test": "Reconcile GAAP common equity, regulatory deductions/adjustments and RWA.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "The broad structure is useful, but calling all adjustments small can be misleading; the inspected filing distinguishes regulatory and accounting amounts.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026054343/jpm-20260630.htm",
+          "title": "JPMorgan Q2 2026 Form 10-Q",
+          "publisher": "JPMorgan Chase / SEC",
+          "date": "2026-08",
+          "finding": "Nonaccrual disclosures distinguish consumer, wholesale, retained, held-for-sale and fair-value loans; some cash-basis interest is recognized, and collateralized loans may lack allowances. Tier 1 leverage and supplementary leverage requirements remain distinct from RWA.",
+          "verified": true
+        }
+      ],
+      "next_check": "Reconcile GAAP common equity, regulatory deductions/adjustments and RWA.",
+      "confidence": "medium",
+      "family": "bank-capital-definition",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c034",
+      "claim": "Daniel Tarullo first held the vice-chair-for-supervision office until April 2016 and forced major post-crisis deleveraging.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 2042,
+      "end_seconds": 2087,
+      "horizon": "not stated",
+      "topics": [
+        "bank-regulatory-history"
+      ],
+      "entities": [
+        "AI",
+        "Daniel Tarullo"
+      ],
+      "test": "Inspect official title, tenure and policy record.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "Tarullo chaired the supervision committee and left in April 2017, not April 2016. His major supervisory influence does not make the formal title and date correct.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20170210a.htm",
+          "title": "Tarullo resignation",
+          "publisher": "Federal Reserve",
+          "date": "2017-02-10",
+          "finding": "Tarullo chaired the supervision/regulation committee and resigned effective April 2017, not April 2016.",
+          "verified": true
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/tarullo20170404a.htm",
+          "title": "Departing thoughts on regulation",
+          "publisher": "Federal Reserve",
+          "date": "2017-04-04",
+          "finding": "Tarullo describes the previous and continuing US use of complementary leverage and risk-weighted requirements, with higher post-crisis standards.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "bank-regulatory-history",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-213481428-c035",
+      "claim": "Stress tests estimate capital depletion under severe scenarios and constrain banks' buffers, dividends and repurchases.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2087,
+      "end_seconds": 2135,
+      "horizon": "not stated",
+      "topics": [
+        "bank-stress-tests"
+      ],
+      "entities": [
+        "AI",
+        "banks"
+      ],
+      "test": "Inspect supervisory test methodology and distribution/capital-buffer rules.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Tarullo's primary account describes stress testing added to the capital framework; capital resilience and distributions are linked, though it is not the only leverage constraint.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/tarullo20170404a.htm",
+          "title": "Departing thoughts on regulation",
+          "publisher": "Federal Reserve",
+          "date": "2017-04-04",
+          "finding": "Tarullo describes the previous and continuing US use of complementary leverage and risk-weighted requirements, with higher post-crisis standards.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "bank-stress-tests",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c036",
+      "claim": "Large systemically important banks require stronger buffers because their failure would impose more economic damage than an isolated regional failure.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 2135,
+      "end_seconds": 2176,
+      "horizon": "not stated",
+      "topics": [
+        "bank-systemic-capital"
+      ],
+      "entities": [
+        "AI",
+        "banks"
+      ],
+      "test": "Specify systemic spillovers and social-risk objectives for calibration.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "A policy rationale rather than a numerical causal forecast; regional failures can still generate contagion.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "bank-systemic-capital",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle"
+    },
+    {
+      "id": "substack-213481428-c037",
+      "claim": "JPMorgan's CET1 fell from 15.7% in Q4 2024 to 14.1% in Q2 2026 because milder stress tests allowed larger buybacks.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2176,
+      "end_seconds": 2209,
+      "horizon": "not stated",
+      "topics": [
+        "bank-capital-distributions"
+      ],
+      "entities": [
+        "JPMorgan"
+      ],
+      "test": "Reconcile consistent capital ratios, buybacks, earnings and RWA changes with stress-buffer revisions.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The exact full bridge was not independently reconstructed; lower capital ratios can also reflect asset growth and other denominator changes.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026054343/jpm-20260630.htm",
+          "title": "JPMorgan Q2 2026 Form 10-Q",
+          "publisher": "JPMorgan Chase / SEC",
+          "date": "2026-08",
+          "finding": "Nonaccrual disclosures distinguish consumer, wholesale, retained, held-for-sale and fair-value loans; some cash-basis interest is recognized, and collateralized loans may lack allowances. Tier 1 leverage and supplementary leverage requirements remain distinct from RWA.",
+          "verified": true
+        },
+        {
+          "url": "https://www.stlouisfed.org/on-the-economy/2026/sep/banking-analytics-us-banking-industry-performance-q2",
+          "title": "Q2 2026 banking analytics",
+          "publisher": "Federal Reserve Bank of St. Louis",
+          "date": "2026-09",
+          "finding": "Overall credit indicators stable, but auto and card delinquency remain elevated. Capital ratios fell modestly as distributions increased.",
+          "verified": true
+        }
+      ],
+      "next_check": "Reconcile consistent capital ratios, buybacks, earnings and RWA changes with stress-buffer revisions.",
+      "confidence": "medium",
+      "family": "bank-capital-distributions",
+      "materiality": "supporting",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c038",
+      "claim": "Provisions reflect both current credit activity and future expectations, so worsening forecasts can increase reserves and lower reported profit.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "explanation",
+      "start_seconds": 2209,
+      "end_seconds": 2298,
+      "horizon": "not stated",
+      "topics": [
+        "bank-loss-accounting"
+      ],
+      "entities": [],
+      "test": "Inspect allowance roll-forwards and forecast assumptions rather than expense alone.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "CECL includes reasonable forward-looking information and reporting-date reassessment; provision expense also reflects portfolio changes and charge-offs.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/supervisionreg/topics/faq-new-accounting-standards-on-financial-instruments-credit-losses.htm",
+          "title": "Interagency CECL FAQs",
+          "publisher": "Federal Reserve / FDIC / OCC / NCUA",
+          "date": "updated2020",
+          "finding": "CECL replaces incurred/probable loss recognition with expected contractual-life losses using historical, current and forecast information. Origination allowances and reporting-date updates apply; calendar-year SEC filers initially adopted in 2020.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "bank-loss-accounting",
+      "materiality": "major",
+      "synthesis_role": "conditional_scenario"
+    },
+    {
+      "id": "substack-213481428-c039",
+      "claim": "Before CECL, banks reserved about two to three years of losses, which proved insufficient in the financial crisis.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 2298,
+      "end_seconds": 2374,
+      "horizon": "not stated",
+      "topics": [
+        "cecl-history"
+      ],
+      "entities": [
+        "CECL",
+        "banks"
+      ],
+      "test": "Compare prior incurred-loss recognition rules with the proposed time-bucket characterization.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "The previous model used incurred/probable loss recognition, not a general mandated two-to-three-year reserve horizon.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/supervisionreg/topics/faq-new-accounting-standards-on-financial-instruments-credit-losses.htm",
+          "title": "Interagency CECL FAQs",
+          "publisher": "Federal Reserve / FDIC / OCC / NCUA",
+          "date": "updated2020",
+          "finding": "CECL replaces incurred/probable loss recognition with expected contractual-life losses using historical, current and forecast information. Origination allowances and reporting-date updates apply; calendar-year SEC filers initially adopted in 2020.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "cecl-history",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-213481428-c040",
+      "claim": "Citi's market value collapsed from roughly $277 billion to $6 billion and its stock reached 97 cents, illustrating insufficient pre-crisis loss absorption.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2320,
+      "end_seconds": 2374,
+      "horizon": "not stated",
+      "topics": [
+        "citi-crisis"
+      ],
+      "entities": [
+        "Citi"
+      ],
+      "test": "Verify share-price adjustments, shares outstanding, capital actions and loss chronology.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Historical figures and causal attribution were not reconstructed; prices alone do not identify allowance adequacy.",
+      "evidence": [],
+      "next_check": "Verify share-price adjustments, shares outstanding, capital actions and loss chronology.",
+      "confidence": "medium",
+      "family": "citi-crisis",
+      "materiality": "supporting",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c041",
+      "claim": "CECL requires lifetime expected credit losses on new amortized-cost loans at origination, creating an upfront earnings cost before most interest arrives.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2375,
+      "end_seconds": 2435,
+      "horizon": "not stated",
+      "topics": [
+        "cecl-origination"
+      ],
+      "entities": [
+        "CECL"
+      ],
+      "test": "Inspect initial allowance requirements and contractual-life estimation scope.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Interagency guidance confirms an origination allowance for expected losses over contractual life using historical/current/forecast information; this is credit loss, not every future business cost.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/supervisionreg/topics/faq-new-accounting-standards-on-financial-instruments-credit-losses.htm",
+          "title": "Interagency CECL FAQs",
+          "publisher": "Federal Reserve / FDIC / OCC / NCUA",
+          "date": "updated2020",
+          "finding": "CECL replaces incurred/probable loss recognition with expected contractual-life losses using historical, current and forecast information. Origination allowances and reporting-date updates apply; calendar-year SEC filers initially adopted in 2020.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "cecl-origination",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c042",
+      "claim": "Faster sound loan growth can depress near-term earnings through CECL while improving future economics, sometimes creating a contrarian opportunity.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "investment thesis",
+      "start_seconds": 2410,
+      "end_seconds": 2469,
+      "horizon": "not stated",
+      "topics": [
+        "cecl-growth"
+      ],
+      "entities": [
+        "CECL"
+      ],
+      "test": "Separate new-vintage allowances from deterioration and compare expected lifetime risk-adjusted returns.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The accounting timing mechanism is supported, but no specific attractive Capital One trade or return is established.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/supervisionreg/topics/faq-new-accounting-standards-on-financial-instruments-credit-losses.htm",
+          "title": "Interagency CECL FAQs",
+          "publisher": "Federal Reserve / FDIC / OCC / NCUA",
+          "date": "updated2020",
+          "finding": "CECL replaces incurred/probable loss recognition with expected contractual-life losses using historical, current and forecast information. Origination allowances and reporting-date updates apply; calendar-year SEC filers initially adopted in 2020.",
+          "verified": true
+        }
+      ],
+      "next_check": "Separate new-vintage allowances from deterioration and compare expected lifetime risk-adjusted returns.",
+      "confidence": "medium",
+      "family": "cecl-growth",
+      "materiality": "major",
+      "synthesis_role": "conditional_scenario"
+    },
+    {
+      "id": "substack-213481428-c043",
+      "claim": "Worsening conditions require updating the entire relevant allowance estimate, but any such true-up always forces lower guidance.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2470,
+      "end_seconds": 2505,
+      "horizon": "not stated",
+      "topics": [
+        "cecl-remeasurement"
+      ],
+      "entities": [],
+      "test": "Inspect reporting-date estimation and management's full earnings bridge.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Reassessment is required; lower guidance is not logically inevitable because earnings offsets, prior guidance ranges and existing conservatism may absorb the change.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/supervisionreg/topics/faq-new-accounting-standards-on-financial-instruments-credit-losses.htm",
+          "title": "Interagency CECL FAQs",
+          "publisher": "Federal Reserve / FDIC / OCC / NCUA",
+          "date": "updated2020",
+          "finding": "CECL replaces incurred/probable loss recognition with expected contractual-life losses using historical, current and forecast information. Origination allowances and reporting-date updates apply; calendar-year SEC filers initially adopted in 2020.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect reporting-date estimation and management's full earnings bridge.",
+      "confidence": "medium",
+      "family": "cecl-remeasurement",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c044",
+      "claim": "JPMorgan booked approximately $8.3 billion and $10.5 billion provisions in Q1 and Q2 2020, then only $611 million in Q3.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 2505,
+      "end_seconds": 2564,
+      "horizon": "not stated",
+      "topics": [
+        "cecl-covid"
+      ],
+      "entities": [
+        "JPMorgan"
+      ],
+      "test": "Inspect the 2020 quarterly provision series.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Official Form 10-Q reports $8.285 billion, $10.473 billion and $611 million respectively.",
+      "evidence": [
+        {
+          "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/3q20-10-q.pdf",
+          "title": "JPMorgan Q3 2020 Form 10-Q",
+          "publisher": "JPMorgan Chase",
+          "date": "2020-11",
+          "finding": "Quarterly provision series: Q1 $8.285 billion, Q2 $10.473 billion, Q3 $611 million. Later improvement also reflects balances, stimulus and other conditions.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "cecl-covid",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-213481428-c045",
+      "claim": "CECL front-loading made buying JPMorgan during the COVID panic sensible and ensured later growth and strength.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2505,
+      "end_seconds": 2595,
+      "horizon": "not stated",
+      "topics": [
+        "cecl-covid"
+      ],
+      "entities": [
+        "JPMorgan",
+        "CECL"
+      ],
+      "test": "Separate allowance timing from stimulus, actual losses, profitability and subsequent valuation.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Provision numbers are correct, but an accounting entry does not ensure economic recovery or establish the cause of later stock gains.",
+      "evidence": [
+        {
+          "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/3q20-10-q.pdf",
+          "title": "JPMorgan Q3 2020 Form 10-Q",
+          "publisher": "JPMorgan Chase",
+          "date": "2020-11",
+          "finding": "Quarterly provision series: Q1 $8.285 billion, Q2 $10.473 billion, Q3 $611 million. Later improvement also reflects balances, stimulus and other conditions.",
+          "verified": true
+        }
+      ],
+      "next_check": "Separate allowance timing from stimulus, actual losses, profitability and subsequent valuation.",
+      "confidence": "medium",
+      "family": "cecl-covid",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c046",
+      "claim": "When media coverage becomes overwhelmingly pessimistic, strong protected banks are often attractive contrarian purchases.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2570,
+      "end_seconds": 2604,
+      "horizon": "not stated",
+      "topics": [
+        "bank-contrarian"
+      ],
+      "entities": [
+        "banks"
+      ],
+      "test": "Backtest a defined sentiment signal with bank solvency screens, prices and benchmark.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No replicable signal or timing rule is specified; surviving examples create selection risk.",
+      "evidence": [],
+      "next_check": "Backtest a defined sentiment signal with bank solvency screens, prices and benchmark.",
+      "confidence": "medium",
+      "family": "bank-contrarian",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c047",
+      "claim": "Hal Schroeder single-handedly created CECL, proposed it in 2016 and gave final approval in 2020.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 2604,
+      "end_seconds": 2660,
+      "horizon": "not stated",
+      "topics": [
+        "cecl-history"
+      ],
+      "entities": [
+        "CECL",
+        "Hal Schroeder"
+      ],
+      "test": "Inspect FASB project history, votes, authorship and adoption versus issuance dates.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "FASB completed and issued the standard in June 2016;2020 was initial adoption for many filers. The primary history describes institutional standard-setting, not unilateral approval.",
+      "evidence": [
+        {
+          "url": "https://fasb.org/page/PageContent?isStaticPage=true&pageId=/standards/Transition/credit-losses-transition.html",
+          "title": "Credit losses transition",
+          "publisher": "FASB",
+          "date": "2016-06-16",
+          "finding": "FASB says it completed the project and issued ASU2016-13 on June 16, 2016. Effective adoption dates came later.",
+          "verified": true
+        },
+        {
+          "url": "https://www.federalreserve.gov/supervisionreg/topics/faq-new-accounting-standards-on-financial-instruments-credit-losses.htm",
+          "title": "Interagency CECL FAQs",
+          "publisher": "Federal Reserve / FDIC / OCC / NCUA",
+          "date": "updated2020",
+          "finding": "CECL replaces incurred/probable loss recognition with expected contractual-life losses using historical, current and forecast information. Origination allowances and reporting-date updates apply; calendar-year SEC filers initially adopted in 2020.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "cecl-history",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-213481428-c048",
+      "claim": "Riskier loan classes generally require higher yields; if realized losses undershoot expectations, profits are higher, other things equal.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "analytical principle",
+      "start_seconds": 2660,
+      "end_seconds": 2713,
+      "horizon": "not stated",
+      "topics": [
+        "bank-risk-adjusted-yield"
+      ],
+      "entities": [],
+      "test": "Hold revenue/funding/other costs fixed and reduce credit-loss expense.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "With profit equal revenue minus costs, lower credit loss expense raises profit under fixed other terms; the market's risk-pricing relationship is not mechanically guaranteed.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary evidence change.",
+      "confidence": "high",
+      "family": "bank-risk-adjusted-yield",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "With profit equal revenue minus costs, lower credit loss expense raises profit under fixed other terms; the market's risk-pricing relationship is not mechanically guaranteed."
+      }
+    },
+    {
+      "id": "substack-213481428-c049",
+      "claim": "Emerging credit problems cause bank investors to sell and compress valuations, making credit data central to analysis.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2713,
+      "end_seconds": 2748,
+      "horizon": "not stated",
+      "topics": [
+        "bank-credit-cycle"
+      ],
+      "entities": [],
+      "test": "Measure announcement returns against surprises in credit metrics and other earnings components.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No event-study evidence is supplied; direction can depend on expectations and price already paid.",
+      "evidence": [],
+      "next_check": "Measure announcement returns against surprises in credit metrics and other earnings components.",
+      "confidence": "medium",
+      "family": "bank-credit-cycle",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c050",
+      "claim": "Nonaccrual loans are generally seriously delinquent, stop earning reported interest and require reserves.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2740,
+      "end_seconds": 2775,
+      "horizon": "not stated",
+      "topics": [
+        "bank-nonaccrual"
+      ],
+      "entities": [],
+      "test": "Inspect nonaccrual policies, cash-basis exceptions, guarantees and collateral.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "They indicate impaired collectability, but inspected JPM disclosures show cash-basis interest and loans without allowances; nonaccrual is not identical to all 90-day delinquencies.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026054343/jpm-20260630.htm",
+          "title": "JPMorgan Q2 2026 Form 10-Q",
+          "publisher": "JPMorgan Chase / SEC",
+          "date": "2026-08",
+          "finding": "Nonaccrual disclosures distinguish consumer, wholesale, retained, held-for-sale and fair-value loans; some cash-basis interest is recognized, and collateralized loans may lack allowances. Tier 1 leverage and supplementary leverage requirements remain distinct from RWA.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect nonaccrual policies, cash-basis exceptions, guarantees and collateral.",
+      "confidence": "medium",
+      "family": "bank-nonaccrual",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c051",
+      "claim": "JPMorgan's Q2 nonaccruals were $9.4 billion, down 5% yearly and 2% sequentially; Bank of America's $5.8 billion were down 4% yearly and flat sequentially.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 2775,
+      "end_seconds": 2828,
+      "horizon": "not stated",
+      "topics": [
+        "bank-credit-data"
+      ],
+      "entities": [
+        "JPMorgan",
+        "Bank of America"
+      ],
+      "test": "Reconcile the exact table definitions and periods to bank supplements.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The full combined company and period comparison was not independently reconciled; subsidiary/segment and retained-loan data cannot substitute for the total claimed.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026054343/jpm-20260630.htm",
+          "title": "JPMorgan Q2 2026 Form 10-Q",
+          "publisher": "JPMorgan Chase / SEC",
+          "date": "2026-08",
+          "finding": "Nonaccrual disclosures distinguish consumer, wholesale, retained, held-for-sale and fair-value loans; some cash-basis interest is recognized, and collateralized loans may lack allowances. Tier 1 leverage and supplementary leverage requirements remain distinct from RWA.",
+          "verified": true
+        }
+      ],
+      "next_check": "Reconcile the exact table definitions and periods to bank supplements.",
+      "confidence": "medium",
+      "family": "bank-credit-data",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-213481428-c052",
+      "claim": "Large-bank credit trends are currently benign, with no visible broad deterioration despite possible future credit-cycle risk.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2800,
+      "end_seconds": 2845,
+      "horizon": "not stated",
+      "topics": [
+        "bank-credit-cycle"
+      ],
+      "entities": [],
+      "test": "Compare balances and rates across consumer/commercial categories and lending volumes.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Aggregate central-bank data supports overall stability but flags elevated auto/card delinquencies, limiting an unqualified benign reading.",
+      "evidence": [
+        {
+          "url": "https://www.stlouisfed.org/on-the-economy/2026/sep/banking-analytics-us-banking-industry-performance-q2",
+          "title": "Q2 2026 banking analytics",
+          "publisher": "Federal Reserve Bank of St. Louis",
+          "date": "2026-09",
+          "finding": "Overall credit indicators stable, but auto and card delinquency remain elevated. Capital ratios fell modestly as distributions increased.",
+          "verified": true
+        }
+      ],
+      "next_check": "Compare balances and rates across consumer/commercial categories and lending volumes.",
+      "confidence": "medium",
+      "family": "bank-credit-cycle",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c053",
+      "claim": "Banks' exposure to private credit and private equity is meaningful but probably not disastrous, although public detail is inadequate.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2828,
+      "end_seconds": 2868,
+      "horizon": "not stated",
+      "topics": [
+        "bank-private-credit"
+      ],
+      "entities": [
+        "AI",
+        "banks"
+      ],
+      "test": "Map funded/unfunded exposures, guarantees, collateral and correlated stress losses relative to capital.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Eisman explicitly identifies a data gap; no complete exposure/loss map supports the reassuring magnitude judgment.",
+      "evidence": [],
+      "next_check": "Map funded/unfunded exposures, guarantees, collateral and correlated stress losses relative to capital.",
+      "confidence": "medium",
+      "family": "bank-private-credit",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-213481428-c054",
+      "claim": "In the next private-credit deterioration, investor redemptions or other data will warn equities before money-center nonaccrual figures do.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 2845,
+      "end_seconds": 2890,
+      "horizon": "not stated",
+      "topics": [
+        "private-credit-indicators"
+      ],
+      "entities": [],
+      "test": "Compare dated redemptions, market repricing, defaults and bank nonaccrual recognition during a defined deterioration event.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The event, thresholds and lead window are unspecified; current redemption observations do not prove future lead-lag ordering.",
+      "evidence": [],
+      "next_check": "Compare dated redemptions, market repricing, defaults and bank nonaccrual recognition during a defined deterioration event.",
+      "confidence": "medium",
+      "family": "private-credit-indicators",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    }
+  ]
+}

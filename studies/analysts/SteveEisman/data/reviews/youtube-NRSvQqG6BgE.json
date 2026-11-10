@@ -1,0 +1,1111 @@
+{
+  "source_id": "youtube-NRSvQqG6BgE",
+  "title": "The AI All-You-Can-Eat Buffet Is Ending with Gary Marcus | The Real Eisman Playbook Ep 62",
+  "date": "2026-06-01T09:00:09-07:00",
+  "url": "https://www.youtube.com/watch?v=NRSvQqG6BgE",
+  "metadata": {
+    "title": "The AI All-You-Can-Eat Buffet Is Ending with Gary Marcus | The Real Eisman Playbook Ep 62",
+    "published_at": "2026-06-01T09:00:09-07:00",
+    "url": "https://www.youtube.com/watch?v=NRSvQqG6BgE"
+  },
+  "read_complete": true,
+  "transcript_sha256": "d9b193c49a3aba2859f226f500a75eedcc94455f0959351b43ba16a6995e1db2",
+  "evaluation_as_of": "2026-11-10",
+  "summary": "Eisman maps AI beneficiaries, software risks, financing concentration and physical bottlenecks before interviewing Gary Marcus. Marcus accepts useful coding and brainstorming while emphasizing reliability limits, tool-driven progress and uncertain unit economics. Eisman questions profitable demand rather than treating failure to achieve AGI as sufficient evidence of a bubble, and declines an immediate short despite concern. Several supporting claims require correction or restraint, especially CPU ratios, automatic private-valuation losses and speculation about Anthropic's compute discount.",
+  "assessment": "Claims are assessed individually. Empirical premises are not treated as successful forecasts. Unverified magnitudes and causal stories remain unresolved; subjective investment judgments are not assigned directional wins.",
+  "speaker_map_notes": "Steve Eisman delivers the opening investment map and interviews Gary Marcus. Marcus supplies technical critiques; Eisman states separate financing risks, willingness to be wrong and reluctance to short current growth.",
+  "framework_points": [
+    "Separate useful specialized AI from AGI claims.",
+    "Analyze a model together with its tools and verification environment.",
+    "Trace revenue, compute cost, funding and customer concentration separately.",
+    "Differentiate announced capacity from paid utilization.",
+    "A bubble thesis needs a mechanism and catalyst, not just high spending.",
+    "Test price elasticity when subsidized usage becomes metered."
+  ],
+  "tools_and_charts": [
+    "AI supply-chain map.",
+    "Hyperscaler capex and free cash flow.",
+    "CPU/GPU architecture and power constraints.",
+    "Token and agent cost accounting.",
+    "SpaceX-Anthropic contract terms.",
+    "AI revenue hurdle model."
+  ],
+  "transcript_cautions": [
+    "Entire supplied public transcript read in two contiguous parts.",
+    "Public episode ends with a premium invitation mid-answer; read_complete refers to the complete supplied public source, not an unavailable premium continuation.",
+    "Guest is Gary Marcus. His technical and economic assertions are not automatically Eisman predictions.",
+    "Intro conflates CPU and memory; later question confuses inference with internet retrieval and is corrected by the guest.",
+    "Pentium date and cost anecdote appears garbled and is incidental to the material reliability thesis.",
+    "NVIDIA result reference places recording after May 20; exact recording date is not stated."
+  ],
+  "claims": [
+    {
+      "claim": "NVIDIA's May 2023 revenue-guidance surprise catalyzed the market's AI investment narrative.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 32,
+      "end_seconds": 102,
+      "horizon": "not stated",
+      "topics": [
+        "ai_cycle"
+      ],
+      "entities": [
+        "NVIDIA",
+        "AI"
+      ],
+      "test": "Inspect the original earnings release and event return; distinguish May 24 after-hours release from May 25 trading and fiscal-year nomenclature.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Inspect the original earnings release and event return; distinguish May 24 after-hours release from May 25 trading and fiscal-year nomenclature.",
+      "confidence": "medium",
+      "family": "ai_cycle",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c001"
+    },
+    {
+      "claim": "Hyperscaler capital spending has become enormous, but investors now differentiate spending justified by cash generation from concentrated, externally funded demand.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 98,
+      "end_seconds": 181,
+      "horizon": "not stated",
+      "topics": [
+        "ai_financing"
+      ],
+      "entities": [
+        "ai financing"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Filings verify very large spending and financing needs. The causal account of investor tolerance and exact early-year estimates needs dated price and guidance comparisons.",
+      "evidence": [
+        {
+          "url": "https://s206.q4cdn.com/479360582/files/doc_news/2026/Oct/28/attachments/2026q3-alphabet-earnings-release.pdf",
+          "title": "Alphabet Q3 2026 Earnings Release",
+          "publisher": "Alphabet",
+          "date": "2026-10-28",
+          "finding": "Quarterly operating cash flow $42.290 billion less capex $51.355 billion gives negative $9.065 billion FCF; trailing-year FCF remains positive $19.747 billion. Search query growth is described as the fastest in five years.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx",
+          "title": "Oracle Q4 and FY2026 results",
+          "publisher": "Oracle",
+          "date": "2026-06-10",
+          "finding": "RPO $638 billion, adjusted EPS $2.11 up 24%, fiscal-year OCF $32b and FCF negative $23.7b imply $55.7b capex. FY27 financing plan approximately $40b; prepaid/customer-supplied hardware reduces funding needs.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_financing",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c002"
+    },
+    {
+      "claim": "Networking and related infrastructure suppliers such as Cisco, Arista and Amphenol benefit from AI data-center construction.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 181,
+      "end_seconds": 220,
+      "horizon": "not stated",
+      "topics": [
+        "ai_infrastructure"
+      ],
+      "entities": [
+        "Cisco",
+        "Arista",
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Cisco's reported AI orders support the demand channel, but do not establish every named stock's returns or durable economics.",
+      "evidence": [
+        {
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m05/cisco-reports-third-quarter-earnings.html",
+          "title": "Cisco third quarter fiscal 2026 results",
+          "publisher": "Cisco",
+          "date": "2026-05-13",
+          "finding": "Revenue $15.8b grew 12%, non-GAAP EPS $1.06. Fiscal-year-to-date hyperscaler AI infrastructure orders $5.3b support AI networking demand; orders are not yet all recognized revenue.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_infrastructure",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c003"
+    },
+    {
+      "claim": "CPU and memory demand rises alongside GPUs; he suggests at least one CPU is needed per GPU and conflates CPU manufacturers with memory makers.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 218,
+      "end_seconds": 254,
+      "horizon": "not stated",
+      "topics": [
+        "semiconductors"
+      ],
+      "entities": [
+        "semiconductors"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "NVIDIA's eight-GPU/two-CPU reference system disproves the proposed minimum ratio. Memory and CPUs are distinct products, although both can benefit from AI demand.",
+      "evidence": [
+        {
+          "url": "https://docs.nvidia.com/dgx/dgxh100-user-guide/introduction-to-dgxh100.html",
+          "title": "DGX H100/H200 system components",
+          "publisher": "NVIDIA",
+          "date": "inspected 2026-11-10",
+          "finding": "Reference system contains eight GPUs and two Intel Xeon CPUs. CPUs, GPUs and memory are distinct components; there is no universal one-CPU-per-GPU requirement.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "semiconductors",
+      "materiality": "supporting",
+      "synthesis_role": "material_explanatory_correction",
+      "id": "youtube-NRSvQqG6BgE-c004"
+    },
+    {
+      "claim": "Power is a major AI bottleneck, benefiting turbine, utility, nuclear, construction and electrical-equipment suppliers.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 254,
+      "end_seconds": 330,
+      "horizon": "not stated",
+      "topics": [
+        "ai_power"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect signed orders, available grid capacity and delivery schedules; three dominant large-turbine suppliers are not literally all turbine manufacturers worldwide.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Inspect signed orders, available grid capacity and delivery schedules; three dominant large-turbine suppliers are not literally all turbine manufacturers worldwide.",
+      "confidence": "medium",
+      "family": "ai_power",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c005"
+    },
+    {
+      "claim": "AI threatens SaaS seats and pricing; he avoids the sector until clearer evidence emerges, probably at least a year away.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 339,
+      "end_seconds": 425,
+      "horizon": "at least a year from May-June 2026",
+      "topics": [
+        "software"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Track renewal, pricing, organic growth and sector returns through mid-2027; a rebound alone does not resolve business-model uncertainty.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "The stated future horizon or conditional scenario remains unfinished at the 2026-11-10 cutoff.",
+      "evidence": [],
+      "next_check": "Track renewal, pricing, organic growth and sector returns through mid-2027; a rebound alone does not resolve business-model uncertainty.",
+      "confidence": "medium",
+      "family": "software",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-NRSvQqG6BgE-c006"
+    },
+    {
+      "claim": "Public software drawdowns imply private buyout equity has at least halved, and refinancing will force sponsors to add capital or surrender ownership.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 425,
+      "end_seconds": 462,
+      "horizon": "next couple of years",
+      "topics": [
+        "software_credit"
+      ],
+      "entities": [
+        "software"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Medallia illustrates a realized lender takeover, but public-stock drawdowns do not mechanically determine every private valuation or equity loss. The broader refinancing horizon is unfinished.",
+      "evidence": [
+        {
+          "url": "https://www.medallia.com/press-release/medallia-closes-150-million-capital-deal/",
+          "title": "Medallia Closes Transaction to Fuel Company's Next Chapter",
+          "publisher": "Medallia",
+          "date": "2026-08-03",
+          "finding": "Completed lender recapitalization reduced debt, raised $150 million and transferred ownership to Blackstone-, Apollo- and FSK-led investors.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "software_credit",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-NRSvQqG6BgE-c007"
+    },
+    {
+      "claim": "Retail redemptions and community opposition to data centers create financing and construction risks that can slow AI expansion.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 462,
+      "end_seconds": 490,
+      "horizon": "not stated",
+      "topics": [
+        "ai_infrastructure"
+      ],
+      "entities": [
+        "data centers",
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Redemption pressure is verified. Its connection to AI construction and the aggregate scale of community delays remain unverified.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1803498/000121390026065024/ea0292864-01_ex99a1vii.htm",
+          "title": "BCRED June investor repurchase update",
+          "publisher": "Blackstone / SEC",
+          "date": "2026-06-04",
+          "finding": "Q2 repurchase requests approximately 10% of shares outstanding and fulfillment 5%. Q1 fulfillment 7% after increased cap, with sponsor/employee investments. The cap establishes limited liquidity, not insolvency; available liquidity includes undrawn borrowing capacity.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_infrastructure",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c008"
+    },
+    {
+      "claim": "The AI ecosystem is heavily dependent on OpenAI and Anthropic funding; he guesses they represent at least half of future hyperscaler revenue, making a funding pullback dangerous.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 488,
+      "end_seconds": 545,
+      "horizon": "not stated",
+      "topics": [
+        "ai_financing"
+      ],
+      "entities": [
+        "OpenAI",
+        "Anthropic",
+        "AI"
+      ],
+      "test": "Separate total hyperscaler revenue, cloud revenue, incremental AI revenue and backlog; verify customer concentrations and external financing rather than accept the undefined 50% denominator.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Separate total hyperscaler revenue, cloud revenue, incremental AI revenue and backlog; verify customer concentrations and external financing rather than accept the undefined 50% denominator.",
+      "confidence": "medium",
+      "family": "ai_financing",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c009"
+    },
+    {
+      "claim": "Neural networks remain vulnerable to distribution shift, hallucination and unreliable generalization despite more data.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 609,
+      "end_seconds": 723,
+      "horizon": "not stated",
+      "topics": [
+        "ai_capabilities"
+      ],
+      "entities": [
+        "ai capabilities"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Documented reliability failures support the concern, but do not establish an invariant limit on every model or task.",
+      "evidence": [
+        {
+          "url": "https://www.anthropic.com/research/harness-design-long-running-apps",
+          "title": "Harness design for long-running application development",
+          "publisher": "Anthropic engineering",
+          "date": "2026-03-24",
+          "finding": "Describes measured improvements from harness design, structured artifacts and evaluators, plus remaining coherence and reliability failures. This supports a model-plus-tools account, not the assertion that model scaling contributes no progress.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_capabilities",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c010"
+    },
+    {
+      "claim": "Pure pretraining scale has delivered disappointing returns since late 2024; tools and harnesses now drive most progress, fitting his neuro-symbolic view.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 723,
+      "end_seconds": 847,
+      "horizon": "not stated",
+      "topics": [
+        "ai_capabilities"
+      ],
+      "entities": [
+        "ai capabilities"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Primary engineering work shows important harness gains. It does not isolate the share of progress due to model scale or establish the guest's architectural taxonomy as settled.",
+      "evidence": [
+        {
+          "url": "https://www.anthropic.com/research/harness-design-long-running-apps",
+          "title": "Harness design for long-running application development",
+          "publisher": "Anthropic engineering",
+          "date": "2026-03-24",
+          "finding": "Describes measured improvements from harness design, structured artifacts and evaluators, plus remaining coherence and reliability failures. This supports a model-plus-tools account, not the assertion that model scaling contributes no progress.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_capabilities",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c011"
+    },
+    {
+      "claim": "Medium models plus tools may reduce the need for massive GPU buildouts, leaving underused data centers and credit losses.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "conditional",
+      "kind": "forecast",
+      "start_seconds": 844,
+      "end_seconds": 950,
+      "horizon": "future architecture and investment cycle",
+      "topics": [
+        "ai_infrastructure"
+      ],
+      "entities": [
+        "data centers"
+      ],
+      "test": "Track workload efficiency, total demand, utilization and returns on deployed capital; efficiency can also expand usage.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "The stated future horizon or conditional scenario remains unfinished at the 2026-11-10 cutoff.",
+      "evidence": [],
+      "next_check": "Track workload efficiency, total demand, utilization and returns on deployed capital; efficiency can also expand usage.",
+      "confidence": "medium",
+      "family": "ai_infrastructure",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-NRSvQqG6BgE-c012"
+    },
+    {
+      "claim": "Absence of AGI does not by itself invalidate AI investments because useful products already have customers; the relevant issue is capability and economics.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 948,
+      "end_seconds": 1021,
+      "horizon": "not stated",
+      "topics": [
+        "ai_economics"
+      ],
+      "entities": [
+        "AGI",
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_economics",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "A product creates sufficient paid value without general intelligence",
+          "Revenue exceeds its full economic cost"
+        ],
+        "derivation": "A profitable specialized service does not require solving all cognitive tasks; failure to reach AGI alone cannot prove an investment unprofitable.",
+        "proof": "A profitable specialized service does not require solving all cognitive tasks; failure to reach AGI alone cannot prove an investment unprofitable."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-NRSvQqG6BgE-c013",
+      "proof": {
+        "assumptions": [
+          "A product creates sufficient paid value without general intelligence",
+          "Revenue exceeds its full economic cost"
+        ],
+        "derivation": "A profitable specialized service does not require solving all cognitive tasks; failure to reach AGI alone cannot prove an investment unprofitable."
+      }
+    },
+    {
+      "claim": "Public expectations of imminent AGI exceeded actual reliability; current systems lack calculator-like factual guarantees.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1021,
+      "end_seconds": 1145,
+      "horizon": "not stated",
+      "topics": [
+        "ai_capabilities"
+      ],
+      "entities": [
+        "AGI"
+      ],
+      "test": "Define AGI and reliability benchmarks, inspect original statements and representative evaluations; anecdotes and shifting definitions are insufficient for a universal grade.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Define AGI and reliability benchmarks, inspect original statements and representative evaluations; anecdotes and shifting definitions are insufficient for a universal grade.",
+      "confidence": "medium",
+      "family": "ai_capabilities",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c014"
+    },
+    {
+      "claim": "Coding, brainstorming and some tutoring or customer-service tasks are useful AI applications, though output quality varies and best human performance may exceed it.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1309,
+      "end_seconds": 1396,
+      "horizon": "not stated",
+      "topics": [
+        "ai_productivity"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Coding utility and persistent failures are supported by primary engineering work. The broader customer-service ranking and tutoring claims require task-specific studies.",
+      "evidence": [
+        {
+          "url": "https://www.anthropic.com/research/harness-design-long-running-apps",
+          "title": "Harness design for long-running application development",
+          "publisher": "Anthropic engineering",
+          "date": "2026-03-24",
+          "finding": "Describes measured improvements from harness design, structured artifacts and evaluators, plus remaining coherence and reliability failures. This supports a model-plus-tools account, not the assertion that model scaling contributes no progress.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_productivity",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c015"
+    },
+    {
+      "claim": "Verifiable domains permit synthetic training examples and external checks, helping AI perform coding and mathematics more reliably.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1394,
+      "end_seconds": 1479,
+      "horizon": "not stated",
+      "topics": [
+        "ai_capabilities"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_capabilities",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "An external verifier is sound for the specified formal property",
+          "Inputs and test specifications are correct"
+        ],
+        "derivation": "Generated candidates can be filtered against independently computed answers or proofs. This establishes verified properties only, not complete real-world correctness.",
+        "proof": "Generated candidates can be filtered against independently computed answers or proofs. This establishes verified properties only, not complete real-world correctness."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-NRSvQqG6BgE-c016",
+      "proof": {
+        "assumptions": [
+          "An external verifier is sound for the specified formal property",
+          "Inputs and test specifications are correct"
+        ],
+        "derivation": "Generated candidates can be filtered against independently computed answers or proofs. This establishes verified properties only, not complete real-world correctness."
+      }
+    },
+    {
+      "claim": "Most tasks in his bet, including reliably writing a hallucination-free obituary, will remain beyond AI by the end of 2027.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 1477,
+      "end_seconds": 1527,
+      "horizon": "end of 2027",
+      "topics": [
+        "ai_capabilities"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Obtain the original bet's exact task definitions, sampling and permitted tools before evaluating outcomes.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "The stated future horizon or conditional scenario remains unfinished at the 2026-11-10 cutoff.",
+      "evidence": [],
+      "next_check": "Obtain the original bet's exact task definitions, sampling and permitted tools before evaluating outcomes.",
+      "confidence": "medium",
+      "family": "ai_capabilities",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-NRSvQqG6BgE-c017"
+    },
+    {
+      "claim": "Next-token training can produce plausible text without guaranteed fact checking, explaining fabricated biographies and citations.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1524,
+      "end_seconds": 1747,
+      "horizon": "not stated",
+      "topics": [
+        "ai_reliability"
+      ],
+      "entities": [
+        "ai reliability"
+      ],
+      "test": "Distinguish base-model training objective from deployed systems with retrieval and verification; define the evaluation distribution and error rate.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Distinguish base-model training objective from deployed systems with retrieval and verification; define the evaluation distribution and error rate.",
+      "confidence": "medium",
+      "family": "ai_reliability",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c018"
+    },
+    {
+      "claim": "He concludes that LLMs do not understand what they say and merely predict the next word.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "endorsed",
+      "kind": "explanation",
+      "start_seconds": 1579,
+      "end_seconds": 1600,
+      "horizon": "not stated",
+      "topics": [
+        "ai_capabilities"
+      ],
+      "entities": [
+        "ai capabilities"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "Understanding is not operationally defined; the training objective alone does not settle all internal representations or reasoning capabilities.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_capabilities",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c019"
+    },
+    {
+      "claim": "He agrees with the claim that LLMs do not think.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "endorsed",
+      "kind": "explanation",
+      "start_seconds": 1689,
+      "end_seconds": 1747,
+      "horizon": "not stated",
+      "topics": [
+        "ai_capabilities"
+      ],
+      "entities": [
+        "ai capabilities"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "Thinking is undefined in the discussion. Observable reasoning performance can be tested separately from this categorical label.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_capabilities",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c020"
+    },
+    {
+      "claim": "Tokens are approximately words and each generated token has a computation cost; Eisman initially contrasts this with supposedly costless search.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1780,
+      "end_seconds": 1869,
+      "horizon": "not stated",
+      "topics": [
+        "ai_economics"
+      ],
+      "entities": [
+        "ai economics"
+      ],
+      "test": "Use tokenizer counts and full serving-cost accounting; tokens need not equal words and search also consumes computing resources.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The economic direction is sensible but the simplified units and costless-search premise need correction before numerical use.",
+      "evidence": [],
+      "next_check": "Use tokenizer counts and full serving-cost accounting; tokens need not equal words and search also consumes computing resources.",
+      "confidence": "medium",
+      "family": "ai_economics",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c021"
+    },
+    {
+      "claim": "Frontier inference generally runs on cloud hardware, with iterative generation occupying compute; larger models and longer answers can cost more, while efficiency improvements offset some cost.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1866,
+      "end_seconds": 2037,
+      "horizon": "not stated",
+      "topics": [
+        "ai_economics"
+      ],
+      "entities": [
+        "ai economics"
+      ],
+      "test": "Inspect measured inference cost by model, hardware, batching, cache and output length; doubling tokens need not exactly double wall time or total cost.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Inspect measured inference cost by model, hardware, batching, cache and output length; doubling tokens need not exactly double wall time or total cost.",
+      "confidence": "medium",
+      "family": "ai_economics",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c022"
+    },
+    {
+      "claim": "Eisman initially assumes each answer searches the whole internet, then receives a correction that inference runs a trained neural network.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "question corrected in interview",
+      "kind": "explanation",
+      "start_seconds": 1920,
+      "end_seconds": 1986,
+      "horizon": "not stated",
+      "topics": [
+        "ai_capabilities"
+      ],
+      "entities": [
+        "ai capabilities"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "This is an explicitly corrected exploratory question, not a final factual assertion or prediction.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_capabilities",
+      "materiality": "major",
+      "synthesis_role": "learning_or_revision",
+      "id": "youtube-NRSvQqG6BgE-c023"
+    },
+    {
+      "claim": "Agents use repeated model and tool calls, so autonomous tasks can consume much more compute than a single chat response.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 2075,
+      "end_seconds": 2164,
+      "horizon": "not stated",
+      "topics": [
+        "ai_economics"
+      ],
+      "entities": [
+        "ai economics"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_economics",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "An agent makes additional billable calls beyond the baseline response",
+          "Per-call cost is positive"
+        ],
+        "derivation": "Total cost is the sum of call and tool costs, so additional calls increase cost holding individual-call efficiency fixed. The transcript's extreme multipliers are not measured estimates.",
+        "proof": "Total cost is the sum of call and tool costs, so additional calls increase cost holding individual-call efficiency fixed. The transcript's extreme multipliers are not measured estimates."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-NRSvQqG6BgE-c024",
+      "proof": {
+        "assumptions": [
+          "An agent makes additional billable calls beyond the baseline response",
+          "Per-call cost is positive"
+        ],
+        "derivation": "Total cost is the sum of call and tool costs, so additional calls increase cost holding individual-call efficiency fixed. The transcript's extreme multipliers are not measured estimates."
+      }
+    },
+    {
+      "claim": "Flat subscriptions can subsidize heavy agent users, motivating usage-based pricing that may weaken demand when users face actual costs.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2160,
+      "end_seconds": 2283,
+      "horizon": "not stated",
+      "topics": [
+        "ai_economics"
+      ],
+      "entities": [
+        "ai economics"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "GitHub's June usage-credit change supports the pricing transition. It does not establish that every subscription loses money or quantify subsequent demand elasticity.",
+      "evidence": [
+        {
+          "url": "https://github.blog/changelog/2026-06-01-updates-to-github-copilot-billing-and-plans/",
+          "title": "Updates to GitHub Copilot billing and plans",
+          "publisher": "GitHub",
+          "date": "2026-06-01",
+          "finding": "Usage-based AI Credits became active June 1, with included monthly usage and additional spending budgets. This is more granular metering, not abolition of all subscription plans.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_economics",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c025"
+    },
+    {
+      "claim": "Microsoft's alleged move away from Claude Code may reflect cost or internal-product incentives, and Uber reportedly exhausted an annual token budget quickly.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "reported and partly speculative",
+      "kind": "explanation",
+      "start_seconds": 2283,
+      "end_seconds": 2344,
+      "horizon": "not stated",
+      "topics": [
+        "ai_economics"
+      ],
+      "entities": [
+        "Microsoft"
+      ],
+      "test": "Obtain original corporate statements, budget denominator and product restrictions; preserve his explicit uncertainty about motives.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Obtain original corporate statements, budget denominator and product restrictions; preserve his explicit uncertainty about motives.",
+      "confidence": "medium",
+      "family": "ai_economics",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c026"
+    },
+    {
+      "claim": "Eisman suspects usage pricing will cause some customers to reject expensive AI tasks, potentially undermining the investment boom.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "forecast",
+      "start_seconds": 2342,
+      "end_seconds": 2409,
+      "horizon": "transition to usage pricing",
+      "topics": [
+        "ai_economics"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Track paid retention, usage elasticity and value per completed task as subsidies and limits change.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "The stated future horizon or conditional scenario remains unfinished at the 2026-11-10 cutoff.",
+      "evidence": [],
+      "next_check": "Track paid retention, usage elasticity and value per completed task as subsidies and limits change.",
+      "confidence": "medium",
+      "family": "ai_economics",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-NRSvQqG6BgE-c027"
+    },
+    {
+      "claim": "AI labs hope to turn subsidized adoption into profits, but undifferentiated competitors may prevent an Uber-like path to pricing power.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2407,
+      "end_seconds": 2460,
+      "horizon": "not stated",
+      "topics": [
+        "ai_economics"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Compare differentiated capabilities, switching costs, full cost margins and competitive pricing; transport-market analogy alone proves neither monopoly nor failure.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Compare differentiated capabilities, switching costs, full cost margins and competitive pricing; transport-market analogy alone proves neither monopoly nor failure.",
+      "confidence": "medium",
+      "family": "ai_economics",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c028"
+    },
+    {
+      "claim": "Anthropic's reported first profitable quarter could depend on discounted SpaceX compute; he estimates a $1-$2 billion subsidy without knowing its size.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2458,
+      "end_seconds": 2523,
+      "horizon": "not stated",
+      "topics": [
+        "ai_economics"
+      ],
+      "entities": [
+        "Anthropic",
+        "SpaceX"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Reduced ramp-period fees are disclosed, but capacity is also reduced. The filing does not establish the speculative discount amount, a subsidy relative to fair value, or the exact profit metric.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026036936/spaceexplorationtechnologi.htm",
+          "title": "SpaceX S-1 compute services agreements",
+          "publisher": "SpaceX / SEC",
+          "date": "2026-05-20",
+          "finding": "Anthropic agreed to $1.25 billion monthly through May 2029, with reduced fees while capacity ramps in May-June and termination on 90 days notice. The filing does not disclose the discount amount or prove a loss-leading strategic subsidy.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_economics",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c029"
+    },
+    {
+      "claim": "A cited model estimates AI requires about $1.6 trillion annual revenue to justify investment, far above current lab revenue; common products create downward price pressure.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2523,
+      "end_seconds": 2642,
+      "horizon": "not stated",
+      "topics": [
+        "ai_economics"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the original capital, depreciation, utilization, margin and discount-rate assumptions; distinguish industry revenue from value captured and avoid double counting supply-chain sales.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Inspect the original capital, depreciation, utilization, margin and discount-rate assumptions; distinguish industry revenue from value captured and avoid double counting supply-chain sales.",
+      "confidence": "medium",
+      "family": "ai_economics",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c030"
+    },
+    {
+      "claim": "Even complete capture of a roughly $570 billion software-development market would cover only about one third of that revenue requirement.",
+      "speaker": "Gary Marcus",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2642,
+      "end_seconds": 2737,
+      "horizon": "not stated",
+      "topics": [
+        "ai_economics"
+      ],
+      "entities": [
+        "software"
+      ],
+      "test": "Verify both denominators and evaluate incremental demand and substitution rather than use the ratio as a proof of failure.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The ratio follows from the proposed figures, but market boundaries and the required-revenue estimate are unverified; software spending is not the whole possible AI market.",
+      "evidence": [],
+      "next_check": "Verify both denominators and evaluate incremental demand and substitution rather than use the ratio as a proof of failure.",
+      "confidence": "medium",
+      "family": "ai_economics",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c031"
+    },
+    {
+      "claim": "NVIDIA's 85% revenue growth makes an immediate subprime-style short thesis difficult; he admits profitable AI monetization could prove the bearish view wrong.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2737,
+      "end_seconds": 2817,
+      "horizon": "not stated",
+      "topics": [
+        "ai_investing"
+      ],
+      "entities": [
+        "NVIDIA",
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "The growth figure is verified. It is a current demand premise, not proof of eventual customer returns; the refusal to short without a catalyst is an investment rule.",
+      "evidence": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027",
+          "title": "NVIDIA first quarter fiscal 2027 results",
+          "publisher": "NVIDIA",
+          "date": "2026-05-20",
+          "finding": "Revenue $81.615b, up 85%; non-GAAP EPS $1.87, gross margin 75%. Issuer results support extraordinary growth; they do not independently verify whisper expectations or prove durable returns.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_investing",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-NRSvQqG6BgE-c032"
+    },
+    {
+      "claim": "The AI boom could break if financing or end-user demand stops, analogous to subprime issuance failing when final buyers disappeared; usage pricing is one possible trigger.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "forecast",
+      "start_seconds": 2817,
+      "end_seconds": 2861,
+      "horizon": "unspecified future funding or demand interruption",
+      "topics": [
+        "ai_financing"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Monitor external funding, prepaid commitments, customer cash flows and demand after price changes; do not infer that the trigger has already occurred.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "The stated future horizon or conditional scenario remains unfinished at the 2026-11-10 cutoff.",
+      "evidence": [],
+      "next_check": "Monitor external funding, prepaid commitments, customer cash flows and demand after price changes; do not infer that the trigger has already occurred.",
+      "confidence": "medium",
+      "family": "ai_financing",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-NRSvQqG6BgE-c033"
+    }
+  ],
+  "materiality_note": "Major theses and forecasts are distinguished from supporting premises. Do not calculate an overall accuracy rate from claim counts. Exclude guest and uncertain-speaker claims from Eisman forecast scoring."
+}

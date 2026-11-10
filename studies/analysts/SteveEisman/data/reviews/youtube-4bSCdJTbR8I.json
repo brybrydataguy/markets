@@ -1,0 +1,1211 @@
+{
+  "source_id": "youtube-4bSCdJTbR8I",
+  "title": "Steve Eisman's Masterclass on the 2008 Financial Crisis (Part One) | The Real Eisman Playbook Ep 38",
+  "date": "2025-12-15",
+  "source_url": "https://www.youtube.com/watch?v=4bSCdJTbR8I",
+  "read_complete": true,
+  "transcript_sha256": "327168ab0163bfdf8b7cf53f9a9644484c9e987cd7dc8ff1ad04e22550f7ea27",
+  "evaluation_as_of": "2026-11-10",
+  "summary": "Eisman explains the crisis through leverage, deteriorating mortgage quality, concentration of exposures and derivative connections. His strongest analytical lessons are that leverage can masquerade as operating skill, historical loss models can fail when underwriting changes, and like-aged loan vintages reveal deterioration hidden by aggregates. Primary research supports these mechanisms. His account overstates a universal risk-weighting explanation and misdescribes typical subprime introductory rates. Loan-level evidence also complicates his reset-centered causal chain. The blanket claim that real household incomes stopped growing in the early 1990s is contradicted by Census data.",
+  "assessment": "Full transcript read. This bounded evidence audit retains unresolved outcomes where matched primary verification is missing; those are not adverse accuracy grades.",
+  "speaker_map_notes": "Steve Eisman is the sole substantive speaker; viewer questions are distinguished from his responses.",
+  "framework_points": [
+    "Decompose ROE into asset profitability and leverage.",
+    "Treat estimated loan losses as uncertain costs rather than immediately known margins.",
+    "Question historical risk weights when underwriting changes.",
+    "Compare loan vintages at equal seasoning and account for tax-refund seasonality.",
+    "Choose a short instrument with manageable liquidity, borrow costs and capacity."
+  ],
+  "tools_and_charts": [
+    "Illustrative banks with $1 billion equity and 1x, 10x and 100x assets/equity",
+    "ROA, ROE and risk-weighted capital ratios",
+    "Historical bank leverage and subprime origination volumes",
+    "Low/no-documentation share and hybrid mortgage refinancing",
+    "Monthly securitization delinquency, repossession and loss reports by vintage"
+  ],
+  "transcript_cautions": [
+    "The opening montage repeats later material.",
+    "Illustrative bank balance sheets expressly omit liquidity and hold ROA constant.",
+    "He calls 2000 a recession year and gives simplified industry chronology; incidental chronology is not used to judge the investment thesis.",
+    "The repeated 3% initial subprime rate is load-bearing in the refinancing explanation and is preserved rather than silently corrected."
+  ],
+  "claims": [
+    {
+      "claim": "The crisis combined excessive leverage, a collapsing mortgage asset class, concentrated exposure at systemic institutions and opaque derivative links.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 129,
+      "end_seconds": 185,
+      "horizon": "not stated",
+      "topics": [
+        "financial_crisis",
+        "banks"
+      ],
+      "entities": [],
+      "test": "Trace losses, funding and counterparty exposures across major institutions.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Primary research and the commission investigation support the interacting leverage, common-exposure and funding mechanisms. This is a useful broad diagnosis, not proof that these exhaust every cause.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/pubs/feds/2010/201020/index.html",
+          "title": "Financial Statistics for the United States and the Crisis",
+          "publisher": "Federal Reserve Board research",
+          "date": "2010-04-15",
+          "finding": "Research identifies leverage, short-term funding and shared exposures as core vulnerabilities. Loan-vintage data show worsening early-payment defaults, reaching about 8% for 2007 loans within one year, and explain why aggregate data can conceal risk.",
+          "verified": true
+        },
+        {
+          "url": "https://fcic-static.law.stanford.edu/cdn_media/fcic-reports/fcic_final_report_full.pdf",
+          "title": "Financial Crisis Inquiry Report, findings and chapters 4, 6, 7, 13",
+          "publisher": "Financial Crisis Inquiry Commission",
+          "date": "2011-01-27",
+          "finding": "Investigative evidence documents fragile leverage/funding, fee and ROE incentives, deteriorating underwriting, and securitization dependence. Pages 61-64 describe pay incentives; pages 89 and 125 describe the origination chain; page 281 reports Bear near 38:1 and balance-sheet window dressing. Findings are not proof of a single exclusive cause.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "high",
+      "family": "gfc_interacting_causes",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c001"
+    },
+    {
+      "claim": "Lenders do not know eventual loan losses when they originate credit, so apparent profitability depends on uncertain loss estimates.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 185,
+      "end_seconds": 246,
+      "horizon": "not stated",
+      "topics": [
+        "banks",
+        "credit"
+      ],
+      "entities": [],
+      "test": "Compare origination loss estimates with vintage lifetime defaults and recoveries.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Future defaults and recoveries are unknown at origination. Replacing an expected loss with the realized loss can change reported lifetime profitability, even with unchanged contractual interest.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "unknown_lending_costs",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "evidence_basis": "deductive",
+      "proof_assumptions": "Future defaults and recoveries are unknown at origination. Replacing an expected loss with the realized loss can change reported lifetime profitability, even with unchanged contractual interest.",
+      "id": "4bSCdJTbR8I-c002",
+      "proof": {
+        "assumptions": [],
+        "derivation": "Future defaults and recoveries are unknown at origination. Replacing an expected loss with the realized loss can change reported lifetime profitability, even with unchanged contractual interest."
+      }
+    },
+    {
+      "claim": "For consistent income, asset and equity definitions, return on equity equals return on assets multiplied by assets-to-equity leverage.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 299,
+      "end_seconds": 436,
+      "horizon": "not stated",
+      "topics": [
+        "banks",
+        "valuation"
+      ],
+      "entities": [],
+      "test": "Reconcile average balances and capital definitions before applying the identity.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "(Net income/assets)*(assets/equity)=net income/equity, for nonzero assets and equity with matching measurement periods. This is an identity, not an assurance that ROA remains constant when leverage changes.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "high",
+      "family": "roe_roa_leverage_identity",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "evidence_basis": "deductive",
+      "proof_assumptions": "(Net income/assets)*(assets/equity)=net income/equity, for nonzero assets and equity with matching measurement periods. This is an identity, not an assurance that ROA remains constant when leverage changes.",
+      "id": "4bSCdJTbR8I-c003",
+      "proof": {
+        "assumptions": [],
+        "derivation": "(Net income/assets)*(assets/equity)=net income/equity, for nonzero assets and equity with matching measurement periods. This is an identity, not an assurance that ROA remains constant when leverage changes."
+      }
+    },
+    {
+      "claim": "Deposits are bank liabilities, and adding deposit-funded assets can raise equity returns even without improving return on assets.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 438,
+      "end_seconds": 600,
+      "horizon": "not stated",
+      "topics": [
+        "banks"
+      ],
+      "entities": [],
+      "test": "Hold the stated net ROA assumption fixed for the illustration; assess funding costs separately in actual banks.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "In the stated examples ROA is fixed after deposit interest expense. Increasing assets relative to unchanged equity therefore increases ROE. Real funding costs and risk can alter ROA.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "deposit_leverage_roe",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "evidence_basis": "deductive",
+      "proof_assumptions": "In the stated examples ROA is fixed after deposit interest expense. Increasing assets relative to unchanged equity therefore increases ROE. Real funding costs and risk can alter ROA.",
+      "id": "4bSCdJTbR8I-c004",
+      "proof": {
+        "assumptions": [],
+        "derivation": "In the stated examples ROA is fixed after deposit interest expense. Increasing assets relative to unchanged equity therefore increases ROE. Real funding costs and risk can alter ROA."
+      }
+    },
+    {
+      "claim": "Compensation tied to earnings and ROE creates incentives to increase leverage, requiring restraint rather than assuming managers will self-limit.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 600,
+      "end_seconds": 647,
+      "horizon": "not stated",
+      "topics": [
+        "banks",
+        "governance"
+      ],
+      "entities": [],
+      "test": "Inspect incentive contracts, deferred compensation, clawbacks and actual leverage decisions.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The investigation documents asymmetric pay and ROE-based rewards that encouraged leverage and short-term risk. It does not establish that regulators are the only possible restraint.",
+      "evidence": [
+        {
+          "url": "https://fcic-static.law.stanford.edu/cdn_media/fcic-reports/fcic_final_report_full.pdf",
+          "title": "Financial Crisis Inquiry Report, findings and chapters 4, 6, 7, 13",
+          "publisher": "Financial Crisis Inquiry Commission",
+          "date": "2011-01-27",
+          "finding": "Investigative evidence documents fragile leverage/funding, fee and ROE incentives, deteriorating underwriting, and securitization dependence. Pages 61-64 describe pay incentives; pages 89 and 125 describe the origination chain; page 281 reports Bear near 38:1 and balance-sheet window dressing. Findings are not proof of a single exclusive cause.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "bank_pay_leverage_incentive",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c005"
+    },
+    {
+      "claim": "At one hundred times assets to equity, a loss of one percent of assets wipes out the original equity buffer.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 644,
+      "end_seconds": 696,
+      "horizon": "not stated",
+      "topics": [
+        "banks",
+        "risk"
+      ],
+      "entities": [],
+      "test": "Calculate losses relative to the actual common-equity loss-absorbing buffer.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "With assets 100 and equity 1, a loss of 1 reduces equity to zero, assuming no offsetting income or capital issuance and no change in liabilities.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "high",
+      "family": "leverage_loss_buffer",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "evidence_basis": "deductive",
+      "proof_assumptions": "With assets 100 and equity 1, a loss of 1 reduces equity to zero, assuming no offsetting income or capital issuance and no change in liabilities.",
+      "id": "4bSCdJTbR8I-c006",
+      "proof": {
+        "assumptions": [],
+        "derivation": "With assets 100 and equity 1, a loss of 1 reduces equity to zero, assuming no offsetting income or capital issuance and no change in liabilities."
+      }
+    },
+    {
+      "claim": "Some bank leverage is economically useful because deposit intermediation supports lending at affordable rates; the policy problem is the appropriate amount.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 690,
+      "end_seconds": 780,
+      "horizon": "not stated",
+      "topics": [
+        "banks",
+        "regulation"
+      ],
+      "entities": [],
+      "test": "Model lending spreads, funding costs, equity risk and systemic externalities across capital structures.",
+      "qualifications": "His claim that lower leverage necessarily demands much higher lending rates requires assumptions about funding costs and required equity returns.",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "bank_leverage_social_tradeoff",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c007"
+    },
+    {
+      "claim": "Large financial institutions entered the crisis with dangerously high leverage, including important off-balance-sheet exposures.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 780,
+      "end_seconds": 836,
+      "horizon": "not stated",
+      "topics": [
+        "banks",
+        "financial_crisis"
+      ],
+      "entities": [],
+      "test": "Reconstruct gross and tangible leverage plus off-balance-sheet commitments for each institution.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The commission documents leverage and concealed exposures, including Bear near 38:1. The precise claim that all large institutions tripled from 1997 is not established by this evidence.",
+      "evidence": [
+        {
+          "url": "https://fcic-static.law.stanford.edu/cdn_media/fcic-reports/fcic_final_report_full.pdf",
+          "title": "Financial Crisis Inquiry Report, findings and chapters 4, 6, 7, 13",
+          "publisher": "Financial Crisis Inquiry Commission",
+          "date": "2011-01-27",
+          "finding": "Investigative evidence documents fragile leverage/funding, fee and ROE incentives, deteriorating underwriting, and securitization dependence. Pages 61-64 describe pay incentives; pages 89 and 125 describe the origination chain; page 281 reports Bear near 38:1 and balance-sheet window dressing. Findings are not proof of a single exclusive cause.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "precrisis_excess_leverage",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c008"
+    },
+    {
+      "claim": "European bank leverage roughly tripled from eleven to thirty-three times between 1997 and 2007, while risk-weighted measures changed much less.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 785,
+      "end_seconds": 831,
+      "horizon": "not stated",
+      "topics": [
+        "banks"
+      ],
+      "entities": [],
+      "test": "Recover the stated bank sample, accounting basis and capital denominator at both dates.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "europe_leverage_tripling",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "4bSCdJTbR8I-c009"
+    },
+    {
+      "claim": "Risk weighting is intended to distinguish the capital needs of portfolios with different credit risk rather than treating equal asset amounts as equally risky.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 834,
+      "end_seconds": 956,
+      "horizon": "not stated",
+      "topics": [
+        "banks",
+        "regulation"
+      ],
+      "entities": [],
+      "test": "Map asset risk weights and qualifying capital definitions under each applicable regime.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The Federal Reserve paper describes risk-sensitive capital rules and contrasts them with simple leverage limits. Actual regulatory capital definitions are more complex than the lecture’s common-equity shorthand.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/pubs/feds/2006/200646/index.html",
+          "title": "Competitive Effects of Risk-Based Bank Capital Regulation",
+          "publisher": "Federal Reserve Board research",
+          "date": "2006-08",
+          "finding": "Describes Basel I mortgage capital rules, proposed Basel II internal default/loss estimates, and separate non-risk-weighted leverage limits. Regulatory capital is not simply common equity and risk weights were not all delegated to external rating agencies.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "rwa_risk_adjustment",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c010"
+    },
+    {
+      "claim": "Rating agencies largely determine risk weights, and regulatory capital and leverage ratios are all calculated on a risk-weighted basis.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1084,
+      "end_seconds": 1272,
+      "horizon": "not stated",
+      "topics": [
+        "banks",
+        "regulation"
+      ],
+      "entities": [],
+      "test": "Identify the jurisdiction, bank type, date and applicable standardized or internal-model capital approach.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "External ratings matter for some securities, but the primary regulatory description includes prescribed weights, bank internal estimates and separate non-risk-based leverage limits. The universal description is inaccurate.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/pubs/feds/2006/200646/index.html",
+          "title": "Competitive Effects of Risk-Based Bank Capital Regulation",
+          "publisher": "Federal Reserve Board research",
+          "date": "2006-08",
+          "finding": "Describes Basel I mortgage capital rules, proposed Basel II internal default/loss estimates, and separate non-risk-weighted leverage limits. Regulatory capital is not simply common equity and risk weights were not all delegated to external rating agencies.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "high",
+      "family": "rwa_universal_regulation_claim",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c011"
+    },
+    {
+      "claim": "Adding low-risk-weight assets can increase simple balance-sheet leverage without materially weakening the reported risk-weighted capital ratio.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1120,
+      "end_seconds": 1186,
+      "horizon": "not stated",
+      "topics": [
+        "banks",
+        "regulation"
+      ],
+      "entities": [],
+      "test": "Compare changes in total assets, RWA, risk weights and loss-absorbing capital.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "For fixed capital, adding assets with zero weight increases gross assets without increasing RWA; adding low-weight assets can likewise increase gross leverage disproportionately. This demonstrates the mechanism, not its prevalence.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "risk_weight_arbitrage",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "evidence_basis": "deductive",
+      "proof_assumptions": "For fixed capital, adding assets with zero weight increases gross assets without increasing RWA; adding low-weight assets can likewise increase gross leverage disproportionately. This demonstrates the mechanism, not its prevalence.",
+      "id": "4bSCdJTbR8I-c012",
+      "proof": {
+        "assumptions": [],
+        "derivation": "For fixed capital, adding assets with zero weight increases gross assets without increasing RWA; adding low-weight assets can likewise increase gross leverage disproportionately. This demonstrates the mechanism, not its prevalence."
+      }
+    },
+    {
+      "claim": "Historical loss patterns can become misleading when lending standards loosen, because deteriorating loans take time to season into losses.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1165,
+      "end_seconds": 1240,
+      "horizon": "not stated",
+      "topics": [
+        "credit",
+        "risk"
+      ],
+      "entities": [],
+      "test": "Track like-aged vintages and underwriting variables rather than relying on aggregate trailing losses.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Loan-vintage research documents deterioration concealed by favorable aggregate conditions and emphasizes granular credit analysis. The timing and magnitude cannot be inferred from past averages alone.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/pubs/feds/2010/201020/index.html",
+          "title": "Financial Statistics for the United States and the Crisis",
+          "publisher": "Federal Reserve Board research",
+          "date": "2010-04-15",
+          "finding": "Research identifies leverage, short-term funding and shared exposures as core vulnerabilities. Loan-vintage data show worsening early-payment defaults, reaching about 8% for 2007 loans within one year, and explain why aggregate data can conceal risk.",
+          "verified": true
+        },
+        {
+          "url": "https://www.clevelandfed.org/publications/economic-commentary/2009/ec-20090509-ten-myths-about-subprime-mortgages",
+          "title": "Ten Myths about Subprime Mortgages",
+          "publisher": "Federal Reserve Bank of Cleveland, Yuliya Demyanyk",
+          "date": "2009-05-09",
+          "finding": "Author summarizes her loan-level research: initial subprime hybrid rates averaged 7.3-9.7% in 2001-2007; fixed and adjustable loans both deteriorated by vintage. Rising prices masked worsening quality. Subprime classification was not determined solely by FICO.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "historical_loss_model_drift",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c013"
+    },
+    {
+      "claim": "Banks’ rising pre-crisis ROE mainly reflected leverage rather than better operations, and executives mistook this leverage-driven performance for skill.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1248,
+      "end_seconds": 1380,
+      "horizon": "not stated",
+      "topics": [
+        "banks",
+        "governance"
+      ],
+      "entities": [],
+      "test": "Decompose actual ROE changes by margins, expenses, losses and leverage; claims about executive psychology are not directly observable.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "leverage_mistaken_for_skill",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c014"
+    },
+    {
+      "claim": "The financial crisis would still have occurred with Glass-Steagall intact because mortgage deterioration and risk-weight-driven leverage were independent of its repeal.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1380,
+      "end_seconds": 1436,
+      "horizon": "not stated",
+      "topics": [
+        "financial_crisis",
+        "regulation"
+      ],
+      "entities": [],
+      "test": "Specify a counterfactual financial structure and compare affected institutions and transmission channels; historical coexistence does not establish inevitability.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "glass_steagall_counterfactual",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c015"
+    },
+    {
+      "claim": "Subprime borrowers can be identified technically as those with credit scores below 650.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1459,
+      "end_seconds": 1490,
+      "horizon": "not stated",
+      "topics": [
+        "credit"
+      ],
+      "entities": [],
+      "test": "Identify the dataset and lender definition before using a FICO cutoff.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Low credit scores are one criterion, but the loan-level research describes lender, product and securitization classifications that also include higher-score borrowers. A single universal threshold is incomplete.",
+      "evidence": [
+        {
+          "url": "https://www.clevelandfed.org/publications/economic-commentary/2009/ec-20090509-ten-myths-about-subprime-mortgages",
+          "title": "Ten Myths about Subprime Mortgages",
+          "publisher": "Federal Reserve Bank of Cleveland, Yuliya Demyanyk",
+          "date": "2009-05-09",
+          "finding": "Author summarizes her loan-level research: initial subprime hybrid rates averaged 7.3-9.7% in 2001-2007; fixed and adjustable loans both deteriorated by vintage. Rising prices masked worsening quality. Subprime classification was not determined solely by FICO.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "subprime_fico_definition",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "4bSCdJTbR8I-c016"
+    },
+    {
+      "claim": "Real incomes for most Americans stopped increasing in the early 1990s and remain stagnant in that sense today.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1480,
+      "end_seconds": 1532,
+      "horizon": "not stated",
+      "topics": [
+        "consumer",
+        "macro"
+      ],
+      "entities": [],
+      "test": "Specify household versus individual income and measure the relevant distribution over the claimed period.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "Census real median household income rose from $64,240 in 1993 to $73,760 in 1999, $74,810 in 2007 and $85,210 in 2024 in the inspected consistent-dollar series. Long plateaus do not justify the blanket no-growth claim. The series is not individual longitudinal income.",
+      "evidence": [
+        {
+          "url": "https://fred.stlouisfed.org/data/MEHOINUSA672N",
+          "title": "Real Median Household Income in the United States",
+          "publisher": "US Census Bureau via FRED",
+          "date": "2026-09-16",
+          "finding": "Inflation-adjusted median household income in 2025 dollars: 1993 $64,240; 1999 $73,760; 2007 $74,810; 2019 $85,320; 2024 $85,210; 2025 $87,460. Not a longitudinal measure of each household.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "high",
+      "family": "real_income_stopped_1990s",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "4bSCdJTbR8I-c017"
+    },
+    {
+      "claim": "Weak middle-class income growth encouraged borrowing to maintain consumption, while policymakers tolerated credit expansion instead of addressing incomes.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1499,
+      "end_seconds": 1571,
+      "horizon": "not stated",
+      "topics": [
+        "consumer",
+        "credit"
+      ],
+      "entities": [],
+      "test": "Link borrowing and consumption to household-level income changes, housing wealth and credit supply.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Primary data document rising household borrowing but do not establish this single income-based cause, especially given the overstated no-growth premise.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/pubs/feds/2010/201020/index.html",
+          "title": "Financial Statistics for the United States and the Crisis",
+          "publisher": "Federal Reserve Board research",
+          "date": "2010-04-15",
+          "finding": "Research identifies leverage, short-term funding and shared exposures as core vulnerabilities. Loan-vintage data show worsening early-payment defaults, reaching about 8% for 2007 loans within one year, and explain why aggregate data can conceal risk.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "income_borrowing_substitution",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c018"
+    },
+    {
+      "claim": "Securitization loosened subprime lenders’ funding constraints by giving loan pools access to investors independently of the originator’s weak corporate credit rating.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1549,
+      "end_seconds": 1651,
+      "horizon": "not stated",
+      "topics": [
+        "securitization",
+        "credit"
+      ],
+      "entities": [],
+      "test": "Compare originator funding sources, asset ratings, issuance and constraints before and after securitization growth.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The investigated origination-and-distribution chain expanded financing for risky mortgages. This validates the mechanism, not the literal suggestion that all funding constraints vanished.",
+      "evidence": [
+        {
+          "url": "https://fcic-static.law.stanford.edu/cdn_media/fcic-reports/fcic_final_report_full.pdf",
+          "title": "Financial Crisis Inquiry Report, findings and chapters 4, 6, 7, 13",
+          "publisher": "Financial Crisis Inquiry Commission",
+          "date": "2011-01-27",
+          "finding": "Investigative evidence documents fragile leverage/funding, fee and ROE incentives, deteriorating underwriting, and securitization dependence. Pages 61-64 describe pay incentives; pages 89 and 125 describe the origination chain; page 281 reports Bear near 38:1 and balance-sheet window dressing. Findings are not proof of a single exclusive cause.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "securitization_funding_expansion",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c019"
+    },
+    {
+      "claim": "The first subprime lending boom collapsed in 1998 partly because problematic accounting hid weak economics.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "recollection",
+      "kind": "explanation",
+      "start_seconds": 1649,
+      "end_seconds": 1691,
+      "horizon": "not stated",
+      "topics": [
+        "credit",
+        "accounting"
+      ],
+      "entities": [],
+      "test": "Inspect contemporaneous filings, accounting restatements and funding-market evidence for the affected lenders.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "subprime_1998_accounting_collapse",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c020"
+    },
+    {
+      "claim": "Low short-term rates after the early-2000s recession increased investor demand for yield and helped Wall Street rebuild subprime origination and securitization.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1689,
+      "end_seconds": 1760,
+      "horizon": "not stated",
+      "topics": [
+        "monetary_policy",
+        "securitization"
+      ],
+      "entities": [],
+      "test": "Measure investor yield demand and issuance alongside regulation, foreign capital and underwriting incentives; do not assign sole causation to policy rates.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "low_rates_yield_search_subprime",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c021"
+    },
+    {
+      "claim": "Fees at origination, loan sale and securitization rewarded volume throughout the chain, weakening incentives to maintain long-term loan quality.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1739,
+      "end_seconds": 1805,
+      "horizon": "not stated",
+      "topics": [
+        "securitization",
+        "governance"
+      ],
+      "entities": [],
+      "test": "Trace compensation, risk retention and repurchase obligations through the actual loan chain.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The commission documents volume-based broker pay and asymmetric short-term compensation across the chain. Retained exposures and warranties mean incentives were not literally identical for every participant.",
+      "evidence": [
+        {
+          "url": "https://fcic-static.law.stanford.edu/cdn_media/fcic-reports/fcic_final_report_full.pdf",
+          "title": "Financial Crisis Inquiry Report, findings and chapters 4, 6, 7, 13",
+          "publisher": "Financial Crisis Inquiry Commission",
+          "date": "2011-01-27",
+          "finding": "Investigative evidence documents fragile leverage/funding, fee and ROE incentives, deteriorating underwriting, and securitization dependence. Pages 61-64 describe pay incentives; pages 89 and 125 describe the origination chain; page 281 reports Bear near 38:1 and balance-sheet window dressing. Findings are not proof of a single exclusive cause.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "origination_volume_incentives",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c022"
+    },
+    {
+      "claim": "Seeing many managers from the failed 1990s subprime companies reappear made him watch for another failure as early as 2003.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "recollection",
+      "kind": "analytical principle",
+      "start_seconds": 1785,
+      "end_seconds": 1825,
+      "horizon": "not stated",
+      "topics": [
+        "investment_process",
+        "credit"
+      ],
+      "entities": [],
+      "test": "Locate contemporaneous research and records linking management histories to prospectively specified warning signs.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "repeat_management_warning",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c023"
+    },
+    {
+      "claim": "Lenders interpreted lower-than-expected defaults as evidence that standards were too strict and repeatedly loosened them to expand volume while preserving target risk-adjusted yields.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1825,
+      "end_seconds": 1930,
+      "horizon": "not stated",
+      "topics": [
+        "credit",
+        "underwriting"
+      ],
+      "entities": [],
+      "test": "Compare lender policy changes and projected risk-adjusted margins with subsequent vintage performance.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "benign_defaults_looser_standards",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c024"
+    },
+    {
+      "claim": "Rising house prices allowed refinancing and concealed weak loan quality, making past default rates a misleading guide to the next vintage.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1890,
+      "end_seconds": 1951,
+      "horizon": "not stated",
+      "topics": [
+        "housing",
+        "credit"
+      ],
+      "entities": [],
+      "test": "Control for home-price appreciation and seasoning when comparing loan performance.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The author’s loan-level research finds worsening quality masked by rising prices and refinancing opportunities. This supports the masking mechanism rather than a claim that positive equity prevents every default.",
+      "evidence": [
+        {
+          "url": "https://www.clevelandfed.org/publications/economic-commentary/2009/ec-20090509-ten-myths-about-subprime-mortgages",
+          "title": "Ten Myths about Subprime Mortgages",
+          "publisher": "Federal Reserve Bank of Cleveland, Yuliya Demyanyk",
+          "date": "2009-05-09",
+          "finding": "Author summarizes her loan-level research: initial subprime hybrid rates averaged 7.3-9.7% in 2001-2007; fixed and adjustable loans both deteriorated by vintage. Rising prices masked worsening quality. Subprime classification was not determined solely by FICO.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "house_price_masking",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c025"
+    },
+    {
+      "claim": "By 2006 subprime origination was roughly $600 billion, about one fifth of the mortgage market, and low/no-documentation loans were at least half of sampled securitizations.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1935,
+      "end_seconds": 2015,
+      "horizon": "not stated",
+      "topics": [
+        "credit",
+        "underwriting"
+      ],
+      "entities": [],
+      "test": "Verify origination universe and whether the documentation share refers to his sampled pools, all subprime, or combined nonprime loans.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "subprime_scale_documentation",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "4bSCdJTbR8I-c026"
+    },
+    {
+      "claim": "Riskier borrowers require more careful underwriting, yet lenders increasingly accepted unverified income and reduced scrutiny.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1980,
+      "end_seconds": 2045,
+      "horizon": "not stated",
+      "topics": [
+        "credit",
+        "underwriting"
+      ],
+      "entities": [],
+      "test": "Compare verification, debt-service capacity and defaults in matched borrower groups; the claim that FICO loses efficacy below 650 needs separate calibration evidence.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "subprime_documentation_risk",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c027"
+    },
+    {
+      "claim": "A typical subprime hybrid gave borrowers about a three-percent rate for two or three years before repricing to roughly nine percent.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 2028,
+      "end_seconds": 2086,
+      "horizon": "not stated",
+      "topics": [
+        "credit",
+        "mortgages"
+      ],
+      "entities": [],
+      "test": "Inspect actual loan terms by vintage, distinguishing subprime hybrids from prime and option ARMs.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "The inspected loan research reports average initial subprime hybrid rates of 7.3-9.7% during 2001-2007; 2-3% rates characterize prime hybrids in the comparison. The lecture materially understates typical initial subprime rates.",
+      "evidence": [
+        {
+          "url": "https://www.clevelandfed.org/publications/economic-commentary/2009/ec-20090509-ten-myths-about-subprime-mortgages",
+          "title": "Ten Myths about Subprime Mortgages",
+          "publisher": "Federal Reserve Bank of Cleveland, Yuliya Demyanyk",
+          "date": "2009-05-09",
+          "finding": "Author summarizes her loan-level research: initial subprime hybrid rates averaged 7.3-9.7% in 2001-2007; fixed and adjustable loans both deteriorated by vintage. Rising prices masked worsening quality. Subprime classification was not determined solely by FICO.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "high",
+      "family": "subprime_three_percent_teaser",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "4bSCdJTbR8I-c028"
+    },
+    {
+      "claim": "Qualifying borrowers at introductory payments and charging large repeated refinancing fees created a costly treadmill dependent on continued refinance availability.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2070,
+      "end_seconds": 2202,
+      "horizon": "not stated",
+      "topics": [
+        "mortgages",
+        "consumer"
+      ],
+      "entities": [],
+      "test": "Measure qualification rules, fees, refinance frequency, balances and payment capacity by product.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Refinancing dependence and problematic lending incentives are supported, but the universal inability to afford resets and the stated typical rates are not. Loan-level cohorts include fixed-rate distress and differing refinancing outcomes.",
+      "evidence": [
+        {
+          "url": "https://www.clevelandfed.org/publications/economic-commentary/2009/ec-20090509-ten-myths-about-subprime-mortgages",
+          "title": "Ten Myths about Subprime Mortgages",
+          "publisher": "Federal Reserve Bank of Cleveland, Yuliya Demyanyk",
+          "date": "2009-05-09",
+          "finding": "Author summarizes her loan-level research: initial subprime hybrid rates averaged 7.3-9.7% in 2001-2007; fixed and adjustable loans both deteriorated by vintage. Rising prices masked worsening quality. Subprime classification was not determined solely by FICO.",
+          "verified": true
+        },
+        {
+          "url": "https://fcic-static.law.stanford.edu/cdn_media/fcic-reports/fcic_final_report_full.pdf",
+          "title": "Financial Crisis Inquiry Report, findings and chapters 4, 6, 7, 13",
+          "publisher": "Financial Crisis Inquiry Commission",
+          "date": "2011-01-27",
+          "finding": "Investigative evidence documents fragile leverage/funding, fee and ROE incentives, deteriorating underwriting, and securitization dependence. Pages 61-64 describe pay incentives; pages 89 and 125 describe the origination chain; page 281 reports Bear near 38:1 and balance-sheet window dressing. Findings are not proof of a single exclusive cause.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "subprime_refinance_treadmill",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c029"
+    },
+    {
+      "claim": "Rolling refinancing fees into principal can prevent a borrower from paying down the mortgage despite making payments.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "explanation",
+      "start_seconds": 2119,
+      "end_seconds": 2180,
+      "horizon": "not stated",
+      "topics": [
+        "mortgages"
+      ],
+      "entities": [],
+      "test": "Compare amortization actually paid with fees and cash-out added to each replacement loan.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "If capitalized refinancing costs equal or exceed principal repaid since the previous refinancing, the new balance is at least the prior balance. This requires the stated fee and amortization relationship and is not universal.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "refinance_fee_principal",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "evidence_basis": "deductive",
+      "proof_assumptions": "If capitalized refinancing costs equal or exceed principal repaid since the previous refinancing, the new balance is at least the prior balance. This requires the stated fee and amortization relationship and is not universal.",
+      "id": "4bSCdJTbR8I-c030",
+      "proof": {
+        "assumptions": [],
+        "derivation": "If capitalized refinancing costs equal or exceed principal repaid since the previous refinancing, the new balance is at least the prior balance. This requires the stated fee and amortization relationship and is not universal."
+      }
+    },
+    {
+      "claim": "Monthly securitization reports allowed his team to compare delinquencies, repossessions and losses at equal ages across origination vintages.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "recollection",
+      "kind": "analytical principle",
+      "start_seconds": 2209,
+      "end_seconds": 2286,
+      "horizon": "not stated",
+      "topics": [
+        "investment_process",
+        "credit"
+      ],
+      "entities": [],
+      "test": "Inspect archived deal reports and contemporaneous analyses; compare like-aged pools with comparable composition.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "loan_vintage_method",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c031"
+    },
+    {
+      "claim": "The 2006 mortgage vintages showed much worse early-stage delinquency than previous vintages, providing a timely warning of deteriorating quality.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2268,
+      "end_seconds": 2320,
+      "horizon": "not stated",
+      "topics": [
+        "credit",
+        "investment_process"
+      ],
+      "entities": [],
+      "test": "Replicate the like-seasoning comparison using data available at each historical decision date.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Primary loan analyses show sharply worse early performance for 2006 and 2007 cohorts. This validates the signal, while the exact date and contents of his proprietary work remain recollections.",
+      "evidence": [
+        {
+          "url": "https://www.clevelandfed.org/publications/economic-commentary/2009/ec-20090509-ten-myths-about-subprime-mortgages",
+          "title": "Ten Myths about Subprime Mortgages",
+          "publisher": "Federal Reserve Bank of Cleveland, Yuliya Demyanyk",
+          "date": "2009-05-09",
+          "finding": "Author summarizes her loan-level research: initial subprime hybrid rates averaged 7.3-9.7% in 2001-2007; fixed and adjustable loans both deteriorated by vintage. Rising prices masked worsening quality. Subprime classification was not determined solely by FICO.",
+          "verified": true
+        },
+        {
+          "url": "https://www.federalreserve.gov/pubs/feds/2010/201020/index.html",
+          "title": "Financial Statistics for the United States and the Crisis",
+          "publisher": "Federal Reserve Board research",
+          "date": "2010-04-15",
+          "finding": "Research identifies leverage, short-term funding and shared exposures as core vulnerabilities. Loan-vintage data show worsening early-payment defaults, reaching about 8% for 2007 loans within one year, and explain why aggregate data can conceal risk.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "early_vintage_deterioration",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c032"
+    },
+    {
+      "claim": "Had lenders responded to the 2006 warning by tightening standards, much of the eventual damage could have been contained.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "explanation",
+      "start_seconds": 2300,
+      "end_seconds": 2345,
+      "horizon": "not stated",
+      "topics": [
+        "financial_crisis",
+        "underwriting"
+      ],
+      "entities": [],
+      "test": "Model the stock of already-originated loans, lender exposures and potential tightening effects; containment is a counterfactual, not an observed result.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "early_tightening_counterfactual",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c033"
+    },
+    {
+      "claim": "Shorting small subprime lenders was constrained by illiquidity and costly borrow, so shorting securitized credit provided greater capacity.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "recollection",
+      "kind": "analytical principle",
+      "start_seconds": 2340,
+      "end_seconds": 2406,
+      "horizon": "not stated",
+      "topics": [
+        "short_selling",
+        "investment_process"
+      ],
+      "entities": [],
+      "test": "Compare contemporaneous borrow quotes, position limits, CDS liquidity, counterparty exposure and realized trades.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "short_instrument_capacity",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c034"
+    },
+    {
+      "claim": "Spring 2007 improvement in consumer-credit data was seasonal tax-refund relief rather than a reversal, so the team increased shorts during the rally.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "recollection",
+      "kind": "explanation",
+      "start_seconds": 2399,
+      "end_seconds": 2467,
+      "horizon": "not stated",
+      "topics": [
+        "credit",
+        "investment_process"
+      ],
+      "entities": [],
+      "test": "Inspect seasonally matched monthly delinquency histories and dated portfolio records; avoid treating every spring improvement as seasonal.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "tax_refund_seasonality_short",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c035"
+    },
+    {
+      "claim": "The 2007 investor strike shut the securitization channel, reduced new lending and refinancing, and worsened mortgage distress.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2458,
+      "end_seconds": 2510,
+      "horizon": "not stated",
+      "topics": [
+        "securitization",
+        "financial_crisis"
+      ],
+      "entities": [],
+      "test": "Decompose defaults by vintage, product, reset timing, income shocks and refinancing availability.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Funding interruption and refinancing feedback are supported by the investigation. The reset-centered chain is incomplete: loan-level research finds pre-reset distress and similarly worsening fixed-rate vintages. It cannot explain the crisis solely as borrowers moving from 3% to 9%.",
+      "evidence": [
+        {
+          "url": "https://fcic-static.law.stanford.edu/cdn_media/fcic-reports/fcic_final_report_full.pdf",
+          "title": "Financial Crisis Inquiry Report, findings and chapters 4, 6, 7, 13",
+          "publisher": "Financial Crisis Inquiry Commission",
+          "date": "2011-01-27",
+          "finding": "Investigative evidence documents fragile leverage/funding, fee and ROE incentives, deteriorating underwriting, and securitization dependence. Pages 61-64 describe pay incentives; pages 89 and 125 describe the origination chain; page 281 reports Bear near 38:1 and balance-sheet window dressing. Findings are not proof of a single exclusive cause.",
+          "verified": true
+        },
+        {
+          "url": "https://www.clevelandfed.org/publications/economic-commentary/2009/ec-20090509-ten-myths-about-subprime-mortgages",
+          "title": "Ten Myths about Subprime Mortgages",
+          "publisher": "Federal Reserve Bank of Cleveland, Yuliya Demyanyk",
+          "date": "2009-05-09",
+          "finding": "Author summarizes her loan-level research: initial subprime hybrid rates averaged 7.3-9.7% in 2001-2007; fixed and adjustable loans both deteriorated by vintage. Rising prices masked worsening quality. Subprime classification was not determined solely by FICO.",
+          "verified": true
+        }
+      ],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "securitization_refinance_feedback",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c036"
+    },
+    {
+      "claim": "By late summer 2007, the financial crisis had become inevitable.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2490,
+      "end_seconds": 2521,
+      "horizon": "not stated",
+      "topics": [
+        "financial_crisis"
+      ],
+      "entities": [],
+      "test": "Define the crisis outcome and feasible policy alternatives; the later crisis does not establish inevitability under every counterfactual.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected primary evidence is insufficient to establish or refute this proposition as stated.",
+      "evidence": [],
+      "next_check": "Obtain primary evidence matching the stated metric, period and conditions before assigning an outcome grade.",
+      "confidence": "medium",
+      "family": "gfc_inevitability_2007",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "4bSCdJTbR8I-c037"
+    }
+  ]
+}

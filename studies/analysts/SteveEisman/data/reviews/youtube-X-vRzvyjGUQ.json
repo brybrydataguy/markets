@@ -1,0 +1,790 @@
+{
+  "source_id": "youtube-X-vRzvyjGUQ",
+  "title": "Bank Earnings Just Gave the Market a Much Needed Confidence Boost | The Weekly Wrap",
+  "date": "2026-07-17",
+  "source_url": "https://www.youtube.com/watch?v=X-vRzvyjGUQ",
+  "read_complete": true,
+  "transcript_sha256": "e594c950ab114067cacafd8a217d85d981374c0cda86eb1e4bec120887e424a6",
+  "evaluation_as_of": "2026-11-10",
+  "summary": "Eisman interprets strong bank earnings and benign credit quality as evidence against an imminent bank-led recession, while shifting his macro attention toward AI and private credit. He sees AI infrastructure spending crowding out software budgets, payment incumbents challenging Circle, and investment banking benefiting from AI financing. He distinguishes earnings beats from the guidance expectations that move shares.",
+  "assessment": "The inspected IBM and JPMorgan disclosures support important operating observations, with qualifications about causality and adjusted results. The absolute claim that short Treasury values do not fluctuate is contradicted by the reserve-fund risk disclosure. Many other quarter-specific and causal claims remain unverified rather than being awarded accuracy credit. Primary outcome verification is incomplete for claims marked unresolved; these are not adverse accuracy grades.",
+  "speaker_map_notes": "Steve Eisman hosts the episode; guest turns are inferred from introductions and conversational context.",
+  "framework_points": [
+    "Use nonaccrual trends at diversified banks as a concurrent credit indicator, while acknowledging that private credit and AI may lead the next downturn.",
+    "Compare returns on tangible common equity with price to tangible book.",
+    "Distinguish reported operating results from market expectations and forward guidance."
+  ],
+  "tools_and_charts": [
+    "JPMorgan, Citi, Wells Fargo and Bank of America consumer/commercial nonaccruals for 2Q25, 1Q26 and 2Q26",
+    "Bank ROTCE and price/tangible-book comparisons",
+    "Company quarterly EPS, revenue, guidance and share reactions"
+  ],
+  "transcript_cautions": [
+    "The brief biotech guest clip is a promotion, not a full attributable analysis.",
+    "Caption numerals around Goldman ROTCE and bank EPS are malformed; exact numbers require source audio or filings.",
+    "Eisman presents adjusted JPMorgan EPS and ROTCE without consistently naming the adjustment."
+  ],
+  "claims": [
+    {
+      "id": "X-vRzvyjGUQ-c001",
+      "claim": "Escalation in the US-Iran conflict and an effectively closed strait accompany oil above $80 and a ten-year Treasury yield approaching 4.6%.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 168,
+      "end_seconds": 185,
+      "horizon": "not stated",
+      "topics": [
+        "geopolitics",
+        "energy"
+      ],
+      "entities": [
+        "United States",
+        "Iran",
+        "Strait of Hormuz"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "iran-market-risk",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c002",
+      "claim": "A new stablecoin consortium involving Stripe, Visa, Mastercard, Coinbase and BlackRock poses a larger competitive threat to Circle than its trust-bank approval offsets.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 185,
+      "end_seconds": 318,
+      "horizon": "not stated",
+      "topics": [
+        "payments",
+        "stablecoins"
+      ],
+      "entities": [
+        "Circle",
+        "Visa",
+        "Mastercard",
+        "Stripe",
+        "Coinbase",
+        "BlackRock"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "circle-competition",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c003",
+      "claim": "Circle earns interest on USDC reserve assets invested through a BlackRock money-market fund; this interest is described as its sole revenue source.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 234,
+      "end_seconds": 288,
+      "horizon": "not stated",
+      "topics": [
+        "payments",
+        "stablecoins"
+      ],
+      "entities": [
+        "Circle",
+        "USDC",
+        "BlackRock"
+      ],
+      "test": "Compare the stated proposition with Circle Reserve Fund prospectus. Preserve the metric, reporting period and conditions; agreement on direction alone does not prove a causal explanation.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The inspected fund prospectus supports the reserve-investment mechanism, but does not establish that reserve interest is Circle's sole revenue or validate its full corporate economics.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526365233/d30852d485bpos.htm",
+          "title": "Circle Reserve Fund prospectus",
+          "publisher": "BlackRock / SEC",
+          "date": "2026-08-28",
+          "finding": "Government money market fund investing in short Treasury instruments. Explicit loss-of-value warning; 0.14% management fee, 0.20% gross expenses and 0.17% net expenses in August prospectus.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "circle-reserve-economics",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c004",
+      "claim": "Short-term Treasury securities used for stablecoin reserves do not fluctuate in value.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 252,
+      "end_seconds": 263,
+      "horizon": "not stated",
+      "topics": [
+        "fixed-income",
+        "stablecoins"
+      ],
+      "entities": [
+        "US Treasuries"
+      ],
+      "test": "Compare the stated proposition with Circle Reserve Fund prospectus. Preserve the metric, reporting period and conditions; agreement on direction alone does not prove a causal explanation.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "The reserve fund prospectus explicitly allows loss of value. Short duration reduces price sensitivity but does not eliminate it.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526365233/d30852d485bpos.htm",
+          "title": "Circle Reserve Fund prospectus",
+          "publisher": "BlackRock / SEC",
+          "date": "2026-08-28",
+          "finding": "Government money market fund investing in short Treasury instruments. Explicit loss-of-value warning; 0.14% management fee, 0.20% gross expenses and 0.17% net expenses in August prospectus.",
+          "verified": true
+        }
+      ],
+      "next_check": "No further check needed for the absolute no-fluctuation assertion.",
+      "confidence": "high",
+      "family": "treasury-price-risk",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c005",
+      "claim": "Circle can save BlackRock's claimed 18 basis-point charge by running its own money-market fund under its bank charter.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 270,
+      "end_seconds": 297,
+      "horizon": "not stated",
+      "topics": [
+        "payments",
+        "stablecoins"
+      ],
+      "entities": [
+        "Circle",
+        "BlackRock"
+      ],
+      "test": "Compare the stated proposition with Circle Reserve Fund prospectus. Preserve the metric, reporting period and conditions; agreement on direction alone does not prove a causal explanation.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The August prospectus shows different management and net expense figures; it does not establish July terms or that the charter automatically permits all proposed savings.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/844779/000119312526365233/d30852d485bpos.htm",
+          "title": "Circle Reserve Fund prospectus",
+          "publisher": "BlackRock / SEC",
+          "date": "2026-08-28",
+          "finding": "Government money market fund investing in short Treasury instruments. Explicit loss-of-value warning; 0.14% management fee, 0.20% gross expenses and 0.17% net expenses in August prospectus.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "circle-charter-cost-saving",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c006",
+      "claim": "Circle is too small to compete alone against the large payment networks and should partner with larger players or sell itself.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 318,
+      "end_seconds": 355,
+      "horizon": "not stated",
+      "topics": [
+        "payments",
+        "competition"
+      ],
+      "entities": [
+        "Circle",
+        "Visa",
+        "Mastercard"
+      ],
+      "test": "Subsequent distribution partnerships, share of payment volumes and reserve economics; the recommendation to sell is subjective.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "circle-strategic-options",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c007",
+      "claim": "Payment companies increasingly invade one another's markets, making the sector difficult and favoring consolidation, as illustrated by unconfirmed PayPal sale reports.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 355,
+      "end_seconds": 401,
+      "horizon": "not stated",
+      "topics": [
+        "payments",
+        "competition"
+      ],
+      "entities": [
+        "PayPal",
+        "Stripe",
+        "Advent"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "Explicitly labels the $60.50 acquisition report unconfirmed; does not claim a completed deal.",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "payments-consolidation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c008",
+      "claim": "IBM's preliminary quarter shows a near-term AI effect: customers redirected budgets toward scarce servers, storage and memory ahead of expected price increases.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 405,
+      "end_seconds": 508,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "software"
+      ],
+      "entities": [
+        "IBM"
+      ],
+      "test": "Compare the stated proposition with IBM preliminary second-quarter results and investor letter. Preserve the metric, reporting period and conditions; agreement on direction alone does not prove a causal explanation.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "IBM confirms the spending shift and $17.2bn revenue/$2.93 operating EPS, but also cites execution failures and cybersecurity distractions; that establishes a management-reported mechanism, not an independently isolated AI cause.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000070/ibm-20260714xex991.htm",
+          "title": "IBM preliminary second-quarter results and investor letter",
+          "publisher": "IBM / SEC",
+          "date": "2026-07-14",
+          "finding": "Preliminary revenue $17.2bn; operating EPS $2.93. IBM says clients reprioritized spending toward servers, storage and memory ahead of expected price increases; also acknowledges execution and cybersecurity distractions.",
+          "verified": true
+        }
+      ],
+      "next_check": "Compare subsequent software bookings and customer spending evidence.",
+      "confidence": "high",
+      "family": "ai-capex-crowds-out-software",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c009",
+      "claim": "Ericsson's falling earnings and revenue and weak guidance reflect semiconductor and equipment cost inflation.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 512,
+      "end_seconds": 535,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "telecommunications"
+      ],
+      "entities": [
+        "Ericsson"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "ai-component-cost-pressure",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c010",
+      "claim": "ASML benefits from AI demand, reflected in a quarter beating EPS and revenue expectations with increased guidance.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 538,
+      "end_seconds": 555,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "semiconductors"
+      ],
+      "entities": [
+        "ASML"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "asml-ai-beneficiary",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c011",
+      "claim": "Health insurers are recovering margins by raising prices above rising medical costs, although higher prices can reduce membership.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 557,
+      "end_seconds": 604,
+      "horizon": "not stated",
+      "topics": [
+        "healthcare",
+        "pricing"
+      ],
+      "entities": [
+        "Elevance",
+        "UnitedHealth"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "Elevance membership fell and its guidance increase lagged its quarterly beat; UNH had a more favorable market response.",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "managed-care-pricing",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c012",
+      "claim": "GE Aerospace's earnings and revenue growth were strong, but its stock fell because investors expected a still larger guidance increase.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 608,
+      "end_seconds": 652,
+      "horizon": "not stated",
+      "topics": [
+        "industrials",
+        "valuation"
+      ],
+      "entities": [
+        "GE Aerospace"
+      ],
+      "test": "Verify earnings/guidance and price changes; contemporaneous expectations evidence is needed for the claimed motive.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "ge-expectations-gap",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c013",
+      "claim": "Netflix's in-line results, slower EPS growth and reduced engagement reporting explain its adverse stock reaction and weaker market standing.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 654,
+      "end_seconds": 696,
+      "horizon": "not stated",
+      "topics": [
+        "media",
+        "valuation"
+      ],
+      "entities": [
+        "Netflix"
+      ],
+      "test": "Verify earnings and reporting changes separately from the causal account of the share decline.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "netflix-growth-disclosure",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c014",
+      "claim": "The diversified loan books of the four largest commercial banks provide useful concurrent evidence about whether private-credit stress is broadening.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 692,
+      "end_seconds": 769,
+      "horizon": "not stated",
+      "topics": [
+        "banking",
+        "credit"
+      ],
+      "entities": [
+        "JPMorgan",
+        "Citigroup",
+        "Wells Fargo",
+        "Bank of America"
+      ],
+      "test": "This is a personal preference, disclosed intention, or subjective judgment without a defined objective outcome criterion.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "A qualitative analytical heuristic without a specified predictive accuracy threshold.",
+      "evidence": [],
+      "next_check": "Use cross-bank delinquency, nonaccrual and charge-off data as imperfect concurrent measures.",
+      "confidence": "medium",
+      "family": "bank-credit-indicator",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c015",
+      "claim": "Second-quarter bank nonaccrual trends remain benign; JPMorgan total nonaccruals are about $9.4bn and Bank of America about $5.8bn, with no broad deterioration.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 781,
+      "end_seconds": 876,
+      "horizon": "not stated",
+      "topics": [
+        "banking",
+        "credit"
+      ],
+      "entities": [
+        "JPMorgan",
+        "Bank of America",
+        "Citigroup",
+        "Wells Fargo"
+      ],
+      "test": "Compare the stated proposition with JPMorganChase second-quarter 2026 Form 10-Q. Preserve the metric, reporting period and conditions; agreement on direction alone does not prove a causal explanation.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The inspected JPMorgan filing supports improving nonperforming assets and stable charge-offs, but the exact nonaccrual figures and all four banks were not fully independently checked.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026054343/jpm-20260630.htm",
+          "title": "JPMorganChase second-quarter 2026 Form 10-Q",
+          "publisher": "JPMorganChase / SEC",
+          "date": "2026-08",
+          "finding": "Nonperforming assets $9.8bn, down 6%; consumer nonaccrual improvement partly reflects normalization after wildfire forbearances. Net charge-offs $2.4bn, down $44m.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "benign-bank-credit",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c016",
+      "claim": "A recession is not visible on the horizon while bank credit remains benign, although economic conditions differ sharply across income groups.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 884,
+      "end_seconds": 921,
+      "horizon": "Conditional on continuing benign bank credit; no fixed end date",
+      "topics": [
+        "macro",
+        "credit"
+      ],
+      "entities": [],
+      "test": "Compare broad recession indicators and bank credit conditions through the cutoff, including whether the condition remained satisfied.",
+      "qualifications": "Acknowledges a K-shaped economy and potential nonbank risks.",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "no-recession-benign-credit",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c017",
+      "claim": "AI outcomes and private-credit losses, rather than bank balance-sheet weakness, are the likelier sources of the next recession; private-credit opacity makes warning signs harder to observe.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 921,
+      "end_seconds": 982,
+      "horizon": "not stated",
+      "topics": [
+        "ai",
+        "private-credit",
+        "macro"
+      ],
+      "entities": [],
+      "test": "Identify recession causes if one occurs; compare nonbank stress with bank capital and credit data.",
+      "qualifications": "Says he is starting to think the economy hinges on AI; not a dated recession call.",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "ai-private-credit-macro-risk",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c018",
+      "claim": "AI financing demand, strong trading and investment banking are lifting bank profitability to unusually high levels.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 984,
+      "end_seconds": 1022,
+      "horizon": "not stated",
+      "topics": [
+        "banking",
+        "ai"
+      ],
+      "entities": [
+        "JPMorgan",
+        "Goldman Sachs",
+        "Morgan Stanley"
+      ],
+      "test": "Compare the stated proposition with JPMorganChase second-quarter 2026 earnings. Preserve the metric, reporting period and conditions; agreement on direction alone does not prove a causal explanation.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The filing verifies strong trading and investment-banking results for JPMorgan but does not quantify the AI contribution or establish the sectorwide causal claim.",
+      "evidence": [
+        {
+          "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/6cded9fd-a164-4e6c-8cff-377357cf105c.pdf",
+          "title": "JPMorganChase second-quarter 2026 earnings",
+          "publisher": "JPMorganChase",
+          "date": "2026-07-14",
+          "finding": "Adjusted EPS $6.14 and ROTCE 23%; reported EPS $7.70 and ROTCE 29%. Revenue excluding significant items grew 15%; markets revenue grew 35%.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "ai-financing-bank-profits",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c019",
+      "claim": "JPMorgan posted adjusted EPS of $6.14 and a 23% return on tangible common equity, with underlying revenue up 15%.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1004,
+      "end_seconds": 1022,
+      "horizon": "not stated",
+      "topics": [
+        "banking",
+        "earnings"
+      ],
+      "entities": [
+        "JPMorgan"
+      ],
+      "test": "Compare the stated proposition with JPMorganChase second-quarter 2026 earnings. Preserve the metric, reporting period and conditions; agreement on direction alone does not prove a causal explanation.",
+      "qualifications": "The transcript does not clearly distinguish adjusted from reported results.",
+      "verdict": "right",
+      "reason": "The earnings release directly confirms these figures excluding significant items. Reported EPS and ROTCE were higher.",
+      "evidence": [
+        {
+          "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2026/2nd-quarter/6cded9fd-a164-4e6c-8cff-377357cf105c.pdf",
+          "title": "JPMorganChase second-quarter 2026 earnings",
+          "publisher": "JPMorganChase",
+          "date": "2026-07-14",
+          "finding": "Adjusted EPS $6.14 and ROTCE 23%; reported EPS $7.70 and ROTCE 29%. Revenue excluding significant items grew 15%; markets revenue grew 35%.",
+          "verified": true
+        }
+      ],
+      "next_check": "No further check needed for these quarter-specific figures.",
+      "confidence": "high",
+      "family": "jpm-q2-earnings",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c020",
+      "claim": "Bank of America produced 36% EPS growth and 16.5% ROTCE, reflecting trading, investment banking and operating leverage.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1022,
+      "end_seconds": 1038,
+      "horizon": "not stated",
+      "topics": [
+        "banking",
+        "earnings"
+      ],
+      "entities": [
+        "Bank of America"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "bac-q2-earnings",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c021",
+      "claim": "Wells Fargo's strong trading and investment banking lifted EPS about 25% and ROTCE to 17.7%, above its recent range.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1041,
+      "end_seconds": 1065,
+      "horizon": "not stated",
+      "topics": [
+        "banking",
+        "earnings"
+      ],
+      "entities": [
+        "Wells Fargo"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "wfc-q2-earnings",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c022",
+      "claim": "Citigroup's services, trading and investment banking produced 48% EPS growth and a 13% ROTCE.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1065,
+      "end_seconds": 1084,
+      "horizon": "not stated",
+      "topics": [
+        "banking",
+        "earnings"
+      ],
+      "entities": [
+        "Citigroup"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "citi-q2-earnings",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c023",
+      "claim": "Goldman Sachs and Morgan Stanley delivered especially strong profit growth and returns because investment-banking and trading conditions are unusually favorable.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1086,
+      "end_seconds": 1126,
+      "horizon": "not stated",
+      "topics": [
+        "banking",
+        "earnings"
+      ],
+      "entities": [
+        "Goldman Sachs",
+        "Morgan Stanley"
+      ],
+      "test": "Verify the stated relationship with primary data, separating observation from causal attribution.",
+      "qualifications": "Goldman ROTCE is malformed in the caption.",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "broker-q2-earnings",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "X-vRzvyjGUQ-c024",
+      "claim": "Higher sustainable returns on tangible common equity justify higher price-to-tangible-book multiples; current bank valuation differences broadly follow that ordering.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1129,
+      "end_seconds": 1156,
+      "horizon": "not stated",
+      "topics": [
+        "banking",
+        "valuation"
+      ],
+      "entities": [
+        "Goldman Sachs",
+        "JPMorgan",
+        "Morgan Stanley",
+        "Wells Fargo",
+        "Bank of America",
+        "Citigroup"
+      ],
+      "test": "Compare contemporaneous multiples and normalized ROTCE while controlling for growth, risk and required returns.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No sufficient inspected primary evidence establishes or refutes this proposition as stated.",
+      "evidence": [],
+      "next_check": "Inspect contemporaneous primary disclosures and subsequent comparable observations through the audit cutoff.",
+      "confidence": "medium",
+      "family": "rotce-bank-valuation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    }
+  ]
+}

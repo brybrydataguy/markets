@@ -1,0 +1,834 @@
+{
+  "source_id": "youtube-zxjjjI0b8a0",
+  "title": "Google Surges Past OpenAI and AI Faces a Bigger Crisis That Could Break the Boom | The Weekly Wrap",
+  "date": "2025-11-28T10:15:06-08:00",
+  "url": "https://www.youtube.com/watch?v=zxjjjI0b8a0",
+  "read_complete": true,
+  "transcript_sha256": "43c36e19595508ab11e848803aa1918e5760b122402b3d45f670c0296118874b",
+  "evaluation_as_of": "2026-11-10",
+  "summary": "Eisman argues that Google has become a serious AI rival to OpenAI, with a stronger funding base. He distinguishes transformative technology from profitable investment, takes depreciation concerns seriously without declaring the AI buildout a failure, and identifies power availability as a constraint. His strongest points concern cash generation and physical infrastructure; sweeping claims about all electricity growth and all chip availability are less secure.",
+  "assessment": "The episode is primarily a business-model and financing analysis, not a dated market forecast. Its power thesis is supported, while the 2028 electricity-share forecast remains open. The Starbucks observation is explicitly about the incomplete turnaround at the time, not a forecast that it could never recover.",
+  "framework_points": [
+    "Separate social or technological value from shareholder returns.",
+    "Compare the funding capacity of competitors before assuming the upstart wins.",
+    "Find the constraint that prevents demand from becoming usable capacity.",
+    "Treat accounting estimates as testable assumptions, not automatic evidence of fraud.",
+    "Question CEO reputations with operating results."
+  ],
+  "tools_and_charts": [
+    "Revenue and adjusted EPS growth",
+    "Forward price/earnings ratios and product differentiation",
+    "Operating cash flow, capital expenditure and debt",
+    "Asset useful lives and impairment charges",
+    "Stress capital requirements",
+    "Electricity demand in TWh versus capacity in MW",
+    "Comparable-store sales and transaction trends"
+  ],
+  "transcript_cautions": [
+    "The opening montage repeats later claims and is not counted twice.",
+    "Caption errors include Baidu, Digital Realty, STACK, ERCOT, Oklo, Brian Niccol and Jeff Immelt.",
+    "Electricity consumption is described as terawatts in speech/captions; the annual quantities require terawatt-hours. This unit slip is flagged rather than treated as a separate major forecast.",
+    "The anonymous viewer anecdote is summarized without exposing identifying details."
+  ],
+  "speaker_map_notes": "Steve Eisman presents; speaker attribution follows the full dialogue.",
+  "claims": [
+    {
+      "id": "youtube-zxjjjI0b8a0-c001",
+      "claim": "Dovish Fed comments may have contributed to the Thanksgiving-week market rebound.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "exploratory",
+      "kind": "explanation",
+      "start_seconds": 89,
+      "end_seconds": 104,
+      "horizon": "not stated",
+      "topics": [
+        "market_causality"
+      ],
+      "family": "market_causality",
+      "entities": [],
+      "test": "Compare announcement timing, rate expectations and other news using an event study.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "He offers a tentative causal interpretation. A weekly price move cannot by itself identify the effect of Fed communications.",
+      "evidence": [],
+      "next_check": "Compare announcement timing, rate expectations and other news using an event study.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c002",
+      "claim": "Dell is an AI buildout beneficiary through its server business.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 141,
+      "end_seconds": 167,
+      "horizon": "not stated",
+      "topics": [
+        "ai_infrastructure"
+      ],
+      "family": "ai_infrastructure",
+      "entities": [],
+      "test": "Check AI orders, shipments and server segment revenue.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Reported AI orders and server revenue support the operating exposure. This is not a resolved future stock-return forecast.",
+      "evidence": [
+        {
+          "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/101/dell-technologies-delivers-third-quarter-fiscal-2026-financial-results",
+          "title": "Dell fiscal Q3 2026 results",
+          "publisher": "Dell Technologies",
+          "date": "2025-11-25",
+          "finding": "Revenue grew 11%; adjusted EPS grew 17%, while GAAP EPS grew 39%. Management guided Q4 revenue to $31-32 billion and reported strong AI server orders.",
+          "verified": true
+        }
+      ],
+      "next_check": "Check AI orders, shipments and server segment revenue.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c003",
+      "claim": "Limited product differentiation and price competition explain Dell and Super Micro trading at low earnings multiples.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 156,
+      "end_seconds": 234,
+      "horizon": "not stated",
+      "topics": [
+        "valuation"
+      ],
+      "family": "valuation",
+      "entities": [],
+      "test": "Compare product differentiation, returns on capital and forward multiples across the server peers.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Competition is a plausible valuation influence, but the claim requires a dated valuation comparison and controls for margins, capital intensity, accounting risk and growth.",
+      "evidence": [],
+      "next_check": "Compare product differentiation, returns on capital and forward multiples across the server peers.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c004",
+      "claim": "Dell reported 11% revenue growth and 17% EPS growth, then guided Q4 revenue to about $31.5 billion.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 167,
+      "end_seconds": 202,
+      "horizon": "not stated",
+      "topics": [
+        "earnings"
+      ],
+      "family": "earnings",
+      "entities": [],
+      "test": "Reconcile the quoted growth and guidance with the earnings release.",
+      "qualifications": "Analyst-consensus comparisons are not independently verified here.",
+      "verdict": "right",
+      "reason": "The numbers match the issuer release when EPS is understood as adjusted EPS. GAAP EPS grew 39%, an important measure distinction.",
+      "evidence": [
+        {
+          "url": "https://investors.delltechnologies.com/news-events/press-releases/detail/101/dell-technologies-delivers-third-quarter-fiscal-2026-financial-results",
+          "title": "Dell fiscal Q3 2026 results",
+          "publisher": "Dell Technologies",
+          "date": "2025-11-25",
+          "finding": "Revenue grew 11%; adjusted EPS grew 17%, while GAAP EPS grew 39%. Management guided Q4 revenue to $31-32 billion and reported strong AI server orders.",
+          "verified": true
+        }
+      ],
+      "next_check": "Reconcile the quoted growth and guidance with the earnings release.",
+      "confidence": "medium",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c005",
+      "claim": "A technology can transform the economy while duplicated infrastructure and overcapacity destroy investor returns.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 239,
+      "end_seconds": 294,
+      "horizon": "not stated",
+      "topics": [
+        "technology_returns"
+      ],
+      "family": "technology_returns",
+      "entities": [],
+      "test": "Compare realized utilization, pricing, costs and required returns.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The economic mechanism is valid: output benefits do not ensure that revenues cover each investor capital cost. The analogy alone cannot prove an AI bubble.",
+      "evidence": [],
+      "next_check": "Compare realized utilization, pricing, costs and required returns.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Competing owners incur capital costs and earn only their own cash flows."
+        ],
+        "derivation": "Social benefits and consumer surplus are not identical to shareholder cash flows; duplicate capacity can reduce prices below required investment returns."
+      }
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c006",
+      "claim": "Gemini 3 shows that Google has caught up with OpenAI in important AI capabilities.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 312,
+      "end_seconds": 356,
+      "horizon": "not stated",
+      "topics": [
+        "ai_competition"
+      ],
+      "family": "ai_competition",
+      "entities": [],
+      "test": "Compare contemporaneous independent task-specific evaluations and deployment outcomes.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "The release and benchmark results support serious competition. A universal ranking, the leaked internal memo and the durability of leadership are not independently established.",
+      "evidence": [
+        {
+          "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+          "title": "Gemini 3 launch and benchmark results",
+          "publisher": "Google",
+          "date": "2025-11-18",
+          "finding": "Google released Gemini 3 with strong published reasoning, coding and multimodal benchmark results. Company-selected benchmarks establish competition, not universal superiority or a permanent lead.",
+          "verified": true
+        }
+      ],
+      "next_check": "Compare contemporaneous independent task-specific evaluations and deployment outcomes.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c007",
+      "claim": "The major technology incumbents have responded to AI rather than remaining passive like earlier disrupted incumbents.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 359,
+      "end_seconds": 383,
+      "horizon": "not stated",
+      "topics": [
+        "ai_competition"
+      ],
+      "family": "ai_competition",
+      "entities": [],
+      "test": "Inspect product releases, investment and adoption at the named incumbents.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Google product launches and large infrastructure commitments demonstrate active investment. Active response does not guarantee investment success.",
+      "evidence": [
+        {
+          "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+          "title": "Gemini 3 launch and benchmark results",
+          "publisher": "Google",
+          "date": "2025-11-18",
+          "finding": "Google released Gemini 3 with strong published reasoning, coding and multimodal benchmark results. Company-selected benchmarks establish competition, not universal superiority or a permanent lead.",
+          "verified": true
+        },
+        {
+          "url": "https://abc.xyz/investor/events/event-details/2025/2025-Q3-Earnings-Call-2025-4OI4Bac_Q9/default.aspx",
+          "title": "Alphabet Q3 2025 earnings call",
+          "publisher": "Alphabet",
+          "date": "2025-10-29",
+          "finding": "Alphabet reported substantial operating cash generation, $98.5 billion of cash and marketable securities and raised 2025 capital-expenditure guidance to $91-93 billion.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect product releases, investment and adoption at the named incumbents.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c008",
+      "claim": "Alphabet financial scale and cash generation give it a stronger internal funding base than OpenAI.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 383,
+      "end_seconds": 432,
+      "horizon": "not stated",
+      "topics": [
+        "ai_financing"
+      ],
+      "family": "ai_financing",
+      "entities": [],
+      "test": "Compare operating cash flow, investment commitments, liquidity and external financing needs.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Alphabet reported substantial cash generation and a large liquid-asset balance. The financing advantage is well grounded, although it does not prove superior model economics or eventual market share.",
+      "evidence": [
+        {
+          "url": "https://abc.xyz/investor/events/event-details/2025/2025-Q3-Earnings-Call-2025-4OI4Bac_Q9/default.aspx",
+          "title": "Alphabet Q3 2025 earnings call",
+          "publisher": "Alphabet",
+          "date": "2025-10-29",
+          "finding": "Alphabet reported substantial operating cash generation, $98.5 billion of cash and marketable securities and raised 2025 capital-expenditure guidance to $91-93 billion.",
+          "verified": true
+        }
+      ],
+      "next_check": "Compare operating cash flow, investment commitments, liquidity and external financing needs.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c009",
+      "claim": "Alphabet can finance its roughly $90 billion 2025 investment program from its business cash flows with limited additional debt.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 387,
+      "end_seconds": 432,
+      "horizon": "not stated",
+      "topics": [
+        "ai_financing"
+      ],
+      "family": "ai_financing",
+      "entities": [],
+      "test": "Reconcile operating cash flow, capex, distributions, debt and liquid assets.",
+      "qualifications": "Capacity to self-fund capex is narrower than claiming Alphabet never borrows or that every AI company is self-funded.",
+      "verdict": "right",
+      "reason": "The contemporaneous cash-flow and capex disclosures support substantial internal funding capacity. His $98 billion cash figure includes marketable securities, not only cash equivalents.",
+      "evidence": [
+        {
+          "url": "https://abc.xyz/investor/events/event-details/2025/2025-Q3-Earnings-Call-2025-4OI4Bac_Q9/default.aspx",
+          "title": "Alphabet Q3 2025 earnings call",
+          "publisher": "Alphabet",
+          "date": "2025-10-29",
+          "finding": "Alphabet reported substantial operating cash generation, $98.5 billion of cash and marketable securities and raised 2025 capital-expenditure guidance to $91-93 billion.",
+          "verified": true
+        }
+      ],
+      "next_check": "Reconcile operating cash flow, capex, distributions, debt and liquid assets.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c010",
+      "claim": "OpenAI plans depend on repeated large external capital raises.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 434,
+      "end_seconds": 454,
+      "horizon": "not stated",
+      "topics": [
+        "ai_financing"
+      ],
+      "family": "ai_financing",
+      "entities": [],
+      "test": "Reconcile dated operating cash flow, cash balances and binding commitments with financing raised.",
+      "qualifications": "He says fundraising could succeed; this is not a forecast that OpenAI must fail.",
+      "verdict": "unresolved",
+      "reason": "This financing thesis is material, but the precise projected revenue, cash burn and enforceability of commitments are not substantiated by audited financial evidence attached to this episode review.",
+      "evidence": [],
+      "next_check": "Reconcile dated operating cash flow, cash balances and binding commitments with financing raised.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c011",
+      "claim": "If useful lives exceed actual economic lives, depreciation understates expense and future impairments may follow.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "explanation",
+      "start_seconds": 465,
+      "end_seconds": 492,
+      "horizon": "not stated",
+      "topics": [
+        "ai_accounting"
+      ],
+      "family": "ai_accounting",
+      "entities": [],
+      "test": "Compare asset retirement, utilization, recoverability and the disclosed useful-life assumptions.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional accounting mechanism is valid. A longer useful life by itself does not establish fraud or an incorrect estimate.",
+      "evidence": [],
+      "next_check": "Compare asset retirement, utilization, recoverability and the disclosed useful-life assumptions.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Fixed depreciable cost and residual value; actual economic usefulness is shorter than the estimated life."
+        ],
+        "derivation": "Spreading the same cost over more periods lowers current annual depreciation. A separate recoverability shortfall can require impairment under the applicable accounting rules."
+      }
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c012",
+      "claim": "Baidu provides a recent example of a large technology-asset impairment.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 494,
+      "end_seconds": 505,
+      "horizon": "not stated",
+      "topics": [
+        "ai_accounting"
+      ],
+      "family": "ai_accounting",
+      "entities": [],
+      "test": "Read the impairment disclosure and distinguish its scope from peer accounting estimates.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The Q3 release confirms a large impairment charge. It is evidence of risk at Baidu, not proof of identical conditions at US hyperscalers.",
+      "evidence": [
+        {
+          "url": "https://ir.baidu.com/node/14351/pdf",
+          "title": "Baidu Q3 2025 results",
+          "publisher": "Baidu",
+          "date": "2025-11-18",
+          "finding": "Baidu recorded a substantial noncash asset impairment in Q3 2025. This establishes a real impairment example without proving accounting misstatement at other firms.",
+          "verified": true
+        }
+      ],
+      "next_check": "Read the impairment disclosure and distinguish its scope from peer accounting estimates.",
+      "confidence": "medium",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c013",
+      "claim": "Ultimate AI productivity and application returns matter more to the long-run investment outcome than depreciation schedules alone.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "exploratory",
+      "kind": "analytical principle",
+      "start_seconds": 508,
+      "end_seconds": 562,
+      "horizon": "not stated",
+      "topics": [
+        "technology_returns"
+      ],
+      "family": "technology_returns",
+      "entities": [],
+      "test": "Track economic cash returns separately from accounting earnings.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "This is an analytical priority and an explicit admission of uncertainty, not a resolved positive return forecast. Accounting still affects measured profits, capital allocation and valuation.",
+      "evidence": [],
+      "next_check": "Track economic cash returns separately from accounting earnings.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c014",
+      "claim": "Burry argues that AI infrastructure may be premature, analogous to unused telecom capacity after the dot-com boom.",
+      "speaker": "Michael Burry (reported by Eisman)",
+      "attribution_confidence": "medium",
+      "stance": "reported third-party view",
+      "kind": "explanation",
+      "start_seconds": 530,
+      "end_seconds": 562,
+      "horizon": "not stated",
+      "topics": [
+        "ai_overcapacity"
+      ],
+      "family": "ai_overcapacity",
+      "entities": [],
+      "test": "Measure deployed capacity, utilization and realized returns against dated investment assumptions.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "This is a reported third-party argument. Eisman explicitly says it is too early to know and does not adopt a definite failure forecast.",
+      "evidence": [],
+      "next_check": "Measure deployed capacity, utilization and realized returns against dated investment assumptions.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c015",
+      "claim": "Bank stress-test capital requirements constrain dividends and buybacks.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 580,
+      "end_seconds": 634,
+      "horizon": "not stated",
+      "topics": [
+        "bank_capital"
+      ],
+      "family": "bank_capital",
+      "entities": [],
+      "test": "Compare each bank stress capital buffer with other capital and payout restrictions.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The Fed framework supports this mechanism for covered large banks. It is not necessarily the sole binding constraint at every bank and not every covered firm is tested annually.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2025-june-dodd-frank-act-stress-test-background.htm",
+          "title": "2025 bank stress test background",
+          "publisher": "Federal Reserve",
+          "date": "2025-06-27",
+          "finding": "Stress tests inform capital requirements for covered large banks; firm coverage and annual versus biennial testing differ. Other capital requirements also apply.",
+          "verified": true
+        }
+      ],
+      "next_check": "Compare each bank stress capital buffer with other capital and payout restrictions.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c016",
+      "claim": "Chip producers now meet hyperscaler demand, so chips are no longer a binding constraint.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 699,
+      "end_seconds": 729,
+      "horizon": "not stated",
+      "topics": [
+        "ai_bottlenecks"
+      ],
+      "family": "ai_bottlenecks",
+      "entities": [],
+      "test": "Compare lead times, allocated supply, deployable inventory and customer-specific unmet demand.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Contemporaneous Nvidia commentary still describes sold-out capacity. That does not prove every chip model is supply-constrained, but it prevents confidently treating the universal bottleneck claim as established.",
+      "evidence": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2026",
+          "title": "Nvidia fiscal Q3 2026 results",
+          "publisher": "Nvidia",
+          "date": "2025-11-19",
+          "finding": "Management described strong demand and sold-out cloud GPUs. This does not establish that chip availability had ceased to be a constraint for every customer.",
+          "verified": true
+        }
+      ],
+      "next_check": "Compare lead times, allocated supply, deployable inventory and customer-specific unmet demand.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c017",
+      "claim": "All of the acceleration in US electricity-demand growth is being fueled by AI.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 729,
+      "end_seconds": 815,
+      "horizon": "not stated",
+      "topics": [
+        "ai_power"
+      ],
+      "family": "ai_power",
+      "entities": [],
+      "test": "Decompose incremental electricity consumption by end use rather than treating all growth as AI.",
+      "qualifications": "Annual energy quantities should be in TWh; the larger issue is the exclusive causal attribution.",
+      "verdict": "wrong",
+      "reason": "The national assessment identifies other material contributors, including manufacturing and electrification. AI/data-center growth is important but does not exhaust the demand drivers.",
+      "evidence": [
+        {
+          "url": "https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers",
+          "title": "US data-center electricity demand assessment",
+          "publisher": "US Department of Energy / LBNL",
+          "date": "2024-12-20",
+          "finding": "The study estimates data centers at 4.4% of US electricity in 2023 and projects a 6.7-12% range in 2028. It also identifies manufacturing and electrification as sources of demand growth.",
+          "verified": true
+        }
+      ],
+      "next_check": "Decompose incremental electricity consumption by end use rather than treating all growth as AI.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c018",
+      "claim": "Data centers will consume well above 10% of US electricity by 2028.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 807,
+      "end_seconds": 815,
+      "horizon": "2028",
+      "topics": [
+        "ai_power"
+      ],
+      "family": "ai_power",
+      "entities": [],
+      "test": "Revisit realized 2028 data-center consumption divided by total US consumption.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "The horizon has not arrived. The DOE range includes outcomes below and above 10%, so it does not establish Eisman higher-point forecast.",
+      "evidence": [
+        {
+          "url": "https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers",
+          "title": "US data-center electricity demand assessment",
+          "publisher": "US Department of Energy / LBNL",
+          "date": "2024-12-20",
+          "finding": "The study estimates data centers at 4.4% of US electricity in 2023 and projects a 6.7-12% range in 2028. It also identifies manufacturing and electrification as sources of demand growth.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit realized 2028 data-center consumption divided by total US consumption.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c019",
+      "claim": "Completed Santa Clara data-center buildings face delayed access to grid power, potentially until 2028.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 815,
+      "end_seconds": 854,
+      "horizon": "not stated",
+      "topics": [
+        "ai_power"
+      ],
+      "family": "ai_power",
+      "entities": [],
+      "test": "Check utility interconnection milestones and actual energization of the named Digital Realty and STACK facilities.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Primary market research supports the regional power constraint, but the exact two-project commissioning chronology and 2028 completion are not fully verified here.",
+      "evidence": [
+        {
+          "url": "https://www.cbre.com/press-releases/silicon-valley-data-centers-expands-modestly-as-power-rich-states-capture-mega-campus-growth",
+          "title": "Silicon Valley data-center supply and power constraints",
+          "publisher": "CBRE",
+          "date": "2026-02-26",
+          "finding": "The market study describes power and transmission constraints limiting Silicon Valley supply and pushing large developments toward regions with available power.",
+          "verified": true
+        }
+      ],
+      "next_check": "Check utility interconnection milestones and actual energization of the named Digital Realty and STACK facilities.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c020",
+      "claim": "The proposed Texas project queue would require electricity equivalent to about 150 million homes, far beyond the current system.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 867,
+      "end_seconds": 902,
+      "horizon": "not stated",
+      "topics": [
+        "ai_power"
+      ],
+      "family": "ai_power",
+      "entities": [],
+      "test": "Reconcile ERCOT requested versus contracted load, project duplication and assumed household consumption.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "A proposal queue is not committed load, and the transcript confuses homes with people/customer equivalents. The cited report and conversion assumptions are not identified.",
+      "evidence": [],
+      "next_check": "Reconcile ERCOT requested versus contracted load, project duplication and assumed household consumption.",
+      "confidence": "medium",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c021",
+      "claim": "Oklo enthusiasm reflects demand for new nuclear supply despite the company having no revenue or completed approval at the time.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 904,
+      "end_seconds": 926,
+      "horizon": "not stated",
+      "topics": [
+        "nuclear_power"
+      ],
+      "family": "nuclear_power",
+      "entities": [],
+      "test": "Check commercial operating authorization, site-specific permits, revenue and contracted deliveries as of November 2025.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The distinction between a proposed technology and an operating cash-generating asset is material, but the precise approval scope and contemporaneous financial status need a dated issuer/regulator reconciliation.",
+      "evidence": [],
+      "next_check": "Check commercial operating authorization, site-specific permits, revenue and contracted deliveries as of November 2025.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c022",
+      "claim": "Power and grid delays can prevent purchased AI equipment from producing usable computing capacity for years.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 928,
+      "end_seconds": 948,
+      "horizon": "not stated",
+      "topics": [
+        "ai_power"
+      ],
+      "family": "ai_power",
+      "entities": [],
+      "test": "Match energized capacity and interconnection dates to equipment delivery and revenue-producing use.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The physical dependency is direct and regional research confirms that power constraints limit development. It does not imply that power is the only bottleneck everywhere.",
+      "evidence": [
+        {
+          "url": "https://www.cbre.com/press-releases/silicon-valley-data-centers-expands-modestly-as-power-rich-states-capture-mega-campus-growth",
+          "title": "Silicon Valley data-center supply and power constraints",
+          "publisher": "CBRE",
+          "date": "2026-02-26",
+          "finding": "The market study describes power and transmission constraints limiting Silicon Valley supply and pushing large developments toward regions with available power.",
+          "verified": true
+        }
+      ],
+      "next_check": "Match energized capacity and interconnection dates to equipment delivery and revenue-producing use.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c023",
+      "claim": "CEO reputations can conceal inherited business risks, as illustrated by the financial arm left after Welch at GE.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 954,
+      "end_seconds": 995,
+      "horizon": "not stated",
+      "topics": [
+        "management_quality"
+      ],
+      "family": "management_quality",
+      "entities": [],
+      "test": "Trace the origins and later management of GE Capital exposures rather than infer responsibility from reputation.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The governance lesson is reasonable, but attributing later losses between successive leaders requires a dated asset, funding and acquisition analysis.",
+      "evidence": [],
+      "next_check": "Trace the origins and later management of GE Capital exposures rather than infer responsibility from reputation.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c024",
+      "claim": "Chipotle stock weakness after Niccol departure implies that important problems were already present when he left.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 999,
+      "end_seconds": 1032,
+      "horizon": "not stated",
+      "topics": [
+        "management_quality"
+      ],
+      "family": "management_quality",
+      "entities": [],
+      "test": "Compare contemporaneous traffic, pricing, margins and internal/public forecasts before and after the departure.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "A later share-price decline cannot establish when operating problems arose or what management knew. The episode supplies no dated operational evidence for that inference.",
+      "evidence": [],
+      "next_check": "Compare contemporaneous traffic, pricing, margins and internal/public forecasts before and after the departure.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c025",
+      "claim": "Niccol has not yet completed a Starbucks turnaround.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1032,
+      "end_seconds": 1041,
+      "horizon": "not stated",
+      "topics": [
+        "management_quality"
+      ],
+      "family": "management_quality",
+      "entities": [],
+      "test": "Evaluate the latest available comparable sales, transactions and margins at the claim date.",
+      "qualifications": "The phrase at least not yet is preserved; later recovery cannot falsify a correctly dated observation.",
+      "verdict": "right",
+      "reason": "At the recording date, US transactions were still down and adjusted margins had contracted, despite early signs of improvement. The observation is about November 2025, not a permanent failure prediction.",
+      "evidence": [
+        {
+          "url": "https://investor.starbucks.com/news/financial-releases/news-details/2025/Starbucks-Reports-Q4-and-Full-Fiscal-Year-2025-Results/default.aspx",
+          "title": "Starbucks fiscal Q4 2025 results",
+          "publisher": "Starbucks",
+          "date": "2025-10-29",
+          "finding": "US comparable sales were flat and transactions declined 1%; adjusted operating margin contracted, while international sales and September US trends showed improvement.",
+          "verified": true
+        }
+      ],
+      "next_check": "Evaluate the latest available comparable sales, transactions and margins at the claim date.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-zxjjjI0b8a0-c026",
+      "claim": "An entrepreneur permit-rejection story helps explain broad European stagnation and contrasts with a more enabling US environment.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "endorsed guest explanation",
+      "kind": "explanation",
+      "start_seconds": 1074,
+      "end_seconds": 1248,
+      "horizon": "not stated",
+      "topics": [
+        "us_exceptionalism"
+      ],
+      "family": "us_exceptionalism",
+      "entities": [],
+      "test": "Compare matched business-entry rules, actual approval outcomes and economy-wide productivity evidence.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The anonymous anecdote cannot establish prevalence, the applicable legal facts, a comparable US outcome or its contribution to aggregate growth.",
+      "evidence": [],
+      "next_check": "Compare matched business-entry rules, actual approval outcomes and economy-wide productivity evidence.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    }
+  ]
+}

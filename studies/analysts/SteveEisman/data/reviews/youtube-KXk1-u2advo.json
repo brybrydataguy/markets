@@ -1,0 +1,1753 @@
+{
+  "source_id": "youtube-KXk1-u2advo",
+  "title": "Are We Building an AI Future We Can't Power?",
+  "date": "2025-06-16T06:00:40-07:00",
+  "url": "https://www.youtube.com/watch?v=KXk1-u2advo",
+  "metadata": {
+    "title": "Are We Building an AI Future We Can't Power?",
+    "published_at": "2025-06-16T06:00:40-07:00",
+    "url": "https://www.youtube.com/watch?v=KXk1-u2advo"
+  },
+  "read_complete": true,
+  "transcript_sha256": "be23078614acc0be8317451d395d1235f055b590a60d86adbf9a949bab94206e",
+  "evaluation_as_of": "2026-11-10",
+  "summary": "Cisco investor-relations head Sam Badri explains the move from private infrastructure to public cloud and AI, emphasizes networking opportunities and identifies electricity as a bottleneck. Cisco and NVIDIA earnings support the immediate demand observations. Eisman raises tentative concerns about Google monetization and software moats. Several simplified technical explanations are misleading, especially CPU impossibility, real-time model learning and the Blackwell Ultra rack specification; these are separated from the supported power thesis.",
+  "assessment": "Claims are assessed individually. Empirical premises are not treated as successful forecasts. Unverified magnitudes and causal stories remain unresolved; subjective investment judgments are not assigned directional wins.",
+  "speaker_map_notes": "Steve Eisman interviews Cisco head of investor relations Sam Badri. Corporate product and strategy assertions are management claims, not independent industry measurements or Eisman forecasts.",
+  "framework_points": [
+    "Map the full supplier stack around a dominant chip vendor.",
+    "Distinguish applications that raise revenue from those that reduce cost.",
+    "Identify physical bottlenecks and distinguish orders from recognized revenue.",
+    "Preserve uncertain moat hypotheses as hypotheses."
+  ],
+  "tools_and_charts": [
+    "Cloud capex-versus-usage expense comparison",
+    "NVIDIA69% revenue growth",
+    "Cisco product categories and AI order target",
+    "Rack power versus facility capacity",
+    "Amazon/Talen 1,920MW PPA"
+  ],
+  "transcript_cautions": [
+    "Sam Badger is Sam Badri.",
+    "Guest repeatedly says kilowatts per hour; power should be measured in kilowatts, energy in kilowatt-hours.",
+    "The claimed 600-700kW Blackwell Ultra figure is not silently corrected to a future architecture.",
+    "At 2135 captions say more abundant, but immediate flat-to-down explanation indicates moribund/weak context.",
+    "Eisman calls former Cisco leadership its founder; incidental biography not a material investment claim.",
+    "Amazon/Talen deal today points to June 11, 2025 recording, before June 16 publication; date inference should be reconciled by root.",
+    "Opening montage duplicates later material."
+  ],
+  "claims": [
+    {
+      "claim": "Public cloud shifts enterprises from owning servers and switches to paying for remotely supplied compute, changing upfront capital costs into ongoing usage expenses.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 256,
+      "end_seconds": 419,
+      "horizon": "not stated",
+      "topics": [
+        "cloud_economics"
+      ],
+      "entities": [
+        "cloud economics"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "cloud_economics",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "Compare owned equipment with a service contract priced by usage, excluding any embedded lease."
+        ],
+        "proof": "The customer exchanges equipment ownership and upfront acquisition for contracted access and recurring payments. This describes cost timing and ownership, not a guarantee of lower lifetime cost."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-KXk1-u2advo-c001",
+      "proof": {
+        "assumptions": [
+          "Compare owned equipment with a service contract priced by usage, excluding any embedded lease."
+        ],
+        "derivation": "The customer exchanges equipment ownership and upfront acquisition for contracted access and recurring payments. This describes cost timing and ownership, not a guarantee of lower lifetime cost."
+      }
+    },
+    {
+      "claim": "A bank can gain efficiency from public cloud but retains major reputational exposure if sensitive data or transaction processing fails.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 794,
+      "end_seconds": 820,
+      "horizon": "not stated",
+      "topics": [
+        "cloud_economics"
+      ],
+      "entities": [
+        "cloud economics"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "cloud_economics",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "Bank remains accountable to customers while contracting technology services."
+        ],
+        "proof": "Moving infrastructure ownership does not remove customer dependence on the bank or the costs of failure. Efficiency benefits must therefore be balanced against operational and confidentiality risks."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-KXk1-u2advo-c002",
+      "proof": {
+        "assumptions": [
+          "Bank remains accountable to customers while contracting technology services."
+        ],
+        "derivation": "Moving infrastructure ownership does not remove customer dependence on the bank or the costs of failure. Efficiency benefits must therefore be balanced against operational and confidentiality risks."
+      }
+    },
+    {
+      "claim": "CPUs are general-purpose, GPUs accelerate parallel workloads, and Google purpose-built TPUs for its own large-scale workloads.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 431,
+      "end_seconds": 483,
+      "horizon": "not stated",
+      "topics": [
+        "semiconductors"
+      ],
+      "entities": [
+        "Google"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Broad architecture distinction is useful, but the discussion reduces TPU functionality too far toward one search task; TPU-trained PaLM demonstrates broader language use.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2204.02311",
+          "title": "PaLM: Scaling Language Modeling with Pathways",
+          "publisher": "Chowdhery et al. / Google Research",
+          "date": "2022-04-05",
+          "finding": "Authors trained 540b-parameter language model on 6,144 TPUv 4 chips. Describes next-token language modeling and model parameters, not a lookup table that simply stores all facts.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://github.com/ggml-org/llama.cpp",
+          "title": "llama.cpp official repository",
+          "publisher": "ggml-org project",
+          "date": "current documentation inspected2026-11-10",
+          "finding": "LLM inference implementation explicitly supports x 86/ARM CPU paths and CPU/GPU hybrid use. CPU performance constraints do not make language-model inference logically impossible.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "semiconductors",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c003"
+    },
+    {
+      "claim": "Enterprise memory and storage needs scale with the workload; HBM is described as the memory bandwidth inside conventional storage appliances.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 485,
+      "end_seconds": 546,
+      "horizon": "not stated",
+      "topics": [
+        "semiconductors"
+      ],
+      "entities": [
+        "semiconductors"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Workload-specific memory needs are real, but HBM compute memory is conflated with persistent enterprise storage. This is a supporting taxonomy error.",
+      "evidence": [
+        {
+          "url": "https://www.micron.com/products/memory/hbm",
+          "title": "High-bandwidth memory",
+          "publisher": "Micron Technology",
+          "date": "current documentation inspected2026-11-10",
+          "finding": "HBM is stacked SDRAM close to processors, supplying high bandwidth to AI computation. It is not the same as persistent storage in an enterprise storage appliance.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "semiconductors",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "youtube-KXk1-u2advo-c004"
+    },
+    {
+      "claim": "Chip design remains differentiated and technically demanding; GPUs and TPUs represent specialized architectural bets rather than a uniformly commoditized chip market.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 550,
+      "end_seconds": 687,
+      "horizon": "not stated",
+      "topics": [
+        "semiconductors"
+      ],
+      "entities": [
+        "semiconductors"
+      ],
+      "test": "Compare competition, cost structure, gross margins and product substitution by chip category rather than infer market power from engineering difficulty.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Compare competition, cost structure, gross margins and product substitution by chip category rather than infer market power from engineering difficulty.",
+      "confidence": "medium",
+      "family": "semiconductors",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c005"
+    },
+    {
+      "claim": "Before the AI boom, IT spending typically grew low-to-mid single digits, with cloud migration constrained by varying enterprise sensitivity to data and outsourcing risk.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 715,
+      "end_seconds": 850,
+      "horizon": "not stated",
+      "topics": [
+        "enterprise_it"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Specify IT spending universe, currency and years; inspect survey and sector-specific cloud adoption data.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Specify IT spending universe, currency and years; inspect survey and sector-specific cloud adoption data.",
+      "confidence": "medium",
+      "family": "enterprise_it",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c006"
+    },
+    {
+      "claim": "GPU matrix-processing capabilities enabled much larger language-model workloads, while a CPU supposedly cannot produce the same sort of language-model answer.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 883,
+      "end_seconds": 1030,
+      "horizon": "not stated",
+      "topics": [
+        "ai_technology"
+      ],
+      "entities": [
+        "ai technology"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Acceleration and parallelism matter, but CPU inference is possible. The CPU/GPU distinction is efficiency and capacity under resource limits, not a categorical ability to answer language questions.",
+      "evidence": [
+        {
+          "url": "https://github.com/ggml-org/llama.cpp",
+          "title": "llama.cpp official repository",
+          "publisher": "ggml-org project",
+          "date": "current documentation inspected2026-11-10",
+          "finding": "LLM inference implementation explicitly supports x 86/ARM CPU paths and CPU/GPU hybrid use. CPU performance constraints do not make language-model inference logically impossible.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/abs/2204.02311",
+          "title": "PaLM: Scaling Language Modeling with Pathways",
+          "publisher": "Chowdhery et al. / Google Research",
+          "date": "2022-04-05",
+          "finding": "Authors trained 540b-parameter language model on 6,144 TPUv 4 chips. Describes next-token language modeling and model parameters, not a lookup table that simply stores all facts.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_technology",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c007"
+    },
+    {
+      "claim": "The explanation assigns roughly 100,000 rows/columns to CPUs, billions to GPUs and trillions to TPUs as a hierarchy of model-processing capacity.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1032,
+      "end_seconds": 1090,
+      "horizon": "not stated",
+      "topics": [
+        "ai_technology"
+      ],
+      "entities": [
+        "ai technology"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "Guest labels this a lay analogy; the broad claim that accelerators support larger practical workloads remains valid.",
+      "verdict": "wrong",
+      "reason": "The analogy invents fixed capacity limits and confuses matrix dimensions, dataset size and parallel compute. It is not a usable quantitative explanation.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_technology",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "The rows/columns are interpreted as simultaneous matrix elements with at least one byte each."
+        ],
+        "proof": "A billion-by-billion matrix alone has 10^18 elements; a trillion-by-trillion matrix has 10^24. Device-class row ceilings are not architectural laws: operations can be tiled and distributed, while physical memory limits scale with hardware configuration."
+      },
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c008",
+      "proof": {
+        "assumptions": [
+          "The rows/columns are interpreted as simultaneous matrix elements with at least one byte each."
+        ],
+        "derivation": "A billion-by-billion matrix alone has 10^18 elements; a trillion-by-trillion matrix has 10^24. Device-class row ceilings are not architectural laws: operations can be tiled and distributed, while physical memory limits scale with hardware configuration."
+      }
+    },
+    {
+      "claim": "ChatGPT produced two philosophy essays quickly in distinct author styles, demonstrating a capability beyond simply returning conventional search links.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1092,
+      "end_seconds": 1145,
+      "horizon": "not stated",
+      "topics": [
+        "ai_adoption"
+      ],
+      "entities": [
+        "ai adoption"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "Personal anecdote establishes his impression, not benchmark quality, factual reliability or a financial return.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_adoption",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c009"
+    },
+    {
+      "claim": "An LLM absorbs source material into a responsive database and delivers an expert answer.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1147,
+      "end_seconds": 1188,
+      "horizon": "not stated",
+      "topics": [
+        "ai_technology"
+      ],
+      "entities": [
+        "LLM"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Training learns model parameters and enables generation. The database/expert analogy obscures probabilistic generation and does not establish retrieval accuracy or expertise.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2204.02311",
+          "title": "PaLM: Scaling Language Modeling with Pathways",
+          "publisher": "Chowdhery et al. / Google Research",
+          "date": "2022-04-05",
+          "finding": "Authors trained 540b-parameter language model on 6,144 TPUv 4 chips. Describes next-token language modeling and model parameters, not a lookup table that simply stores all facts.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_technology",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c010"
+    },
+    {
+      "claim": "Model developers race to improve capable models; some specialize toward coding while general assistants target broad use and research.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1202,
+      "end_seconds": 1346,
+      "horizon": "not stated",
+      "topics": [
+        "ai_competition"
+      ],
+      "entities": [
+        "Target"
+      ],
+      "test": "Compare actual product capabilities, usage and customer mix at the source date; do not treat coding emphasis as exclusion of other applications.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Compare actual product capabilities, usage and customer mix at the source date; do not treat coding emphasis as exclusion of other applications.",
+      "confidence": "medium",
+      "family": "ai_competition",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c011"
+    },
+    {
+      "claim": "Newer LLMs constantly learn from real-time Internet news, unlike early models trained on static data.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1268,
+      "end_seconds": 1293,
+      "horizon": "not stated",
+      "topics": [
+        "ai_technology"
+      ],
+      "entities": [
+        "ai technology"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Search-enabled assistants can retrieve fresh information, but that does not imply continuous base-model learning or constant background retrieval. The statement conflates distinct mechanisms.",
+      "evidence": [
+        {
+          "url": "https://openai.com/index/introducing-chatgpt-search/",
+          "title": "Introducing ChatGPT search",
+          "publisher": "OpenAI",
+          "date": "2024-10-31",
+          "finding": "Search combines a fine-tuned GPT-4o with third-party search and publisher content. Retrieving current sources is distinct from continuously retraining base model parameters.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_technology",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c012"
+    },
+    {
+      "claim": "Eisman restates that the model is constantly pulling live data.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "endorsed",
+      "kind": "explanation",
+      "start_seconds": 1281,
+      "end_seconds": 1291,
+      "horizon": "not stated",
+      "topics": [
+        "ai_technology"
+      ],
+      "entities": [
+        "ai technology"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Fresh retrieval is available on queries; constant universal retrieval and training do not follow.",
+      "evidence": [
+        {
+          "url": "https://openai.com/index/introducing-chatgpt-search/",
+          "title": "Introducing ChatGPT search",
+          "publisher": "OpenAI",
+          "date": "2024-10-31",
+          "finding": "Search combines a fine-tuned GPT-4o with third-party search and publisher content. Retrieving current sources is distinct from continuously retraining base model parameters.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_technology",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c013"
+    },
+    {
+      "claim": "Enterprise AI adoption has two economic routes: better targeting can raise revenue, and automated service can lower operating cost.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "conditional",
+      "kind": "analytical principle",
+      "start_seconds": 1351,
+      "end_seconds": 1438,
+      "horizon": "not stated",
+      "topics": [
+        "ai_economics"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_economics",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "AI improves conversion or resolves service tasks at lower total cost without offsetting quality losses."
+        ],
+        "proof": "Higher conversion at unchanged traffic and economics increases sales; replacing a task with a cheaper reliable process reduces cost. Net benefit still subtracts compute, integration and oversight expense."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-KXk1-u2advo-c014",
+      "proof": {
+        "assumptions": [
+          "AI improves conversion or resolves service tasks at lower total cost without offsetting quality losses."
+        ],
+        "derivation": "Higher conversion at unchanged traffic and economics increases sales; replacing a task with a cheaper reliable process reduces cost. Net benefit still subtracts compute, integration and oversight expense."
+      }
+    },
+    {
+      "claim": "Accenture strong outsourcing demand and data-preparation work suggest enterprise AI adoption is still early because many firms lack usable integrated data.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1440,
+      "end_seconds": 1475,
+      "horizon": "not stated",
+      "topics": [
+        "enterprise_it"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Services growth and named data-foundation projects support the premise. The prevalence claim about most firms and duration of the adoption runway remain unmeasured.",
+      "evidence": [
+        {
+          "url": "https://newsroom.accenture.com/content/2qfy25-earnings/accenture-reports-second-quarter-fiscal-2025-results.pdf",
+          "title": "Accenture Q2 fiscal 2025 results",
+          "publisher": "Accenture",
+          "date": "2025-03-20",
+          "finding": "Managed Services revenue grew 8% in dollars/11% local currency; generative-AI bookings $1.4b. Supports strong services demand, not the assertion that most companies data is unusable.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/quarterly-earnings/2025/q3-fy25/accenture-third-quarter-fiscal-2025-conference-call-transcript.pdf",
+          "title": "Accenture Q3 fiscal 2025 earnings call",
+          "publisher": "Accenture",
+          "date": "2025-06-20",
+          "finding": "Named customer projects integrate cloud migration, standardized data foundations and AI. Management reports $700m-plus quarterly GenAI revenue and $1.5b bookings; case studies support the workflow, not independent proof of all customer benefits.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "enterprise_it",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c015"
+    },
+    {
+      "claim": "Enterprise data can be fragmented, inconsistent or in unsuitable formats, so preparation and integration are needed before useful AI deployment.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1475,
+      "end_seconds": 1521,
+      "horizon": "not stated",
+      "topics": [
+        "enterprise_it"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Named projects establish an actual need; not every application requires one centralized database or identical preprocessing.",
+      "evidence": [
+        {
+          "url": "https://investor.accenture.com/~/media/Files/A/accenture-v4/investors/quarterly-earnings/2025/q3-fy25/accenture-third-quarter-fiscal-2025-conference-call-transcript.pdf",
+          "title": "Accenture Q3 fiscal 2025 earnings call",
+          "publisher": "Accenture",
+          "date": "2025-06-20",
+          "finding": "Named customer projects integrate cloud migration, standardized data foundations and AI. Management reports $700m-plus quarterly GenAI revenue and $1.5b bookings; case studies support the workflow, not independent proof of all customer benefits.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "enterprise_it",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c016"
+    },
+    {
+      "claim": "Cloud-native software firms can rent infrastructure and earn a spread by selling applications above those infrastructure costs.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1542,
+      "end_seconds": 1598,
+      "horizon": "not stated",
+      "topics": [
+        "cloud_economics"
+      ],
+      "entities": [
+        "software"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "Literal own nothing and fixed cost for usage are colloquial; a cloud bill can vary with demand.",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "cloud_economics",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "SaaS firm rents compute and charges application customers."
+        ],
+        "proof": "Revenue less infrastructure and all other operating costs determines profit. Renting removes ownership of servers, not variable usage costs or all assets."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-KXk1-u2advo-c017",
+      "proof": {
+        "assumptions": [
+          "SaaS firm rents compute and charges application customers."
+        ],
+        "derivation": "Revenue less infrastructure and all other operating costs determines profit. Renting removes ownership of servers, not variable usage costs or all assets."
+      }
+    },
+    {
+      "claim": "Pandemic remote work pulled forward traditional IT investment, creating a later digestion period.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1602,
+      "end_seconds": 1663,
+      "horizon": "not stated",
+      "topics": [
+        "enterprise_it"
+      ],
+      "entities": [
+        "enterprise it"
+      ],
+      "test": "Inspect enterprise capex, shipment, backlog and inventory series through 2020-25; separate demand pull-forward from supply bottlenecks.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Inspect enterprise capex, shipment, backlog and inventory series through 2020-25; separate demand pull-forward from supply bottlenecks.",
+      "confidence": "medium",
+      "family": "enterprise_it",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c018"
+    },
+    {
+      "claim": "Remote work forced broad laptop and digital-commerce spending, leaving old IT spending weaker afterward.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "endorsed",
+      "kind": "explanation",
+      "start_seconds": 1620,
+      "end_seconds": 1663,
+      "horizon": "not stated",
+      "topics": [
+        "enterprise_it"
+      ],
+      "entities": [
+        "enterprise it"
+      ],
+      "test": "Reconstruct actual sector purchases and subsequent replacement cycle; the causal magnitude is not established here.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Reconstruct actual sector purchases and subsequent replacement cycle; the causal magnitude is not established here.",
+      "confidence": "medium",
+      "family": "enterprise_it",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c019"
+    },
+    {
+      "claim": "ChatGPT adoption accelerated the AI infrastructure race, and NVIDIA early GPU bet gave it a strong competitive lead.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1663,
+      "end_seconds": 1760,
+      "horizon": "not stated",
+      "topics": [
+        "semiconductors"
+      ],
+      "entities": [
+        "NVIDIA",
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "NVIDIA revenue growth supports commercial strength. The stronger claim that only NVIDIA supplied usable AI compute is contradicted by earlier TPU model training; no exact share is inferred.",
+      "evidence": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2026",
+          "title": "NVIDIA Q1 fiscal 2026 results",
+          "publisher": "NVIDIA",
+          "date": "2025-05-28",
+          "finding": "Revenue $44.062b grew 69% year over year; data-center revenue $39.1b grew 73%. These are realized results, not proof of perpetual growth or market-share exclusivity.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/abs/2204.02311",
+          "title": "PaLM: Scaling Language Modeling with Pathways",
+          "publisher": "Chowdhery et al. / Google Research",
+          "date": "2022-04-05",
+          "finding": "Authors trained 540b-parameter language model on 6,144 TPUv 4 chips. Describes next-token language modeling and model parameters, not a lookup table that simply stores all facts.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "semiconductors",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c020"
+    },
+    {
+      "claim": "NVIDIA latest quarterly revenue growth of 69% on a very large base is extraordinary evidence of current demand.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1774,
+      "end_seconds": 1806,
+      "horizon": "not stated",
+      "topics": [
+        "semiconductors"
+      ],
+      "entities": [
+        "NVIDIA"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "Contemporaneous earnings observation, not a forward growth forecast. Market-cap size is not the denominator of revenue growth.",
+      "verdict": "right",
+      "reason": "Inspected primary evidence supports this narrowly stated claim.",
+      "evidence": [
+        {
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2026",
+          "title": "NVIDIA Q1 fiscal 2026 results",
+          "publisher": "NVIDIA",
+          "date": "2025-05-28",
+          "finding": "Revenue $44.062b grew 69% year over year; data-center revenue $39.1b grew 73%. These are realized results, not proof of perpetual growth or market-share exclusivity.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "semiconductors",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c021"
+    },
+    {
+      "claim": "As enterprise AI use cases become visible, competitive pressure will force more firms to adopt AI-enabled applications.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 1826,
+      "end_seconds": 1866,
+      "horizon": "not stated",
+      "topics": [
+        "ai_adoption"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Measure adoption across a defined enterprise universe and link deployment to competitive necessity; no date or universal adoption threshold supplied.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Measure adoption across a defined enterprise universe and link deployment to competitive necessity; no date or universal adoption threshold supplied.",
+      "confidence": "medium",
+      "family": "ai_adoption",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-KXk1-u2advo-c022"
+    },
+    {
+      "claim": "AI model development requires power, compute and high-speed networking as well as developers who can train and use models efficiently.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1889,
+      "end_seconds": 1958,
+      "horizon": "not stated",
+      "topics": [
+        "ai_infrastructure"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Training infrastructure and power requirements are supported. Three-item simplification omits data and other constraints, and it is not a guarantee of successful model development.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2204.02311",
+          "title": "PaLM: Scaling Language Modeling with Pathways",
+          "publisher": "Chowdhery et al. / Google Research",
+          "date": "2022-04-05",
+          "finding": "Authors trained 540b-parameter language model on 6,144 TPUv 4 chips. Describes next-token language modeling and model parameters, not a lookup table that simply stores all facts.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+          "title": "Energy and AI executive summary",
+          "publisher": "International Energy Agency",
+          "date": "2025-04-10",
+          "finding": "Global data-center demand 415TWh in 2024; long grid queues and equipment lead times create material local constraints. Around 20% of planned projects could face delays absent mitigation. This is a risk forecast, not a realized 20% failure rate.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_infrastructure",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c023"
+    },
+    {
+      "claim": "In some NVIDIA configurations, buying its chips effectively entails buying its interconnection equipment.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2021,
+      "end_seconds": 2028,
+      "horizon": "not stated",
+      "topics": [
+        "semiconductors"
+      ],
+      "entities": [
+        "NVIDIA"
+      ],
+      "test": "Inspect actual system SKUs and contractual tying terms; distinguish rack-internal NVLink requirements from optional external Ethernet/InfiniBand networks.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Inspect actual system SKUs and contractual tying terms; distinguish rack-internal NVLink requirements from optional external Ethernet/InfiniBand networks.",
+      "confidence": "medium",
+      "family": "semiconductors",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c024"
+    },
+    {
+      "claim": "NVIDIA integrated training systems simplify deployment; inference and more customized networks create wider vendor opportunities, including Cisco, Arista, storage and optics firms.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2026,
+      "end_seconds": 2124,
+      "horizon": "not stated",
+      "topics": [
+        "ai_infrastructure"
+      ],
+      "entities": [
+        "NVIDIA",
+        "Cisco",
+        "Arista"
+      ],
+      "test": "Compare training/inference network spending, vendor share and interoperability across actual deployment architectures.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Compare training/inference network spending, vendor share and interoperability across actual deployment architectures.",
+      "confidence": "medium",
+      "family": "ai_infrastructure",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c025"
+    },
+    {
+      "claim": "Traditional enterprise spending has been weak after pandemic buying while new AI spending surged.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2131,
+      "end_seconds": 2161,
+      "horizon": "not stated",
+      "topics": [
+        "enterprise_it"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Reconstruct traditional versus AI spending for a consistent universe.",
+      "qualifications": "Caption more abundant likely means moribund given flat-to-down immediately after; preserved as context-supported interpretation, not numeric correction.",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Reconstruct traditional versus AI spending for a consistent universe.",
+      "confidence": "medium",
+      "family": "enterprise_it",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c026"
+    },
+    {
+      "claim": "Legacy IT still needs maintenance and replacement, so AI adds another spending category rather than eliminating all conventional purchases.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 2161,
+      "end_seconds": 2221,
+      "horizon": "not stated",
+      "topics": [
+        "enterprise_it"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "enterprise_it",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "Legacy applications remain in production and equipment requires upkeep/replacement."
+        ],
+        "proof": "Continued operation demands some conventional resources even while a new AI budget exists. This does not prove total spending cannot be reallocated or temporarily reduced."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-KXk1-u2advo-c027",
+      "proof": {
+        "assumptions": [
+          "Legacy applications remain in production and equipment requires upkeep/replacement."
+        ],
+        "derivation": "Continued operation demands some conventional resources even while a new AI budget exists. This does not prove total spending cannot be reallocated or temporarily reduced."
+      }
+    },
+    {
+      "claim": "AI uncertainty, high rates and election concerns delayed projects in 2024; clearer plans and more providers are helping enterprise spending recover in 2025.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2233,
+      "end_seconds": 2399,
+      "horizon": "not stated",
+      "topics": [
+        "enterprise_it"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Cisco orders and product growth support recovery within its customer base. The macro causal decomposition and entire IT universe remain unresolved.",
+      "evidence": [
+        {
+          "url": "https://investor.cisco.com/news/news-details/2025/CISCO-REPORTS-THIRD-QUARTER-EARNINGS/default.aspx",
+          "title": "Cisco Q3 fiscal 2025 results",
+          "publisher": "Cisco",
+          "date": "2025-05-14",
+          "finding": "Revenue $14.1b rose 11%; product orders rose 9% excluding Splunk across geographies/customer markets. AI infrastructure orders exceeded $600m for the quarter and the $1b annual target was achieved early. Networking rose 8%, Security 54%, Observability 24%, Collaboration 4%; acquisition comparability matters.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "enterprise_it",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c028"
+    },
+    {
+      "claim": "AI assistants are useful, but their monetization is unclear; Eisman suspects they could fully substitute for Google search, perhaps with lower profitability, while admitting uncertainty and owning Google.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "exploratory",
+      "kind": "investment thesis",
+      "start_seconds": 2429,
+      "end_seconds": 2452,
+      "horizon": "not stated",
+      "topics": [
+        "ai_search"
+      ],
+      "entities": [
+        "Google",
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Subsequent search-query growth complicates near-term displacement, but no horizon or complete-substitution test is stated. Do not score a tentative long-run scenario as a completed failure or as a categorical prediction.",
+      "evidence": [
+        {
+          "url": "https://s206.q4cdn.com/479360582/files/doc_news/2026/Oct/28/attachments/2026q3-alphabet-earnings-release.pdf",
+          "title": "Alphabet Q3 2026 Earnings Release",
+          "publisher": "Alphabet",
+          "date": "2026-10-28",
+          "finding": "Quarterly operating cash flow $42.290 billion less capex $51.355 billion gives negative $9.065 billion FCF; trailing-year FCF remains positive $19.747 billion. Search query growth is described as the fastest in five years.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_search",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c029"
+    },
+    {
+      "claim": "Historically recurring software revenue supported premiums over cyclical hardware, but AI-assisted coding could lower software entry barriers and extend hardware outperformance.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "exploratory",
+      "kind": "investment thesis",
+      "start_seconds": 2464,
+      "end_seconds": 2569,
+      "horizon": "not stated",
+      "topics": [
+        "software_disruption"
+      ],
+      "entities": [
+        "software",
+        "AI"
+      ],
+      "test": "Define software/hardware baskets and horizon, and test pricing, retention and competitive entry separately from relative stock returns.",
+      "qualifications": "Explicitly presented as a question he is struggling with, not a universal software short.",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Define software/hardware baskets and horizon, and test pricing, retention and competitive entry separately from relative stock returns.",
+      "confidence": "medium",
+      "family": "software_disruption",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c030"
+    },
+    {
+      "claim": "New software companies are trying to use AI-generated products to displace incumbents, so the moat concern persists.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2571,
+      "end_seconds": 2595,
+      "horizon": "not stated",
+      "topics": [
+        "software_disruption"
+      ],
+      "entities": [
+        "software",
+        "AI"
+      ],
+      "test": "Identify entrants and customer switching; existence of experiments does not establish durable displacement.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Identify entrants and customer switching; existence of experiments does not establish durable displacement.",
+      "confidence": "medium",
+      "family": "software_disruption",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c031"
+    },
+    {
+      "claim": "High-power AI systems may be built before sites have adequate electricity connections.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "conditional scenario",
+      "start_seconds": 2595,
+      "end_seconds": 2612,
+      "horizon": "not stated",
+      "topics": [
+        "ai_power"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Grid and generation constraints are well supported. The source gives a risk, not a count of delivered GPUs unable to operate.",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+          "title": "Energy and AI executive summary",
+          "publisher": "International Energy Agency",
+          "date": "2025-04-10",
+          "finding": "Global data-center demand 415TWh in 2024; long grid queues and equipment lead times create material local constraints. Around 20% of planned projects could face delays absent mitigation. This is a risk forecast, not a realized 20% failure rate.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+          "title": "Key Questions on Energy and AI executive summary",
+          "publisher": "International Energy Agency",
+          "date": "2026-04",
+          "finding": "Continuing grid constraints encourage onsite gas. Satellite analysis finds about one-fifth of such projects had begun clearing or construction; reliable onsite supply may need 30%-70% overbuild. Constraints remain material without implying all AI buildout stops.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_power",
+      "materiality": "major",
+      "synthesis_role": "conditional_scenario",
+      "id": "youtube-KXk1-u2advo-c032"
+    },
+    {
+      "claim": "Data-center economics are constrained by deliverable power allocation, not just floor space; obtaining capacity requires utilities and local infrastructure coordination.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2640,
+      "end_seconds": 2697,
+      "horizon": "not stated",
+      "topics": [
+        "ai_power"
+      ],
+      "entities": [
+        "ai power"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "Supported limiting input, not the sole determinant of all colocation revenue.",
+      "verdict": "right",
+      "reason": "Inspected primary evidence supports this narrowly stated claim.",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+          "title": "Energy and AI executive summary",
+          "publisher": "International Energy Agency",
+          "date": "2025-04-10",
+          "finding": "Global data-center demand 415TWh in 2024; long grid queues and equipment lead times create material local constraints. Around 20% of planned projects could face delays absent mitigation. This is a risk forecast, not a realized 20% failure rate.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_power",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c033"
+    },
+    {
+      "claim": "A typical older Equinix rack allocated 20kW while only 5kW served IT and the remainder powered cooling.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 2656,
+      "end_seconds": 2679,
+      "horizon": "not stated",
+      "topics": [
+        "ai_power"
+      ],
+      "entities": [
+        "ai power"
+      ],
+      "test": "Check the specific facility contract and vintage PUE; the assertion implies total-to-IT ratio 4, but no source-specific corroboration was inspected.",
+      "qualifications": "Repeated kW per hour confuses power with energy. Do not silently convert the allocation into measured fleet-average consumption.",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Check the specific facility contract and vintage PUE; the assertion implies total-to-IT ratio 4, but no source-specific corroboration was inspected.",
+      "confidence": "medium",
+      "family": "ai_power",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "youtube-KXk1-u2advo-c034"
+    },
+    {
+      "claim": "Blackwell Ultra racks would consume 600-700kW, vastly above traditional racks and earlier NVIDIA systems.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 2719,
+      "end_seconds": 2757,
+      "horizon": "not stated",
+      "topics": [
+        "ai_power"
+      ],
+      "entities": [
+        "NVIDIA"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "Supplier documentation gives roughly 140kW for GB300 NVL72, not 600-700kW. Future larger architectures should not be assigned to Blackwell Ultra. The direction of increasing rack density is valid.",
+      "evidence": [
+        {
+          "url": "https://www.vertiv.com/it-emea/about/news-and-events/articles/blog-posts/how-vertiv-and-coreweave-are-orchestrating-ai-innovation/",
+          "title": "How Vertiv and CoreWeave are orchestrating AI innovation",
+          "publisher": "Vertiv, deployment supplier",
+          "date": "2025-08",
+          "finding": "First CoreWeave GB300 NVL72 deployment uses roughly 140kW per fully loaded rack, liquid cooling and 121kW heat-rejection units. This directly contradicts 600-700kW as the Blackwell Ultra rack specification.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_power",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "youtube-KXk1-u2advo-c035"
+    },
+    {
+      "claim": "One new NVIDIA rack consumes as much power as an entire old Equinix data center.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "endorsed",
+      "kind": "material factual premise",
+      "start_seconds": 2757,
+      "end_seconds": 2769,
+      "horizon": "not stated",
+      "topics": [
+        "ai_power"
+      ],
+      "entities": [
+        "NVIDIA"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Based on the guest exaggerated rack number and an unspecified whole-site comparator. Some small enterprise sites could fit the analogy, but typical Equinix site equivalence is not established.",
+      "evidence": [
+        {
+          "url": "https://www.vertiv.com/it-emea/about/news-and-events/articles/blog-posts/how-vertiv-and-coreweave-are-orchestrating-ai-innovation/",
+          "title": "How Vertiv and CoreWeave are orchestrating AI innovation",
+          "publisher": "Vertiv, deployment supplier",
+          "date": "2025-08",
+          "finding": "First CoreWeave GB300 NVL72 deployment uses roughly 140kW per fully loaded rack, liquid cooling and 121kW heat-rejection units. This directly contradicts 600-700kW as the Blackwell Ultra rack specification.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_power",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "youtube-KXk1-u2advo-c036"
+    },
+    {
+      "claim": "Rapid power expansion is a competitive constraint for U.S. AI; other countries can move faster with coordinated investment.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2773,
+      "end_seconds": 2816,
+      "horizon": "not stated",
+      "topics": [
+        "ai_power"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Local power bottlenecks are documented. The comparative national-speed and historically unprecedented supply-chain assertions are not independently established.",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+          "title": "Energy and AI executive summary",
+          "publisher": "International Energy Agency",
+          "date": "2025-04-10",
+          "finding": "Global data-center demand 415TWh in 2024; long grid queues and equipment lead times create material local constraints. Around 20% of planned projects could face delays absent mitigation. This is a risk forecast, not a realized 20% failure rate.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://www.iea.org/reports/key-questions-on-energy-and-ai/executive-summary",
+          "title": "Key Questions on Energy and AI executive summary",
+          "publisher": "International Energy Agency",
+          "date": "2026-04",
+          "finding": "Continuing grid constraints encourage onsite gas. Satellite analysis finds about one-fifth of such projects had begun clearing or construction; reliable onsite supply may need 30%-70% overbuild. Constraints remain material without implying all AI buildout stops.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_power",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c037"
+    },
+    {
+      "claim": "Power scarcity helps explain nuclear supply deals and is a major limiting factor for the U.S. AI buildout.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2819,
+      "end_seconds": 2871,
+      "horizon": "not stated",
+      "topics": [
+        "ai_power"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "Major bottleneck, not proof power is the only constraint or that the whole U.S. buildout will fail.",
+      "verdict": "right",
+      "reason": "Inspected primary evidence supports this narrowly stated claim.",
+      "evidence": [
+        {
+          "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+          "title": "Energy and AI executive summary",
+          "publisher": "International Energy Agency",
+          "date": "2025-04-10",
+          "finding": "Global data-center demand 415TWh in 2024; long grid queues and equipment lead times create material local constraints. Around 20% of planned projects could face delays absent mitigation. This is a risk forecast, not a realized 20% failure rate.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://ir.talenenergy.com/node/8676/html",
+          "title": "Talen expands nuclear energy relationship with Amazon",
+          "publisher": "Talen Energy / SEC filing",
+          "date": "2025-06-11",
+          "finding": "PPA for 1,920MW at full volume through 2042 draws from existing Susquehanna nuclear generation and expands delivery to Pennsylvania sites. Nuclear uprates and SMR development are additional collaborations, not a claim that 1,920MW is all newly built capacity.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_power",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c038"
+    },
+    {
+      "claim": "Amazon and Talen have announced roughly 1,900MW of nuclear supply, illustrating a step change in deal scale.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 2827,
+      "end_seconds": 2866,
+      "horizon": "not stated",
+      "topics": [
+        "ai_power"
+      ],
+      "entities": [
+        "Amazon"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "Guest admits he has not read whether new construction is required. Existing Susquehanna supply is the contractual base; future uprates/SMRs are separate.",
+      "verdict": "right",
+      "reason": "Inspected primary evidence supports this narrowly stated claim.",
+      "evidence": [
+        {
+          "url": "https://ir.talenenergy.com/node/8676/html",
+          "title": "Talen expands nuclear energy relationship with Amazon",
+          "publisher": "Talen Energy / SEC filing",
+          "date": "2025-06-11",
+          "finding": "PPA for 1,920MW at full volume through 2042 draws from existing Susquehanna nuclear generation and expands delivery to Pennsylvania sites. Nuclear uprates and SMR development are additional collaborations, not a claim that 1,920MW is all newly built capacity.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_power",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "youtube-KXk1-u2advo-c039"
+    },
+    {
+      "claim": "Finite power requires more efficient model and data-center designs; abundant electricity would accelerate deployment.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "conditional",
+      "kind": "analytical principle",
+      "start_seconds": 2869,
+      "end_seconds": 2894,
+      "horizon": "not stated",
+      "topics": [
+        "ai_power"
+      ],
+      "entities": [
+        "ai power"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_power",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "Power is binding while other inputs can expand."
+        ],
+        "proof": "Raising available energy or useful computation per unit energy expands feasible computation. Other bottlenecks can then become binding, so unlimited electricity alone is insufficient."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-KXk1-u2advo-c040",
+      "proof": {
+        "assumptions": [
+          "Power is binding while other inputs can expand."
+        ],
+        "derivation": "Raising available energy or useful computation per unit energy expands feasible computation. Other bottlenecks can then become binding, so unlimited electricity alone is insufficient."
+      }
+    },
+    {
+      "claim": "Dot-com infrastructure investors correctly anticipated eventual Internet ubiquity but misjudged adoption timing and application development; the current buyers and ecosystem are more mature.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2932,
+      "end_seconds": 3021,
+      "horizon": "not stated",
+      "topics": [
+        "technology_cycles"
+      ],
+      "entities": [
+        "technology cycles"
+      ],
+      "test": "Compare funded capacity, utilization, customer solvency and adoption timelines across cycles rather than infer safety from large current buyers.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Compare funded capacity, utilization, customer solvency and adoption timelines across cycles rather than infer safety from large current buyers.",
+      "confidence": "medium",
+      "family": "technology_cycles",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c041"
+    },
+    {
+      "claim": "Cisco has expanded beyond switches into security, observability and collaboration and sees itself as an AI enabler and NVIDIA partner.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 3025,
+      "end_seconds": 3066,
+      "horizon": "not stated",
+      "topics": [
+        "enterprise_it"
+      ],
+      "entities": [
+        "NVIDIA",
+        "Cisco",
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Segment results and growing AI orders support business relevance. Partner status and products alone do not establish durable competitive advantage or superior shareholder returns.",
+      "evidence": [
+        {
+          "url": "https://investor.cisco.com/news/news-details/2025/CISCO-REPORTS-THIRD-QUARTER-EARNINGS/default.aspx",
+          "title": "Cisco Q3 fiscal 2025 results",
+          "publisher": "Cisco",
+          "date": "2025-05-14",
+          "finding": "Revenue $14.1b rose 11%; product orders rose 9% excluding Splunk across geographies/customer markets. AI infrastructure orders exceeded $600m for the quarter and the $1b annual target was achieved early. Networking rose 8%, Security 54%, Observability 24%, Collaboration 4%; acquisition comparability matters.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m05/cisco-reports-third-quarter-earnings.html",
+          "title": "Cisco third quarter fiscal 2026 results",
+          "publisher": "Cisco",
+          "date": "2026-05-13",
+          "finding": "Revenue $15.8b grew 12%, non-GAAP EPS $1.06. Fiscal-year-to-date hyperscaler AI infrastructure orders $5.3b support AI networking demand; orders are not yet all recognized revenue.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "enterprise_it",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c042"
+    },
+    {
+      "claim": "Cisco current culture emphasizes customer partnerships and evolving AI needs more than its earlier dominant-vendor approach.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 3087,
+      "end_seconds": 3166,
+      "horizon": "not stated",
+      "topics": [
+        "management"
+      ],
+      "entities": [
+        "Cisco",
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "Management qualitative self-assessment lacks objective culture or performance counterfactual.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "management",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c043"
+    },
+    {
+      "claim": "Arista won low-latency use cases and then cloud customers by close co-development; Cisco initially underestimated that opportunity but is now changing engineering and cloud engagement.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 3173,
+      "end_seconds": 3258,
+      "horizon": "not stated",
+      "topics": [
+        "enterprise_it"
+      ],
+      "entities": [
+        "Cisco",
+        "Arista"
+      ],
+      "test": "Inspect historical market share, product benchmarks and customer wins; the candid strategic admission is not itself independent outcome proof.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Inspect historical market share, product benchmarks and customer wins; the candid strategic admission is not itself independent outcome proof.",
+      "confidence": "medium",
+      "family": "enterprise_it",
+      "materiality": "major",
+      "synthesis_role": "view_revision",
+      "id": "youtube-KXk1-u2advo-c044"
+    },
+    {
+      "claim": "Cisco exceeded its initial FY2025 webscale AI target and is seeking materially greater scale.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 3258,
+      "end_seconds": 3275,
+      "horizon": "not stated",
+      "topics": [
+        "enterprise_it"
+      ],
+      "entities": [
+        "Cisco",
+        "AI",
+        "Target"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "Orders achievement, not all recognized revenue. Future expansion remains an aim without terminal share target.",
+      "verdict": "right",
+      "reason": "Inspected primary evidence supports this narrowly stated claim.",
+      "evidence": [
+        {
+          "url": "https://investor.cisco.com/news/news-details/2025/CISCO-REPORTS-THIRD-QUARTER-EARNINGS/default.aspx",
+          "title": "Cisco Q3 fiscal 2025 results",
+          "publisher": "Cisco",
+          "date": "2025-05-14",
+          "finding": "Revenue $14.1b rose 11%; product orders rose 9% excluding Splunk across geographies/customer markets. AI infrastructure orders exceeded $600m for the quarter and the $1b annual target was achieved early. Networking rose 8%, Security 54%, Observability 24%, Collaboration 4%; acquisition comparability matters.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "enterprise_it",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c045"
+    },
+    {
+      "claim": "Cisco latest quarter shows enterprise demand returning while AI activity accelerates, improving both sides of the business.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 3278,
+      "end_seconds": 3306,
+      "horizon": "not stated",
+      "topics": [
+        "enterprise_it"
+      ],
+      "entities": [
+        "Cisco",
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "Growth includes Splunk effects in some segments; order growth excluding Splunk is also positive. Current result, not a forward earnings call.",
+      "verdict": "right",
+      "reason": "Inspected primary evidence supports this narrowly stated claim.",
+      "evidence": [
+        {
+          "url": "https://investor.cisco.com/news/news-details/2025/CISCO-REPORTS-THIRD-QUARTER-EARNINGS/default.aspx",
+          "title": "Cisco Q3 fiscal 2025 results",
+          "publisher": "Cisco",
+          "date": "2025-05-14",
+          "finding": "Revenue $14.1b rose 11%; product orders rose 9% excluding Splunk across geographies/customer markets. AI infrastructure orders exceeded $600m for the quarter and the $1b annual target was achieved early. Networking rose 8%, Security 54%, Observability 24%, Collaboration 4%; acquisition comparability matters.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "enterprise_it",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c046"
+    },
+    {
+      "claim": "Enterprise and public-sector recovery continues, but uncertainty including DOGE pushes some federal deals into FY2026 without changing expected absolute demand.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 3302,
+      "end_seconds": 3346,
+      "horizon": "Cisco fiscal 2026 delayed deals",
+      "topics": [
+        "enterprise_it"
+      ],
+      "entities": [
+        "enterprise it"
+      ],
+      "test": "Track the identified federal pipeline and realized bookings; aggregate growth cannot prove that no individual demand was cancelled.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Track the identified federal pipeline and realized bookings; aggregate growth cannot prove that no individual demand was cancelled.",
+      "confidence": "medium",
+      "family": "enterprise_it",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-KXk1-u2advo-c047"
+    },
+    {
+      "claim": "Hyperfabric, security integration and agent connectivity aim to reduce deployment friction and make Cisco relevant to more enterprises and governments.",
+      "speaker": "Sam Badri",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 3353,
+      "end_seconds": 3427,
+      "horizon": "not stated",
+      "topics": [
+        "enterprise_it"
+      ],
+      "entities": [
+        "Cisco"
+      ],
+      "test": "Measure deployments, customer adoption, attach rates and profitable revenue rather than only product availability.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is plausible, but the specific magnitude, causal attribution or outcome has not been established by inspected primary evidence.",
+      "evidence": [],
+      "next_check": "Measure deployments, customer adoption, attach rates and profitable revenue rather than only product availability.",
+      "confidence": "medium",
+      "family": "enterprise_it",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-KXk1-u2advo-c048"
+    }
+  ],
+  "materiality_note": "Major theses and forecasts are distinguished from supporting premises. Do not calculate an overall accuracy rate from claim counts. Exclude guest and uncertain-speaker claims from Eisman forecast scoring."
+}

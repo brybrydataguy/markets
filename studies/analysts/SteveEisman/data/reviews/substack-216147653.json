@@ -1,0 +1,1795 @@
+{
+  "source_id": "substack-216147653",
+  "title": "How to Analyze Banks (Part 2): Deposits, Valuations, and Silicon Valley",
+  "date": "2026-09-23",
+  "source_url": "https://realeismanplaybook.substack.com/p/how-to-analyze-banks-part-2-deposits",
+  "read_complete": true,
+  "transcript_sha256": "d64750b621e5607383c4ac2bacd29ee831c26c51734ae0020aba6353ccf0d1ec",
+  "evaluation_as_of": "2026-11-10",
+  "summary": "Eisman explains deposit franchises, SVB's duration and funding failure, bank income statements and tangible-book valuation. He favors large banks but avoids adding them at rich valuations and with AI financing exposure. The central SVB mechanism and conditional arithmetic are useful. Material errors concern securities accounting, liquidity-rule maturity restrictions, SVB closure timing and OZK consumer lending. Current credit data is broadly stable, but not uniformly benign. Claims of zero systemic risk and inevitable consolidation are substantially less established.",
+  "assessment": "A useful bank-analysis framework with several consequential factual and accounting simplifications. Distinguish book, regulatory and economic capital; liquidity from duration; and reported returns from stock-valuation judgments. The solo presentation means all extracted substantive views are Eisman's.",
+  "speaker_map_notes": "SPEAKER_00 self-identifies as Steve Eisman at the beginning and delivers the entire solo tutorial.",
+  "framework_points": [
+    "Analyze deposit composition and correlation, not merely total balances.",
+    "Separate funding cost, asset duration and credit risk.",
+    "Decompose pre-provision earnings from credit provisions.",
+    "Compare tangible-book multiples with sustainable returns and cost of equity.",
+    "Treat good valuation logic as insufficient to predict merger execution.",
+    "Assess indirect portfolio exposure through investment-banking clients."
+  ],
+  "tools_and_charts": [
+    "Net interest margin and earning assets",
+    "SVB deposits, securities marks and VC funding chronology",
+    "Bank and nonbank income-statement comparison",
+    "Efficiency ratio",
+    "Q2 2026 large-bank ROTCE and price/tangible-book table",
+    "Regional-bank valuation and CRE comparison",
+    "JPMorgan divisional earnings breakdown",
+    "OZK loan mix"
+  ],
+  "transcript_cautions": [
+    "SVB and SIVB refer to bank and holding-company ticker; their asset totals and capital measures differ.",
+    "Captions name Basel IV endgame; the official proposal is Basel III endgame.",
+    "The spoken JPMorgan quarter and $16.9 billion figure do not match the inspected Q1 release; charts are not included in the text.",
+    "Bank of the Ozarks is the former name of Bank OZK; no-consumer lending is a substantive false claim, not a harmless name correction.",
+    "The spoken flat/nonaccrual generalization does not include a bank-by-bank data table in the transcript."
+  ],
+  "claims": [
+    {
+      "id": "substack-216147653-c001",
+      "claim": "Deposits are bank liabilities and generally provide cheap, stable funding that distinguishes banks from nonbank lenders.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 5,
+      "end_seconds": 111,
+      "horizon": "not stated",
+      "topics": [
+        "bank-deposits"
+      ],
+      "entities": [],
+      "test": "Compare deposit costs, persistence and liability classification across cycles.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The accounting characterization is sound, but broad comparative stability and cost require bank-specific evidence; SVB is an explicit exception.",
+      "evidence": [],
+      "next_check": "Compare deposit costs, persistence and liability classification across cycles.",
+      "confidence": "medium",
+      "family": "bank-deposits",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c002",
+      "claim": "Taking deposits requires a bank charter and FDIC insurance, and no other kind of institution can do it.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 48,
+      "end_seconds": 111,
+      "horizon": "not stated",
+      "topics": [
+        "bank-deposits"
+      ],
+      "entities": [
+        "FDIC"
+      ],
+      "test": "Inspect applicable US deposit-taking statutes and exceptions, including credit unions and uninsured institutions.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The categorical formulation is broader than the insured commercial-bank business model; complete legal scope was not inspected.",
+      "evidence": [],
+      "next_check": "Inspect applicable US deposit-taking statutes and exceptions, including credit unions and uninsured institutions.",
+      "confidence": "medium",
+      "family": "bank-deposits",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-216147653-c003",
+      "claim": "Citi's relatively weak deposit franchise lowers its net interest margin; transaction and savings deposits are more valuable than expensive CDs.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 94,
+      "end_seconds": 140,
+      "horizon": "not stated",
+      "topics": [
+        "bank-deposit-franchise"
+      ],
+      "entities": [
+        "Citi"
+      ],
+      "test": "Compare funding mix, deposit beta, costs and margins with peers controlling for asset mix.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Citi's return metrics do not isolate deposit-franchise causation.",
+      "evidence": [
+        {
+          "url": "https://www.citigroup.com/rcs/citigpa/storage/public/Earnings/Q22026/2026prqtr2rslt.pdf",
+          "title": "Citi Q2 2026 results",
+          "publisher": "Citigroup",
+          "date": "2026-07-14",
+          "finding": "Citi reports 13.0% RoTCE,11.4% ROE and tangible book value $100.89 per share.",
+          "verified": true
+        }
+      ],
+      "next_check": "Compare funding mix, deposit beta, costs and margins with peers controlling for asset mix.",
+      "confidence": "medium",
+      "family": "bank-deposit-franchise",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c004",
+      "claim": "SVB's failure was primarily an interest-rate and deposit-liquidity problem rather than a conventional bad-loan crisis.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 137,
+      "end_seconds": 217,
+      "horizon": "not stated",
+      "topics": [
+        "svb-failure"
+      ],
+      "entities": [
+        "SVB",
+        "AI"
+      ],
+      "test": "Compare losses, funding outflows and official failure analysis.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Fed review identifies duration exposure and concentrated uninsured funding as the core failure mechanism.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2023-April-SVB-Evolution-of-Silicon-Valley-Bank.htm",
+          "title": "Evolution of SVB",
+          "publisher": "Federal Reserve",
+          "date": "2023-05-18",
+          "finding": "Documents concentrated uninsured deposits, long-duration agency MBS, cash burn, March 8 AFS sale with $1.8 billion after-tax loss, and March 10 closure. HTM marks do not change balance-sheet carrying values.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "svb-failure",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c005",
+      "claim": "SVB's roughly $212 billion holding-company size left it below the $250 billion threshold for the strictest annual stress and liquidity rules.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 180,
+      "end_seconds": 218,
+      "horizon": "not stated",
+      "topics": [
+        "bank-regulation"
+      ],
+      "entities": [
+        "SVB"
+      ],
+      "test": "Inspect the actual categories, thresholds and transition periods.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "The size and lighter treatment are supported, but rules also depended on risk indicators; biennial supervisory testing was phased to 2024 and internal liquidity tests already applied.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2023-April-SVB-Federal-Reserve-Regulation.htm",
+          "title": "Regulation of SVB",
+          "publisher": "Federal Reserve",
+          "date": "2023-04-28",
+          "finding": "SVB had internal liquidity rules and a phased biennial supervisory stress test; reduced LCR would have been met, full LCR would not. Regulatory requirements depended on more than a $250 billion cutoff.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect the actual categories, thresholds and transition periods.",
+      "confidence": "medium",
+      "family": "bank-regulation",
+      "materiality": "supporting",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c006",
+      "claim": "Zero policy rates compressed bank margins because low-yield liquidity assets left little spread over deposits, encouraging longer-duration investment.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 218,
+      "end_seconds": 322,
+      "horizon": "not stated",
+      "topics": [
+        "bank-rate-sensitivity"
+      ],
+      "entities": [],
+      "test": "Compare NIM and portfolio changes around 2020-2021, controlling for funding and asset composition.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The mechanism is coherent but a sector-wide causal estimate was not inspected.",
+      "evidence": [],
+      "next_check": "Compare NIM and portfolio changes around 2020-2021, controlling for funding and asset composition.",
+      "confidence": "medium",
+      "family": "bank-rate-sensitivity",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c007",
+      "claim": "Borrowing short and investing long increases initial interest spread when the yield curve slopes upward, assuming matched funding amounts.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 282,
+      "end_seconds": 322,
+      "horizon": "not stated",
+      "topics": [
+        "bank-duration"
+      ],
+      "entities": [],
+      "test": "Compare the fixed long yield with the short funding cost under a positive curve.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "For equal principal, initial annual spread equals long yield minus short funding rate; a positive difference raises interest income before other costs.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "bank-duration",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "For equal principal, initial annual spread equals long yield minus short funding rate; a positive difference raises interest income before other costs."
+      }
+    },
+    {
+      "id": "substack-216147653-c008",
+      "claim": "If deposit costs rise above a fixed long-bond yield, that funded position produces a negative interest spread.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "analytical principle",
+      "start_seconds": 323,
+      "end_seconds": 355,
+      "horizon": "not stated",
+      "topics": [
+        "bank-duration"
+      ],
+      "entities": [],
+      "test": "Hold asset yield and equal funded principal fixed while increasing deposit cost.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Interest spread on equal principal is asset yield minus funding rate; it becomes negative when the latter exceeds the former.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "bank-duration",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "Interest spread on equal principal is asset yield minus funding rate; it becomes negative when the latter exceeds the former."
+      }
+    },
+    {
+      "id": "substack-216147653-c009",
+      "claim": "Higher discount rates reduce the market value of an existing fixed-rate bond with positive future payments.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 355,
+      "end_seconds": 375,
+      "horizon": "not stated",
+      "topics": [
+        "bond-duration"
+      ],
+      "entities": [],
+      "test": "Differentiate discounted positive cash flows with respect to yield.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "For P=sum(CF_t/(1+y)^t), dP/dy=sum(-t*CF_t/(1+y)^(t+1))<0 for positive payments, y>-1 and unchanged cash flows.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "bond-duration",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "For P=sum(CF_t/(1+y)^t), dP/dy=sum(-t*CF_t/(1+y)^(t+1))<0 for positive payments, y>-1 and unchanged cash flows."
+      }
+    },
+    {
+      "id": "substack-216147653-c010",
+      "claim": "Unrealized securities losses are deducted from bank equity but enter the income statement only when the bonds are sold.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 365,
+      "end_seconds": 401,
+      "horizon": "not stated",
+      "topics": [
+        "bank-accounting"
+      ],
+      "entities": [],
+      "test": "Distinguish AFS, HTM, trading securities, credit impairment and regulatory capital.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "This generalization omits HTM carried at amortized cost and trading/impairment exceptions. SVB's large HTM loss was disclosed but did not reduce book equity directly.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2023-April-SVB-Evolution-of-Silicon-Valley-Bank.htm",
+          "title": "Evolution of SVB",
+          "publisher": "Federal Reserve",
+          "date": "2023-05-18",
+          "finding": "Documents concentrated uninsured deposits, long-duration agency MBS, cash burn, March 8 AFS sale with $1.8 billion after-tax loss, and March 10 closure. HTM marks do not change balance-sheet carrying values.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "bank-accounting",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c011",
+      "claim": "Unrealized duration losses must eventually be realized and dealt with in the future.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 365,
+      "end_seconds": 401,
+      "horizon": "not stated",
+      "topics": [
+        "bond-duration"
+      ],
+      "entities": [],
+      "test": "Consider a performing par bond held to maturity under unchanged promised payments.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "A market discount is not necessarily a realized principal loss: an unimpaired bond bought at par can repay par at maturity. Opportunity cost and funding cost can still be real.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "bond-duration",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "proof": {
+        "assumptions": [],
+        "derivation": "A market discount is not necessarily a realized principal loss: an unimpaired bond bought at par can repay par at maturity. Opportunity cost and funding cost can still be real."
+      }
+    },
+    {
+      "id": "substack-216147653-c012",
+      "claim": "JPMorgan avoided chasing bond yield while Bank of America extended duration and accumulated large unrealized losses.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 424,
+      "end_seconds": 451,
+      "horizon": "not stated",
+      "topics": [
+        "bank-duration-strategy"
+      ],
+      "entities": [
+        "Bank of America",
+        "JPMorgan"
+      ],
+      "test": "Compare dated securities duration, hedges and management disclosures for both banks.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No complete contemporaneous portfolio comparison was inspected.",
+      "evidence": [],
+      "next_check": "Compare dated securities duration, hedges and management disclosures for both banks.",
+      "confidence": "medium",
+      "family": "bank-duration-strategy",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-216147653-c013",
+      "claim": "Large-bank liquidity rules required most excess liquidity in short-term bonds and limited Bank of America's long-bond exposure.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 424,
+      "end_seconds": 451,
+      "horizon": "not stated",
+      "topics": [
+        "bank-regulation"
+      ],
+      "entities": [
+        "Bank of America"
+      ],
+      "test": "Inspect high-quality-liquid-asset eligibility and portfolio composition requirements.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "The cited LCR criteria admit Treasury securities without a short-maturity restriction; they do not mandate the described short-bond allocation.",
+      "evidence": [
+        {
+          "url": "https://www.ecfr.gov/current/title-12/chapter-II/subchapter-A/part-249/subpart-C/section-249.20",
+          "title": "High-quality liquid asset criteria",
+          "publisher": "Office of the Federal Register",
+          "date": "accessed2026-11-10",
+          "finding": "Treasury securities qualify as Level 1 without a short-maturity requirement. Liquidity regulation is not a general prohibition on long Treasury bonds.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "bank-regulation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c014",
+      "claim": "Stable deposits can let a bank hold performing bonds to maturity, making duration losses an income problem instead of a forced-sale crisis.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "explanation",
+      "start_seconds": 452,
+      "end_seconds": 526,
+      "horizon": "not stated",
+      "topics": [
+        "bank-liquidity"
+      ],
+      "entities": [],
+      "test": "Evaluate funding persistence, capital, collateral capacity and contractual repayment.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Holding avoids crystallizing a market discount if payments arrive; stability alone does not remove economic capital loss, negative carry or every solvency risk.",
+      "evidence": [],
+      "next_check": "Evaluate funding persistence, capital, collateral capacity and contractual repayment.",
+      "confidence": "medium",
+      "family": "bank-liquidity",
+      "materiality": "major",
+      "synthesis_role": "conditional_scenario",
+      "evidence_basis": "deductive",
+      "deductive_proof": "Assume contractual bond payments are made, deposits remain available through maturity, and all other cash obligations can be met. With no required sale, the bank collects contractual principal and coupons rather than selling at the lower market price. However, present value still falls when the discount rate rises, and stable deposits alone do not prove the other liquidity or solvency assumptions. Thus the conditional funding insight is valid but incomplete as a general solvency claim.",
+      "proof": {
+        "assumptions": [],
+        "derivation": "Assume contractual bond payments are made, deposits remain available through maturity, and all other cash obligations can be met. With no required sale, the bank collects contractual principal and coupons rather than selling at the lower market price. However, present value still falls when the discount rate rises, and stable deposits alone do not prove the other liquidity or solvency assumptions. Thus the conditional funding insight is valid but incomplete as a general solvency claim."
+      }
+    },
+    {
+      "id": "substack-216147653-c015",
+      "claim": "Massive deposit withdrawals are necessary for duration exposure to become a solvency problem.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 485,
+      "end_seconds": 526,
+      "horizon": "not stated",
+      "topics": [
+        "bank-liquidity"
+      ],
+      "entities": [],
+      "test": "Test whether other liabilities, sustained negative carry or recognized losses can exhaust capital without a deposit run.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "A bank can lose equity through sustained funding costs above asset income even with deposits unchanged. A deposit run is one failure path, not a necessary condition.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "bank-liquidity",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "proof": {
+        "assumptions": [],
+        "derivation": "A bank can lose equity through sustained funding costs above asset income even with deposits unchanged. A deposit run is one failure path, not a necessary condition."
+      }
+    },
+    {
+      "id": "substack-216147653-c016",
+      "claim": "VC fundraising inflated SVB deposits, and long-duration securities investment exposed the bank when rates rose.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 526,
+      "end_seconds": 624,
+      "horizon": "not stated",
+      "topics": [
+        "svb-failure"
+      ],
+      "entities": [
+        "SVB",
+        "AI"
+      ],
+      "test": "Inspect deposit sources, securities portfolio and interest-rate risk chronology.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Fed review documents the fundraising-linked inflow, concentration and longer-duration securities exposure.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2023-April-SVB-Evolution-of-Silicon-Valley-Bank.htm",
+          "title": "Evolution of SVB",
+          "publisher": "Federal Reserve",
+          "date": "2023-05-18",
+          "finding": "Documents concentrated uninsured deposits, long-duration agency MBS, cash burn, March 8 AFS sale with $1.8 billion after-tax loss, and March 10 closure. HTM marks do not change balance-sheet carrying values.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "svb-failure",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c017",
+      "claim": "SVB invested mostly in riskless Treasury bonds rather than loans.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 568,
+      "end_seconds": 624,
+      "horizon": "not stated",
+      "topics": [
+        "svb-portfolio"
+      ],
+      "entities": [
+        "SVB"
+      ],
+      "test": "Inspect securities composition and loan balances.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Securities exceeded loans, but the majority of HTM was agency MBS rather than Treasuries. Credit safety does not mean freedom from duration or liquidity risk.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2023-April-SVB-Evolution-of-Silicon-Valley-Bank.htm",
+          "title": "Evolution of SVB",
+          "publisher": "Federal Reserve",
+          "date": "2023-05-18",
+          "finding": "Documents concentrated uninsured deposits, long-duration agency MBS, cash burn, March 8 AFS sale with $1.8 billion after-tax loss, and March 10 closure. HTM marks do not change balance-sheet carrying values.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect securities composition and loan balances.",
+      "confidence": "medium",
+      "family": "svb-portfolio",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-216147653-c018",
+      "claim": "SVB's equity was zero or negative once its securities were fully marked to market.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 605,
+      "end_seconds": 624,
+      "horizon": "not stated",
+      "topics": [
+        "svb-capital"
+      ],
+      "entities": [
+        "SVB"
+      ],
+      "test": "Reconcile all fair-value marks, taxes, hedges and economic versus book equity at a precise date.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Large unrealized losses are documented, but no complete all-asset and liability fair-value bridge was inspected; book and regulatory capital remained positive.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2023-April-SVB-Evolution-of-Silicon-Valley-Bank.htm",
+          "title": "Evolution of SVB",
+          "publisher": "Federal Reserve",
+          "date": "2023-05-18",
+          "finding": "Documents concentrated uninsured deposits, long-duration agency MBS, cash burn, March 8 AFS sale with $1.8 billion after-tax loss, and March 10 closure. HTM marks do not change balance-sheet carrying values.",
+          "verified": true
+        },
+        {
+          "url": "https://www.federalreserve.gov/publications/2023-April-SVB-Federal-Reserve-Regulation.htm",
+          "title": "Regulation of SVB",
+          "publisher": "Federal Reserve",
+          "date": "2023-04-28",
+          "finding": "SVB had internal liquidity rules and a phased biennial supervisory stress test; reduced LCR would have been met, full LCR would not. Regulatory requirements depended on more than a $250 billion cutoff.",
+          "verified": true
+        }
+      ],
+      "next_check": "Reconcile all fair-value marks, taxes, hedges and economic versus book equity at a precise date.",
+      "confidence": "medium",
+      "family": "svb-capital",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-216147653-c019",
+      "claim": "Distant positive cash flows make growth-company values particularly sensitive to discount-rate increases, holding projected cash flows fixed.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 625,
+      "end_seconds": 724,
+      "horizon": "not stated",
+      "topics": [
+        "equity-duration"
+      ],
+      "entities": [],
+      "test": "Compare present-value sensitivity across otherwise comparable cash-flow timing.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Longer-duration positive future payments have larger percentage present-value sensitivity to a common yield change; operating and risk-premium revisions may offset this.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "equity-duration",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "Longer-duration positive future payments have larger percentage present-value sensitivity to a common yield change; operating and risk-premium revisions may offset this."
+      }
+    },
+    {
+      "id": "substack-216147653-c020",
+      "claim": "VC funding contraction and startups' cash burn drained SVB deposits without equivalent replacement inflows.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 725,
+      "end_seconds": 821,
+      "horizon": "not stated",
+      "topics": [
+        "svb-failure"
+      ],
+      "entities": [
+        "SVB",
+        "AI"
+      ],
+      "test": "Inspect VC funding activity and deposit cash-flow records.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Fed analysis documents reduced funding inflows and increased operating cash withdrawals; the interview's claim that no VC company could raise any money is an overstatement.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2023-April-SVB-Evolution-of-Silicon-Valley-Bank.htm",
+          "title": "Evolution of SVB",
+          "publisher": "Federal Reserve",
+          "date": "2023-05-18",
+          "finding": "Documents concentrated uninsured deposits, long-duration agency MBS, cash burn, March 8 AFS sale with $1.8 billion after-tax loss, and March 10 closure. HTM marks do not change balance-sheet carrying values.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "svb-failure",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c021",
+      "claim": "SVB depositors were all venture-related and their withdrawal behavior had essentially perfect correlation.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 725,
+      "end_seconds": 821,
+      "horizon": "not stated",
+      "topics": [
+        "svb-concentration"
+      ],
+      "entities": [
+        "SVB"
+      ],
+      "test": "Inspect customer composition and measured joint withdrawals.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "Fed records more than half, not all, deposits from VC-backed companies. Concentrated coordinated behavior does not establish a correlation coefficient of one.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2023-April-SVB-Evolution-of-Silicon-Valley-Bank.htm",
+          "title": "Evolution of SVB",
+          "publisher": "Federal Reserve",
+          "date": "2023-05-18",
+          "finding": "Documents concentrated uninsured deposits, long-duration agency MBS, cash burn, March 8 AFS sale with $1.8 billion after-tax loss, and March 10 closure. HTM marks do not change balance-sheet carrying values.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "svb-concentration",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c022",
+      "claim": "A securities sale realizing roughly $2 billion and a failed capital raise precipitated SVB's closure in March 2023.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 822,
+      "end_seconds": 914,
+      "horizon": "not stated",
+      "topics": [
+        "svb-failure"
+      ],
+      "entities": [
+        "SVB",
+        "AI"
+      ],
+      "test": "Inspect the restructuring announcement and closure sequence.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Fed records $1.8 billion after-tax AFS loss, planned $2.25 billion equity issue and subsequent run; rounded loss magnitude is reasonable.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2023-April-SVB-Evolution-of-Silicon-Valley-Bank.htm",
+          "title": "Evolution of SVB",
+          "publisher": "Federal Reserve",
+          "date": "2023-05-18",
+          "finding": "Documents concentrated uninsured deposits, long-duration agency MBS, cash burn, March 8 AFS sale with $1.8 billion after-tax loss, and March 10 closure. HTM marks do not change balance-sheet carrying values.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "svb-failure",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c023",
+      "claim": "The government took SVB over on the Sunday of the failure weekend.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 848,
+      "end_seconds": 877,
+      "horizon": "not stated",
+      "topics": [
+        "svb-chronology"
+      ],
+      "entities": [
+        "SVB",
+        "AI"
+      ],
+      "test": "Inspect the receivership date.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "SVB was closed and FDIC appointed receiver Friday March 10, not Sunday. Sunday concerned wider emergency actions.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2023-April-SVB-Evolution-of-Silicon-Valley-Bank.htm",
+          "title": "Evolution of SVB",
+          "publisher": "Federal Reserve",
+          "date": "2023-05-18",
+          "finding": "Documents concentrated uninsured deposits, long-duration agency MBS, cash burn, March 8 AFS sale with $1.8 billion after-tax loss, and March 10 closure. HTM marks do not change balance-sheet carrying values.",
+          "verified": true
+        },
+        {
+          "url": "https://files.gao.gov/reports/GAO-25-107023/index.html",
+          "title": "Systemic risk from March 2023 failures",
+          "publisher": "GAO",
+          "date": "2025",
+          "finding": "GAO documents regional-bank contagion and deposit outflows. Emergency action likely helped; it cannot identify outcomes in the no-intervention counterfactual.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "svb-chronology",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-216147653-c024",
+      "claim": "Lighter rules and insufficient supervisory action materially enabled SVB's risk buildup.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 877,
+      "end_seconds": 914,
+      "horizon": "not stated",
+      "topics": [
+        "bank-regulation"
+      ],
+      "entities": [
+        "SVB"
+      ],
+      "test": "Compare actual oversight with documented deficiencies and counterfactual requirements.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Fed's own review identifies weaker requirements and slow escalation as contributing factors, while not guaranteeing stricter rules would prevent failure.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/publications/2023-April-SVB-Key-Takeaways.htm",
+          "title": "SVB review key takeaways",
+          "publisher": "Federal Reserve",
+          "date": "2023-05-17",
+          "finding": "Management failed to manage interest and liquidity risks; supervisors identified deficiencies but acted too slowly. Tailoring reduced standards, but stronger rules may not have prevented failure.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "bank-regulation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c025",
+      "claim": "Bank of America's roughly $100 billion bond losses will pressure margins for years, but its diverse deposits make them only an earnings problem.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 915,
+      "end_seconds": 950,
+      "horizon": "not stated",
+      "topics": [
+        "bank-of-america-duration"
+      ],
+      "entities": [
+        "Bank of America"
+      ],
+      "test": "Inspect current marks, runoff, hedging, funding stability and capital under stress.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The exact mark and forecast were not verified; categorical immunity from solvency risk exceeds the deposit-diversification premise.",
+      "evidence": [],
+      "next_check": "Inspect current marks, runoff, hedging, funding stability and capital under stress.",
+      "confidence": "medium",
+      "family": "bank-of-america-duration",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "substack-216147653-c026",
+      "claim": "The wider system was not at risk in March 2023; only VC depositors needed rescue and the system would have been fine without it.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 950,
+      "end_seconds": 1008,
+      "horizon": "not stated",
+      "topics": [
+        "svb-systemic-risk"
+      ],
+      "entities": [],
+      "test": "Compare contagion data and credible no-intervention counterfactual estimates.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "GAO documents broader contagion and says the counterfactual cannot be isolated. The categorical certainty is unsupported, but intervention makes the hypothetical outcome unobservable.",
+      "evidence": [
+        {
+          "url": "https://files.gao.gov/reports/GAO-25-107023/index.html",
+          "title": "Systemic risk from March 2023 failures",
+          "publisher": "GAO",
+          "date": "2025",
+          "finding": "GAO documents regional-bank contagion and deposit outflows. Emergency action likely helped; it cannot identify outcomes in the no-intervention counterfactual.",
+          "verified": true
+        }
+      ],
+      "next_check": "Compare contagion data and credible no-intervention counterfactual estimates.",
+      "confidence": "medium",
+      "family": "svb-systemic-risk",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c027",
+      "claim": "SVB called for stronger liquidity supervision rather than more capital at large banks, making the post-failure capital push misguided.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 978,
+      "end_seconds": 1055,
+      "horizon": "not stated",
+      "topics": [
+        "bank-capital-policy"
+      ],
+      "entities": [
+        "SVB",
+        "AI"
+      ],
+      "test": "Specify social costs, failure probabilities and alternatives under comparable scenarios.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "A policy judgment; liquidity and capital interact, and the interview gives no common welfare criterion.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "bank-capital-policy",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle"
+    },
+    {
+      "id": "substack-216147653-c028",
+      "claim": "Michael Barr eventually moderated the proposed Basel capital increase after industry opposition.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1008,
+      "end_seconds": 1097,
+      "horizon": "not stated",
+      "topics": [
+        "bank-capital-policy"
+      ],
+      "entities": [
+        "Michael Barr"
+      ],
+      "test": "Inspect his revisions and distinguish proposal changes from final regulation.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Barr's September 2024 speech explicitly recommends broad changes and lower aggregate increases. Basel III endgame is the official name.",
+      "evidence": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/speech/barr20240910a.htm",
+          "title": "Next steps on capital",
+          "publisher": "Federal Reserve",
+          "date": "2024-09-10",
+          "finding": "Barr proposed broad material changes to Basel III endgame and lower increases, including 9% aggregate G-SIB CET1 impact; not a claim that all capital requirements were abandoned.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "bank-capital-policy",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-216147653-c029",
+      "claim": "Bank interest expense belongs in the operating earnings engine because deposits and borrowings fund interest-producing assets.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1097,
+      "end_seconds": 1198,
+      "horizon": "not stated",
+      "topics": [
+        "bank-income-statement"
+      ],
+      "entities": [],
+      "test": "Reconcile interest revenue less funding expense and add fees, expenses and credit provisions.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Under the stated bank model, pre-tax profit equals interest revenue minus interest expense plus fees minus operating expenses minus provisions, so funding cost directly determines operating economics.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "bank-income-statement",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "Under the stated bank model, pre-tax profit equals interest revenue minus interest expense plus fees minus operating expenses minus provisions, so funding cost directly determines operating economics."
+      }
+    },
+    {
+      "id": "substack-216147653-c030",
+      "claim": "Loans usually generate about 70% of interest revenue; smaller banks rely mainly on deposits while Goldman relies more on wholesale funding.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1180,
+      "end_seconds": 1229,
+      "horizon": "not stated",
+      "topics": [
+        "bank-business-mix"
+      ],
+      "entities": [
+        "Goldman",
+        "AI"
+      ],
+      "test": "Inspect bank-group income and funding shares for a defined sample and period.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No representative sample verifies the 70% benchmark or full funding comparison.",
+      "evidence": [],
+      "next_check": "Inspect bank-group income and funding shares for a defined sample and period.",
+      "confidence": "medium",
+      "family": "bank-business-mix",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-216147653-c031",
+      "claim": "Net interest income equals net interest margin times average earning assets when measured on the same time basis.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1230,
+      "end_seconds": 1260,
+      "horizon": "not stated",
+      "topics": [
+        "bank-income-statement"
+      ],
+      "entities": [],
+      "test": "Use NIM=NII/average earning assets, with consistent annualization.",
+      "qualifications": "Use consistent averaging, annualization and taxable-equivalent adjustments.",
+      "verdict": "right",
+      "reason": "This is an accounting ratio identity; annualized margin requires multiplying by the fraction of a year for quarterly income.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "bank-income-statement",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "This is an accounting ratio identity; annualized margin requires multiplying by the fraction of a year for quarterly income."
+      }
+    },
+    {
+      "id": "substack-216147653-c032",
+      "claim": "Most banks are asset-sensitive, so rate hikes raise margins and earnings, especially with a steep yield curve.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1260,
+      "end_seconds": 1310,
+      "horizon": "not stated",
+      "topics": [
+        "bank-rate-sensitivity"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect gap/beta disclosures, hedges and realized NIM across representative banks and rate regimes.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Sign and timing depend on funding beta, competition, mix and hedging. A universal rate-to-earnings rule is not demonstrated.",
+      "evidence": [],
+      "next_check": "Inspect gap/beta disclosures, hedges and realized NIM across representative banks and rate regimes.",
+      "confidence": "medium",
+      "family": "bank-rate-sensitivity",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c033",
+      "claim": "Efficiency ratio is operating expenses divided by net revenue; it is often near 60% and technology costs have kept it sticky.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1310,
+      "end_seconds": 1338,
+      "horizon": "not stated",
+      "topics": [
+        "bank-efficiency"
+      ],
+      "entities": [],
+      "test": "Recompute ratios on consistent revenue definitions and examine cost drivers.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The episode gives a recognizable ratio definition, but the inspected evidence does not independently establish the stated 60% prevalence or technology-cost causal explanation.",
+      "evidence": [],
+      "next_check": "Recompute ratios on consistent revenue definitions and examine cost drivers.",
+      "confidence": "medium",
+      "family": "bank-efficiency",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c034",
+      "claim": "AI may improve banks' efficiency ratios.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "forecast",
+      "start_seconds": 1328,
+      "end_seconds": 1338,
+      "horizon": "not stated",
+      "topics": [
+        "bank-ai-efficiency"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Measure sustainable expense savings relative to revenue after AI investment and controls.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Undated conditional hope without measured deployment economics or a threshold.",
+      "evidence": [],
+      "next_check": "Measure sustainable expense savings relative to revenue after AI investment and controls.",
+      "confidence": "medium",
+      "family": "bank-ai-efficiency",
+      "materiality": "major",
+      "synthesis_role": "conditional_scenario"
+    },
+    {
+      "id": "substack-216147653-c035",
+      "claim": "Bank earnings multiples are always below the market because cyclicality, leverage and complexity warrant a discount.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 1338,
+      "end_seconds": 1392,
+      "horizon": "not stated",
+      "topics": [
+        "bank-valuation"
+      ],
+      "entities": [],
+      "test": "Compare historical bank and market multiples on common earnings definitions and dates.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No complete comparison verifies the absolute always claim; the proposed causes also require identification.",
+      "evidence": [],
+      "next_check": "Compare historical bank and market multiples on common earnings definitions and dates.",
+      "confidence": "medium",
+      "family": "bank-valuation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c036",
+      "claim": "Higher sustainable return on tangible equity generally supports a higher price-to-tangible-book ratio.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1362,
+      "end_seconds": 1484,
+      "horizon": "not stated",
+      "topics": [
+        "bank-valuation"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Apply a steady-state residual-income or dividend model with equal growth and cost of equity.",
+      "qualifications": "Holds growth and cost of equity constant; real bank differences can dominate.",
+      "verdict": "right",
+      "reason": "With constant growth g and equity cost r greater than g, justified P/B=(ROE-g)/(r-g), increasing in ROE when other inputs are fixed. This is a conditional model, not every bank's observed price.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "bank-valuation",
+      "evidence_basis": "deductive",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "proof": {
+        "assumptions": [],
+        "derivation": "With constant growth g and equity cost r greater than g, justified P/B=(ROE-g)/(r-g), increasing in ROE when other inputs are fixed. This is a conditional model, not every bank's observed price."
+      }
+    },
+    {
+      "id": "substack-216147653-c037",
+      "claim": "Capital-markets-heavy JPMorgan, Goldman and Morgan Stanley trade at 3-4 times tangible book with returns over 20%, versus 1.3-2.1 times and 13-18% for lending-heavy peers.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1392,
+      "end_seconds": 1484,
+      "horizon": "not stated",
+      "topics": [
+        "bank-valuation"
+      ],
+      "entities": [
+        "JPMorgan",
+        "Goldman",
+        "Morgan Stanley"
+      ],
+      "test": "Inspect the displayed Q2 table, consistent return definitions and dated stock prices.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Inspected Goldman and Citi figures support parts of the return contrast, but full multiples and all peers were not independently reconstructed.",
+      "evidence": [
+        {
+          "url": "https://www.goldmansachs.com/pressroom/press-releases/2026/2026-07-14-q2-results",
+          "title": "Goldman Q2 2026 results",
+          "publisher": "Goldman Sachs",
+          "date": "2026-07-14",
+          "finding": "Reports 23.5% annualized return on common equity and $6.63 billion net earnings.",
+          "verified": true
+        },
+        {
+          "url": "https://www.citigroup.com/rcs/citigpa/storage/public/Earnings/Q22026/2026prqtr2rslt.pdf",
+          "title": "Citi Q2 2026 results",
+          "publisher": "Citigroup",
+          "date": "2026-07-14",
+          "finding": "Citi reports 13.0% RoTCE,11.4% ROE and tangible book value $100.89 per share.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect the displayed Q2 table, consistent return definitions and dated stock prices.",
+      "confidence": "medium",
+      "family": "bank-valuation",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-216147653-c038",
+      "claim": "Competition from banks and nonbanks has driven a long decline in lending margins, lowering returns relative to diversified capital-markets businesses.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1455,
+      "end_seconds": 1484,
+      "horizon": "not stated",
+      "topics": [
+        "bank-competition"
+      ],
+      "entities": [],
+      "test": "Analyze long-run NIM and risk-adjusted returns controlling for rates, regulation and asset mix.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No causal time-series analysis was inspected; current aggregate margins alone do not establish the long-run mechanism.",
+      "evidence": [],
+      "next_check": "Analyze long-run NIM and risk-adjusted returns controlling for rates, regulation and asset mix.",
+      "confidence": "medium",
+      "family": "bank-competition",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c039",
+      "claim": "Goldman's rerating from about 1.3 to 3 times tangible book reflects improving capital-markets returns; buying now depends on the favorable cycle continuing.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 1485,
+      "end_seconds": 1530,
+      "horizon": "not stated",
+      "topics": [
+        "goldman-valuation"
+      ],
+      "entities": [
+        "Goldman"
+      ],
+      "test": "Verify historical multiples and model normalized returns versus current price.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Strong current returns are documented, but full rerating attribution and normalized valuation were not reconstructed.",
+      "evidence": [
+        {
+          "url": "https://www.goldmansachs.com/pressroom/press-releases/2026/2026-07-14-q2-results",
+          "title": "Goldman Q2 2026 results",
+          "publisher": "Goldman Sachs",
+          "date": "2026-07-14",
+          "finding": "Reports 23.5% annualized return on common equity and $6.63 billion net earnings.",
+          "verified": true
+        }
+      ],
+      "next_check": "Verify historical multiples and model normalized returns versus current price.",
+      "confidence": "medium",
+      "family": "goldman-valuation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c040",
+      "claim": "Citi's return profile improved under Jane Fraser to 13% RoTCE in Q2, supporting a rerating above tangible book while retaining a peer discount.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 1530,
+      "end_seconds": 1576,
+      "horizon": "not stated",
+      "topics": [
+        "citi-turnaround"
+      ],
+      "entities": [
+        "Citi",
+        "Jane Fraser",
+        "AI"
+      ],
+      "test": "Verify return figures, strategic changes and dated peer-adjusted multiples.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Citi reports 13% RoTCE. Exact historical worst ranking, valuation multiples and causal attribution to restructuring were not fully verified.",
+      "evidence": [
+        {
+          "url": "https://www.citigroup.com/rcs/citigpa/storage/public/Earnings/Q22026/2026prqtr2rslt.pdf",
+          "title": "Citi Q2 2026 results",
+          "publisher": "Citigroup",
+          "date": "2026-07-14",
+          "finding": "Citi reports 13.0% RoTCE,11.4% ROE and tangible book value $100.89 per share.",
+          "verified": true
+        }
+      ],
+      "next_check": "Verify return figures, strategic changes and dated peer-adjusted multiples.",
+      "confidence": "medium",
+      "family": "citi-turnaround",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c041",
+      "claim": "Zions and especially OZK receive lower valuations because commercial real-estate concentration raises credit risk.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 1577,
+      "end_seconds": 1607,
+      "horizon": "not stated",
+      "topics": [
+        "regional-bank-cre"
+      ],
+      "entities": [
+        "OZK",
+        "Zions",
+        "AI"
+      ],
+      "test": "Compare CRE exposure, credit performance and risk-adjusted valuation with peers.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "OZK concentration is documented, but valuation causation and exact Zions comparison remain unverified.",
+      "evidence": [
+        {
+          "url": "https://ir.ozk.com/index.php/2Q26_Management_Comments",
+          "title": "Bank OZK Q2 management commentary",
+          "publisher": "Bank OZK",
+          "date": "2026-07-16",
+          "finding": "Loans total $32.561 billion; RESG47.6%, indirect RV/marine consumer loans 13.7%, plus consumer lending in Community Banking. RESG is a lending team, not the entire CRE classification.",
+          "verified": true
+        }
+      ],
+      "next_check": "Compare CRE exposure, credit performance and risk-adjusted valuation with peers.",
+      "confidence": "medium",
+      "family": "regional-bank-cre",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c042",
+      "claim": "Current bank credit trends are benign, with broadly stable nonaccrual loans supporting high tangible-book valuations.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 1607,
+      "end_seconds": 1668,
+      "horizon": "not stated",
+      "topics": [
+        "bank-credit-cycle"
+      ],
+      "entities": [],
+      "test": "Inspect quarter and year changes across banks and valuation relationships.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Aggregate credit quality is stable, but consumer pockets remain stressed and almost-all-bank uniformity is not demonstrated.",
+      "evidence": [
+        {
+          "url": "https://www.stlouisfed.org/on-the-economy/2026/sep/banking-analytics-us-banking-industry-performance-q2",
+          "title": "Banking industry Q2 2026 performance",
+          "publisher": "Federal Reserve Bank of St. Louis",
+          "date": "2026-09",
+          "finding": "Aggregate credit quality stable; nonaccrual/past-due ratio 1.46%; auto and card delinquencies elevated. Investment advisory, underwriting and trading income grew.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect quarter and year changes across banks and valuation relationships.",
+      "confidence": "medium",
+      "family": "bank-credit-cycle",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c043",
+      "claim": "Credit deterioration eventually drives bank valuations lower; buying after a collapse can offer better entry points.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 1668,
+      "end_seconds": 1703,
+      "horizon": "not stated",
+      "topics": [
+        "bank-credit-cycle"
+      ],
+      "entities": [],
+      "test": "Backtest defined entry rules and normalized credit losses against a benchmark.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No horizon, trigger or risk-adjusted strategy is specified; cyclical intuition is not a proven timing rule.",
+      "evidence": [],
+      "next_check": "Backtest defined entry rules and normalized credit losses against a benchmark.",
+      "confidence": "medium",
+      "family": "bank-credit-cycle",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c044",
+      "claim": "Rising regulatory and technology costs favor bank scale and create an economic need for a regional-bank merger wave.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 1703,
+      "end_seconds": 1742,
+      "horizon": "not stated",
+      "topics": [
+        "bank-consolidation"
+      ],
+      "entities": [],
+      "test": "Compare fixed costs, technology spend and realized merger returns across bank sizes.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Scale rationale does not establish that mergers will occur or create value; Eisman acknowledges limited realization.",
+      "evidence": [],
+      "next_check": "Compare fixed costs, technology spend and realized merger returns across bank sizes.",
+      "confidence": "medium",
+      "family": "bank-consolidation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c045",
+      "claim": "JPMorgan's deposit share rose from about 7% before the financial crisis to roughly 13% today.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1720,
+      "end_seconds": 1742,
+      "horizon": "not stated",
+      "topics": [
+        "bank-deposit-share"
+      ],
+      "entities": [
+        "JPMorgan"
+      ],
+      "test": "Use consistent domestic-deposit definitions and historical FDIC market-share data.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The precise market-share series and dates were not inspected.",
+      "evidence": [],
+      "next_check": "Use consistent domestic-deposit definitions and historical FDIC market-share data.",
+      "confidence": "medium",
+      "family": "bank-deposit-share",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-216147653-c046",
+      "claim": "Regional CEOs' desire to retain their positions obstructs consolidation; First Horizon's Q3 2025 statement that it was a buyer disappointed takeover investors.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1742,
+      "end_seconds": 1785,
+      "horizon": "not stated",
+      "topics": [
+        "bank-consolidation"
+      ],
+      "entities": [
+        "First Horizon",
+        "AI"
+      ],
+      "test": "Inspect the original call and test motives against documented alternatives.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No original call was inspected, and a buyer strategy alone does not establish personal entrenchment as the cause.",
+      "evidence": [],
+      "next_check": "Inspect the original call and test motives against documented alternatives.",
+      "confidence": "medium",
+      "family": "bank-consolidation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c047",
+      "claim": "Investors should prefer the large banks for stronger management, returns and stock liquidity rather than hunt among regionals.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 1785,
+      "end_seconds": 1812,
+      "horizon": "not stated",
+      "topics": [
+        "bank-selection"
+      ],
+      "entities": [],
+      "test": "Compare risk-adjusted returns, governance and liquidity on a specified investable sample.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "Unspecified personal preference without entry price, benchmark or holding period; parts are empirically investigable.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "bank-selection",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c048",
+      "claim": "JPMorgan generated $16.9 billion recurring net income in Q1 2026, with consumer/community 31% and commercial/investment banking 57%.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1812,
+      "end_seconds": 1859,
+      "horizon": "not stated",
+      "topics": [
+        "jpm-business-mix"
+      ],
+      "entities": [
+        "JPMorgan"
+      ],
+      "test": "Reconcile the cited quarter and recurring adjustment to reported segment earnings.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Q1 official net income is $16.494 billion, not $16.9 billion. The caption may refer to another quarter or adjustment; no matching recurring reconciliation was identified.",
+      "evidence": [
+        {
+          "url": "https://jpmorganchaseco.gcs-web.com/node/875141/html",
+          "title": "JPMorgan Q1 2026 earnings release",
+          "publisher": "JPMorgan Chase",
+          "date": "2026-04-14",
+          "finding": "Reported net income $16.494 billion, ROTCE23%, CIB revenue up 19% and investment-banking fees up 28%. Transcript claims $16.9 billion in Q1.",
+          "verified": true
+        }
+      ],
+      "next_check": "Reconcile the cited quarter and recurring adjustment to reported segment earnings.",
+      "confidence": "medium",
+      "family": "jpm-business-mix",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-216147653-c049",
+      "claim": "Scale is crucial in cards, mortgages, investment banking and trading, explaining why most regionals focus on corporate and CRE lending.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1835,
+      "end_seconds": 1900,
+      "horizon": "not stated",
+      "topics": [
+        "bank-scale"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Compare product participation, unit costs and concentration across bank sizes.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The broad industry structure is not a proof that smaller consumer lenders cannot succeed, and no representative sample was inspected.",
+      "evidence": [],
+      "next_check": "Compare product participation, unit costs and concentration across bank sizes.",
+      "confidence": "medium",
+      "family": "bank-scale",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c050",
+      "claim": "Bank OZK is a pure commercial lender with no consumer loans and almost all revenue from net interest income.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1900,
+      "end_seconds": 1955,
+      "horizon": "not stated",
+      "topics": [
+        "ozk-business-mix"
+      ],
+      "entities": [
+        "OZK"
+      ],
+      "test": "Inspect OZK loan classifications and revenue split.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "Its Q2 commentary identifies $4.47 billion consumer RV/marine loans,13.7% of loans, plus community consumer lending. The no-consumer premise is false.",
+      "evidence": [
+        {
+          "url": "https://ir.ozk.com/index.php/2Q26_Management_Comments",
+          "title": "Bank OZK Q2 management commentary",
+          "publisher": "Bank OZK",
+          "date": "2026-07-16",
+          "finding": "Loans total $32.561 billion; RESG47.6%, indirect RV/marine consumer loans 13.7%, plus consumer lending in Community Banking. RESG is a lending team, not the entire CRE classification.",
+          "verified": true
+        }
+      ],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "ozk-business-mix",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "substack-216147653-c051",
+      "claim": "OZK's loan book is about $32.6 billion, roughly half in commercial real estate, explaining its near-book valuation.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 1900,
+      "end_seconds": 1955,
+      "horizon": "not stated",
+      "topics": [
+        "ozk-business-mix"
+      ],
+      "entities": [
+        "OZK",
+        "AI"
+      ],
+      "test": "Reconcile loan-team and regulatory CRE categories and dated valuation.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Total loans and 47.6% RESG share are confirmed; RESG is not identical to all CRE, and valuation causation is not established.",
+      "evidence": [
+        {
+          "url": "https://ir.ozk.com/index.php/2Q26_Management_Comments",
+          "title": "Bank OZK Q2 management commentary",
+          "publisher": "Bank OZK",
+          "date": "2026-07-16",
+          "finding": "Loans total $32.561 billion; RESG47.6%, indirect RV/marine consumer loans 13.7%, plus consumer lending in Community Banking. RESG is a lending team, not the entire CRE classification.",
+          "verified": true
+        }
+      ],
+      "next_check": "Reconcile loan-team and regulatory CRE categories and dated valuation.",
+      "confidence": "medium",
+      "family": "ozk-business-mix",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c052",
+      "claim": "Institutional rules generally require some capital in all 11 S&P sectors, favoring large liquid banks for financial exposure.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1956,
+      "end_seconds": 1982,
+      "horizon": "not stated",
+      "topics": [
+        "institutional-bank-demand"
+      ],
+      "entities": [],
+      "test": "Inspect fund mandates and aggregate holdings; distinguish benchmark awareness from binding sector minima.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No representative mandate evidence supports the broad requirement.",
+      "evidence": [],
+      "next_check": "Inspect fund mandates and aggregate holdings; distinguish benchmark awareness from binding sector minima.",
+      "confidence": "medium",
+      "family": "institutional-bank-demand",
+      "materiality": "supporting",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c053",
+      "claim": "Bank valuations are near cycle highs, so he prefers reducing exposure and buying money-center banks only after a substantial dip.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 1982,
+      "end_seconds": 2044,
+      "horizon": "not stated",
+      "topics": [
+        "bank-cycle-positioning"
+      ],
+      "entities": [],
+      "test": "Specify valuation range, entry threshold, horizon and subsequent total return.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Position preference is clear, but no executable threshold or matched historical valuation dataset is provided.",
+      "evidence": [],
+      "next_check": "Specify valuation range, entry threshold, horizon and subsequent total return.",
+      "confidence": "medium",
+      "family": "bank-cycle-positioning",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c054",
+      "claim": "Strong investment-banking results partly reflect huge AI financing needs, making large investment banks another source of AI exposure.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 2010,
+      "end_seconds": 2044,
+      "horizon": "not stated",
+      "topics": [
+        "bank-ai-financing"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Measure AI-related fees and exposures against total bank earnings and risk.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Investment-banking strength is documented; AI's causal share and aggregate portfolio correlation are not quantified.",
+      "evidence": [
+        {
+          "url": "https://jpmorganchaseco.gcs-web.com/node/875141/html",
+          "title": "JPMorgan Q1 2026 earnings release",
+          "publisher": "JPMorgan Chase",
+          "date": "2026-04-14",
+          "finding": "Reported net income $16.494 billion, ROTCE23%, CIB revenue up 19% and investment-banking fees up 28%. Transcript claims $16.9 billion in Q1.",
+          "verified": true
+        },
+        {
+          "url": "https://www.stlouisfed.org/on-the-economy/2026/sep/banking-analytics-us-banking-industry-performance-q2",
+          "title": "Banking industry Q2 2026 performance",
+          "publisher": "Federal Reserve Bank of St. Louis",
+          "date": "2026-09",
+          "finding": "Aggregate credit quality stable; nonaccrual/past-due ratio 1.46%; auto and card delinquencies elevated. Investment advisory, underwriting and trading income grew.",
+          "verified": true
+        }
+      ],
+      "next_check": "Measure AI-related fees and exposures against total bank earnings and risk.",
+      "confidence": "medium",
+      "family": "bank-ai-financing",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "substack-216147653-c055",
+      "claim": "Given his existing AI holdings and rising concern, adding investment banks would increase an exposure he does not want.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 2044,
+      "end_seconds": 2061,
+      "horizon": "not stated",
+      "topics": [
+        "portfolio-concentration"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Assess portfolio exposures, correlations and the investor's stated risk tolerance.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "Personal portfolio-risk preference, not a price forecast; holdings are not independently verified.",
+      "evidence": [],
+      "next_check": "Revisit if assumptions or primary records change.",
+      "confidence": "high",
+      "family": "portfolio-concentration",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle"
+    }
+  ]
+}

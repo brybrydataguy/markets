@@ -1,0 +1,1879 @@
+{
+  "source_id": "substack-203543819",
+  "title": "Daniel Guetta on the Guts of AI, Agentic AI & Why LLMs Hallucinate | The Real Eisman Playbook Ep 46",
+  "date": "2026-02-16T14:02:00.000Z",
+  "url": "https://realeismanplaybook.substack.com/p/daniel-guetta-on-the-guts-of-ai-agentic",
+  "metadata": {
+    "source_id": "substack-203543819",
+    "title": "Daniel Guetta on the Guts of AI, Agentic AI & Why LLMs Hallucinate | The Real Eisman Playbook Ep 46",
+    "published_at": "2026-02-16T14:02:00.000Z",
+    "url": "https://realeismanplaybook.substack.com/p/daniel-guetta-on-the-guts-of-ai-agentic",
+    "platform": "Substack",
+    "audience": "only_paid",
+    "transcript_type": "publisher machine transcript with speaker markers",
+    "duration_seconds": 3574.9526666666666,
+    "transcript_sha256": "3d1ba74442317cb652a98cca461cc1214e9778608f96f11ff26168499b78e8ec",
+    "word_count": 11516,
+    "segment_count": 1293,
+    "transcript_last_seconds": 3574.9526666666666
+  },
+  "read_complete": true,
+  "transcript_sha256": "3d1ba74442317cb652a98cca461cc1214e9778608f96f11ff26168499b78e8ec",
+  "transcript_hash_basis": "Normalized source metadata records the underlying full transcript hash. All normalized segments were read.",
+  "evaluation_as_of": "2026-11-10",
+  "summary": "Eisman seeks a second technical view after Gary Marcus. Guetta argues that imperfect present-day AI can create value through representations, retrieval and tools without resolving AGI. The interview contains useful deployment distinctions, but its repeated full-context-recomputation and nearest-word explanations are technically misleading. Eisman leaves the industry return-on-investment verdict open until 2027-2028.",
+  "assessment": "Empirical premises and forecasts are assessed separately. Guest assertions are not Eisman forecasts. Unverified magnitudes and causal attribution remain unresolved.",
+  "speaker_map_notes": "Steve Eisman interviews Columbia professor Daniel Guetta. Guest technical assertions and personal coding-view revisions remain guest claims. The host's acceptance of the inference-energy explanation is recorded separately.",
+  "framework_points": [
+    "Separate useful task economics from claims of general intelligence.",
+    "Benchmark performance is specific to a task distribution.",
+    "Data access, integration and action controls are deployment requirements.",
+    "Lower coding cost does not automatically erase workflow and coordination moats.",
+    "Use explicit cost and error budgets to evaluate imperfect tools.",
+    "Eisman actively seeks a competing expert view and retains a 2027-2028 ROI horizon."
+  ],
+  "tools_and_charts": [
+    "Learned embeddings and the Transformer architecture.",
+    "KV caching as a correction to the inference-cost explanation.",
+    "MMLU versus realistic work evaluations.",
+    "External retrieval and multimodal representations.",
+    "Reinforcement learning with human feedback and verifiable rewards."
+  ],
+  "transcript_cautions": [
+    "Every one of the 1,293 supplied normalized segments was read in full.",
+    "The supplied publisher transcript contains repeated watermark-like lines and multi-second gaps, including parts of the travel and database examples and the closing disruption discussion. Read-complete refers to all available text, not a claim of complete audio recovery.",
+    "SPEAKER_01 generally identifies Eisman and SPEAKER_02 Guetta, with occasional joined turns; the disclaimer is SPEAKER_00.",
+    "The host describes Marcus's views to elicit a second opinion; they are not automatically Eisman predictions.",
+    "Guetta qualifies his AGI skepticism and explicitly disclaims expertise about several markets; the host's closing summary is stronger than the guest's actual language.",
+    "The old 5% enterprise-readiness estimate is explicitly described by the guest as outdated."
+  ],
+  "materiality_note": "Major investment theses are distinguished from supporting factual premises. No overall accuracy percentage is appropriate.",
+  "claims": [
+    {
+      "claim": "The top four hyperscalers plan roughly $650 billion of spending, described as all AI-related, making AI crucial to the U.S. economy.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 10.318,
+      "end_seconds": 39.410111111111114,
+      "horizon": "not stated",
+      "topics": [
+        "ai_capex"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "The scale of infrastructure expansion is supported by issuer guidance, but total company capex cannot all be classified as pure AI spending. This review did not reconcile all four companies' accounting definitions to the exact $650 billion total.",
+      "evidence": [
+        {
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/",
+          "title": "Meta Q4 and full-year 2025 results",
+          "publisher": "Meta",
+          "date": "2026-01-28",
+          "finding": "Initial 2026 capital-expenditure guidance was $115-135 billion including finance-lease principal, supporting both superintelligence efforts and the core business. Total capex is not a separately disclosed pure generative-AI spending figure.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_capex",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c001"
+    },
+    {
+      "claim": "Because AI is economically important, Eisman seeks a second expert opinion after Gary Marcus's critique.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment framework",
+      "start_seconds": 34.885,
+      "end_seconds": 62.045,
+      "horizon": "not stated",
+      "topics": [
+        "investment_process"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "An explicit research practice, not a claim that either expert is correct.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "investment_process",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "substack-203543819-c002"
+    },
+    {
+      "claim": "AI includes established predictive machine learning as well as generative language models; LLMs are not the whole field.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 217.68,
+      "end_seconds": 270.573,
+      "horizon": "not stated",
+      "topics": [
+        "ai_technology"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Original predictive image-classification work provides a direct counterexample to equating all AI with generative chatbots.",
+      "evidence": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+          "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+          "publisher": "Krizhevsky, Sutskever and Hinton / NeurIPS",
+          "date": "2012",
+          "finding": "Original image-classification research trained a deep convolutional network on 1.3 million images. Predictive machine learning handled images before the recent generative-chatbot wave.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_technology",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c003"
+    },
+    {
+      "claim": "Machine-learning models learn numerical parameters from historical examples rather than relying only on hand-set rules.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 292.884,
+      "end_seconds": 373.00399999999996,
+      "horizon": "not stated",
+      "topics": [
+        "ai_technology"
+      ],
+      "entities": [
+        "ai technology"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_technology",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "A model family is parameterized and trained against observed targets."
+        ],
+        "proof": "Training selects parameter values to reduce a loss on examples. Hand-setting a formula and optimizing its parameters from data are different procedures; neither procedure alone guarantees out-of-sample accuracy."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "substack-203543819-c004",
+      "proof": {
+        "assumptions": [
+          "A model family is parameterized and trained against observed targets."
+        ],
+        "derivation": "Training selects parameter values to reduce a loss on examples. Hand-setting a formula and optimizing its parameters from data are different procedures; neither procedure alone guarantees out-of-sample accuracy."
+      }
+    },
+    {
+      "claim": "Traditional predictive systems already create substantial value in fraud detection, lending, pricing and operational forecasts.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 379.904,
+      "end_seconds": 403.236,
+      "horizon": "not stated",
+      "topics": [
+        "ai_economics"
+      ],
+      "entities": [
+        "ai economics"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The applications are plausible, but the claim about the share of all AI value is not quantified or verified with original business measurements.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_economics",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c005"
+    },
+    {
+      "claim": "Older predictive machine learning could only handle tabular numbers; the recent deep-learning and generative wave overcame its inability to process text and images.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 403.539,
+      "end_seconds": 501.666,
+      "horizon": "not stated",
+      "topics": [
+        "ai_technology"
+      ],
+      "entities": [
+        "ai technology"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Learned representations improved unstructured-data applications, but predictive machine learning already processed images and text before generative chatbots. The sharp old-versus-new boundary is incorrect.",
+      "evidence": [
+        {
+          "url": "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+          "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+          "publisher": "Krizhevsky, Sutskever and Hinton / NeurIPS",
+          "date": "2012",
+          "finding": "Original image-classification research trained a deep convolutional network on 1.3 million images. Predictive machine learning handled images before the recent generative-chatbot wave.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/abs/1310.4546",
+          "title": "Distributed Representations of Words and Phrases and their Compositionality",
+          "publisher": "Mikolov and coauthors / original research",
+          "date": "2013-10-16",
+          "finding": "Skip-gram learns vectors encoding syntactic and semantic relationships from text. The paper also explains limitations from word order and idioms, making it a useful but incomplete analogy for modern contextual models.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_technology",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c006"
+    },
+    {
+      "claim": "Whether LLM pattern learning counts as understanding is debatable, but LLMs themselves remain probabilistic models.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 477.755,
+      "end_seconds": 533.5302222222222,
+      "horizon": "not stated",
+      "topics": [
+        "ai_reasoning"
+      ],
+      "entities": [
+        "LLM"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Probabilistic next-token outputs are supported by the architecture. Understanding is an undefined philosophical criterion, not a directly resolved performance grade.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/1706.03762v7",
+          "title": "Attention Is All You Need",
+          "publisher": "Vaswani and coauthors / original research",
+          "date": "2017-06-12, revised 2023-08-02",
+          "finding": "The Transformer uses learned token embeddings, attention and feed-forward layers, with a learned output projection and softmax to predict next-token probabilities. It is not simply a nearest-word lookup.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_reasoning",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c007"
+    },
+    {
+      "claim": "ChatGPT reportedly denied Maduro's removal in the first hour, illustrating LLM difficulty with novel events.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 583.081,
+      "end_seconds": 609.473,
+      "horizon": "not stated",
+      "topics": [
+        "ai_reliability"
+      ],
+      "entities": [
+        "LLM"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No preserved model response, version, prompt, retrieval setting or timestamp was supplied. A stale information failure would not by itself establish inability to reason about all novel inputs.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_reliability",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c008"
+    },
+    {
+      "claim": "An autoregressive LLM generates tokens sequentially conditioned on prior context; fluent output is not a guarantee of truth.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 609.753,
+      "end_seconds": 675.2802222222222,
+      "horizon": "not stated",
+      "topics": [
+        "ai_reliability"
+      ],
+      "entities": [
+        "LLM"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_reliability",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "The model optimizes likelihood or a related training objective rather than an infallible external truth oracle."
+        ],
+        "proof": "A high-probability continuation can repeat false training patterns or unsupported guesses. Sequential text generation therefore permits fluent error without implying that every response is false."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "substack-203543819-c009",
+      "proof": {
+        "assumptions": [
+          "The model optimizes likelihood or a related training objective rather than an infallible external truth oracle."
+        ],
+        "derivation": "A high-probability continuation can repeat false training patterns or unsupported guesses. Sequential text generation therefore permits fluent error without implying that every response is false."
+      }
+    },
+    {
+      "claim": "Each generated token requires reprocessing the entire previous conversation through the model from scratch, explaining high energy use.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 672.558,
+      "end_seconds": 700.0360000000001,
+      "horizon": "not stated",
+      "topics": [
+        "ai_compute"
+      ],
+      "entities": [
+        "ai compute"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "Standard KV caching avoids recomputing previous keys and values. Long context still costs memory and attention computation, but full from-scratch reprocessing on every token is not necessary.",
+      "evidence": [
+        {
+          "url": "https://huggingface.co/docs/transformers/cache_explanation",
+          "title": "How caching works",
+          "publisher": "Hugging Face Transformers documentation",
+          "date": "undated, inspected 2026-11-10",
+          "finding": "KV caching reuses previous tokens' attention keys and values during inference, avoiding full recomputation for every generated token. New queries still attend to cached context, which has memory and computation costs.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_compute",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c010"
+    },
+    {
+      "claim": "Eisman accepts full conversation reprocessing as the reason LLM inference consumes so much energy.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "adopting guest explanation",
+      "kind": "explanation",
+      "start_seconds": 698.885,
+      "end_seconds": 705.831,
+      "horizon": "not stated",
+      "topics": [
+        "ai_compute"
+      ],
+      "entities": [
+        "LLM"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Inference is costly and context length matters, but the adopted mechanism omits KV caching. This is a technical explanation error, not proof that aggregate power demand is small.",
+      "evidence": [
+        {
+          "url": "https://huggingface.co/docs/transformers/cache_explanation",
+          "title": "How caching works",
+          "publisher": "Hugging Face Transformers documentation",
+          "date": "undated, inspected 2026-11-10",
+          "finding": "KV caching reuses previous tokens' attention keys and values during inference, avoiding full recomputation for every generated token. New queries still attend to cached context, which has memory and computation costs.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_compute",
+      "materiality": "major",
+      "synthesis_role": "view_revision",
+      "id": "substack-203543819-c011"
+    },
+    {
+      "claim": "Embeddings turn language into learned numerical representations whose relationships can capture aspects of meaning.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 705.851,
+      "end_seconds": 945.215,
+      "horizon": "not stated",
+      "topics": [
+        "ai_technology"
+      ],
+      "entities": [
+        "ai technology"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The original word-vector research supports the core representation explanation. The two-axis alive/loud example is explicitly pedagogical, not a claim that humans assign those literal dimensions.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/1310.4546",
+          "title": "Distributed Representations of Words and Phrases and their Compositionality",
+          "publisher": "Mikolov and coauthors / original research",
+          "date": "2013-10-16",
+          "finding": "Skip-gram learns vectors encoding syntactic and semantic relationships from text. The paper also explains limitations from word order and idioms, making it a useful but incomplete analogy for modern contextual models.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_technology",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c012"
+    },
+    {
+      "claim": "Embedding weights change during model training, rather than being manually assigned scores.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 896.952,
+      "end_seconds": 905.815,
+      "horizon": "not stated",
+      "topics": [
+        "ai_technology"
+      ],
+      "entities": [
+        "ai technology"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The qualification that changes occur during training is explicit and avoids confusing every chat interaction with parameter training.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/1310.4546",
+          "title": "Distributed Representations of Words and Phrases and their Compositionality",
+          "publisher": "Mikolov and coauthors / original research",
+          "date": "2013-10-16",
+          "finding": "Skip-gram learns vectors encoding syntactic and semantic relationships from text. The paper also explains limitations from word order and idioms, making it a useful but incomplete analogy for modern contextual models.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_technology",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "substack-203543819-c013"
+    },
+    {
+      "claim": "The 2017 Transformer introduced attention that lets token representations reflect context and distinguish different uses of a word.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 919.465,
+      "end_seconds": 975.3330000000001,
+      "horizon": "not stated",
+      "topics": [
+        "ai_technology"
+      ],
+      "entities": [
+        "ai technology"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The original architecture supports contextual interaction through attention; the statement is a simplified explanation rather than a claim that Google invented all prior attention research.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/1706.03762v7",
+          "title": "Attention Is All You Need",
+          "publisher": "Vaswani and coauthors / original research",
+          "date": "2017-06-12, revised 2023-08-02",
+          "finding": "The Transformer uses learned token embeddings, attention and feed-forward layers, with a learned output projection and softmax to predict next-token probabilities. It is not simply a nearest-word lookup.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_technology",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c014"
+    },
+    {
+      "claim": "An LLM answers by embedding the question and repeatedly selecting words nearby in embedding space.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 985.947,
+      "end_seconds": 1061.472,
+      "horizon": "not stated",
+      "topics": [
+        "ai_technology"
+      ],
+      "entities": [
+        "LLM"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Embeddings matter, but a modern Transformer applies attention, nonlinear layers and an output projection to produce probabilities. A nearest-word lookup omits the central computation and can mislead about reasoning limits.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/1706.03762v7",
+          "title": "Attention Is All You Need",
+          "publisher": "Vaswani and coauthors / original research",
+          "date": "2017-06-12, revised 2023-08-02",
+          "finding": "The Transformer uses learned token embeddings, attention and feed-forward layers, with a learned output projection and softmax to predict next-token probabilities. It is not simply a nearest-word lookup.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_technology",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c015"
+    },
+    {
+      "claim": "This mechanism is unlike what humans ordinarily call thinking, and it seems surprising that it answers correctly.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "normative judgment",
+      "start_seconds": 1058.791,
+      "end_seconds": 1087.731,
+      "horizon": "not stated",
+      "topics": [
+        "ai_reasoning"
+      ],
+      "entities": [
+        "ai reasoning"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "A conceptual reaction without an operational definition of thinking; it is not an empirical impossibility theorem.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_reasoning",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c016"
+    },
+    {
+      "claim": "A random-ball prompt produces nonuniform next-token probabilities, showing that model response generation differs from human probabilistic reasoning, though it is not necessarily inferior.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "qualified",
+      "kind": "explanation",
+      "start_seconds": 1088.151,
+      "end_seconds": 1171.758,
+      "horizon": "not stated",
+      "topics": [
+        "ai_reasoning"
+      ],
+      "entities": [
+        "ai reasoning"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The exact model, prompt, sampling settings and log probabilities were not reproduced. Predicting a response token is also distinct from computing the probability of a physical draw; the demonstration alone cannot rank all reasoning ability.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_reasoning",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c017"
+    },
+    {
+      "claim": "Marcus's argument is that scaling has diminishing benefits, hallucinations persist, and new world-model approaches may be needed.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "describing another view",
+      "kind": "explanation",
+      "start_seconds": 1171.798,
+      "end_seconds": 1248.7150000000001,
+      "horizon": "not stated",
+      "topics": [
+        "ai_scaling"
+      ],
+      "entities": [
+        "ai scaling"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Eisman is summarizing another guest before asking for criticism. No consistent cross-generation task panel and compute-cost series establish the claimed progression here.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_scaling",
+      "materiality": "major",
+      "synthesis_role": "attributed_external_thesis",
+      "id": "substack-203543819-c018"
+    },
+    {
+      "claim": "Scaling can increase embedding dimensions and the number of Transformer parameters.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1248.765,
+      "end_seconds": 1319.1580000000001,
+      "horizon": "not stated",
+      "topics": [
+        "ai_scaling"
+      ],
+      "entities": [
+        "ai scaling"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The original architecture defines model dimensions and repeated parameterized layers that can be varied; scaling also includes data, compute and inference methods beyond these examples.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/1706.03762v7",
+          "title": "Attention Is All You Need",
+          "publisher": "Vaswani and coauthors / original research",
+          "date": "2017-06-12, revised 2023-08-02",
+          "finding": "The Transformer uses learned token embeddings, attention and feed-forward layers, with a learned output projection and softmax to predict next-token probabilities. It is not simply a nearest-word lookup.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_scaling",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "substack-203543819-c019"
+    },
+    {
+      "claim": "Better benchmark scores do not establish all-purpose intelligence or practical business competence; evaluations should include realistic tasks such as spreadsheet work.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1300.3,
+      "end_seconds": 1390.885,
+      "horizon": "not stated",
+      "topics": [
+        "ai_evaluation"
+      ],
+      "entities": [
+        "ai evaluation"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "MMLU explicitly measures a particular 57-task suite. Success on that suite does not logically prove success on untested work.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2009.03300",
+          "title": "Measuring Massive Multitask Language Understanding",
+          "publisher": "Hendrycks and coauthors / original research",
+          "date": "2020-09-07, revised 2021-01-12",
+          "finding": "MMLU measures accuracy across 57 academic and professional tasks. The benchmark is broader than an SAT but does not exhaust all definitions of intelligence or real-world work.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_evaluation",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "An evaluation samples a finite task distribution.",
+          "Deployment may contain different tasks and constraints."
+        ],
+        "proof": "Observed test accuracy estimates performance on the sampled distribution, not an unrestricted set of tasks. Transfer to spreadsheets or enterprise workflows needs a separate evaluation."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "substack-203543819-c020",
+      "proof": {
+        "assumptions": [
+          "An evaluation samples a finite task distribution.",
+          "Deployment may contain different tasks and constraints."
+        ],
+        "derivation": "Observed test accuracy estimates performance on the sampled distribution, not an unrestricted set of tasks. Transfer to spreadsheets or enterprise workflows needs a separate evaluation."
+      }
+    },
+    {
+      "claim": "Current next-token models may not scale to humanlike or superhuman general intelligence, but those endpoints are themselves difficult to define.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "qualified",
+      "kind": "explanation",
+      "start_seconds": 1390.905,
+      "end_seconds": 1516.441,
+      "horizon": "not stated",
+      "topics": [
+        "ai_scaling"
+      ],
+      "entities": [
+        "ai scaling"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "Guetta explicitly uses may, acknowledges uncertainty and questions the endpoint definition. Do not turn this into a categorical never-AGI forecast.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_scaling",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c021"
+    },
+    {
+      "claim": "Even if models never improve further and continue hallucinating, current capabilities can still create business value through predictive features, agents and chatbots.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "conditional",
+      "kind": "analytical principle",
+      "start_seconds": 1521.003,
+      "end_seconds": 1617.479,
+      "horizon": "not stated",
+      "topics": [
+        "ai_economics"
+      ],
+      "entities": [
+        "ai economics"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Useful task value does not logically require AGI or zero error. This conditional proposition does not verify every client anecdote or justify all industry capex.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_economics",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "Some tasks have positive benefits from partial automation.",
+          "Verification and error costs can be bounded below those benefits."
+        ],
+        "proof": "If saved labor and improved output exceed inference, implementation and expected error costs, net value is positive despite imperfect accuracy."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "substack-203543819-c022",
+      "proof": {
+        "assumptions": [
+          "Some tasks have positive benefits from partial automation.",
+          "Verification and error costs can be bounded below those benefits."
+        ],
+        "derivation": "If saved labor and improved output exceed inference, implementation and expected error costs, net value is positive despite imperfect accuracy."
+      }
+    },
+    {
+      "claim": "LLM-derived scores or embeddings can improve moderation classifiers, with downstream evaluation and human review limiting the effect of generation errors.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1636.977,
+      "end_seconds": 1832.445,
+      "horizon": "not stated",
+      "topics": [
+        "ai_applications"
+      ],
+      "entities": [
+        "LLM"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Using learned representations as inputs is technically coherent, but the specific claimed success at unnamed companies is not independently measured. Evaluation can reveal errors; it does not make them irrelevant.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_applications",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "A classifier accepts numerical features.",
+          "Text embeddings or scores can be encoded as such features."
+        ],
+        "proof": "The features can be appended to an existing predictor and evaluated on held-out outcomes. Incremental value requires lower decision loss after costs; merely adding features does not guarantee improvement."
+      },
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c023",
+      "proof": {
+        "assumptions": [
+          "A classifier accepts numerical features.",
+          "Text embeddings or scores can be encoded as such features."
+        ],
+        "derivation": "The features can be appended to an existing predictor and evaluated on held-out outcomes. Incremental value requires lower decision loss after costs; merely adding features does not guarantee improvement."
+      }
+    },
+    {
+      "claim": "Agentic AI is heavily hyped and most business commentators do not understand it; sweeping replacement claims precede demonstrated results.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1851.005,
+      "end_seconds": 1877.593,
+      "horizon": "not stated",
+      "topics": [
+        "ai_evaluation"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "The nine-in-ten remark is rhetorical and lacks a sample or test. Eisman is expressing skepticism and asking for a definition, not forecasting that agents will never work.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_evaluation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c024"
+    },
+    {
+      "claim": "An agentic system gives an LLM tools that can act, such as processing returns, sending messages or booking travel.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1886.241,
+      "end_seconds": 1949.183,
+      "horizon": "not stated",
+      "topics": [
+        "ai_agents"
+      ],
+      "entities": [
+        "Booking",
+        "LLM"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The original engineering account supports tool-augmented systems, while distinguishing scripted workflows from dynamically directed agents. A chatbot with hands is a useful introductory analogy.",
+      "evidence": [
+        {
+          "url": "https://www.anthropic.com/research/building-effective-agents",
+          "title": "Building effective agents",
+          "publisher": "Anthropic engineering",
+          "date": "2024-12-19",
+          "finding": "Defines agentic systems using LLMs with tools, retrieval and memory, distinguishing predefined workflows from models directing their own tool use. Emphasizes clear interfaces and appropriate complexity rather than universal autonomy.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_agents",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c025"
+    },
+    {
+      "claim": "The recently discussed travel platform appears to be an example of an agent calling booking tools.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "exploratory",
+      "kind": "explanation",
+      "start_seconds": 1943.567,
+      "end_seconds": 2004.7920000000001,
+      "horizon": "not stated",
+      "topics": [
+        "ai_agents"
+      ],
+      "entities": [
+        "Booking"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The transcript loses part of the host's example, and the guest explicitly assumes the internal implementation. No specific company architecture is verified.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_agents",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c026"
+    },
+    {
+      "claim": "Enterprise AI adoption is constrained by usable data and integrated IT workflows, often more than by needing a still larger model.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2004.842,
+      "end_seconds": 2107.613,
+      "horizon": "not stated",
+      "topics": [
+        "ai_adoption"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Reliable interfaces and accessible data are real implementation requirements. The broad prevalence claim is unmeasured, and all data need not physically reside in one database if dependable governed access exists.",
+      "evidence": [
+        {
+          "url": "https://www.anthropic.com/research/building-effective-agents",
+          "title": "Building effective agents",
+          "publisher": "Anthropic engineering",
+          "date": "2024-12-19",
+          "finding": "Defines agentic systems using LLMs with tools, retrieval and memory, distinguishing predefined workflows from models directing their own tool use. Emphasizes clear interfaces and appropriate complexity rather than universal autonomy.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_adoption",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "The intended action requires information or an operation held in enterprise systems."
+        ],
+        "proof": "A system must obtain that information and execute the operation through a reliable interface. This establishes an access requirement, not mandatory physical centralization of every enterprise dataset."
+      },
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c027",
+      "proof": {
+        "assumptions": [
+          "The intended action requires information or an operation held in enterprise systems."
+        ],
+        "derivation": "A system must obtain that information and execute the operation through a reliable interface. This establishes an access requirement, not mandatory physical centralization of every enterprise dataset."
+      }
+    },
+    {
+      "claim": "Generative-AI demand motivates companies to organize data they previously neglected.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2085.549,
+      "end_seconds": 2107.613,
+      "horizon": "not stated",
+      "topics": [
+        "ai_adoption"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "A plausible practitioner observation, but the causal adoption effect is not quantified or independently verified.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_adoption",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c028"
+    },
+    {
+      "claim": "Excel agents can use spreadsheet tools to build tables, edit cells and help construct financial models.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2109.646,
+      "end_seconds": 2138.252,
+      "horizon": "not stated",
+      "topics": [
+        "ai_agents"
+      ],
+      "entities": [
+        "ai agents"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The specific release and demonstrated model accuracy were not successfully inspected in this review. Tool availability would not by itself establish a reliable complete DCF.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_agents",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c029"
+    },
+    {
+      "claim": "Eisman uses Gemini for research but has received mixed reports from programmers about which coding tasks AI helps.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "qualified",
+      "kind": "explanation",
+      "start_seconds": 2170.373,
+      "end_seconds": 2202.636,
+      "horizon": "not stated",
+      "topics": [
+        "ai_applications"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "Personal workflow and an informal sample of listener feedback, not a representative productivity estimate.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_applications",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c030"
+    },
+    {
+      "claim": "Guetta has changed his view sharply in six months: coding models are now much more useful, especially for front-end work, although secure reliable software still needs human review.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "qualified",
+      "kind": "explanation",
+      "start_seconds": 2202.686,
+      "end_seconds": 2274.931,
+      "horizon": "not stated",
+      "topics": [
+        "ai_coding"
+      ],
+      "entities": [
+        "software"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The explicit personal revision is preserved. No matched task study across his old and new model versions verifies the magnitude or generality of the improvement.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_coding",
+      "materiality": "major",
+      "synthesis_role": "view_revision",
+      "id": "substack-203543819-c031"
+    },
+    {
+      "claim": "Enterprise chatbots can retrieve relevant documents through embeddings, making private document collections useful in answers.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2274.981,
+      "end_seconds": 2328.9159999999997,
+      "horizon": "not stated",
+      "topics": [
+        "ai_retrieval"
+      ],
+      "entities": [
+        "ai retrieval"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "RAG research supports combining model generation with external retrieval. The highest-risk-contract example still requires substantive risk analysis, not only nearest-vector similarity.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2005.11401",
+          "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+          "publisher": "Lewis and coauthors / original research",
+          "date": "2020-05-22, revised 2021-04-12",
+          "finding": "Combines a pretrained model with an external document index and retriever. The study finds more factual outputs than its parametric-only baseline; retrieval does not guarantee correctness.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_retrieval",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c032"
+    },
+    {
+      "claim": "In 2025, chip and infrastructure stocks did well while major software and management-consulting stocks performed poorly.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2338.53,
+      "end_seconds": 2391.95,
+      "horizon": "not stated",
+      "topics": [
+        "equity_rotation"
+      ],
+      "entities": [
+        "software"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The episode does not define sector baskets or weighting, and an exhaustive split-adjusted 2025 comparison was not reconstructed. Do not grade every chip seller from a few successful examples.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "equity_rotation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c033"
+    },
+    {
+      "claim": "Investors fear cheaper AI coding will weaken software moats and that chatbots can replace much consulting work; powerful market narratives can persist.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "describing market narrative",
+      "kind": "explanation",
+      "start_seconds": 2381.004,
+      "end_seconds": 2430.234,
+      "horizon": "not stated",
+      "topics": [
+        "software_disruption"
+      ],
+      "entities": [
+        "software",
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "Eisman frames these as narratives for the guest to evaluate, including a rhetorical 90% consulting share. This is not an unqualified adoption of those displacement estimates.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "software_disruption",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c034"
+    },
+    {
+      "claim": "Fast AI development makes enterprise product planning difficult; the current pace may slow after easy improvements are harvested.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "qualified",
+      "kind": "explanation",
+      "start_seconds": 2449.239,
+      "end_seconds": 2517.212,
+      "horizon": "not stated",
+      "topics": [
+        "ai_adoption"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "Guetta explicitly disclaims a prediction and supplies no time horizon or development-rate metric.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_adoption",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c035"
+    },
+    {
+      "claim": "Salesforce offers shared workflows and organizational coordination as well as code, so cheaper coding alone need not eliminate its value.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "qualified",
+      "kind": "analytical principle",
+      "start_seconds": 2517.232,
+      "end_seconds": 2574.013,
+      "horizon": "not stated",
+      "topics": [
+        "software_moats"
+      ],
+      "entities": [
+        "Salesforce"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "software_moats",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "A software system provides common data, permissions, workflow and coordination as well as implementation code.",
+          "Recreating code alone does not reproduce all those complements."
+        ],
+        "proof": "Lower code-production cost reduces one entry barrier, but switching, integration and coordination costs can persist. This establishes a possible moat channel, not Salesforce's future market share or return."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "substack-203543819-c036",
+      "proof": {
+        "assumptions": [
+          "A software system provides common data, permissions, workflow and coordination as well as implementation code.",
+          "Recreating code alone does not reproduce all those complements."
+        ],
+        "derivation": "Lower code-production cost reduces one entry barrier, but switching, integration and coordination costs can persist. This establishes a possible moat channel, not Salesforce's future market share or return."
+      }
+    },
+    {
+      "claim": "A long-established commercial-real-estate database may be vulnerable if AI lets a new entrant recreate the information cheaply.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "exploratory",
+      "kind": "explanation",
+      "start_seconds": 2574.033,
+      "end_seconds": 2609.768,
+      "horizon": "not stated",
+      "topics": [
+        "data_moats"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The supplied transcript has a gap in the middle of Eisman's example. Database access rights, source availability, quality and refresh costs are not specified.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "data_moats",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c037"
+    },
+    {
+      "claim": "Businesses whose data advantage rests mainly on manual extraction from accessible documents are especially exposed to AI competition.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "conditional",
+      "kind": "analytical principle",
+      "start_seconds": 2593.651,
+      "end_seconds": 2636.357,
+      "horizon": "not stated",
+      "topics": [
+        "data_moats"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "data_moats",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "Source documents are legally and practically available to competitors.",
+          "AI extraction achieves acceptable accuracy at lower total cost."
+        ],
+        "proof": "Reducing the cost of reproducing the information lowers the incumbent's entry barrier. Exclusive source rights, validation and ongoing updates can still preserve advantages."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "substack-203543819-c038",
+      "proof": {
+        "assumptions": [
+          "Source documents are legally and practically available to competitors.",
+          "AI extraction achieves acceptable accuracy at lower total cost."
+        ],
+        "derivation": "Reducing the cost of reproducing the information lowers the incumbent's entry barrier. Exclusive source rights, validation and ongoing updates can still preserve advantages."
+      }
+    },
+    {
+      "claim": "Bloomberg's many data feeds and databases should be harder to replicate than a simple extraction database.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "qualified",
+      "kind": "explanation",
+      "start_seconds": 2636.377,
+      "end_seconds": 2651.087,
+      "horizon": "not stated",
+      "topics": [
+        "data_moats"
+      ],
+      "entities": [
+        "data moats"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Guetta explicitly notes limited knowledge of Bloomberg. Exclusive contracts, network effects, workflow integration and replacement cost were not examined.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "data_moats",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c039"
+    },
+    {
+      "claim": "Cheaper extraction and multimodal embeddings can enable new searchable databases as well as disrupt existing ones.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2648.173,
+      "end_seconds": 2711.855,
+      "horizon": "not stated",
+      "topics": [
+        "ai_applications"
+      ],
+      "entities": [
+        "ai applications"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Original image-text representation research supports indexing and retrieval across modalities. The statement describes a feasible capability, not a guaranteed commercial return.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2103.00020",
+          "title": "Learning Transferable Visual Models From Natural Language Supervision",
+          "publisher": "Radford and coauthors / original research",
+          "date": "2021-02-26",
+          "finding": "CLIP learns image-text representations from paired data and transfers them to image tasks using natural-language prompts, supporting multimodal representation use beyond chat generation.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_applications",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c040"
+    },
+    {
+      "claim": "Consulting and implementation services retain possible value in coordinating people, integrating data and changing processes, even if generic information becomes cheap.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "qualified",
+      "kind": "analytical principle",
+      "start_seconds": 2711.875,
+      "end_seconds": 2817.41,
+      "horizon": "not stated",
+      "topics": [
+        "consulting"
+      ],
+      "entities": [
+        "consulting"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "consulting",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "An organization faces coordination and implementation tasks in addition to information retrieval.",
+          "A text answer does not automatically execute all those changes."
+        ],
+        "proof": "Cheaper answers leave complementary tasks that can still have positive value. The argument does not establish the fees, margins or survival of every consulting company."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "substack-203543819-c041",
+      "proof": {
+        "assumptions": [
+          "An organization faces coordination and implementation tasks in addition to information retrieval.",
+          "A text answer does not automatically execute all those changes."
+        ],
+        "derivation": "Cheaper answers leave complementary tasks that can still have positive value. The argument does not establish the fees, margins or survival of every consulting company."
+      }
+    },
+    {
+      "claim": "Many midsize firms still have poorly organized data, but the old estimate that only about 5% were ready is outdated and AI can help clean and unify records.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "qualified",
+      "kind": "explanation",
+      "start_seconds": 2817.46,
+      "end_seconds": 2964.504,
+      "horizon": "not stated",
+      "topics": [
+        "ai_adoption"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The guest explicitly rejects treating the old 5% figure as current. The company example of entity matching is anecdotal and no representative readiness measure or error audit is supplied.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_adoption",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c042"
+    },
+    {
+      "claim": "Post-training can reward whole-answer outcomes rather than only next-token prediction; verifiable math and code rewards are a promising way to improve reasoning.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2979.736,
+      "end_seconds": 3055.0429999999997,
+      "horizon": "not stated",
+      "topics": [
+        "ai_training"
+      ],
+      "entities": [
+        "ai training"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "RLHF research and DeepSeek's original rule-based reward account support the distinction. Gains on verifiable tasks do not guarantee all-domain reasoning.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2203.02155",
+          "title": "Training language models to follow instructions with human feedback",
+          "publisher": "Ouyang and coauthors / original research",
+          "date": "2022-03-04",
+          "finding": "Demonstrations and rankings of outputs are used to fine-tune models, improving instruction following and truthfulness while leaving mistakes. Training rewards shape behavior beyond pure next-token pretraining.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://arxiv.org/html/2501.12948v2",
+          "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+          "publisher": "DeepSeek-AI / original research",
+          "date": "2025-01-22, revised 2026-01-04",
+          "finding": "R1-Zero uses rule-based accuracy and formatting rewards, including mathematical answer verification and code tests. The paper describes reasoning gains and limitations, including reward reliability and generalization beyond verifiable tasks.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_training",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c043"
+    },
+    {
+      "claim": "DeepSeek's success and possible cost advantage partly reflected improved reinforcement learning, although the cheap-training claim is controversial.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "qualified",
+      "kind": "explanation",
+      "start_seconds": 3055.093,
+      "end_seconds": 3073.841,
+      "horizon": "not stated",
+      "topics": [
+        "ai_training"
+      ],
+      "entities": [
+        "ai training"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "The original paper supports a substantive role for reinforcement learning. It does not independently audit all-in training cost, and its rule-based reward mechanism is not simply identical to human-feedback RL.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/html/2501.12948v2",
+          "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+          "publisher": "DeepSeek-AI / original research",
+          "date": "2025-01-22, revised 2026-01-04",
+          "finding": "R1-Zero uses rule-based accuracy and formatting rewards, including mathematical answer verification and code tests. The paper describes reasoning gains and limitations, including reward reliability and generalization beyond verifiable tasks.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_training",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c044"
+    },
+    {
+      "claim": "World models could provide internal simulations for reasoning about physical situations, but Guetta does not know enough to judge their prospects.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "uncertain",
+      "kind": "explanation",
+      "start_seconds": 3073.861,
+      "end_seconds": 3129.9449999999997,
+      "horizon": "not stated",
+      "topics": [
+        "ai_world_models"
+      ],
+      "entities": [
+        "ai world models"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "An explicitly tentative research direction and illustration, not an asserted success forecast or guarantee of perfect physical knowledge.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_world_models",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c045"
+    },
+    {
+      "claim": "LLMs are statistical parrots whose reliance on historical training data explains their trouble with novelty.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 3129.995,
+      "end_seconds": 3179.166111111111,
+      "horizon": "not stated",
+      "topics": [
+        "ai_reasoning"
+      ],
+      "entities": [
+        "ai reasoning"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Historical training limits knowledge and can create distribution-shift problems. But external retrieval can supply new information, and learned statistical patterns can generalize; absence from a literal database does not prove universal inability to process novelty.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2005.11401",
+          "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+          "publisher": "Lewis and coauthors / original research",
+          "date": "2020-05-22, revised 2021-04-12",
+          "finding": "Combines a pretrained model with an external document index and retriever. The study finds more factual outputs than its parametric-only baseline; retrieval does not guarantee correctness.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_reasoning",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c046"
+    },
+    {
+      "claim": "Model output can reflect political, moral and demographic biases from both training data and post-training choices, including unintended effects.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 3174.555,
+      "end_seconds": 3278.345,
+      "horizon": "not stated",
+      "topics": [
+        "ai_bias"
+      ],
+      "entities": [
+        "ai bias"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Training on demonstrations and ranked outputs explicitly changes behavior, supporting the mechanism. This does not establish a particular partisan direction or the exact result of the image anecdote.",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2203.02155",
+          "title": "Training language models to follow instructions with human feedback",
+          "publisher": "Ouyang and coauthors / original research",
+          "date": "2022-03-04",
+          "finding": "Demonstrations and rankings of outputs are used to fine-tune models, improving instruction following and truthfulness while leaving mistakes. Training rewards shape behavior beyond pure next-token pretraining.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_bias",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "Training distributions and reward judgments are not necessarily balanced across all populations or values."
+        ],
+        "proof": "Optimizing toward those distributions or judgments can reproduce their asymmetries. Intent is not required for biased outcomes."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "substack-203543819-c047",
+      "proof": {
+        "assumptions": [
+          "Training distributions and reward judgments are not necessarily balanced across all populations or values."
+        ],
+        "derivation": "Optimizing toward those distributions or judgments can reproduce their asymmetries. Intent is not required for biased outcomes."
+      }
+    },
+    {
+      "claim": "Giving fallible models tools increases the consequences of mistakes, so action permissions and limits are part of deployment readiness.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 3276.012,
+      "end_seconds": 3335.263,
+      "horizon": "not stated",
+      "topics": [
+        "ai_agents"
+      ],
+      "entities": [
+        "ai agents"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_agents",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "A model can select an incorrect action.",
+          "Tools can create external effects that text alone would not create."
+        ],
+        "proof": "Allowing direct execution adds potential action losses to answer errors. Permission checks, transaction limits and review can restrict the set or size of those losses without ensuring zero error."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "substack-203543819-c048",
+      "proof": {
+        "assumptions": [
+          "A model can select an incorrect action.",
+          "Tools can create external effects that text alone would not create."
+        ],
+        "derivation": "Allowing direct execution adds potential action losses to answer errors. Permission checks, transaction limits and review can restrict the set or size of those losses without ensuring zero error."
+      }
+    },
+    {
+      "claim": "Current imperfect AI can still help people and businesses, including reducing administrative burdens, if deployed with suitable structure.",
+      "speaker": "Daniel Guetta",
+      "attribution_confidence": "medium",
+      "stance": "conditional",
+      "kind": "analytical principle",
+      "start_seconds": 3346.222,
+      "end_seconds": 3426.389,
+      "horizon": "not stated",
+      "topics": [
+        "ai_economics"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The claim is a conditional value proposition, not a verified health-claims productivity estimate.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_economics",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "The system saves more time or improves outcomes by more than implementation, verification and error costs."
+        ],
+        "proof": "Under these conditions net benefits are positive even if the underlying model is imperfect. Specific healthcare effectiveness must be measured separately."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "substack-203543819-c049",
+      "proof": {
+        "assumptions": [
+          "The system saves more time or improves outcomes by more than implementation, verification and error costs."
+        ],
+        "derivation": "Under these conditions net benefits are positive even if the underlying model is imperfect. Specific healthcare effectiveness must be measured separately."
+      }
+    },
+    {
+      "claim": "Eisman summarizes Marcus as predicting inadequate returns and Guetta as agreeing LLMs will not achieve AGI while still producing useful products.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "summarizing guests",
+      "kind": "explanation",
+      "start_seconds": 3433.691,
+      "end_seconds": 3487.102,
+      "horizon": "not stated",
+      "topics": [
+        "ai_scaling"
+      ],
+      "entities": [
+        "AGI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "The product-value distinction is faithful, but the categorical will-not-AGI summary is stronger than Guetta's qualified may-not-scale language at 1491-1516 seconds. This is an attribution assessment against the fully read source, not a resolved AGI forecast.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_scaling",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "The transcript at 1491-1516 qualifies the claim with may and uncertainty about the endpoint."
+        ],
+        "proof": "A qualified possibility that a method may not reach an undefined endpoint does not entail a categorical statement that it will never reach it."
+      },
+      "materiality": "major",
+      "synthesis_role": "attribution_boundary",
+      "id": "substack-203543819-c050",
+      "proof": {
+        "assumptions": [
+          "The transcript at 1491-1516 qualifies the claim with may and uncertainty about the endpoint."
+        ],
+        "derivation": "A qualified possibility that a method may not reach an undefined endpoint does not entail a categorical statement that it will never reach it."
+      }
+    },
+    {
+      "claim": "Recent agent announcements have shaken insurance brokers and wealth managers as investors fear disruption.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 3481.759,
+      "end_seconds": 3505.123,
+      "horizon": "not stated",
+      "topics": [
+        "financial_services_disruption"
+      ],
+      "entities": [
+        "insurance"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The cited announcements, event dates and security-return windows were not independently reconstructed; price reactions alone would not prove business displacement.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "financial_services_disruption",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "substack-203543819-c051"
+    },
+    {
+      "claim": "The industry may not know until 2027 or 2028 whether AI spending earns adequate returns; meanwhile hyperscalers will keep spending and the debate will persist.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "qualified",
+      "kind": "forecast",
+      "start_seconds": 3504.123,
+      "end_seconds": 3551.232,
+      "horizon": "2027-2028 for return validation; continued spending in the meantime",
+      "topics": [
+        "ai_capex"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "In 2027-2028 compare AI-attributable operating cash flows, maintenance and growth capex, depreciation, customer economics and capital costs, with clear segment definitions.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "The explicit return-validation horizon remains unfinished at the cutoff. Continued capex supports the near-term premise but cannot settle eventual economic returns.",
+      "evidence": [
+        {
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Fourth-Quarter-and-Full-Year-2025-Results/",
+          "title": "Meta Q4 and full-year 2025 results",
+          "publisher": "Meta",
+          "date": "2026-01-28",
+          "finding": "Initial 2026 capital-expenditure guidance was $115-135 billion including finance-lease principal, supporting both superintelligence efforts and the core business. Total capex is not a separately disclosed pure generative-AI spending figure.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://s206.q4cdn.com/479360582/files/doc_news/2026/Oct/28/attachments/2026q3-alphabet-earnings-release.pdf",
+          "title": "Alphabet Q3 2026 Earnings Release",
+          "publisher": "Alphabet",
+          "date": "2026-10-28",
+          "finding": "Quarterly operating cash flow $42.290 billion less capex $51.355 billion gives negative $9.065 billion FCF; trailing-year FCF remains positive $19.747 billion. Search query growth is described as the fastest in five years.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "In 2027-2028 compare AI-attributable operating cash flows, maintenance and growth capex, depreciation, customer economics and capital costs, with clear segment definitions.",
+      "confidence": "medium",
+      "family": "ai_capex",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "substack-203543819-c052"
+    }
+  ]
+}

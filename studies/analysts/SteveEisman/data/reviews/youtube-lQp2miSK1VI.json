@@ -1,0 +1,872 @@
+{
+  "source_id": "youtube-lQp2miSK1VI",
+  "title": "The Wild West of Crypto: Chaos, Shenanigans, & The AI Revolution | The Friday Market Wrap!",
+  "date": "2025-09-26T13:15:01-07:00",
+  "url": "https://www.youtube.com/watch?v=lQp2miSK1VI",
+  "read_complete": true,
+  "transcript_sha256": "4d5ef4903857b8976067899aaf298547c0dab3eba24be8bcd14d8a073599ae70",
+  "evaluation_as_of": "2026-11-10",
+  "summary": "The September 26 wrap connects opaque crypto leverage with fragile market plumbing, maps the AI investment chain and focuses on funding risk behind giant cloud commitments. Eisman warns about vendor financing while explicitly declining to predict a recession.",
+  "assessment": "The most useful contribution is following the funding chain from customers to suppliers, rather than accepting backlog as cash. Several supporting statements overreach: Binance publishes leverage limits, Nvidia announced a staged letter of intent, Mitsubishi competes in turbines, and solar incentives were curtailed rather than universally erased.",
+  "framework_points": [
+    "Trace financing and counterparties behind growth.",
+    "Inspect leverage and liquidation mechanisms.",
+    "Map chips, networks, power, cooling and applications separately.",
+    "Check thesis creep before reacting to recession fears."
+  ],
+  "tools_and_charts": [
+    "Market breadth above the 50-day average",
+    "Token usage",
+    "RPO and customer concentration",
+    "Capital-spending funding mix",
+    "Monthly consumer securitization data",
+    "Thesis checks"
+  ],
+  "transcript_cautions": [
+    "He explicitly says he does not currently expect recession.",
+    "Reported Morgan Stanley spending forecasts are guest research, not an independently modeled Eisman forecast.",
+    "Apple installed base refers to devices, not necessarily distinct people."
+  ],
+  "speaker_map_notes": "Steve Eisman presents; speaker attribution follows the full dialogue.",
+  "claims": [
+    {
+      "id": "youtube-lQp2miSK1VI-c001",
+      "claim": "Opaque leverage and weak regulation can amplify financial-market instability, as in the historical crash analogy.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 62,
+      "end_seconds": 98,
+      "horizon": "not stated",
+      "topics": [
+        "financial_fragility"
+      ],
+      "family": "financial_fragility",
+      "entities": [],
+      "test": "Compare actual leverage, margin and liquidity structures rather than surface similarity.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "The analogy identifies a mechanism but does not establish a repetition of 1929 or a dated crash forecast.",
+      "evidence": [],
+      "next_check": "Compare actual leverage, margin and liquidity structures rather than surface similarity.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c002",
+      "claim": "Binance offers opaque high leverage without meaningful restrictions or publicly knowable limits.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 119,
+      "end_seconds": 247,
+      "horizon": "not stated",
+      "topics": [
+        "crypto_leverage"
+      ],
+      "family": "crypto_leverage",
+      "entities": [],
+      "test": "Separate maximum permitted leverage from actual aggregate exposure.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "High leverage and liquidation mechanics are real, but Binance publishes brackets and account restrictions. Aggregate customer leverage may remain opaque, which is different from no rules.",
+      "evidence": [
+        {
+          "url": "https://www.binance.com/en/support/faq/detail/360033162192",
+          "title": "Futures leverage and margin rules",
+          "publisher": "Binance",
+          "date": null,
+          "finding": "The exchange publishes leverage brackets, maintenance margins and liquidation rules, including dated 2025 account restrictions. High leverage is real, but a claim that no limits or public information exist is false.",
+          "verified": true
+        }
+      ],
+      "next_check": "Separate maximum permitted leverage from actual aggregate exposure.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c003",
+      "claim": "Forced Ether liquidations on overseas exchanges caused the entire Monday crypto selloff.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 198,
+      "end_seconds": 247,
+      "horizon": "not stated",
+      "topics": [
+        "crypto_causality"
+      ],
+      "family": "crypto_causality",
+      "entities": [],
+      "test": "Reconstruct exchange liquidations, timing, depth and competing catalysts.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The narrative lacks inspected event-level positions and flows sufficient to attribute the whole move.",
+      "evidence": [],
+      "next_check": "Reconstruct exchange liquidations, timing, depth and competing catalysts.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c004",
+      "claim": "Intermediary and reserve-management risks can matter as much as the digital asset itself.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 250,
+      "end_seconds": 280,
+      "horizon": "not stated",
+      "topics": [
+        "counterparty_risk"
+      ],
+      "family": "counterparty_risk",
+      "entities": [],
+      "test": "Analyze the full issuer, exchange, custodian and redemption chain.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Circle historical bank exposure and Tether reserve disclosures demonstrate distinct custody, liquidity and asset-composition risks.",
+      "evidence": [
+        {
+          "url": "https://www.circle.com/pressroom/3-3-billion-of-usdc-reserve-risk-removed-dollar-de-peg-closes",
+          "title": "USDC reserve risk and de-peg",
+          "publisher": "Circle",
+          "date": "2023-03-13",
+          "finding": "Circle acknowledged a USDC de-peg during the SVB episode and a $3.3 billion bank deposit exposure. Pegs and short-duration reserves are not a guarantee of constant market prices.",
+          "verified": true
+        },
+        {
+          "url": "https://tether.io/wp-content/uploads/2025/04/ISAE_3000R_-_Opinion_TGRR_31.03.2025_RC187322025BD0035.pdf",
+          "title": "Reserve assurance report",
+          "publisher": "Tether / BDO",
+          "date": "2025-05-01",
+          "finding": "The report is assurance on a specified reserves report under ISAE 3000, not a full financial-statement audit. Disclosed reserves include non-Treasury assets.",
+          "verified": true
+        }
+      ],
+      "next_check": "Analyze the full issuer, exchange, custodian and redemption chain.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c005",
+      "claim": "Tether non-Treasury assets create a potential stablecoin contagion risk.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "forecast",
+      "start_seconds": 280,
+      "end_seconds": 317,
+      "horizon": "not stated",
+      "topics": [
+        "stablecoin_contagion"
+      ],
+      "family": "stablecoin_contagion",
+      "entities": [],
+      "test": "Stress liquidity and capital against redemption scenarios.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The assets exist, but a future de-peg and damage to Circle require a stress event. Calling Tether unregulated also overlooks its Salvadoran license.",
+      "evidence": [
+        {
+          "url": "https://tether.io/wp-content/uploads/2025/04/ISAE_3000R_-_Opinion_TGRR_31.03.2025_RC187322025BD0035.pdf",
+          "title": "Reserve assurance report",
+          "publisher": "Tether / BDO",
+          "date": "2025-05-01",
+          "finding": "The report is assurance on a specified reserves report under ISAE 3000, not a full financial-statement audit. Disclosed reserves include non-Treasury assets.",
+          "verified": true
+        },
+        {
+          "url": "https://tether.io/news/tether-licensed-in-el-salvador-strengthening-focus-on-emerging-markets-and-innovation/",
+          "title": "El Salvador issuer license",
+          "publisher": "Tether",
+          "date": "2025-01-13",
+          "finding": "Tether announced a Salvadoran stablecoin-issuer and digital-asset-service license. Not being a US-regulated issuer is different from having no regulation.",
+          "verified": true
+        }
+      ],
+      "next_check": "Stress liquidity and capital against redemption scenarios.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c006",
+      "claim": "Only stablecoins can achieve a meaningful role in global payments.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 292,
+      "end_seconds": 306,
+      "horizon": "not stated",
+      "topics": [
+        "payment_design"
+      ],
+      "family": "payment_design",
+      "entities": [],
+      "test": "Distinguish the unit of account, transfer rail and final settlement asset.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "The categorical exclusion does not follow from volatility: conversion services can transfer other assets while quoting stable units. Commercial suitability remains a separate question.",
+      "evidence": [],
+      "next_check": "Distinguish the unit of account, transfer rail and final settlement asset.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Conversion can occur at both ends of a transfer."
+        ],
+        "proof": "A volatile bridge asset can carry value between two stable-currency endpoints. Volatility imposes risk and cost but does not logically exclude meaningful payment use.",
+        "derivation": "A volatile bridge asset can carry value between two stable-currency endpoints. Volatility imposes risk and cost but does not logically exclude meaningful payment use."
+      }
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c007",
+      "claim": "Narrowing breadth makes the market feel tired and is unhealthy over time.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 322,
+      "end_seconds": 356,
+      "horizon": "not stated",
+      "topics": [
+        "market_breadth"
+      ],
+      "family": "market_breadth",
+      "entities": [],
+      "test": "Specify breadth universe, calculation and forward-return test.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "The impression and health criterion lack a return horizon or measurable failure threshold. A stated breadth snapshot is not a sell signal by itself.",
+      "evidence": [],
+      "next_check": "Specify breadth universe, calculation and forward-return test.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c008",
+      "claim": "Technology leadership changes across successive investment waves, so current winners need not remain leaders.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 376,
+      "end_seconds": 530,
+      "horizon": "not stated",
+      "topics": [
+        "technology_leadership"
+      ],
+      "family": "technology_leadership",
+      "entities": [],
+      "test": "Build point-in-time market-cap rankings with consistent classifications.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "The principle is useful, but his 20-25% turnover estimate needs a consistent universe and historical constituent series. Visa and Mastercard classification also complicates a technology-only ranking.",
+      "evidence": [],
+      "next_check": "Build point-in-time market-cap rankings with consistent classifications.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c009",
+      "claim": "Explosive token processing indicates growing demand for AI compute.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 575,
+      "end_seconds": 621,
+      "horizon": "not stated",
+      "topics": [
+        "ai_usage"
+      ],
+      "family": "ai_usage",
+      "entities": [],
+      "test": "Track unit costs, model mix and revenue per task as well as token volume.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Microsoft reported more than 100 trillion tokens, up fivefold, in fiscal Q3 2025. Token counts are not standardized measures of revenue, FLOPs or profitability across models.",
+      "evidence": [
+        {
+          "url": "https://www.microsoft.com/en-us/investor/events/fy-2025/earnings-fy-2025-q3",
+          "title": "Microsoft fiscal Q3 2025 earnings call",
+          "publisher": "Microsoft",
+          "date": "2025-04-30",
+          "finding": "Microsoft reported processing more than 100 trillion tokens in the quarter, up fivefold. The figure was a usage measure, not an equal multiple of revenue or profit.",
+          "verified": true
+        }
+      ],
+      "next_check": "Track unit costs, model mix and revenue per task as well as token volume.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c010",
+      "claim": "The AI buildout benefits chips, networking, data centers and selected data-analysis software.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 621,
+      "end_seconds": 683,
+      "horizon": "not stated",
+      "topics": [
+        "ai_value_chain"
+      ],
+      "family": "ai_value_chain",
+      "entities": [],
+      "test": "Translate each link in the chain into issuer-level cash flows.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The exposure map is plausible, but individual stock winners depend on competitive share, margins, capex and price paid.",
+      "evidence": [],
+      "next_check": "Translate each link in the chain into issuer-level cash flows.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c011",
+      "claim": "Only very large companies can finance hyperscale AI infrastructure.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 653,
+      "end_seconds": 672,
+      "horizon": "not stated",
+      "topics": [
+        "ai_funding"
+      ],
+      "family": "ai_funding",
+      "entities": [],
+      "test": "Compare project equity, debt, contracts and partner funding.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "Large project costs favor scale, but consortia, project finance and leasing can broaden participation. No minimum size is specified.",
+      "evidence": [],
+      "next_check": "Compare project equity, debt, contracts and partner funding.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c012",
+      "claim": "Solar and wind are no longer part of the near-term power story because their incentives were removed.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 686,
+      "end_seconds": 711,
+      "horizon": "not stated",
+      "topics": [
+        "renewable_policy"
+      ],
+      "family": "renewable_policy",
+      "entities": [],
+      "test": "Inspect project start and in-service dates, credit rules and actual construction.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "The policy accelerated deadlines and imposed conditions, but did not instantly eliminate every eligible project or all commercial demand. The broad exclusion is too categorical.",
+      "evidence": [
+        {
+          "url": "https://www.irs.gov/instructions/i7211",
+          "title": "Clean electricity credits after the 2025 law",
+          "publisher": "IRS",
+          "date": null,
+          "finding": "Wind and solar termination rules include construction-start and placed-in-service exceptions. The final law is not identical to every June proposal and does not terminate every project credit on one date.",
+          "verified": true
+        }
+      ],
+      "next_check": "Inspect project start and in-service dates, credit rules and actual construction.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c013",
+      "claim": "Gas-turbine scarcity and rising construction costs support the equipment opportunity.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 711,
+      "end_seconds": 756,
+      "horizon": "not stated",
+      "topics": [
+        "ai_power"
+      ],
+      "family": "ai_power",
+      "entities": [],
+      "test": "Track orders, capacity, contract prices and project conversion.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Mitsubishi disclosures confirm substantial large-frame turbine orders and market share. The mechanism is stronger than the claim of only two suppliers.",
+      "evidence": [
+        {
+          "url": "https://www.mhi.com/finance/library/result/pdf/fy20244q/presentation_summary.pdf",
+          "title": "Mitsubishi Heavy Industries fiscal 2024 results presentation",
+          "publisher": "Mitsubishi Heavy Industries",
+          "date": "2025-05-09",
+          "finding": "MHI disclosed 25 large-frame gas turbine orders and substantial global market share, establishing a major supplier beyond GE and Siemens.",
+          "verified": true
+        }
+      ],
+      "next_check": "Track orders, capacity, contract prices and project conversion.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c014",
+      "claim": "Only GE Vernova and Siemens make large gas turbines.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 718,
+      "end_seconds": 725,
+      "horizon": "not stated",
+      "topics": [
+        "gas_turbine_competition"
+      ],
+      "family": "gas_turbine_competition",
+      "entities": [],
+      "test": "Include all large-frame suppliers in the market model.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "Mitsubishi is another major supplier, directly contradicting the duopoly premise.",
+      "evidence": [
+        {
+          "url": "https://www.mhi.com/finance/library/result/pdf/fy20244q/presentation_summary.pdf",
+          "title": "Mitsubishi Heavy Industries fiscal 2024 results presentation",
+          "publisher": "Mitsubishi Heavy Industries",
+          "date": "2025-05-09",
+          "finding": "MHI disclosed 25 large-frame gas turbine orders and substantial global market share, establishing a major supplier beyond GE and Siemens.",
+          "verified": true
+        }
+      ],
+      "next_check": "Include all large-frame suppliers in the market model.",
+      "confidence": "medium",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c015",
+      "claim": "Nuclear, uranium and grid construction could benefit from rising data-center electricity demand.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 758,
+      "end_seconds": 816,
+      "horizon": "not stated",
+      "topics": [
+        "nuclear_power"
+      ],
+      "family": "nuclear_power",
+      "entities": [],
+      "test": "Model contract timing, regulation, construction costs and valuation.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "The theme has no return horizon or price discipline. Demand does not remove licensing, construction and financing constraints.",
+      "evidence": [],
+      "next_check": "Model contract timing, regulation, construction costs and valuation.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c016",
+      "claim": "Oklo is highly speculative and could supply data-center power if its reactors obtain approval.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "forecast",
+      "start_seconds": 773,
+      "end_seconds": 804,
+      "horizon": "Future licensed deployment",
+      "topics": [
+        "advanced_nuclear"
+      ],
+      "family": "advanced_nuclear",
+      "entities": [],
+      "test": "Track licensing, construction, fuel availability and commercial operation.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "The conditional commercial deployment is a multi-year project, not established by a stock rally or an early agreement.",
+      "evidence": [],
+      "next_check": "Track licensing, construction, fuel availability and commercial operation.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c017",
+      "claim": "Electrical equipment and cooling are additional ways to participate in AI capital spending.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 820,
+      "end_seconds": 845,
+      "horizon": "not stated",
+      "topics": [
+        "ai_supply_chain"
+      ],
+      "family": "ai_supply_chain",
+      "entities": [],
+      "test": "Track equipment backlogs, book-to-bill and cash generation.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "This is an exposure map without an expected-return target. Supplier margins, order conversion and valuation remain essential.",
+      "evidence": [],
+      "next_check": "Track equipment backlogs, book-to-bill and cash generation.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c018",
+      "claim": "Apple will lag until it presents a clearer AI strategy, while its installed base gives it bargaining power.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 866,
+      "end_seconds": 921,
+      "horizon": "not stated",
+      "topics": [
+        "apple_ai"
+      ],
+      "family": "apple_ai",
+      "entities": [],
+      "test": "Define the strategy milestone and compare adoption, economics and total returns.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "Until clarity is a subjective trigger with no benchmark or end date. The 2.4 billion base refers to devices rather than unique people, and public AI products already existed.",
+      "evidence": [],
+      "next_check": "Define the strategy milestone and compare adoption, economics and total returns.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c019",
+      "claim": "AI threatens consulting and software moats, but incumbents may adapt and should not yet be written off.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 921,
+      "end_seconds": 980,
+      "horizon": "not stated",
+      "topics": [
+        "ai_software_disruption"
+      ],
+      "family": "ai_software_disruption",
+      "entities": [],
+      "test": "Track retention, pricing, AI product adoption and actual replacement.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "He explicitly preserves the adaptation possibility. Falling share prices alone do not demonstrate customer substitution or moat destruction.",
+      "evidence": [],
+      "next_check": "Track retention, pricing, AI product adoption and actual replacement.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c020",
+      "claim": "A recession could impair private AI fundraising and cause Oracle to miss its five-year revenue path.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "forecast",
+      "start_seconds": 1002,
+      "end_seconds": 1119,
+      "horizon": "Next five years through 2030",
+      "topics": [
+        "ai_funding_risk"
+      ],
+      "family": "ai_funding_risk",
+      "entities": [],
+      "test": "Track funding access and contract conversion under a defined recession scenario.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "The 2030 path is unfinished and recession is a condition, not a prediction he says is currently likely. Funding may also come from customers, partners or operating cash.",
+      "evidence": [
+        {
+          "url": "https://investor.oracle.com/investor-news/news-details/2025/Oracle-Announces-Fiscal-Year-2026-First-Quarter-Financial-Results/default.aspx",
+          "title": "Oracle fiscal Q1 2026 results",
+          "publisher": "Oracle",
+          "date": "2025-09-09",
+          "finding": "RPO rose 359% to $455 billion; recognized quarterly revenue was $14.9 billion, up 12%, and cloud infrastructure revenue grew 55%. Backlog is not current realized revenue.",
+          "verified": true
+        }
+      ],
+      "next_check": "Track funding access and contract conversion under a defined recession scenario.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c021",
+      "claim": "OpenAI accounts for about $300 billion of Oracle backlog and cannot currently fund all of it from cash on hand.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "reported",
+      "kind": "explanation",
+      "start_seconds": 1056,
+      "end_seconds": 1085,
+      "horizon": "not stated",
+      "topics": [
+        "ai_customer_concentration"
+      ],
+      "family": "ai_customer_concentration",
+      "entities": [],
+      "test": "Inspect contract terms, maturity schedules and customer financial disclosures.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The concentration figure is attributed to others digging into the numbers. The public Oracle release does not itself identify every counterparty or payment schedule, so the exact concentration is not independently verified here.",
+      "evidence": [],
+      "next_check": "Inspect contract terms, maturity schedules and customer financial disclosures.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c022",
+      "claim": "Nvidia announced a $100 billion OpenAI investment, showing ready access to huge funding.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1122,
+      "end_seconds": 1131,
+      "horizon": "not stated",
+      "topics": [
+        "ai_funding"
+      ],
+      "family": "ai_funding",
+      "entities": [],
+      "test": "Separate intentions, definitive commitments and disbursements.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "The announcement was a letter of intent for up to $100 billion in staged investments, not cash already received. It supports proposed access, subject to execution.",
+      "evidence": [
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2025/OpenAI-and-NVIDIA-Announce-Strategic-Partnership-to-Deploy-10-Gigawatts-of-NVIDIA-Systems/default.aspx",
+          "title": "OpenAI strategic partnership letter of intent",
+          "publisher": "Nvidia",
+          "date": "2025-09-22",
+          "finding": "The announcement was a letter of intent, with proposed investment up to $100 billion in stages as infrastructure deployed. It was not $100 billion of cash already transferred.",
+          "verified": true
+        }
+      ],
+      "next_check": "Separate intentions, definitive commitments and disbursements.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c023",
+      "claim": "Sovereign investors and capacity-backstop agreements are widening the funding and demand base.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1133,
+      "end_seconds": 1181,
+      "horizon": "not stated",
+      "topics": [
+        "ai_financing_structures"
+      ],
+      "family": "ai_financing_structures",
+      "entities": [],
+      "test": "Track signed terms, funded amounts and actual purchased capacity.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Announcements do not establish that all financing closed or that capacity is economically utilized.",
+      "evidence": [],
+      "next_check": "Track signed terms, funded amounts and actual purchased capacity.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c024",
+      "claim": "Supplier financing of customers makes AI demand less independent and creates circularity risk.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1184,
+      "end_seconds": 1247,
+      "horizon": "not stated",
+      "topics": [
+        "vendor_financing"
+      ],
+      "family": "vendor_financing",
+      "entities": [],
+      "test": "Trace external end-customer cash, contractual obligations and related-party exposure.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Nvidia proposed funding a customer that would deploy Nvidia systems. This creates correlated supplier-customer exposure without proving fictitious revenue or inevitable collapse.",
+      "evidence": [
+        {
+          "url": "https://investor.nvidia.com/news/press-release-details/2025/OpenAI-and-NVIDIA-Announce-Strategic-Partnership-to-Deploy-10-Gigawatts-of-NVIDIA-Systems/default.aspx",
+          "title": "OpenAI strategic partnership letter of intent",
+          "publisher": "Nvidia",
+          "date": "2025-09-22",
+          "finding": "The announcement was a letter of intent, with proposed investment up to $100 billion in stages as infrastructure deployed. It was not $100 billion of cash already transferred.",
+          "verified": true
+        }
+      ],
+      "next_check": "Trace external end-customer cash, contractual obligations and related-party exposure.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c025",
+      "claim": "Morgan Stanley projects $2.9 trillion data-center spending through 2028, roughly half funded by hyperscaler cash flow.",
+      "speaker": "Morgan Stanley, reported by Steve Eisman",
+      "attribution_confidence": "medium",
+      "stance": "reported",
+      "kind": "forecast",
+      "start_seconds": 1207,
+      "end_seconds": 1244,
+      "horizon": "Through 2028",
+      "topics": [
+        "ai_capex_forecast"
+      ],
+      "family": "ai_capex_forecast",
+      "entities": [],
+      "test": "Compare the dated forecast scope with realized expenditures and funding.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "This is identified as outside research and the 2028 horizon is incomplete. It is not an Eisman-generated forecast.",
+      "evidence": [],
+      "next_check": "Compare the dated forecast scope with realized expenditures and funding.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "reported_third_party_forecast"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c026",
+      "claim": "Today financial-system resilience means the next recession should be ordinary rather than another GFC.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 1297,
+      "end_seconds": 1310,
+      "horizon": "not stated",
+      "topics": [
+        "financial_resilience"
+      ],
+      "family": "financial_resilience",
+      "entities": [],
+      "test": "Specify stress losses, leverage, liquidity and failure thresholds across the system.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "The forecast has no date and ordinary is undefined. Confidence in banks does not rule out losses in other institutions or market plumbing.",
+      "evidence": [],
+      "next_check": "Specify stress losses, leverage, liquidity and failure thresholds across the system.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c027",
+      "claim": "During recession fears, review thesis failures and taxes rather than automatically liquidate the whole portfolio.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1312,
+      "end_seconds": 1338,
+      "horizon": "not stated",
+      "topics": [
+        "portfolio_process"
+      ],
+      "family": "portfolio_process",
+      "entities": [],
+      "test": "Compare after-tax outcomes and drawdowns under a defined mandate.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "This is a portfolio-management preference, conditional on risk tolerance and liquidity needs. It is not a guaranteed optimal action for everyone.",
+      "evidence": [],
+      "next_check": "Compare after-tax outcomes and drawdowns under a defined mandate.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c028",
+      "claim": "Monthly consumer securitization credit data can reveal deterioration earlier than slower aggregate reports.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1340,
+      "end_seconds": 1359,
+      "horizon": "not stated",
+      "topics": [
+        "consumer_credit_monitoring"
+      ],
+      "family": "consumer_credit_monitoring",
+      "entities": [],
+      "test": "Compare delinquencies, losses and macro outcomes using information available at each date.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Frequency helps timeliness but leading predictive value requires out-of-sample testing and adjustments for loan vintage and borrower mix.",
+      "evidence": [],
+      "next_check": "Compare delinquencies, losses and macro outcomes using information available at each date.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-lQp2miSK1VI-c029",
+      "claim": "Too little regulation invites abusive risk taking, while excessive regulation suppresses productive activity.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1361,
+      "end_seconds": 1377,
+      "horizon": "not stated",
+      "topics": [
+        "regulation_tradeoffs"
+      ],
+      "family": "regulation_tradeoffs",
+      "entities": [],
+      "test": "Evaluate specific rules, externalities and observed costs.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "The claim supplies neither a calibrated optimum nor a measurable threshold for too much or too little.",
+      "evidence": [],
+      "next_check": "Evaluate specific rules, externalities and observed costs.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    }
+  ]
+}

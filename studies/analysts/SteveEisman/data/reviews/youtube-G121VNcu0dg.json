@@ -1,0 +1,1329 @@
+{
+  "source_id": "youtube-G121VNcu0dg",
+  "title": "Inside the Data Center Boom: Understanding the Massive Infrastructure That Supports AI",
+  "date": "2025-10-22T09:00:32-07:00",
+  "url": "https://www.youtube.com/watch?v=G121VNcu0dg",
+  "metadata": {
+    "title": "Inside the Data Center Boom: Understanding the Massive Infrastructure That Supports AI",
+    "published_at": "2025-10-22T09:00:32-07:00",
+    "url": "https://www.youtube.com/watch?v=G121VNcu0dg"
+  },
+  "read_complete": true,
+  "transcript_sha256": "ed804ecba13b2694ce14d2a4f3d709f47ad5c010f8715653c9c7d21eda98d8c1",
+  "evaluation_as_of": "2026-11-10",
+  "summary": "Nick Del Deo explains the distinct economics of data-center property, interconnection hubs, GPU clouds and fiber. The strongest framework separates recurring cash metrics from expansion capex and models CoreWeave contract-level lifetime returns rather than applying peer EBITDA multiples. He expects eventual competition and power supply to reduce scarcity returns but avoids a precise collapse date. Later Equinix growth was stronger than the reported early 2026 plan, while Lumen's legacy decline remained visible.",
+  "assessment": "Claims are assessed individually. Empirical premises are not treated as successful forecasts. Unverified magnitudes and causal stories remain unresolved; subjective investment judgments are not assigned directional wins.",
+  "speaker_map_notes": "Steve Eisman interviews Nick Del Deo. Most forecasts and valuation estimates belong to Del Deo; Eisman asks clarifying questions and restates accounting concepts.",
+  "framework_points": [
+    "Map property ownership, equipment ownership and customer obligations separately.",
+    "Distinguish network effects from temporary physical scarcity.",
+    "Value GPU projects over equipment life, including capex, financing, renewals and residual value.",
+    "Lifetime NPV per invested dollar is not an annual return on capital.",
+    "Check final user latency separately from latency inside a training cluster.",
+    "Deduplicate utility requests and distinguish planned, contracted and energized power."
+  ],
+  "tools_and_charts": [
+    "Capital cost per MW excluding IT equipment",
+    "REIT taxable income versus AFFO and cash flow",
+    "Interconnection-hub network effects",
+    "ROIC minus cost of capital and reinvestment volume",
+    "CoreWeave GPU contract DCF and $65 valuation",
+    "Power requests versus realized load",
+    "Lumen conduit value and Cogent wavelength revenue"
+  ],
+  "transcript_cautions": [
+    "Opening montage repeats body claims.",
+    "All 1771 caption lines were read.",
+    "Nick Del Deo and company names are frequently garbled.",
+    "Recording appears materially earlier than October 22 publication: Core Scientific bid is described as recent and CoreWeave quoted near $90. Exact date not established.",
+    "The $40b equipment figure against a $14b-$15b contract may be a caption or spoken-number error and is not silently corrected.",
+    "The 2025 $5.3b revenue and 2026 AFFO path are forecasts at the time, not realized premises."
+  ],
+  "claims": [
+    {
+      "claim": "Much data-center growth has moved into private ownership because public investors resist years of negative cash flow and heavy reinvestment.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 85,
+      "end_seconds": 124,
+      "horizon": "not stated",
+      "topics": [
+        "data_center_financing"
+      ],
+      "entities": [
+        "data center financing"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "A plausible ownership-incentive explanation, but no aggregate public/private construction and financing series was independently reconciled.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "data_center_financing",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c001"
+    },
+    {
+      "claim": "Data centers, cloud operators, fiber owners, equipment vendors and construction firms occupy different parts of the infrastructure stack; hyperscalers both lease and own facilities.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 145,
+      "end_seconds": 273,
+      "horizon": "not stated",
+      "topics": [
+        "data_center_structure"
+      ],
+      "entities": [
+        "data centers"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Company disclosures support distinct property and compute businesses. The interview is a simplified map, not a claim every company performs only one role.",
+      "evidence": [
+        {
+          "url": "https://investor.equinix.com/news-events/press-releases/detail/1128/equinix-reports-third-quarter-results-and-raises-2026",
+          "title": "Equinix Q3 2026 results",
+          "publisher": "Equinix",
+          "date": "2026-10-28",
+          "finding": "Q3 basic AFFO/share $11.70 versus $9.85; full-year guidance $43.71-$44.11, 14%-15% reported growth or 11%-12% normalized constant-currency growth. Full-year guidance is not completed annual results.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+          "title": "CoreWeave 2025 Form 10-K",
+          "publisher": "CoreWeave / SEC",
+          "date": "2026-03",
+          "finding": "2025 revenue $5.131 billion, net loss about $1.2 billion; six-year server/equipment useful-life accounting and customer concentration require attention to economic life and contract risk.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "data_center_structure",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c002"
+    },
+    {
+      "claim": "Most hyperscaler capex buys servers and networking rather than buildings; a 100-MW powered facility may cost roughly $1.2 billion before several times as much equipment.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 289,
+      "end_seconds": 415,
+      "horizon": "not stated",
+      "topics": [
+        "data_center_costs"
+      ],
+      "entities": [
+        "data center costs"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "The guest immediately corrects his initial agreement that the quoted building cost included IT equipment.",
+      "verdict": "unresolved",
+      "reason": "Indicative unit costs vary by density, location and included equipment; exact totals and the $350 billion aggregate were not independently reconstructed.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "data_center_costs",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c003"
+    },
+    {
+      "claim": "REIT distributions leave data-center operators dependent on external capital to finance substantial growth.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 434,
+      "end_seconds": 456,
+      "horizon": "not stated",
+      "topics": [
+        "reit_financing"
+      ],
+      "entities": [
+        "reit financing"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Payouts can increase external funding needs, but the legal requirement applies to taxable income, not all cash flow; depreciation permits meaningful retained cash.",
+      "evidence": [
+        {
+          "url": "https://usc-cdn.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title26-section857",
+          "title": "26 USC 857 REIT taxation",
+          "publisher": "US House Office of the Law Revision Counsel",
+          "date": "law inspected 2026-11-10",
+          "finding": "Distribution condition is generally 90% of REIT taxable income excluding net capital gain, with specified adjustments. This differs from 90% of operating cash flow or AFFO.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://investor.equinix.com/news-events/press-releases/detail/1128/equinix-reports-third-quarter-results-and-raises-2026",
+          "title": "Equinix Q3 2026 results",
+          "publisher": "Equinix",
+          "date": "2026-10-28",
+          "finding": "Q3 basic AFFO/share $11.70 versus $9.85; full-year guidance $43.71-$44.11, 14%-15% reported growth or 11%-12% normalized constant-currency growth. Full-year guidance is not completed annual results.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "reit_financing",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c004"
+    },
+    {
+      "claim": "REIT status trades distribution requirements for avoidance of entity-level tax on qualifying distributed income, which can outweigh financing drawbacks.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 457,
+      "end_seconds": 542,
+      "horizon": "not stated",
+      "topics": [
+        "reit_taxation"
+      ],
+      "entities": [
+        "reit taxation"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "The basic tax/distribution tradeoff is supported; universal net benefit depends on taxable income, capital needs and financing costs.",
+      "evidence": [
+        {
+          "url": "https://usc-cdn.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title26-section857",
+          "title": "26 USC 857 REIT taxation",
+          "publisher": "US House Office of the Law Revision Counsel",
+          "date": "law inspected 2026-11-10",
+          "finding": "Distribution condition is generally 90% of REIT taxable income excluding net capital gain, with specified adjustments. This differs from 90% of operating cash flow or AFFO.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "reit_taxation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c005"
+    },
+    {
+      "claim": "Private data-center firms are expanding more aggressively and often using more leverage than public REITs; QTS may become much larger than Digital Realty.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 549,
+      "end_seconds": 618,
+      "horizon": "next several years for relative capacity",
+      "topics": [
+        "private_infrastructure"
+      ],
+      "entities": [
+        "private infrastructure"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "The guest cannot quantify the full comparison; twice-as-large and twice-levered are rough scenarios rather than audited comprehensive facts.",
+      "verdict": "too_early",
+      "reason": "The stated future horizon or conditional scenario remains unfinished at the 2026-11-10 cutoff.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "private_infrastructure",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c006"
+    },
+    {
+      "claim": "Digital Realty and Equinix are too large for a practical take-private, so investors cannot simply assume private ownership will solve their reinvestment constraints.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment preference",
+      "start_seconds": 619,
+      "end_seconds": 669,
+      "horizon": "not stated",
+      "topics": [
+        "capital_structure"
+      ],
+      "entities": [
+        "capital structure"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "Feasibility judgment based on approximate enterprise values, not a legal or mathematical impossibility.",
+      "verdict": "not_testable",
+      "reason": "The statement does not specify an objective threshold, horizon or counterfactual that permits a determinate outcome grade.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "capital_structure",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c007"
+    },
+    {
+      "claim": "Equinix's carrier-neutral interconnection hubs create network effects: customers join to reach counterparties already present, making the model harder to replicate than a generic building.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 700,
+      "end_seconds": 1029,
+      "horizon": "not stated",
+      "topics": [
+        "data_center_moat"
+      ],
+      "entities": [
+        "data center moat"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "Conditional mechanism, not an independently measured moat size or proof of every historical profit estimate.",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "data_center_moat",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "Customers value direct links to counterparties colocated in a facility.",
+          "A new competitor initially lacks that established counterpart network."
+        ],
+        "proof": "Adding relevant counterparties raises connection opportunities and customer value. A building alone lacks those links, so duplicating physical space does not instantly duplicate the network benefit."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-G121VNcu0dg-c008",
+      "proof": {
+        "assumptions": [
+          "Customers value direct links to counterparties colocated in a facility.",
+          "A new competitor initially lacks that established counterpart network."
+        ],
+        "derivation": "Adding relevant counterparties raises connection opportunities and customer value. A building alone lacks those links, so duplicating physical space does not instantly duplicate the network benefit."
+      }
+    },
+    {
+      "claim": "Before AI, ordinary hyperscale facilities earned near their 7%-8% capital cost while interconnection facilities earned low-to-mid-teens returns.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "material factual premise",
+      "start_seconds": 1033,
+      "end_seconds": 1115,
+      "horizon": "not stated",
+      "topics": [
+        "data_center_returns"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The analyst's ROIC reconstruction and consistent asset-cost denominator were not supplied or independently reproduced.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "data_center_returns",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "id": "youtube-G121VNcu0dg-c009"
+    },
+    {
+      "claim": "AI power scarcity has lifted large-facility rents and returns while increasing the amount of capital developers can profitably deploy.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1116,
+      "end_seconds": 1224,
+      "horizon": "not stated",
+      "topics": [
+        "data_center_scarcity"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Later operating growth is consistent with demand, but exact rent doubling and project-level low-teens returns were not independently verified.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "data_center_scarcity",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c010"
+    },
+    {
+      "claim": "Training can be located farther from end users because it is less sensitive to user latency, whereas power, land and internal cluster connectivity are crucial.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 1224,
+      "end_seconds": 1314,
+      "horizon": "not stated",
+      "topics": [
+        "ai_geography"
+      ],
+      "entities": [
+        "ai geography"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_geography",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "A training run lasts weeks or months and does not require real-time responses to a distant user.",
+          "Its distributed compute still requires fast internal communication."
+        ],
+        "proof": "A small extra delay to a user endpoint is negligible relative to the long training run, whereas slow internal links repeated throughout computation can constrain performance. This distinguishes external location latency from internal cluster latency."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-G121VNcu0dg-c011",
+      "proof": {
+        "assumptions": [
+          "A training run lasts weeks or months and does not require real-time responses to a distant user.",
+          "Its distributed compute still requires fast internal communication."
+        ],
+        "derivation": "A small extra delay to a user endpoint is negligible relative to the long training run, whereas slow internal links repeated throughout computation can constrain performance. This distinguishes external location latency from internal cluster latency."
+      }
+    },
+    {
+      "claim": "Greater AI application use should eventually benefit Equinix's close-to-user infrastructure.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "forecast",
+      "start_seconds": 1347,
+      "end_seconds": 1367,
+      "horizon": "multiyear application adoption",
+      "topics": [
+        "ai_inference"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "Guest narrows this to latency-sensitive or private deployments; not every inference task requires a nearby facility.",
+      "verdict": "too_early",
+      "reason": "The stated future horizon or conditional scenario remains unfinished at the 2026-11-10 cutoff.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_inference",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-G121VNcu0dg-c012"
+    },
+    {
+      "claim": "Real-time inference and private enterprise AI favor established hubs, while remote training sites face more uncertain re-leasing economics when long leases expire.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "conditional",
+      "kind": "explanation",
+      "start_seconds": 1367,
+      "end_seconds": 1452,
+      "horizon": "not stated",
+      "topics": [
+        "data_center_location"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Useful risk distinction, but workload location preferences and future residual values remain to be established.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "data_center_location",
+      "materiality": "major",
+      "synthesis_role": "conditional_scenario",
+      "id": "youtube-G121VNcu0dg-c013"
+    },
+    {
+      "claim": "Crypto miners can repurpose valuable power connections for AI hosting, but must upgrade facilities; CoreWeave is using such partners and pursuing Core Scientific.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1452,
+      "end_seconds": 1590,
+      "horizon": "not stated",
+      "topics": [
+        "power_repurposing"
+      ],
+      "entities": [
+        "CoreWeave",
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The proposed acquisition is a contemporaneous transaction discussion, not a forecast it would close. A matching original facility and transaction evidence set was not inspected.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "power_repurposing",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c014"
+    },
+    {
+      "claim": "Equinix's investment program depresses initial cash metrics before occupancy matures, and management expected 2026 AFFO/share growth to slow to mid-single digits before recovering.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1633,
+      "end_seconds": 1753,
+      "horizon": "not stated",
+      "topics": [
+        "data_center_growth"
+      ],
+      "entities": [
+        "data center growth"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Construction and leasing lags support the mechanism, but 2026 growth through Q3 and updated annual guidance were materially stronger than the early mid-single-digit outlook. The guest is reporting management's then-plan rather than an unconditional personal target.",
+      "evidence": [
+        {
+          "url": "https://investor.equinix.com/news-events/press-releases/detail/1128/equinix-reports-third-quarter-results-and-raises-2026",
+          "title": "Equinix Q3 2026 results",
+          "publisher": "Equinix",
+          "date": "2026-10-28",
+          "finding": "Q3 basic AFFO/share $11.70 versus $9.85; full-year guidance $43.71-$44.11, 14%-15% reported growth or 11%-12% normalized constant-currency growth. Full-year guidance is not completed annual results.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "data_center_growth",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c015"
+    },
+    {
+      "claim": "AFFO estimates recurring cash generation after maintenance needs but before growth capex, rather than total free cash flow after expansion.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1705,
+      "end_seconds": 1730,
+      "horizon": "not stated",
+      "topics": [
+        "reit_metrics"
+      ],
+      "entities": [
+        "reit metrics"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Disclosure reconciliations support distinguishing AFFO from cash left after all investment. Definitions and adjustments differ and are not identical to GAAP cash flow.",
+      "evidence": [
+        {
+          "url": "https://investor.equinix.com/news-events/press-releases/detail/1128/equinix-reports-third-quarter-results-and-raises-2026",
+          "title": "Equinix Q3 2026 results",
+          "publisher": "Equinix",
+          "date": "2026-10-28",
+          "finding": "Q3 basic AFFO/share $11.70 versus $9.85; full-year guidance $43.71-$44.11, 14%-15% reported growth or 11%-12% normalized constant-currency growth. Full-year guidance is not completed annual results.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "reit_metrics",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c016"
+    },
+    {
+      "claim": "A private owner could approve temporary cash-flow dilution from a valuable investment program more readily than public investors.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "conditional",
+      "kind": "explanation",
+      "start_seconds": 1755,
+      "end_seconds": 1773,
+      "horizon": "not stated",
+      "topics": [
+        "investment_horizon"
+      ],
+      "entities": [
+        "investment horizon"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "The statement does not specify an objective threshold, horizon or counterfactual that permits a determinate outcome grade.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "investment_horizon",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-G121VNcu0dg-c017"
+    },
+    {
+      "claim": "Digital Realty's headline valuation premium partly reflects stronger rent resets and a larger development pipeline, while Equinix comparisons require adjusting for stock compensation.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1778,
+      "end_seconds": 1863,
+      "horizon": "not stated",
+      "topics": [
+        "reit_valuation"
+      ],
+      "entities": [
+        "reit valuation"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No dated valuation and per-share cash-flow model was reconstructed; stated premiums alone do not establish mispricing.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "reit_valuation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c018"
+    },
+    {
+      "claim": "Cloud on-ramps and multicloud demand reinforce Equinix's hub model and attract a diversified customer base.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1863,
+      "end_seconds": 1956,
+      "horizon": "not stated",
+      "topics": [
+        "cloud_interconnection"
+      ],
+      "entities": [
+        "cloud interconnection"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The approximate 40% on-ramp share was not checked. Having an on-ramp at Equinix does not mean every route to AWS must traverse Equinix.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "cloud_interconnection",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c019"
+    },
+    {
+      "claim": "Latency-sensitive or private AI can add growth to Equinix, but its diversified base means it is unlikely to produce the explosive growth of a pure AI infrastructure provider.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 1959,
+      "end_seconds": 2031,
+      "horizon": "multiyear adoption",
+      "topics": [
+        "ai_inference"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "Q3 improvement supports ongoing growth, not completion of the long-run mix forecast.",
+      "verdict": "too_early",
+      "reason": "The stated future horizon or conditional scenario remains unfinished at the 2026-11-10 cutoff.",
+      "evidence": [
+        {
+          "url": "https://investor.equinix.com/news-events/press-releases/detail/1128/equinix-reports-third-quarter-results-and-raises-2026",
+          "title": "Equinix Q3 2026 results",
+          "publisher": "Equinix",
+          "date": "2026-10-28",
+          "finding": "Q3 basic AFFO/share $11.70 versus $9.85; full-year guidance $43.71-$44.11, 14%-15% reported growth or 11%-12% normalized constant-currency growth. Full-year guidance is not completed annual results.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_inference",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-G121VNcu0dg-c020"
+    },
+    {
+      "claim": "CoreWeave is a specialized GPU cloud that rents data-center facilities and operates the equipment, unlike a property landlord; Microsoft initially dominates its revenue.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2057,
+      "end_seconds": 2181,
+      "horizon": "not stated",
+      "topics": [
+        "neocloud_model"
+      ],
+      "entities": [
+        "Microsoft",
+        "CoreWeave"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "The business and concentration distinction is supported, while precise 70% share depends on period. Customers and leases can change.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+          "title": "CoreWeave 2025 Form 10-K",
+          "publisher": "CoreWeave / SEC",
+          "date": "2026-03",
+          "finding": "2025 revenue $5.131 billion, net loss about $1.2 billion; six-year server/equipment useful-life accounting and customer concentration require attention to economic life and contract risk.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "neocloud_model",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c021"
+    },
+    {
+      "claim": "CoreWeave is growing from a tiny revenue base toward roughly $5.3 billion in 2025 while requiring over $20 billion of capital spending and lacking GAAP profits.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2203,
+      "end_seconds": 2265,
+      "horizon": "not stated",
+      "topics": [
+        "neocloud_growth"
+      ],
+      "entities": [
+        "CoreWeave"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Actual revenue of $5.131b is close to but below the estimate; explosive growth and net losses are supported. The capex measure must distinguish cash payments, equipment acquired and financing leases.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+          "title": "CoreWeave 2025 Form 10-K",
+          "publisher": "CoreWeave / SEC",
+          "date": "2026-03",
+          "finding": "2025 revenue $5.131 billion, net loss about $1.2 billion; six-year server/equipment useful-life accounting and customer concentration require attention to economic life and contract risk.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "neocloud_growth",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c022"
+    },
+    {
+      "claim": "CoreWeave revenue could reach the mid-$20 billions by 2028.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 2228,
+      "end_seconds": 2235,
+      "horizon": "2028",
+      "topics": [
+        "neocloud_growth"
+      ],
+      "entities": [
+        "CoreWeave"
+      ],
+      "test": "Compare 2028 recognized revenue, not backlog or exit annualized run-rate revenue.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "The stated future horizon or conditional scenario remains unfinished at the 2026-11-10 cutoff.",
+      "evidence": [],
+      "next_check": "Compare 2028 recognized revenue, not backlog or exit annualized run-rate revenue.",
+      "confidence": "medium",
+      "family": "neocloud_growth",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-G121VNcu0dg-c023"
+    },
+    {
+      "claim": "A multiyear OpenAI contract entails very large upfront equipment spending before revenue is collected over time.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2286,
+      "end_seconds": 2315,
+      "horizon": "not stated",
+      "topics": [
+        "neocloud_unit_economics"
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "The economic mechanism is retained; do not manufacture a corrected $4b figure.",
+      "verdict": "unresolved",
+      "reason": "Captions render approximately $40b equipment against $14b-$15b contract value, a potentially serious transcription or spoken-number issue. No precise numerical verdict is assigned without audio or the original analyst model.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "neocloud_unit_economics",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c024"
+    },
+    {
+      "claim": "Eisman finds explosive but unprofitable infrastructure growth difficult to value and asks for an explicit cash-return model instead of a narrative.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "questioning",
+      "kind": "explanation",
+      "start_seconds": 2337,
+      "end_seconds": 2385,
+      "horizon": "not stated",
+      "topics": [
+        "valuation_discipline"
+      ],
+      "entities": [
+        "valuation discipline"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "The statement does not specify an objective threshold, horizon or counterfactual that permits a determinate outcome grade.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "valuation_discipline",
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-G121VNcu0dg-c025"
+    },
+    {
+      "claim": "EBITDA valuation can conceal the economic cost of GPUs because depreciation is added back and capital expenditure is excluded.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 2433,
+      "end_seconds": 2467,
+      "horizon": "not stated",
+      "topics": [
+        "capital_intensity"
+      ],
+      "entities": [
+        "capital intensity"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [
+        {
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/",
+          "title": "CoreWeave Q2 2026 results",
+          "publisher": "CoreWeave",
+          "date": "2026-08-11",
+          "finding": "Revenue $2.575 billion, adjusted EBITDA $1.510 billion, operating loss $49 million, net interest $640 million and net loss $626 million. Positive EBITDA is not net profitability; backlog depends on delivery and availability conditions.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "capital_intensity",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "Equipment requires material initial and replacement expenditure.",
+          "EBITDA excludes depreciation, interest and capital spending."
+        ],
+        "proof": "Two firms with the same EBITDA but different replacement capital needs generate different distributable cash. EBITDA alone therefore cannot determine returns on a GPU investment."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-G121VNcu0dg-c026",
+      "proof": {
+        "assumptions": [
+          "Equipment requires material initial and replacement expenditure.",
+          "EBITDA excludes depreciation, interest and capital spending."
+        ],
+        "derivation": "Two firms with the same EBITDA but different replacement capital needs generate different distributable cash. EBITDA alone therefore cannot determine returns on a GPU investment."
+      }
+    },
+    {
+      "claim": "CoreWeave's GPU economic life remains uncertain; multiyear take-or-pay contracts reduce but do not eliminate residual-value and technological-obsolescence risk.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2467,
+      "end_seconds": 2544,
+      "horizon": "not stated",
+      "topics": [
+        "gpu_economic_life"
+      ],
+      "entities": [
+        "CoreWeave"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Useful-life estimates and contracted backlog exist, but contracts retain performance and counterparty conditions and do not independently prove terminal value.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000104/crwv-20251231.htm",
+          "title": "CoreWeave 2025 Form 10-K",
+          "publisher": "CoreWeave / SEC",
+          "date": "2026-03",
+          "finding": "2025 revenue $5.131 billion, net loss about $1.2 billion; six-year server/equipment useful-life accounting and customer concentration require attention to economic life and contract risk.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/",
+          "title": "CoreWeave Q2 2026 results",
+          "publisher": "CoreWeave",
+          "date": "2026-08-11",
+          "finding": "Revenue $2.575 billion, adjusted EBITDA $1.510 billion, operating loss $49 million, net interest $640 million and net loss $626 million. Positive EBITDA is not net profitability; backlog depends on delivery and availability conditions.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "gpu_economic_life",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c027"
+    },
+    {
+      "claim": "CoreWeave projects may create about 15-20 cents of net present value per dollar invested, so valuation should model investable capital and lifetime project cash flows.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2541,
+      "end_seconds": 2594,
+      "horizon": "not stated",
+      "topics": [
+        "neocloud_valuation"
+      ],
+      "entities": [
+        "CoreWeave"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The discount rate, financing, contract cash flows, renewal assumptions and residual values were not supplied. This is lifetime NPV per dollar, not a 15%-20% annual ROIC.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "neocloud_valuation",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c028"
+    },
+    {
+      "claim": "CoreWeave's fair value is about $65, below the approximately $90 quoted market price.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 2595,
+      "end_seconds": 2628,
+      "horizon": "not stated",
+      "topics": [
+        "neocloud_valuation"
+      ],
+      "entities": [
+        "CoreWeave"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No target horizon or complete model is supplied; dated share-return outcome was not independently checked.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "neocloud_valuation",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-G121VNcu0dg-c029"
+    },
+    {
+      "claim": "Cloud incumbents should improve their GPU offerings and looser chip supply should pressure CoreWeave pricing and returns over time.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 2631,
+      "end_seconds": 2733,
+      "horizon": "over time, no fixed date",
+      "topics": [
+        "neocloud_competition"
+      ],
+      "entities": [
+        "CoreWeave"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Q2 adjusted operating margin was lower year over year, but the company subsequently reported higher prices on new short contracts. Margin pressure cannot simply be attributed to commoditization or industrywide GPU oversupply.",
+      "evidence": [
+        {
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Continues-to-Contract-New-Compute-Capacity-at-Higher-Prices/default.aspx",
+          "title": "CoreWeave new compute pricing",
+          "publisher": "CoreWeave",
+          "date": "2026-09-17",
+          "finding": "Reports new three-to-six-month contracts at approximately $40 million annualized revenue per MW and higher prices. Selected contracts are not a fleet-wide constant-quality pricing index.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        },
+        {
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Second-Quarter-2026-Results/",
+          "title": "CoreWeave Q2 2026 results",
+          "publisher": "CoreWeave",
+          "date": "2026-08-11",
+          "finding": "Revenue $2.575 billion, adjusted EBITDA $1.510 billion, operating loss $49 million, net interest $640 million and net loss $626 million. Positive EBITDA is not net profitability; backlog depends on delivery and availability conditions.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "neocloud_competition",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-G121VNcu0dg-c030"
+    },
+    {
+      "claim": "CoreWeave has real cluster-operating expertise because large GPU systems require complex networking and failure management, not just chip purchases.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 2662,
+      "end_seconds": 2722,
+      "horizon": "not stated",
+      "topics": [
+        "neocloud_operations"
+      ],
+      "entities": [
+        "CoreWeave"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "No independent comparative reliability or utilization study was inspected; claimed GPU failure rates versus CPUs remain unquantified.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "neocloud_operations",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c031"
+    },
+    {
+      "claim": "OpenAI creates both counterparty risk if competition weakens its cash flows and buyer power if it becomes dominant enough to discipline suppliers.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "conditional",
+      "kind": "analytical principle",
+      "start_seconds": 2733,
+      "end_seconds": 2784,
+      "horizon": "not stated",
+      "topics": [
+        "ai_counterparty"
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_counterparty",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "A supplier depends heavily on one buyer.",
+          "The buyer can fail to pay or credibly shift purchases among alternative suppliers."
+        ],
+        "proof": "Weak buyer cash flows raise expected credit losses; strong buyer bargaining power can reduce the price paid. Dependence can therefore be risky in either state for different reasons."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-G121VNcu0dg-c032",
+      "proof": {
+        "assumptions": [
+          "A supplier depends heavily on one buyer.",
+          "The buyer can fail to pay or credibly shift purchases among alternative suppliers."
+        ],
+        "derivation": "Weak buyer cash flows raise expected credit losses; strong buyer bargaining power can reduce the price paid. Dependence can therefore be risky in either state for different reasons."
+      }
+    },
+    {
+      "claim": "Data-center capacity could grow around 20% annually, raising its share of electricity use and stressing generation, transmission and substation equipment.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 2818,
+      "end_seconds": 2888,
+      "horizon": "not stated",
+      "topics": [
+        "ai_power"
+      ],
+      "entities": [
+        "ai power"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The capacity definition and projection horizon are not sufficiently specified for an annual growth verdict; nameplate generation and consumed electricity are different denominators.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "ai_power",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-G121VNcu0dg-c033"
+    },
+    {
+      "claim": "High power prices should induce supply and developers can use temporary on-site gas generation, so the shortage can eventually become more balanced.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 2888,
+      "end_seconds": 2946,
+      "horizon": "eventual supply response, no fixed date",
+      "topics": [
+        "power_supply"
+      ],
+      "entities": [
+        "power supply"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "A reasonable mechanism but no deadline, cost, grid-connection or permitting model establishes when balance occurs.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "power_supply",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast",
+      "id": "youtube-G121VNcu0dg-c034"
+    },
+    {
+      "claim": "Removing power constraints helps deployment volumes but can erode scarcity rents and pull generic data-center returns back toward the cost of capital.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "conditional",
+      "kind": "analytical principle",
+      "start_seconds": 2946,
+      "end_seconds": 2997,
+      "horizon": "not stated",
+      "topics": [
+        "scarcity_returns"
+      ],
+      "entities": [
+        "scarcity returns"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "scarcity_returns",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "Scarce powered capacity contributes to rental premiums.",
+          "New capacity is substitutable and competition passes some supply benefit to tenants."
+        ],
+        "proof": "An outward supply shift reduces the scarcity premium relative to unchanged demand. More deployable volume can coexist with lower profit per dollar invested; total value depends on both effects."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-G121VNcu0dg-c035",
+      "proof": {
+        "assumptions": [
+          "Scarce powered capacity contributes to rental premiums.",
+          "New capacity is substitutable and competition passes some supply benefit to tenants."
+        ],
+        "derivation": "An outward supply shift reduces the scarcity premium relative to unchanged demand. More deployable volume can coexist with lower profit per dollar invested; total value depends on both effects."
+      }
+    },
+    {
+      "claim": "Utility data-center requests can substantially double-count a single customer shopping multiple developers and include speculative projects, so requests are not committed demand.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 3007,
+      "end_seconds": 3078,
+      "horizon": "not stated",
+      "topics": [
+        "power_forecast_quality"
+      ],
+      "entities": [
+        "power forecast quality"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "Establishes the possible counting error, not its measured nationwide magnitude.",
+      "verdict": "right",
+      "reason": "The conditional relationship follows from the explicit assumptions; it does not establish that those assumptions hold in observed markets.",
+      "evidence": [],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "power_forecast_quality",
+      "evidence_basis": {
+        "type": "deductive",
+        "assumptions": [
+          "One customer requests the same prospective load through multiple developers.",
+          "The utility aggregates those requests without deduplication."
+        ],
+        "proof": "If one physical project seeks x MW through five alternatives, adding requests gives 5x while only x is realizable. Deposits, studies and binding commitments help distinguish alternatives from separate projects."
+      },
+      "materiality": "major",
+      "synthesis_role": "analytical_principle",
+      "id": "youtube-G121VNcu0dg-c036",
+      "proof": {
+        "assumptions": [
+          "One customer requests the same prospective load through multiple developers.",
+          "The utility aggregates those requests without deduplication."
+        ],
+        "derivation": "If one physical project seeks x MW through five alternatives, adding requests gives 5x while only x is realizable. Deposits, studies and binding commitments help distinguish alternatives from separate projects."
+      }
+    },
+    {
+      "claim": "Lumen's dormant Level 3 conduits let it meet AI fiber demand relatively quickly, but legacy decline makes management's overall growth ambition difficult.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 3085,
+      "end_seconds": 3253,
+      "horizon": "not stated",
+      "topics": [
+        "fiber_turnaround"
+      ],
+      "entities": [
+        "AI"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Strategic growth alongside continued business-revenue decline supports the caution; exact original contract values and conduit-cost advantage were not independently reconstructed.",
+      "evidence": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/18926/000001892626000071/lumen3q26quarterlypresen.htm",
+          "title": "Lumen Q3 2026 results presentation",
+          "publisher": "Lumen / SEC",
+          "date": "2026-11-04",
+          "finding": "Business revenue fell 4.5%, with strategic revenue up 9.6% and legacy down 17.2%. Shows that AI-related opportunities coexist with a significant declining legacy base.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "fiber_turnaround",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "id": "youtube-G121VNcu0dg-c037"
+    },
+    {
+      "claim": "Cogent's repurposed Sprint network can become a meaningful wavelength supplier despite a rough start, and the guest acknowledges prior optimism was wrong.",
+      "speaker": "Nick Del Deo",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 3255,
+      "end_seconds": 3345,
+      "horizon": "not stated",
+      "topics": [
+        "fiber_turnaround"
+      ],
+      "entities": [
+        "fiber turnaround"
+      ],
+      "test": "Inspect the relevant original financial, operational or economic data and compare the claimed mechanism with competing explanations.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Wavelength revenue growth supports traction. Material consolidated EBITDA and cash contribution, and the ultimate investment outcome, remain unresolved.",
+      "evidence": [
+        {
+          "url": "https://www.cogentco.com/files/docs/news/press_releases/Earnings_Release_Q3_26.pdf",
+          "title": "Cogent Q3 2026 results",
+          "publisher": "Cogent Communications",
+          "date": "2026-11-05",
+          "finding": "Wavelength revenue reached $16.0 million, up 57.0% year over year and 7.8% sequentially. Growth does not alone establish the promised consolidated cash-flow contribution.",
+          "verified": true,
+          "inspected_as_of": "2026-11-10"
+        }
+      ],
+      "next_check": "Recheck the original data and subsequent realized outcomes.",
+      "confidence": "medium",
+      "family": "fiber_turnaround",
+      "materiality": "major",
+      "synthesis_role": "view_revision",
+      "id": "youtube-G121VNcu0dg-c038"
+    }
+  ],
+  "materiality_note": "Major theses and forecasts are distinguished from supporting premises. Do not calculate an overall accuracy rate from claim counts. Exclude guest and uncertain-speaker claims from Eisman forecast scoring."
+}

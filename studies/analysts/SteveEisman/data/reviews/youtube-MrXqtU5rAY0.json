@@ -1,0 +1,907 @@
+{
+  "source_id": "youtube-MrXqtU5rAY0",
+  "title": "Big Beautiful Bill, Write-Off Revolution & Tariff Tempest - The Friday Market Wrap!",
+  "date": "2025-07-11T17:18:03-07:00",
+  "url": "https://www.youtube.com/watch?v=MrXqtU5rAY0",
+  "read_complete": true,
+  "transcript_sha256": "05298e231704c152d76d6b1b3b68f9d7c7392272f673705b15edc52dacbdd607",
+  "evaluation_as_of": "2026-11-10",
+  "summary": "A short host market wrap is followed by a substantial July 9 interview with Dan Clifton about the newly enacted tax and spending law. The guest argues that business deductions and household tax relief can offset tariff damage, identifies sector beneficiaries, and expects a one-percentage-point growth contribution. The report separates those guest forecasts from Eisman questions and endorsements.",
+  "assessment": "The interview identifies real tax incentives, but often overstates scope or certainty. Full expensing does not make an asset free, all data-center buildings do not qualify as factories, the rural fund is $50 billion, and several Medicaid changes start before 2028. The orphan-drug misunderstanding is corrected within the conversation and is not scored as an asserted Eisman claim.",
+  "framework_points": [
+    "Trace a policy change into after-tax cash flow and customer spending.",
+    "Analyze tariff costs and tax relief together, with consistent baselines.",
+    "Separate a policy preference from the investment effect of enacted law.",
+    "Check legal eligibility before extrapolating a sector boom."
+  ],
+  "tools_and_charts": [
+    "Expensing versus depreciation",
+    "Tax deductions versus credits",
+    "CBO baseline and budget windows",
+    "Treasury General Account refill",
+    "Bank trading revenue",
+    "Put-option payoffs",
+    "Money-market portfolio composition"
+  ],
+  "transcript_cautions": [
+    "Dan Clifton interview recorded July 9; the host wrap is dated July 11.",
+    "Host questions about company-wide orphan-drug exemptions are corrected by the guest and excluded from asserted-claim scoring.",
+    "Most tax-policy projections belong to Clifton, not Eisman."
+  ],
+  "speaker_map_notes": "Steve Eisman hosts through 553 seconds. Dan Clifton provides the policy presentation from approximately 645 seconds, with host questions and occasional explicit endorsements.",
+  "claims": [
+    {
+      "id": "youtube-MrXqtU5rAY0-c001",
+      "claim": "Upcoming large-bank results should be generally uneventful, with strong trading revenue.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 197,
+      "end_seconds": 216,
+      "horizon": "Following week, Q2 2025 reports",
+      "topics": [
+        "bank_earnings"
+      ],
+      "family": "bank_earnings",
+      "entities": [],
+      "test": "Compare large-bank revenue components and guidance changes.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "JPMorgan reported strong markets revenue, supporting the specific trading component. Uneventful is subjective and misses meaningful differences in individual bank guidance.",
+      "evidence": [
+        {
+          "url": "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2025/2nd-quarter/ac5b7d95-9133-4fea-959c-2fa6d8fd8c5b.pdf",
+          "title": "JPMorgan second-quarter 2025 results",
+          "publisher": "JPMorgan Chase",
+          "date": "2025-07-15",
+          "finding": "Markets revenue reached $8.9 billion amid elevated volatility. Results support the near-term trading-revenue forecast, not every part of an uneventful bank season.",
+          "verified": true
+        }
+      ],
+      "next_check": "Compare large-bank revenue components and guidance changes.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c002",
+      "claim": "Out-of-the-money index puts can hedge a bullish portfolio while limiting option loss to the premium.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 241,
+      "end_seconds": 296,
+      "horizon": "not stated",
+      "topics": [
+        "hedging"
+      ],
+      "family": "hedging",
+      "entities": [],
+      "test": "Specify contracts, premium, exposure and protection interval.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "For purchased puts, terminal payoff is nonnegative and the maximum standalone option loss is the premium. Protection depends on strike, expiry, sizing and portfolio basis risk.",
+      "evidence": [],
+      "next_check": "Specify contracts, premium, exposure and protection interval.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Purchased puts, not written options",
+          "No unrelated financing liabilities"
+        ],
+        "derivation": "At expiry, put payoff is max(strike-index,0). Net option P&L is payoff minus premium, so its maximum loss is the premium; portfolio loss can remain larger than the hedge payoff."
+      }
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c003",
+      "claim": "Index puts are the only way to hedge a US downturn.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 241,
+      "end_seconds": 296,
+      "horizon": "not stated",
+      "topics": [
+        "hedging"
+      ],
+      "family": "hedging",
+      "entities": [],
+      "test": "Compare portfolio delta, drawdowns and carrying costs under specified hedges.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "The payoff claim does not make puts unique: reducing equity exposure or holding offsetting exposure can also reduce market sensitivity. Their costs and risks differ.",
+      "evidence": [],
+      "next_check": "Compare portfolio delta, drawdowns and carrying costs under specified hedges.",
+      "confidence": "medium",
+      "materiality": "supporting",
+      "synthesis_role": "supporting_factual_premise",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Hedge means reducing sensitivity to a market decline"
+        ],
+        "derivation": "Reducing a positive equity position reduces its downside exposure without purchasing a put. Therefore the set of possible risk reductions is not limited to index puts."
+      }
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c004",
+      "claim": "The rally does not require a secret government or market-maker manipulation theory.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "analytical principle",
+      "start_seconds": 300,
+      "end_seconds": 399,
+      "horizon": "not stated",
+      "topics": [
+        "market_causality"
+      ],
+      "family": "market_causality",
+      "entities": [],
+      "test": "Require affirmative evidence of coordinated trades or instructions before attributing market moves.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "This is rejection of an unsupported explanation, not proof that no manipulation ever occurs.",
+      "evidence": [],
+      "next_check": "Require affirmative evidence of coordinated trades or instructions before attributing market moves.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c005",
+      "claim": "Money market funds are distinct from FDIC-insured deposits and may contain different types of short-term assets.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 434,
+      "end_seconds": 482,
+      "horizon": "not stated",
+      "topics": [
+        "cash_management"
+      ],
+      "family": "cash_management",
+      "entities": [],
+      "test": "Read the fund mandate, holdings, fees and legal protections.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The SEC describes these distinctions and potential losses. A money market deposit account is a different product from a mutual fund.",
+      "evidence": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-5",
+          "title": "Money market fund risks",
+          "publisher": "SEC Investor.gov",
+          "date": null,
+          "finding": "Money market funds lack FDIC insurance and can lose value. Government-backed portfolio securities do not turn fund shares into insured bank deposits.",
+          "verified": true
+        }
+      ],
+      "next_check": "Read the fund mandate, holdings, fees and legal protections.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c006",
+      "claim": "A Treasury-only money market fund effectively provides the same protection as FDIC insurance.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 480,
+      "end_seconds": 503,
+      "horizon": "not stated",
+      "topics": [
+        "cash_management"
+      ],
+      "family": "cash_management",
+      "entities": [],
+      "test": "Distinguish portfolio credit risk from guarantees on the investor claim.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Treasury assets have government credit backing, but fund shares are not insured deposits and retain fund, pricing and operational risks.",
+      "evidence": [
+        {
+          "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-5",
+          "title": "Money market fund risks",
+          "publisher": "SEC Investor.gov",
+          "date": null,
+          "finding": "Money market funds lack FDIC insurance and can lose value. Government-backed portfolio securities do not turn fund shares into insured bank deposits.",
+          "verified": true
+        }
+      ],
+      "next_check": "Distinguish portfolio credit risk from guarantees on the investor claim.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c007",
+      "claim": "Permanent extension of key individual tax provisions removes the scheduled year-end tax cliff.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 650,
+      "end_seconds": 706,
+      "horizon": "not stated",
+      "topics": [
+        "tax_policy"
+      ],
+      "family": "tax_policy",
+      "entities": [],
+      "test": "Compare prior sunset dates and enacted extensions.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The enacted law extended key provisions, eliminating their planned expiration. This does not make every provision of the package permanent.",
+      "evidence": [
+        {
+          "url": "https://www.irs.gov/newsroom/working-families-tax-cuts",
+          "title": "2025 reconciliation tax provisions",
+          "publisher": "IRS",
+          "date": null,
+          "finding": "The law restored domestic research expensing and modified business deductions. Eligibility, timing and limitations remain relevant; a deduction is not a dollar-for-dollar reimbursement.",
+          "verified": true
+        }
+      ],
+      "next_check": "Compare prior sunset dates and enacted extensions.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c008",
+      "claim": "The law delivers relief on tips, overtime, seniors and auto-loan payments.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 709,
+      "end_seconds": 744,
+      "horizon": "not stated",
+      "topics": [
+        "tax_policy"
+      ],
+      "family": "tax_policy",
+      "entities": [],
+      "test": "Read each eligibility rule, cap and sunset.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "There are real deductions, but auto relief applies to qualifying interest, not all principal payments; income, amount and time limits apply across these provisions.",
+      "evidence": [
+        {
+          "url": "https://www.irs.gov/newsroom/working-families-tax-cuts-tax-deductions-for-working-americans-and-seniors",
+          "title": "Deductions for workers and seniors",
+          "publisher": "IRS",
+          "date": null,
+          "finding": "Tips, qualifying overtime, seniors and qualifying vehicle-loan interest receive capped, income-limited deductions. These are not universal exemptions for all income or all loan payments.",
+          "verified": true
+        }
+      ],
+      "next_check": "Read each eligibility rule, cap and sunset.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c009",
+      "claim": "Household refunds and tax relief will deliver more than $100 billion of consumer support in early 2026.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 744,
+      "end_seconds": 776,
+      "horizon": "First and early second quarter 2026",
+      "topics": [
+        "consumer_stimulus"
+      ],
+      "family": "consumer_stimulus",
+      "entities": [],
+      "test": "Compare 2026 refunds and disposable income with a no-law baseline.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The timing mechanism is plausible, but the exact incremental amount and spending response require tax-return data and a consistent counterfactual.",
+      "evidence": [],
+      "next_check": "Compare 2026 refunds and disposable income with a no-law baseline.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c010",
+      "claim": "Business tax deductions can offset enough tariff damage to prevent recession.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "conditional",
+      "kind": "forecast",
+      "start_seconds": 778,
+      "end_seconds": 842,
+      "horizon": "not stated",
+      "topics": [
+        "policy_mix"
+      ],
+      "family": "policy_mix",
+      "entities": [],
+      "test": "Estimate tariffs, tax changes, distribution and timing jointly.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The beneficiaries and timing of deductions differ from those bearing tariff costs. No common macro model or magnitude establishes complete offset.",
+      "evidence": [],
+      "next_check": "Estimate tariffs, tax changes, distribution and timing jointly.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c011",
+      "claim": "Tax cuts can offset price increases from tariffs.",
+      "speaker": "Steve Eisman",
+      "attribution_confidence": "high",
+      "stance": "endorsed guest explanation",
+      "kind": "explanation",
+      "start_seconds": 783,
+      "end_seconds": 799,
+      "horizon": "not stated",
+      "topics": [
+        "policy_mix"
+      ],
+      "family": "policy_mix",
+      "entities": [],
+      "test": "Measure after-tax income, pass-through and demand separately.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Eisman explicitly restates the guest mechanism, but a dollar of firm tax relief does not mechanically cancel a dollar of consumer price increases.",
+      "evidence": [],
+      "next_check": "Measure after-tax income, pass-through and demand separately.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c012",
+      "claim": "All factories and data centers can immediately expense their entire building cost.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 802,
+      "end_seconds": 855,
+      "horizon": "not stated",
+      "topics": [
+        "tax_expensing"
+      ],
+      "family": "tax_expensing",
+      "entities": [],
+      "test": "Distinguish equipment deductions from the special building provision and test eligible uses.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Qualifying production-property expensing is real, but the tangible-product and use restrictions exclude a blanket rule for all data-center real estate or every part of a factory.",
+      "evidence": [
+        {
+          "url": "https://www.irs.gov/irb/2026-11_IRB#NOT-2026-16",
+          "title": "Qualified production property guidance",
+          "publisher": "IRS",
+          "date": "2026-03-09",
+          "finding": "Section 168(n) concerns qualifying production of tangible products and excludes office, research and software-development portions. General data-center real estate is not automatically a qualifying factory.",
+          "verified": true
+        }
+      ],
+      "next_check": "Distinguish equipment deductions from the special building provision and test eligible uses.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c013",
+      "claim": "Immediate expensing makes a factory roughly 30% cheaper and completely eliminates tariff effects.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 811,
+      "end_seconds": 842,
+      "horizon": "not stated",
+      "topics": [
+        "tax_expensing"
+      ],
+      "family": "tax_expensing",
+      "entities": [],
+      "test": "Model incremental present-value tax savings against actual tariff exposure.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Accelerating deductions can improve present value, but the saving depends on tax rate, tax capacity and the previous deduction schedule. It cannot generically eliminate an unrelated tariff bill.",
+      "evidence": [
+        {
+          "url": "https://www.irs.gov/irb/2026-11_IRB#NOT-2026-16",
+          "title": "Qualified production property guidance",
+          "publisher": "IRS",
+          "date": "2026-03-09",
+          "finding": "Section 168(n) concerns qualifying production of tangible products and excludes office, research and software-development portions. General data-center real estate is not automatically a qualifying factory.",
+          "verified": true
+        }
+      ],
+      "next_check": "Model incremental present-value tax savings against actual tariff exposure.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c014",
+      "claim": "Permanent full expensing of qualifying equipment should stimulate industrial equipment orders.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 848,
+      "end_seconds": 889,
+      "horizon": "not stated",
+      "topics": [
+        "industrial_investment"
+      ],
+      "family": "industrial_investment",
+      "entities": [],
+      "test": "Compare qualifying equipment orders and user cost with a no-law baseline.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Eligibility and incentive direction are clear, but incremental orders versus purchases merely shifted forward require observed investment data.",
+      "evidence": [],
+      "next_check": "Compare qualifying equipment orders and user cost with a no-law baseline.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c015",
+      "claim": "Domestic research expensing benefits technology, pharmaceutical and industrial firms.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 893,
+      "end_seconds": 941,
+      "horizon": "not stated",
+      "topics": [
+        "research_tax"
+      ],
+      "family": "research_tax",
+      "entities": [],
+      "test": "Compare qualified domestic spending and cash taxes.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "IRS guidance confirms immediate domestic research deductions, while foreign research remains on a different schedule. The tax benefit does not prove a stock-price gain.",
+      "evidence": [
+        {
+          "url": "https://www.irs.gov/newsroom/working-families-tax-cuts",
+          "title": "2025 reconciliation tax provisions",
+          "publisher": "IRS",
+          "date": null,
+          "finding": "The law restored domestic research expensing and modified business deductions. Eligibility, timing and limitations remain relevant; a deduction is not a dollar-for-dollar reimbursement.",
+          "verified": true
+        }
+      ],
+      "next_check": "Compare qualified domestic spending and cash taxes.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c016",
+      "claim": "Changing the business-interest limit from an EBIT to EBITDA basis permits larger deductions.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 925,
+      "end_seconds": 955,
+      "horizon": "not stated",
+      "topics": [
+        "interest_deductibility"
+      ],
+      "family": "interest_deductibility",
+      "entities": [],
+      "test": "Reconcile adjusted taxable income and deductible interest.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "Holding other inputs constant, adding depreciation and amortization increases the earnings base used for a percentage limit. Actual deductibility still depends on statutory adjustments and exceptions.",
+      "evidence": [],
+      "next_check": "Reconcile adjusted taxable income and deductible interest.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Nonnegative depreciation and amortization",
+          "Same percentage limit and other adjustments"
+        ],
+        "derivation": "EBITDA equals EBIT plus depreciation and amortization. Thirty percent of the larger base is at least thirty percent of EBIT, increasing capacity when the limit binds."
+      }
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c017",
+      "claim": "Spending reductions in energy, Medicaid, nutrition and student loans create losers alongside tax beneficiaries.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 960,
+      "end_seconds": 1081,
+      "horizon": "not stated",
+      "topics": [
+        "fiscal_distribution"
+      ],
+      "family": "fiscal_distribution",
+      "entities": [],
+      "test": "Map provisions to outlays, coverage, loan availability and sector revenues.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The broad policy tradeoff is real, but the stated category totals and privatization effects need a consistent score and actual eligibility changes.",
+      "evidence": [],
+      "next_check": "Map provisions to outlays, coverage, loan availability and sector revenues.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c018",
+      "claim": "A gradual Treasury General Account refill should reduce disruption from debt issuance.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 1040,
+      "end_seconds": 1087,
+      "horizon": "not stated",
+      "topics": [
+        "treasury_liquidity"
+      ],
+      "family": "treasury_liquidity",
+      "entities": [],
+      "test": "Track bills, coupons, reserve balances and money-market funding conditions.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "Issuance composition and buyers matter along with pace. The transcript does not supply a counterfactual market-impact estimate.",
+      "evidence": [],
+      "next_check": "Track bills, coupons, reserve balances and money-market funding conditions.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c019",
+      "claim": "The bill and tariffs together keep deficits around 6.2%-6.3% of GDP rather than making the deficit worse.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 1130,
+      "end_seconds": 1233,
+      "horizon": "Coming budget years",
+      "topics": [
+        "fiscal_outlook"
+      ],
+      "family": "fiscal_outlook",
+      "entities": [],
+      "test": "Build a common baseline, annual path and sensitivity to growth, interest and legal changes.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The quoted CBO scores use different windows and assumptions. Stable annual deficit/GDP does not follow from subtracting cumulative estimates, and future tariff policy is uncertain.",
+      "evidence": [
+        {
+          "url": "https://www.cbo.gov/publication/61466",
+          "title": "Deficit effects of Public Law 119-21",
+          "publisher": "Congressional Budget Office",
+          "date": null,
+          "finding": "The enacted legislation adds about $3.4 trillion to 2025-2034 deficits before macroeconomic and debt-service effects. That is a baseline-relative score, not a stable annual deficit/GDP forecast.",
+          "verified": true
+        },
+        {
+          "url": "https://www.cbo.gov/publication/61389",
+          "title": "Budget and economic effects of tariffs through May 13, 2025",
+          "publisher": "Congressional Budget Office",
+          "date": "2025-06-04",
+          "finding": "CBO estimated $2.8 trillion of deficit reduction over 2025-2035 after economic effects, conditional on the tariff schedule. This differs in window and assumptions from the bill score.",
+          "verified": true
+        }
+      ],
+      "next_check": "Build a common baseline, annual path and sensitivity to growth, interest and legal changes.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c020",
+      "claim": "High interest costs have forced the first US fiscal austerity in 30 years.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1235,
+      "end_seconds": 1281,
+      "horizon": "not stated",
+      "topics": [
+        "fiscal_regime"
+      ],
+      "family": "fiscal_regime",
+      "entities": [],
+      "test": "Define cyclically adjusted fiscal tightening and compare prior episodes.",
+      "qualifications": "",
+      "verdict": "not_testable",
+      "reason": "Austerity is defined by the guest as tariffs financing extensions of existing tax cuts. The historical superlative and threshold are not based on a specified fiscal-impulse measure.",
+      "evidence": [],
+      "next_check": "Define cyclically adjusted fiscal tightening and compare prior episodes.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c021",
+      "claim": "Factory expensing, domestic R&D deductions and broader orphan-drug exclusions make pharma more attractive.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "investment thesis",
+      "start_seconds": 1299,
+      "end_seconds": 1389,
+      "horizon": "not stated",
+      "topics": [
+        "pharma_policy"
+      ],
+      "family": "pharma_policy",
+      "entities": [],
+      "test": "Estimate company-specific cash-tax and negotiated-price exposure.",
+      "qualifications": "",
+      "verdict": "mixed",
+      "reason": "Real deductions and a broader product-specific exclusion support the policy benefit. Overall attractiveness also depends on prices, clinical pipelines, tariffs and valuation.",
+      "evidence": [
+        {
+          "url": "https://www.irs.gov/newsroom/working-families-tax-cuts",
+          "title": "2025 reconciliation tax provisions",
+          "publisher": "IRS",
+          "date": null,
+          "finding": "The law restored domestic research expensing and modified business deductions. Eligibility, timing and limitations remain relevant; a deduction is not a dollar-for-dollar reimbursement.",
+          "verified": true
+        },
+        {
+          "url": "https://www.irs.gov/irb/2026-11_IRB#NOT-2026-16",
+          "title": "Qualified production property guidance",
+          "publisher": "IRS",
+          "date": "2026-03-09",
+          "finding": "Section 168(n) concerns qualifying production of tangible products and excludes office, research and software-development portions. General data-center real estate is not automatically a qualifying factory.",
+          "verified": true
+        },
+        {
+          "url": "https://www.cms.gov/newsroom/press-releases/cms-releases-final-guidance-initial-price-applicability-year-2028",
+          "title": "2028 drug negotiation guidance",
+          "publisher": "CMS",
+          "date": "2025-09-30",
+          "finding": "The law expands the exclusion for a drug designated for one or more rare diseases if all approved indications meet the rare-disease condition. It is not an exemption for all drugs owned by a company.",
+          "verified": true
+        }
+      ],
+      "next_check": "Estimate company-specific cash-tax and negotiated-price exposure.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c022",
+      "claim": "The orphan-drug exclusion expands to drugs with multiple rare-disease indications, rather than exempting whole companies.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1346,
+      "end_seconds": 1430,
+      "horizon": "not stated",
+      "topics": [
+        "drug_pricing"
+      ],
+      "family": "drug_pricing",
+      "entities": [],
+      "test": "Check each drug and all approved indications.",
+      "qualifications": "",
+      "verdict": "right",
+      "reason": "The guest clarifies the host misunderstanding within the exchange. CMS guidance confirms that the exclusion applies to qualifying products and indications.",
+      "evidence": [
+        {
+          "url": "https://www.cms.gov/newsroom/press-releases/cms-releases-final-guidance-initial-price-applicability-year-2028",
+          "title": "2028 drug negotiation guidance",
+          "publisher": "CMS",
+          "date": "2025-09-30",
+          "finding": "The law expands the exclusion for a drug designated for one or more rare diseases if all approved indications meet the rare-disease condition. It is not an exemption for all drugs owned by a company.",
+          "verified": true
+        }
+      ],
+      "next_check": "Check each drug and all approved indications.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c023",
+      "claim": "Medicaid is essentially emergency care, and eligibility tightening mostly removes waste rather than valuable coverage.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1463,
+      "end_seconds": 1545,
+      "horizon": "not stated",
+      "topics": [
+        "medicaid"
+      ],
+      "family": "medicaid",
+      "entities": [],
+      "test": "Compare covered services and outcomes for affected populations.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "This is a broad evaluative characterization, not established by budget arithmetic. Enrollment loss, access, health outcomes and administrative churn need direct evidence.",
+      "evidence": [],
+      "next_check": "Compare covered services and outcomes for affected populations.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c024",
+      "claim": "Medicaid cuts and eligibility changes do not start until 2028.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1545,
+      "end_seconds": 1650,
+      "horizon": "not stated",
+      "topics": [
+        "medicaid_timing"
+      ],
+      "family": "medicaid_timing",
+      "entities": [],
+      "test": "Check each provision effective date rather than one date for the package.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "Some provider-financing changes phase in later, but work requirements begin by January 2027 and other provisions have their own dates. The blanket timing assurance is false.",
+      "evidence": [
+        {
+          "url": "https://www.cms.gov/newsroom/press-releases/cms-issues-new-state-guidance-transformative-medicaid-reforms",
+          "title": "Medicaid reform implementation guidance",
+          "publisher": "CMS",
+          "date": null,
+          "finding": "Work requirements must be implemented by January 1, 2027, with earlier state implementation possible. Not all Medicaid changes wait until 2028.",
+          "verified": true
+        }
+      ],
+      "next_check": "Check each provision effective date rather than one date for the package.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c025",
+      "claim": "A roughly $100 billion rural hospital stabilization fund mitigates the cuts.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1608,
+      "end_seconds": 1625,
+      "horizon": "not stated",
+      "topics": [
+        "medicaid_offsets"
+      ],
+      "family": "medicaid_offsets",
+      "entities": [],
+      "test": "Compare statutory appropriation, allocation and affected providers.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "The enacted Rural Health Transformation Program totals $50 billion over five fiscal years. Its existence also does not quantify how much of the broader funding loss it offsets.",
+      "evidence": [
+        {
+          "url": "https://www.medicaid.gov/resources-for-states/rural-health",
+          "title": "Rural Health Transformation Program",
+          "publisher": "CMS",
+          "date": null,
+          "finding": "The statute allocates $50 billion over fiscal years 2026-2030, not $100 billion.",
+          "verified": true
+        }
+      ],
+      "next_check": "Compare statutory appropriation, allocation and affected providers.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c026",
+      "claim": "Full expensing means companies can buy or build eligible assets for free.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "explanation",
+      "start_seconds": 1672,
+      "end_seconds": 1697,
+      "horizon": "not stated",
+      "topics": [
+        "tax_expensing"
+      ],
+      "family": "tax_expensing",
+      "entities": [],
+      "test": "Calculate tax saving at the applicable marginal rate.",
+      "qualifications": "",
+      "verdict": "wrong",
+      "reason": "A deduction reduces taxable income, not cost dollar for dollar. The guest earlier mentions a partial tax saving, but the later free wording is materially misleading.",
+      "evidence": [],
+      "next_check": "Calculate tax saving at the applicable marginal rate.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "core_thesis_or_explanation",
+      "evidence_basis": "deductive",
+      "proof": {
+        "assumptions": [
+          "Positive cost C",
+          "Tax rate t below 100%",
+          "Sufficient taxable income to use the deduction"
+        ],
+        "derivation": "An immediate deduction saves t times C in current tax, leaving a cash cost C times (1-t). Relative to future depreciation, the incremental benefit is smaller than the entire immediate deduction value."
+      }
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c027",
+      "claim": "Industrials, materials and selected software providers will gain from a capex boom; factory construction could surge even if some facilities later sit empty.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 1699,
+      "end_seconds": 1804,
+      "horizon": "not stated",
+      "topics": [
+        "capex_beneficiaries"
+      ],
+      "family": "capex_beneficiaries",
+      "entities": [],
+      "test": "Track orders, construction spending, utilization and a predeclared beneficiary basket.",
+      "qualifications": "",
+      "verdict": "unresolved",
+      "reason": "The sector forecast has no fixed basket or return horizon, and announcements are not completed capital expenditure. Ghost-factory wording is an acknowledged downside scenario.",
+      "evidence": [],
+      "next_check": "Track orders, construction spending, utilization and a predeclared beneficiary basket.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    },
+    {
+      "id": "youtube-MrXqtU5rAY0-c028",
+      "claim": "The law adds about one percentage point to GDP growth, front-loaded into 2025-2026, largely sterilizing tariffs.",
+      "speaker": "Dan Clifton",
+      "attribution_confidence": "medium",
+      "stance": "asserted",
+      "kind": "forecast",
+      "start_seconds": 1807,
+      "end_seconds": 1904,
+      "horizon": "2025-2026",
+      "topics": [
+        "fiscal_growth"
+      ],
+      "family": "fiscal_growth",
+      "entities": [],
+      "test": "Estimate the law-only contribution over the stated period using a consistent macro model.",
+      "qualifications": "",
+      "verdict": "too_early",
+      "reason": "Full-year 2026 is incomplete at the cutoff, and the incremental effect requires a counterfactual rather than simply observing GDP growth.",
+      "evidence": [],
+      "next_check": "Estimate the law-only contribution over the stated period using a consistent macro model.",
+      "confidence": "medium",
+      "materiality": "major",
+      "synthesis_role": "forward_forecast"
+    }
+  ]
+}
